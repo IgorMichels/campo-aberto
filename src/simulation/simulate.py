@@ -172,6 +172,17 @@ def _run_round_robin_phase(
     attack, defense, eta, beta_home, rho, team_index = draw_params
     n_draws = attack.shape[0]
 
+    if phase_cfg.legs != 2:
+        raise NotImplementedError(
+            f"phase {phase_cfg.id!r}: legs={phase_cfg.legs} (a single round-robin, e.g. a "
+            f"World Cup-style group stage) isn't implemented -- fixtures.split_fixtures derives "
+            f"the remaining-fixture list purely combinatorially from the team roster, which only "
+            f"works for a double round-robin (every ordered (home, away) pair occurs exactly "
+            f"once). A single round-robin has no such derivation: who hosts each pair is a real "
+            f"scheduling/draw decision, so this needs an actual remaining-fixture source (e.g. a "
+            f"schedule/draw file) before it can be simulated, not just a team list."
+        )
+
     if phase_cfg.groups is None:
         groups = {"_all": fixtures.season_teams(matches_df, competition, season)}
     else:
