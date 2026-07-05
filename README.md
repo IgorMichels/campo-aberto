@@ -6,6 +6,23 @@ team-strength model on them, and Monte Carlo simulates the rest of the season
 to report title / continental-berth / promotion / relegation probabilities
 per club.
 
+## Project layout
+
+```
+src/
+  ingestion/brazil/          scrapes CBF dockets, builds the treated matches CSV
+data/
+  raw/brazil/                 raw scraped dockets, gitignored (reproducible from CBF)
+  processed/brazil/           matches.csv + team-name mapping (tracked -- see its own README)
+```
+
+## Running it
+
+```bash
+# scrape + rebuild the treated dataset
+python -m src.ingestion.brazil.run_pipeline
+```
+
 ## Development
 
 ```bash
