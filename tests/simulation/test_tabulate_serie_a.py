@@ -34,6 +34,11 @@ def test_baseline_table_position_zones(serie_a_config, teams20):
         assert df.loc[team, "prob_rebaixamento"] == 1.0
     assert df.loc["T16", "prob_rebaixamento"] == 0.0
 
+    # Aggregate: libertadores = grupos + pre
+    assert df.loc["T1", "prob_libertadores"] == 1.0
+    assert df.loc["T5", "prob_libertadores"] == 1.0
+    assert df.loc["T6", "prob_libertadores"] == 0.0
+
 
 def test_champion_still_counts_as_a_groups_qualifier(serie_a_config, teams20):
     """positions-based spots overlap freely: the champion (position 1) is
