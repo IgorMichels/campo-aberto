@@ -52,6 +52,7 @@ from src.simulation.config import (
     PlayoffPhaseConfig,
     RoundRobinPhaseConfig,
     SlotRef,
+    SpotConfig,
 )
 from src.simulation.standings import rank_table
 
@@ -354,9 +355,109 @@ def _run_playoff_phase(
     return PlayoffResult(winners=winners)
 
 
+def _resolve_cascade(
+    order: list[str],
+    cascade_spots: list[SpotConfig],
+    guaranteed_slots: dict[str, list[str]],
+) -> dict[str, list[str]]:
+    """Allocates cascade_spots' table-position slots, honoring externally guaranteed
+    slots (e.g. a Copa do Brasil berth) that let a team skip straight to a better
+    spot than its table position alone would earn -- see configs/README.md for the
+    worked example this implements.
+
+    A team occupies exactly one seat, the best (lowest rank in cascade_spots)
+    among its table-position ("natural") spot and *all* of its guarantees --
+    e.g. a team that's both this year's Libertadores champion and Copa do Brasil
+    champion holds two separate libertadores_grupos guarantees, but still only
+    fills one groups seat itself. Every one of its OTHER guarantees (unused ones,
+    including duplicates of the tier it does occupy) becomes a *bonus* seat in
+    its own tier, handed to the next team in `order` not yet credited anywhere
+    (the "first team outside the spot"). Likewise, if a guarantee bumps a team
+    out of its natural tier, that tier's now-vacant seat is backfilled the same
+    way, from the next team past its normal window.
+
+    All of this reduces to one mechanic: each tier fills `capacity + bonus -
+    locked` seats by scanning `order` in position order and skipping teams
+    already credited elsewhere, so vacancies and bonus seats both cascade
+    downward through `order` until claimed.
+
+    Args:
+        order: this group's final table order, 1st place first.
+        cascade_spots: the phase's cascade spots (see RoundRobinPhaseConfig.cascade),
+            in priority order (best first).
+        guaranteed_slots: {team: [spot_name, ...]}, one entry per guarantee the
+            team holds (repeat a spot_name for multiple independent guarantees
+            of the same tier). Entries for teams not in `order` are ignored.
+
+    Returns:
+        {spot_name: [credited team, ...]}.
+    """
+    rank = {spot.name: i for i, spot in enumerate(cascade_spots)}
+    capacity = {spot.name: spot.positions[1] - spot.positions[0] + 1 for spot in cascade_spots}
+    position_of = {team: i for i, team in enumerate(order)}
+    worst_rank = len(cascade_spots)
+
+    def natural_spot(team: str) -> str | None:
+        position = position_of[team] + 1
+        for spot in cascade_spots:
+            if spot.positions[0] <= position <= spot.positions[1]:
+                return spot.name
+        return None
+
+    credited: dict[str, str] = {}
+    bonus: dict[str, int] = defaultdict(int)
+    locked: dict[str, int] = defaultdict(int)
+    for team, guarantees in guaranteed_slots.items():
+        if team not in position_of:
+            continue
+        guarantees = [g for g in guarantees if g in rank]
+        if not guarantees:
+            continue
+
+        # Every guarantee is an independent extra berth that must go *somewhere*
+        # (bonus, added to its own tier's capacity below), regardless of whether
+        # this team ends up being the one to claim it. The team itself occupies
+        # exactly one physical seat (locked), the best of its natural spot and
+        # all its guarantees -- any other guarantee, including a second one for
+        # that same tier, is simply unclaimed by this team and cascades on.
+        natural = natural_spot(team)
+        best_spot = natural
+        best_rank = rank[natural] if natural is not None else worst_rank
+        for g in guarantees:
+            if rank[g] < best_rank:
+                best_rank, best_spot = rank[g], g
+
+        credited[team] = best_spot
+        locked[best_spot] += 1
+        for g in guarantees:
+            bonus[g] += 1
+
+    result: dict[str, list[str]] = {}
+    scan_index = 0
+    for spot in cascade_spots:
+        recipients = [team for team, s in credited.items() if s == spot.name]
+        needed = capacity[spot.name] + bonus[spot.name] - locked[spot.name]
+        filled = 0
+        while filled < needed and scan_index < len(order):
+            team = order[scan_index]
+            scan_index += 1
+            if team in credited:
+                continue
+            recipients.append(team)
+            credited[team] = spot.name
+            filled += 1
+        result[spot.name] = recipients
+    return result
+
+
 def _tabulate(
-    config: CompetitionConfig, phase_results: dict[str, PhaseResult], n_draws: int, rng: np.random.Generator
+    config: CompetitionConfig,
+    phase_results: dict[str, PhaseResult],
+    n_draws: int,
+    rng: np.random.Generator,
+    guaranteed_slots: dict[str, list[str]] | None = None,
 ) -> pd.DataFrame:
+    guaranteed_slots = guaranteed_slots or {}
     spot_counts: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
     position_sum: dict[str, int] = {}
     all_teams: set[str] = set()
@@ -365,6 +466,8 @@ def _tabulate(
         result = phase_results[phase_cfg.id]
         if isinstance(phase_cfg, RoundRobinPhaseConfig):
             assert isinstance(result, RoundRobinResult)
+            cascade_names = set(phase_cfg.cascade)
+            cascade_spots = [next(s for s in phase_cfg.spots if s.name == name) for name in phase_cfg.cascade]
             phase_position_sum: dict[str, int] = defaultdict(int)
             for d in range(n_draws):
                 for order in result.group_orders[d].values():
@@ -372,8 +475,15 @@ def _tabulate(
                         all_teams.add(team)
                         phase_position_sum[team] += position
                         for spot in phase_cfg.spots:
+                            if spot.name in cascade_names:
+                                continue
                             if spot.positions and spot.positions[0] <= position <= spot.positions[1]:
                                 spot_counts[team][spot.name] += 1
+                    if cascade_spots:
+                        credited = _resolve_cascade(order, cascade_spots, guaranteed_slots)
+                        for spot_name, recipients in credited.items():
+                            for team in recipients:
+                                spot_counts[team][spot_name] += 1
 
                 for spot in phase_cfg.spots:
                     if spot.pool_position is None:
@@ -425,9 +535,18 @@ def simulate_competition(
     reference_date: pd.Timestamp,
     n_draws: int = 200,
     seed: int = 0,
+    guaranteed_slots: dict[str, list[str]] | None = None,
 ) -> pd.DataFrame:
     """Monte Carlo simulates every phase of `config` in order and reports the
     probability of each declared spot (see configs/README.md for the schema).
+
+    Args:
+        guaranteed_slots: {team: [spot_name, ...]} for teams with an externally
+            guaranteed slot (e.g. a Copa do Brasil berth) that bypasses table
+            position -- repeat a spot_name to give one team multiple independent
+            guarantees of the same tier (e.g. Libertadores champion + Copa do
+            Brasil champion). Only has an effect on phases whose `cascade` lists
+            spot_name (see RoundRobinPhaseConfig.cascade / _resolve_cascade).
     """
     team_index = {team: i for i, team in enumerate(teams)}
     stan_vars = mcmc_fit.stan_variables()
@@ -456,4 +575,4 @@ def simulate_competition(
         else:
             phase_results[phase_cfg.id] = _run_playoff_phase(phase_cfg, phase_results, draw_params, teams, rng)
 
-    return _tabulate(config, phase_results, n_draws, rng)
+    return _tabulate(config, phase_results, n_draws, rng, guaranteed_slots)

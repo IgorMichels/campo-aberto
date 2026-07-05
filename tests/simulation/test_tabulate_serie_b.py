@@ -3,6 +3,8 @@
 Serie B zones (see configs/serie_b.yaml): title (1), direct_promotion (1-2),
 rebaixamento (17-20), plus the "acesso" playoff (3v6, 4v5) feeding
 playoff_promotion, aggregated into `promotion` alongside direct_promotion.
+Serie B has no cascade (no Copa do Brasil style external guarantee), which is
+asserted explicitly below.
 """
 
 import numpy as np
@@ -11,13 +13,17 @@ from src.simulation.simulate import PlayoffResult, RoundRobinResult, _tabulate
 from tests.simulation.conftest import make_order
 
 
-def _run(serie_b_config, order, playoff_winners):
+def _run(serie_b_config, order, playoff_winners, guaranteed_slots=None):
     league_result = RoundRobinResult(group_orders=[{"_all": order}], group_all_results=None)
     acesso_result = PlayoffResult(
         winners={i: np.array([winner]) for i, winner in enumerate(playoff_winners)}
     )
     df = _tabulate(
-        serie_b_config, {"league": league_result, "acesso": acesso_result}, n_draws=1, rng=np.random.default_rng(0)
+        serie_b_config,
+        {"league": league_result, "acesso": acesso_result},
+        n_draws=1,
+        rng=np.random.default_rng(0),
+        guaranteed_slots=guaranteed_slots,
     )
     return df.set_index("team")
 
@@ -61,3 +67,16 @@ def test_worse_seed_can_still_win_the_playoff(serie_b_config, teams20):
     assert df.loc["T6", "prob_playoff_promotion"] == 1.0
     assert df.loc["T3", "prob_playoff_promotion"] == 0.0
     assert df.loc["T6", "prob_promotion"] == 1.0
+
+
+def test_no_cascade_so_guaranteed_slots_have_no_effect(serie_b_config, teams20):
+    order = make_order(teams20)
+    without = _run(serie_b_config, order, playoff_winners=["T3", "T4"])
+    with_guarantee = _run(
+        serie_b_config,
+        order,
+        playoff_winners=["T3", "T4"],
+        guaranteed_slots={"T9": ["direct_promotion"]},
+    )
+
+    assert without.equals(with_guarantee)

@@ -9,12 +9,15 @@
 #   draw, same as the official last-resort "sorteio" criterion (which really
 #   is a random draw, so a per-simulation coin flip is the statistically
 #   correct stand-in for it).
-# - The Libertadores/Sul-Americana slots below (Art. 6-7) assume no Copa do
-#   Brasil overlap. In reality 2 extra Libertadores slots come from the Copa
-#   do Brasil champion/runner-up (Art. 6 par. 1), which can push a
-#   Sul-Americana slot down a position if the Copa do Brasil finalists aren't
-#   already in the Serie A top 5 -- we don't model the Copa do Brasil, so
-#   slots below are assigned purely by final Serie A table position.
+# - The Copa do Brasil champion/runner-up each get a Libertadores berth
+#   (Art. 6 par. 1) regardless of Serie A table position. We don't simulate
+#   the Copa do Brasil itself (external competition), but its 2026 finalists'
+#   guaranteed berths can be fed in via `simulate_competition`'s
+#   `guaranteed_slots` (see the `cascade` field below and configs/README.md
+#   for the allocation rules -- a finalist who'd table into a worse spot than
+#   their guarantee skips it, opening that spot for the next-best team, and a
+#   finalist who tables into a better spot than their guarantee frees the
+#   guarantee for the next-best team instead).
 name: Serie A
 n_teams: 20
 
@@ -36,6 +39,11 @@ phases:
         positions: {from: 6, to: 11} # CONMEBOL Sul-Americana 2027
       - name: rebaixamento
         positions: {from: 17, to: 20} # relegated to Serie B (Art. 8)
+    # Priority order (best first) for Copa do Brasil guaranteed-slot cascading
+    # -- see guaranteed_slots in configs/README.md. title is deliberately
+    # excluded: it's a bonus nested inside libertadores_grupos, not a
+    # competing tier.
+    cascade: [libertadores_grupos, libertadores_pre, sulamericana]
 
 aggregates:
   - name: libertadores
