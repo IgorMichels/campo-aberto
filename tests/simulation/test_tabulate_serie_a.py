@@ -1,8 +1,8 @@
-"""Integration tests: _tabulate against the real configs/serie_a.yaml, driving
+"""Integration tests: _tabulate against the real configs/serie_a_2026.yaml, driving
 a single deterministic final table (n_draws=1) instead of simulating scores,
 so each assertion is an exact 0.0/1.0 read of which zone a team lands in.
 
-Serie A zones (see configs/serie_a.yaml): title (1), libertadores_grupos
+Serie A zones (see configs/serie_a_2026.yaml): title (1), libertadores_grupos
 (1-4), libertadores_pre (5), sulamericana (6-11), rebaixamento (17-20), plus
 the guaranteed-slot cascade [libertadores_grupos, libertadores_pre,
 sulamericana] for Copa do Brasil berths (REC Art. 6 par. 1).

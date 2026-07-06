@@ -3,7 +3,12 @@
 """
 
 DEFAULT_MATCHES_PATH = "data/processed/brazil/matches.csv"
-DEFAULT_CONFIGS = ["configs/serie_a.yaml", "configs/serie_b.yaml"]
+# Competition configs are per-season: the REC changes year to year (e.g. Serie
+# A's extra pre-Libertadores slot in 2025, Serie B's access playoff introduced
+# in 2026 -- see configs/serie_*_2025.yaml vs configs/serie_*_2026.yaml). Pass
+# --configs explicitly when simulating/backtesting a season other than the
+# current default.
+DEFAULT_CONFIGS = ["configs/serie_a_2026.yaml", "configs/serie_b_2026.yaml"]
 DEFAULT_SEASON = 2026
 
 DEFAULT_CHAINS = 4

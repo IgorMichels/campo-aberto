@@ -8,13 +8,36 @@ parsed config lives in
 [`src/simulation/simulate.py`](../src/simulation/simulate.py)
 (`simulate_competition`).
 
-Only `serie_a.yaml` and `serie_b.yaml` are wired to real data today. The rest
-of this document also describes fields those two configs don't use --
+Only `serie_a_*.yaml` and `serie_b_*.yaml` are wired to real data today. The
+rest of this document also describes fields those configs don't use --
 `groups`, `pool_position`, `bracket_adjacent`/`manual` pairing, `legs: 1` --
 which exist so a Copa do Brasil / Libertadores / World-Cup-shaped config can
 be dropped in later without changing the engine. See "Formats not yet
 configured" below for worked (illustrative, not validated end-to-end)
 sketches of each.
+
+### Per-season configs
+
+The REC (Regulamento Especifico da Competicao) changes year to year, so each
+competition has one YAML **per season** it's wired up for, suffixed with the
+year: `serie_a_2025.yaml` vs `serie_a_2026.yaml`, `serie_b_2025.yaml` vs
+`serie_b_2026.yaml`. `name`/`n_teams`/`phases` are still matched against
+matches.csv's `competition` column only (not `season` -- that's a separate
+`--season` argument to `simulate_competition`/the CLIs), so picking the
+right season's file for the season you're simulating/backtesting is on the
+caller: `DEFAULT_CONFIGS` in `src/constants.py` only points at the current
+season (2026); pass `--configs` explicitly for any other season, e.g.:
+
+```bash
+python -m src.simulation.run --reference-date 2025-11-01 --season 2025 \
+    --configs configs/serie_a_2025.yaml configs/serie_b_2025.yaml
+```
+
+Known rule changes so far: Serie A 2025 had an extra Libertadores
+preliminary-phase slot (2 instead of 2026's 1, pushing sulamericana's range
+one position later); Serie B 2025 had no access playoff yet (all 4 promotion
+spots awarded directly by table position, introduced as a playoff only in
+2026's REC).
 
 ## Top level
 
@@ -211,7 +234,7 @@ already occupies -- goes unused and becomes a bonus seat in its own tier:
   way, from the next team past that tier's normal window.
 
 Worked example (`cascade: [libertadores_grupos, libertadores_pre,
-sulamericana]`, capacities 4/1/6 from `configs/serie_a.yaml`):
+sulamericana]`, capacities 4/1/6 from `configs/serie_a_2026.yaml`):
 
 - Team Z guaranteed `libertadores_grupos`, finishes 8th (a `sulamericana`
   position): Z is credited `libertadores_grupos` (5th recipient that draw,

@@ -15,7 +15,7 @@ the evolution of these probabilities over the season:
 
 Pass --guaranteed-slot TEAM:SPOT (repeatable) for teams with an externally
 guaranteed slot that bypasses table position -- e.g. the 2026 Copa do Brasil
-champion/runner-up's Libertadores berths (see configs/serie_a.yaml's
+champion/runner-up's Libertadores berths (see configs/serie_a_2026.yaml's
 `cascade` and configs/README.md for the allocation rules). Repeat the same
 team for multiple independent guarantees (e.g. a team that's both this year's
 Libertadores champion and Copa do Brasil champion):
