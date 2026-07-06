@@ -1,0 +1,38 @@
+# Brasileirao Serie A 2026.
+#
+# Source: official REC (Regulamento Especifico da Competicao) published by the
+# CBF on 15/12/2025.
+#
+# Known simplifications (things our data/model can't reproduce exactly):
+# - Tiebreak steps 5-6 (fewer red/yellow cards, Art. 15) are skipped -- we have
+#   no disciplinary data -- so a tied pair falls straight through to a random
+#   draw, same as the official last-resort "sorteio" criterion (which really
+#   is a random draw, so a per-simulation coin flip is the statistically
+#   correct stand-in for it).
+# - The Libertadores/Sul-Americana slots below (Art. 6-7) assume no Copa do
+#   Brasil overlap. In reality 2 extra Libertadores slots come from the Copa
+#   do Brasil champion/runner-up (Art. 6 par. 1), which can push a
+#   Sul-Americana slot down a position if the Copa do Brasil finalists aren't
+#   already in the Serie A top 5 -- we don't model the Copa do Brasil, so
+#   slots below are assigned purely by final Serie A table position.
+name: Serie A
+n_teams: 20
+
+phases:
+  - id: league
+    type: round_robin
+    # Head-to-head ("confronto direto"), only used when exactly 2 clubs are
+    # tied (Art. 15 par. 1): points earned across both legs, then goal
+    # difference of those two legs.
+    head_to_head_mode: points_then_goal_diff
+    spots:
+      - name: title
+        positions: {from: 1, to: 1}
+      - name: libertadores_grupos
+        positions: {from: 1, to: 4} # CONMEBOL Libertadores 2027, group stage
+      - name: libertadores_pre
+        positions: {from: 5, to: 5} # Libertadores 2027, preliminary phase
+      - name: sulamericana
+        positions: {from: 6, to: 11} # CONMEBOL Sul-Americana 2027
+      - name: rebaixamento
+        positions: {from: 17, to: 20} # relegated to Serie B (Art. 8)
