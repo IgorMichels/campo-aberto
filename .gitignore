@@ -225,3 +225,8 @@ data/samples/
 
 # Simulation outputs (reproducible from data/samples/ + configs/)
 data/results/
+
+# Compiled Stan model binaries (cmdstanpy build artifacts, platform-specific --
+# recompiled automatically from the .stan source on first use)
+src/models/poisson_home
+src/models/*.hpp
