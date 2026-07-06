@@ -37,8 +37,22 @@ Every phase has `id` (unique within the competition) and `type`
   type: round_robin
   head_to_head_mode: points_then_goal_diff  # or goal_diff_only
   groups: [ ... ]        # optional, see "Groups" below
+  legs: 2                # 1 or 2, default 2
   spots: [ ... ]
 ```
+
+`legs: 2` (default) is a double round-robin -- every team plays every other
+twice, once at each venue, e.g. Brasileirao Serie A/B. This is the only shape
+[`fixtures.py`](../src/simulation/fixtures.py) supports today: it derives the
+full remaining-fixture list purely combinatorially from the team roster
+(every ordered `(home, away)` pair occurs exactly once), which only works
+because a double round-robin leaves no scheduling choice to make. `legs: 1`
+(a single round-robin, e.g. a World Cup-style group stage) has no such
+derivation -- who hosts each pair is a real schedule/draw decision this
+engine doesn't have data for yet -- so `simulate.py` raises
+`NotImplementedError` rather than guessing a home/away split. Adding it needs
+an actual remaining-fixture source (a schedule or draw file), not just a
+team list.
 
 `head_to_head_mode` controls the tiebreak used when exactly two clubs are
 tied on points/wins/goal-difference/goals-scored (see

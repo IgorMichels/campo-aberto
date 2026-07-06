@@ -64,6 +64,16 @@ class RoundRobinPhaseConfig:
     first, that compete for table-position slots subject to externally guaranteed
     slots (e.g. a Copa do Brasil berth) -- see simulate.py's `_resolve_cascade` for
     the allocation rules and configs/README.md for the worked example.
+
+    legs=2 (default) is a double round-robin: every team plays every other twice,
+    once at each venue -- e.g. Brasileirao Serie A/B. fixtures.py derives the full
+    fixture list purely combinatorially from the team roster for this case (every
+    ordered (home, away) pair occurs exactly once), which only works because a
+    double round-robin's fixture set has no free choices left to schedule. legs=1
+    (a single round-robin, e.g. a World Cup-style group stage) has no such
+    derivation -- who hosts each pair is a real scheduling/draw decision this
+    engine doesn't have data for yet -- so simulate.py raises NotImplementedError
+    for it rather than silently guessing a home/away split.
     """
 
     id: str
@@ -71,6 +81,7 @@ class RoundRobinPhaseConfig:
     spots: tuple[SpotConfig, ...]
     groups: tuple[tuple[TeamOrSlot, ...], ...] | None = None
     cascade: tuple[str, ...] = ()
+    legs: int = 2
     type: str = "round_robin"
 
 
@@ -190,8 +201,12 @@ def _parse_round_robin_phase(raw_phase: dict, phase_id: str, spots: tuple[SpotCo
         if len(set(cascade)) != len(cascade):
             raise ValueError(f"phase {phase_id!r}: 'cascade' has duplicate spot names {cascade}")
 
+    legs = int(raw_phase.get("legs", 2))
+    if legs not in (1, 2):
+        raise ValueError(f"phase {phase_id!r}: 'legs' must be 1 or 2")
+
     return RoundRobinPhaseConfig(
-        id=phase_id, head_to_head_mode=head_to_head_mode, spots=spots, groups=groups, cascade=cascade
+        id=phase_id, head_to_head_mode=head_to_head_mode, spots=spots, groups=groups, cascade=cascade, legs=legs
     )
 
 
