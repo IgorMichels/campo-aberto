@@ -1,0 +1,53 @@
+# Brasileirao Serie A 2025.
+#
+# Source: REC (Regulamento Especifico da Competicao) for the 2025 season.
+# Differs from 2026's REC in one respect relevant here: Libertadores 2026's
+# preliminary phase got 2 slots that year instead of 2027's 1 (one extra
+# continental berth for Brazil), so sulamericana starts one position later
+# than in the 2026 config.
+#
+# Known simplifications (things our data/model can't reproduce exactly):
+# - Tiebreak steps 5-6 (fewer red/yellow cards, Art. 15) are skipped -- we have
+#   no disciplinary data -- so a tied pair falls straight through to a random
+#   draw, same as the official last-resort "sorteio" criterion (which really
+#   is a random draw, so a per-simulation coin flip is the statistically
+#   correct stand-in for it).
+# - The Copa do Brasil champion/runner-up each get a Libertadores berth
+#   (Art. 6 par. 1) regardless of Serie A table position. We don't simulate
+#   the Copa do Brasil itself (external competition), but its 2025 finalists'
+#   guaranteed berths can be fed in via `simulate_competition`'s
+#   `guaranteed_slots` (see the `cascade` field below and configs/README.md
+#   for the allocation rules -- a finalist who'd table into a worse spot than
+#   their guarantee skips it, opening that spot for the next-best team, and a
+#   finalist who tables into a better spot than their guarantee frees the
+#   guarantee for the next-best team instead).
+name: Serie A
+n_teams: 20
+
+phases:
+  - id: league
+    type: round_robin
+    # Head-to-head ("confronto direto"), only used when exactly 2 clubs are
+    # tied (Art. 15 par. 1): points earned across both legs, then goal
+    # difference of those two legs.
+    head_to_head_mode: points_then_goal_diff
+    spots:
+      - name: title
+        positions: {from: 1, to: 1}
+      - name: libertadores_grupos
+        positions: {from: 1, to: 4} # CONMEBOL Libertadores 2026, group stage
+      - name: libertadores_pre
+        positions: {from: 5, to: 6} # Libertadores 2026, preliminary phase -- 2 slots this season
+      - name: sulamericana
+        positions: {from: 7, to: 12} # CONMEBOL Sul-Americana 2026
+      - name: rebaixamento
+        positions: {from: 17, to: 20} # relegated to Serie B (Art. 8)
+    # Priority order (best first) for Copa do Brasil guaranteed-slot cascading
+    # -- see guaranteed_slots in configs/README.md. title is deliberately
+    # excluded: it's a bonus nested inside libertadores_grupos, not a
+    # competing tier.
+    cascade: [libertadores_grupos, libertadores_pre, sulamericana]
+
+aggregates:
+  - name: libertadores
+    of: [libertadores_grupos, libertadores_pre]

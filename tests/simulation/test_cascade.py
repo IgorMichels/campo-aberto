@@ -1,6 +1,6 @@
 """Unit tests for _resolve_cascade, the Copa do Brasil guaranteed-slot
 allocation used by Serie A's `league` phase (cascade: [libertadores_grupos,
-libertadores_pre, sulamericana], capacities 4/1/6 -- see configs/serie_a.yaml
+libertadores_pre, sulamericana], capacities 4/1/6 -- see configs/serie_a_2026.yaml
 and configs/README.md for the rules this implements).
 """
 

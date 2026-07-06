@@ -1,6 +1,6 @@
-"""Integration tests: _tabulate against the real configs/serie_b.yaml.
+"""Integration tests: _tabulate against the real configs/serie_b_2026.yaml.
 
-Serie B zones (see configs/serie_b.yaml): title (1), direct_promotion (1-2),
+Serie B zones (see configs/serie_b_2026.yaml): title (1), direct_promotion (1-2),
 rebaixamento (17-20), plus the "acesso" playoff (3v6, 4v5) feeding
 playoff_promotion, aggregated into `promotion` alongside direct_promotion.
 Serie B has no cascade (no Copa do Brasil style external guarantee), which is
