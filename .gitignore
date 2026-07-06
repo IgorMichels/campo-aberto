@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data collection cache (reproducible from source APIs)
+data/raw/
+
+# Model posterior samples (historical snapshots, not source data)
+data/samples/
+
+# Simulation outputs (reproducible from data/samples/ + configs/)
+data/results/
