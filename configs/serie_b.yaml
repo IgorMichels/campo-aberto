@@ -19,6 +19,8 @@ phases:
     # de 180 minutos") -- points aren't used here, unlike Serie A.
     head_to_head_mode: goal_diff_only
     spots:
+      - name: title
+        positions: {from: 1, to: 1}
       - name: direct_promotion
         positions: {from: 1, to: 2} # promoted to Serie A outright
       - name: rebaixamento

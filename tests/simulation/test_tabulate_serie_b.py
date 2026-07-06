@@ -1,6 +1,6 @@
 """Integration tests: _tabulate against the real configs/serie_b.yaml.
 
-Serie B zones (see configs/serie_b.yaml): direct_promotion (1-2),
+Serie B zones (see configs/serie_b.yaml): title (1), direct_promotion (1-2),
 rebaixamento (17-20), plus the "acesso" playoff (3v6, 4v5) feeding
 playoff_promotion, aggregated into `promotion` alongside direct_promotion.
 """
@@ -22,10 +22,13 @@ def _run(serie_b_config, order, playoff_winners):
     return df.set_index("team")
 
 
-def test_direct_promotion_and_relegation_zones(serie_b_config, teams20):
+def test_title_direct_promotion_and_relegation_zones(serie_b_config, teams20):
     # acesso pairs are [3, 6] and [4, 5] (table_position pairing); 3rd and 4th
     # place (the better seeds) advance in this draw.
     df = _run(serie_b_config, make_order(teams20), playoff_winners=["T3", "T4"])
+
+    assert df.loc["T1", "prob_title"] == 1.0
+    assert df.loc["T2", "prob_title"] == 0.0
 
     assert df.loc["T1", "prob_direct_promotion"] == 1.0
     assert df.loc["T2", "prob_direct_promotion"] == 1.0
