@@ -19,6 +19,7 @@ src/
   ingestion/brazil/          scrapes CBF dockets, builds the treated matches CSV
   models/                   Dixon-Coles-adjusted Poisson model (Stan) fit on matches.csv
   simulation/                phase-based competition simulator + YAML competition configs
+  pipeline.py                 orchestrates all three stages end to end
 configs/                     one YAML per competition (Serie A, Serie B) -- see configs/README.md
 data/
   raw/brazil/                 raw scraped dockets, gitignored (reproducible from CBF)
@@ -27,6 +28,14 @@ data/
 ```
 
 ## Running it
+
+The whole pipeline, from the repo root:
+
+```bash
+python -m src.pipeline
+```
+
+Or any stage on its own:
 
 ```bash
 # 1. scrape + rebuild the treated dataset
