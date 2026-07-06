@@ -60,10 +60,17 @@ class SpotConfig:
 
 @dataclass(frozen=True)
 class RoundRobinPhaseConfig:
+    """cascade, if set, names a subset of this phase's `positions`-based spots, best
+    first, that compete for table-position slots subject to externally guaranteed
+    slots (e.g. a Copa do Brasil berth) -- see simulate.py's `_resolve_cascade` for
+    the allocation rules and configs/README.md for the worked example.
+    """
+
     id: str
     head_to_head_mode: str
     spots: tuple[SpotConfig, ...]
     groups: tuple[tuple[TeamOrSlot, ...], ...] | None = None
+    cascade: tuple[str, ...] = ()
     type: str = "round_robin"
 
 
@@ -172,7 +179,20 @@ def _parse_round_robin_phase(raw_phase: dict, phase_id: str, spots: tuple[SpotCo
         if len(groups) < 2:
             raise ValueError(f"phase {phase_id!r}: 'groups' must list at least 2 groups")
 
-    return RoundRobinPhaseConfig(id=phase_id, head_to_head_mode=head_to_head_mode, spots=spots, groups=groups)
+    cascade = tuple(raw_phase.get("cascade", []))
+    if cascade:
+        positions_spots = {spot.name: spot for spot in spots if spot.positions is not None}
+        for name in cascade:
+            if name not in positions_spots:
+                raise ValueError(
+                    f"phase {phase_id!r}: cascade entry {name!r} must name a 'positions'-based spot on this phase"
+                )
+        if len(set(cascade)) != len(cascade):
+            raise ValueError(f"phase {phase_id!r}: 'cascade' has duplicate spot names {cascade}")
+
+    return RoundRobinPhaseConfig(
+        id=phase_id, head_to_head_mode=head_to_head_mode, spots=spots, groups=groups, cascade=cascade
+    )
 
 
 def _parse_playoff_phase(raw_phase: dict, phase_id: str, spots: tuple[SpotConfig, ...]) -> PlayoffPhaseConfig:

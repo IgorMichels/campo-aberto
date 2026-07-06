@@ -29,6 +29,19 @@ from src.simulation.results import save_results
 from src.simulation.simulate import simulate_competition
 
 
+def _parse_guaranteed_slots(entries: list[str]) -> dict[str, list[str]]:
+    """Repeat --guaranteed-slot TEAM:SPOT with the same team for independent
+    guarantees of the same or different tiers (e.g. a team that's both this
+    year's Libertadores champion and Copa do Brasil champion)."""
+    guaranteed_slots: dict[str, list[str]] = {}
+    for entry in entries:
+        team, _, spot = entry.partition(":")
+        if not spot:
+            raise ValueError(f"--guaranteed-slot {entry!r} must be in TEAM:SPOT format")
+        guaranteed_slots.setdefault(team, []).append(spot)
+    return guaranteed_slots
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--matches", default=DEFAULT_MATCHES_PATH)
@@ -38,7 +51,15 @@ def main() -> None:
     parser.add_argument("--seed", type=int, default=DEFAULT_SEED)
     parser.add_argument("--chains", type=int, default=DEFAULT_CHAINS)
     parser.add_argument("--iter-warmup", type=int, default=DEFAULT_ITER_WARMUP)
+    parser.add_argument(
+        "--guaranteed-slot",
+        action="append",
+        default=[],
+        metavar="TEAM:SPOT",
+        help="a team with an externally guaranteed spot (e.g. a Copa do Brasil berth); repeatable",
+    )
     args = parser.parse_args()
+    guaranteed_slots = _parse_guaranteed_slots(args.guaranteed_slot)
 
     print("=== 1/3: scraping + building treated dataset ===")
     scrape_raw_matches.main()
@@ -65,7 +86,15 @@ def main() -> None:
     for config_path in args.configs:
         config = load_competition_config(config_path)
         result = simulate_competition(
-            config, mcmc_fit, teams, df, args.season, reference_date, n_draws=args.n_draws, seed=args.seed
+            config,
+            mcmc_fit,
+            teams,
+            df,
+            args.season,
+            reference_date,
+            n_draws=args.n_draws,
+            seed=args.seed,
+            guaranteed_slots=guaranteed_slots,
         )
         print(f"\n=== {config.name} {args.season} (as of {reference_date.date()}) ===")
         print(result.to_string(index=False))

@@ -163,6 +163,70 @@ three resolution modes is set per spot:
                                      #   (e.g. "best 8 third-placed teams")
 ```
 
+### Cascade (externally guaranteed slots)
+
+```yaml
+- id: league
+  type: round_robin
+  spots: [ ... ]
+  cascade: [libertadores_grupos, libertadores_pre, sulamericana]  # best first
+```
+
+`cascade` names a subset of this phase's `positions`-based spots, ranked best
+first, that compete for table-position slots subject to slots guaranteed by
+something outside this competition -- e.g. the Copa do Brasil champion and
+runner-up each get a Libertadores berth (Art. 6 par. 1) independent of their
+Serie A table position. Since we don't simulate the Copa do Brasil, its
+finalists are supplied at call time instead, via `simulate_competition`'s
+`guaranteed_slots: dict[team, list[spot_name]]` (or `--guaranteed-slot
+TEAM:SPOT`, repeatable, on `src.simulation.run` / `src.pipeline`) -- repeat
+the same team for multiple *independent* guarantees, e.g. a team that's both
+this year's Libertadores champion (also worth a `libertadores_grupos` berth)
+and Copa do Brasil champion.
+
+A team occupies exactly one seat: the best (closest to the front of
+`cascade`) among its own table position and *all* of its guarantees. Every
+other guarantee it holds -- including a second one for the same tier it
+already occupies -- goes unused and becomes a bonus seat in its own tier:
+- An unused guarantee (table spot already as good or better, or a
+  second/third guarantee for the tier the team already occupies) is handed
+  to the next team in the table not yet credited anywhere (the "first team
+  outside the spot").
+- A guarantee better than the team's table spot is credited instead,
+  vacating the table-position tier's seat -- which is backfilled the same
+  way, from the next team past that tier's normal window.
+
+Worked example (`cascade: [libertadores_grupos, libertadores_pre,
+sulamericana]`, capacities 4/1/6 from `configs/serie_a.yaml`):
+
+- Team Z guaranteed `libertadores_grupos`, finishes 8th (a `sulamericana`
+  position): Z is credited `libertadores_grupos` (5th recipient that draw,
+  alongside the table's top 4), and `sulamericana` backfills its vacated 8th
+  seat from 12th place, keeping 6 recipients.
+- Team Y guaranteed `libertadores_pre`, finishes 3rd (a `libertadores_grupos`
+  position): Y is credited `libertadores_grupos` (its table spot is already
+  better), so its unused pré guarantee goes to 6th place instead (the first
+  team outside pré's 5th-place window) -- crediting *two* `libertadores_pre`
+  recipients that draw. 6th place's own vacated `sulamericana` seat then
+  backfills from 12th, same as above.
+- Team X is both this year's Libertadores champion and Copa do Brasil
+  champion -- two independent `libertadores_grupos` guarantees -- and
+  finishes 9th (a `sulamericana` position): both guarantees are extra berths,
+  so `libertadores_grupos` needs 2 more seats than usual, filled by scanning
+  onward from 1st place regardless of tier boundaries -- giving X *and*
+  1st-5th place all `libertadores_grupos` (6 recipients, reaching one spot
+  past the table's normal top 4). Since 5th place -- the table's natural
+  `libertadores_pre` recipient -- got pulled into groups instead, `pre` falls
+  to 6th place, and `sulamericana` keeps 7th/8th/10th/11th from its normal
+  window plus 12th and 13th backfilling the two seats vacated by 6th (now
+  pré) and 9th/X (now groups) -- still 6 recipients.
+
+A guaranteed team not currently in the phase (e.g. simulating Serie B while
+its guaranteed slot names a Serie A team) is simply ignored. `title` is
+deliberately left out of Serie A's `cascade`: it's a bonus nested inside
+`libertadores_grupos` (the champion is also a groups qualifier), not a tier
+competing for seats.
+
 ### Aggregates
 
 A derived spot that's just the sum of other spots' probabilities, e.g. total
