@@ -1,0 +1,389 @@
+/* Confrontos: score-probability "sticker" cards, one per match. Adapted from
+   the heatmap/sticker component of the WorldCup2026 project's previsoes page,
+   restyled to reuse this site's design tokens. */
+
+:root {
+  --sticker-w: 264px;
+  --sticker-h: 407px;
+}
+
+.mock-disclaimer {
+  max-width: 900px;
+  margin: 0 auto 1rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  background: rgba(240, 180, 40, 0.12);
+  border: 1px solid rgba(240, 180, 40, 0.35);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.round-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.round-label {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.search-wrap {
+  position: relative;
+  min-width: 220px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.team-filter {
+  width: 100%;
+  font: inherit;
+  padding: 0.4rem 0.75rem 0.4rem 1.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-1);
+  color: var(--text-primary);
+}
+
+/* ── CAROUSEL ── */
+
+.stickers-carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.stickers-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 30px 12px;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.scroll-btn {
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--accent);
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.scroll-btn:hover {
+  background: var(--accent-strong);
+}
+
+/* ── STICKER CARD ── */
+
+.sticker-wrapper {
+  flex: 0 0 auto;
+  cursor: pointer;
+  transform: translateY(var(--rand-y, 0px)) rotate(var(--rand-rot, 0deg));
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.sticker-wrapper:hover {
+  transform: rotate(0deg) scale(1.06) translateY(-8px);
+  z-index: 5;
+}
+
+.sticker-container {
+  width: var(--sticker-w);
+  height: var(--sticker-h);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  background: #111;
+  border: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.sticker-container.border-orange {
+  border-color: #ff9f0a;
+  box-shadow: 0 0 15px rgba(255, 159, 10, 0.5), inset 0 0 7.5px rgba(255, 159, 10, 0.28);
+}
+
+.sticker-container.border-purple {
+  border-color: #bf5af2;
+  box-shadow: 0 0 20px rgba(191, 90, 242, 0.5), inset 0 0 10px rgba(191, 90, 242, 0.28);
+}
+
+/* Color wash driven by each team's real accent color (--home-color /
+   --away-color, set inline per card) -- blurring the crest artwork itself
+   barely tints the card, since most crests are a small emblem on a
+   transparent field, so the wash is what actually carries each team's
+   color. Home color is strongest at the left edge, away color strongest at
+   the right edge, both fading toward transparent (revealing the container's
+   own dark background) at the vertical center seam. */
+.sticker-bg-blur {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(
+    90deg,
+    var(--home-color, #234) 0%,
+    transparent 50%,
+    var(--away-color, #432) 100%
+  );
+  filter: saturate(135%);
+}
+
+.sticker-glass {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(10, 10, 15, 0.12) 0%, rgba(8, 8, 12, 0.58) 100%);
+}
+
+.sticker-top-info {
+  width: 100%;
+  text-align: center;
+  padding: 12px 10px 0;
+  font-size: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.sticker-top-info .info-round {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.sticker-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 15px;
+  align-items: center;
+}
+
+.sticker-header .team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 84px;
+}
+
+.sticker-header .team-name {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-top: 6px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 100%;
+}
+
+.sticker-crest {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.5));
+}
+
+.sticker-crest img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.score-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-center .most-likely {
+  font-size: 28px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.score-center .most-likely-prob {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.heatmap-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.heatmap-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 4px;
+  width: 160px;
+  height: 160px;
+  transform: rotate(-45deg);
+}
+
+.heatmap-cell {
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(45deg);
+  background: rgba(255, 255, 255, 0.08);
+  transition: all 0.2s ease;
+  width: 100%;
+  height: 100%;
+}
+
+.heatmap-cell:hover {
+  transform: rotate(45deg) scale(1.4);
+  z-index: 10;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+.heatmap-cell.best {
+  background: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+.heatmap-cell.best .prob {
+  color: #111;
+}
+
+.heatmap-cell.best .score {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.heatmap-cell .prob {
+  font-size: 8px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+}
+
+.heatmap-cell .score {
+  font-size: 6px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 1px;
+}
+
+.sticker-footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bar-container {
+  display: flex;
+  height: 4px;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.f-bar {
+  height: 100%;
+}
+
+.f-bar.home { background: #32ade6; }
+.f-bar.draw { background: #8e8e93; }
+.f-bar.away { background: #ff2d55; }
+
+.footer-stats-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.f-stat {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.f-stat.home { color: #32ade6; }
+.f-stat.draw { color: #8e8e93; }
+.f-stat.away { color: #ff2d55; }
+
+/* ── MODAL ── */
+
+.sticker-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.sticker-modal.active {
+  display: flex;
+}
+
+.sticker-modal-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+}
+
+.sticker-modal-content {
+  position: relative;
+  z-index: 1000;
+  transform: scale(1.5);
+}
+
+@media (max-width: 480px) {
+  .sticker-modal-content {
+    transform: scale(1.1);
+  }
+}
