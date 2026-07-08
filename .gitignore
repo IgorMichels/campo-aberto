@@ -232,7 +232,3 @@ data/assets/crests/
 # recompiled automatically from the .stan source on first use)
 src/models/poisson_home
 src/models/*.hpp
-
-# Ad-hoc scratch scripts' generated outputs (reproducible from data/results/)
-scratch/crests_tmp/
-scratch/*.png
