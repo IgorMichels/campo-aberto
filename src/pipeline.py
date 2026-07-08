@@ -74,7 +74,7 @@ def main() -> None:
     iter_sampling = -(-args.n_draws // args.chains)
     mcmc_fit, teams = fit(
         args.matches,
-        weight_reference_date=reference_date,
+        reference_date=reference_date,
         chains=args.chains,
         iter_warmup=args.iter_warmup,
         iter_sampling=iter_sampling,
