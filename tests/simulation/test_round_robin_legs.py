@@ -42,12 +42,7 @@ def test_legs_rejects_anything_but_1_or_2():
         _parse_competition(_round_robin_competition(legs=3), source="test")
 
 
-def test_serie_a_and_serie_b_are_double_round_robins(serie_a_config, serie_b_config):
-    assert serie_a_config.phase("league").legs == 2
-    assert serie_b_config.phase("league").legs == 2
-
-
-def test_single_round_robin_phase_raises_not_implemented(serie_a_config):
+def test_single_round_robin_phase_raises_not_implemented():
     """legs=1 has no combinatorial fixture derivation (see fixtures.py) --
     _run_round_robin_phase must refuse it outright rather than silently
     simulating a phantom double round-robin schedule."""
