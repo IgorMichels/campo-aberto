@@ -16,8 +16,8 @@ from datetime import datetime
 
 import pandas as pd
 
-from src.ingestion.brazil.constants import COMPETITIONS
-from src.ingestion.brazil.scrape_raw_matches import CACHE_DIR, load_season_csv
+from src.ingestion.brazil.constants import CACHE_DIR, COMPETITIONS, OUTPUT_PATH, UNMAPPED_LOG_PATH
+from src.ingestion.brazil.scrape_raw_matches import load_season_csv
 from src.ingestion.brazil.team_name_mapping import (
     build_lookup_tables,
     load_mapping,
@@ -25,8 +25,6 @@ from src.ingestion.brazil.team_name_mapping import (
     suggest_matches,
 )
 
-OUTPUT_PATH = "data/processed/brazil/matches.csv"
-UNMAPPED_LOG_PATH = "data/processed/brazil/unmapped_team_names_log.csv"
 RESULT_PATTERN = re.compile(r"^\s*(\d+)\s*[Xx]\s*(\d+)\s*$")
 
 
