@@ -5,7 +5,8 @@ after that date can never leak into the team-strength estimates), then Monte
 Carlo simulates the remainder of --season to completion for every competition
 config passed in, applying that competition's phases (configs/*.yaml -- see
 configs/README.md for the schema) to turn final standings into spot
-probabilities (title, promotion, relegation, etc).
+probabilities (title, promotion, relegation, etc). --reference-date defaults
+to the matches CSV's latest match_datetime when omitted.
 
 Running this for a range of past --reference-date values is how you track
 the evolution of these probabilities over the season:
@@ -63,7 +64,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--matches", default=DEFAULT_MATCHES_PATH)
     parser.add_argument("--configs", nargs="+", default=DEFAULT_CONFIGS)
-    parser.add_argument("--reference-date", required=True, help="e.g. 2026-06-30")
+    parser.add_argument(
+        "--reference-date", default=None, help="e.g. 2026-06-30; defaults to the matches CSV's latest date"
+    )
     parser.add_argument("--season", type=int, default=DEFAULT_SEASON)
     parser.add_argument("--n-draws", type=int, default=DEFAULT_N_DRAWS)
     parser.add_argument("--seed", type=int, default=DEFAULT_SEED)
@@ -81,7 +84,7 @@ def main() -> None:
 
     df = pd.read_csv(args.matches)
     df["match_datetime"] = pd.to_datetime(df["match_datetime"])
-    reference_date = pd.Timestamp(args.reference_date)
+    reference_date = pd.Timestamp(args.reference_date) if args.reference_date else df["match_datetime"].max()
 
     train_df = df[df["match_datetime"] <= reference_date]
     stan_data, teams = build_stan_data(train_df, reference_date=reference_date)

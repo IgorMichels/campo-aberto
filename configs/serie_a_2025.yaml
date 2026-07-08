@@ -12,15 +12,19 @@
 #   draw, same as the official last-resort "sorteio" criterion (which really
 #   is a random draw, so a per-simulation coin flip is the statistically
 #   correct stand-in for it).
-# - The Copa do Brasil champion/runner-up each get a Libertadores berth
-#   (Art. 6 par. 1) regardless of Serie A table position. We don't simulate
-#   the Copa do Brasil itself (external competition), but its 2025 finalists'
-#   guaranteed berths can be fed in via `simulate_competition`'s
-#   `guaranteed_slots` (see the `cascade` field below and configs/README.md
-#   for the allocation rules -- a finalist who'd table into a worse spot than
-#   their guarantee skips it, opening that spot for the next-best team, and a
-#   finalist who tables into a better spot than their guarantee frees the
-#   guarantee for the next-best team instead).
+# - The Copa do Brasil champion/runner-up and the Libertadores champion each
+#   get a Libertadores berth (Art. 6 par. 1) regardless of Serie A table
+#   position. We don't simulate either competition (external), but a
+#   guaranteed berth can be fed in via the `guaranteed_slots` list below (see
+#   the `cascade` field and configs/README.md for the allocation rules -- a
+#   guaranteed team who'd table into a worse spot than their guarantee skips
+#   it, opening that spot for the next-best team, and one who tables into a
+#   better spot than their guarantee frees the guarantee for the next-best
+#   team instead) or, for an ad-hoc/undated override, via
+#   `simulate_competition`'s `guaranteed_slots` argument directly.
+#   2025's Copa do Brasil final was played after the Brasileirao itself ended
+#   (07/12/2025), so it can never affect a backtest of this season and isn't
+#   listed below -- only the Libertadores champion, decided mid-season.
 name: Serie A
 n_teams: 20
 
@@ -51,3 +55,8 @@ phases:
 aggregates:
   - name: libertadores
     of: [libertadores_grupos, libertadores_pre]
+
+guaranteed_slots:
+  - team: "Flamengo / RJ"
+    spot: libertadores_grupos
+    known_from: "2025-11-29" # Libertadores 2025 final

@@ -13,6 +13,7 @@ import csv
 import os
 
 from src.ingestion.brazil.constants import (
+    CACHE_DIR,
     COMPETITIONS,
     END_YEAR,
     GAMES_PER_SEASON,
@@ -20,7 +21,6 @@ from src.ingestion.brazil.constants import (
 )
 from src.ingestion.brazil.season_scraper import scrape_season
 
-CACHE_DIR = "data/raw/brazil"
 FIELDNAMES = ["game_id", "date", "time", "stadium", "home_team", "away_team", "result"]
 
 

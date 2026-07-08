@@ -22,20 +22,20 @@ def fit_stan_data(stan_data: dict, **sample_kwargs) -> CmdStanMCMC:
     return model.sample(data=stan_data, **sample_kwargs)
 
 
-def fit(matches_path: str, weight_reference_date: pd.Timestamp | None = None, **sample_kwargs) -> tuple[CmdStanMCMC, list[str]]:
+def fit(matches_path: str, reference_date: pd.Timestamp | None = None, **sample_kwargs) -> tuple[CmdStanMCMC, list[str]]:
     """Compiles poisson_home.stan and samples it on the given matches CSV.
 
     Args:
         matches_path: path to a matches CSV (see load_stan_data).
-        weight_reference_date: forwarded to load_stan_data as its reference_date, i.e.
-            the date each match's time-decay weight is measured from. Defaults to the
-            matches CSV's latest match_datetime.
+        reference_date: forwarded to load_stan_data, i.e. the date each match's
+            time-decay weight is measured from. Defaults to the matches CSV's
+            latest match_datetime.
         **sample_kwargs: forwarded to CmdStanModel.sample (e.g. chains, seed).
 
     Returns:
         (mcmc_fit, teams), where teams[i - 1] names Stan index i.
     """
-    stan_data, teams = load_stan_data(matches_path, reference_date=weight_reference_date)
+    stan_data, teams = load_stan_data(matches_path, reference_date=reference_date)
     mcmc_fit = fit_stan_data(stan_data, **sample_kwargs)
     return mcmc_fit, teams
 
@@ -71,7 +71,7 @@ def samples_long(mcmc_fit: CmdStanMCMC, teams: list[str]) -> pd.DataFrame:
     return pd.concat(frames, ignore_index=True)
 
 
-def reference_date(matches_path: str) -> str:
+def latest_match_date(matches_path: str) -> str:
     """Returns the latest match_datetime date (YYYY_MM_DD) in the matches CSV.
 
     Used to stamp a fit run's samples file, so successive runs on growing
@@ -99,7 +99,7 @@ def save_samples(
     country = os.path.basename(os.path.dirname(matches_path))
     out_dir = os.path.join(samples_dir, country)
     os.makedirs(out_dir, exist_ok=True)
-    out_path = os.path.join(out_dir, f"{reference_date(matches_path)}.csv")
+    out_path = os.path.join(out_dir, f"{latest_match_date(matches_path)}.csv")
     samples_long(mcmc_fit, teams).to_csv(out_path, index=False)
     return out_path
 

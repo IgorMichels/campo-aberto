@@ -3,9 +3,7 @@ previous run left off instead of starting over.
 """
 
 from src.ingestion.brazil.cbf_docket import try_fetch_docket
-from src.ingestion.brazil.constants import GAMES_PER_SEASON
-
-CONSECUTIVE_MISS_LIMIT = 40
+from src.ingestion.brazil.constants import CONSECUTIVE_MISS_LIMIT, GAMES_PER_SEASON
 
 
 def scrape_season(competition_key: str, year: int, games: dict, resume_from: int) -> dict:
