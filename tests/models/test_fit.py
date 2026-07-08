@@ -1,5 +1,5 @@
 """Unit tests for fit.py's pure-Python helpers (summarize_teams, samples_long,
-reference_date, save_samples) -- everything except fit()/fit_stan_data(), which
+latest_match_date, save_samples) -- everything except fit()/fit_stan_data(), which
 actually compiles and samples poisson_home.stan and isn't exercised here.
 
 A fake stand-in for CmdStanMCMC (only `.draws_pd()` is used by these helpers)
@@ -12,7 +12,7 @@ pass any competition/country's data/processed/.../matches.csv".
 import pandas as pd
 import pytest
 
-from src.models.fit import reference_date, samples_long, save_samples, summarize_teams
+from src.models.fit import latest_match_date, samples_long, save_samples, summarize_teams
 
 
 class _FakeMCMC:
@@ -57,13 +57,13 @@ def test_samples_long_is_one_row_per_team_per_draw():
     assert list(alpha["draw"]) == [0, 1]
 
 
-def test_reference_date_returns_the_latest_match_date(tmp_path):
+def test_latest_match_date_returns_the_latest_match_date(tmp_path):
     csv_path = tmp_path / "matches.csv"
     pd.DataFrame({"match_datetime": ["2026-01-01", "2026-03-15", "2026-02-01"]}).to_csv(
         csv_path, index=False
     )
 
-    assert reference_date(str(csv_path)) == "2026_03_15"
+    assert latest_match_date(str(csv_path)) == "2026_03_15"
 
 
 def test_save_samples_infers_country_from_the_matches_path_parent_directory(tmp_path):

@@ -19,10 +19,10 @@ functions {
 data {
   int<lower=1> N;
   int<lower=1> T;
-  array[N] int<lower=1, upper=T> team_i; // mandante
-  array[N] int<lower=1, upper=T> team_j; // visitante
-  array[N] int<lower=0> y_i; // gols do mandante
-  array[N] int<lower=0> y_j; // gols do visitante
+  array[N] int<lower=1, upper=T> team_i; // home team
+  array[N] int<lower=1, upper=T> team_j; // away team
+  array[N] int<lower=0> y_i; // home goals
+  array[N] int<lower=0> y_j; // away goals
   vector[N] game_weight;
 }
 
