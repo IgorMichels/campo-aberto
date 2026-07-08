@@ -11,6 +11,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Union
 
+import pandas as pd
 import yaml
 
 HEAD_TO_HEAD_MODES = {"points_then_goal_diff", "goal_diff_only"}
@@ -108,11 +109,30 @@ class AggregateConfig:
 
 
 @dataclass(frozen=True)
+class GuaranteedSlotConfig:
+    """A team's externally guaranteed slot (e.g. a Copa do Brasil or
+    Libertadores berth) that's only known as of a real-world date -- e.g. the
+    Libertadores champion's berth isn't known until that year's final is
+    played. `known_from` gates it: simulate_competition only applies this
+    guarantee when its `reference_date` is on or after `known_from`, same
+    mechanism as the `guaranteed_slots` dict passed directly to
+    simulate_competition (see RoundRobinPhaseConfig.cascade / _resolve_cascade
+    for the allocation rules), just declared once in the config instead of at
+    every call site.
+    """
+
+    team: str
+    spot: str
+    known_from: pd.Timestamp
+
+
+@dataclass(frozen=True)
 class CompetitionConfig:
     name: str
     n_teams: int
     phases: tuple[PhaseConfig, ...]
     aggregates: tuple[AggregateConfig, ...] = ()
+    guaranteed_slots: tuple[GuaranteedSlotConfig, ...] = ()
 
     def phase(self, phase_id: str) -> PhaseConfig:
         for p in self.phases:
@@ -325,4 +345,19 @@ def _parse_competition(raw: dict, source: str) -> CompetitionConfig:
             if spot_name not in all_spot_names:
                 raise ValueError(f"{source}: aggregate {agg.name!r} references unknown spot {spot_name!r}")
 
-    return CompetitionConfig(name=name, n_teams=n_teams, phases=phases, aggregates=aggregates)
+    guaranteed_slots = tuple(_parse_guaranteed_slot(g, all_spot_names, source) for g in raw.get("guaranteed_slots", []))
+
+    return CompetitionConfig(
+        name=name, n_teams=n_teams, phases=phases, aggregates=aggregates, guaranteed_slots=guaranteed_slots
+    )
+
+
+def _parse_guaranteed_slot(raw_slot: dict, all_spot_names: set[str], source: str) -> GuaranteedSlotConfig:
+    team = raw_slot.get("team")
+    spot = raw_slot.get("spot")
+    known_from = raw_slot.get("known_from")
+    if not team or not spot or not known_from:
+        raise ValueError(f"{source}: guaranteed_slots entry requires 'team', 'spot' and 'known_from', got {raw_slot!r}")
+    if spot not in all_spot_names:
+        raise ValueError(f"{source}: guaranteed_slots entry references unknown spot {spot!r}")
+    return GuaranteedSlotConfig(team=team, spot=spot, known_from=pd.Timestamp(known_from))

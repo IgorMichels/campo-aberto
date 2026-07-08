@@ -6,13 +6,14 @@ tied to any specific real competition.
 """
 
 import numpy as np
+import pandas as pd
 
 from src.simulation.config import _parse_competition
 from src.simulation.simulate import RoundRobinResult, _tabulate
 from tests.simulation.conftest import make_order
 
 
-def _config():
+def _config(guaranteed_slots=()):
     raw = {
         "name": "Test",
         "n_teams": 20,
@@ -32,6 +33,7 @@ def _config():
             }
         ],
         "aggregates": [{"name": "continental", "of": ["tier_1", "tier_2"]}],
+        "guaranteed_slots": list(guaranteed_slots),
     }
     return _parse_competition(raw, source="test")
 
@@ -114,3 +116,31 @@ def test_guarantee_for_a_team_not_in_this_table_is_ignored(teams20):
 
     assert df.loc["T4", "prob_tier_1"] == 1.0
     assert "Not Playing / XX" not in df.index
+
+
+def test_config_level_guaranteed_slot_applies_only_on_or_after_known_from(teams20):
+    """A guaranteed_slots entry declared in the config (GuaranteedSlotConfig)
+    is only merged into simulate_competition's effective guaranteed_slots
+    when reference_date >= known_from -- but _tabulate itself is date-agnostic
+    (that gating happens in simulate_competition), so this test drives the
+    merge directly the same way simulate_competition does."""
+    config = _config(
+        guaranteed_slots=[{"team": "Champion", "spot": "tier_1", "known_from": "2025-11-29"}]
+    )
+    order = make_order(teams20, {8: "Champion"})
+
+    def effective_slots(reference_date):
+        slots = {}
+        for entry in config.guaranteed_slots:
+            if reference_date >= entry.known_from:
+                slots.setdefault(entry.team, []).append(entry.spot)
+        return slots
+
+    before = _run(config, order, guaranteed_slots=effective_slots(pd.Timestamp("2025-11-01")))
+    after = _run(config, order, guaranteed_slots=effective_slots(pd.Timestamp("2025-12-01")))
+
+    assert before.loc["Champion", "prob_tier_1"] == 0.0  # not known yet
+    assert before.loc["Champion", "prob_tier_3"] == 1.0  # still its natural table spot
+
+    assert after.loc["Champion", "prob_tier_1"] == 1.0  # known by this reference_date
+    assert after.loc["Champion", "prob_tier_3"] == 0.0
