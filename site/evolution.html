@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campo Aberto - Evolução</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%E2%9A%BD</text></svg>" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+</head>
+<body>
+  <header class="page-header">
+    <h1>Campo Aberto</h1>
+    <p class="subtitle">Evolução das probabilidades ao longo da temporada</p>
+  </header>
+
+  <nav class="page-nav" aria-label="Páginas">
+    <a href="index.html">Classificação</a>
+    <a href="evolution.html" aria-current="page">Evolução</a>
+  </nav>
+
+  <main>
+    <div class="controls">
+      <div class="tabs" id="competition-tabs" role="tablist" aria-label="Competição"></div>
+
+      <div class="season-picker">
+        <label for="season-select">Temporada</label>
+        <select id="season-select"></select>
+      </div>
+
+      <div class="season-picker">
+        <label for="spot-select">Probabilidade</label>
+        <select id="spot-select"></select>
+      </div>
+
+      <div class="team-picker" id="team-picker">
+        <button type="button" id="team-picker-toggle" class="team-picker-toggle" aria-haspopup="listbox" aria-expanded="false">
+          Times <span id="team-picker-count">(0/6)</span>
+        </button>
+        <div id="team-picker-panel" class="team-picker-panel" hidden></div>
+      </div>
+    </div>
+
+    <div class="chart-toolbar">
+      <button type="button" id="table-toggle" class="table-toggle-button" aria-pressed="false">Ver como tabela</button>
+    </div>
+
+    <div class="chart-card">
+      <div id="evolution-chart"></div>
+      <div class="table-scroll" id="evolution-table-wrap" hidden>
+        <table id="evolution-table">
+          <thead>
+            <tr id="evolution-table-head"></tr>
+          </thead>
+          <tbody id="evolution-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <p class="status-message" id="status-message" hidden></p>
+  </main>
+
+  <footer class="page-footer">
+    <p>
+      Gerado a partir de simulações do
+      <a href="https://github.com/IgorMichels/campo-aberto" target="_blank" rel="noopener">campo-aberto</a>.
+    </p>
+  </footer>
+
+  <script src="assets/js/evolution.js"></script>
+</body>
+</html>
