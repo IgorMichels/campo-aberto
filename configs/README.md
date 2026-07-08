@@ -264,6 +264,29 @@ deliberately left out of Serie A's `cascade`: it's a bonus nested inside
 `libertadores_grupos` (the champion is also a groups qualifier), not a tier
 competing for seats.
 
+#### Declaring guaranteed slots in the config (date-gated)
+
+A guaranteed slot can also be declared directly in the YAML, instead of (or
+alongside) passing it at call time:
+
+```yaml
+guaranteed_slots:
+  - team: "Palmeiras / SP"
+    spot: libertadores_grupos
+    known_from: "2025-11-29"
+```
+
+`known_from` is the real-world date the guarantee became known -- e.g. a
+Libertadores champion's berth isn't known until that year's final is played
+(the 2025 final between Flamengo and Palmeiras was on 2025-11-29). Backtesting
+with a `reference_date` before `known_from` simulates the competition as it
+actually looked *at the time*, before that guarantee existed; a
+`reference_date` on or after `known_from` includes it. `simulate_competition`
+merges every config entry whose `known_from` has passed with any
+`guaranteed_slots` dict/`--guaranteed-slot` passed directly to the call (see
+above) -- both sources contribute, and the CLI form is never date-gated
+(passing it at all is taken as confirmation it applies).
+
 ### Aggregates
 
 A derived spot that's just the sum of other spots' probabilities, e.g. total
