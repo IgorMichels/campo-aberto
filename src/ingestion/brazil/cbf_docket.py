@@ -14,13 +14,12 @@ import requests
 from PyPDF2 import PdfReader
 from PyPDF2.errors import PdfReadError
 
-DOCKET_URL = "https://conteudo.cbf.com.br/sumulas/{year}/{code}{game}se.pdf"
-COMPETITION_CODES = {
-    "Serie_A": "142",
-    "Serie_B": "242",
-}
-RETRY_ATTEMPTS = 3
-RETRY_BACKOFF_SECONDS = 2
+from src.ingestion.brazil.constants import (
+    COMPETITION_CODES,
+    DOCKET_URL,
+    RETRY_ATTEMPTS,
+    RETRY_BACKOFF_SECONDS,
+)
 
 TEAM_PATTERN = re.compile(
     r"Jogo:\s*([a-zA-Z0-9À-ÿ\s\.\-]+/\s*[A-Z]{2})\s*X\s*([a-zA-Z0-9À-ÿ\s\.\-]+/\s*[A-Z]{2})"

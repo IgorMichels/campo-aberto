@@ -543,7 +543,7 @@ def simulate_competition(
     teams: list[str],
     matches_df: pd.DataFrame,
     season: int,
-    reference_date: pd.Timestamp,
+    reference_date: pd.Timestamp | None = None,
     n_draws: int = 200,
     seed: int = 0,
     guaranteed_slots: dict[str, list[str]] | None = None,
@@ -552,13 +552,27 @@ def simulate_competition(
     probability of each declared spot (see configs/README.md for the schema).
 
     Args:
+        reference_date: the "as of" date phases are simulated from -- matches up
+            to this date count as played (see fixtures.split_fixtures), and it
+            gates any config-level `guaranteed_slots` entry (see
+            GuaranteedSlotConfig). Defaults to matches_df's latest match_datetime.
         guaranteed_slots: {team: [spot_name, ...]} for teams with an externally
             guaranteed slot (e.g. a Copa do Brasil berth) that bypasses table
             position -- repeat a spot_name to give one team multiple independent
             guarantees of the same tier (e.g. Libertadores champion + Copa do
-            Brasil champion). Only has an effect on phases whose `cascade` lists
-            spot_name (see RoundRobinPhaseConfig.cascade / _resolve_cascade).
+            Brasil champion). Merged with any date-gated entries declared in
+            `config.guaranteed_slots`. Only has an effect on phases whose
+            `cascade` lists spot_name (see RoundRobinPhaseConfig.cascade /
+            _resolve_cascade).
     """
+    if reference_date is None:
+        reference_date = matches_df["match_datetime"].max()
+
+    guaranteed_slots = {team: list(spots) for team, spots in (guaranteed_slots or {}).items()}
+    for entry in config.guaranteed_slots:
+        if reference_date >= entry.known_from:
+            guaranteed_slots.setdefault(entry.team, []).append(entry.spot)
+
     team_index = {team: i for i, team in enumerate(teams)}
     stan_vars = mcmc_fit.stan_variables()
     total_draws = stan_vars["eta"].shape[0]
