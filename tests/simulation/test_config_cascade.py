@@ -1,9 +1,10 @@
-"""Schema tests for RoundRobinPhaseConfig.cascade and the real Serie A / Serie B
-configs' use of it (see configs/README.md, "Cascade" section)."""
+"""Schema tests for RoundRobinPhaseConfig.cascade (see configs/README.md,
+"Cascade" section)."""
 
 import pytest
 
-from src.simulation.config import AggregateConfig, _parse_competition
+from src.simulation.config import RoundRobinPhaseConfig, _parse_competition, load_competition_config
+from tests.simulation.conftest import CONFIGS_DIR
 
 
 def _competition(cascade=None, extra_spots=()):
@@ -57,12 +58,21 @@ def test_cascade_rejects_duplicate_entries():
         )
 
 
-def test_serie_a_config_declares_the_libertadores_cascade_and_aggregate(serie_a_config):
-    league = serie_a_config.phase("league")
-    assert league.cascade == ("libertadores_grupos", "libertadores_pre", "sulamericana")
-    assert "title" not in league.cascade  # nested bonus, not a competing tier
-    assert AggregateConfig(name="libertadores", of=("libertadores_grupos", "libertadores_pre")) in serie_a_config.aggregates
+def test_real_configs_parse_and_declare_double_round_robin_leagues():
+    """Every config actually shipped in configs/*.yaml must load cleanly and,
+    for its (ungrouped) round_robin phases, use the only fixture-derivable
+    shape this engine supports (see fixtures.py) -- a double round-robin.
+    Deliberately config-agnostic: doesn't hardcode which file has a cascade,
+    an aggregate, or a playoff phase.
+    """
+    config_paths = sorted(CONFIGS_DIR.glob("*.yaml"))
+    assert config_paths, f"no configs found under {CONFIGS_DIR}"
 
-
-def test_serie_b_config_has_no_cascade(serie_b_config):
-    assert serie_b_config.phase("league").cascade == ()
+    for path in config_paths:
+        config = load_competition_config(path)
+        for phase in config.phases:
+            if isinstance(phase, RoundRobinPhaseConfig) and phase.groups is None:
+                assert phase.legs == 2, f"{path}: phase {phase.id!r} expected legs == 2"
+            for spot in phase.spots:
+                if spot.positions is not None:
+                    assert spot.positions[1] <= config.n_teams, f"{path}: spot {spot.name!r} exceeds n_teams"

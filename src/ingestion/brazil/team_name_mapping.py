@@ -15,8 +15,8 @@ from typing import Optional
 
 from rapidfuzz import fuzz, process, utils
 
-MAPPING_PATH = "data/processed/brazil/team_name_mapping.csv"
-SUGGESTION_COUNT = 3
+from src.ingestion.brazil.constants import MAPPING_PATH, SUGGESTION_COUNT
+
 STATE_PATTERN = re.compile(r"^(.*?)\s*/\s*([A-Za-z]{2})$")
 
 
