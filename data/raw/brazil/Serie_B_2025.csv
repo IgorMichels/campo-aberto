@@ -1,0 +1,381 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,05/04/2025,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Vila Nova / GO,1 X 0
+002,04/04/2025,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Amazonas Fc / AM,1 X 0
+003,07/04/2025,19:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Athletic Saf / MG,4 X 2
+004,04/04/2025,21:00,Olímpico do Pará / Belem,Paysandu / PA,Athletico Paranaense / PR,1 X 2
+005,06/04/2025,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Gremio Novorizontino - Saf / SP,1 X 1
+006,04/04/2025,21:00,Heriberto Hulse / Criciuma,Criciúma / SC,Operário / PR,1 X 2
+007,05/04/2025,16:00,Rei Pelé / Maceio,Crb / AL,Chapecoense / SC,1 X 0
+008,05/04/2025,18:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Botafogo / SP,1 X 0
+009,06/04/2025,19:00,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Remo / PA,1 X 1
+010,06/04/2025,19:00,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Cuiabá Saf / MT,0 X 1
+011,10/04/2025,19:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Criciúma / SC,2 X 1
+012,12/04/2025,18:00,Serra Dourada / Goiania,Vila Nova / GO,Paysandu / PA,1 X 0
+013,10/04/2025,21:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Avaí / SC,2 X 2
+014,13/04/2025,16:00,Olímpico do Pará / Belem,Remo / PA,America Saf / MG,2 X 0
+015,12/04/2025,16:00,Índio Condá / Chapeco,Chapecoense / SC,Coritiba S.a.f. / PR,1 X 2
+016,12/04/2025,20:00,Germano Kruger / Ponta Grossa,Operário / PR,Goiás / GO,1 X 2
+017,12/04/2025,19:00,Arena da Amazônia / Manaus,Amazonas Fc / AM,Ferroviária / SP,0 X 0
+018,13/04/2025,16:00,Raimundo Sampaio / Belo Horizonte,Athletic Saf / MG,Crb / AL,1 X 2
+019,12/04/2025,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Volta Redonda / RJ,1 X 0
+020,13/04/2025,19:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Atlético Goianiense Saf / GO,1 X 1
+021,16/04/2025,21:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Gremio Novorizontino - Saf / SP,0 X 0
+022,17/04/2025,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Vila Nova / GO,2 X 2
+023,15/04/2025,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Athletico Paranaense / PR,2 X 1
+024,16/04/2025,20:00,Olímpico do Pará / Belem,Paysandu / PA,Chapecoense / SC,0 X 2
+025,16/04/2025,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Operário / PR,1 X 0
+026,17/04/2025,20:00,Heriberto Hulse / Criciuma,Criciúma / SC,Athletic Saf / MG,4 X 0
+027,17/04/2025,20:00,Rei Pelé / Maceio,Crb / AL,Volta Redonda / RJ,1 X 0
+028,17/04/2025,21:35,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Amazonas Fc / AM,3 X 1
+029,17/04/2025,21:00,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Atlético Goianiense Saf / GO,2 X 0
+030,17/04/2025,20:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Remo / PA,2 X 2
+031,20/04/2025,19:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Crb / AL,2 X 0
+032,20/04/2025,16:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Botafogo / SP,2 X 0
+033,22/04/2025,19:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Cuiabá Saf / MT,1 X 1
+034,21/04/2025,21:30,Olímpico do Pará / Belem,Remo / PA,Coritiba S.a.f. / PR,1 X 0
+035,20/04/2025,18:00,Índio Condá / Chapeco,Chapecoense / SC,Athletic Saf / MG,1 X 0
+036,19/04/2025,16:00,Germano Kruger / Ponta Grossa,Operário / PR,Paysandu / PA,0 X 0
+037,21/04/2025,18:00,Arena da Amazônia / Manaus,Amazonas Fc / AM,Avaí / SC,0 X 2
+038,20/04/2025,20:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Goiás / GO,1 X 0
+039,21/04/2025,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Criciúma / SC,1 X 1
+040,22/04/2025,20:00,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Ferroviária / SP,0 X 0
+041,26/04/2025,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Operário / PR,2 X 0
+042,25/04/2025,21:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Chapecoense / SC,1 X 0
+043,27/04/2025,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Ferroviária / SP,1 X 0
+044,27/04/2025,17:00,Olímpico do Pará / Belem,Paysandu / PA,Crb / AL,1 X 1
+045,26/04/2025,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,America Saf / MG,3 X 0
+046,25/04/2025,19:00,Heriberto Hulse / Criciuma,Criciúma / SC,Remo / PA,1 X 1
+047,27/04/2025,16:30,Carlos Zamith / Manaus,Amazonas Fc / AM,Atlético Goianiense Saf / GO,1 X 1
+048,27/04/2025,16:00,Raimundo Sampaio / Belo Horizonte,Athletic Saf / MG,Volta Redonda / RJ,2 X 1
+049,24/04/2025,21:35,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Athletico Paranaense / PR,2 X 1
+050,28/04/2025,19:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Goiás / GO,0 X 1
+051,04/05/2025,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Botafogo / SP,1 X 4
+052,05/05/2025,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Avaí / SC,2 X 1
+053,04/05/2025,16:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Gremio Novorizontino - Saf / SP,1 X 0
+054,03/05/2025,16:00,Olímpico do Pará / Belem,Remo / PA,Amazonas Fc / AM,1 X 0
+055,04/05/2025,18:30,Índio Condá / Chapeco,Chapecoense / SC,Criciúma / SC,2 X 1
+056,04/05/2025,20:30,Germano Kruger / Ponta Grossa,Operário / PR,America Saf / MG,1 X 0
+057,06/05/2025,19:30,Rei Pelé / Maceio,Crb / AL,Cuiabá Saf / MT,1 X 1
+058,06/05/2025,21:30,Raimundo Sampaio / Belo Horizonte,Athletic Saf / MG,Vila Nova / GO,0 X 1
+059,02/05/2025,21:35,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Coritiba S.a.f. / PR,2 X 1
+060,03/05/2025,20:30,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Paysandu / PA,1 X 0
+061,08/05/2025,21:35,Ligga Arena / Curitiba,Athletico Paranaense / PR,Chapecoense / SC,1 X 1
+062,10/05/2025,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Coritiba S.a.f. / PR,1 X 0
+063,11/05/2025,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Operário / PR,2 X 3
+064,14/05/2025,19:00,Olímpico do Pará / Belem,Remo / PA,Vila Nova / GO,2 X 0
+065,10/05/2025,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Atlético Goianiense Saf / GO,0 X 0
+066,11/05/2025,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,Volta Redonda / RJ,0 X 0
+067,12/05/2025,21:00,Carlos Zamith / Manaus,Amazonas Fc / AM,Crb / AL,1 X 1
+068,14/05/2025,19:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Paysandu / PA,2 X 2
+069,11/05/2025,18:30,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Ferroviária / SP,2 X 2
+070,12/05/2025,19:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Athletic Saf / MG,0 X 3
+071,19/05/2025,21:35,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,America Saf / MG,1 X 0
+072,17/05/2025,18:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Athletico Paranaense / PR,2 X 1
+073,18/05/2025,16:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Remo / PA,1 X 1
+074,18/05/2025,18:30,Olímpico do Pará / Belem,Paysandu / PA,Goiás / GO,0 X 0
+075,16/05/2025,19:00,Índio Condá / Chapeco,Chapecoense / SC,Cuiabá Saf / MT,2 X 1
+076,17/05/2025,16:00,Major Antônio Couto Pereira / Curitiba,Operário / PR,Botafogo / SP,3 X 0
+077,18/05/2025,16:00,Rei Pelé / Maceio,Crb / AL,Criciúma / SC,1 X 0
+078,17/05/2025,20:30,Raimundo Sampaio / Belo Horizonte,Athletic Saf / MG,Gremio Novorizontino - Saf / SP,0 X 2
+079,15/05/2025,21:35,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Avaí / SC,1 X 1
+080,19/05/2025,19:00,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Amazonas Fc / AM,1 X 1
+081,24/05/2025,16:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Athletic Saf / MG,1 X 0
+082,23/05/2025,21:35,Hailé Pinheiro / Goiania,Goiás / GO,Ferroviária / SP,2 X 0
+083,26/05/2025,21:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Vila Nova / GO,1 X 0
+084,24/05/2025,18:00,Olímpico do Pará / Belem,Remo / PA,Volta Redonda / RJ,1 X 1
+085,24/05/2025,18:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Chapecoense / SC,2 X 1
+086,26/05/2025,19:00,Heriberto Hulse / Criciuma,Criciúma / SC,Coritiba S.a.f. / PR,0 X 1
+087,25/05/2025,18:30,Carlos Zamith / Manaus,Amazonas Fc / AM,Operário / PR,2 X 0
+088,27/05/2025,19:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Atlético Goianiense Saf / GO,2 X 1
+089,25/05/2025,16:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Paysandu / PA,3 X 1
+090,26/05/2025,20:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Crb / AL,2 X 1
+091,31/05/2025,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Avaí / SC,2 X 1
+092,30/05/2025,19:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Gremio Novorizontino - Saf / SP,0 X 1
+093,31/05/2025,18:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Goiás / GO,1 X 2
+094,02/06/2025,21:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Criciúma / SC,0 X 1
+095,02/06/2025,19:00,Índio Condá / Chapeco,Chapecoense / SC,Amazonas Fc / AM,4 X 0
+096,01/06/2025,16:00,Germano Kruger / Ponta Grossa,Operário / PR,Athletico Paranaense / PR,2 X 2
+097,01/06/2025,18:00,Rei Pelé / Maceio,Crb / AL,Remo / PA,2 X 0
+098,31/05/2025,20:30,Raimundo Sampaio / Belo Horizonte,Athletic Saf / MG,Cuiabá Saf / MT,0 X 2
+099,29/05/2025,21:35,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Botafogo / SP,1 X 1
+100,01/06/2025,20:30,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,America Saf / MG,1 X 0
+101,08/06/2025,18:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Atlético Goianiense Saf / GO,0 X 1
+102,08/06/2025,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Volta Redonda / RJ,2 X 0
+103,06/06/2025,21:35,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Paysandu / PA,1 X 0
+104,08/06/2025,19:00,Olímpico do Pará / Belem,Remo / PA,Operário / PR,2 X 1
+105,07/06/2025,20:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Crb / AL,1 X 0
+106,09/06/2025,19:00,Heriberto Hulse / Criciuma,Criciúma / SC,Vila Nova / GO,1 X 0
+107,09/06/2025,19:30,Carlos Zamith / Manaus,Amazonas Fc / AM,Athletic Saf / MG,1 X 0
+108,07/06/2025,16:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Ferroviária / SP,1 X 2
+109,06/06/2025,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Chapecoense / SC,1 X 0
+110,05/06/2025,18:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Coritiba S.a.f. / PR,0 X 0
+111,14/06/2025,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Remo / PA,2 X 1
+112,13/06/2025,19:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,America Saf / MG,0 X 3
+113,15/06/2025,16:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Coritiba S.a.f. / PR,0 X 0
+114,13/06/2025,21:35,Leônidas Sobré de Castro / Belem,Paysandu / PA,Botafogo / SP,1 X 0
+115,16/06/2025,19:00,Índio Condá / Chapeco,Chapecoense / SC,Ferroviária / SP,2 X 1
+116,15/06/2025,20:30,Heriberto Hulse / Criciuma,Criciúma / SC,Amazonas Fc / AM,3 X 2
+117,14/06/2025,16:00,Rei Pelé / Maceio,Crb / AL,Goiás / GO,2 X 0
+118,14/06/2025,20:30,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,Operário / PR,2 X 1
+119,15/06/2025,16:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Cuiabá Saf / MT,3 X 0
+120,17/06/2025,19:30,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Avaí / SC,1 X 1
+121,22/06/2025,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Cuiabá Saf / MT,2 X 0
+122,23/06/2025,21:00,Hailé Pinheiro / Goiania,Goiás / GO,Athletic Saf / MG,1 X 2
+123,22/06/2025,16:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Volta Redonda / RJ,2 X 0
+124,21/06/2025,18:30,Olímpico do Pará / Belem,Remo / PA,Paysandu / PA,0 X 1
+125,21/06/2025,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Athletico Paranaense / PR,1 X 2
+126,23/06/2025,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Gremio Novorizontino - Saf / SP,2 X 0
+127,22/06/2025,18:00,Carlos Zamith / Manaus,Amazonas Fc / AM,Vila Nova / GO,2 X 1
+128,20/06/2025,21:35,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Criciúma / SC,1 X 1
+129,21/06/2025,20:30,Dr. Jorge Ismael de Biasi / Novo Horizonte,Ferroviária / SP,Crb / AL,1 X 0
+130,20/06/2025,19:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Chapecoense / SC,1 X 0
+131,28/06/2025,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Coritiba S.a.f. / PR,0 X 1
+132,28/06/2025,16:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Atlético Goianiense Saf / GO,1 X 0
+133,30/06/2025,21:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Botafogo / SP,0 X 1
+134,30/06/2025,19:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Ferroviária / SP,2 X 1
+135,29/06/2025,19:00,Índio Condá / Chapeco,Chapecoense / SC,Goiás / GO,1 X 2
+136,27/06/2025,20:30,Heriberto Hulse / Criciuma,Criciúma / SC,Avaí / SC,1 X 2
+137,26/06/2025,21:35,Rei Pelé / Maceio,Crb / AL,America Saf / MG,1 X 2
+138,29/06/2025,16:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,Remo / PA,1 X 2
+139,29/06/2025,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Amazonas Fc / AM,1 X 1
+140,29/06/2025,16:00,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Operário / PR,1 X 0
+141,04/07/2025,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Volta Redonda / RJ,2 X 0
+142,08/07/2025,19:30,Hailé Pinheiro / Goiania,Goiás / GO,Criciúma / SC,1 X 1
+143,03/07/2025,21:35,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Crb / AL,2 X 1
+144,05/07/2025,16:00,Olímpico do Pará / Belem,Remo / PA,Cuiabá Saf / MT,0 X 0
+145,05/07/2025,19:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Paysandu / PA,0 X 0
+146,07/07/2025,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Chapecoense / SC,1 X 2
+147,05/07/2025,20:30,Carlos Zamith / Manaus,Amazonas Fc / AM,Athletico Paranaense / PR,0 X 1
+148,07/07/2025,21:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Athletic Saf / MG,0 X 1
+149,06/07/2025,16:00,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Vila Nova / GO,1 X 3
+150,06/07/2025,18:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Gremio Novorizontino - Saf / SP,0 X 0
+151,12/07/2025,20:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Goiás / GO,0 X 1
+152,11/07/2025,19:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Operário / PR,0 X 0
+153,15/07/2025,19:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Amazonas Fc / AM,3 X 1
+154,12/07/2025,18:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Atlético Goianiense Saf / GO,2 X 2
+155,13/07/2025,18:30,Índio Condá / Chapeco,Chapecoense / SC,Remo / PA,1 X 1
+156,13/07/2025,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,Ferroviária / SP,2 X 1
+157,10/07/2025,21:35,Rei Pelé / Maceio,Crb / AL,Coritiba S.a.f. / PR,0 X 1
+158,14/07/2025,19:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,Avaí / SC,4 X 0
+159,12/07/2025,16:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,America Saf / MG,3 X 1
+160,14/07/2025,21:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Volta Redonda / RJ,0 X 0
+161,19/07/2025,18:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Paysandu / PA,2 X 5
+162,19/07/2025,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Cuiabá Saf / MT,3 X 1
+163,18/07/2025,19:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Criciúma / SC,0 X 1
+164,17/07/2025,21:35,Olímpico do Pará / Belem,Remo / PA,Gremio Novorizontino - Saf / SP,1 X 1
+165,19/07/2025,18:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Vila Nova / GO,1 X 1
+166,17/07/2025,19:30,Germano Kruger / Ponta Grossa,Operário / PR,Crb / AL,1 X 1
+167,20/07/2025,16:00,Carlos Zamith / Manaus,Amazonas Fc / AM,Botafogo / SP,3 X 0
+168,20/07/2025,18:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Chapecoense / SC,0 X 1
+169,18/07/2025,21:30,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Athletic Saf / MG,1 X 2
+170,19/07/2025,20:30,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Athletico Paranaense / PR,3 X 2
+171,22/07/2025,20:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Ferroviária / SP,1 X 1
+172,22/07/2025,21:35,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Crb / AL,2 X 0
+173,23/07/2025,21:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,America Saf / MG,3 X 1
+174,24/07/2025,21:35,Olímpico do Pará / Belem,Remo / PA,Avaí / SC,2 X 1
+175,23/07/2025,19:00,Índio Condá / Chapeco,Chapecoense / SC,Volta Redonda / RJ,4 X 2
+176,22/07/2025,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Atlético Goianiense Saf / GO,3 X 0
+177,23/07/2025,21:30,Carlos Zamith / Manaus,Amazonas Fc / AM,Paysandu / PA,1 X 1
+178,22/07/2025,21:30,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,Coritiba S.a.f. / PR,1 X 1
+179,23/07/2025,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Goiás / GO,1 X 0
+180,24/07/2025,19:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Criciúma / SC,0 X 2
+181,27/07/2025,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Amazonas Fc / AM,1 X 1
+182,29/07/2025,21:35,Hailé Pinheiro / Goiania,Goiás / GO,Remo / PA,1 X 1
+183,27/07/2025,19:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Chapecoense / SC,0 X 0
+184,28/07/2025,21:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Athletic Saf / MG,1 X 1
+185,28/07/2025,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Botafogo / SP,5 X 0
+186,29/07/2025,20:30,Heriberto Hulse / Criciuma,Criciúma / SC,Cuiabá Saf / MT,1 X 0
+187,26/07/2025,20:30,Rei Pelé / Maceio,Crb / AL,Gremio Novorizontino - Saf / SP,4 X 0
+188,27/07/2025,18:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Athletico Paranaense / PR,2 X 2
+189,26/07/2025,18:30,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Operário / PR,0 X 0
+190,27/07/2025,16:00,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Vila Nova / GO,2 X 1
+191,03/08/2025,18:30,Ligga  Arena / Curitiba,Athletico Paranaense / PR,Paysandu / PA,1 X 1
+192,31/07/2025,21:35,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Coritiba S.a.f. / PR,1 X 2
+193,04/08/2025,21:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Volta Redonda / RJ,2 X 0
+194,01/08/2025,19:00,Olímpico do Pará / Belem,Remo / PA,Ferroviária / SP,0 X 2
+195,03/08/2025,16:00,Índio Condá / Chapeco,Chapecoense / SC,Crb / AL,3 X 2
+196,01/08/2025,21:30,Germano Kruger / Ponta Grossa,Operário / PR,Criciúma / SC,1 X 0
+197,02/08/2025,20:30,Arena da Amazônia / Manaus,Amazonas Fc / AM,Goiás / GO,2 X 2
+198,04/08/2025,19:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,Atlético Goianiense Saf / GO,1 X 1
+199,03/08/2025,16:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Avaí / SC,1 X 1
+200,02/08/2025,18:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,America Saf / MG,2 X 1
+201,08/08/2025,21:35,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Chapecoense / SC,0 X 0
+202,09/08/2025,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Operário / PR,2 X 1
+203,10/08/2025,18:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Botafogo / SP,2 X 0
+204,11/08/2025,21:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Vila Nova / GO,0 X 1
+205,10/08/2025,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Cuiabá Saf / MT,2 X 0
+206,11/08/2025,19:00,Heriberto Hulse / Criciuma,Criciúma / SC,Athletico Paranaense / PR,4 X 2
+207,12/08/2025,19:30,Rei Pelé / Maceio,Crb / AL,Athletic Saf / MG,1 X 0
+208,09/08/2025,16:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Remo / PA,0 X 1
+209,08/08/2025,19:00,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Amazonas Fc / AM,2 X 1
+210,09/08/2025,20:30,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Gremio Novorizontino - Saf / SP,0 X 0
+211,16/08/2025,20:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Cuiabá Saf / MT,1 X 1
+212,16/08/2025,18:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Goiás / GO,2 X 0
+213,17/08/2025,18:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Ferroviária / SP,1 X 3
+214,16/08/2025,16:00,Olímpico do Pará / Belem,Remo / PA,Botafogo / SP,1 X 1
+215,17/08/2025,16:00,Índio Condá / Chapeco,Chapecoense / SC,Paysandu / PA,2 X 0
+216,19/08/2025,19:30,Germano Kruger / Ponta Grossa,Operário / PR,Avaí / SC,0 X 0
+217,15/08/2025,20:00,Carlos Zamith / Manaus,Amazonas Fc / AM,America Saf / MG,2 X 2
+218,18/08/2025,21:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,Criciúma / SC,1 X 1
+219,14/08/2025,21:35,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Coritiba S.a.f. / PR,1 X 2
+220,18/08/2025,19:00,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Crb / AL,0 X 1
+221,23/08/2025,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Remo / PA,0 X 0
+222,23/08/2025,18:00,Hailé Pinheiro / Goiania,Goiás / GO,America Saf / MG,1 X 0
+223,24/08/2025,20:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Atlético Goianiense Saf / GO,2 X 2
+224,24/08/2025,16:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Operário / PR,1 X 2
+225,25/08/2025,21:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Amazonas Fc / AM,1 X 2
+226,22/08/2025,21:35,Heriberto Hulse / Criciuma,Criciúma / SC,Gremio Novorizontino - Saf / SP,2 X 0
+227,23/08/2025,20:30,Rei Pelé / Maceio,Crb / AL,Athletico Paranaense / PR,0 X 1
+228,22/08/2025,19:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,Chapecoense / SC,0 X 4
+229,24/08/2025,18:30,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Volta Redonda / RJ,0 X 0
+230,25/08/2025,19:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Vila Nova / GO,2 X 0
+231,30/08/2025,20:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Gremio Novorizontino - Saf / SP,2 X 1
+232,30/08/2025,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Botafogo / SP,2 X 3
+233,31/08/2025,16:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Amazonas Fc / AM,2 X 0
+234,28/08/2025,21:35,Olímpico do Pará / Belem,Remo / PA,Criciúma / SC,0 X 1
+235,01/09/2025,19:00,Índio Condá / Chapeco,Chapecoense / SC,Vila Nova / GO,2 X 2
+236,29/08/2025,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Coritiba S.a.f. / PR,1 X 0
+237,30/08/2025,16:00,Rei Pelé / Maceio,Crb / AL,Paysandu / PA,2 X 0
+238,02/09/2025,19:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Avaí / SC,2 X 0
+239,01/09/2025,21:30,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Cuiabá Saf / MT,2 X 2
+240,31/08/2025,18:30,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Athletic Saf / MG,0 X 2
+241,05/09/2025,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Ferroviária / SP,4 X 0
+242,08/09/2025,21:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Athletic Saf / MG,1 X 1
+243,08/09/2025,20:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Crb / AL,1 X 0
+244,05/09/2025,19:00,Olímpico do Pará / Belem,Paysandu / PA,Volta Redonda / RJ,1 X 2
+245,07/09/2025,20:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Goiás / GO,2 X 1
+246,07/09/2025,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,Chapecoense / SC,2 X 0
+247,05/09/2025,17:00,Carlos Zamith / Manaus,Amazonas Saf / AM,Remo / PA,1 X 3
+248,07/09/2025,18:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Operário / PR,1 X 1
+249,08/09/2025,19:30,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Atlético Goianiense Saf / GO,1 X 1
+250,06/09/2025,16:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Athletico Paranaense / PR,1 X 3
+251,12/09/2025,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Goiás / GO,0 X 0
+252,13/09/2025,18:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Remo / PA,1 X 1
+253,16/09/2025,19:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Avaí / SC,2 X 1
+254,13/09/2025,16:00,Olímpico do Pará / Belem,Paysandu / PA,America Saf / MG,0 X 0
+255,16/09/2025,21:35,Índio Condá / Chapeco,Chapecoense / SC,Athletico Paranaense / PR,2 X 3
+256,14/09/2025,16:00,Germano Kruger / Ponta Grossa,Operário / PR,Cuiabá Saf / MT,1 X 1
+257,15/09/2025,21:30,Rei Pelé / Maceio,Crb / AL,Amazonas Saf / AM,2 X 0
+258,14/09/2025,18:30,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,Botafogo / SP,2 X 0
+259,15/09/2025,19:00,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Gremio Novorizontino - Saf / SP,1 X 2
+260,12/09/2025,19:00,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Criciúma / SC,0 X 0
+261,21/09/2025,19:00,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Vila Nova / GO,2 X 0
+262,20/09/2025,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Paysandu / PA,1 X 0
+263,21/09/2025,20:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Chapecoense / SC,1 X 0
+264,20/09/2025,20:30,Evandro Almeida / Belem,Remo / PA,Atlético Goianiense Saf / GO,0 X 1
+265,20/09/2025,18:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Ferroviária / SP,2 X 2
+266,21/09/2025,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,Crb / AL,1 X 0
+267,20/09/2025,18:30,Carlos Zamith / Manaus,Amazonas Saf / AM,Volta Redonda / RJ,1 X 0
+268,21/09/2025,16:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Coritiba S.a.f. / PR,1 X 0
+269,19/09/2025,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Athletic Saf / MG,1 X 0
+270,18/09/2025,19:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Operário / PR,1 X 1
+271,25/09/2025,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Criciúma / SC,0 X 2
+272,24/09/2025,19:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Cuiabá Saf / MT,2 X 2
+273,25/09/2025,21:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,America Saf / MG,1 X 0
+274,23/09/2025,19:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Gremio Novorizontino - Saf / SP,0 X 1
+275,25/09/2025,21:35,Índio Condá / Chapeco,Chapecoense / SC,Avaí / SC,0 X 1
+276,24/09/2025,20:00,Germano Kruger / Ponta Grossa,Operário / PR,Amazonas Saf / AM,2 X 1
+277,24/09/2025,19:00,Rei Pelé / Maceio,Crb / AL,Botafogo / SP,3 X 2
+278,24/09/2025,19:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,Athletico Paranaense / PR,0 X 3
+279,23/09/2025,21:35,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Goiás / GO,1 X 1
+280,24/09/2025,21:30,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Remo / PA,2 X 1
+281,27/09/2025,20:30,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Operário / PR,1 X 0
+282,30/09/2025,21:35,Hailé Pinheiro / Goiania,Goiás / GO,Atlético Goianiense Saf / GO,0 X 0
+283,28/09/2025,20:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Athletic Saf / MG,2 X 1
+284,28/09/2025,18:00,Olímpico do Pará / Belem,Remo / PA,Crb / AL,4 X 2
+285,29/09/2025,19:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Coritiba S.a.f. / PR,0 X 2
+286,28/09/2025,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,Paysandu / PA,2 X 4
+287,29/09/2025,16:00,Carlos Zamith / Manaus,Amazonas Saf / AM,Chapecoense / SC,1 X 3
+288,29/09/2025,19:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Volta Redonda / RJ,2 X 1
+289,28/09/2025,16:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Vila Nova / GO,1 X 1
+290,28/09/2025,18:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Ferroviária / SP,1 X 2
+291,03/10/2025,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Botafogo / SP,2 X 0
+292,02/10/2025,21:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Criciúma / SC,1 X 1
+293,05/10/2025,20:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Athletico Paranaense / PR,3 X 0
+294,02/10/2025,19:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Cuiabá Saf / MT,1 X 1
+295,04/10/2025,16:00,Índio Condá / Chapeco,Chapecoense / SC,Gremio Novorizontino - Saf / SP,1 X 0
+296,05/10/2025,16:00,Germano Kruger / Ponta Grossa,Operário / PR,Remo / PA,0 X 1
+297,03/10/2025,21:35,Rei Pelé / Maceio,Crb / AL,Avaí / SC,1 X 0
+298,03/10/2025,19:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,Amazonas Saf / AM,2 X 2
+299,04/10/2025,20:30,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,America Saf / MG,1 X 3
+300,04/10/2025,18:30,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Goiás / GO,0 X 0
+301,09/10/2025,19:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Atlético Goianiense Saf / GO,2 X 1
+302,07/10/2025,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Crb / AL,1 X 2
+303,08/10/2025,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Gremio Novorizontino - Saf / SP,0 X 1
+304,09/10/2025,21:35,Evandro Almeida / Belem,Remo / PA,Athletico Paranaense / PR,2 X 1
+305,08/10/2025,21:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Volta Redonda / RJ,3 X 0
+306,08/10/2025,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Athletic Saf / MG,1 X 4
+307,07/10/2025,20:00,Carlos Zamith / Manaus,Amazonas Saf / AM,Criciúma / SC,2 X 1
+308,08/10/2025,21:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Vila Nova / GO,1 X 1
+309,09/10/2025,19:00,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Chapecoense / SC,0 X 1
+310,07/10/2025,21:35,Santa Cruz / Ribeirao Preto,Botafogo / SP,Paysandu / PA,1 X 0
+311,14/10/2025,21:30,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Avaí / SC,1 X 1
+312,12/10/2025,18:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Amazonas Saf / AM,1 X 0
+313,12/10/2025,20:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Coritiba S.a.f. / PR,1 X 0
+314,14/10/2025,19:30,Olímpico do Pará / Belem,Paysandu / PA,Remo / PA,2 X 3
+315,14/10/2025,19:30,Índio Condá / Chapeco,Chapecoense / SC,Botafogo / SP,1 X 1
+316,12/10/2025,18:30,Heriberto Hulse / Criciuma,Criciúma / SC,America Saf / MG,2 X 1
+317,13/10/2025,21:30,Rei Pelé / Maceio,Crb / AL,Ferroviária / SP,2 X 2
+318,11/10/2025,16:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,Goiás / GO,1 X 1
+319,12/10/2025,16:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Operário / PR,3 X 0
+320,13/10/2025,19:00,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Atlético Goianiense Saf / GO,3 X 0
+321,19/10/2025,18:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Athletico Paranaense / PR,0 X 0
+322,19/10/2025,20:30,Hailé Pinheiro / Goiania,Goiás / GO,Chapecoense / SC,1 X 3
+323,18/10/2025,16:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Vila Nova / GO,1 X 0
+324,18/10/2025,20:30,Evandro Almeida / Belem,Remo / PA,Athletic Saf / MG,3 X 1
+325,19/10/2025,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Criciúma / SC,1 X 1
+326,19/10/2025,16:00,Germano Kruger / Ponta Grossa,Operário / PR,Volta Redonda / RJ,2 X 1
+327,17/10/2025,20:00,Carlos Zamith / Manaus,Amazonas Saf / AM,Gremio Novorizontino - Saf / SP,0 X 0
+328,18/10/2025,18:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Crb / AL,1 X 1
+329,20/10/2025,19:30,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Paysandu / PA,2 X 2
+330,19/10/2025,18:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Cuiabá Saf / MT,2 X 2
+331,27/10/2025,21:30,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Amazonas Saf / AM,2 X 0
+332,26/10/2025,18:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Ferroviária / SP,2 X 2
+333,24/10/2025,21:35,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Remo / PA,1 X 3
+334,25/10/2025,18:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Avaí / SC,1 X 2
+335,27/10/2025,19:00,Índio Condá / Chapeco,Chapecoense / SC,Operário / PR,2 X 0
+336,25/10/2025,20:30,Heriberto Hulse / Criciuma,Criciúma / SC,Goiás / GO,1 X 2
+337,26/10/2025,16:00,Rei Pelé / Maceio,Crb / AL,Atlético Goianiense Saf / GO,2 X 1
+338,25/10/2025,16:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,America Saf / MG,0 X 2
+339,24/10/2025,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Botafogo / SP,1 X 1
+340,25/10/2025,16:00,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Coritiba S.a.f. / PR,0 X 1
+341,31/10/2025,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Crb / AL,0 X 0
+342,01/11/2025,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Athletico Paranaense / PR,0 X 1
+343,31/10/2025,19:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Paysandu / PA,2 X 1
+344,02/11/2025,18:30,Evandro Almeida / Belem,Remo / PA,Chapecoense / SC,1 X 1
+345,01/11/2025,18:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Athletic Saf / MG,2 X 1
+346,02/11/2025,20:30,Germano Kruger / Ponta Grossa,Operário / PR,Vila Nova / GO,2 X 2
+347,02/11/2025,16:00,Carlos Zamith / Manaus,Amazonas Saf / AM,Cuiabá Saf / MT,2 X 0
+348,03/11/2025,19:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Gremio Novorizontino - Saf / SP,2 X 2
+349,31/10/2025,21:35,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Criciúma / SC,0 X 0
+350,03/11/2025,19:00,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Botafogo / SP,0 X 1
+351,08/11/2025,18:30,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Volta Redonda / RJ,2 X 0
+352,08/11/2025,20:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Avaí / SC,2 X 2
+353,07/11/2025,21:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Goiás / GO,0 X 1
+354,09/11/2025,20:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Coritiba S.a.f. / PR,1 X 2
+355,10/11/2025,19:00,Índio Condá / Chapeco,Chapecoense / SC,America Saf / MG,0 X 1
+356,09/11/2025,17:00,Heriberto Hulse / Criciuma,Criciúma / SC,Atlético Goianiense Saf / GO,1 X 0
+357,09/11/2025,18:30,Rei Pelé / Maceio,Crb / AL,Operário / PR,2 X 2
+358,07/11/2025,19:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,Ferroviária / SP,2 X 1
+359,08/11/2025,16:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Remo / PA,1 X 1
+360,10/11/2025,19:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Amazonas Saf / AM,1 X 0
+361,15/11/2025,16:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Athletic Saf / MG,0 X 0
+362,16/11/2025,16:30,Hailé Pinheiro / Goiania,Goiás / GO,Gremio Novorizontino - Saf / SP,1 X 0
+363,15/11/2025,16:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Operário / PR,0 X 0
+364,14/11/2025,20:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Amazonas Saf / AM,2 X 2
+365,15/11/2025,16:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Remo / PA,3 X 1
+366,16/11/2025,16:30,Heriberto Hulse / Criciuma,Criciúma / SC,Botafogo / SP,2 X 0
+367,15/11/2025,16:30,Rei Pelé / Maceio,Crb / AL,Vila Nova / GO,2 X 0
+368,16/11/2025,16:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Cuiabá Saf / MT,1 X 1
+369,16/11/2025,16:30,Ademar Pereira de Barros / Araraquara,Ferroviária / SP,Athletico Paranaense / PR,1 X 2
+370,15/11/2025,16:30,Sylvio Raulino de Oliveira / Volta Redonda,Volta Redonda / RJ,Chapecoense / SC,1 X 1
+371,23/11/2025,16:30,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,America Saf / MG,1 X 0
+372,19/11/2025,19:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Volta Redonda / RJ,2 X 2
+373,23/11/2025,16:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Criciúma / SC,1 X 0
+374,23/11/2025,16:30,Olímpico do Pará / Belem,Remo / PA,Goiás / GO,3 X 1
+375,23/11/2025,16:30,Índio Condá / Chapeco,Chapecoense / SC,Atlético Goianiense Saf / GO,1 X 0
+376,23/11/2025,16:30,Germano Kruger / Ponta Grossa,Operário / PR,Ferroviária / SP,2 X 1
+377,23/11/2025,16:30,Carlos Zamith / Manaus,Amazonas Saf / AM,Coritiba S.a.f. / PR,1 X 2
+378,23/11/2025,16:30,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Saf / MG,Paysandu / PA,2 X 1
+379,22/11/2025,19:30,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Crb / AL,3 X 0
+380,23/11/2025,16:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Avaí / SC,0 X 0

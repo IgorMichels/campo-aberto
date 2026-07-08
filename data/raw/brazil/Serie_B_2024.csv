@@ -1,0 +1,381 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,22/04/2024,21:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Guarani / SP,2 X 0
+002,21/04/2024,18:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Coritiba S.a.f. / PR,1 X 1
+003,19/04/2024,19:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,America Saf / MG,1 X 1
+004,19/04/2024,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Crb / AL,2 X 1
+005,20/04/2024,16:30,Urbano Caldeira / Santos,Santos / SP,Paysandu / PA,2 X 0
+006,20/04/2024,15:30,Índio Condá / Chapeco,Chapecoense / SC,Ituano / SP,3 X 1
+007,23/04/2024,21:00,Hercílio Luz / Itajai,Brusque / SC,Mirassol / SP,3 X 1
+008,19/04/2024,21:00,Germano Kruger / Ponta Grossa,Operário / PR,Avaí / SC,1 X 0
+009,20/04/2024,17:00,Arena da Amazônia / Manaus,Amazonas Fc / AM,Sport / PE,2 X 3
+010,20/04/2024,18:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Goiás / GO,1 X 1
+011,28/04/2024,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Ponte Preta / SP,3 X 0
+012,26/04/2024,21:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Chapecoense / SC,0 X 1
+013,29/04/2024,19:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Ceará / CE,3 X 2
+014,26/04/2024,19:00,Novelli Junior / Itu,Ituano / SP,Operário / PR,0 X 2
+015,27/04/2024,18:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Gremio Novorizontino - Saf / SP,2 X 0
+016,26/04/2024,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Santos / SP,0 X 2
+017,27/04/2024,17:00,Rei Pelé / Maceio,Crb / AL,Amazonas Fc / AM,0 X 0
+018,28/04/2024,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Brusque / SC,1 X 0
+019,27/04/2024,17:00,Olímpico do Pará / Belem,Paysandu / PA,Botafogo / SP,1 X 1
+020,26/04/2024,19:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Vila Nova / GO,2 X 0
+021,04/05/2024,18:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Operário / PR,1 X 0
+022,06/05/2024,20:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Amazonas Fc / AM,3 X 0
+023,07/05/2024,21:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Mirassol / SP,0 X 0
+024,04/05/2024,21:00,Novelli Junior / Itu,Ituano / SP,Gremio Novorizontino - Saf / SP,1 X 3
+025,06/05/2024,21:00,Urbano Caldeira / Santos,Santos / SP,Guarani / SP,4 X 1
+026,04/05/2024,17:00,Índio Condá / Chapeco,Chapecoense / SC,America Saf / MG,2 X 2
+027,05/05/2024,16:00,Hercílio Luz / Itajai,Brusque / SC,Goiás / GO,0 X 2
+028,03/05/2024,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Sport / PE,0 X 1
+029,03/05/2024,19:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Avaí / SC,0 X 0
+030,06/05/2024,19:00,Presidente Vargas / Fortaleza,Ceará / CE,Crb / AL,2 X 2
+031,10/05/2024,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Ituano / SP,2 X 0
+032,11/05/2024,17:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Botafogo / SP,2 X 0
+033,12/05/2024,16:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Paysandu / PA,2 X 1
+034,10/05/2024,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Ceará / CE,0 X 3
+035,08/05/2024,21:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Vila Nova / GO,3 X 1
+036,11/05/2024,21:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Coritiba S.a.f. / PR,1 X 0
+037,10/05/2024,21:30,Rei Pelé / Maceio,Crb / AL,Chapecoense / SC,2 X 0
+038,11/05/2024,17:00,Germano Kruger / Ponta Grossa,Operário / PR,Ponte Preta / SP,1 X 1
+039,11/05/2024,17:00,Arena da Amazônia / Manaus,Amazonas Fc / AM,Santos / SP,1 X 0
+040,11/05/2024,17:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Brusque / SC,4 X 1
+041,14/05/2024,19:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Gremio Novorizontino - Saf / SP,2 X 1
+042,15/05/2024,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Santos / SP,1 X 2
+043,14/05/2024,21:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Chapecoense / SC,0 X 0
+044,15/05/2024,19:00,Novelli Junior / Itu,Ituano / SP,Sport / PE,1 X 0
+045,15/05/2024,19:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Mirassol / SP,0 X 0
+046,14/05/2024,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Crb / AL,2 X 1
+047,15/05/2024,19:00,Hercílio Luz / Itajai,Brusque / SC,Operário / PR,0 X 0
+048,14/05/2024,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Guarani / SP,1 X 0
+049,15/05/2024,21:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Goiás / GO,1 X 1
+050,15/05/2024,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Amazonas Fc / AM,2 X 1
+051,18/05/2024,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Botafogo / SP,4 X 0
+052,20/05/2024,21:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,America Saf / MG,1 X 2
+053,19/05/2024,16:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Ituano / SP,2 X 0
+054,17/05/2024,21:30,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Coritiba S.a.f. / PR,0 X 0
+055,19/05/2024,11:00,Urbano Caldeira / Santos,Santos / SP,Brusque / SC,4 X 0
+056,21/05/2024,17:00,Índio Condá / Chapeco,Chapecoense / SC,Ponte Preta / SP,0 X 0
+057,17/05/2024,19:00,Rei Pelé / Maceio,Crb / AL,Vila Nova / GO,1 X 0
+058,19/05/2024,16:00,Germano Kruger / Ponta Grossa,Operário / PR,Ceará / CE,0 X 0
+059,18/05/2024,17:30,Arena da Amazônia / Manaus,Amazonas Fc / AM,Paysandu / PA,1 X 1
+060,18/05/2024,21:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Avaí / SC,1 X 2
+061,26/05/2024,17:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Brusque / SC,2 X 2
+062,25/05/2024,21:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Paysandu / PA,0 X 0
+063,27/05/2024,21:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Gremio Novorizontino - Saf / SP,0 X 1
+064,26/05/2024,16:00,Novelli Junior / Itu,Ituano / SP,Ponte Preta / SP,2 X 0
+065,24/05/2024,21:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Santos / SP,2 X 1
+066,27/05/2024,21:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Goiás / GO,2 X 0
+067,11/09/2024,21:30,Rei Pelé / Maceio,Crb / AL,Sport / PE,1 X 1
+068,27/05/2024,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Operário / PR,3 X 0
+069,28/05/2024,19:00,Arena da Amazônia / Manaus,Amazonas Fc / AM,Mirassol / SP,1 X 0
+070,26/05/2024,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Chapecoense / SC,2 X 1
+071,31/05/2024,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Sport / PE,3 X 0
+072,02/06/2024,16:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Crb / AL,4 X 2
+073,04/06/2024,19:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Guarani / SP,3 X 0
+074,02/06/2024,18:30,Novelli Junior / Itu,Ituano / SP,Avaí / SC,0 X 1
+075,03/06/2024,20:00,Jacy Scaff / Londrina,Santos / SP,Botafogo / SP,1 X 2
+076,02/06/2024,16:00,Índio Condá / Chapeco,Chapecoense / SC,Vila Nova / GO,1 X 1
+077,01/06/2024,17:00,Hercílio Luz / Itajai,Brusque / SC,Gremio Novorizontino - Saf / SP,0 X 0
+078,03/06/2024,21:00,Germano Kruger / Ponta Grossa,Operário / PR,Amazonas Fc / AM,1 X 0
+079,04/06/2024,21:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,America Saf / MG,2 X 0
+080,31/05/2024,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Coritiba S.a.f. / PR,1 X 0
+081,10/06/2024,19:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Ceará / CE,3 X 2
+082,08/06/2024,17:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Operário / PR,0 X 1
+083,11/06/2024,19:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Goiás / GO,1 X 0
+084,07/06/2024,21:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Santos / SP,3 X 1
+085,09/06/2024,18:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Ponte Preta / SP,2 X 0
+086,09/06/2024,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Chapecoense / SC,0 X 0
+087,17/07/2024,20:30,Rei Pelé / Maceio,Crb / AL,Botafogo / SP,4 X 1
+088,07/06/2024,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Ituano / SP,4 X 2
+089,08/06/2024,17:00,Carlos Zamith / Manaus,Amazonas Fc / AM,Brusque / SC,2 X 1
+090,10/06/2024,21:30,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Paysandu / PA,1 X 0
+091,16/06/2024,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Coritiba S.a.f. / PR,1 X 1
+092,15/06/2024,17:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Gremio Novorizontino - Saf / SP,1 X 0
+093,16/06/2024,11:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Vila Nova / GO,1 X 0
+094,15/06/2024,18:00,Novelli Junior / Itu,Ituano / SP,Paysandu / PA,3 X 5
+095,15/06/2024,15:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Crb / AL,2 X 1
+096,14/06/2024,21:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Guarani / SP,3 X 2
+097,16/06/2024,16:00,Hercílio Luz / Itajai,Brusque / SC,Ceará / CE,1 X 0
+098,14/06/2024,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Santos / SP,1 X 0
+099,13/06/2024,21:00,Carlos Zamith / Manaus,Amazonas Fc / AM,Chapecoense / SC,0 X 1
+100,16/06/2024,18:30,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Mirassol / SP,1 X 0
+101,20/06/2024,19:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Mirassol / SP,1 X 0
+102,18/06/2024,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Ituano / SP,3 X 3
+103,19/06/2024,21:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Ponte Preta / SP,2 X 0
+104,18/06/2024,21:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Amazonas Fc / AM,1 X 1
+105,19/06/2024,19:00,Urbano Caldeira / Santos,Santos / SP,Goiás / GO,2 X 0
+106,17/06/2024,21:00,Índio Condá / Chapeco,Chapecoense / SC,Operário / PR,0 X 1
+107,19/06/2024,21:30,Hercílio Luz / Itajai,Brusque / SC,Avaí / SC,0 X 0
+108,19/06/2024,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,America Saf / MG,1 X 0
+109,18/06/2024,21:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Crb / AL,1 X 1
+110,20/06/2024,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Sport / PE,0 X 0
+111,23/06/2024,18:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Goiás / GO,1 X 0
+112,25/06/2024,21:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Ceará / CE,3 X 1
+113,25/06/2024,19:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Santos / SP,0 X 0
+114,22/06/2024,21:00,Novelli Junior / Itu,Ituano / SP,Brusque / SC,1 X 1
+115,25/06/2024,19:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Avaí / SC,1 X 1
+116,23/06/2024,16:00,Índio Condá / Chapeco,Chapecoense / SC,Paysandu / PA,1 X 2
+117,22/06/2024,17:00,Rei Pelé / Maceio,Crb / AL,Guarani / SP,1 X 0
+118,22/06/2024,17:00,Germano Kruger / Ponta Grossa,Operário / PR,Botafogo / SP,0 X 1
+119,25/06/2024,21:30,Carlos Zamith / Manaus,Amazonas Fc / AM,Coritiba S.a.f. / PR,1 X 0
+120,24/06/2024,19:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Gremio Novorizontino - Saf / SP,1 X 2
+121,02/07/2024,18:30,Hailé Pinheiro / Goiania,Goiás / GO,America Saf / MG,2 X 1
+122,30/06/2024,18:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Ponte Preta / SP,1 X 1
+123,29/06/2024,17:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Sport / PE,1 X 1
+124,02/07/2024,20:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Mirassol / SP,1 X 1
+125,01/07/2024,19:00,Urbano Caldeira / Santos,Santos / SP,Chapecoense / SC,1 X 0
+126,30/06/2024,11:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Amazonas Fc / AM,1 X 1
+127,01/07/2024,21:00,Rei Pelé / Maceio,Crb / AL,Brusque / SC,1 X 1
+128,29/06/2024,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Vila Nova / GO,1 X 1
+129,30/06/2024,16:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Operário / PR,1 X 1
+130,29/06/2024,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Ituano / SP,4 X 2
+131,06/07/2024,17:00,Hailé Pinheiro / Goiania,Goiás / GO,Chapecoense / SC,1 X 2
+132,07/07/2024,18:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Sport / PE,0 X 1
+133,09/07/2024,21:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Crb / AL,1 X 0
+134,07/07/2024,16:00,Novelli Junior / Itu,Ituano / SP,Botafogo / SP,3 X 2
+135,06/07/2024,11:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Operário / PR,2 X 0
+136,08/07/2024,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Gremio Novorizontino - Saf / SP,0 X 1
+137,05/07/2024,21:00,Hercílio Luz / Itajai,Brusque / SC,Ponte Preta / SP,0 X 0
+138,07/07/2024,11:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Paysandu / PA,1 X 1
+139,08/07/2024,21:00,Carlos Zamith / Manaus,Amazonas Fc / AM,Vila Nova / GO,1 X 2
+140,05/07/2024,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Santos / SP,0 X 1
+141,14/07/2024,16:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Avaí / SC,2 X 1
+142,12/07/2024,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Mirassol / SP,4 X 2
+143,14/07/2024,21:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Amazonas Fc / AM,0 X 1
+144,13/07/2024,15:30,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Guarani / SP,1 X 1
+145,15/07/2024,20:00,Urbano Caldeira / Santos,Santos / SP,Ituano / SP,2 X 0
+146,14/07/2024,18:30,Índio Condá / Chapeco,Chapecoense / SC,Brusque / SC,1 X 1
+147,13/07/2024,18:00,Rei Pelé / Maceio,Crb / AL,Coritiba S.a.f. / PR,2 X 1
+148,17/07/2024,21:00,Germano Kruger / Ponta Grossa,Operário / PR,Goiás / GO,2 X 0
+149,12/07/2024,21:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Ceará / CE,2 X 1
+150,13/07/2024,17:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,America Saf / MG,1 X 1
+151,18/07/2024,20:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Santos / SP,1 X 1
+152,21/07/2024,16:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Goiás / GO,2 X 3
+153,21/07/2024,18:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Brusque / SC,2 X 2
+154,18/07/2024,21:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Chapecoense / SC,1 X 0
+155,20/07/2024,17:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Amazonas Fc / AM,0 X 0
+156,19/07/2024,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Ceará / CE,0 X 1
+157,20/07/2024,17:00,Rei Pelé / Maceio,Crb / AL,Ituano / SP,1 X 0
+158,19/07/2024,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Mirassol / SP,0 X 1
+159,20/07/2024,18:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Ponte Preta / SP,1 X 0
+160,16/10/2024,21:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Operário / PR,1 X 2
+161,25/07/2024,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Crb / AL,1 X 1
+162,23/07/2024,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Vila Nova / GO,2 X 0
+163,23/07/2024,20:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Avaí / SC,0 X 0
+164,23/07/2024,21:00,Novelli Junior / Itu,Ituano / SP,America Saf / MG,0 X 0
+165,22/07/2024,20:00,Urbano Caldeira / Santos,Santos / SP,Coritiba S.a.f. / PR,4 X 0
+166,23/07/2024,19:00,Índio Condá / Chapeco,Chapecoense / SC,Sport / PE,1 X 1
+167,24/07/2024,21:00,Aderbal Ramos da Silva / Florianopolis,Brusque / SC,Paysandu / PA,1 X 0
+168,23/07/2024,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Gremio Novorizontino - Saf / SP,0 X 0
+169,24/07/2024,21:30,Carlos Zamith / Manaus,Amazonas Fc / AM,Guarani / SP,1 X 1
+170,25/07/2024,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Botafogo / SP,4 X 1
+171,25/10/2024,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Amazonas Fc / AM,1 X 0
+172,28/07/2024,16:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Brusque / SC,1 X 0
+173,27/07/2024,17:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Operário / PR,1 X 0
+174,26/07/2024,21:30,Novelli Junior / Itu,Ituano / SP,Vila Nova / GO,0 X 0
+175,28/07/2024,18:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Ceará / CE,2 X 2
+176,30/07/2024,21:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Botafogo / SP,1 X 1
+177,28/07/2024,18:30,Rei Pelé / Maceio,Crb / AL,Santos / SP,1 X 1
+178,27/07/2024,17:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Chapecoense / SC,1 X 0
+179,29/07/2024,18:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Gremio Novorizontino - Saf / SP,1 X 3
+180,27/07/2024,18:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Ponte Preta / SP,3 X 1
+181,05/08/2024,21:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Paysandu / PA,2 X 2
+182,04/08/2024,16:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Avaí / SC,1 X 0
+183,03/08/2024,17:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Coritiba S.a.f. / PR,2 X 0
+184,04/08/2024,18:30,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Goiás / GO,2 X 1
+185,02/08/2024,21:30,Urbano Caldeira / Santos,Santos / SP,Sport / PE,1 X 1
+186,05/08/2024,18:30,Índio Condá / Chapeco,Chapecoense / SC,Mirassol / SP,0 X 1
+187,02/08/2024,19:00,Aderbal Ramos da Silva / Florianopolis,Brusque / SC,America Saf / MG,0 X 0
+188,04/08/2024,18:30,Germano Kruger / Ponta Grossa,Operário / PR,Crb / AL,2 X 0
+189,03/08/2024,21:30,Carlos Zamith / Manaus,Amazonas Fc / AM,Ituano / SP,1 X 0
+190,06/08/2024,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Guarani / SP,3 X 1
+191,12/08/2024,21:00,Hailé Pinheiro / Goiania,Goiás / GO,Ceará / CE,2 X 1
+192,12/08/2024,20:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Vila Nova / GO,2 X 0
+193,09/08/2024,21:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Brusque / SC,2 X 0
+194,10/08/2024,17:00,Novelli Junior / Itu,Ituano / SP,Chapecoense / SC,2 X 1
+195,09/08/2024,21:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Botafogo / SP,3 X 1
+196,09/08/2024,19:15,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Operário / PR,1 X 0
+197,11/08/2024,18:30,Rei Pelé / Maceio,Crb / AL,Gremio Novorizontino - Saf / SP,0 X 1
+198,11/08/2024,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Ponte Preta / SP,1 X 1
+199,09/08/2024,20:00,Olímpico do Pará / Belem,Paysandu / PA,Santos / SP,0 X 3
+200,10/08/2024,17:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Amazonas Fc / AM,3 X 2
+201,16/08/2024,21:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Sport / PE,2 X 0
+202,16/08/2024,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Goiás / GO,1 X 1
+203,18/08/2024,18:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Paysandu / PA,1 X 1
+204,16/08/2024,21:30,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,America Saf / MG,1 X 1
+205,17/08/2024,16:00,Urbano Caldeira / Santos,Santos / SP,Avaí / SC,0 X 1
+206,17/08/2024,15:30,Índio Condá / Chapeco,Chapecoense / SC,Guarani / SP,0 X 4
+207,18/08/2024,16:00,Aderbal Ramos da Silva / Florianopolis,Brusque / SC,Coritiba S.a.f. / PR,0 X 1
+208,15/08/2024,21:00,Germano Kruger / Ponta Grossa,Operário / PR,Ituano / SP,1 X 2
+209,17/08/2024,18:00,Arena da Amazônia / Manaus,Amazonas Fc / AM,Crb / AL,2 X 0
+210,17/08/2024,17:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Mirassol / SP,1 X 2
+211,21/08/2024,21:00,Hailé Pinheiro / Goiania,Goiás / GO,Brusque / SC,4 X 1
+212,21/08/2024,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Santos / SP,1 X 1
+213,21/08/2024,19:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Botafogo / SP,1 X 2
+214,20/08/2024,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Ituano / SP,1 X 0
+215,21/08/2024,19:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Chapecoense / SC,0 X 0
+216,22/08/2024,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Paysandu / PA,1 X 0
+217,21/08/2024,20:00,Rei Pelé / Maceio,Crb / AL,Ceará / CE,0 X 2
+218,20/08/2024,21:30,Germano Kruger / Ponta Grossa,Operário / PR,Vila Nova / GO,2 X 3
+219,20/08/2024,21:00,Arena da Amazônia / Manaus,Amazonas Fc / AM,Ponte Preta / SP,2 X 1
+220,22/08/2024,21:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Coritiba S.a.f. / PR,0 X 1
+221,25/08/2024,18:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,America Saf / MG,1 X 0
+222,23/08/2024,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Operário / PR,0 X 1
+223,09/10/2024,20:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Guarani / SP,3 X 2
+224,24/08/2024,17:00,Novelli Junior / Itu,Ituano / SP,Goiás / GO,1 X 0
+225,24/08/2024,16:00,Urbano Caldeira / Santos,Santos / SP,Amazonas Fc / AM,0 X 0
+226,25/08/2024,18:30,Índio Condá / Chapeco,Chapecoense / SC,Crb / AL,0 X 0
+227,27/08/2024,21:00,Aderbal Ramos da Silva / Florianopolis,Brusque / SC,Sport / PE,1 X 0
+228,27/08/2024,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Avaí / SC,1 X 0
+229,26/08/2024,18:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Mirassol / SP,0 X 0
+230,26/08/2024,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Gremio Novorizontino - Saf / SP,1 X 0
+231,01/09/2024,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Paysandu / PA,1 X 1
+232,03/09/2024,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Coritiba S.a.f. / PR,2 X 1
+233,03/09/2024,19:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,America Saf / MG,1 X 0
+234,31/08/2024,17:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Vila Nova / GO,2 X 0
+235,30/08/2024,21:30,Urbano Caldeira / Santos,Santos / SP,Ponte Preta / SP,2 X 2
+236,31/08/2024,17:00,Índio Condá / Chapeco,Chapecoense / SC,Botafogo / SP,1 X 1
+237,31/08/2024,18:00,Rei Pelé / Maceio,Crb / AL,Avaí / SC,1 X 2
+238,02/09/2024,21:30,Germano Kruger / Ponta Grossa,Operário / PR,Brusque / SC,0 X 0
+239,01/09/2024,16:00,Arena da Amazônia / Manaus,Amazonas Fc / AM,Ceará / CE,1 X 1
+240,02/09/2024,19:30,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Ituano / SP,3 X 2
+241,04/09/2024,20:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Crb / AL,1 X 0
+242,09/09/2024,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Chapecoense / SC,0 X 2
+243,09/09/2024,20:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Goiás / GO,1 X 0
+244,07/09/2024,16:00,Novelli Junior / Itu,Ituano / SP,Mirassol / SP,3 X 2
+245,08/09/2024,18:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Guarani / SP,3 X 0
+246,07/09/2024,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Sport / PE,0 X 2
+247,07/09/2024,16:00,Arena Joinville / Joinville,Brusque / SC,Santos / SP,0 X 1
+248,08/09/2024,18:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Gremio Novorizontino - Saf / SP,2 X 2
+249,05/09/2024,21:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Amazonas Fc / AM,0 X 1
+250,08/09/2024,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Operário / PR,2 X 1
+251,13/09/2024,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Avaí / SC,2 X 1
+252,13/09/2024,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Ituano / SP,1 X 4
+253,14/09/2024,18:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Amazonas Fc / AM,0 X 0
+254,13/09/2024,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Botafogo / SP,2 X 0
+255,15/09/2024,16:00,Urbano Caldeira / Santos,Santos / SP,America Saf / MG,2 X 1
+256,15/09/2024,18:30,Índio Condá / Chapeco,Chapecoense / SC,Ceará / CE,2 X 1
+257,14/09/2024,17:00,Hercílio Luz / Itajai,Brusque / SC,Vila Nova / GO,3 X 1
+258,15/09/2024,16:00,Germano Kruger / Ponta Grossa,Operário / PR,Coritiba S.a.f. / PR,2 X 1
+259,14/09/2024,17:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Guarani / SP,2 X 1
+260,15/09/2024,18:30,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Crb / AL,2 X 0
+261,18/09/2024,19:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Chapecoense / SC,3 X 2
+262,17/09/2024,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Mirassol / SP,1 X 0
+263,19/09/2024,21:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Santos / SP,0 X 1
+264,17/09/2024,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Brusque / SC,1 X 0
+265,18/09/2024,21:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Paysandu / PA,2 X 0
+266,17/09/2024,21:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Ituano / SP,2 X 0
+267,19/09/2024,19:30,Rei Pelé / Maceio,Crb / AL,Ponte Preta / SP,0 X 1
+268,18/09/2024,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Ceará / CE,3 X 1
+269,18/09/2024,21:00,Arena da Amazônia / Manaus,Amazonas Fc / AM,Operário / PR,2 X 1
+270,18/09/2024,19:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Goiás / GO,1 X 1
+271,21/09/2024,17:00,Hailé Pinheiro / Goiania,Goiás / GO,Mirassol / SP,0 X 1
+272,24/09/2024,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,America Saf / MG,0 X 2
+273,24/09/2024,21:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Crb / AL,0 X 0
+274,21/09/2024,18:00,Novelli Junior / Itu,Ituano / SP,Coritiba S.a.f. / PR,0 X 1
+275,23/09/2024,21:00,Urbano Caldeira / Santos,Santos / SP,Gremio Novorizontino - Saf / SP,1 X 1
+276,22/09/2024,16:00,Índio Condá / Chapeco,Chapecoense / SC,Avaí / SC,1 X 0
+277,23/09/2024,21:30,Hercílio Luz / Itajai,Brusque / SC,Amazonas Fc / AM,1 X 0
+278,24/09/2024,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Guarani / SP,1 X 0
+279,23/09/2024,18:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Sport / PE,0 X 1
+280,22/09/2024,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Vila Nova / GO,4 X 0
+281,28/09/2024,17:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Botafogo / SP,1 X 1
+282,30/09/2024,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Avaí / SC,0 X 0
+283,29/09/2024,18:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Sport / PE,0 X 0
+284,30/09/2024,21:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Ponte Preta / SP,2 X 1
+285,28/09/2024,18:00,Urbano Caldeira / Santos,Santos / SP,Operário / PR,1 X 0
+286,26/09/2024,19:00,Índio Condá / Chapeco,Chapecoense / SC,Amazonas Fc / AM,2 X 0
+287,29/09/2024,16:00,Rei Pelé / Maceio,Crb / AL,America Saf / MG,2 X 1
+288,27/09/2024,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Goiás / GO,0 X 0
+289,27/09/2024,21:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Ituano / SP,1 X 0
+290,27/09/2024,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Brusque / SC,1 X 0
+291,07/10/2024,21:00,Hailé Pinheiro / Goiania,Goiás / GO,Santos / SP,3 X 1
+292,05/10/2024,17:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Botafogo / SP,1 X 0
+293,05/10/2024,18:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Vila Nova / GO,1 X 0
+294,05/10/2024,17:00,Novelli Junior / Itu,Ituano / SP,Guarani / SP,1 X 0
+295,04/10/2024,19:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Coritiba S.a.f. / PR,2 X 1
+296,04/10/2024,21:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Brusque / SC,0 X 0
+297,04/10/2024,20:00,Rei Pelé / Maceio,Crb / AL,Paysandu / PA,3 X 2
+298,03/10/2024,21:30,Germano Kruger / Ponta Grossa,Operário / PR,Chapecoense / SC,3 X 2
+299,04/10/2024,21:30,Arena da Amazônia / Manaus,Amazonas Fc / AM,Gremio Novorizontino - Saf / SP,1 X 0
+300,07/10/2024,21:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Ceará / CE,2 X 1
+301,13/10/2024,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Vila Nova / GO,0 X 1
+302,14/10/2024,21:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Crb / AL,2 X 1
+303,12/10/2024,21:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Operário / PR,0 X 0
+304,11/10/2024,18:30,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Sport / PE,1 X 3
+305,12/10/2024,18:30,Urbano Caldeira / Santos,Santos / SP,Mirassol / SP,3 X 2
+306,11/10/2024,21:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,America Saf / MG,2 X 2
+307,14/10/2024,18:30,Augusto Bauer / Brusque,Brusque / SC,Ituano / SP,1 X 0
+308,13/10/2024,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Amazonas Fc / AM,3 X 1
+309,09/10/2024,21:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Chapecoense / SC,2 X 0
+310,12/10/2024,17:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Ponte Preta / SP,1 X 0
+311,19/10/2024,16:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Coritiba S.a.f. / PR,0 X 3
+312,20/10/2024,18:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Guarani / SP,0 X 1
+313,19/10/2024,17:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Gremio Novorizontino - Saf / SP,1 X 0
+314,19/10/2024,17:00,Novelli Junior / Itu,Ituano / SP,Ceará / CE,1 X 2
+315,17/10/2024,20:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Goiás / GO,2 X 2
+316,16/10/2024,20:00,Índio Condá / Chapeco,Chapecoense / SC,Santos / SP,3 X 2
+317,18/10/2024,19:00,Augusto Bauer / Brusque,Brusque / SC,Crb / AL,1 X 2
+318,20/10/2024,11:00,Germano Kruger / Ponta Grossa,Operário / PR,Paysandu / PA,1 X 1
+319,18/10/2024,21:30,Arena da Amazônia / Manaus,Amazonas Fc / AM,Avaí / SC,2 X 1
+320,20/10/2024,19:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Botafogo / SP,3 X 1
+321,22/10/2024,21:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Amazonas Fc / AM,1 X 0
+322,23/10/2024,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Brusque / SC,2 X 0
+323,23/10/2024,20:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Ituano / SP,0 X 1
+324,22/10/2024,21:30,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Avaí / SC,2 X 0
+325,22/10/2024,19:00,Urbano Caldeira / Santos,Santos / SP,Ceará / CE,1 X 0
+326,21/10/2024,20:00,Índio Condá / Chapeco,Chapecoense / SC,Goiás / GO,0 X 4
+327,22/10/2024,19:00,Rei Pelé / Maceio,Crb / AL,Mirassol / SP,0 X 1
+328,23/10/2024,21:30,Germano Kruger / Ponta Grossa,Operário / PR,America Saf / MG,1 X 0
+329,23/10/2024,19:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Coritiba S.a.f. / PR,2 X 1
+330,24/10/2024,21:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Guarani / SP,4 X 0
+331,29/10/2024,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Operário / PR,3 X 0
+332,29/10/2024,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Gremio Novorizontino - Saf / SP,0 X 2
+333,26/10/2024,17:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Ponte Preta / SP,3 X 0
+334,28/10/2024,19:00,Novelli Junior / Itu,Ituano / SP,Santos / SP,0 X 2
+335,28/10/2024,21:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Sport / PE,2 X 1
+336,25/10/2024,21:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Vila Nova / GO,3 X 0
+337,29/10/2024,19:00,Augusto Bauer / Brusque,Brusque / SC,Chapecoense / SC,0 X 1
+338,28/10/2024,18:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Crb / AL,2 X 1
+339,29/10/2024,21:30,Arena da Amazônia / Manaus,Amazonas Fc / AM,Botafogo / SP,0 X 1
+340,26/10/2024,17:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Paysandu / PA,2 X 1
+341,02/11/2024,17:00,Hailé Pinheiro / Goiania,Goiás / GO,Guarani / SP,1 X 0
+342,04/11/2024,21:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Paysandu / PA,1 X 2
+343,05/11/2024,21:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Coritiba S.a.f. / PR,4 X 1
+344,04/11/2024,21:15,Novelli Junior / Itu,Ituano / SP,Crb / AL,1 X 2
+345,02/11/2024,16:30,Urbano Caldeira / Santos,Santos / SP,Vila Nova / GO,3 X 0
+346,02/11/2024,17:00,Índio Condá / Chapeco,Chapecoense / SC,Gremio Novorizontino - Saf / SP,0 X 2
+347,05/11/2024,21:00,Augusto Bauer / Brusque,Brusque / SC,Botafogo / SP,0 X 1
+348,04/11/2024,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Sport / PE,2 X 1
+349,05/11/2024,19:00,Arena da Amazônia / Manaus,Amazonas Fc / AM,America Saf / MG,1 X 0
+350,03/11/2024,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Avaí / SC,2 X 0
+351,11/11/2024,18:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Ponte Preta / SP,2 X 1
+352,12/11/2024,21:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Amazonas Fc / AM,0 X 0
+353,12/11/2024,21:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Ceará / CE,1 X 4
+354,09/11/2024,17:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Operário / PR,0 X 1
+355,12/11/2024,19:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Ituano / SP,3 X 2
+356,10/11/2024,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Mirassol / SP,0 X 0
+357,09/11/2024,17:00,Rei Pelé / Maceio,Crb / AL,Goiás / GO,0 X 1
+358,11/11/2024,21:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Santos / SP,0 X 2
+359,11/11/2024,21:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Brusque / SC,1 X 0
+360,10/11/2024,18:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Chapecoense / SC,1 X 1
+361,16/11/2024,21:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Ituano / SP,3 X 4
+362,16/11/2024,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Sport / PE,0 X 4
+363,18/11/2024,21:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Avaí / SC,1 X 3
+364,16/11/2024,17:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Paysandu / PA,1 X 1
+365,17/11/2024,16:00,Urbano Caldeira / Santos,Santos / SP,Crb / AL,0 X 2
+366,17/11/2024,16:00,Índio Condá / Chapeco,Chapecoense / SC,Coritiba S.a.f. / PR,2 X 1
+367,17/11/2024,11:00,Augusto Bauer / Brusque,Brusque / SC,Guarani / SP,2 X 1
+368,15/11/2024,16:00,Germano Kruger / Ponta Grossa,Operário / PR,Mirassol / SP,1 X 1
+369,16/11/2024,19:00,Carlos Zamith / Manaus,Amazonas Fc / AM,Goiás / GO,0 X 4
+370,18/11/2024,21:45,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,America Saf / MG,1 X 0
+371,24/11/2024,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Gremio Novorizontino - Saf / SP,1 X 0
+372,24/11/2024,18:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Ceará / CE,0 X 0
+373,24/11/2024,18:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Chapecoense / SC,1 X 0
+374,22/11/2024,21:30,Novelli Junior / Itu,Ituano / SP,Amazonas Fc / AM,0 X 1
+375,24/11/2024,18:30,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Brusque / SC,3 X 0
+376,22/11/2024,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Ponte Preta / SP,2 X 1
+377,24/11/2024,16:00,Rei Pelé / Maceio,Crb / AL,Operário / PR,1 X 1
+378,22/11/2024,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Botafogo / SP,1 X 3
+379,24/11/2024,16:00,Olímpico do Pará / Belem,Paysandu / PA,Vila Nova / GO,2 X 1
+380,24/11/2024,18:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Santos Fc / SP,2 X 1

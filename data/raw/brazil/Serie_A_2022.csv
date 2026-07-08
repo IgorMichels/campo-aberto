@@ -1,0 +1,381 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,10/04/2022,16:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Internacional / RS,2 X 0
+002,09/04/2022,16:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Santos / SP,0 X 0
+003,10/04/2022,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Athletico Paranaense / PR,4 X 0
+004,09/04/2022,21:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Ceará / CE,2 X 3
+005,10/04/2022,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Corinthians / SP,1 X 3
+006,11/04/2022,20:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Red Bull Bragantino / SP,2 X 2
+007,10/04/2022,18:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Cuiabá Saf / MT,0 X 1
+008,09/04/2022,19:00,Antônio Accioly / Goiania,Atlético / GO,Flamengo / RJ,1 X 1
+009,10/04/2022,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,América Fc Saf / MG,1 X 0
+010,10/04/2022,11:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Goiás / GO,3 X 0
+011,16/04/2022,19:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Juventude / RS,4 X 1
+012,17/04/2022,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,São Paulo / SP,3 X 1
+013,17/04/2022,18:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Atlético / GO,4 X 0
+014,16/04/2022,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Avaí / SC,3 X 0
+015,17/04/2022,11:00,Urbano Caldeira / Santos,Santos / SP,Coritiba / PR,2 X 1
+016,17/04/2022,18:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fortaleza / CE,2 X 1
+017,17/04/2022,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Botafogo / RJ,1 X 3
+018,16/04/2022,16:30,Hailé Pinheiro / Goiania,Goiás / GO,Palmeiras / SP,1 X 1
+019,16/04/2022,21:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Fluminense / RJ,0 X 1
+020,17/04/2022,18:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Atlético Mineiro / MG,0 X 1
+021,23/04/2022,21:00,Raimundo Sampaio / Belo Horizonte,Atlético Mineiro / MG,Coritiba / PR,2 X 2
+022,23/04/2022,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Internacional / RS,0 X 1
+023,23/04/2022,16:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,São Paulo / SP,1 X 1
+024,23/04/2022,19:00,Arena Barueri / Barueri,Palmeiras / SP,Corinthians / SP,3 X 0
+025,24/04/2022,16:00,Urbano Caldeira / Santos,Santos / SP,América Fc Saf / MG,3 X 0
+026,24/04/2022,18:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Cuiabá Saf / MT,0 X 1
+027,01/06/2022,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Ceará / CE,0 X 1
+028,24/04/2022,18:30,Antônio Accioly / Goiania,Atlético / GO,Botafogo / RJ,1 X 1
+029,25/04/2022,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Goiás / GO,3 X 2
+030,23/04/2022,16:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Flamengo / RJ,1 X 0
+031,30/04/2022,16:30,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Athletico Paranaense / PR,1 X 0
+032,20/04/2022,19:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Palmeiras / SP,0 X 0
+033,02/05/2022,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Santos / SP,2 X 1
+034,01/05/2022,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Fortaleza / CE,1 X 0
+035,01/05/2022,11:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Juventude / RS,1 X 1
+036,01/05/2022,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Avaí / SC,0 X 0
+037,30/04/2022,16:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Red Bull Bragantino / SP,0 X 1
+038,30/04/2022,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Atlético Mineiro / MG,2 X 2
+039,30/04/2022,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Atlético / GO,1 X 1
+040,01/05/2022,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Fluminense / RJ,3 X 2
+041,07/05/2022,16:30,Raimundo Sampaio / Belo Horizonte,Atlético Mineiro / MG,América Fc Saf / MG,1 X 2
+042,08/05/2022,11:00,Estádio Nacional Mané Garrincha / Brasilia,Flamengo / RJ,Botafogo / RJ,0 X 1
+043,08/05/2022,18:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Corinthians / SP,0 X 1
+044,08/05/2022,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Fluminense / RJ,1 X 1
+045,08/05/2022,18:00,Urbano Caldeira / Santos,Santos / SP,Cuiabá Saf / MT,4 X 1
+046,08/05/2022,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Internacional / RS,1 X 1
+047,08/05/2022,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,São Paulo / SP,1 X 1
+048,08/05/2022,16:00,Antônio Accioly / Goiania,Atlético / GO,Goiás / GO,0 X 1
+049,09/05/2022,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Coritiba / PR,2 X 1
+050,07/05/2022,20:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Ceará / CE,1 X 0
+051,14/05/2022,19:00,Raimundo Sampaio / Belo Horizonte,Atlético Mineiro / MG,Atlético / GO,2 X 0
+052,14/05/2022,21:00,Sylvio Raulino de Oliveira / Volta Redonda,Fluminense / RJ,Athletico Paranaense / PR,2 X 1
+053,15/05/2022,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Cuiabá Saf / MT,2 X 1
+054,14/05/2022,16:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Red Bull Bragantino / SP,2 X 0
+055,15/05/2022,18:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Fortaleza / CE,3 X 1
+056,14/05/2022,19:00,Estádio Beira Rio /,Internacional / RS,Corinthians / SP,2 X 2
+057,14/05/2022,16:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Flamengo / RJ,2 X 2
+058,15/05/2022,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Santos / SP,1 X 0
+059,15/05/2022,18:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Juventude / RS,1 X 2
+060,15/05/2022,17:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,América Fc Saf / MG,1 X 0
+061,21/05/2022,21:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Botafogo / RJ,1 X 1
+062,21/05/2022,16:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Goiás / GO,1 X 0
+063,11/05/2022,20:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Atlético Mineiro / MG,1 X 1
+064,22/05/2022,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,São Paulo / SP,1 X 1
+065,21/05/2022,18:30,Arena Barueri / Barueri,Santos / SP,Ceará / CE,0 X 0
+066,21/05/2022,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Palmeiras / SP,0 X 3
+067,22/05/2022,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Fluminense / RJ,0 X 1
+068,21/05/2022,16:30,Antônio Accioly / Goiania,Atlético / GO,Coritiba / PR,2 X 0
+069,21/05/2022,21:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Internacional / RS,1 X 1
+070,22/05/2022,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Avaí / SC,2 X 1
+071,29/05/2022,19:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Avaí / SC,2 X 1
+072,29/05/2022,18:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Flamengo / RJ,1 X 2
+073,28/05/2022,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Ceará / CE,2 X 2
+074,29/05/2022,18:00,Arena Corinthians / Sao Paulo,Corinthians / SP,América Fc Saf / MG,1 X 1
+075,29/05/2022,16:00,Urbano Caldeira / Santos,Santos / SP,Palmeiras / SP,0 X 1
+076,30/05/2022,20:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Atlético / GO,1 X 1
+077,28/05/2022,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Juventude / RS,1 X 1
+078,28/05/2022,16:30,Hailé Pinheiro / Goiania,Goiás / GO,Red Bull Bragantino / SP,1 X 1
+079,29/05/2022,18:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Athletico Paranaense / PR,0 X 1
+080,29/05/2022,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Botafogo / RJ,1 X 0
+081,04/06/2022,16:30,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Cuiabá Saf / MT,2 X 1
+082,05/06/2022,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Fortaleza / CE,1 X 2
+083,05/06/2022,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Internacional / RS,0 X 2
+084,05/06/2022,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Atlético Mineiro / MG,0 X 0
+085,06/06/2022,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Goiás / GO,1 X 2
+086,05/06/2022,11:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Fluminense / RJ,1 X 0
+087,04/06/2022,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Coritiba / PR,1 X 1
+088,04/06/2022,20:30,Antônio Accioly / Goiania,Atlético / GO,Corinthians / SP,0 X 1
+089,04/06/2022,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,São Paulo / SP,1 X 1
+090,04/06/2022,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Santos / SP,2 X 2
+091,08/06/2022,19:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Ceará / CE,0 X 2
+092,08/06/2022,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Atlético Mineiro / MG,5 X 3
+093,08/06/2022,20:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Flamengo / RJ,1 X 0
+094,09/06/2022,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Botafogo / RJ,4 X 0
+095,08/06/2022,21:30,Urbano Caldeira / Santos,Santos / SP,Internacional / RS,1 X 1
+096,08/06/2022,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Athletico Paranaense / PR,1 X 3
+097,09/06/2022,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Goiás / GO,1 X 1
+098,08/06/2022,20:30,Antônio Accioly / Goiania,Atlético / GO,Avaí / SC,2 X 1
+099,07/06/2022,21:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Corinthians / SP,1 X 0
+100,09/06/2022,20:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,São Paulo / SP,1 X 1
+101,11/06/2022,19:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Santos / SP,1 X 1
+102,11/06/2022,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Atlético / GO,0 X 2
+103,12/06/2022,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,América Fc Saf / MG,1 X 0
+104,11/06/2022,16:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Juventude / RS,2 X 0
+105,13/06/2022,19:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Avaí / SC,0 X 1
+106,11/06/2022,21:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Flamengo / RJ,3 X 1
+107,12/06/2022,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Athletico Paranaense / PR,0 X 0
+108,12/06/2022,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Ceará / CE,1 X 1
+109,11/06/2022,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Red Bull Bragantino / SP,1 X 1
+110,12/06/2022,18:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Palmeiras / SP,0 X 2
+111,15/06/2022,21:30,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Fluminense / RJ,0 X 0
+112,15/06/2022,20:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Cuiabá Saf / MT,2 X 0
+113,15/06/2022,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Coritiba / PR,4 X 2
+114,16/06/2022,18:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Atlético / GO,4 X 2
+115,16/06/2022,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,São Paulo / SP,1 X 0
+116,14/06/2022,21:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Santos / SP,1 X 2
+117,15/06/2022,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Atlético Mineiro / MG,0 X 0
+118,15/06/2022,20:30,Hailé Pinheiro / Goiania,Goiás / GO,Internacional / RS,1 X 2
+119,16/06/2022,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Fortaleza / CE,3 X 2
+120,15/06/2022,21:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Corinthians / SP,1 X 1
+121,19/06/2022,16:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Flamengo / RJ,2 X 0
+122,19/06/2022,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Avaí / SC,2 X 0
+123,20/06/2022,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Palmeiras / SP,1 X 2
+124,19/06/2022,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Goiás / GO,1 X 0
+125,18/06/2022,21:00,Urbano Caldeira / Santos,Santos / SP,Red Bull Bragantino / SP,2 X 2
+126,19/06/2022,18:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Botafogo / RJ,2 X 3
+127,19/06/2022,18:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,América Fc Saf / MG,1 X 0
+128,19/06/2022,18:00,Antônio Accioly / Goiania,Atlético / GO,Juventude / RS,3 X 1
+129,18/06/2022,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Ceará / CE,0 X 0
+130,19/06/2022,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Athletico Paranaense / PR,0 X 1
+131,25/06/2022,21:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Fortaleza / CE,3 X 2
+132,25/06/2022,19:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,América Fc Saf / MG,3 X 0
+133,26/06/2022,18:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Juventude / RS,0 X 0
+134,25/06/2022,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Santos / SP,0 X 0
+135,26/06/2022,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Fluminense / RJ,0 X 1
+136,24/06/2022,21:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Coritiba / PR,3 X 0
+137,26/06/2022,18:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Atlético / GO,1 X 1
+138,26/06/2022,18:00,Hailé Pinheiro / Goiania,Goiás / GO,Cuiabá Saf / MT,1 X 0
+139,26/06/2022,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Palmeiras / SP,2 X 2
+140,25/06/2022,16:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Red Bull Bragantino / SP,4 X 2
+141,03/07/2022,18:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Goiás / GO,1 X 0
+142,02/07/2022,16:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Corinthians / SP,4 X 0
+143,04/07/2022,20:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Botafogo / RJ,0 X 1
+144,02/07/2022,21:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Athletico Paranaense / PR,0 X 2
+145,02/07/2022,19:00,Urbano Caldeira / Santos,Santos / SP,Flamengo / RJ,1 X 2
+146,02/07/2022,16:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Atlético Mineiro / MG,1 X 2
+147,02/07/2022,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Internacional / RS,1 X 1
+148,03/07/2022,16:00,Antônio Accioly / Goiania,Atlético / GO,São Paulo / SP,1 X 2
+149,03/07/2022,11:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Cuiabá Saf / MT,1 X 2
+150,03/07/2022,18:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Fortaleza / CE,2 X 1
+151,10/07/2022,18:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,São Paulo / SP,0 X 0
+152,09/07/2022,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Ceará / CE,2 X 1
+153,09/07/2022,16:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Avaí / SC,4 X 0
+154,10/07/2022,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Flamengo / RJ,1 X 0
+155,10/07/2022,18:00,Urbano Caldeira / Santos,Santos / SP,Atlético / GO,1 X 0
+156,11/07/2022,20:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,América Fc Saf / MG,1 X 0
+157,10/07/2022,18:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Palmeiras / SP,0 X 0
+158,09/07/2022,20:30,Hailé Pinheiro / Goiania,Goiás / GO,Athletico Paranaense / PR,2 X 1
+159,10/07/2022,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Botafogo / RJ,2 X 0
+160,10/07/2022,11:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Juventude / RS,2 X 2
+161,17/07/2022,19:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Red Bull Bragantino / SP,0 X 3
+162,16/07/2022,19:00,Estádio Nacional Mané Garrincha / Brasilia,Flamengo / RJ,Coritiba / PR,2 X 0
+163,17/07/2022,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Fluminense / RJ,2 X 2
+164,18/07/2022,20:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Cuiabá Saf / MT,1 X 0
+165,17/07/2022,18:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Atlético Mineiro / MG,0 X 1
+166,17/07/2022,11:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Goiás / GO,0 X 0
+167,16/07/2022,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Corinthians / SP,3 X 1
+168,17/07/2022,18:00,Antônio Accioly / Goiania,Atlético / GO,Fortaleza / CE,0 X 1
+169,16/07/2022,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Santos / SP,1 X 0
+170,16/07/2022,16:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Internacional / RS,0 X 0
+171,21/07/2022,20:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Palmeiras / SP,0 X 1
+172,20/07/2022,20:30,Estádio Nacional Mané Garrincha / Brasilia,Flamengo / RJ,Juventude / RS,4 X 0
+173,20/07/2022,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Fortaleza / CE,2 X 1
+174,20/07/2022,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Coritiba / PR,3 X 1
+175,20/07/2022,21:30,Urbano Caldeira / Santos,Santos / SP,Botafogo / RJ,2 X 0
+176,20/07/2022,20:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,São Paulo / SP,3 X 3
+177,19/07/2022,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Avaí / SC,1 X 0
+178,20/07/2022,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Fluminense / RJ,2 X 3
+179,21/07/2022,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Atlético Mineiro / MG,1 X 1
+180,20/07/2022,19:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Atlético / GO,4 X 1
+181,24/07/2022,18:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Corinthians / SP,1 X 2
+182,24/07/2022,16:00,Sylvio Raulino de Oliveira / Volta Redonda,Fluminense / RJ,Red Bull Bragantino / SP,2 X 1
+183,23/07/2022,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Goiás / GO,3 X 3
+184,24/07/2022,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Internacional / RS,2 X 1
+185,23/07/2022,21:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Athletico Paranaense / PR,2 X 0
+186,24/07/2022,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Ceará / CE,1 X 0
+187,24/07/2022,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Santos / SP,0 X 0
+188,24/07/2022,18:00,Antônio Accioly / Goiania,Atlético / GO,América Fc Saf / MG,0 X 1
+189,24/07/2022,11:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Flamengo / RJ,1 X 2
+190,25/07/2022,20:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Cuiabá Saf / MT,1 X 0
+191,31/07/2022,18:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Avaí / SC,3 X 1
+192,30/07/2022,20:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Atlético / GO,4 X 1
+193,31/07/2022,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Juventude / RS,1 X 0
+194,30/07/2022,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Botafogo / RJ,1 X 0
+195,01/08/2022,20:00,Urbano Caldeira / Santos,Santos / SP,Fluminense / RJ,2 X 2
+196,31/07/2022,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Atlético Mineiro / MG,3 X 0
+197,30/07/2022,16:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Palmeiras / SP,1 X 2
+198,30/07/2022,16:30,Hailé Pinheiro / Goiania,Goiás / GO,Coritiba / PR,1 X 0
+199,31/07/2022,18:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Fortaleza / CE,0 X 1
+200,31/07/2022,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,São Paulo / SP,1 X 0
+201,07/08/2022,19:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Athletico Paranaense / PR,2 X 3
+202,07/08/2022,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Cuiabá Saf / MT,1 X 0
+203,06/08/2022,20:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Flamengo / RJ,0 X 2
+204,07/08/2022,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Goiás / GO,3 X 0
+205,06/08/2022,16:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Ceará / CE,1 X 1
+206,06/08/2022,16:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,América Fc Saf / MG,0 X 1
+207,07/08/2022,18:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Internacional / RS,3 X 0
+208,06/08/2022,19:00,Antônio Accioly / Goiania,Atlético / GO,Red Bull Bragantino / SP,2 X 1
+209,06/08/2022,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Corinthians / SP,1 X 1
+210,08/08/2022,20:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Santos / SP,1 X 2
+211,14/08/2022,18:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Santos / SP,1 X 0
+212,14/08/2022,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Athletico Paranaense / PR,5 X 0
+213,14/08/2022,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Red Bull Bragantino / SP,3 X 0
+214,13/08/2022,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Palmeiras / SP,0 X 1
+215,13/08/2022,21:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Atlético / GO,0 X 0
+216,14/08/2022,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fluminense / RJ,3 X 0
+217,14/08/2022,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Fortaleza / CE,0 X 1
+218,13/08/2022,16:30,Hailé Pinheiro / Goiania,Goiás / GO,Avaí / SC,1 X 1
+219,13/08/2022,20:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Juventude / RS,1 X 0
+220,14/08/2022,11:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Atlético Mineiro / MG,0 X 1
+221,20/08/2022,16:30,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Goiás / GO,0 X 1
+222,20/08/2022,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Coritiba / PR,5 X 2
+223,21/08/2022,18:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Ceará / CE,1 X 1
+224,21/08/2022,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Flamengo / RJ,1 X 1
+225,21/08/2022,19:00,Urbano Caldeira / Santos,Santos / SP,São Paulo / SP,1 X 0
+226,21/08/2022,11:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Botafogo / RJ,2 X 2
+227,21/08/2022,18:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Corinthians / SP,1 X 0
+228,21/08/2022,18:00,Antônio Accioly / Goiania,Atlético / GO,Cuiabá Saf / MT,1 X 1
+229,22/08/2022,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Internacional / RS,0 X 1
+230,21/08/2022,18:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,América Fc Saf / MG,1 X 1
+231,28/08/2022,16:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Atlético Mineiro / MG,1 X 1
+232,27/08/2022,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Palmeiras / SP,1 X 1
+233,28/08/2022,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Fortaleza / CE,0 X 1
+234,29/08/2022,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Red Bull Bragantino / SP,1 X 0
+235,28/08/2022,18:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Flamengo / RJ,0 X 1
+236,29/08/2022,20:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Juventude / RS,4 X 0
+237,27/08/2022,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Athletico Paranaense / PR,0 X 0
+238,27/08/2022,16:30,Hailé Pinheiro / Goiania,Goiás / GO,Atlético / GO,2 X 1
+239,28/08/2022,18:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Santos / SP,0 X 0
+240,27/08/2022,16:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Avaí / SC,1 X 0
+241,03/09/2022,20:30,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Coritiba / PR,2 X 0
+242,04/09/2022,11:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Ceará / CE,1 X 1
+243,03/09/2022,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Palmeiras / SP,2 X 2
+244,04/09/2022,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Internacional / RS,2 X 2
+245,05/09/2022,20:00,Urbano Caldeira / Santos,Santos / SP,Goiás / GO,1 X 2
+246,03/09/2022,16:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Avaí / SC,1 X 1
+247,04/09/2022,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Botafogo / RJ,1 X 3
+248,04/09/2022,18:00,Antônio Accioly / Goiania,Atlético / GO,Atlético Mineiro / MG,0 X 2
+249,04/09/2022,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,São Paulo / SP,1 X 1
+250,03/09/2022,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Fluminense / RJ,1 X 0
+251,07/09/2022,17:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Red Bull Bragantino / SP,1 X 1
+252,10/09/2022,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Fortaleza / CE,2 X 1
+253,11/09/2022,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Corinthians / SP,1 X 1
+254,10/09/2022,21:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Juventude / RS,2 X 1
+255,11/09/2022,11:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,América Fc Saf / MG,0 X 0
+256,10/09/2022,16:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Cuiabá Saf / MT,1 X 0
+257,10/09/2022,16:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Santos / SP,2 X 1
+258,11/09/2022,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Flamengo / RJ,1 X 1
+259,11/09/2022,11:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Athletico Paranaense / PR,1 X 1
+260,11/09/2022,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Atlético / GO,2 X 0
+261,18/09/2022,18:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Corinthians / SP,1 X 0
+262,18/09/2022,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Fluminense / RJ,1 X 2
+263,18/09/2022,11:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Goiás / GO,1 X 1
+264,18/09/2022,18:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Santos / SP,1 X 0
+265,17/09/2022,19:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Coritiba / PR,2 X 0
+266,18/09/2022,18:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Fortaleza / CE,1 X 1
+267,18/09/2022,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,São Paulo / SP,0 X 2
+268,19/09/2022,20:00,Antônio Accioly / Goiania,Atlético / GO,Internacional / RS,1 X 2
+269,17/09/2022,16:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Atlético Mineiro / MG,1 X 0
+270,18/09/2022,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Cuiabá Saf / MT,2 X 2
+271,28/09/2022,21:45,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Palmeiras / SP,0 X 1
+272,28/09/2022,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Juventude / RS,4 X 0
+273,25/09/2022,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Avaí / SC,4 X 0
+274,28/09/2022,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Atlético / GO,2 X 1
+275,27/09/2022,21:00,Urbano Caldeira / Santos,Santos / SP,Athletico Paranaense / PR,2 X 0
+276,28/09/2022,21:45,José Pinheiro Borda / Porto Alegre,Internacional / RS,Red Bull Bragantino / SP,0 X 0
+277,28/09/2022,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Flamengo / RJ,3 X 2
+278,28/09/2022,21:45,Hailé Pinheiro / Goiania,Goiás / GO,Botafogo / RJ,0 X 1
+279,28/09/2022,21:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,América Fc Saf / MG,2 X 1
+280,28/09/2022,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Ceará / CE,1 X 0
+281,01/10/2022,15:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Fluminense / RJ,2 X 0
+282,01/10/2022,19:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Red Bull Bragantino / SP,4 X 1
+283,20/10/2022,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Coritiba / PR,3 X 1
+284,01/10/2022,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Cuiabá Saf / MT,2 X 0
+285,03/10/2022,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Palmeiras / SP,1 X 3
+286,01/10/2022,15:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Santos / SP,1 X 0
+287,01/10/2022,15:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,América Fc Saf / MG,1 X 2
+288,01/10/2022,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Fortaleza / CE,0 X 1
+289,01/10/2022,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Atlético / GO,1 X 2
+290,01/10/2022,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Juventude / RS,2 X 0
+291,06/10/2022,20:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,São Paulo / SP,1 X 2
+292,05/10/2022,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Internacional / RS,0 X 0
+293,05/10/2022,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Cuiabá Saf / MT,2 X 1
+294,06/10/2022,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Coritiba / PR,4 X 0
+295,05/10/2022,21:30,Urbano Caldeira / Santos,Santos / SP,Atlético Mineiro / MG,1 X 2
+296,04/10/2022,21:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Corinthians / SP,2 X 2
+297,05/10/2022,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Goiás / GO,1 X 1
+298,05/10/2022,19:00,Antônio Accioly / Goiania,Atlético / GO,Fluminense / RJ,3 X 2
+299,06/10/2022,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Botafogo / RJ,1 X 2
+300,05/10/2022,19:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Fortaleza / CE,1 X 1
+301,09/10/2022,18:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Ceará / CE,0 X 0
+302,09/10/2022,18:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,América Fc Saf / MG,0 X 2
+303,09/10/2022,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Botafogo / RJ,0 X 1
+304,08/10/2022,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Athletico Paranaense / PR,2 X 1
+305,10/10/2022,20:00,Urbano Caldeira / Santos,Santos / SP,Juventude / RS,4 X 1
+306,09/10/2022,11:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Goiás / GO,4 X 2
+307,09/10/2022,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Avaí / SC,2 X 0
+308,10/10/2022,18:30,Antônio Accioly / Goiania,Atlético / GO,Palmeiras / SP,1 X 1
+309,08/10/2022,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Flamengo / RJ,1 X 2
+310,09/10/2022,18:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Red Bull Bragantino / SP,2 X 1
+311,15/10/2022,20:30,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Fortaleza / CE,1 X 2
+312,15/10/2022,20:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Atlético Mineiro / MG,1 X 0
+313,17/10/2022,20:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Santos / SP,0 X 2
+314,16/10/2022,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,São Paulo / SP,0 X 0
+315,16/10/2022,18:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Internacional / RS,0 X 1
+316,16/10/2022,18:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Atlético / GO,1 X 1
+317,16/10/2022,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Cuiabá Saf / MT,1 X 1
+318,29/10/2022,19:30,Hailé Pinheiro / Goiania,Goiás / GO,Corinthians / SP,0 X 0
+319,16/10/2022,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Fluminense / RJ,0 X 3
+320,16/10/2022,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Coritiba / PR,1 X 0
+321,22/10/2022,19:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Flamengo / RJ,1 X 2
+322,23/10/2022,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Botafogo / RJ,2 X 2
+323,22/10/2022,16:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Athletico Paranaense / PR,4 X 2
+324,22/10/2022,21:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Avaí / SC,3 X 0
+325,22/10/2022,19:00,Urbano Caldeira / Santos,Santos / SP,Corinthians / SP,0 X 1
+326,23/10/2022,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,São Paulo / SP,1 X 2
+327,24/10/2022,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Atlético Mineiro / MG,0 X 0
+328,23/10/2022,18:00,Antônio Accioly / Goiania,Atlético / GO,Ceará / CE,1 X 0
+329,23/10/2022,18:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Goiás / GO,1 X 2
+330,23/10/2022,18:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Internacional / RS,1 X 1
+331,27/10/2022,19:30,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Juventude / RS,1 X 0
+332,25/10/2022,21:45,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Santos / SP,3 X 2
+333,27/10/2022,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Atlético / GO,2 X 1
+334,26/10/2022,21:45,Arena Corinthians / Sao Paulo,Corinthians / SP,Fluminense / RJ,0 X 2
+335,26/10/2022,19:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Red Bull Bragantino / SP,2 X 1
+336,26/10/2022,21:45,José Pinheiro Borda / Porto Alegre,Internacional / RS,Ceará / CE,2 X 1
+337,27/10/2022,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Coritiba / PR,3 X 1
+338,26/10/2022,21:45,Hailé Pinheiro / Goiania,Goiás / GO,América Fc Saf / MG,2 X 2
+339,27/10/2022,20:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Avaí / SC,1 X 0
+340,25/10/2022,21:45,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Palmeiras / SP,1 X 3
+341,02/11/2022,16:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Internacional / RS,1 X 0
+342,02/11/2022,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Corinthians / SP,1 X 2
+343,01/11/2022,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Atlético Mineiro / MG,2 X 2
+344,02/11/2022,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Fortaleza / CE,4 X 0
+345,01/11/2022,19:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Cuiabá Saf / MT,0 X 2
+346,02/11/2022,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Coritiba / PR,0 X 1
+347,31/10/2022,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Fluminense / RJ,0 X 1
+348,02/11/2022,19:00,Antônio Accioly / Goiania,Atlético / GO,Santos / SP,2 X 3
+349,02/11/2022,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Red Bull Bragantino / SP,1 X 2
+350,02/11/2022,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Goiás / GO,3 X 2
+351,07/11/2022,20:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Botafogo / RJ,0 X 2
+352,05/11/2022,16:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,São Paulo / SP,3 X 1
+353,05/11/2022,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,América Fc Saf / MG,1 X 4
+354,05/11/2022,20:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Ceará / CE,1 X 0
+355,05/11/2022,16:30,Arena Barueri / Barueri,Santos / SP,Avaí / SC,1 X 1
+356,05/11/2022,21:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Athletico Paranaense / PR,2 X 0
+357,06/11/2022,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Atlético / GO,1 X 1
+358,05/11/2022,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Juventude / RS,1 X 0
+359,06/11/2022,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Palmeiras / SP,1 X 1
+360,06/11/2022,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Flamengo / RJ,1 X 0
+361,10/11/2022,20:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Cuiabá Saf / MT,3 X 0
+362,09/11/2022,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Goiás / GO,3 X 0
+363,08/11/2022,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Internacional / RS,0 X 1
+364,09/11/2022,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,América Fc Saf / MG,2 X 1
+365,10/11/2022,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Santos / SP,3 X 0
+366,09/11/2022,21:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Flamengo / RJ,2 X 2
+367,09/11/2022,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Red Bull Bragantino / SP,6 X 0
+368,09/11/2022,21:30,Antônio Accioly / Goiania,Atlético / GO,Athletico Paranaense / PR,1 X 1
+369,09/11/2022,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Ceará / CE,2 X 0
+370,09/11/2022,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Corinthians / SP,2 X 2
+371,13/11/2022,16:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Atlético / GO,1 X 1
+372,12/11/2022,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Avaí / SC,1 X 2
+373,13/11/2022,16:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Fluminense / RJ,0 X 1
+374,13/11/2022,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Atlético Mineiro / MG,0 X 1
+375,13/11/2022,16:00,Urbano Caldeira / Santos,Santos / SP,Fortaleza / CE,0 X 2
+376,13/11/2022,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Palmeiras / SP,3 X 0
+377,13/11/2022,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Juventude / RS,4 X 1
+378,13/11/2022,16:00,Hailé Pinheiro / Goiania,Goiás / GO,São Paulo / SP,0 X 4
+379,13/11/2022,16:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Coritiba / PR,2 X 1
+380,13/11/2022,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Botafogo / RJ,3 X 0
