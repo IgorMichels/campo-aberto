@@ -1,0 +1,381 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,29/03/2025,21:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Internacional / RS,1 X 1
+002,30/03/2025,18:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Santos Fc / SP,2 X 1
+003,30/03/2025,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Botafogo / RJ,0 X 0
+004,29/03/2025,18:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Sport / PE,0 X 0
+005,31/03/2025,20:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Ceará / CE,2 X 2
+006,29/03/2025,18:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Mirassol / SP,2 X 1
+007,29/03/2025,18:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Atlético Mineiro Saf / MG,2 X 1
+008,30/03/2025,20:00,Octávio Mangabeira / Salvador,Bahia / BA,Corinthians / SP,1 X 1
+009,29/03/2025,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Fluminense / RJ,2 X 0
+010,29/03/2025,18:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Vitória / BA,2 X 0
+011,06/04/2025,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Red Bull Bragantino / SP,2 X 1
+012,05/04/2025,21:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Juventude / RS,2 X 0
+013,05/04/2025,18:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Vasco da Gama S.a.f. / RJ,3 X 0
+014,06/04/2025,20:30,Urbano Caldeira / Santos,Santos Fc / SP,Bahia / BA,2 X 2
+015,06/04/2025,18:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Fortaleza Ec Saf / CE,1 X 1
+016,06/04/2025,16:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro Saf / MG,São Paulo / SP,0 X 0
+017,06/04/2025,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Cruzeiro Saf / MG,3 X 0
+018,06/04/2025,18:30,Manoel Barradas / Salvador,Vitória / BA,Flamengo / RJ,1 X 2
+019,05/04/2025,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Grêmio / RS,2 X 0
+020,06/04/2025,18:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Palmeiras / SP,1 X 2
+021,13/04/2025,19:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Santos Fc / SP,1 X 0
+022,12/04/2025,21:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Sport / PE,3 X 1
+023,12/04/2025,18:30,Arena Barueri / Barueri,Palmeiras / SP,Corinthians / SP,2 X 0
+024,13/04/2025,17:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Cruzeiro Saf / MG,1 X 1
+025,12/04/2025,16:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Botafogo / RJ,1 X 0
+026,13/04/2025,20:30,Magalhães Pinto / Belo Horizonte,Atlético Mineiro Saf / MG,Vitória / BA,2 X 2
+027,13/04/2025,17:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Flamengo / RJ,0 X 2
+028,13/04/2025,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Mirassol / SP,1 X 1
+029,13/04/2025,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Internacional / RS,0 X 0
+030,12/04/2025,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Ceará / CE,2 X 1
+031,16/04/2025,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Juventude / RS,6 X 0
+032,16/04/2025,18:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,São Paulo / SP,2 X 2
+033,16/04/2025,19:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Fluminense / RJ,0 X 2
+034,16/04/2025,21:30,Urbano Caldeira / Santos,Santos Fc / SP,Atlético Mineiro Saf / MG,2 X 0
+035,16/04/2025,19:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Grêmio / RS,4 X 1
+036,17/04/2025,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Bahia / BA,3 X 0
+037,16/04/2025,19:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Palmeiras / SP,0 X 1
+038,16/04/2025,21:30,Manoel Barradas / Salvador,Vitória / BA,Fortaleza Ec Saf / CE,2 X 1
+039,15/04/2025,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Vasco da Gama S.a.f. / RJ,2 X 1
+040,16/04/2025,19:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Red Bull Bragantino / SP,0 X 1
+041,20/04/2025,18:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Vitória / BA,1 X 1
+042,19/04/2025,18:30,Jornalista Mário Filho / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Flamengo / RJ,0 X 0
+043,19/04/2025,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Sport / PE,2 X 1
+044,20/04/2025,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Santos Fc / SP,2 X 1
+045,20/04/2025,20:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Cruzeiro Saf / MG,1 X 0
+046,20/04/2025,16:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro Saf / MG,Botafogo / RJ,1 X 0
+047,19/04/2025,21:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Internacional / RS,1 X 1
+048,21/04/2025,20:00,Octávio Mangabeira / Salvador,Bahia / BA,Ceará / CE,1 X 0
+049,20/04/2025,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Palmeiras / SP,1 X 2
+050,20/04/2025,11:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Mirassol / SP,2 X 2
+051,27/04/2025,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Corinthians / SP,4 X 0
+052,26/04/2025,21:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Fluminense / RJ,2 X 0
+053,27/04/2025,18:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Bahia / BA,0 X 1
+054,27/04/2025,20:30,Urbano Caldeira / Santos,Santos Fc / SP,Red Bull Bragantino / SP,1 X 2
+055,26/04/2025,18:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Atlético Mineiro Saf / MG,2 X 2
+056,27/04/2025,18:30,Parque do Sabiá / Uberlandia,Cruzeiro Saf / MG,Vasco da Gama S.a.f. / RJ,1 X 0
+057,26/04/2025,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Juventude / RS,3 X 1
+058,27/04/2025,18:30,Manoel Barradas / Salvador,Vitória / BA,Grêmio / RS,1 X 1
+059,26/04/2025,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,São Paulo / SP,1 X 1
+060,26/04/2025,20:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Fortaleza Ec Saf / CE,0 X 0
+061,03/05/2025,18:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Sport / PE,2 X 1
+062,04/05/2025,16:00,Estádio Nacional Mané Garrincha / Brasilia,Vasco da Gama S.a.f. / RJ,Palmeiras / SP,0 X 1
+063,03/05/2025,18:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Internacional / RS,4 X 2
+064,02/05/2025,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Fortaleza Ec Saf / CE,0 X 0
+065,05/05/2025,19:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Mirassol / SP,1 X 0
+066,04/05/2025,18:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Flamengo / RJ,2 X 1
+067,04/05/2025,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Santos Fc / SP,1 X 0
+068,03/05/2025,21:00,Octávio Mangabeira / Salvador,Bahia / BA,Botafogo / RJ,1 X 0
+069,03/05/2025,18:30,Presidente Vargas / Fortaleza,Ceará / CE,Vitória / BA,1 X 0
+070,05/05/2025,20:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Atlético Mineiro Saf / MG,0 X 1
+071,10/05/2025,21:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Bahia / BA,1 X 0
+072,11/05/2025,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Internacional / RS,4 X 0
+073,11/05/2025,17:30,Arena Barueri / Barueri,Palmeiras / SP,São Paulo / SP,1 X 0
+074,12/05/2025,20:00,Allianz Parque / Sao Paulo,Santos Fc / SP,Ceará / CE,0 X 0
+075,10/05/2025,18:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Corinthians / SP,2 X 1
+076,11/05/2025,17:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Fluminense / RJ,3 X 2
+077,10/05/2025,18:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Red Bull Bragantino / SP,1 X 1
+078,10/05/2025,18:30,Manoel Barradas / Salvador,Vitória / BA,Vasco da Gama S.a.f. / RJ,2 X 1
+079,10/05/2025,16:00,Presidente Vargas / Fortaleza,Fortaleza Ec Saf / CE,Juventude / RS,5 X 0
+080,11/05/2025,16:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Cruzeiro Saf / MG,0 X 4
+081,18/05/2025,18:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Botafogo / RJ,0 X 0
+082,17/05/2025,18:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Fortaleza Ec Saf / CE,3 X 0
+083,18/05/2025,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Santos Fc / SP,1 X 0
+084,17/05/2025,21:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Grêmio / RS,2 X 1
+085,18/05/2025,18:30,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Palmeiras / SP,1 X 2
+086,18/05/2025,20:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Atlético Mineiro Saf / MG,0 X 0
+087,18/05/2025,20:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Mirassol / SP,1 X 1
+088,18/05/2025,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Vitória / BA,2 X 1
+089,17/05/2025,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Sport / PE,2 X 0
+090,18/05/2025,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Fluminense / RJ,1 X 1
+091,24/05/2025,18:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Vasco da Gama S.a.f. / RJ,2 X 1
+092,04/06/2025,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Ceará / CE,3 X 2
+093,25/05/2025,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Flamengo / RJ,0 X 2
+094,24/05/2025,18:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Mirassol / SP,0 X 2
+095,26/05/2025,20:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Juventude / RS,1 X 0
+096,24/05/2025,21:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Corinthians / SP,0 X 0
+097,25/05/2025,11:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Bahia / BA,1 X 0
+098,25/05/2025,18:30,Manoel Barradas / Salvador,Vitória / BA,Santos Fc / SP,0 X 1
+099,25/05/2025,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Cruzeiro Saf / MG,0 X 2
+100,25/05/2025,16:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Internacional / RS,1 X 1
+101,01/06/2025,18:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Fortaleza Ec Saf / CE,5 X 0
+102,31/05/2025,21:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Red Bull Bragantino / SP,0 X 2
+103,01/06/2025,18:30,Arena Corinthians / Sao Paulo,CORINTHIANS / SP,Vitória / BA,0 X 0
+104,01/06/2025,16:00,Urbano Caldeira / Santos,Santos Fc / SP,Botafogo / RJ,0 X 1
+105,01/06/2025,11:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Sport / PE,1 X 0
+106,01/06/2025,19:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Palmeiras / SP,2 X 1
+107,01/06/2025,20:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fluminense / RJ,0 X 2
+108,31/05/2025,18:30,Octávio Mangabeira / Salvador,Bahia / BA,São Paulo / SP,2 X 1
+109,01/06/2025,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Atlético Mineiro Saf / MG,0 X 1
+110,01/06/2025,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Grêmio / RS,0 X 2
+111,29/10/2025,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Ceará / CE,1 X 0
+112,17/09/2025,19:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Mirassol / SP,3 X 3
+113,11/10/2025,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Juventude / RS,4 X 1
+114,12/06/2025,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Vasco da Gama S.a.f. / RJ,1 X 3
+115,12/06/2025,19:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Bahia / BA,0 X 3
+116,12/06/2025,21:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Internacional / RS,2 X 0
+117,12/06/2025,20:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Corinthians / SP,1 X 1
+118,12/06/2025,19:00,Manoel Barradas / Salvador,Vitória / BA,Cruzeiro Saf / MG,0 X 0
+119,12/06/2025,19:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Santos Fc / SP,2 X 3
+120,15/11/2025,18:30,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport Recife / PE,Flamengo / RJ,1 X 5
+121,12/07/2025,16:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,São Paulo / SP,2 X 0
+122,12/07/2025,18:30,Estádio Nacional Mané Garrincha / Brasilia,Vasco da Gama S.a.f. / RJ,Botafogo / RJ,0 X 2
+123,13/07/2025,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Red Bull Bragantino / SP,1 X 2
+124,15/11/2025,21:00,Urbano Caldeira / Santos,Santos Fc / SP,Palmeiras / SP,1 X 0
+125,08/10/2025,21:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Fluminense / RJ,2 X 1
+126,13/07/2025,20:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Grêmio / RS,4 X 1
+127,12/07/2025,16:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Vitória / BA,1 X 0
+128,12/07/2025,21:00,Octávio Mangabeira / Salvador,Bahia / BA,Atlético Mineiro Saf / MG,2 X 1
+129,13/07/2025,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Ceará / CE,0 X 1
+130,14/07/2025,20:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Sport / PE,2 X 0
+131,17/07/2025,19:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Cruzeiro Saf / MG,0 X 2
+132,16/07/2025,21:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Vitória / BA,0 X 0
+133,16/07/2025,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Mirassol / SP,1 X 1
+134,16/07/2025,20:00,Urbano Caldeira / Santos,Santos Fc / SP,Flamengo / RJ,1 X 0
+135,16/07/2025,21:30,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,São Paulo / SP,2 X 2
+136,08/10/2025,19:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Sport / PE,3 X 1
+137,29/07/2025,20:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Fortaleza Ec Saf / CE,2 X 1
+138,22/10/2025,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Internacional / RS,1 X 0
+139,16/07/2025,19:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Corinthians / SP,0 X 1
+140,20/08/2025,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Vasco da Gama S.a.f. / RJ,2 X 0
+141,20/07/2025,19:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Fluminense / RJ,1 X 0
+142,19/07/2025,17:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Grêmio / RS,1 X 1
+143,20/07/2025,17:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Atlético Mineiro Saf / MG,3 X 2
+144,19/07/2025,21:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Corinthians / SP,2 X 0
+145,19/07/2025,18:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Santos Fc / SP,3 X 0
+146,20/07/2025,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Juventude / RS,4 X 0
+147,20/07/2025,11:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Ceará / CE,1 X 0
+148,20/07/2025,16:00,Manoel Barradas / Salvador,Vitória / BA,Red Bull Bragantino / SP,1 X 0
+149,19/07/2025,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Bahia / BA,1 X 1
+150,20/07/2025,17:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Botafogo / RJ,0 X 1
+151,23/07/2025,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Palmeiras / SP,1 X 2
+152,24/09/2025,19:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Bahia / BA,3 X 1
+153,23/07/2025,19:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Cruzeiro Saf / MG,0 X 0
+154,23/07/2025,21:30,Urbano Caldeira / Santos,Santos Fc / SP,Internacional / RS,1 X 2
+155,23/07/2025,21:30,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Flamengo / RJ,1 X 2
+156,12/11/2025,20:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Fortaleza Ec Saf / CE,3 X 3
+157,24/09/2025,19:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Botafogo / RJ,1 X 1
+158,23/07/2025,21:30,Manoel Barradas / Salvador,Vitória / BA,Sport / PE,2 X 2
+159,23/07/2025,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Mirassol / SP,0 X 2
+160,24/07/2025,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,São Paulo / SP,0 X 1
+161,27/07/2025,20:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Atlético Mineiro Saf / MG,1 X 0
+162,26/07/2025,18:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Corinthians / SP,1 X 1
+163,26/07/2025,21:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Grêmio / RS,1 X 0
+164,27/07/2025,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Fluminense / RJ,3 X 1
+165,26/07/2025,18:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Vitória / BA,1 X 1
+166,27/07/2025,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Ceará / CE,1 X 2
+167,27/07/2025,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Vasco da Gama S.a.f. / RJ,1 X 1
+168,27/07/2025,18:30,Octávio Mangabeira / Salvador,Bahia / BA,Juventude / RS,3 X 0
+169,26/07/2025,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Red Bull Bragantino / SP,3 X 1
+170,26/07/2025,18:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Santos Fc / SP,2 X 2
+171,02/08/2025,21:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Grêmio / RS,1 X 0
+172,03/08/2025,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Cruzeiro Saf / MG,0 X 2
+173,03/08/2025,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Fortaleza Ec Saf / CE,1 X 1
+174,04/08/2025,20:00,Cícero Pompeu de Toledo / Sao Paulo,Santos Fc / SP,Juventude / RS,3 X 1
+175,02/08/2025,18:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Vasco da Gama S.a.f. / RJ,3 X 2
+176,03/08/2025,18:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Red Bull Bragantino / SP,2 X 1
+177,03/08/2025,20:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,São Paulo / SP,1 X 2
+178,03/08/2025,19:30,Manoel Barradas / Salvador,Vitória / BA,Palmeiras / SP,2 X 2
+179,03/08/2025,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Flamengo / RJ,1 X 1
+180,02/08/2025,16:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Bahia / BA,0 X 0
+181,09/08/2025,18:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Mirassol / SP,2 X 1
+182,10/08/2025,16:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Atlético Mineiro Saf / MG,1 X 1
+183,10/08/2025,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Ceará / CE,2 X 1
+184,09/08/2025,18:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Vitória / BA,2 X 0
+185,09/08/2025,18:30,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Internacional / RS,1 X 3
+186,10/08/2025,18:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Santos Fc / SP,1 X 2
+187,10/08/2025,20:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Sport / PE,0 X 1
+188,09/08/2025,21:00,Octávio Mangabeira / Salvador,Bahia / BA,Fluminense / RJ,3 X 3
+189,09/08/2025,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Botafogo / RJ,0 X 5
+190,11/08/2025,20:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Corinthians / SP,2 X 1
+191,16/08/2025,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Fortaleza Ec Saf / CE,2 X 1
+192,17/08/2025,20:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Palmeiras / SP,0 X 1
+193,16/08/2025,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Bahia / BA,1 X 2
+194,17/08/2025,16:00,Cícero Pompeu de Toledo / Sao Paulo,Santos Fc / SP,Vasco da Gama S.a.f. / RJ,0 X 6
+195,18/08/2025,20:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Cruzeiro Saf / MG,1 X 1
+196,17/08/2025,16:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Grêmio / RS,1 X 3
+197,17/08/2025,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Flamengo / RJ,1 X 3
+198,16/08/2025,18:30,Manoel Barradas / Salvador,Vitória / BA,Juventude / RS,2 X 2
+199,16/08/2025,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Red Bull Bragantino / SP,1 X 0
+200,16/08/2025,18:30,Adelmar da Costa Carvalho / Recife,Sport / PE,São Paulo / SP,2 X 2
+201,25/08/2025,21:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Vitória / BA,8 X 0
+202,24/08/2025,16:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Corinthians / SP,2 X 3
+203,25/08/2025,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Sport / PE,3 X 0
+204,24/08/2025,20:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Atlético Mineiro Saf / MG,2 X 0
+205,23/08/2025,16:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Fluminense / RJ,4 X 2
+206,23/08/2025,18:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Internacional / RS,2 X 1
+207,23/08/2025,21:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Ceará / CE,0 X 0
+208,24/08/2025,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Santos Fc / SP,2 X 0
+209,24/08/2025,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Mirassol / SP,0 X 1
+210,24/08/2025,18:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Botafogo / RJ,1 X 3
+211,31/08/2025,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Grêmio / RS,1 X 1
+212,30/08/2025,18:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Red Bull Bragantino / SP,4 X 1
+213,31/08/2025,18:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Palmeiras / SP,1 X 1
+214,31/08/2025,16:00,Urbano Caldeira / Santos,Santos Fc / SP,Fluminense / RJ,0 X 0
+215,31/08/2025,18:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Bahia / BA,5 X 1
+216,30/08/2025,21:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,São Paulo / SP,1 X 0
+217,31/08/2025,20:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fortaleza Ec Saf / CE,2 X 1
+218,31/08/2025,18:30,Manoel Barradas / Salvador,Vitória / BA,Atlético Mineiro Saf / MG,1 X 0
+219,30/08/2025,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Juventude / RS,0 X 1
+220,31/08/2025,20:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Vasco da Gama S.a.f. / RJ,2 X 3
+221,13/09/2025,21:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Corinthians / SP,0 X 1
+222,14/09/2025,20:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Ceará / CE,2 X 2
+223,13/09/2025,18:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Internacional / RS,4 X 1
+224,14/09/2025,17:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Botafogo / RJ,1 X 0
+225,14/09/2025,11:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Sport / PE,1 X 1
+226,14/09/2025,16:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Santos Fc / SP,1 X 1
+227,13/09/2025,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Mirassol / SP,0 X 1
+228,15/09/2025,20:00,Octávio Mangabeira / Salvador,Bahia / BA,Cruzeiro Saf / MG,1 X 2
+229,13/09/2025,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Vitória / BA,2 X 0
+230,14/09/2025,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Flamengo / RJ,0 X 2
+231,21/09/2025,17:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Vasco da Gama S.a.f. / RJ,1 X 1
+232,20/09/2025,18:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Atlético Mineiro Saf / MG,1 X 0
+233,20/09/2025,21:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Fortaleza Ec Saf / CE,4 X 1
+234,21/09/2025,20:30,Urbano Caldeira / Santos,Santos Fc / SP,São Paulo / SP,1 X 0
+235,21/09/2025,16:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Juventude / RS,2 X 0
+236,21/09/2025,20:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Red Bull Bragantino / SP,2 X 1
+237,21/09/2025,17:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Grêmio / RS,2 X 3
+238,20/09/2025,16:00,Manoel Barradas / Salvador,Vitória / BA,Fluminense / RJ,0 X 1
+239,20/09/2025,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Bahia / BA,1 X 1
+240,21/09/2025,17:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Corinthians / SP,1 X 0
+241,28/09/2025,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Botafogo / RJ,2 X 0
+242,27/09/2025,18:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Cruzeiro Saf / MG,2 X 0
+243,28/09/2025,20:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Flamengo / RJ,1 X 2
+244,29/09/2025,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Ceará / CE,0 X 1
+245,28/09/2025,18:30,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Santos Fc / SP,2 X 2
+246,27/09/2025,21:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Mirassol / SP,1 X 0
+247,28/09/2025,11:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Vitória / BA,3 X 1
+248,28/09/2025,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Palmeiras / SP,1 X 0
+249,27/09/2025,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Sport / PE,1 X 0
+250,27/09/2025,18:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Internacional / RS,1 X 1
+251,02/10/2025,20:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Cruzeiro Saf / MG,0 X 0
+252,01/10/2025,21:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Bahia / BA,2 X 1
+253,01/10/2025,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Vasco da Gama S.a.f. / RJ,3 X 0
+254,01/10/2025,21:30,Urbano Caldeira / Santos,Santos Fc / SP,Grêmio / RS,1 X 1
+255,01/10/2025,19:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Red Bull Bragantino / SP,1 X 1
+256,30/09/2025,21:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Juventude / RS,0 X 0
+257,01/10/2025,19:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Corinthians / SP,1 X 1
+258,02/10/2025,19:00,Manoel Barradas / Salvador,Vitória / BA,Ceará / CE,1 X 0
+259,02/10/2025,19:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,São Paulo / SP,0 X 2
+260,01/10/2025,19:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Fluminense / RJ,2 X 2
+261,04/10/2025,18:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Atlético Mineiro Saf / MG,3 X 0
+262,05/10/2025,16:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Vitória / BA,4 X 3
+263,04/10/2025,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Mirassol / SP,3 X 0
+264,05/10/2025,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Palmeiras / SP,2 X 3
+265,04/10/2025,18:30,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Grêmio / RS,1 X 0
+266,05/10/2025,20:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Sport / PE,1 X 1
+267,04/10/2025,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Botafogo / RJ,2 X 0
+268,05/10/2025,18:30,Octávio Mangabeira / Salvador,Bahia / BA,Flamengo / RJ,1 X 0
+269,05/10/2025,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Santos Fc / SP,3 X 0
+270,05/10/2025,18:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Fortaleza Ec Saf / CE,1 X 2
+271,16/10/2025,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Juventude / RS,1 X 0
+272,15/10/2025,19:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Flamengo / RJ,0 X 3
+273,15/10/2025,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Red Bull Bragantino / SP,5 X 1
+274,15/10/2025,21:30,Urbano Caldeira / Santos,Santos Fc / SP,Corinthians / SP,3 X 1
+275,15/10/2025,20:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Internacional / RS,3 X 1
+276,15/10/2025,21:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Cruzeiro Saf / MG,1 X 1
+277,16/10/2025,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,São Paulo / SP,2 X 0
+278,16/10/2025,21:30,Manoel Barradas / Salvador,Vitória / BA,Bahia / BA,2 X 1
+279,15/10/2025,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Vasco da Gama S.a.f. / RJ,0 X 2
+280,15/10/2025,20:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Ceará / CE,1 X 1
+281,19/10/2025,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Palmeiras / SP,3 X 2
+282,20/10/2025,19:30,Jornalista Mário Filho / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Fluminense / RJ,2 X 0
+283,18/10/2025,18:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Atlético Mineiro Saf / MG,1 X 0
+284,20/10/2025,21:30,Urbano Caldeira / Santos,Santos Fc / SP,Vitória / BA,0 X 1
+285,19/10/2025,18:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,São Paulo / SP,3 X 0
+286,18/10/2025,21:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Fortaleza Ec Saf / CE,1 X 0
+287,19/10/2025,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Sport / PE,2 X 0
+288,19/10/2025,20:30,Octávio Mangabeira / Salvador,Bahia / BA,Grêmio / RS,4 X 0
+289,19/10/2025,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Botafogo / RJ,0 X 2
+290,20/10/2025,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Red Bull Bragantino / SP,1 X 0
+291,25/10/2025,17:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Internacional / RS,1 X 0
+292,26/10/2025,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Santos Fc / SP,2 X 2
+293,26/10/2025,20:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Cruzeiro Saf / MG,0 X 0
+294,25/10/2025,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Bahia / BA,2 X 0
+295,26/10/2025,18:30,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Vasco da Gama S.a.f. / RJ,0 X 3
+296,25/10/2025,16:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Ceará / CE,1 X 0
+297,26/10/2025,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Juventude / RS,3 X 1
+298,25/10/2025,16:00,Manoel Barradas / Salvador,Vitória / BA,Corinthians / SP,0 X 1
+299,25/10/2025,19:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Flamengo / RJ,1 X 0
+300,25/10/2025,18:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Mirassol / SP,1 X 2
+301,01/11/2025,21:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Sport Recife / PE,3 X 0
+302,02/11/2025,20:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,São Paulo / SP,0 X 2
+303,02/11/2025,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Grêmio / RS,2 X 0
+304,01/11/2025,16:00,Urbano Caldeira / Santos,Santos Fc / SP,Fortaleza Ec Saf / CE,1 X 1
+305,01/11/2025,18:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Botafogo / RJ,0 X 0
+306,01/11/2025,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Vitória / BA,3 X 1
+307,02/11/2025,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Atlético Mineiro Saf / MG,0 X 0
+308,02/11/2025,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Red Bull Bragantino / SP,2 X 1
+309,02/11/2025,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Fluminense / RJ,2 X 0
+310,02/11/2025,18:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Palmeiras / SP,0 X 2
+311,06/11/2025,19:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Mirassol / SP,1 X 0
+312,05/11/2025,19:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Vasco da Gama S.a.f. / RJ,3 X 0
+313,06/11/2025,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Santos Fc / SP,2 X 0
+314,05/11/2025,21:30,Urbano Caldeira / Santos,São Paulo / SP,Flamengo / RJ,2 X 2
+315,05/11/2025,19:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Corinthians / SP,2 X 1
+316,05/11/2025,20:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Bahia / BA,3 X 0
+317,05/11/2025,20:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Cruzeiro Saf / MG,0 X 1
+318,05/11/2025,19:00,Manoel Barradas / Salvador,Vitória / BA,Internacional / RS,1 X 0
+319,06/11/2025,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Fortaleza Ec Saf / CE,1 X 1
+320,05/11/2025,19:00,Adelmar da Costa Carvalho / Recife,Sport Recife / PE,Juventude / RS,0 X 2
+321,09/11/2025,18:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Santos Fc / SP,3 X 2
+322,08/11/2025,18:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Juventude / RS,1 X 3
+323,09/11/2025,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Ceará / CE,0 X 1
+324,08/11/2025,21:00,Urbano Caldeira / Santos,São Paulo / SP,Red Bull Bragantino / SP,0 X 1
+325,09/11/2025,20:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Palmeiras / SP,2 X 1
+326,09/11/2025,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Fluminense / RJ,0 X 0
+327,08/11/2025,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Bahia / BA,2 X 2
+328,09/11/2025,16:00,Manoel Barradas / Salvador,Vitória / BA,Botafogo / RJ,0 X 0
+329,09/11/2025,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Grêmio / RS,2 X 2
+330,08/11/2025,16:00,Adelmar da Costa Carvalho / Recife,Sport Recife / PE,Atlético Mineiro Saf / MG,2 X 4
+331,19/11/2025,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Flamengo / RJ,2 X 1
+332,18/11/2025,20:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Sport Recife / PE,3 X 2
+333,20/11/2025,19:30,Arena Corinthians / Sao Paulo,Corinthians / SP,São Paulo / SP,3 X 1
+334,19/11/2025,21:30,Urbano Caldeira / Santos,Santos Fc / SP,Mirassol / SP,1 X 1
+335,03/12/2025,19:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Vitória / BA,4 X 0
+336,03/12/2025,21:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Palmeiras / SP,0 X 3
+337,19/11/2025,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Vasco da Gama S.a.f. / RJ,2 X 0
+338,20/11/2025,18:00,Octávio Mangabeira / Salvador,Bahia / BA,Fortaleza Ec Saf / CE,2 X 3
+339,20/11/2025,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Internacional / RS,1 X 2
+340,20/11/2025,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Cruzeiro Saf / MG,3 X 3
+341,22/11/2025,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Red Bull Bragantino / SP,3 X 0
+342,22/11/2025,19:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Grêmio / RS,3 X 2
+343,22/11/2025,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Fluminense / RJ,0 X 0
+344,23/11/2025,16:00,Urbano Caldeira / Santos,São Paulo / SP,Juventude / RS,2 X 1
+345,24/11/2025,19:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Ceará / CE,3 X 0
+346,23/11/2025,20:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Corinthians / SP,3 X 0
+347,24/11/2025,21:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Santos Fc / SP,1 X 1
+348,23/11/2025,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Vasco da Gama S.a.f. / RJ,1 X 0
+349,30/11/2025,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Atlético Mineiro Saf / MG,1 X 0
+350,23/11/2025,18:30,Adelmar da Costa Carvalho / Recife,Sport Recife / PE,Vitória / BA,1 X 3
+351,27/11/2025,20:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,São Paulo / SP,6 X 0
+352,28/11/2025,19:30,São Januário / Rio de Janeiro,Vasco da Gama S.A.F. / RJ,Internacional / RS,5 X 1
+353,30/11/2025,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Botafogo / RJ,2 X 2
+354,28/11/2025,21:30,Urbano Caldeira / Santos,Santos Fc / SP,Sport Recife / PE,3 X 0
+355,26/11/2025,19:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Fortaleza Ec Saf / CE,0 X 1
+356,25/11/2025,21:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Flamengo / RJ,1 X 1
+357,25/11/2025,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Palmeiras / SP,3 X 2
+358,29/11/2025,16:00,Manoel Barradas / Salvador,Vitória / BA,Mirassol / SP,2 X 0
+359,29/11/2025,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Cruzeiro Saf / MG,1 X 1
+360,28/11/2025,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Bahia / BA,1 X 1
+361,03/12/2025,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Ceará / CE,1 X 0
+362,02/12/2025,19:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Mirassol / SP,0 X 2
+363,19/11/2025,19:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Vitória / BA,0 X 0
+364,03/12/2025,20:00,Urbano Caldeira / Santos,São Paulo / SP,Internacional / RS,3 X 0
+365,16/11/2025,19:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Atlético Mineiro Saf / MG,2 X 0
+366,04/12/2025,19:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Botafogo / RJ,2 X 2
+367,02/12/2025,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Fluminense / RJ,1 X 2
+368,03/12/2025,20:00,Octávio Mangabeira / Salvador,Bahia / BA,Sport Recife / PE,2 X 0
+369,03/12/2025,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza Ec Saf / CE,Corinthians / SP,2 X 1
+370,03/12/2025,19:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Santos Fc / SP,0 X 3
+371,07/12/2025,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Bahia / BA,2 X 0
+372,07/12/2025,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Fortaleza Ec Saf / CE,4 X 2
+373,07/12/2025,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Juventude / RS,1 X 1
+374,07/12/2025,16:00,Urbano Caldeira / Santos,Santos Fc / SP,Cruzeiro Saf / MG,3 X 0
+375,06/12/2025,18:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Flamengo / RJ,3 X 3
+376,07/12/2025,16:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Vasco da Gama S.a.f. / RJ,5 X 0
+377,07/12/2025,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Red Bull Bragantino / SP,3 X 1
+378,07/12/2025,16:00,Manoel Barradas / Salvador,Vitória / BA,São Paulo / SP,1 X 0
+379,07/12/2025,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Palmeiras / SP,1 X 3
+380,07/12/2025,16:00,Adelmar da Costa Carvalho / Recife,Sport Recife / PE,Grêmio / RS,0 X 4
