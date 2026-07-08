@@ -1,0 +1,178 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,28/01/2026,19:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Grêmio / RS,2 X 1
+002,29/01/2026,21:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Cruzeiro Saf / MG,4 X 0
+003,28/01/2026,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Flamengo / RJ,2 X 1
+004,28/01/2026,20:00,Urbano Caldeira / Santos,Corinthians / SP,Bahia / BA,1 X 2
+005,29/01/2026,20:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Vasco da Gama Saf / RJ,2 X 1
+006,28/01/2026,19:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Palmeiras / SP,2 X 2
+007,28/01/2026,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Athletico Paranaense / PR,0 X 1
+008,28/01/2026,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Red Bull Bragantino / SP,0 X 1
+009,28/01/2026,19:00,Manoel Barradas / Salvador,Vitória / BA,Remo / PA,2 X 0
+010,28/01/2026,20:00,Índio Condá / Chapeco,Chapecoense / SC,Santos Fc / SP,4 X 2
+011,04/02/2026,19:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Internacional / RS,1 X 1
+012,05/02/2026,20:00,São Januário / Rio de Janeiro,Vasco da Gama Saf / RJ,Chapecoense / SC,1 X 1
+013,04/02/2026,20:00,Urbano Caldeira / Santos,Santos Fc / SP,São Paulo / SP,1 X 1
+014,04/02/2026,21:30,Arena Barueri / Barueri,Palmeiras / SP,Vitória / BA,5 X 1
+015,04/02/2026,19:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Atlético Mineiro Saf / MG,1 X 0
+016,05/02/2026,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Coritiba S.a.f. / PR,1 X 2
+017,04/02/2026,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Botafogo / RJ,5 X 3
+018,19/02/2026,19:30,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Corinthians / SP,0 X 1
+019,05/02/2026,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Fluminense / RJ,1 X 1
+020,04/02/2026,20:00,Olímpico do Pará / Belem,Remo / PA,Mirassol / SP,2 X 2
+021,12/02/2026,19:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Botafogo / RJ,1 X 0
+022,11/02/2026,21:30,São Januário / Rio de Janeiro,Vasco da Gama Saf / RJ,Bahia / BA,0 X 1
+023,11/02/2026,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Grêmio / RS,2 X 0
+024,12/02/2026,20:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Red Bull Bragantino / SP,2 X 0
+025,11/02/2026,19:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Cruzeiro / MG,2 X 2
+026,11/02/2026,20:00,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Remo / PA,3 X 3
+027,12/02/2026,21:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Palmeiras / SP,1 X 3
+028,12/02/2026,19:00,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Santos Fc / SP,2 X 1
+029,10/02/2026,21:30,Manoel Barradas / Salvador,Vitória / BA,Flamengo / RJ,1 X 2
+030,11/02/2026,19:00,Índio Condá / Chapeco,Chapecoense / SC,Coritiba S.a.f. / PR,3 X 3
+033,26/02/2026,19:00,Urbano Caldeira / Santos,Santos Fc / SP,Vasco da Gama Saf / RJ,2 X 1
+034,25/02/2026,21:30,Arena Barueri / Barueri,Palmeiras / SP,Fluminense / RJ,2 X 1
+035,25/02/2026,19:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Athletico Paranaense / PR,1 X 1
+036,25/02/2026,20:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Corinthians / SP,1 X 1
+037,25/02/2026,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Atlético Mineiro / MG,2 X 1
+038,25/02/2026,19:30,Major Antônio Couto Pereira / Curitiba,Coritiba SAF / PR,São Paulo / SP,0 X 1
+040,25/02/2026,19:00,Olímpico do Pará / Belem,Remo / PA,Internacional / RS,1 X 1
+041,11/03/2026,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Cruzeiro / MG,2 X 0
+042,12/03/2026,19:30,São Januário / Rio de Janeiro,Vasco da Gama Saf / RJ,Palmeiras / SP,2 X 1
+043,12/03/2026,20:00,Oswaldo Teixeira Duarte / Sao Paulo,São Paulo / SP,Chapecoense / SC,2 X 0
+044,11/03/2026,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Coritiba SAF / PR,0 X 2
+045,10/03/2026,21:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Santos Fc / SP,2 X 2
+046,11/03/2026,19:00,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Internacional / RS,1 X 0
+047,12/03/2026,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Red Bull Bragantino / SP,1 X 1
+048,29/03/2026,19:30,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Botafogo / RJ,4 X 1
+049,11/03/2026,20:00,Octávio Mangabeira / Salvador,Bahia / BA,Vitória / BA,1 X 1
+050,12/03/2026,19:00,Olímpico do Pará / Belem,Remo / PA,Fluminense / RJ,0 X 2
+051,15/03/2026,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Athletico Paranaense / PR,3 X 2
+052,14/03/2026,20:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Flamengo / RJ,0 X 3
+053,15/03/2026,16:00,Urbano Caldeira / Santos,Santos Fc / SP,Corinthians / SP,1 X 1
+054,15/03/2026,18:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Mirassol / SP,1 X 0
+055,15/03/2026,20:30,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,São Paulo / SP,1 X 2
+056,15/03/2026,20:30,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Vasco da Gama Saf / RJ,3 X 3
+057,15/03/2026,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Bahia / BA,0 X 1
+058,15/03/2026,18:30,Major Antônio Couto Pereira / Curitiba,Coritiba SAF / PR,Remo / PA,1 X 0
+059,14/03/2026,18:30,Manoel Barradas / Salvador,Vitória / BA,Atlético Mineiro / MG,2 X 0
+060,16/03/2026,20:00,Índio Condá / Chapeco,Chapecoense / SC,Grêmio / RS,1 X 1
+061,19/03/2026,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Remo / PA,3 X 0
+062,18/03/2026,21:30,Jornalista Mário Filho / Rio de Janeiro,Vasco da Gama Saf / RJ,Fluminense / RJ,3 X 2
+063,18/03/2026,21:30,Urbano Caldeira / Santos,Santos Fc / SP,Internacional / RS,1 X 2
+064,18/03/2026,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Botafogo / RJ,2 X 1
+065,18/03/2026,20:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Coritiba SAF / PR,0 X 1
+066,18/03/2026,20:00,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,São Paulo / SP,1 X 0
+067,19/03/2026,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Vitória / BA,2 X 0
+068,18/03/2026,19:30,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Cruzeiro / MG,2 X 1
+069,18/03/2026,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Red Bull Bragantino / SP,2 X 0
+070,19/03/2026,21:30,Índio Condá / Chapeco,Chapecoense / SC,Corinthians / SP,0 X 0
+071,21/03/2026,18:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Atlético Mineiro / MG,1 X 0
+072,22/03/2026,16:00,São Januário / Rio de Janeiro,Vasco da Gama Saf / RJ,Grêmio / RS,2 X 1
+073,21/03/2026,21:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Palmeiras / SP,0 X 1
+074,22/03/2026,20:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Flamengo / RJ,1 X 1
+075,21/03/2026,16:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Botafogo / RJ,1 X 2
+076,22/03/2026,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Santos Fc / SP,0 X 0
+077,22/03/2026,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Chapecoense / SC,2 X 0
+078,22/03/2026,16:00,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Coritiba SAF / PR,2 X 0
+079,22/03/2026,18:30,Manoel Barradas / Salvador,Vitória / BA,Mirassol / SP,1 X 0
+080,22/03/2026,16:00,Olímpico do Pará / Belem,Remo / PA,Bahia / BA,4 X 1
+081,01/04/2026,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Corinthians / SP,3 X 1
+082,01/04/2026,19:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Mirassol / SP,3 X 2
+083,02/04/2026,19:00,Urbano Caldeira / Santos,Santos Fc / SP,Remo / PA,2 X 0
+084,02/04/2026,21:30,Arena Barueri / Barueri,Palmeiras / SP,Grêmio / RS,2 X 1
+085,02/04/2026,21:30,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Flamengo / RJ,3 X 0
+086,01/04/2026,20:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Vitória / BA,3 X 0
+087,01/04/2026,19:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,São Paulo / SP,1 X 1
+088,01/04/2026,20:30,Major Antônio Couto Pereira / Curitiba,Coritiba SAF / PR,Vasco da Gama Saf / RJ,1 X 1
+089,01/04/2026,20:00,Octávio Mangabeira / Salvador,Bahia / BA,Athletico Paranaense / PR,3 X 0
+090,02/04/2026,19:00,Índio Condá / Chapeco,Chapecoense / SC,Atlético Mineiro / MG,0 X 4
+091,05/04/2026,17:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Santos Fc / SP,3 X 1
+092,04/04/2026,21:00,São Januário / Rio de Janeiro,Vasco da Gama Saf / RJ,Botafogo / RJ,1 X 2
+093,04/04/2026,18:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Cruzeiro / MG,4 X 1
+094,05/04/2026,19:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Internacional / RS,0 X 1
+095,05/04/2026,20:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Red Bull Bragantino / SP,0 X 1
+096,05/04/2026,17:30,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Athletico Paranaense / PR,2 X 1
+097,05/04/2026,20:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Remo / PA,0 X 0
+098,04/04/2026,20:30,Major Antônio Couto Pereira / Curitiba,Coritiba SAF / PR,Fluminense / RJ,1 X 1
+099,05/04/2026,19:30,Octávio Mangabeira / Salvador,Bahia / BA,Palmeiras / SP,1 X 2
+100,05/04/2026,16:00,Índio Condá / Chapeco,Chapecoense / SC,Vitória / BA,1 X 1
+101,12/04/2026,18:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Flamengo / RJ,1 X 2
+102,12/04/2026,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Coritiba SAF / PR,2 X 2
+103,11/04/2026,20:00,Urbano Caldeira / Santos,Santos Fc / SP,Atlético Mineiro / MG,1 X 0
+104,12/04/2026,18:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Palmeiras / SP,0 X 0
+105,11/04/2026,18:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Bahia / BA,1 X 2
+106,12/04/2026,18:30,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Red Bull Bragantino / SP,2 X 1
+107,11/04/2026,20:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Grêmio / RS,0 X 0
+108,12/04/2026,11:00,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Chapecoense / SC,2 X 0
+109,11/04/2026,16:30,Manoel Barradas / Salvador,Vitória / BA,São Paulo / SP,2 X 0
+110,11/04/2026,16:30,Olímpico do Pará / Belem,Remo / PA,Vasco da Gama Saf / RJ,1 X 1
+111,19/04/2026,19:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Bahia / BA,2 X 0
+112,18/04/2026,18:30,São Januário / Rio de Janeiro,Vasco da Gama Saf / RJ,São Paulo / SP,2 X 1
+113,19/04/2026,16:00,Urbano Caldeira / Santos,Santos Fc / SP,Fluminense / RJ,2 X 3
+114,19/04/2026,18:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Athletico Paranaense / PR,1 X 0
+115,19/04/2026,18:30,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Remo / PA,4 X 2
+116,18/04/2026,20:30,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Grêmio / RS,2 X 0
+117,19/04/2026,11:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Mirassol / SP,1 X 2
+118,19/04/2026,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba SAF / PR,Atlético Mineiro / MG,2 X 0
+119,18/04/2026,20:00,Manoel Barradas / Salvador,Vitória / BA,Corinthians / SP,0 X 0
+120,18/04/2026,18:30,Índio Condá / Chapeco,Chapecoense / SC,Botafogo / RJ,1 X 4
+121,26/04/2026,20:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Chapecoense / SC,2 X 1
+122,25/04/2026,18:30,Estádio Nacional Mané Garrincha / Brasilia,Botafogo / RJ,Internacional / RS,2 X 2
+123,25/04/2026,21:00,Brinco de Ouro da Princesa / Campinas,São Paulo / SP,Mirassol / SP,1 X 0
+124,26/04/2026,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Vasco da Gama Saf / RJ,1 X 0
+125,26/04/2026,18:30,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Palmeiras / SP,0 X 1
+126,26/04/2026,20:30,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Flamengo / RJ,0 X 4
+127,26/04/2026,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Coritiba SAF / PR,1 X 0
+128,26/04/2026,18:30,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Vitória / BA,3 X 1
+129,25/04/2026,18:30,Octávio Mangabeira / Salvador,Bahia / BA,Santos Fc / SP,2 X 2
+130,25/04/2026,18:30,Evandro Almeida / Belem,Remo / PA,Cruzeiro / MG,0 X 1
+131,03/05/2026,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Vasco da Gama Saf / RJ,2 X 2
+132,02/05/2026,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Remo / PA,1 X 2
+133,03/05/2026,16:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,São Paulo / SP,Bahia / BA,2 X 2
+134,02/05/2026,18:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Santos Fc / SP,1 X 1
+135,03/05/2026,20:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Corinthians / SP,2 X 1
+136,02/05/2026,21:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Atlético Mineiro / MG,1 X 3
+137,03/05/2026,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fluminense / RJ,2 X 0
+138,02/05/2026,20:30,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Grêmio / RS,0 X 0
+139,02/05/2026,18:30,Manoel Barradas / Salvador,Vitória / BA,Coritiba SAF / PR,4 X 1
+140,03/05/2026,18:30,Índio Condá / Chapeco,Chapecoense / SC,Red Bull Bragantino / SP,1 X 2
+141,09/05/2026,18:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Vitória / BA,2 X 2
+142,10/05/2026,20:30,São Januário / Rio de Janeiro,Vasco da Gama Saf / RJ,Athletico Paranaense / PR,1 X 0
+143,10/05/2026,18:30,Urbano Caldeira / Santos,Santos FC / SP,Red Bull Bragantino / SP,2 X 0
+144,10/05/2026,18:30,Arena Corinthians / Sao Paulo,Corinthians / SP,São Paulo / SP,3 X 2
+145,10/05/2026,18:30,José Maria de Campos Maia / Mirassol,Mirassol / SP,Chapecoense / SC,1 X 1
+146,10/05/2026,16:00,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Botafogo / RJ,1 X 1
+147,10/05/2026,19:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Flamengo / RJ,0 X 1
+148,09/05/2026,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba SAF / PR,Internacional / RS,2 X 2
+149,09/05/2026,21:00,Octávio Mangabeira / Salvador,Bahia / BA,Cruzeiro / MG,1 X 2
+150,10/05/2026,16:00,Olímpico do Pará / Belem,Remo / PA,Palmeiras / SP,1 X 1
+151,16/05/2026,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,São Paulo / SP,2 X 1
+152,17/05/2026,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Corinthians / SP,3 X 1
+153,17/05/2026,11:00,Arena Corinthians / Sao Paulo,Santos FC / SP,Coritiba SAF / PR,0 X 3
+154,16/05/2026,21:00,Arena Barueri / Barueri,Palmeiras / SP,Cruzeiro / MG,1 X 1
+155,17/05/2026,18:30,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Vitória / BA,2 X 0
+156,16/05/2026,18:30,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Mirassol / SP,3 X 1
+157,16/05/2026,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Vasco da Gama Saf / RJ,4 X 1
+158,17/05/2026,19:30,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Flamengo / RJ,1 X 1
+159,17/05/2026,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Grêmio / RS,1 X 1
+160,17/05/2026,18:30,Índio Condá / Chapeco,Chapecoense / SC,Remo / PA,2 X 3
+161,23/05/2026,21:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Palmeiras / SP,0 X 3
+162,24/05/2026,20:30,São Januário / Rio de Janeiro,Vasco da Gama Saf / RJ,Red Bull Bragantino / SP,0 X 3
+163,23/05/2026,17:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Botafogo / RJ,1 X 1
+164,24/05/2026,18:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Atlético Mineiro / MG,1 X 0
+165,23/05/2026,19:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Fluminense / RJ,1 X 0
+166,24/05/2026,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Chapecoense / SC,2 X 1
+167,23/05/2026,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Santos FC / SP,3 X 2
+168,25/05/2026,20:00,Major Antônio Couto Pereira / Curitiba,Coritiba SAF / PR,Bahia / BA,3 X 2
+169,23/05/2026,17:00,Manoel Barradas / Salvador,Vitória / BA,Internacional / RS,2 X 0
+170,24/05/2026,16:00,Olímpico do Pará / Belem,Remo / PA,Athletico Paranaense / PR,1 X 2
+171,30/05/2026,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Coritiba SAF / PR,3 X 0
+172,31/05/2026,16:00,São Januário / Rio de Janeiro,Vasco da Gama Saf / RJ,Atlético Mineiro / MG,0 X 1
+173,30/05/2026,20:00,Urbano Caldeira / Santos,Santos FC / SP,Vitória / BA,3 X 1
+174,31/05/2026,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Chapecoense / SC,1 X 0
+175,31/05/2026,11:00,Estádio Municipal Cícero de Souza Marques / Braganca Paulista,Red Bull Bragantino / SP,Internacional / RS,3 X 1
+176,31/05/2026,20:30,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Fluminense / RJ,1 X 1
+177,30/05/2026,17:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Corinthians / SP,1 X 3
+178,30/05/2026,16:00,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Mirassol / SP,1 X 0
+179,30/05/2026,17:30,Octávio Mangabeira / Salvador,Bahia / BA,Botafogo / RJ,2 X 1
+180,31/05/2026,20:30,Olímpico do Pará / Belem,Remo / PA,São Paulo / SP,1 X 0

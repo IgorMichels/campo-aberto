@@ -1,0 +1,381 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,16/04/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Coritiba / PR,3 X 0
+002,15/04/2023,18:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,São Paulo / SP,2 X 1
+003,15/04/2023,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Cuiabá Saf / MT,2 X 1
+004,16/04/2023,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Cruzeiro Saf / MG,2 X 1
+005,15/04/2023,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Bahia / BA,2 X 1
+006,15/04/2023,21:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Vasco da Gama S.a.f. / RJ,1 X 2
+007,16/04/2023,18:30,Alfredo Jaconi / Caxias do Sul,Grêmio / RS,Santos / SP,1 X 0
+008,15/04/2023,18:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Goiás / GO,2 X 0
+009,15/04/2023,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Internacional / RS,1 X 1
+010,15/04/2023,16:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Fluminense / RJ,0 X 3
+011,22/04/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Athletico Paranaense / PR,2 X 0
+012,23/04/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Palmeiras / SP,2 X 2
+013,22/04/2023,18:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,América Fc Saf / MG,3 X 0
+014,23/04/2023,16:00,Urbano Caldeira / Santos,Santos / SP,Atlético Mineiro / MG,0 X 0
+015,23/04/2023,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Corinthians / SP,3 X 1
+016,22/04/2023,21:00,Raimundo Sampaio / Belo Horizonte,Cruzeiro Saf / MG,Grêmio / RS,1 X 0
+017,23/04/2023,11:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Flamengo / RJ,2 X 1
+018,23/04/2023,18:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Fortaleza / CE,0 X 3
+019,24/04/2023,20:00,Octávio Mangabeira / Salvador,Bahia / BA,Botafogo / RJ,1 X 2
+020,22/04/2023,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Red Bull Bragantino / SP,1 X 1
+021,30/04/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Botafogo / RJ,2 X 3
+022,01/05/2023,20:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Bahia / BA,0 X 1
+023,29/04/2023,18:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Corinthians / SP,2 X 1
+024,29/04/2023,18:30,Urbano Caldeira / Santos,Santos / SP,América Fc Saf / MG,3 X 2
+025,29/04/2023,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Cruzeiro Saf / MG,0 X 3
+026,29/04/2023,21:00,Raimundo Sampaio / Belo Horizonte,Atlético Mineiro / MG,Athletico Paranaense / PR,2 X 1
+027,30/04/2023,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Goiás / GO,1 X 0
+028,29/04/2023,16:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,São Paulo / SP,1 X 1
+029,29/04/2023,16:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Fluminense / RJ,4 X 2
+030,30/04/2023,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Grêmio / RS,1 X 2
+031,06/05/2023,21:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Vasco da Gama S.a.f. / RJ,1 X 1
+032,07/05/2023,18:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Atlético Mineiro / MG,2 X 0
+033,07/05/2023,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Internacional / RS,2 X 0
+034,08/05/2023,20:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Fortaleza / CE,1 X 1
+035,07/05/2023,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Palmeiras / SP,0 X 5
+036,06/05/2023,16:00,Raimundo Sampaio / Belo Horizonte,Cruzeiro Saf / MG,Santos / SP,2 X 1
+037,07/05/2023,18:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Red Bull Bragantino / SP,3 X 3
+038,07/05/2023,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Flamengo / RJ,2 X 1
+039,07/05/2023,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Coritiba / PR,3 X 1
+040,07/05/2023,11:00,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Cuiabá Saf / MT,1 X 2
+041,10/05/2023,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Goiás / GO,2 X 0
+042,11/05/2023,19:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Corinthians / SP,3 X 0
+043,10/05/2023,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Grêmio / RS,4 X 1
+044,10/05/2023,19:00,Urbano Caldeira / Santos,Santos / SP,Bahia / BA,3 X 0
+045,10/05/2023,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,América Fc Saf / MG,2 X 2
+046,10/05/2023,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Fluminense / RJ,0 X 2
+047,10/05/2023,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Athletico Paranaense / PR,0 X 2
+048,11/05/2023,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Vasco da Gama S.a.f. / RJ,1 X 1
+049,11/05/2023,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,São Paulo / SP,0 X 0
+050,10/05/2023,20:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Atlético Mineiro / MG,0 X 4
+051,13/05/2023,18:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Cuiabá Saf / MT,2 X 0
+052,14/05/2023,16:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Santos / SP,0 X 1
+053,13/05/2023,18:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Red Bull Bragantino / SP,1 X 1
+054,14/05/2023,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,São Paulo / SP,1 X 1
+055,14/05/2023,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Botafogo / RJ,2 X 1
+056,13/05/2023,21:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Internacional / RS,2 X 0
+057,14/05/2023,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Fortaleza / CE,0 X 0
+058,14/05/2023,18:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Coritiba / PR,3 X 2
+059,13/05/2023,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Flamengo / RJ,2 X 3
+060,14/05/2023,18:30,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Cruzeiro Saf / MG,0 X 4
+061,21/05/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Corinthians / SP,1 X 0
+062,20/05/2023,18:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Fluminense / RJ,1 X 0
+063,20/05/2023,18:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Vasco da Gama S.a.f. / RJ,4 X 2
+064,20/05/2023,21:00,Urbano Caldeira / Santos,Santos / SP,Palmeiras / SP,0 X 0
+065,20/05/2023,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Athletico Paranaense / PR,2 X 0
+066,22/05/2023,20:00,Joaquim Henrique Nogueira / Sete Lagoas,Cruzeiro Saf / MG,Cuiabá Saf / MT,0 X 1
+067,21/05/2023,18:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Internacional / RS,3 X 1
+068,20/05/2023,18:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Atlético Mineiro / MG,1 X 2
+069,20/05/2023,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Goiás / GO,1 X 1
+070,20/05/2023,18:30,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Fortaleza / CE,2 X 1
+071,27/05/2023,18:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Cruzeiro Saf / MG,1 X 1
+072,28/05/2023,19:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,América Fc Saf / MG,2 X 0
+073,27/05/2023,21:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Goiás / GO,2 X 1
+074,28/05/2023,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Fluminense / RJ,2 X 0
+075,28/05/2023,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Santos / SP,2 X 0
+076,28/05/2023,18:30,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Palmeiras / SP,1 X 1
+077,28/05/2023,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Bahia / BA,2 X 0
+078,27/05/2023,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Grêmio / RS,1 X 2
+079,27/05/2023,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Vasco da Gama S.a.f. / RJ,2 X 0
+080,27/05/2023,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Coritiba / PR,1 X 1
+081,04/06/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Red Bull Bragantino / SP,2 X 1
+082,05/06/2023,20:00,Jornalista Mário Filho / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Flamengo / RJ,1 X 4
+083,04/06/2023,18:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Coritiba / PR,3 X 1
+084,03/06/2023,21:00,Urbano Caldeira / Santos,Santos / SP,Internacional / RS,1 X 1
+085,04/06/2023,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Cuiabá Saf / MT,0 X 1
+086,03/06/2023,18:30,Parque do Sabiá / Uberlandia,Cruzeiro Saf / MG,Atlético Mineiro / MG,0 X 1
+087,04/06/2023,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,São Paulo / SP,2 X 1
+088,03/06/2023,18:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Botafogo / RJ,1 X 0
+089,03/06/2023,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Bahia / BA,0 X 0
+090,03/06/2023,18:30,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Corinthians / SP,2 X 0
+091,11/06/2023,18:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Grêmio / RS,3 X 0
+092,10/06/2023,21:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Fortaleza / CE,2 X 0
+093,11/06/2023,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Palmeiras / SP,0 X 2
+094,10/06/2023,18:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Cuiabá Saf / MT,1 X 1
+095,11/06/2023,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Fluminense / RJ,2 X 2
+096,10/06/2023,18:30,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Red Bull Bragantino / SP,1 X 1
+097,11/06/2023,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Vasco da Gama S.a.f. / RJ,2 X 1
+098,10/06/2023,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Santos / SP,0 X 0
+099,10/06/2023,18:30,Octávio Mangabeira / Salvador,Bahia / BA,Cruzeiro Saf / MG,2 X 2
+100,11/06/2023,11:00,Magalhães Pinto / Belo Horizonte,América Fc Saf / MG,Athletico Paranaense / PR,2 X 2
+101,21/06/2023,21:30,Sylvio Raulino de Oliveira / Volta Redonda,Fluminense / RJ,Atlético Mineiro / MG,1 X 1
+102,22/06/2023,20:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Goiás / GO,0 X 1
+103,21/06/2023,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Athletico Paranaense / PR,2 X 1
+104,21/06/2023,20:00,Urbano Caldeira / Santos,Santos / SP,Corinthians / SP,0 X 2
+105,22/06/2023,21:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Flamengo / RJ,4 X 0
+106,21/06/2023,19:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Fortaleza / CE,0 X 1
+107,22/06/2023,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,América Fc Saf / MG,3 X 1
+108,22/06/2023,20:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Internacional / RS,0 X 1
+109,21/06/2023,21:30,Octávio Mangabeira / Salvador,Bahia / BA,Palmeiras / SP,1 X 0
+110,22/06/2023,20:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Botafogo / RJ,0 X 1
+111,24/06/2023,18:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Bahia / BA,2 X 1
+112,26/06/2023,21:00,Luso Brasileiro / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Cuiabá Saf / MT,1 X 0
+113,25/06/2023,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Botafogo / RJ,0 X 1
+114,25/06/2023,18:30,Urbano Caldeira / Santos,Santos / SP,Flamengo / RJ,2 X 3
+115,25/06/2023,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Goiás / GO,2 X 0
+116,24/06/2023,21:00,Raimundo Sampaio / Belo Horizonte,Cruzeiro Saf / MG,São Paulo / SP,1 X 0
+117,25/06/2023,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Coritiba / PR,5 X 1
+118,24/06/2023,16:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Corinthians / SP,1 X 0
+119,24/06/2023,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Atlético Mineiro / MG,2 X 1
+120,25/06/2023,18:30,Raimundo Sampaio / Belo Horizonte,América Fc Saf / MG,Internacional / RS,1 X 2
+121,01/07/2023,18:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Fortaleza / CE,2 X 0
+122,02/07/2023,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Vasco da Gama S.a.f. / RJ,2 X 0
+123,01/07/2023,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Fluminense / RJ,1 X 0
+124,02/07/2023,11:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Red Bull Bragantino / SP,0 X 1
+125,03/07/2023,20:00,Hailé Pinheiro / Goiania,Goiás / GO,Coritiba / PR,1 X 2
+126,02/07/2023,16:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,América Fc Saf / MG,2 X 2
+127,01/07/2023,21:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Cruzeiro Saf / MG,0 X 0
+128,02/07/2023,16:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Palmeiras / SP,2 X 2
+129,01/07/2023,18:30,Octávio Mangabeira / Salvador,Bahia / BA,Grêmio / RS,1 X 2
+130,02/07/2023,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Santos / SP,3 X 0
+131,09/07/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Internacional / RS,2 X 0
+132,08/07/2023,16:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Cruzeiro Saf / MG,0 X 1
+133,08/07/2023,21:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Flamengo / RJ,1 X 1
+134,09/07/2023,11:00,Urbano Caldeira / Santos,Santos / SP,Goiás / GO,4 X 3
+135,09/07/2023,16:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,São Paulo / SP,0 X 0
+136,08/07/2023,18:30,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Corinthians / SP,0 X 1
+137,09/07/2023,18:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Botafogo / RJ,0 X 2
+138,08/07/2023,18:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,América Fc S.a.f. / MG,3 X 1
+139,09/07/2023,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Athletico Paranaense / PR,1 X 0
+140,08/07/2023,16:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Bahia / BA,1 X 1
+141,16/07/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Flamengo / RJ,0 X 0
+142,15/07/2023,21:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Red Bull Bragantino / SP,2 X 0
+143,16/07/2023,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Santos / SP,4 X 1
+144,18/09/2023,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Grêmio / RS,4 X 4
+145,17/07/2023,20:00,Hailé Pinheiro / Goiania,Goiás / GO,Atlético Mineiro / MG,0 X 0
+146,16/07/2023,11:00,Raimundo Sampaio / Belo Horizonte,Cruzeiro Saf / MG,Coritiba S.a.f. / PR,0 X 0
+147,16/07/2023,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Palmeiras / SP,0 X 0
+148,16/07/2023,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Bahia / BA,2 X 0
+149,16/07/2023,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Cuiabá Saf / MT,0 X 1
+150,25/09/2023,20:00,Raimundo Sampaio / Belo Horizonte,America Fc S.a.f. / MG,Vasco da Gama S.a.f. / RJ,0 X 1
+151,22/07/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,America Fc S.a.f. / MG,1 X 1
+152,23/07/2023,18:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Athletico Paranaense / PR,0 X 2
+153,22/07/2023,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Fortaleza / CE,3 X 1
+154,23/07/2023,16:00,Urbano Caldeira / Santos,Santos / SP,Botafogo / RJ,2 X 2
+155,23/07/2023,16:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Internacional / RS,0 X 0
+156,23/07/2023,16:00,Raimundo Sampaio / Belo Horizonte,Cruzeiro Saf / MG,Goiás / GO,0 X 1
+157,22/07/2023,21:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Atlético Mineiro / MG,1 X 0
+158,24/07/2023,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Fluminense / RJ,2 X 0
+159,22/07/2023,18:30,Octávio Mangabeira / Salvador,Bahia / BA,Corinthians / SP,0 X 0
+160,22/07/2023,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,São Paulo / SP,2 X 1
+161,29/07/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Santos / SP,1 X 0
+162,30/07/2023,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Coritiba S.a.f. / PR,4 X 1
+163,30/07/2023,11:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Bahia / BA,0 X 0
+164,29/07/2023,18:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Vasco da Gama S.a.f. / RJ,3 X 1
+165,30/07/2023,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Grêmio / RS,1 X 1
+166,29/07/2023,21:00,Raimundo Sampaio / Belo Horizonte,Atlético Mineiro / MG,Flamengo / RJ,1 X 2
+167,29/07/2023,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Cuiabá Saf / MT,1 X 2
+168,29/07/2023,16:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Cruzeiro Saf / MG,3 X 3
+169,29/07/2023,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Red Bull Bragantino / SP,0 X 3
+170,30/07/2023,16:00,Raimundo Sampaio / Belo Horizonte,America Fc S.a.f. / MG,Palmeiras / SP,1 X 4
+171,05/08/2023,21:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Palmeiras / SP,2 X 1
+172,06/08/2023,16:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Grêmio / RS,1 X 0
+173,06/08/2023,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Atlético Mineiro / MG,0 X 2
+174,05/08/2023,16:00,Urbano Caldeira / Santos,Santos / SP,Athletico Paranaense / PR,1 X 1
+175,05/08/2023,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Fortaleza / CE,1 X 0
+176,06/08/2023,18:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Botafogo / RJ,0 X 0
+177,05/08/2023,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Corinthians / SP,2 X 2
+178,06/08/2023,18:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Red Bull Bragantino / SP,0 X 1
+179,06/08/2023,18:30,Octávio Mangabeira / Salvador,Bahia / BA,America Fc S.a.f. / MG,3 X 1
+180,06/08/2023,20:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Flamengo / RJ,3 X 0
+181,13/08/2023,18:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,São Paulo / SP,1 X 1
+182,12/08/2023,21:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Internacional / RS,3 X 1
+183,14/08/2023,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Cruzeiro Saf / MG,1 X 0
+184,13/08/2023,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Coritiba S.a.f. / PR,3 X 1
+185,14/08/2023,21:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Vasco da Gama S.a.f. / RJ,1 X 1
+186,13/08/2023,11:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Bahia / BA,1 X 0
+187,13/08/2023,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Fluminense / RJ,2 X 1
+188,15/08/2023,20:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Cuiabá Saf / MT,2 X 0
+189,13/08/2023,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Santos / SP,4 X 0
+190,13/08/2023,16:00,Raimundo Sampaio / Belo Horizonte,America Fc S.a.f. / MG,Goiás / GO,0 X 1
+191,19/08/2023,18:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,America Fc S.a.f. / MG,3 X 1
+192,20/08/2023,11:00,Jornalista Mário Filho / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Atlético Mineiro / MG,1 X 0
+193,19/08/2023,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Botafogo / RJ,0 X 0
+194,20/08/2023,16:00,Urbano Caldeira / Santos,Santos / SP,Grêmio / RS,2 X 1
+195,21/08/2023,20:00,Hailé Pinheiro / Goiania,Goiás / GO,Athletico Paranaense / PR,1 X 1
+196,19/08/2023,21:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Corinthians / SP,1 X 1
+197,19/08/2023,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fortaleza / CE,0 X 1
+198,20/08/2023,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Flamengo / RJ,2 X 3
+199,20/08/2023,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Red Bull Bragantino / SP,4 X 0
+200,19/08/2023,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Palmeiras / SP,0 X 2
+201,26/08/2023,18:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Internacional / RS,0 X 0
+202,27/08/2023,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Bahia / BA,3 X 0
+203,27/08/2023,18:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Vasco da Gama S.a.f. / RJ,1 X 0
+204,26/08/2023,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Goiás / GO,1 X 1
+205,27/08/2023,11:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Cuiabá Saf / MT,2 X 0
+206,27/08/2023,16:00,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Santos / SP,2 X 0
+207,27/08/2023,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Cruzeiro Saf / MG,3 X 0
+208,27/08/2023,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Fluminense / RJ,2 X 2
+209,27/08/2023,18:30,Presidente Vargas / Fortaleza,Fortaleza / CE,Coritiba S.a.f. / PR,3 X 1
+210,27/08/2023,16:00,Raimundo Sampaio / Belo Horizonte,America Fc S.a.f. / MG,São Paulo / SP,2 X 1
+211,03/09/2023,16:00,Sylvio Raulino de Oliveira / Volta Redonda,Fluminense / RJ,Fortaleza / CE,1 X 0
+212,02/09/2023,21:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Flamengo / RJ,1 X 2
+213,27/09/2023,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Coritiba S.a.f. / PR,2 X 1
+214,03/09/2023,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Palmeiras / SP,0 X 0
+215,02/09/2023,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Internacional / RS,0 X 0
+216,03/09/2023,18:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Red Bull Bragantino / SP,0 X 0
+217,03/09/2023,11:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Cuiabá Saf / MT,2 X 0
+218,02/09/2023,16:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Atlético Mineiro / MG,1 X 1
+219,03/09/2023,18:30,Octávio Mangabeira / Salvador,Bahia / BA,Vasco da Gama S.a.f. / RJ,1 X 1
+220,03/09/2023,18:30,Raimundo Sampaio / Belo Horizonte,America Fc S.a.f. / MG,Santos / SP,2 X 0
+221,13/09/2023,21:30,Kleber José de Andrade / Cariacica,Flamengo / RJ,Athletico Paranaense / PR,0 X 3
+222,16/09/2023,16:00,Nilton Santos / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Fluminense / RJ,4 X 2
+223,15/09/2023,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Goiás / GO,1 X 0
+224,14/09/2023,19:00,Urbano Caldeira / Santos,Santos / SP,Cruzeiro Saf / MG,0 X 3
+225,14/09/2023,21:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Grêmio / RS,2 X 0
+226,16/09/2023,21:00,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Botafogo / RJ,1 X 0
+227,13/09/2023,21:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,São Paulo / SP,2 X 1
+228,14/09/2023,20:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Bahia / BA,2 X 4
+229,14/09/2023,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Corinthians / SP,2 X 1
+230,15/09/2023,20:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,America Fc S.a.f. / MG,2 X 2
+231,20/09/2023,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Cruzeiro Saf / MG,1 X 0
+232,21/09/2023,19:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Coritiba S.a.f. / PR,5 X 1
+233,20/09/2023,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Fortaleza / CE,1 X 2
+234,22/09/2023,20:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Botafogo / RJ,1 X 0
+235,20/09/2023,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Flamengo / RJ,0 X 0
+236,23/09/2023,21:00,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Cuiabá Saf / MT,1 X 0
+237,21/09/2023,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Palmeiras / SP,1 X 0
+238,21/09/2023,19:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Internacional / RS,2 X 1
+239,18/09/2023,20:00,Octávio Mangabeira / Salvador,Bahia / BA,Santos / SP,1 X 2
+240,19/09/2023,21:30,Raimundo Sampaio / Belo Horizonte,America Fc S.a.f. / MG,Red Bull Bragantino / SP,0 X 2
+241,30/09/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Bahia / BA,1 X 0
+242,02/10/2023,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Goiás / GO,1 X 1
+243,30/09/2023,18:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Corinthians / SP,2 X 1
+244,01/10/2023,16:00,Urbano Caldeira / Santos,Santos / SP,Vasco da Gama S.a.f. / RJ,4 X 1
+245,01/10/2023,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Palmeiras / SP,2 X 1
+246,01/10/2023,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,America Saf / MG,1 X 1
+247,30/09/2023,21:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Atlético Mineiro / MG,0 X 2
+248,01/10/2023,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Athletico Paranaense / PR,2 X 0
+249,30/09/2023,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Grêmio / RS,1 X 1
+250,30/09/2023,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Fluminense / RJ,3 X 0
+251,08/10/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Botafogo / RJ,0 X 2
+252,07/10/2023,18:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,São Paulo / SP,0 X 0
+253,08/10/2023,16:00,Arena Barueri / Barueri,Palmeiras / SP,Santos / SP,1 X 2
+254,07/10/2023,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Flamengo / RJ,1 X 1
+255,07/10/2023,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Bahia / BA,4 X 6
+256,08/10/2023,18:30,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Coritiba S.a.f. / PR,1 X 2
+257,08/10/2023,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Grêmio / RS,3 X 2
+258,08/10/2023,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Red Bull Bragantino / SP,1 X 1
+259,08/10/2023,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,America Saf / MG,3 X 2
+260,14/10/2023,21:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Cruzeiro Saf / MG,0 X 0
+261,19/10/2023,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Corinthians / SP,3 X 3
+262,18/10/2023,21:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Fortaleza / CE,1 X 0
+263,19/10/2023,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Atlético Mineiro / MG,0 X 2
+264,19/10/2023,20:00,Urbano Caldeira / Santos,Santos / SP,Red Bull Bragantino / SP,1 X 3
+265,18/10/2023,21:30,Hailé Pinheiro / Goiania,Goiás / GO,São Paulo / SP,2 X 0
+266,19/10/2023,19:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Flamengo / RJ,0 X 2
+267,18/10/2023,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Athletico Paranaense / PR,1 X 2
+268,18/10/2023,20:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Cuiabá Saf / MT,0 X 3
+269,18/10/2023,21:30,Octávio Mangabeira / Salvador,Bahia / BA,Internacional / RS,1 X 0
+270,18/10/2023,20:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Botafogo / RJ,1 X 2
+271,22/10/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Vasco da Gama S.a.f. / RJ,1 X 0
+272,22/10/2023,15:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Athletico Paranaense / PR,1 X 1
+273,21/10/2023,18:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Grêmio / RS,3 X 0
+274,22/10/2023,18:30,Arena Corinthians / Sao Paulo,Corinthians / SP,America Saf / MG,1 X 1
+275,22/10/2023,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Fluminense / RJ,1 X 0
+276,22/10/2023,16:00,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Cruzeiro Saf / MG,0 X 1
+277,22/10/2023,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Santos / SP,7 X 1
+278,22/10/2023,18:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Palmeiras / SP,0 X 2
+279,21/10/2023,18:30,Octávio Mangabeira / Salvador,Bahia / BA,Fortaleza / CE,2 X 0
+280,21/10/2023,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Goiás / GO,1 X 1
+281,25/10/2023,19:00,Sylvio Raulino de Oliveira / Volta Redonda,Fluminense / RJ,Goiás / GO,5 X 3
+282,26/10/2023,19:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Internacional / RS,1 X 2
+283,25/10/2023,20:00,Allianz Parque / Sao Paulo,Palmeiras / SP,São Paulo / SP,5 X 0
+284,26/10/2023,21:30,Urbano Caldeira / Santos,Santos / SP,Coritiba S.a.f. / PR,2 X 1
+285,25/10/2023,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Atlético Mineiro / MG,1 X 2
+286,25/10/2023,20:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Bahia / BA,3 X 0
+287,25/10/2023,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Flamengo / RJ,3 X 2
+288,25/10/2023,19:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,America Saf / MG,3 X 2
+289,23/11/2023,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Botafogo / RJ,2 X 2
+290,25/10/2023,21:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Corinthians / SP,0 X 1
+291,23/11/2023,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Red Bull Bragantino / SP,1 X 0
+292,29/10/2023,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Cuiabá Saf / MT,0 X 1
+293,28/10/2023,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Bahia / BA,1 X 0
+294,29/10/2023,18:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Santos / SP,1 X 1
+295,29/10/2023,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Vasco da Gama S.a.f. / RJ,1 X 1
+296,28/10/2023,21:00,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Fluminense / RJ,2 X 0
+297,29/10/2023,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Coritiba S.a.f. / PR,3 X 4
+298,29/10/2023,16:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,São Paulo / SP,1 X 1
+299,18/11/2023,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Cruzeiro Saf / MG,0 X 1
+300,28/10/2023,19:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Grêmio / RS,3 X 4
+301,01/11/2023,20:00,Estádio Nacional Mané Garrincha / Brasilia,Flamengo / RJ,Santos / SP,1 X 2
+302,01/11/2023,21:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Palmeiras / SP,3 X 4
+303,02/11/2023,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Cruzeiro Saf / MG,1 X 0
+304,01/11/2023,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Athletico Paranaense / PR,1 X 0
+305,02/11/2023,18:00,Hailé Pinheiro / Goiania,Goiás / GO,Red Bull Bragantino / SP,0 X 2
+306,01/11/2023,21:30,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Fortaleza / CE,3 X 1
+307,01/11/2023,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,America Saf / MG,1 X 1
+308,01/11/2023,20:00,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Grêmio / RS,1 X 2
+309,31/10/2023,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Fluminense / RJ,1 X 0
+310,02/11/2023,17:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Vasco da Gama S.a.f. / RJ,0 X 2
+311,22/11/2023,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,São Paulo / SP,1 X 0
+312,06/11/2023,19:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Botafogo / RJ,1 X 0
+313,04/11/2023,21:30,Arena Barueri / Barueri,Palmeiras / SP,Athletico Paranaense / PR,1 X 0
+314,06/11/2023,21:00,Urbano Caldeira / Santos,Santos / SP,Cuiabá Saf / MT,0 X 0
+315,05/11/2023,16:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Corinthians / SP,1 X 0
+316,05/11/2023,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Internacional / RS,1 X 2
+317,04/11/2023,19:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Bahia / BA,1 X 0
+318,05/11/2023,18:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Goiás / GO,0 X 1
+319,05/11/2023,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Flamengo / RJ,0 X 2
+320,04/11/2023,19:30,Parque do Sabiá / Uberlandia,America Saf / MG,Atlético Mineiro / MG,1 X 1
+321,08/11/2023,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Palmeiras / SP,3 X 0
+322,09/11/2023,20:00,São Januário / Rio de Janeiro,Botafogo / RJ,Grêmio / RS,3 X 4
+323,08/11/2023,20:00,Urbano Caldeira / Santos,São Paulo / SP,Red Bull Bragantino / SP,1 X 0
+324,09/11/2023,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Atlético Mineiro / MG,1 X 1
+325,09/11/2023,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Santos / SP,0 X 1
+326,22/11/2023,19:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Vasco da Gama S.a.f. / RJ,2 X 2
+327,08/11/2023,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fluminense / RJ,0 X 0
+328,08/11/2023,20:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Fortaleza / CE,1 X 1
+329,09/11/2023,20:00,Octávio Mangabeira / Salvador,Bahia / BA,Cuiabá Saf / MT,0 X 3
+330,08/11/2023,19:00,Raimundo Sampaio / Belo Horizonte,America Saf / MG,Coritiba S.a.f. / PR,0 X 3
+331,11/11/2023,18:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Fluminense / RJ,1 X 1
+332,12/11/2023,18:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,America Saf / MG,2 X 1
+333,11/11/2023,21:00,Arena Barueri / Barueri,Palmeiras / SP,Internacional / RS,3 X 0
+334,12/11/2023,18:30,Urbano Caldeira / Santos,Santos / SP,São Paulo / SP,0 X 0
+335,12/11/2023,16:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Botafogo / RJ,2 X 2
+336,12/11/2023,18:30,ARENA MRV / Belo Horizonte,Atlético Mineiro / MG,Goiás / GO,2 X 1
+337,12/11/2023,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Corinthians / SP,0 X 1
+338,11/11/2023,16:00,Durival Britto e Silva / Curitiba,Coritiba S.a.f. / PR,Cruzeiro Saf / MG,1 X 0
+339,12/11/2023,18:30,Octávio Mangabeira / Salvador,Bahia / BA,Athletico Paranaense / PR,1 X 1
+340,12/11/2023,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Fortaleza / CE,2 X 1
+341,25/11/2023,21:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Coritiba S.a.f. / PR,2 X 1
+342,26/11/2023,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Santos / SP,1 X 1
+343,26/11/2023,18:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Cuiabá Saf / MT,0 X 0
+344,24/11/2023,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Bahia / BA,1 X 5
+345,27/11/2023,21:00,Hailé Pinheiro / Goiania,Goiás / GO,Cruzeiro Saf / MG,0 X 1
+346,26/11/2023,16:00,ARENA MRV / Belo Horizonte,Atlético Mineiro S.a.f. / MG,Grêmio / RS,3 X 0
+347,26/11/2023,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Red Bull Bragantino / SP,1 X 0
+348,25/11/2023,19:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Vasco da Gama S.a.f. / RJ,0 X 0
+349,26/11/2023,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Palmeiras / SP,2 X 2
+350,26/11/2023,18:30,Parque do Sabiá / Uberlandia,America Saf / MG,Flamengo / RJ,0 X 3
+351,29/11/2023,19:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Atlético Mineiro SAF / MG,0 X 3
+352,28/11/2023,21:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Corinthians / SP,2 X 4
+353,29/11/2023,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,America Saf / MG,4 X 0
+354,29/11/2023,19:00,Urbano Caldeira / Santos,Santos / SP,Fluminense / RJ,0 X 3
+355,30/11/2023,20:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Fortaleza / CE,1 X 2
+356,30/11/2023,20:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Athletico Paranaense / PR,1 X 1
+357,30/11/2023,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Goiás / GO,2 X 1
+358,29/11/2023,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Botafogo / RJ,1 X 1
+359,29/11/2023,20:00,Octávio Mangabeira / Salvador,Bahia / BA,São Paulo / SP,0 X 1
+360,29/11/2023,20:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Internacional / RS,0 X 2
+361,03/12/2023,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Cuiabá Saf / MT,2 X 1
+362,03/12/2023,18:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Cruzeiro Saf / MG,0 X 0
+363,03/12/2023,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Fluminense / RJ,1 X 0
+364,02/12/2023,18:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Internacional / RS,1 X 2
+365,03/12/2023,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Coritiba S.a.f. / PR,1 X 0
+366,02/12/2023,21:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro Saf / MG,São Paulo / SP,2 X 1
+367,03/12/2023,18:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Vasco da Gama S.a.f. / RJ,1 X 0
+368,03/12/2023,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Santos / SP,3 X 0
+369,03/12/2023,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Goiás / GO,1 X 0
+370,03/12/2023,18:30,Raimundo Sampaio / Belo Horizonte,América Saf / MG,Bahia / BA,3 X 2
+371,06/12/2023,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Grêmio / RS,2 X 3
+372,06/12/2023,21:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Red Bull Bragantino / SP,2 X 1
+373,06/12/2023,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Flamengo / RJ,1 X 0
+374,06/12/2023,21:30,Urbano Caldeira / Santos,Santos / SP,Fortaleza / CE,1 X 2
+375,06/12/2023,19:00,Hailé Pinheiro / Goiania,Goiás / GO,América Saf / MG,1 X 0
+376,06/12/2023,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Palmeiras / SP,1 X 1
+377,06/12/2023,21:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Botafogo / RJ,3 X 1
+378,06/12/2023,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba S.a.f. / PR,Corinthians / SP,0 X 2
+379,06/12/2023,21:30,Octávio Mangabeira / Salvador,Bahia / BA,Atlético Mineiro Saf / MG,4 X 1
+380,06/12/2023,21:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Athletico Paranaense / PR,3 X 0

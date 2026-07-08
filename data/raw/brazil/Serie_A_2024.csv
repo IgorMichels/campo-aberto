@@ -1,0 +1,381 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,13/04/2024,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Bahia / BA,2 X 1
+002,14/04/2024,17:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Botafogo / RJ,3 X 2
+003,14/04/2024,18:30,Manoel Barradas / Salvador,Vitória / BA,Palmeiras / SP,0 X 1
+004,13/04/2024,21:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Red Bull Bragantino / SP,2 X 2
+005,14/04/2024,16:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Grêmio / RS,2 X 1
+006,14/04/2024,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Atlético Mineiro Saf / MG,0 X 0
+007,13/04/2024,21:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Fortaleza / CE,1 X 2
+008,14/04/2024,16:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Cuiabá Saf / MT,4 X 0
+009,14/04/2024,16:00,Serra Dourada / Goiania,Atlético / GO,Flamengo / RJ,1 X 2
+010,13/04/2024,18:30,Heriberto Hulse / Criciuma,Criciúma / SC,Juventude / RS,1 X 1
+011,17/04/2024,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Athletico Paranaense / PR,2 X 0
+012,17/04/2024,20:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Criciúma / SC,1 X 1
+013,16/04/2024,21:30,Octávio Mangabeira / Salvador,Bahia / BA,Fluminense / RJ,2 X 1
+014,17/04/2024,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,São Paulo / SP,2 X 1
+015,18/04/2024,21:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Atlético / GO,1 X 0
+016,17/04/2024,20:00,Arena Barueri / Barueri,Palmeiras / SP,Internacional / RS,0 X 1
+017,17/04/2024,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Vasco da Gama S.a.f. / RJ,2 X 1
+018,17/04/2024,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Cruzeiro Saf / MG,1 X 1
+019,05/06/2024,20:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Vitória / BA,0 X 0
+020,17/04/2024,20:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Corinthians / SP,2 X 0
+021,20/04/2024,18:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Cuiabá Saf / MT,1 X 0
+022,20/04/2024,21:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Cruzeiro Saf / MG,3 X 0
+023,21/04/2024,16:00,Manoel Barradas / Salvador,Vitória / BA,Bahia / BA,2 X 2
+024,20/04/2024,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Vasco da Gama S.a.f. / RJ,2 X 1
+025,21/04/2024,18:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Juventude / RS,5 X 1
+026,21/04/2024,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Flamengo / RJ,0 X 0
+027,20/04/2024,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Corinthians / SP,1 X 0
+028,21/04/2024,16:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Internacional / RS,1 X 0
+029,21/04/2024,18:30,Antônio Accioly / Goiania,Atlético / GO,São Paulo / SP,0 X 3
+030,24/07/2024,19:00,Heriberto Hulse / Criciuma,Criciúma / SC,Fortaleza / CE,1 X 1
+031,28/04/2024,20:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Atlético / GO,1 X 1
+032,28/04/2024,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Vitória / BA,3 X 1
+033,27/04/2024,21:00,Octávio Mangabeira / Salvador,Bahia / BA,Grêmio / RS,1 X 0
+034,28/04/2024,11:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Botafogo / RJ,0 X 2
+035,27/04/2024,16:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Criciúma / SC,0 X 4
+036,28/04/2024,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Fluminense / RJ,3 X 0
+037,29/04/2024,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Palmeiras / SP,0 X 0
+038,28/04/2024,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Red Bull Bragantino / SP,1 X 1
+039,27/04/2024,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Atlético Mineiro Saf / MG,0 X 3
+040,28/04/2024,18:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Athletico Paranaense / PR,1 X 1
+041,25/09/2024,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Criciúma / SC,1 X 2
+042,28/08/2024,19:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Internacional / RS,0 X 0
+043,05/05/2024,16:00,Manoel Barradas / Salvador,Vitória / BA,São Paulo / SP,1 X 3
+044,04/05/2024,16:00,Kleber José de Andrade / Cariacica,Fluminense / RJ,Atlético Mineiro Saf / MG,2 X 2
+045,05/05/2024,18:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Bahia / BA,1 X 2
+046,04/05/2024,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Fortaleza / CE,0 X 0
+047,04/05/2024,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Flamengo / RJ,1 X 1
+048,05/05/2024,16:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Vasco da Gama S.a.f. / RJ,1 X 0
+049,05/05/2024,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Palmeiras / SP,0 X 2
+050,05/06/2024,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Atlético / GO,1 X 0
+051,14/08/2024,19:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Juventude / RS,2 X 1
+052,09/10/2024,19:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Grêmio / RS,2 X 1
+053,12/05/2024,18:30,Octávio Mangabeira / Salvador,Bahia / BA,Red Bull Bragantino / SP,1 X 0
+054,11/05/2024,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Corinthians / SP,2 X 0
+055,12/05/2024,18:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Vitória / BA,2 X 1
+056,12/05/2024,16:00,Arena Barueri / Barueri,Palmeiras / SP,Athletico Paranaense / PR,0 X 2
+057,13/05/2024,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Fluminense / RJ,2 X 1
+058,12/05/2024,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Botafogo / RJ,1 X 1
+059,12/05/2024,16:00,Antônio Accioly / Goiania,Atlético / GO,Cruzeiro Saf / MG,0 X 1
+060,09/06/2024,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,Cuiabá Saf / MT,2 X 5
+061,01/06/2024,16:00,Major Antônio Couto Pereira / Curitiba,Grêmio / RS,Red Bull Bragantino / SP,0 X 2
+062,02/06/2024,16:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Bahia / BA,1 X 1
+063,01/06/2024,16:00,Manoel Barradas / Salvador,Vitória / BA,Atlético / GO,0 X 2
+064,01/06/2024,18:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Juventude / RS,1 X 1
+065,02/06/2024,16:00,Jornalista Mário Filho / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Flamengo / RJ,1 X 6
+066,01/06/2024,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Botafogo / RJ,0 X 1
+067,02/06/2024,18:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Cruzeiro Saf / MG,2 X 0
+068,02/06/2024,18:30,Presidente Vargas / Fortaleza,Fortaleza / CE,Athletico Paranaense / PR,1 X 0
+069,01/06/2024,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Internacional / RS,0 X 1
+070,02/06/2024,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,Palmeiras / SP,1 X 2
+071,13/06/2024,20:00,Heriberto Hulse / Criciuma,Internacional / RS,São Paulo / SP,0 X 0
+072,13/06/2024,19:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Cuiabá Saf / MT,2 X 1
+073,13/06/2024,21:30,Octávio Mangabeira / Salvador,Bahia / BA,Fortaleza / CE,1 X 0
+074,13/06/2024,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Grêmio / RS,2 X 1
+075,11/06/2024,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Fluminense / RJ,1 X 0
+076,13/06/2024,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Vasco da Gama S.a.f. / RJ,2 X 0
+077,11/06/2024,21:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Atlético Mineiro Saf / MG,1 X 2
+078,13/06/2024,20:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Criciúma / SC,3 X 1
+079,11/06/2024,19:00,Antônio Accioly / Goiania,Atlético / GO,Corinthians / SP,2 X 2
+080,11/06/2024,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Vitória / BA,1 X 1
+081,16/06/2024,18:30,Kleber José de Andrade / Cariacica,Grêmio / RS,Botafogo / RJ,1 X 2
+082,17/06/2024,20:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Palmeiras / SP,0 X 4
+083,16/06/2024,16:00,Manoel Barradas / Salvador,Vitória / BA,Internacional / RS,2 X 1
+084,15/06/2024,21:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Atlético Goianiense Saf / GO,1 X 2
+085,16/06/2024,18:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Cruzeiro Saf / MG,0 X 0
+086,16/06/2024,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,São Paulo / SP,2 X 2
+087,15/06/2024,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Juventude / RS,2 X 1
+088,16/06/2024,16:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Flamengo / RJ,1 X 1
+089,16/06/2024,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Fortaleza / CE,5 X 0
+090,16/06/2024,18:30,Heriberto Hulse / Criciuma,Criciúma / SC,Bahia / BA,2 X 2
+091,19/06/2024,21:30,Orlando Scarpelli / Florianopolis,Internacional / RS,Corinthians / SP,1 X 0
+092,19/06/2024,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Fluminense / RJ,2 X 0
+093,20/06/2024,18:30,Manoel Barradas / Salvador,Vitória / BA,Atlético Mineiro Saf / MG,4 X 2
+094,20/06/2024,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Bahia / BA,2 X 1
+095,19/06/2024,19:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Athletico Paranaense / PR,1 X 1
+096,20/06/2024,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Red Bull Bragantino / SP,2 X 1
+097,19/06/2024,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Cuiabá Saf / MT,0 X 1
+098,19/06/2024,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Grêmio / RS,1 X 0
+099,19/06/2024,19:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Criciúma / SC,1 X 2
+100,19/06/2024,20:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Vasco da Gama S.a.f. / RJ,2 X 0
+101,22/06/2024,17:30,Major Antônio Couto Pereira / Curitiba,Grêmio / RS,Internacional / RS,0 X 1
+102,23/06/2024,18:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Fortaleza / CE,1 X 1
+103,23/06/2024,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Cruzeiro Saf / MG,4 X 1
+104,23/06/2024,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Flamengo / RJ,0 X 1
+105,22/06/2024,21:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,São Paulo / SP,4 X 1
+106,23/06/2024,18:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Juventude / RS,3 X 1
+107,23/06/2024,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Vitória / BA,2 X 1
+108,23/06/2024,16:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Corinthians / SP,1 X 1
+109,22/06/2024,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Atlético Goianiense Saf / GO,0 X 0
+110,22/06/2024,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,Botafogo / RJ,2 X 1
+111,26/06/2024,21:30,Heriberto Hulse / Criciuma,Internacional / RS,Atlético Mineiro Saf / MG,1 X 2
+112,26/06/2024,19:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Athletico Paranaense / PR,2 X 0
+113,26/06/2024,21:30,Octávio Mangabeira / Salvador,Bahia / BA,Vasco da Gama S.a.f. / RJ,2 X 1
+114,27/06/2024,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Vitória / BA,0 X 1
+115,26/06/2024,19:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Red Bull Bragantino / SP,2 X 1
+116,26/06/2024,20:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Cuiabá Saf / MT,1 X 1
+117,27/06/2024,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Criciúma / SC,2 X 1
+118,26/06/2024,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Palmeiras / SP,3 X 0
+119,26/06/2024,20:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Grêmio / RS,1 X 1
+120,26/06/2024,20:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Flamengo / RJ,2 X 1
+121,30/06/2024,16:00,Francisco Stédile / Caxias do Sul,Grêmio / RS,Fluminense / RJ,1 X 0
+122,30/06/2024,11:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Atlético Goianiense Saf / GO,1 X 1
+123,30/06/2024,18:30,Manoel Barradas / Salvador,Vitória / BA,Athletico Paranaense / PR,0 X 1
+124,30/06/2024,18:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Cruzeiro Saf / MG,2 X 1
+125,29/06/2024,18:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Botafogo / RJ,1 X 1
+126,01/07/2024,20:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Corinthians / SP,2 X 0
+127,30/06/2024,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Bahia / BA,3 X 1
+128,30/06/2024,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Juventude / RS,2 X 1
+129,29/06/2024,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Red Bull Bragantino / SP,1 X 1
+130,30/06/2024,18:30,Heriberto Hulse / Criciuma,Criciúma / SC,Internacional / RS,1 X 1
+131,04/07/2024,19:00,Francisco Stédile / Caxias do Sul,Grêmio / RS,Palmeiras / SP,2 X 2
+132,03/07/2024,21:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Flamengo / RJ,2 X 4
+133,04/07/2024,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Juventude / RS,2 X 0
+134,04/07/2024,20:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Internacional / RS,1 X 1
+135,03/07/2024,20:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Fortaleza / CE,2 X 0
+136,04/07/2024,20:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Vitória / BA,3 X 2
+137,03/07/2024,21:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Atlético Goianiense Saf / GO,3 X 1
+138,03/07/2024,21:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,São Paulo / SP,1 X 2
+139,03/07/2024,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Botafogo / RJ,1 X 2
+140,03/07/2024,20:00,Heriberto Hulse / Criciuma,Criciúma / SC,Cruzeiro Saf / MG,1 X 0
+141,07/07/2024,18:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Vasco da Gama S.a.f. / RJ,1 X 2
+142,07/07/2024,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Corinthians / SP,3 X 0
+143,07/07/2024,18:30,Manoel Barradas / Salvador,Vitória / BA,Criciúma / SC,2 X 1
+144,06/07/2024,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Cuiabá Saf / MT,1 X 1
+145,07/07/2024,20:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Atlético Mineiro Saf / MG,3 X 0
+146,07/07/2024,18:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Bahia / BA,2 X 0
+147,06/07/2024,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Red Bull Bragantino / SP,2 X 0
+148,07/07/2024,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Fluminense / RJ,1 X 0
+149,07/07/2024,18:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Athletico Paranaense / PR,1 X 2
+150,07/07/2024,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Grêmio / RS,3 X 0
+151,10/07/2024,18:30,Francisco Stédile / Caxias do Sul,Grêmio / RS,Cruzeiro Saf / MG,0 X 2
+152,11/07/2024,21:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,São Paulo / SP,2 X 1
+153,11/07/2024,21:30,Manoel Barradas / Salvador,Vitória / BA,Botafogo / RJ,0 X 1
+154,11/07/2024,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Fortaleza / CE,1 X 2
+155,10/07/2024,19:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Corinthians / SP,2 X 0
+156,11/07/2024,19:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Atlético Goianiense Saf / GO,3 X 1
+157,25/09/2024,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Internacional / RS,2 X 2
+158,10/07/2024,19:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Bahia / BA,1 X 3
+159,05/09/2024,20:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Juventude / RS,0 X 0
+160,11/07/2024,20:00,Heriberto Hulse / Criciuma,Criciúma / SC,Fluminense / RJ,1 X 1
+161,30/10/2024,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Flamengo / RJ,1 X 1
+162,13/07/2024,16:00,Raimundo Sampaio / Belo Horizonte,Cruzeiro Saf / MG,Red Bull Bragantino / SP,2 X 1
+163,13/07/2024,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Cuiabá Saf / MT,1 X 2
+164,22/10/2024,19:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Athletico Paranaense / PR,1 X 0
+165,17/07/2024,21:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Palmeiras / SP,1 X 0
+166,16/07/2024,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Criciúma / SC,2 X 1
+167,17/07/2024,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Grêmio / RS,1 X 0
+168,17/07/2024,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Vitória / BA,3 X 1
+169,17/07/2024,19:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Vasco da Gama S.a.f. / RJ,0 X 1
+170,16/07/2024,19:00,Estádio Nacional Mané Garrincha / Brasilia,Juventude / RS,Atlético Mineiro Saf / MG,1 X 1
+171,21/07/2024,11:00,Francisco Stédile / Caxias do Sul,Grêmio / RS,Vitória / BA,2 X 0
+172,21/07/2024,16:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Vasco da Gama S.a.f. / RJ,2 X 0
+173,21/07/2024,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Corinthians / SP,0 X 1
+174,20/07/2024,16:00,Estádio Nacional Mané Garrincha / Brasilia,Flamengo / RJ,Criciúma / SC,2 X 1
+175,20/07/2024,18:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Internacional / RS,1 X 0
+176,20/07/2024,21:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Cruzeiro Saf / MG,2 X 0
+177,21/07/2024,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Athletico Paranaense / PR,1 X 0
+178,21/07/2024,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Atlético Goianiense Saf / GO,3 X 1
+179,21/07/2024,20:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Fluminense / RJ,0 X 1
+180,21/07/2024,18:30,Estádio Nacional Mané Garrincha / Brasilia,Juventude / RS,São Paulo / SP,0 X 0
+181,11/09/2024,19:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fortaleza / CE,2 X 1
+182,24/07/2024,19:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Juventude / RS,2 X 0
+183,24/07/2024,20:00,Manoel Barradas / Salvador,Vitória / BA,Flamengo / RJ,1 X 2
+184,24/07/2024,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Palmeiras / SP,1 X 0
+185,24/10/2024,19:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Cuiabá Saf / MT,1 X 0
+186,25/07/2024,20:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Grêmio / RS,2 X 2
+187,24/07/2024,19:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Botafogo / RJ,2 X 2
+188,16/11/2024,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Atlético Mineiro Saf / MG,1 X 0
+189,24/07/2024,21:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Bahia / BA,1 X 1
+190,28/08/2024,19:30,Heriberto Hulse / Criciuma,Criciúma / SC,Red Bull Bragantino / SP,1 X 0
+191,28/07/2024,19:00,Índio Condá / Chapeco,Grêmio / RS,Vasco da Gama S.a.f. / RJ,1 X 0
+192,28/07/2024,19:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Corinthians / SP,2 X 1
+193,27/07/2024,20:00,Octávio Mangabeira / Salvador,Bahia / BA,Internacional / RS,1 X 1
+194,28/07/2024,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Atlético Goianiense Saf / GO,2 X 0
+195,27/07/2024,21:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Cruzeiro Saf / MG,0 X 3
+196,27/07/2024,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Vitória / BA,0 X 2
+197,28/07/2024,11:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Fluminense / RJ,0 X 1
+198,27/07/2024,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,São Paulo / SP,1 X 0
+199,28/07/2024,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Athletico Paranaense / PR,1 X 2
+200,27/07/2024,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Criciúma / SC,1 X 2
+201,04/08/2024,17:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Palmeiras / SP,1 X 1
+202,05/08/2024,21:00,Kleber José de Andrade / Cariacica,Cruzeiro Saf / MG,Fortaleza / CE,1 X 2
+203,03/08/2024,16:00,Manoel Barradas / Salvador,Vitória / BA,Cuiabá Saf / MT,1 X 0
+204,04/08/2024,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Bahia / BA,1 X 0
+205,03/08/2024,19:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Red Bull Bragantino / SP,2 X 2
+206,04/08/2024,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Juventude / RS,1 X 1
+207,03/08/2024,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Flamengo / RJ,1 X 0
+208,04/08/2024,16:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Grêmio / RS,0 X 2
+209,03/08/2024,20:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Botafogo / RJ,1 X 4
+210,03/08/2024,20:00,Heriberto Hulse / Criciuma,Criciúma / SC,Atlético Mineiro Saf / MG,2 X 1
+211,11/08/2024,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Athletico Paranaense / PR,2 X 2
+212,10/08/2024,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Atlético Mineiro Saf / MG,0 X 0
+213,11/08/2024,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Vitória / BA,2 X 0
+214,11/08/2024,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Palmeiras / SP,1 X 1
+215,10/08/2024,21:30,Nilton Santos / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Fluminense / RJ,2 X 0
+216,10/08/2024,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Red Bull Bragantino / SP,1 X 1
+217,11/08/2024,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Atlético Goianiense Saf / GO,1 X 0
+218,10/08/2024,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Criciúma / SC,1 X 0
+219,10/08/2024,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Grêmio / RS,1 X 3
+220,11/08/2024,11:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Botafogo / RJ,3 X 2
+221,17/08/2024,16:00,Alfredo Jaconi / Caxias do Sul,Grêmio / RS,Bahia / BA,0 X 2
+222,17/08/2024,16:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Cuiabá Saf / MT,1 X 1
+223,19/08/2024,20:00,Manoel Barradas / Salvador,Vitória / BA,Cruzeiro Saf / MG,2 X 2
+224,17/08/2024,21:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Corinthians / SP,0 X 0
+225,18/08/2024,18:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Flamengo / RJ,4 X 1
+226,18/08/2024,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,São Paulo / SP,2 X 1
+227,17/08/2024,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Fortaleza / CE,1 X 2
+228,18/08/2024,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Juventude / RS,1 X 2
+229,18/08/2024,16:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Internacional / RS,1 X 0
+230,18/08/2024,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,Vasco da Gama S.a.f. / RJ,2 X 2
+231,25/08/2024,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Cruzeiro Saf / MG,1 X 0
+232,24/08/2024,21:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro Saf / MG,Fluminense / RJ,0 X 2
+233,25/08/2024,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Botafogo / RJ,0 X 0
+234,25/08/2024,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Red Bull Bragantino / SP,2 X 1
+235,26/08/2024,21:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Athletico Paranaense / PR,2 X 1
+236,24/08/2024,18:30,Brinco de Ouro da Princesa / Campinas,Palmeiras / SP,Cuiabá Saf / MT,5 X 0
+237,25/08/2024,18:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Vitória / BA,2 X 1
+238,25/08/2024,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Corinthians / SP,1 X 0
+239,24/08/2024,16:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Juventude / RS,2 X 1
+240,25/08/2024,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,Grêmio / RS,0 X 1
+241,01/09/2024,11:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Atlético Mineiro Saf / MG,2 X 3
+242,01/09/2024,11:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Atlético Goianiense Saf / GO,3 X 1
+243,01/09/2024,18:30,Manoel Barradas / Salvador,Vitória / BA,Vasco da Gama S.a.f. / RJ,0 X 1
+244,01/09/2024,18:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,São Paulo / SP,2 X 0
+245,31/08/2024,21:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Fortaleza / CE,2 X 0
+246,01/09/2024,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Flamengo / RJ,2 X 1
+247,01/09/2024,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Bahia / BA,2 X 1
+248,01/09/2024,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Palmeiras / SP,0 X 2
+249,31/08/2024,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Criciúma / SC,2 X 1
+250,01/09/2024,18:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Internacional / RS,1 X 3
+251,16/09/2024,20:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Cuiabá Saf / MT,3 X 0
+252,15/09/2024,18:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,São Paulo / SP,0 X 1
+253,15/09/2024,18:30,Octávio Mangabeira / Salvador,Bahia / BA,Atlético Mineiro Saf / MG,3 X 0
+254,15/09/2024,18:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Vasco da Gama S.a.f. / RJ,1 X 1
+255,14/09/2024,21:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Corinthians / SP,2 X 1
+256,15/09/2024,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Criciúma / SC,5 X 0
+257,15/09/2024,16:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Grêmio / RS,2 X 2
+258,14/09/2024,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Fortaleza / CE,1 X 1
+259,14/09/2024,16:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Vitória / BA,0 X 2
+260,15/09/2024,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Fluminense / RJ,2 X 1
+261,22/09/2024,18:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Flamengo / RJ,3 X 2
+262,22/09/2024,16:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Red Bull Bragantino / SP,3 X 0
+263,21/09/2024,16:00,Manoel Barradas / Salvador,Vitória / BA,Juventude / RS,1 X 0
+264,21/09/2024,18:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Botafogo / RJ,0 X 1
+265,22/09/2024,16:00,Estádio Nacional Mané Garrincha / Brasilia,Vasco da Gama S.a.f. / RJ,Palmeiras / SP,0 X 1
+266,21/09/2024,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Atlético Goianiense Saf / GO,3 X 0
+267,22/09/2024,18:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Internacional / RS,1 X 3
+268,21/09/2024,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Bahia / BA,4 X 1
+269,22/09/2024,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Cruzeiro Saf / MG,0 X 0
+270,22/09/2024,20:00,Heriberto Hulse / Criciuma,Criciúma / SC,Athletico Paranaense / PR,0 X 0
+271,29/09/2024,18:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Vitória / BA,3 X 1
+272,29/09/2024,18:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Vasco da Gama S.a.f. / RJ,1 X 1
+273,29/09/2024,18:30,Octávio Mangabeira / Salvador,Bahia / BA,Criciúma / SC,1 X 0
+274,29/09/2024,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Athletico Paranaense / PR,1 X 0
+275,28/09/2024,21:00,Estádio Nacional Mané Garrincha / Brasilia,Botafogo / RJ,Grêmio / RS,0 X 0
+276,28/09/2024,18:30,Brinco de Ouro da Princesa / Campinas,Palmeiras / SP,Atlético Mineiro Saf / MG,2 X 1
+277,29/09/2024,16:00,Estádio Nacional Mané Garrincha / Brasilia,São Paulo / SP,Corinthians / SP,3 X 1
+278,29/09/2024,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Cuiabá Saf / MT,1 X 0
+279,29/09/2024,16:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Fluminense / RJ,1 X 0
+280,29/09/2024,11:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Red Bull Bragantino / SP,1 X 1
+281,04/10/2024,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Fortaleza / CE,3 X 1
+282,05/10/2024,16:30,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Vitória / BA,2 X 2
+283,05/10/2024,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Flamengo / RJ,0 X 2
+284,03/10/2024,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Cruzeiro Saf / MG,1 X 0
+285,05/10/2024,21:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Juventude / RS,1 X 1
+286,05/10/2024,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Internacional / RS,2 X 2
+287,05/10/2024,16:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Palmeiras / SP,0 X 0
+288,05/10/2024,16:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Botafogo / RJ,0 X 1
+289,05/10/2024,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,São Paulo / SP,2 X 0
+290,03/10/2024,19:00,Heriberto Hulse / Criciuma,Criciúma / SC,Atlético Goianiense Saf / GO,2 X 0
+291,19/10/2024,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Grêmio / RS,1 X 0
+292,18/10/2024,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Bahia / BA,1 X 1
+293,19/10/2024,16:00,Manoel Barradas / Salvador,Vitória / BA,Red Bull Bragantino / SP,1 X 0
+294,17/10/2024,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Fluminense / RJ,0 X 2
+295,18/10/2024,20:00,Jornalista Mário Filho / Rio de Janeiro,Botafogo / RJ,Criciúma / SC,1 X 1
+296,17/10/2024,20:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Athletico Paranaense / PR,5 X 2
+297,16/10/2024,21:45,Brinco de Ouro da Princesa / Campinas,São Paulo / SP,Vasco da Gama S.a.f. / RJ,3 X 0
+298,16/10/2024,21:45,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Atlético Mineiro Saf / MG,1 X 1
+299,18/10/2024,19:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Cuiabá Saf / MT,0 X 0
+300,20/10/2024,20:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Palmeiras / SP,3 X 5
+301,26/10/2024,16:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Atlético Goianiense Saf / GO,3 X 1
+302,26/10/2024,19:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Internacional / RS,1 X 3
+303,26/10/2024,16:30,Manoel Barradas / Salvador,Vitória / BA,Fluminense / RJ,2 X 1
+304,26/10/2024,16:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Juventude / RS,4 X 2
+305,28/10/2024,21:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Bahia / BA,3 X 2
+306,26/10/2024,16:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Fortaleza / CE,2 X 2
+307,26/10/2024,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Botafogo / RJ,0 X 1
+308,26/10/2024,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Cruzeiro Saf / MG,3 X 0
+309,28/10/2024,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Corinthians / SP,0 X 1
+310,26/10/2024,21:00,Heriberto Hulse / Criciuma,Criciúma / SC,São Paulo / SP,1 X 1
+311,05/11/2024,21:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Criciúma / SC,2 X 0
+312,06/11/2024,21:00,Raimundo Sampaio / Belo Horizonte,Cruzeiro Saf / MG,Flamengo / RJ,0 X 1
+313,05/11/2024,21:30,Octávio Mangabeira / Salvador,Bahia / BA,São Paulo / SP,0 X 3
+314,01/11/2024,21:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Grêmio / RS,2 X 2
+315,05/11/2024,21:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Vasco da Gama S.a.f. / RJ,3 X 0
+316,04/11/2024,20:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Palmeiras / SP,2 X 0
+317,02/11/2024,16:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Cuiabá Saf / MT,0 X 0
+318,02/11/2024,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Vitória / BA,1 X 2
+319,06/11/2024,21:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Atlético Mineiro Saf / MG,1 X 0
+320,02/11/2024,18:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Fortaleza / CE,0 X 3
+321,08/11/2024,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fluminense / RJ,2 X 0
+322,09/11/2024,19:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Criciúma / SC,2 X 1
+323,09/11/2024,16:30,Manoel Barradas / Salvador,Vitória / BA,Corinthians / SP,1 X 2
+324,13/11/2024,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Atlético Mineiro Saf / MG,0 X 0
+325,09/11/2024,16:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Cuiabá Saf / MT,0 X 0
+326,08/11/2024,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Grêmio / RS,1 X 0
+327,09/11/2024,21:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Athletico Paranaense / PR,2 X 1
+328,09/11/2024,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Vasco da Gama S.a.f. / RJ,3 X 0
+329,09/11/2024,19:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Red Bull Bragantino / SP,0 X 0
+330,09/11/2024,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Bahia / BA,2 X 1
+331,20/11/2024,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Juventude / RS,2 X 2
+332,20/11/2024,21:30,Raimundo Sampaio / Belo Horizonte,Atlético Mineiro Saf / MG,Botafogo / RJ,0 X 0
+333,20/11/2024,18:00,Octávio Mangabeira / Salvador,Bahia / BA,Palmeiras / SP,1 X 2
+334,22/11/2024,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Fortaleza / CE,2 X 2
+335,21/11/2024,20:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Internacional / RS,0 X 1
+336,20/11/2024,11:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Cruzeiro Saf / MG,2 X 1
+337,20/11/2024,16:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,São Paulo / SP,1 X 1
+338,20/11/2024,16:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Atlético Goianiense Saf / GO,2 X 0
+339,20/11/2024,19:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Flamengo / RJ,1 X 2
+340,20/11/2024,16:30,Heriberto Hulse / Criciuma,Criciúma / SC,Vitória / BA,0 X 1
+341,24/11/2024,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Red Bull Bragantino / SP,4 X 1
+342,27/11/2024,21:00,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Grêmio / RS,1 X 1
+343,24/11/2024,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Athletico Paranaense / PR,1 X 1
+344,26/11/2024,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Criciúma / SC,0 X 0
+345,23/11/2024,19:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Vitória / BA,1 X 1
+346,24/11/2024,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Vasco da Gama S.a.f. / RJ,3 X 1
+347,23/11/2024,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Atlético Mineiro Saf / MG,2 X 2
+348,26/11/2024,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Flamengo / RJ,0 X 0
+349,23/11/2024,19:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Palmeiras / SP,0 X 1
+350,23/11/2024,19:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Cuiabá Saf / MT,1 X 1
+351,01/12/2024,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,São Paulo / SP,2 X 1
+352,26/11/2024,21:30,Raimundo Sampaio / Belo Horizonte,Atlético Mineiro Saf / MG,Juventude / RS,2 X 3
+353,01/12/2024,18:30,Manoel Barradas / Salvador,Vitória / BA,Fortaleza / CE,2 X 0
+354,01/12/2024,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Internacional / RS,3 X 2
+355,30/11/2024,21:30,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Atlético Goianiense Saf / GO,2 X 2
+356,26/11/2024,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Botafogo / RJ,1 X 3
+357,01/12/2024,18:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Cruzeiro Saf / MG,1 X 1
+358,01/12/2024,18:30,Ligga Arena / Curitiba,Athletico Paranaense / PR,Fluminense / RJ,1 X 1
+359,30/11/2024,19:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Bahia / BA,1 X 2
+360,30/11/2024,19:30,Heriberto Hulse / Criciuma,Criciúma / SC,Corinthians / SP,2 X 4
+361,04/12/2024,21:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Botafogo / RJ,0 X 1
+362,04/12/2024,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro Saf / MG,Palmeiras / SP,1 X 2
+363,04/12/2024,20:00,Manoel Barradas / Salvador,Vitória / BA,Grêmio / RS,1 X 1
+364,05/12/2024,20:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Cuiabá Saf / MT,1 X 0
+365,04/12/2024,19:00,São Januário / Rio de Janeiro,Vasco da Gama S.a.f. / RJ,Atlético Mineiro Saf / MG,2 X 0
+366,03/12/2024,20:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Bahia / BA,3 X 0
+367,04/12/2024,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Juventude / RS,1 X 2
+368,05/12/2024,20:00,Ligga Arena / Curitiba,Athletico Paranaense / PR,Red Bull Bragantino / SP,1 X 2
+369,04/12/2024,21:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Fortaleza / CE,3 X 1
+370,04/12/2024,20:00,Heriberto Hulse / Criciuma,Criciúma / SC,Flamengo / RJ,0 X 3
+371,08/12/2024,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Corinthians / SP,0 X 3
+372,08/12/2024,16:00,ARENA MRV / Belo Horizonte,Atlético Mineiro Saf / MG,Athletico Paranaense / PR,1 X 0
+373,08/12/2024,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Atlético Goianiense Saf / GO,2 X 0
+374,08/12/2024,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Vitória / BA,2 X 2
+375,08/12/2024,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,São Paulo / SP,2 X 1
+376,08/12/2024,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Fluminense / RJ,0 X 1
+377,08/12/2024,16:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Criciúma / SC,5 X 1
+378,08/12/2024,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Internacional / RS,3 X 0
+379,08/12/2024,16:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Vasco da Gama S.a.f. / RJ,1 X 2
+380,08/12/2024,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Cruzeiro Saf / MG,0 X 1

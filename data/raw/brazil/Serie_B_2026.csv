@@ -1,0 +1,158 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,21/03/2026,19:15,Santa Cruz / Ribeirao Preto,Botafogo / SP,Fortaleza / CE,4 X 0
+002,22/03/2026,20:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Londrina SAF / PR,1 X 3
+003,22/03/2026,18:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Club / MG,Ponte Preta / SP,2 X 1
+004,21/03/2026,18:15,Germano Kruger / Ponta Grossa,Operário / PR,Atlético Goianiense Saf / GO,1 X 0
+005,21/03/2026,18:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Sao Bernardo / SP,1 X 1
+006,22/03/2026,18:00,Hailé Pinheiro / Goiania,Goiás / GO,América / MG,3 X 1
+007,22/03/2026,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Juventude / RS,2 X 0
+008,22/03/2026,16:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Criciúma / SC,0 X 1
+009,21/03/2026,20:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Sport Recife / PE,0 X 0
+010,21/03/2026,17:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Crb / AL,2 X 2
+011,01/04/2026,21:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Ceará / CE,1 X 1
+012,02/04/2026,19:00,1º de Maio / Sao Bernardo do Campo,Sao Bernardo / SP,Operário / PR,1 X 2
+013,01/04/2026,18:00,ARENA MRV / Belo Horizonte,América / MG,Botafogo / SP,1 X 2
+014,01/04/2026,19:00,Vitorino Gonçalves Dias / Londrina,Londrina SAF / PR,Goiás / GO,2 X 2
+015,31/03/2026,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Cuiabá Saf / MT,0 X 0
+016,01/04/2026,19:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Náutico / PE,1 X 2
+017,01/04/2026,21:30,Heriberto Hulse / Criciuma,Criciúma / SC,Athletic Club / MG,1 X 1
+018,01/04/2026,19:00,Adelmar da Costa Carvalho / Recife,Sport Recife / PE,Vila Nova / GO,1 X 1
+019,01/04/2026,21:30,Rei Pelé / Maceio,Crb / AL,Avaí / SC,0 X 1
+020,31/03/2026,18:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Gremio Novorizontino - Saf / SP,0 X 0
+021,05/04/2026,20:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Sao Bernardo / SP,1 X 2
+022,05/04/2026,18:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Crb / AL,1 X 1
+023,05/04/2026,20:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic Club / MG,América / MG,1 X 1
+024,04/04/2026,20:30,Vitorino Gonçalves Dias / Londrina,Londrina SAF / PR,Sport Recife / PE,1 X 2
+025,04/04/2026,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza SAF / CE,Juventude / RS,2 X 1
+026,06/04/2026,21:00,Hailé Pinheiro / Goiania,Goiás / GO,Criciúma / SC,1 X 0
+027,05/04/2026,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Operário / PR,0 X 0
+028,04/04/2026,18:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Ponte Preta / SP,1 X 0
+029,04/04/2026,18:00,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Ceará / CE,0 X 2
+030,04/04/2026,20:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Atlético Goianiense Saf / GO,2 X 1
+031,11/04/2026,18:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Vila Nova / GO,0 X 1
+032,12/04/2026,18:00,1º de Maio / Sao Bernardo do Campo,Sao Bernardo / SP,Fortaleza SAF / CE,0 X 1
+033,12/04/2026,18:00,Raimundo Sampaio / Belo Horizonte,América / MG,Gremio Novorizontino - Saf / SP,0 X 3
+034,12/04/2026,18:00,Germano Kruger / Ponta Grossa,Operário / PR,Cuiabá Saf / MT,0 X 0
+035,11/04/2026,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Náutico / PE,1 X 0
+036,12/04/2026,20:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Londrina SAF / PR,2 X 1
+037,10/04/2026,20:30,Heriberto Hulse / Criciuma,Criciúma / SC,Botafogo / SP,1 X 0
+038,11/04/2026,18:00,Adelmar da Costa Carvalho / Recife,Sport Recife / PE,Avaí / SC,2 X 2
+039,12/04/2026,20:00,Rei Pelé / Maceio,Crb / AL,Athletic Club / MG,2 X 3
+040,11/04/2026,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Goiás / GO,2 X 0
+041,19/04/2026,16:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Atlético Goianiense Saf / GO,1 X 1
+042,19/04/2026,20:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Athletic Club / MG,2 X 1
+043,18/04/2026,18:00,Raimundo Sampaio / Belo Horizonte,América / MG,Sport Recife / PE,0 X 0
+044,19/04/2026,16:00,Vitorino Gonçalves Dias / Londrina,Londrina SAF / PR,Ceará / CE,0 X 0
+045,19/04/2026,20:00,Presidente Vargas / Fortaleza,Fortaleza SAF / CE,Criciúma / SC,3 X 2
+046,19/04/2026,18:00,Hailé Pinheiro / Goiania,Goiás / GO,Cuiabá Saf / MT,0 X 2
+047,18/04/2026,20:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Ponte Preta / SP,1 X 2
+048,18/04/2026,18:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Sao Bernardo / SP,0 X 3
+049,18/04/2026,20:45,Rei Pelé / Maceio,Crb / AL,Juventude / RS,0 X 1
+050,18/04/2026,18:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Operário / PR,2 X 1
+051,24/04/2026,20:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,América / MG,1 X 0
+052,26/04/2026,16:00,1º de Maio / Sao Bernardo do Campo,Sao Bernardo / SP,Goiás / GO,1 X 0
+053,27/04/2026,19:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic SAF / MG,Náutico / PE,0 X 1
+054,26/04/2026,18:00,Germano Kruger / Ponta Grossa,Operário / PR,Fortaleza SAF / CE,0 X 0
+055,26/04/2026,18:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Vila Nova / GO,3 X 3
+056,26/04/2026,20:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Avaí / SC,2 X 1
+057,26/04/2026,20:30,Heriberto Hulse / Criciuma,Criciúma / SC,Crb / AL,3 X 1
+058,25/04/2026,20:30,Adelmar da Costa Carvalho / Recife,Sport Recife / PE,Gremio Novorizontino - Saf / SP,1 X 0
+059,22/04/2026,21:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Botafogo / SP,1 X 1
+060,25/04/2026,21:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Londrina SAF / PR,1 X 0
+061,02/05/2026,16:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Náutico / PE,1 X 1
+062,03/05/2026,16:00,1º de Maio / Sao Bernardo do Campo,Sao Bernardo / SP,Ponte Preta / SP,3 X 0
+063,03/05/2026,20:30,Raimundo Sampaio / Belo Horizonte,América / MG,Crb / AL,1 X 2
+064,03/05/2026,16:00,Germano Kruger / Ponta Grossa,Operário / PR,Londrina SAF / PR,3 X 0
+065,02/05/2026,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza SAF / CE,Goiás / GO,4 X 1
+066,03/05/2026,18:30,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Juventude / RS,0 X 0
+067,03/05/2026,20:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Gremio Novorizontino - Saf / SP,3 X 3
+068,03/05/2026,18:00,Adelmar da Costa Carvalho / Recife,Sport Recife / PE,Ceará / CE,2 X 0
+069,02/05/2026,18:30,Arena Pantanal / Cuiaba,Cuiabá Saf / MT,Criciúma / SC,1 X 1
+070,04/05/2026,19:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Athletic SAF / MG,1 X 1
+071,09/05/2026,18:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Sport Recife / PE,1 X 3
+072,10/05/2026,19:30,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Botafogo / SP,1 X 0
+073,09/05/2026,18:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic SAF / MG,Cuiabá / MT,0 X 0
+074,12/05/2026,19:30,Vitorino Gonçalves Dias / Londrina,Londrina SAF / PR,Sao Bernardo / SP,1 X 3
+075,09/05/2026,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Atlético Goianiense Saf / GO,0 X 1
+076,09/05/2026,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Vila Nova / GO,1 X 0
+077,10/05/2026,18:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Fortaleza SAF / CE,0 X 0
+078,10/05/2026,16:00,Eládio de Barros Carvalho / Recife,Náutico / PE,América / MG,4 X 0
+079,09/05/2026,20:30,Rei Pelé / Maceio,Crb / AL,Operário / PR,3 X 0
+080,09/05/2026,21:15,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Criciúma / SC,0 X 0
+081,18/05/2026,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Londrina SAF / PR,1 X 4
+082,16/05/2026,16:00,1º de Maio / Sao Bernardo do Campo,Sao Bernardo / SP,América / MG,1 X 1
+083,17/05/2026,16:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic SAF / MG,Juventude / RS,1 X 1
+084,16/05/2026,16:00,Germano Kruger / Ponta Grossa,Operário / PR,Náutico / PE,2 X 6
+085,17/05/2026,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Fortaleza SAF / CE,2 X 1
+086,16/05/2026,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Botafogo / SP,1 X 0
+087,17/05/2026,18:30,Heriberto Hulse / Criciuma,Criciúma / SC,Atlético Goianiense Saf / GO,1 X 1
+088,17/05/2026,20:30,Adelmar da Costa Carvalho / Recife,Sport Recife / PE,Crb / AL,1 X 2
+089,16/05/2026,20:30,Arena Pantanal / Cuiaba,Cuiabá / MT,Gremio Novorizontino - Saf / SP,0 X 0
+090,17/05/2026,18:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Avaí / SC,2 X 0
+091,25/05/2026,19:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Athletic SAF / MG,1 X 2
+092,23/05/2026,16:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Ceará / CE,2 X 1
+093,24/05/2026,18:30,Raimundo Sampaio / Belo Horizonte,América / MG,Vila Nova / GO,1 X 2
+094,24/05/2026,20:30,Germano Kruger / Ponta Grossa,Operário / PR,Criciúma / SC,1 X 1
+095,23/05/2026,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza SAF / CE,Londrina SAF / PR,3 X 0
+096,24/05/2026,16:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Sao Bernardo / SP,0 X 1
+097,24/05/2026,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Goiás / GO,0 X 2
+098,22/05/2026,19:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Cuiabá / MT,1 X 0
+099,24/05/2026,16:30,Rei Pelé / Maceio,Crb / AL,Ponte Preta / SP,4 X 2
+100,23/05/2026,20:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Sport Recife / PE,0 X 1
+101,01/06/2026,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Botafogo / SP,0 X 0
+102,31/05/2026,11:00,1º de Maio / Sao Bernardo do Campo,Sao Bernardo / SP,Gremio Novorizontino - Saf / SP,1 X 1
+103,30/05/2026,18:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic SAF / MG,Fortaleza SAF / CE,1 X 0
+104,31/05/2026,11:00,Vitorino Gonçalves Dias / Londrina,Londrina SAF / PR,Vila Nova / GO,0 X 1
+105,31/05/2026,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Operário / PR,1 X 2
+106,30/05/2026,16:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Goiás / GO,1 X 1
+107,30/05/2026,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Criciúma / SC,1 X 2
+108,30/05/2026,20:30,Adelmar da Costa Carvalho / Recife,Sport Recife / PE,Náutico / PE,2 X 0
+109,31/05/2026,20:30,Arena Pantanal / Cuiaba,Cuiabá / MT,Crb / AL,2 X 0
+110,29/05/2026,21:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,América / MG,3 X 0
+111,09/06/2026,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Cuiabá / MT,1 X 2
+112,10/06/2026,21:00,Adelmar da Costa Carvalho / Recife,Sport Recife / PE,Athletic SAF / MG,1 X 1
+113,08/06/2026,20:00,Raimundo Sampaio / Belo Horizonte,América / MG,Atlético Goianiense Saf / GO,1 X 2
+114,05/06/2026,20:00,Major Antônio Couto Pereira / Curitiba,Operário / PR,Juventude / RS,2 X 1
+115,10/06/2026,20:00,Presidente Vargas / Fortaleza,Ceará / CE,Avaí / SC,2 X 1
+116,10/06/2026,20:00,Hailé Pinheiro / Goiania,Goiás / GO,Gremio Novorizontino - Saf / SP,0 X 4
+117,06/06/2026,11:00,Heriberto Hulse / Criciuma,Criciúma / SC,Londrina SAF / PR,1 X 0
+118,09/06/2026,19:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Fortaleza SAF / CE,0 X 1
+119,07/06/2026,16:00,Rei Pelé / Maceio,Crb / AL,Sao Bernardo / SP,2 X 3
+120,08/06/2026,20:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Botafogo / SP,1 X 0
+121,14/06/2026,19:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Operário / PR,2 X 1
+122,14/06/2026,11:00,1º de Maio / Sao Bernardo do Campo,Sao Bernardo / SP,Sport Recife / PE,0 X 0
+123,14/06/2026,16:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic SAF / MG,Goiás / GO,1 X 1
+124,15/06/2026,21:00,Vitorino Gonçalves Dias / Londrina,Londrina SAF / PR,Avaí / SC,3 X 2
+125,16/06/2026,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza SAF / CE,América / MG,0 X 3
+126,12/06/2026,19:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Crb / AL,3 X 3
+127,15/06/2026,21:00,Heriberto Hulse / Criciuma,Criciúma / SC,Ceará / CE,1 X 1
+128,14/06/2026,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Náutico / PE,2 X 2
+129,14/06/2026,17:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Vila Nova / GO,1 X 0
+130,14/06/2026,11:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Ponte Preta / SP,3 X 0
+131,22/06/2026,20:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Gremio Novorizontino - Saf / SP,0 X 2
+132,21/06/2026,17:00,1º de Maio / Sao Bernardo do Campo,Sao Bernardo / SP,Juventude / RS,0 X 1
+133,23/06/2026,20:00,Raimundo Sampaio / Belo Horizonte,América / MG,Criciúma / SC,0 X 1
+134,20/06/2026,11:00,Vitorino Gonçalves Dias / Londrina,Londrina SAF / PR,Athletic SAF / MG,2 X 0
+135,20/06/2026,19:00,Presidente Vargas / Fortaleza,Ceará / CE,Botafogo / SP,0 X 1
+136,21/06/2026,18:30,Hailé Pinheiro / Goiania,Goiás / GO,Operário / PR,0 X 3
+137,21/06/2026,11:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Cuiabá / MT,1 X 0
+138,18/06/2026,21:00,Adelmar da Costa Carvalho / Recife,Sport Recife / PE,Atlético Goianiense Saf / GO,1 X 1
+139,21/06/2026,16:00,Rei Pelé / Maceio,Crb / AL,Fortaleza SAF / CE,1 X 1
+140,20/06/2026,19:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Náutico / PE,4 X 3
+141,30/06/2026,20:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Crb / AL,0 X 1
+142,26/06/2026,19:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Vila Nova / GO,2 X 1
+143,28/06/2026,16:00,Estádio Joaquim Portugal  / Sao Joao del Rei,Athletic SAF / MG,Avaí / SC,1 X 0
+144,27/06/2026,11:00,Germano Kruger / Ponta Grossa,Operário / PR,América / MG,1 X 0
+145,28/06/2026,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza SAF / CE,Sport Recife / PE,2 X 1
+146,28/06/2026,16:00,Antônio Accioly / Goiania,Atlético Goianiense Saf / GO,Ponte Preta / SP,2 X 0
+147,27/06/2026,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,São Bernardo SAF / SP,1 X 0
+148,28/06/2026,18:30,Eládio de Barros Carvalho / Recife,Náutico / PE,Goiás / GO,0 X 1
+149,25/06/2026,20:30,Arena Pantanal / Cuiaba,Cuiabá / MT,Londrina SAF / PR,2 X 2
+150,28/06/2026,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Ceará / CE,2 X 0
+152,04/07/2026,16:00,Dr. Jorge Ismael de Biasi / Novo Horizonte,Gremio Novorizontino - Saf / SP,Atlético Goianiense Saf / GO,3 X 0
+154,04/07/2026,16:00,Vitorino Gonçalves Dias / Londrina,Londrina SAF / PR,Crb / AL,5 X 0
+155,02/07/2026,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza SAF / CE,Ponte Preta / SP,2 X 0
+156,04/07/2026,20:00,Hailé Pinheiro / Goiania,Goiás / GO,Ceará / CE,2 X 0
+157,04/07/2026,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,Sport Recife / PE,1 X 0
+158,05/07/2026,20:30,Eládio de Barros Carvalho / Recife,Náutico / PE,Juventude / RS,0 X 0
+159,02/07/2026,20:00,Arena Pantanal / Cuiaba,Cuiabá / MT,América / MG,1 X 0

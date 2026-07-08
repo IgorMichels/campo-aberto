@@ -1,0 +1,381 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,29/05/2021,11:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Operário / PR,0 X 2
+002,28/05/2021,21:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Botafogo / RJ,1 X 1
+003,28/05/2021,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Vitória / BA,1 X 1
+004,28/05/2021,21:30,Eládio de Barros Carvalho / Recife,Náutico / PE,Csa / AL,1 X 0
+005,28/05/2021,16:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Londrina / PR,0 X 0
+006,29/05/2021,16:00,Rei Pelé / Maceio,Crb / AL,Remo / PA,2 X 2
+007,29/05/2021,18:15,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Avaí / SC,2 X 0
+008,30/05/2021,11:00,Augusto Bauer / Brusque,Brusque / SC,Ponte Preta / SP,2 X 1
+009,29/05/2021,16:30,Lourival Baptista / Aracaju,Confiança / SE,Cruzeiro / MG,3 X 1
+010,31/05/2021,20:00,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Goiás / GO,0 X 0
+011,05/06/2021,21:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Coritiba / PR,2 X 0
+012,04/06/2021,17:30,Hailé Pinheiro / Goiania,Goiás / GO,Confiança / SE,2 X 0
+013,06/06/2021,16:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Vasco da Gama / RJ,1 X 1
+014,06/06/2021,18:15,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Crb / AL,3 X 4
+015,05/06/2021,11:00,Jacy Scaff / Londrina,Londrina / PR,Brusque / SC,0 X 1
+016,05/06/2021,16:30,Rei Pelé / Maceio,Csa / AL,Sampaio Corrêa / MA,0 X 0
+017,01/06/2021,19:00,Major Antônio Couto Pereira / Curitiba,Operário / PR,Guarani / SP,2 X 5
+018,06/06/2021,20:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Vila Nova / GO,1 X 1
+019,07/06/2021,20:00,Manoel Barradas / Salvador,Vitória / BA,Náutico / PE,0 X 1
+020,05/06/2021,19:00,Evandro Almeida / Belem,Remo / PA,Brasil / RS,1 X 0
+021,13/06/2021,16:00,Sylvio Raulino de Oliveira / Volta Redonda,Botafogo / RJ,Remo / PA,3 X 0
+022,12/06/2021,19:00,Anibal Batista de Toledo / Aparecida de Goiania,Vila Nova / GO,Csa / AL,1 X 0
+023,11/06/2021,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Náutico / PE,1 X 3
+024,12/06/2021,21:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Goiás / GO,1 X 1
+025,12/06/2021,19:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Vasco da Gama / RJ,1 X 2
+026,12/06/2021,16:30,Rei Pelé / Maceio,Crb / AL,Confiança / SE,3 X 2
+027,13/06/2021,20:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Londrina / PR,1 X 1
+028,13/06/2021,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Brusque / SC,1 X 2
+029,13/06/2021,20:30,Manoel Barradas / Salvador,Vitória / BA,Operário / PR,0 X 0
+030,11/06/2021,19:00,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Ponte Preta / SP,1 X 0
+031,16/06/2021,19:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Avaí / SC,0 X 2
+032,15/06/2021,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Crb / AL,1 X 0
+033,16/06/2021,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Cruzeiro / MG,0 X 1
+034,15/06/2021,19:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Vila Nova / GO,2 X 0
+035,17/06/2021,19:00,Jacy Scaff / Londrina,Londrina / PR,Botafogo / RJ,2 X 2
+036,15/06/2021,19:00,Rei Pelé / Maceio,Csa / AL,Guarani / SP,1 X 1
+037,16/06/2021,18:00,Germano Kruger / Ponta Grossa,Operário / PR,Sampaio Corrêa / MA,1 X 0
+038,03/08/2021,19:00,Augusto Bauer / Brusque,Brusque / SC,Coritiba / PR,0 X 0
+039,15/06/2021,21:30,Lourival Baptista / Aracaju,Confiança / SE,Brasil / RS,1 X 1
+040,16/06/2021,16:00,Evandro Almeida / Belem,Remo / PA,Vitória / BA,0 X 0
+041,19/06/2021,16:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Crb / AL,3 X 0
+042,19/06/2021,21:00,Anibal Batista de Toledo / Aparecida de Goiania,Vila Nova / GO,Coritiba / PR,0 X 1
+043,19/06/2021,18:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Ponte Preta / SP,1 X 0
+044,20/06/2021,16:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Botafogo / RJ,3 X 1
+045,18/06/2021,21:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Goiás / GO,2 X 1
+046,20/06/2021,20:30,Rei Pelé / Maceio,Csa / AL,Londrina / PR,1 X 0
+047,19/06/2021,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Cruzeiro / MG,2 X 1
+048,28/07/2021,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Remo / PA,1 X 0
+049,19/06/2021,19:00,Manoel Barradas / Salvador,Vitória / BA,Brusque / SC,3 X 1
+050,19/06/2021,21:00,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Confiança / SE,3 X 1
+051,27/07/2021,21:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Csa / AL,2 X 0
+052,22/06/2021,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Avaí / SC,3 X 0
+053,22/06/2021,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Operário / PR,0 X 0
+054,24/06/2021,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Vasco da Gama / RJ,2 X 1
+055,23/06/2021,16:00,Jacy Scaff / Londrina,Londrina / PR,Náutico / PE,0 X 0
+056,22/06/2021,21:30,Rei Pelé / Maceio,Crb / AL,Brasil / RS,2 X 1
+057,22/06/2021,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Vitória / BA,1 X 0
+058,22/06/2021,16:30,Augusto Bauer / Brusque,Brusque / SC,Sampaio Corrêa / MA,0 X 0
+059,22/06/2021,16:30,Lourival Baptista / Aracaju,Confiança / SE,Vila Nova / GO,1 X 0
+060,22/06/2021,21:30,Evandro Almeida / Belem,Remo / PA,Guarani / SP,0 X 0
+061,27/06/2021,21:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Brusque / SC,2 X 1
+062,25/06/2021,21:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Goiás / GO,0 X 0
+063,25/06/2021,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Coritiba / PR,0 X 2
+064,26/06/2021,21:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Remo / PA,1 X 1
+065,25/06/2021,19:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Ponte Preta / SP,1 X 1
+066,27/06/2021,20:30,Rei Pelé / Maceio,Csa / AL,Cruzeiro / MG,2 X 1
+067,25/06/2021,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Confiança / SE,0 X 0
+068,25/06/2021,16:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Crb / AL,1 X 0
+069,26/06/2021,18:30,Manoel Barradas / Salvador,Vitória / BA,Londrina / PR,1 X 2
+070,26/06/2021,16:30,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Botafogo / RJ,2 X 0
+071,30/06/2021,21:30,Sylvio Raulino de Oliveira / Volta Redonda,Botafogo / RJ,Vitória / BA,1 X 0
+072,30/06/2021,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Vasco da Gama / RJ,1 X 0
+073,30/06/2021,16:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Csa / AL,2 X 1
+074,30/06/2021,19:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Guarani / SP,3 X 3
+075,30/06/2021,19:00,Jacy Scaff / Londrina,Londrina / PR,Avaí / SC,1 X 3
+076,29/06/2021,21:30,Rei Pelé / Maceio,Crb / AL,Náutico / PE,1 X 1
+077,28/06/2021,18:00,Germano Kruger / Ponta Grossa,Operário / PR,Vila Nova / GO,1 X 2
+078,30/06/2021,17:00,Augusto Bauer / Brusque,Brusque / SC,Brasil / RS,1 X 0
+079,29/06/2021,19:00,Lourival Baptista / Aracaju,Confiança / SE,Coritiba / PR,0 X 1
+080,29/06/2021,21:30,Evandro Almeida / Belem,Remo / PA,Sampaio Corrêa / MA,0 X 2
+081,03/07/2021,16:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Confiança / SE,1 X 0
+082,03/07/2021,21:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Ponte Preta / SP,0 X 0
+083,04/07/2021,11:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Brusque / SC,4 X 1
+084,02/07/2021,19:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Operário / PR,5 X 0
+085,03/07/2021,19:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Cruzeiro / MG,0 X 0
+086,03/07/2021,18:30,Rei Pelé / Maceio,Csa / AL,Crb / AL,0 X 1
+087,02/07/2021,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Remo / PA,2 X 1
+088,03/07/2021,21:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Botafogo / RJ,1 X 1
+089,03/07/2021,21:30,Manoel Barradas / Salvador,Vitória / BA,Goiás / GO,1 X 1
+090,03/07/2021,19:00,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Londrina / PR,1 X 0
+091,09/07/2021,19:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Sampaio Corrêa / MA,1 X 0
+092,09/07/2021,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Náutico / PE,0 X 1
+093,06/07/2021,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Avaí / SC,0 X 0
+094,06/07/2021,19:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Coritiba / PR,0 X 0
+095,09/07/2021,19:00,Jacy Scaff / Londrina,Londrina / PR,Guarani / SP,0 X 1
+096,06/07/2021,21:30,Rei Pelé / Maceio,Crb / AL,Botafogo / RJ,2 X 1
+097,10/07/2021,11:00,Germano Kruger / Ponta Grossa,Operário / PR,Brasil / RS,2 X 1
+098,11/07/2021,20:30,Augusto Bauer / Brusque,Brusque / SC,Csa / AL,2 X 3
+099,10/07/2021,19:00,Lourival Baptista / Aracaju,Confiança / SE,Vitória / BA,1 X 1
+100,08/07/2021,21:00,Evandro Almeida / Belem,Remo / PA,Vila Nova / GO,0 X 1
+101,10/07/2021,16:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Cruzeiro / MG,3 X 3
+102,13/07/2021,16:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Brasil / RS,0 X 0
+103,13/07/2021,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Crb / AL,1 X 0
+104,12/07/2021,20:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Ponte Preta / SP,1 X 1
+105,13/07/2021,21:30,Jacy Scaff / Londrina,Londrina / PR,Operário / PR,1 X 2
+106,14/07/2021,19:00,Rei Pelé / Maceio,Csa / AL,Goiás / GO,0 X 1
+107,13/07/2021,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Vasco da Gama / RJ,1 X 1
+108,13/07/2021,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Confiança / SE,2 X 1
+109,13/07/2021,21:30,Manoel Barradas / Salvador,Vitória / BA,Sampaio Corrêa / MA,2 X 2
+110,14/07/2021,21:30,Evandro Almeida / Belem,Remo / PA,Brusque / SC,2 X 1
+111,18/07/2021,16:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Náutico / PE,1 X 1
+112,17/07/2021,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Londrina / PR,0 X 0
+113,17/07/2021,18:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Remo / PA,1 X 2
+114,17/07/2021,16:30,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Avaí / SC,0 X 3
+115,17/07/2021,11:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Vitória / BA,1 X 0
+116,18/07/2021,20:30,Rei Pelé / Maceio,Crb / AL,Vila Nova / GO,2 X 1
+117,17/07/2021,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Csa / AL,0 X 2
+118,17/07/2021,19:00,Augusto Bauer / Brusque,Brusque / SC,Botafogo / RJ,2 X 1
+119,16/07/2021,19:00,Lourival Baptista / Aracaju,Confiança / SE,Guarani / SP,1 X 4
+120,16/07/2021,21:30,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Coritiba / PR,2 X 3
+121,20/07/2021,19:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Goiás / GO,0 X 2
+122,21/07/2021,16:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Brusque / SC,0 X 1
+123,20/07/2021,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Sampaio Corrêa / MA,0 X 0
+124,21/07/2021,21:30,Eládio de Barros Carvalho / Recife,Náutico / PE,Brasil / RS,2 X 1
+125,20/07/2021,19:00,Jacy Scaff / Londrina,Londrina / PR,Confiança / SE,0 X 0
+126,21/07/2021,21:30,Rei Pelé / Maceio,Csa / AL,Vasco da Gama / RJ,2 X 2
+127,22/07/2021,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Crb / AL,1 X 1
+128,22/07/2021,21:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Operário / PR,1 X 0
+129,20/07/2021,21:30,Manoel Barradas / Salvador,Vitória / BA,Ponte Preta / SP,1 X 0
+130,20/07/2021,19:00,Evandro Almeida / Belem,Remo / PA,Cruzeiro / MG,1 X 0
+131,24/07/2021,21:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Guarani / SP,4 X 1
+132,24/07/2021,16:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Cruzeiro / MG,0 X 0
+133,23/07/2021,20:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Goiás / GO,2 X 1
+134,24/07/2021,19:30,Eládio de Barros Carvalho / Recife,Náutico / PE,Brusque / SC,1 X 1
+135,23/07/2021,16:00,Jacy Scaff / Londrina,Londrina / PR,Remo / PA,1 X 0
+136,24/07/2021,21:00,Rei Pelé / Maceio,Csa / AL,Vitória / BA,2 X 1
+137,25/07/2021,18:15,Germano Kruger / Ponta Grossa,Operário / PR,Coritiba / PR,1 X 0
+138,25/07/2021,20:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Brasil / RS,1 X 1
+139,24/07/2021,16:30,Lourival Baptista / Aracaju,Confiança / SE,Botafogo / RJ,0 X 1
+140,25/07/2021,20:30,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Crb / AL,2 X 3
+141,31/07/2021,21:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Vasco da Gama / RJ,2 X 0
+142,30/07/2021,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Operário / PR,1 X 0
+143,31/07/2021,11:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Vila Nova / GO,1 X 4
+144,30/07/2021,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Londrina / PR,2 X 2
+145,31/07/2021,19:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Sampaio Corrêa / MA,1 X 2
+146,01/08/2021,18:15,Rei Pelé / Maceio,Crb / AL,Ponte Preta / SP,1 X 1
+147,30/07/2021,20:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Náutico / PE,3 X 1
+148,31/07/2021,21:00,Augusto Bauer / Brusque,Brusque / SC,Confiança / SE,3 X 0
+149,31/07/2021,16:30,Manoel Barradas / Salvador,Vitória / BA,Avaí / SC,0 X 0
+150,01/08/2021,18:15,Evandro Almeida / Belem,Remo / PA,Csa / AL,1 X 0
+151,08/08/2021,20:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Ponte Preta / SP,2 X 0
+152,07/08/2021,21:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Sampaio Corrêa / MA,0 X 2
+153,06/08/2021,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Brasil / RS,2 X 0
+154,07/08/2021,16:30,Eládio de Barros Carvalho / Recife,Náutico / PE,Confiança / SE,0 X 4
+155,08/08/2021,20:30,Jacy Scaff / Londrina,Londrina / PR,Crb / AL,0 X 2
+156,07/08/2021,19:00,Rei Pelé / Maceio,Csa / AL,Avaí / SC,0 X 0
+157,06/08/2021,19:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Goiás / GO,1 X 1
+158,07/08/2021,11:00,Augusto Bauer / Brusque,Brusque / SC,Cruzeiro / MG,1 X 2
+159,07/08/2021,19:30,Manoel Barradas / Salvador,Vitória / BA,Vasco da Gama / RJ,0 X 1
+160,06/08/2021,16:00,Evandro Almeida / Belem,Remo / PA,Operário / PR,0 X 1
+161,10/08/2021,21:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Vila Nova / GO,1 X 0
+162,10/08/2021,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Remo / PA,1 X 1
+163,11/08/2021,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Londrina / PR,2 X 1
+164,11/08/2021,19:00,Raimundo Sampaio / Belo Horizonte,Cruzeiro / MG,Vitória / BA,2 X 2
+165,11/08/2021,16:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Coritiba / PR,0 X 2
+166,12/08/2021,19:00,Rei Pelé / Maceio,Crb / AL,Brusque / SC,3 X 0
+167,12/08/2021,21:30,Germano Kruger / Ponta Grossa,Operário / PR,Botafogo / RJ,1 X 0
+168,10/08/2021,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Guarani / SP,0 X 1
+169,10/08/2021,19:00,Lourival Baptista / Aracaju,Confiança / SE,Csa / AL,0 X 2
+170,11/08/2021,21:30,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Náutico / PE,2 X 0
+171,15/08/2021,18:15,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Brasil / RS,1 X 0
+172,13/08/2021,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Guarani / SP,2 X 1
+173,14/08/2021,16:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Confiança / SE,4 X 2
+174,14/08/2021,16:30,Raimundo Sampaio / Belo Horizonte,Cruzeiro / MG,Sampaio Corrêa / MA,1 X 1
+175,15/08/2021,11:00,Jacy Scaff / Londrina,Londrina / PR,Vila Nova / GO,1 X 0
+176,14/08/2021,16:30,Rei Pelé / Maceio,Csa / AL,Coritiba / PR,3 X 0
+177,15/08/2021,20:30,Germano Kruger / Ponta Grossa,Operário / PR,Brusque / SC,1 X 1
+178,14/08/2021,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Náutico / PE,2 X 0
+179,15/08/2021,16:00,Manoel Barradas / Salvador,Vitória / BA,Crb / AL,1 X 1
+180,13/08/2021,21:30,Evandro Almeida / Belem,Remo / PA,Vasco da Gama / RJ,2 X 1
+181,18/08/2021,21:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Londrina / PR,1 X 2
+182,18/08/2021,19:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Vitória / BA,0 X 0
+183,18/08/2021,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Botafogo / RJ,1 X 1
+184,17/08/2021,19:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Cruzeiro / MG,0 X 1
+185,19/08/2021,21:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Csa / AL,0 X 1
+186,18/08/2021,21:30,Rei Pelé / Maceio,Crb / AL,Operário / PR,0 X 0
+187,17/08/2021,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Ponte Preta / SP,2 X 0
+188,19/08/2021,19:00,Augusto Bauer / Brusque,Brusque / SC,Goiás / GO,0 X 1
+189,17/08/2021,19:00,Lourival Baptista / Aracaju,Confiança / SE,Remo / PA,1 X 2
+190,17/08/2021,21:30,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Avaí / SC,0 X 2
+191,22/08/2021,11:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Vila Nova / GO,3 X 2
+192,22/08/2021,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Sampaio Corrêa / MA,2 X 2
+193,22/08/2021,20:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Brusque / SC,3 X 0
+194,20/08/2021,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Confiança / SE,1 X 0
+195,22/08/2021,18:15,Jacy Scaff / Londrina,Londrina / PR,Brasil / RS,0 X 0
+196,24/08/2021,21:30,Rei Pelé / Maceio,Csa / AL,Náutico / PE,0 X 1
+197,21/08/2021,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Vasco da Gama / RJ,2 X 0
+198,20/08/2021,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Coritiba / PR,1 X 2
+199,21/08/2021,16:30,Manoel Barradas / Salvador,Vitória / BA,Guarani / SP,1 X 0
+200,21/08/2021,21:00,Evandro Almeida / Belem,Remo / PA,Crb / AL,1 X 2
+201,29/08/2021,16:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Ponte Preta / SP,2 X 0
+202,25/08/2021,16:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Avaí / SC,1 X 0
+203,24/08/2021,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Operário / PR,3 X 0
+204,29/08/2021,16:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Vitória / BA,1 X 1
+205,27/08/2021,19:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Remo / PA,1 X 1
+206,29/08/2021,16:00,Rei Pelé / Maceio,Crb / AL,Cruzeiro / MG,0 X 0
+207,27/08/2021,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Botafogo / RJ,0 X 1
+208,28/08/2021,18:45,Augusto Bauer / Brusque,Brusque / SC,Londrina / PR,0 X 0
+209,26/08/2021,17:00,Lourival Baptista / Aracaju,Confiança / SE,Goiás / GO,1 X 2
+210,28/08/2021,21:00,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Csa / AL,2 X 0
+211,03/09/2021,19:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Brasil / RS,1 X 1
+212,07/09/2021,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Cruzeiro / MG,1 X 1
+213,03/09/2021,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Sampaio Corrêa / MA,3 X 2
+214,04/09/2021,17:15,Eládio de Barros Carvalho / Recife,Náutico / PE,Guarani / SP,1 X 1
+215,01/09/2021,21:30,Jacy Scaff / Londrina,Londrina / PR,Coritiba / PR,2 X 3
+216,03/09/2021,21:30,Rei Pelé / Maceio,Csa / AL,Vila Nova / GO,1 X 1
+217,04/09/2021,11:00,Germano Kruger / Ponta Grossa,Operário / PR,Vitória / BA,0 X 1
+218,03/09/2021,19:00,Augusto Bauer / Brusque,Brusque / SC,Avaí / SC,0 X 0
+219,01/09/2021,19:00,Lourival Baptista / Aracaju,Confiança / SE,Crb / AL,1 X 2
+220,04/09/2021,19:30,Evandro Almeida / Belem,Remo / PA,Botafogo / RJ,0 X 1
+221,11/09/2021,16:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Londrina / PR,4 X 0
+222,10/09/2021,21:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Náutico / PE,1 X 0
+223,07/09/2021,16:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Csa / AL,1 X 0
+224,11/09/2021,11:00,Joaquim Henrique Nogueira / Sete Lagoas,Cruzeiro / MG,Ponte Preta / SP,1 X 0
+225,07/09/2021,11:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Confiança / SE,1 X 1
+226,11/09/2021,21:00,Rei Pelé / Maceio,Crb / AL,Goiás / GO,0 X 1
+227,07/09/2021,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Brusque / SC,4 X 0
+228,06/09/2021,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Vasco da Gama / RJ,3 X 1
+229,10/09/2021,19:00,Manoel Barradas / Salvador,Vitória / BA,Remo / PA,1 X 2
+230,11/09/2021,16:30,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Operário / PR,0 X 0
+231,18/09/2021,16:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Náutico / PE,3 X 1
+232,18/09/2021,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Brasil / RS,2 X 1
+233,17/09/2021,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Guarani / SP,0 X 0
+234,16/09/2021,19:00,Joaquim Henrique Nogueira / Sete Lagoas,Cruzeiro / MG,Operário / PR,1 X 1
+235,18/09/2021,16:30,Jacy Scaff / Londrina,Londrina / PR,Csa / AL,0 X 2
+236,16/09/2021,19:00,Rei Pelé / Maceio,Crb / AL,Vasco da Gama / RJ,1 X 1
+237,17/09/2021,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Vila Nova / GO,1 X 0
+238,17/09/2021,16:00,Augusto Bauer / Brusque,Brusque / SC,Vitória / BA,0 X 0
+239,17/09/2021,20:30,Lourival Baptista / Aracaju,Confiança / SE,Sampaio Corrêa / MA,2 X 0
+240,16/09/2021,21:30,Evandro Almeida / Belem,Remo / PA,Avaí / SC,2 X 1
+241,19/09/2021,16:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Cruzeiro / MG,1 X 1
+242,21/09/2021,21:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Confiança / SE,0 X 0
+243,21/09/2021,16:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Remo / PA,2 X 0
+244,21/09/2021,21:30,Eládio de Barros Carvalho / Recife,Náutico / PE,Londrina / PR,1 X 2
+245,21/09/2021,19:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Crb / AL,0 X 1
+246,23/09/2021,19:00,Rei Pelé / Maceio,Csa / AL,Botafogo / RJ,2 X 0
+247,22/09/2021,21:30,Germano Kruger / Ponta Grossa,Operário / PR,Ponte Preta / SP,1 X 2
+248,21/09/2021,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Goiás / GO,1 X 0
+249,22/09/2021,19:00,Manoel Barradas / Salvador,Vitória / BA,Coritiba / PR,0 X 0
+250,21/09/2021,19:00,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Brusque / SC,2 X 2
+251,26/09/2021,18:15,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Sampaio Corrêa / MA,2 X 0
+252,24/09/2021,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Vila Nova / GO,1 X 2
+253,26/09/2021,18:15,Moisés Lucarelli / Campinas,Ponte Preta / SP,Brasil / RS,1 X 0
+254,26/09/2021,16:00,Raimundo Sampaio / Belo Horizonte,Cruzeiro / MG,Csa / AL,1 X 2
+255,25/09/2021,16:00,Jacy Scaff / Londrina,Londrina / PR,Vitória / BA,1 X 0
+256,25/09/2021,18:30,Rei Pelé / Maceio,Crb / AL,Avaí / SC,1 X 2
+257,25/09/2021,21:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Guarani / SP,1 X 0
+258,24/09/2021,21:30,Augusto Bauer / Brusque,Brusque / SC,Vasco da Gama / RJ,0 X 1
+259,25/09/2021,17:30,Lourival Baptista / Aracaju,Confiança / SE,Operário / PR,1 X 0
+260,24/09/2021,19:00,Evandro Almeida / Belem,Remo / PA,Náutico / PE,1 X 0
+261,27/09/2021,20:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Goiás / GO,2 X 0
+262,28/09/2021,21:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Operário / PR,2 X 1
+263,29/09/2021,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Cruzeiro / MG,1 X 1
+264,28/09/2021,19:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Náutico / PE,Crb / AL,1 X 3
+265,29/09/2021,19:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Brusque / SC,0 X 2
+266,29/09/2021,21:30,Rei Pelé / Maceio,Csa / AL,Ponte Preta / SP,2 X 1
+267,28/09/2021,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Confiança / SE,1 X 1
+268,28/09/2021,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Londrina / PR,2 X 0
+269,29/09/2021,21:30,Manoel Barradas / Salvador,Vitória / BA,Botafogo / RJ,0 X 0
+270,30/09/2021,21:30,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Remo / PA,1 X 1
+271,02/10/2021,19:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Avaí / SC,1 X 2
+272,02/10/2021,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Vitória / BA,3 X 0
+273,02/10/2021,21:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Vila Nova / GO,1 X 1
+274,03/10/2021,11:00,Raimundo Sampaio / Belo Horizonte,Cruzeiro / MG,Brasil / RS,2 X 0
+275,03/10/2021,20:30,Jacy Scaff / Londrina,Londrina / PR,Sampaio Corrêa / MA,3 X 1
+276,02/10/2021,18:30,Rei Pelé / Maceio,Crb / AL,Csa / AL,0 X 0
+277,01/10/2021,21:30,Germano Kruger / Ponta Grossa,Operário / PR,Náutico / PE,1 X 2
+278,02/10/2021,16:00,Augusto Bauer / Brusque,Brusque / SC,Guarani / SP,2 X 0
+279,03/10/2021,18:15,Lourival Baptista / Aracaju,Confiança / SE,Vasco da Gama / RJ,1 X 2
+280,04/10/2021,20:00,Evandro Almeida / Belem,Remo / PA,Coritiba / PR,0 X 0
+281,08/10/2021,19:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,CRB / AL,2 X 0
+282,08/10/2021,19:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Remo / PA,1 X 0
+283,09/10/2021,16:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Londrina / PR,3 X 0
+284,05/10/2021,21:30,Eládio de Barros Carvalho / Recife,Náutico / PE,Goiás / GO,3 X 2
+285,06/10/2021,16:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Operário / PR,1 X 0
+286,09/10/2021,21:00,Rei Pelé / Maceio,Csa / AL,Brusque / SC,4 X 1
+287,08/10/2021,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Cruzeiro / MG,0 X 3
+288,05/10/2021,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Ponte Preta / SP,1 X 1
+289,09/10/2021,19:00,Manoel Barradas / Salvador,Vitória / BA,Confiança / SE,0 X 1
+290,09/10/2021,21:00,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Vasco da Gama / RJ,1 X 0
+291,16/10/2021,16:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Coritiba / PR,2 X 1
+292,15/10/2021,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Csa / AL,3 X 1
+293,16/10/2021,16:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Náutico / PE,2 X 3
+294,12/10/2021,21:30,Raimundo Sampaio / Belo Horizonte,Cruzeiro / MG,Botafogo / RJ,0 X 0
+295,15/10/2021,21:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Vila Nova / GO,2 X 2
+296,15/10/2021,19:00,Rei Pelé / Maceio,Crb / AL,Guarani / SP,2 X 2
+297,16/10/2021,18:30,Germano Kruger / Ponta Grossa,Operário / PR,Londrina / PR,0 X 0
+298,15/10/2021,16:00,Augusto Bauer / Brusque,Brusque / SC,Remo / PA,3 X 1
+299,16/10/2021,21:00,Lourival Baptista / Aracaju,Confiança / SE,Avaí / SC,3 X 1
+300,12/10/2021,19:00,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Vitória / BA,0 X 1
+301,20/10/2021,20:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Brusque / SC,3 X 0
+302,18/10/2021,20:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Crb / AL,0 X 0
+303,22/10/2021,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Confiança / SE,1 X 2
+304,24/10/2021,16:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Vasco da Gama / RJ,2 X 2
+305,19/10/2021,19:00,Jacy Scaff / Londrina,Londrina / PR,Goiás / GO,0 X 0
+306,23/10/2021,19:00,Rei Pelé / Maceio,Csa / AL,Operário / PR,2 X 4
+307,19/10/2021,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Sampaio Corrêa / MA,3 X 0
+308,22/10/2021,21:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Cruzeiro / MG,1 X 0
+309,23/10/2021,16:30,Manoel Barradas / Salvador,Vitória / BA,Brasil / RS,4 X 0
+310,24/10/2021,16:00,Evandro Almeida / Belem,Remo / PA,Ponte Preta / SP,0 X 1
+311,29/10/2021,21:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Csa / AL,1 X 3
+312,26/10/2021,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Botafogo / RJ,1 X 1
+313,30/10/2021,16:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Vitória / BA,0 X 0
+314,28/10/2021,21:30,Raimundo Sampaio / Belo Horizonte,Cruzeiro / MG,Remo / PA,1 X 3
+315,28/10/2021,21:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Náutico / PE,3 X 2
+316,26/10/2021,19:00,Rei Pelé / Maceio,Crb / AL,Coritiba / PR,1 X 1
+317,29/10/2021,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Avaí / SC,2 X 1
+318,24/10/2021,20:30,Augusto Bauer / Brusque,Brusque / SC,Vila Nova / GO,2 X 3
+319,30/10/2021,18:45,Lourival Baptista / Aracaju,Confiança / SE,Londrina / PR,0 X 2
+320,28/10/2021,19:00,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Guarani / SP,0 X 1
+321,03/11/2021,19:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Confiança / SE,1 X 0
+322,02/11/2021,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Ponte Preta / SP,2 X 2
+323,04/11/2021,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Vasco da Gama / RJ,1 X 0
+324,01/11/2021,19:00,Raimundo Sampaio / Belo Horizonte,Cruzeiro / MG,Vila Nova / GO,1 X 1
+325,02/11/2021,16:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Avaí / SC,0 X 1
+326,04/11/2021,21:30,Rei Pelé / Maceio,Crb / AL,Sampaio Corrêa / MA,1 X 0
+327,03/11/2021,18:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Operário / PR,3 X 1
+328,02/11/2021,19:00,Augusto Bauer / Brusque,Brusque / SC,Náutico / PE,4 X 3
+329,02/11/2021,16:00,Manoel Barradas / Salvador,Vitória / BA,Csa / AL,0 X 1
+330,02/11/2021,19:00,Evandro Almeida / Belem,Remo / PA,Londrina / PR,0 X 1
+331,07/11/2021,16:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Botafogo / RJ,0 X 4
+332,07/11/2021,18:15,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Guarani / SP,2 X 2
+333,07/11/2021,20:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Crb / AL,1 X 0
+334,06/11/2021,16:15,Eládio de Barros Carvalho / Recife,Náutico / PE,Coritiba / PR,2 X 1
+335,05/11/2021,21:30,Jacy Scaff / Londrina,Londrina / PR,Cruzeiro / MG,0 X 1
+336,05/11/2021,17:00,Rei Pelé / Maceio,Csa / AL,Remo / PA,2 X 0
+337,06/11/2021,18:30,Germano Kruger / Ponta Grossa,Operário / PR,Goiás / GO,1 X 1
+338,05/11/2021,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Vitória / BA,1 X 1
+339,06/11/2021,19:00,Lourival Baptista / Aracaju,Confiança / SE,Brusque / SC,3 X 2
+340,07/11/2021,18:15,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Brasil / RS,2 X 1
+341,10/11/2021,21:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Vitória / BA,0 X 3
+342,10/11/2021,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Coritiba / PR,2 X 1
+343,11/11/2021,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Botafogo / RJ,0 X 0
+344,09/11/2021,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Brusque / SC,2 X 0
+345,10/11/2021,19:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Guarani / SP,0 X 1
+346,10/11/2021,21:30,Rei Pelé / Maceio,Crb / AL,Londrina / PR,1 X 0
+347,09/11/2021,19:00,Germano Kruger / Ponta Grossa,Operário / PR,Remo / PA,2 X 1
+348,08/11/2021,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Csa / AL,1 X 1
+349,09/11/2021,19:00,Lourival Baptista / Aracaju,Confiança / SE,Náutico / PE,0 X 0
+350,11/11/2021,19:00,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Vila Nova / GO,3 X 0
+351,15/11/2021,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Operário / PR,2 X 1
+352,15/11/2021,18:00,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Vasco da Gama / RJ,2 X 2
+353,13/11/2021,16:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Avaí / SC,4 X 0
+354,15/11/2021,18:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Sampaio Corrêa / MA,2 X 1
+355,15/11/2021,16:00,Jacy Scaff / Londrina,Londrina / PR,Ponte Preta / SP,2 X 1
+356,12/11/2021,21:30,Rei Pelé / Maceio,Csa / AL,Confiança / SE,0 X 0
+357,14/11/2021,18:15,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Brasil / RS,2 X 1
+358,15/11/2021,16:00,Augusto Bauer / Brusque,Brusque / SC,Crb / AL,1 X 0
+359,14/11/2021,19:00,Manoel Barradas / Salvador,Vitória / BA,Cruzeiro / MG,3 X 0
+360,15/11/2021,20:00,Evandro Almeida / Belem,Remo / PA,Goiás / GO,0 X 1
+361,19/11/2021,19:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Remo / PA,2 X 2
+362,19/11/2021,21:30,Onésio Brasileiro Alvarenga / Goiania,Vila Nova / GO,Londrina / PR,2 X 1
+363,22/11/2021,20:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Goiás / GO,0 X 2
+364,21/11/2021,19:00,Eládio de Barros Carvalho / Recife,Náutico / PE,Avaí / SC,1 X 2
+365,21/11/2021,16:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Botafogo / RJ,0 X 1
+366,22/11/2021,18:00,Rei Pelé / Maceio,Crb / AL,Vitória / BA,3 X 1
+367,21/11/2021,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Csa / AL,0 X 1
+368,19/11/2021,19:00,Augusto Bauer / Brusque,Brusque / SC,Operário / PR,2 X 0
+369,20/11/2021,16:30,Lourival Baptista / Aracaju,Confiança / SE,Ponte Preta / SP,0 X 1
+370,18/11/2021,21:00,Governador João Castelo / Sao Luis,Sampaio Corrêa / MA,Cruzeiro / MG,1 X 1
+371,28/11/2021,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Guarani / SP,2 X 2
+372,28/11/2021,16:00,Hailé Pinheiro / Goiania,Goiás / GO,Brusque / SC,2 X 2
+373,26/11/2021,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Coritiba / PR,3 X 2
+374,25/11/2021,20:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Náutico / PE,0 X 0
+375,28/11/2021,16:00,Jacy Scaff / Londrina,Londrina / PR,Vasco da Gama / RJ,3 X 0
+376,28/11/2021,16:00,Rei Pelé / Maceio,Csa / AL,Brasil / RS,4 X 0
+377,28/11/2021,16:00,Germano Kruger / Ponta Grossa,Operário / PR,Crb / AL,2 X 1
+378,28/11/2021,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Sampaio Corrêa / MA,2 X 1
+379,28/11/2021,16:00,Manoel Barradas / Salvador,Vitória / BA,Vila Nova / GO,0 X 1
+380,28/11/2021,16:00,Evandro Almeida / Belem,Remo / PA,Confiança / SE,0 X 0

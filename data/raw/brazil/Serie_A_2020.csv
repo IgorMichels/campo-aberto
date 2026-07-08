@@ -1,0 +1,381 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,09/08/2020,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Atlético / MG,0 X 1
+002,30/09/2020,21:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Bahia / BA,1 X 2
+003,26/01/2021,20:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Vasco da Gama / RJ,1 X 1
+004,09/08/2020,16:00,Urbano Caldeira / Santos,Santos / SP,Red Bull Bragantino / SP,1 X 1
+005,30/09/2020,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Atlético / GO,0 X 0
+006,09/08/2020,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Fluminense / RJ,1 X 0
+007,08/08/2020,21:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Ceará / CE,3 X 2
+008,08/08/2020,19:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Internacional / RS,0 X 1
+009,08/08/2020,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Athletico Paranaense / PR,0 X 2
+010,03/12/2020,19:00,Hailé Pinheiro / Goiania,Goiás / GO,São Paulo / SP,0 X 3
+011,12/08/2020,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Palmeiras / SP,1 X 1
+012,13/08/2020,20:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Sport / PE,2 X 0
+013,13/08/2020,19:15,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Fortaleza / CE,1 X 0
+014,12/08/2020,19:15,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Botafogo / RJ,1 X 1
+015,12/08/2020,19:15,Magalhães Pinto / Belo Horizonte,Atlético / MG,Corinthians / SP,3 X 2
+016,13/08/2020,19:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Santos / SP,2 X 0
+017,12/08/2020,20:30,Roberto Santos / Salvador,Bahia / BA,Coritiba / PR,1 X 0
+018,12/08/2020,19:15,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Goiás / GO,2 X 1
+019,12/08/2020,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Grêmio / RS,1 X 1
+020,12/08/2020,20:30,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Flamengo / RJ,3 X 0
+021,16/08/2020,18:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Internacional / RS,2 X 1
+022,16/08/2020,16:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,São Paulo / SP,2 X 1
+023,15/08/2020,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Goiás / GO,1 X 1
+024,16/08/2020,19:45,Urbano Caldeira / Santos,Santos / SP,Athletico Paranaense / PR,3 X 1
+025,16/08/2020,11:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,Ceará / CE,2 X 0
+026,15/08/2020,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Corinthians / SP,0 X 0
+027,16/08/2020,16:00,Roberto Santos / Salvador,Bahia / BA,Red Bull Bragantino / SP,2 X 1
+028,15/08/2020,19:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Flamengo / RJ,0 X 1
+029,16/08/2020,19:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Botafogo / RJ,0 X 0
+030,16/08/2020,19:00,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Sport / PE,1 X 1
+031,19/08/2020,19:15,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Grêmio / RS,1 X 1
+032,19/08/2020,21:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Atlético / MG,2 X 1
+033,20/08/2020,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Bahia / BA,1 X 1
+034,19/08/2020,19:15,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Fluminense / RJ,2 X 1
+035,19/08/2020,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Coritiba / PR,3 X 1
+036,19/08/2020,20:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Atlético / GO,3 X 0
+037,20/08/2020,19:15,Adelmar da Costa Carvalho / Recife,Sport / PE,Santos / SP,0 X 1
+038,19/08/2020,19:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Palmeiras / SP,0 X 1
+039,20/08/2020,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Vasco da Gama / RJ,0 X 3
+040,19/08/2020,20:30,Hailé Pinheiro / Goiania,Goiás / GO,Fortaleza / CE,1 X 3
+041,23/08/2020,11:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Botafogo / RJ,1 X 1
+042,23/08/2020,16:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Grêmio / RS,0 X 0
+043,23/08/2020,16:00,Cícero Pompeu de Toledo / Sao Paulo,Palmeiras / SP,Santos / SP,2 X 1
+044,23/08/2020,16:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Coritiba / PR,1 X 2
+045,26/08/2020,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Fortaleza / CE,1 X 1
+046,22/08/2020,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Atlético / MG,1 X 0
+047,23/08/2020,19:00,Adelmar da Costa Carvalho / Recife,Sport / PE,São Paulo / SP,0 X 1
+048,22/08/2020,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Fluminense / RJ,0 X 1
+049,23/08/2020,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Bahia / BA,2 X 0
+050,22/08/2020,21:00,Hailé Pinheiro / Goiania,Goiás / GO,Atlético / GO,2 X 0
+051,29/08/2020,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Vasco da Gama / RJ,2 X 1
+052,29/08/2020,17:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Internacional / RS,0 X 2
+053,30/08/2020,11:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Corinthians / SP,2 X 1
+054,30/08/2020,16:00,Urbano Caldeira / Santos,Santos / SP,Flamengo / RJ,0 X 1
+055,18/11/2020,19:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,Athletico Paranaense / PR,0 X 2
+056,30/11/2020,18:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Goiás / GO,2 X 1
+057,29/08/2020,19:00,Roberto Santos / Salvador,Bahia / BA,Palmeiras / SP,1 X 1
+058,30/08/2020,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Sport / PE,1 X 0
+059,29/08/2020,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Red Bull Bragantino / SP,3 X 0
+060,30/08/2020,18:00,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Ceará / CE,0 X 2
+061,02/09/2020,19:15,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Atlético / GO,1 X 1
+062,02/09/2020,20:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Coritiba / PR,0 X 0
+063,02/09/2020,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Internacional / RS,1 X 1
+064,02/09/2020,21:30,Urbano Caldeira / Santos,Santos / SP,Vasco da Gama / RJ,2 X 2
+065,03/09/2020,20:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,São Paulo / SP,3 X 0
+066,03/09/2020,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Sport / PE,1 X 2
+067,02/09/2020,20:30,Roberto Santos / Salvador,Bahia / BA,Flamengo / RJ,3 X 5
+068,02/09/2020,20:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Red Bull Bragantino / SP,1 X 1
+069,02/09/2020,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Fortaleza / CE,1 X 0
+070,02/09/2020,19:15,Hailé Pinheiro / Goiania,Goiás / GO,Corinthians / SP,1 X 2
+071,05/09/2020,17:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Fortaleza / CE,2 X 1
+072,06/09/2020,18:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Athletico Paranaense / PR,1 X 0
+073,06/09/2020,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Fluminense / RJ,3 X 1
+074,06/09/2020,11:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Palmeiras / SP,1 X 2
+075,05/09/2020,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Botafogo / RJ,2 X 2
+076,06/09/2020,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Bahia / BA,2 X 2
+077,06/09/2020,20:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Goiás / GO,2 X 1
+078,06/09/2020,20:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Atlético / MG,0 X 1
+079,05/09/2020,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Santos / SP,0 X 1
+080,06/09/2020,19:00,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Grêmio / RS,1 X 1
+081,09/09/2020,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Flamengo / RJ,1 X 2
+082,10/09/2020,21:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Atlético / GO,1 X 2
+083,09/09/2020,19:15,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Red Bull Bragantino / SP,1 X 1
+084,09/09/2020,21:30,Urbano Caldeira / Santos,Santos / SP,Atlético / MG,3 X 1
+085,10/09/2020,19:15,Arena Corinthians / Sao Paulo,Corinthians / SP,Palmeiras / SP,0 X 2
+086,10/09/2020,19:15,José Pinheiro Borda / Porto Alegre,Internacional / RS,Ceará / CE,2 X 0
+087,10/09/2020,19:15,Roberto Santos / Salvador,Bahia / BA,Grêmio / RS,0 X 2
+088,09/09/2020,17:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Botafogo / RJ,1 X 1
+089,09/09/2020,18:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Sport / PE,1 X 0
+090,09/09/2020,18:00,Hailé Pinheiro / Goiania,Goiás / GO,Coritiba / PR,3 X 3
+091,13/09/2020,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Corinthians / SP,2 X 1
+092,13/09/2020,20:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Vasco da Gama / RJ,2 X 3
+093,13/09/2020,19:45,Allianz Parque / Sao Paulo,Palmeiras / SP,Sport / PE,2 X 2
+094,12/09/2020,19:00,Urbano Caldeira / Santos,Santos / SP,São Paulo / SP,2 X 2
+095,13/09/2020,18:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,Red Bull Bragantino / SP,2 X 1
+096,13/09/2020,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Fortaleza / CE,1 X 1
+097,13/09/2020,18:00,Roberto Santos / Salvador,Bahia / BA,Atlético / GO,0 X 1
+098,12/09/2020,16:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Coritiba / PR,1 X 0
+099,13/09/2020,18:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Flamengo / RJ,2 X 0
+100,13/09/2020,18:00,Hailé Pinheiro / Goiania,Goiás / GO,Internacional / RS,1 X 0
+101,13/10/2020,18:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Goiás / GO,2 X 1
+102,20/09/2020,18:15,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Santos / SP,0 X 0
+103,26/08/2020,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Athletico Paranaense / PR,1 X 0
+104,19/09/2020,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Ceará / CE,4 X 2
+105,16/09/2020,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Bahia / BA,3 X 2
+106,20/09/2020,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Palmeiras / SP,1 X 1
+107,20/09/2020,20:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Fluminense / RJ,1 X 0
+108,20/09/2020,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Vasco da Gama / RJ,1 X 0
+109,19/09/2020,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Internacional / RS,1 X 0
+110,19/09/2020,21:00,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Atlético / MG,3 X 4
+111,28/09/2020,20:00,Nilton Santos / Rio de Janeiro,Fluminense / RJ,Coritiba / PR,4 X 0
+112,27/09/2020,11:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Red Bull Bragantino / SP,1 X 1
+113,27/09/2020,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Flamengo / RJ,1 X 1
+114,27/09/2020,20:30,Urbano Caldeira / Santos,Santos / SP,Fortaleza / CE,1 X 1
+115,26/09/2020,21:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,Grêmio / RS,3 X 1
+116,26/09/2020,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,São Paulo / SP,1 X 1
+117,23/09/2020,21:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Corinthians / SP,1 X 0
+118,26/09/2020,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Bahia / BA,1 X 0
+119,27/09/2020,18:15,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Goiás / GO,2 X 2
+120,27/09/2020,18:15,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Botafogo / RJ,1 X 1
+121,04/10/2020,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Athletico Paranaense / PR,3 X 1
+122,04/10/2020,11:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Fluminense / RJ,1 X 1
+123,03/10/2020,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Ceará / CE,2 X 1
+124,03/10/2020,21:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Corinthians / SP,0 X 0
+125,04/10/2020,20:30,Magalhães Pinto / Belo Horizonte,Atlético / MG,Vasco da Gama / RJ,4 X 1
+126,03/10/2020,17:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Internacional / RS,1 X 1
+127,04/10/2020,18:15,Roberto Santos / Salvador,Bahia / BA,Sport / PE,1 X 2
+128,04/10/2020,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,São Paulo / SP,1 X 1
+129,04/10/2020,18:15,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Atlético / GO,0 X 0
+130,04/10/2020,18:15,Hailé Pinheiro / Goiania,Goiás / GO,Santos / SP,2 X 3
+131,07/10/2020,19:15,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Sport / PE,3 X 0
+132,07/10/2020,21:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Palmeiras / SP,2 X 1
+133,07/10/2020,20:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Atlético / GO,3 X 0
+134,08/10/2020,21:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Internacional / RS,0 X 2
+135,07/10/2020,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Santos / SP,1 X 1
+136,07/10/2020,19:15,Arena do Grêmio / Porto Alegre,Grêmio / RS,Coritiba / PR,2 X 1
+137,07/10/2020,19:15,Roberto Santos / Salvador,Bahia / BA,Vasco da Gama / RJ,3 X 0
+138,08/10/2020,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Ceará / CE,0 X 0
+139,07/10/2020,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Atlético / MG,2 X 1
+140,07/10/2020,20:30,Hailé Pinheiro / Goiania,Goiás / GO,Fluminense / RJ,2 X 4
+141,11/10/2020,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Bahia / BA,1 X 0
+142,10/10/2020,17:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Flamengo / RJ,1 X 2
+143,10/10/2020,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,São Paulo / SP,0 X 2
+144,11/10/2020,16:00,Urbano Caldeira / Santos,Santos / SP,Grêmio / RS,2 X 1
+145,10/10/2020,21:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,Goiás / GO,3 X 0
+146,11/10/2020,20:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Athletico Paranaense / PR,2 X 1
+147,11/10/2020,18:15,Adelmar da Costa Carvalho / Recife,Sport / PE,Botafogo / RJ,1 X 2
+148,10/10/2020,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Fortaleza / CE,0 X 0
+149,11/10/2020,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Corinthians / SP,2 X 1
+150,11/10/2020,18:15,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Red Bull Bragantino / SP,2 X 1
+151,15/10/2020,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Red Bull Bragantino / SP,1 X 1
+152,19/11/2020,19:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Fortaleza / CE,0 X 0
+153,14/10/2020,18:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Coritiba / PR,1 X 3
+154,14/10/2020,20:30,Urbano Caldeira / Santos,Santos / SP,Atlético / GO,0 X 1
+155,14/10/2020,21:30,Magalhães Pinto / Belo Horizonte,Atlético / MG,Fluminense / RJ,1 X 1
+156,14/10/2020,19:15,Arena do Grêmio / Porto Alegre,Grêmio / RS,Botafogo / RJ,3 X 1
+157,14/10/2020,21:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Internacional / RS,3 X 5
+158,14/10/2020,21:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Corinthians / SP,0 X 1
+159,25/11/2020,19:15,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,São Paulo / SP,1 X 1
+160,16/10/2020,20:00,Hailé Pinheiro / Goiania,Goiás / GO,Bahia / BA,1 X 1
+161,17/10/2020,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Ceará / CE,2 X 2
+162,19/10/2020,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Goiás / GO,0 X 0
+163,17/10/2020,21:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Grêmio / RS,0 X 0
+164,18/10/2020,20:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Sport / PE,2 X 0
+165,18/10/2020,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Flamengo / RJ,1 X 5
+166,18/10/2020,18:15,José Pinheiro Borda / Porto Alegre,Internacional / RS,Vasco da Gama / RJ,2 X 0
+167,19/10/2020,20:00,Roberto Santos / Salvador,Bahia / BA,Atlético / MG,3 X 1
+168,17/10/2020,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Santos / SP,1 X 2
+169,18/10/2020,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Palmeiras / SP,2 X 0
+170,17/10/2020,19:00,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Athletico Paranaense / PR,1 X 1
+171,25/10/2020,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Santos / SP,3 X 1
+172,21/10/2020,21:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Corinthians / SP,1 X 2
+173,09/12/2020,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Botafogo / RJ,4 X 0
+174,24/10/2020,17:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Goiás / GO,2 X 0
+175,24/10/2020,21:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,Sport / PE,0 X 0
+176,25/10/2020,18:15,José Pinheiro Borda / Porto Alegre,Internacional / RS,Flamengo / RJ,2 X 2
+177,11/11/2020,18:45,Octávio Mangabeira / Salvador,Bahia / BA,Fortaleza / CE,2 X 1
+178,25/10/2020,18:15,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Grêmio / RS,1 X 2
+179,24/10/2020,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Coritiba / PR,2 X 1
+180,25/10/2020,16:00,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Palmeiras / SP,0 X 3
+181,01/11/2020,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,São Paulo / SP,1 X 4
+182,31/10/2020,17:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Ceará / CE,2 X 2
+183,02/11/2020,17:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Atlético / MG,3 X 0
+184,01/11/2020,18:15,Urbano Caldeira / Santos,Santos / SP,Bahia / BA,3 X 1
+185,31/10/2020,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Internacional / RS,1 X 0
+186,02/11/2020,20:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Red Bull Bragantino / SP,2 X 1
+187,01/11/2020,16:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Athletico Paranaense / PR,1 X 0
+188,31/10/2020,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Atlético / GO,1 X 0
+189,31/10/2020,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Fluminense / RJ,0 X 1
+190,01/11/2020,20:30,Hailé Pinheiro / Goiania,Goiás / GO,Vasco da Gama / RJ,1 X 1
+191,08/11/2020,20:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Grêmio / RS,0 X 1
+192,08/11/2020,16:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Palmeiras / SP,0 X 1
+193,07/11/2020,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Goiás / GO,2 X 1
+194,08/11/2020,18:15,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Santos / SP,1 X 1
+195,08/11/2020,18:15,Magalhães Pinto / Belo Horizonte,Atlético / MG,Flamengo / RJ,4 X 0
+196,08/11/2020,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Coritiba / PR,2 X 2
+197,08/11/2020,18:15,Octávio Mangabeira / Salvador,Bahia / BA,Botafogo / RJ,1 X 0
+198,07/11/2020,18:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Fortaleza / CE,2 X 1
+199,08/11/2020,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Sport / PE,0 X 0
+200,07/11/2020,21:00,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Corinthians / SP,1 X 1
+201,14/11/2020,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Atlético / GO,1 X 1
+202,16/11/2020,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Red Bull Bragantino / SP,1 X 2
+203,14/11/2020,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Fluminense / RJ,2 X 0
+204,14/11/2020,16:30,Urbano Caldeira / Santos,Santos / SP,Internacional / RS,2 X 0
+205,14/11/2020,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Atlético / MG,1 X 2
+206,14/11/2020,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Ceará / CE,4 X 2
+207,14/11/2020,16:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Vasco da Gama / RJ,0 X 2
+208,16/11/2020,18:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Bahia / BA,1 X 2
+209,14/11/2020,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,São Paulo / SP,2 X 3
+210,14/11/2020,17:00,Hailé Pinheiro / Goiania,Goiás / GO,Athletico Paranaense / PR,0 X 1
+211,21/11/2020,19:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Coritiba / PR,3 X 1
+212,22/11/2020,18:15,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Fortaleza / CE,1 X 2
+213,22/11/2020,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Vasco da Gama / RJ,1 X 1
+214,20/11/2020,20:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Bahia / BA,4 X 0
+215,22/11/2020,20:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Grêmio / RS,0 X 0
+216,22/11/2020,18:15,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fluminense / RJ,1 X 2
+217,23/11/2020,20:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Atlético / GO,0 X 1
+218,21/11/2020,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Santos / SP,1 X 0
+219,22/11/2020,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Atlético / MG,2 X 2
+220,21/11/2020,21:00,Hailé Pinheiro / Goiania,Goiás / GO,Palmeiras / SP,1 X 0
+221,30/11/2020,20:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Red Bull Bragantino / SP,0 X 0
+222,30/11/2020,18:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Ceará / CE,1 X 4
+223,28/11/2020,17:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Athletico Paranaense / PR,3 X 0
+224,28/11/2020,17:00,Urbano Caldeira / Santos,Santos / SP,Sport / PE,4 X 2
+225,25/11/2020,21:30,Magalhães Pinto / Belo Horizonte,Atlético / MG,Botafogo / RJ,2 X 1
+226,28/01/2021,20:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Flamengo / RJ,2 X 4
+227,28/11/2020,19:00,Octávio Mangabeira / Salvador,Bahia / BA,São Paulo / SP,1 X 3
+228,25/11/2020,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Corinthians / SP,0 X 1
+229,26/11/2020,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Goiás / GO,1 X 1
+230,28/11/2020,21:00,Antônio Accioly / Goiania,Atlético / GO,Internacional / RS,0 X 0
+231,05/12/2020,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Athletico Paranaense / PR,3 X 1
+232,05/12/2020,17:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Flamengo / RJ,0 X 1
+233,06/12/2020,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Sport / PE,1 X 0
+234,05/12/2020,17:00,Urbano Caldeira / Santos,Santos / SP,Palmeiras / SP,2 X 2
+235,06/12/2020,18:15,Magalhães Pinto / Belo Horizonte,Atlético / MG,Internacional / RS,2 X 2
+236,06/12/2020,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Vasco da Gama / RJ,4 X 0
+237,05/12/2020,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Ceará / CE,0 X 2
+238,05/12/2020,21:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Red Bull Bragantino / SP,0 X 0
+239,02/12/2020,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Corinthians / SP,0 X 0
+240,07/12/2020,20:00,Antônio Accioly / Goiania,Atlético / GO,Goiás / GO,0 X 1
+241,13/12/2020,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Santos / SP,4 X 1
+242,13/12/2020,20:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Fluminense / RJ,1 X 1
+243,12/12/2020,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Bahia / BA,3 X 0
+244,12/12/2020,17:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Fortaleza / CE,2 X 1
+245,13/12/2020,18:15,Arena Corinthians / Sao Paulo,Corinthians / SP,São Paulo / SP,1 X 0
+246,12/12/2020,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Botafogo / RJ,2 X 1
+247,13/12/2020,18:15,Adelmar da Costa Carvalho / Recife,Sport / PE,Coritiba / PR,1 X 0
+248,12/12/2020,17:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Atlético / MG,0 X 1
+249,12/12/2020,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Atlético / GO,1 X 2
+250,12/12/2020,21:00,Hailé Pinheiro / Goiania,Goiás / GO,Grêmio / RS,0 X 0
+251,20/12/2020,18:15,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Bahia / BA,4 X 3
+252,20/12/2020,16:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Santos / SP,1 X 0
+253,16/12/2020,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Atlético / MG,3 X 0
+254,20/12/2020,16:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Athletico Paranaense / PR,0 X 1
+255,21/12/2020,20:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Goiás / GO,2 X 1
+256,19/12/2020,21:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Palmeiras / SP,2 X 0
+257,19/12/2020,19:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Grêmio / RS,1 X 1
+258,19/12/2020,21:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Botafogo / RJ,1 X 2
+259,20/12/2020,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Ceará / CE,0 X 2
+260,16/12/2020,21:30,Antônio Accioly / Goiania,Atlético / GO,Fluminense / RJ,2 X 1
+261,26/12/2020,21:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,São Paulo / SP,1 X 2
+262,27/12/2020,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Corinthians / SP,0 X 2
+263,27/12/2020,18:15,Allianz Parque / Sao Paulo,Palmeiras / SP,Red Bull Bragantino / SP,1 X 0
+264,27/12/2020,18:15,Urbano Caldeira / Santos,Santos / SP,Ceará / CE,1 X 1
+265,26/12/2020,17:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,Coritiba / PR,2 X 0
+266,27/12/2020,20:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Atlético / GO,2 X 1
+267,27/12/2020,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Internacional / RS,1 X 2
+268,27/12/2020,18:15,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Vasco da Gama / RJ,3 X 0
+269,26/12/2020,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Flamengo / RJ,0 X 0
+270,26/12/2020,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Sport / PE,1 X 0
+271,06/01/2021,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Fluminense / RJ,1 X 2
+272,06/01/2021,19:15,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Athletico Paranaense / PR,0 X 2
+273,18/01/2021,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Corinthians / SP,4 X 0
+274,06/01/2021,21:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,São Paulo / SP,4 X 2
+275,26/01/2021,20:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,Santos / SP,2 X 0
+276,06/01/2021,19:15,Arena do Grêmio / Porto Alegre,Grêmio / RS,Bahia / BA,2 X 1
+277,06/01/2021,20:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Fortaleza / CE,1 X 0
+278,06/01/2021,20:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Goiás / GO,1 X 2
+279,07/01/2021,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Internacional / RS,0 X 2
+280,07/01/2021,21:00,Antônio Accioly / Goiania,Atlético / GO,Vasco da Gama / RJ,0 X 0
+281,10/01/2021,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Ceará / CE,0 X 2
+282,10/01/2021,20:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Botafogo / RJ,3 X 0
+283,10/01/2021,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Santos / SP,0 X 1
+284,11/01/2021,20:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Atlético / MG,2 X 2
+285,13/01/2021,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Fluminense / RJ,5 X 0
+286,10/01/2021,18:15,José Pinheiro Borda / Porto Alegre,Internacional / RS,Goiás / GO,1 X 0
+287,09/01/2021,19:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Palmeiras / SP,0 X 1
+288,09/01/2021,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Athletico Paranaense / PR,0 X 0
+289,09/01/2021,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Grêmio / RS,0 X 0
+290,10/01/2021,18:15,Antônio Accioly / Goiania,Atlético / GO,Bahia / BA,1 X 1
+291,16/01/2021,19:00,Nilton Santos / Rio de Janeiro,Fluminense / RJ,Sport / PE,1 X 0
+292,16/01/2021,21:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Coritiba / PR,0 X 1
+293,15/01/2021,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Grêmio / RS,1 X 1
+294,17/01/2021,16:00,Urbano Caldeira / Santos,Santos / SP,Botafogo / RJ,2 X 1
+295,17/01/2021,18:15,Magalhães Pinto / Belo Horizonte,Atlético / MG,Atlético / GO,3 X 1
+296,17/01/2021,20:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fortaleza / CE,4 X 2
+297,28/01/2021,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Corinthians / SP,2 X 1
+298,17/01/2021,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,São Paulo / SP,1 X 1
+299,17/01/2021,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Red Bull Bragantino / SP,1 X 2
+300,18/01/2021,20:00,Hailé Pinheiro / Goiania,Goiás / GO,Flamengo / RJ,0 X 3
+301,21/01/2021,19:00,Estádio Nacional Mané Garrincha / Brasilia,Flamengo / RJ,Palmeiras / SP,2 X 0
+302,20/01/2021,17:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Atlético / GO,1 X 3
+303,20/01/2021,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Internacional / RS,1 X 5
+304,20/01/2021,21:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Vasco da Gama / RJ,4 X 1
+305,21/01/2021,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Sport / PE,3 X 0
+306,20/01/2021,19:15,Arena do Grêmio / Porto Alegre,Grêmio / RS,Atlético / MG,1 X 1
+307,20/01/2021,18:00,Octávio Mangabeira / Salvador,Bahia / BA,Athletico Paranaense / PR,1 X 0
+308,20/01/2021,20:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Fluminense / RJ,3 X 3
+309,21/01/2021,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Santos / SP,2 X 0
+310,21/01/2021,19:00,Hailé Pinheiro / Goiania,Goiás / GO,Ceará / CE,0 X 4
+311,24/01/2021,20:30,São Januário / Rio de Janeiro,Fluminense / RJ,Botafogo / RJ,2 X 0
+312,23/01/2021,21:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Atlético / MG,3 X 2
+313,23/01/2021,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Coritiba / PR,1 X 1
+314,24/01/2021,18:15,Urbano Caldeira / Santos,Santos / SP,Goiás / GO,3 X 4
+315,25/01/2021,20:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Red Bull Bragantino / SP,0 X 2
+316,24/01/2021,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Grêmio / RS,2 X 1
+317,24/01/2021,18:15,Adelmar da Costa Carvalho / Recife,Sport / PE,Bahia / BA,2 X 0
+318,24/01/2021,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Flamengo / RJ,2 X 1
+319,24/01/2021,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Palmeiras / SP,2 X 1
+320,24/01/2021,18:15,Antônio Accioly / Goiania,Atlético / GO,Fortaleza / CE,2 X 0
+321,31/01/2021,20:30,Nilton Santos / Rio de Janeiro,Fluminense / RJ,Goiás / GO,3 X 0
+322,31/01/2021,16:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Bahia / BA,0 X 0
+323,02/02/2021,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Botafogo / RJ,1 X 1
+324,17/02/2021,19:00,Urbano Caldeira / Santos,Santos / SP,Corinthians / SP,1 X 0
+325,31/01/2021,17:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,Fortaleza / CE,2 X 0
+326,31/01/2021,18:15,José Pinheiro Borda / Porto Alegre,Internacional / RS,Red Bull Bragantino / SP,2 X 1
+327,01/02/2021,20:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Flamengo / RJ,0 X 3
+328,31/01/2021,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Grêmio / RS,1 X 1
+329,31/01/2021,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Athletico Paranaense / PR,0 X 2
+330,31/01/2021,16:00,Antônio Accioly / Goiania,Atlético / GO,São Paulo / SP,2 X 1
+331,04/02/2021,21:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Vasco da Gama / RJ,2 X 0
+332,05/02/2021,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Sport / PE,0 X 1
+333,19/02/2021,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Palmeiras / SP,1 X 1
+334,03/02/2021,19:15,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Atlético / GO,2 X 0
+335,03/02/2021,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Ceará / CE,2 X 1
+336,03/02/2021,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Santos / SP,3 X 3
+337,03/02/2021,21:30,Octávio Mangabeira / Salvador,Bahia / BA,Fluminense / RJ,0 X 1
+338,04/02/2021,21:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Internacional / RS,0 X 0
+339,04/02/2021,18:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Coritiba / PR,3 X 1
+340,03/02/2021,21:30,Hailé Pinheiro / Goiania,Goiás / GO,Atlético / MG,1 X 0
+341,10/02/2021,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Atlético / MG,0 X 0
+342,08/02/2021,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Grêmio / RS,2 X 5
+343,10/02/2021,21:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Ceará / CE,1 X 1
+344,07/02/2021,20:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Flamengo / RJ,1 X 1
+345,10/02/2021,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Athletico Paranaense / PR,3 X 3
+346,10/02/2021,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Sport / PE,1 X 2
+347,06/02/2021,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Goiás / GO,3 X 3
+348,17/02/2021,19:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Palmeiras / SP,1 X 0
+349,10/02/2021,19:15,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Vasco da Gama / RJ,3 X 0
+350,06/02/2021,21:00,Antônio Accioly / Goiania,Atlético / GO,Santos / SP,1 X 1
+351,14/02/2021,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Corinthians / SP,2 X 1
+352,14/02/2021,16:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Internacional / RS,0 X 2
+353,14/02/2021,18:15,Allianz Parque / Sao Paulo,Palmeiras / SP,Fortaleza / CE,3 X 0
+354,13/02/2021,19:00,Urbano Caldeira / Santos,Santos / SP,Coritiba / PR,2 X 0
+355,13/02/2021,19:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,Bahia / BA,1 X 1
+356,14/02/2021,20:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,São Paulo / SP,1 X 2
+357,15/02/2021,20:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Red Bull Bragantino / SP,0 X 0
+358,14/02/2021,18:15,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Atlético / GO,2 X 1
+359,15/02/2021,18:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Fluminense / RJ,1 X 3
+360,13/02/2021,17:00,Hailé Pinheiro / Goiania,Goiás / GO,Botafogo / RJ,2 X 0
+361,21/02/2021,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Internacional / RS,2 X 1
+362,22/02/2021,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,São Paulo / SP,1 X 0
+363,22/02/2021,18:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Atlético / GO,1 X 1
+364,21/02/2021,18:15,Urbano Caldeira / Santos,Santos / SP,Fluminense / RJ,1 X 1
+365,21/02/2021,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Vasco da Gama / RJ,0 X 0
+366,21/02/2021,18:15,Arena do Grêmio / Porto Alegre,Grêmio / RS,Athletico Paranaense / PR,1 X 0
+367,21/02/2021,16:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Atlético / MG,2 X 3
+368,20/02/2021,18:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Ceará / CE,0 X 2
+369,20/02/2021,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Bahia / BA,0 X 4
+370,21/02/2021,20:30,Hailé Pinheiro / Goiania,Goiás / GO,Red Bull Bragantino / SP,0 X 0
+371,25/02/2021,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Fortaleza / CE,2 X 0
+372,25/02/2021,21:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Goiás / GO,3 X 2
+373,25/02/2021,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Flamengo / RJ,2 X 1
+374,25/02/2021,21:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Grêmio / RS,1 X 0
+375,25/02/2021,21:30,Magalhães Pinto / Belo Horizonte,Atlético / MG,Palmeiras / SP,2 X 0
+376,25/02/2021,21:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Corinthians / SP,0 X 0
+377,25/02/2021,21:30,Octávio Mangabeira / Salvador,Bahia / BA,Santos / SP,2 X 0
+378,25/02/2021,21:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Sport / PE,2 X 0
+379,25/02/2021,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Botafogo / RJ,2 X 1
+380,25/02/2021,21:30,Antônio Accioly / Goiania,Atlético / GO,Coritiba / PR,3 X 1

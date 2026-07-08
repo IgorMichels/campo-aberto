@@ -1,0 +1,381 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,30/05/2021,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Palmeiras / SP,1 X 0
+002,30/05/2021,18:15,Arena Corinthians / Sao Paulo,Corinthians / SP,Atlético / GO,0 X 1
+003,29/05/2021,21:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Fluminense / RJ,0 X 0
+004,30/05/2021,11:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Fortaleza / CE,1 X 2
+005,30/05/2021,20:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Sport / PE,2 X 2
+006,30/05/2021,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Grêmio / RS,3 X 2
+007,29/05/2021,20:00,Roberto Santos / Salvador,Bahia / BA,Santos / SP,3 X 0
+008,30/05/2021,18:15,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,America / MG,1 X 0
+009,30/05/2021,18:15,Índio Condá / Chapeco,Chapecoense / SC,Red Bull Bragantino / SP,0 X 3
+010,29/05/2021,19:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Juventude / RS,2 X 2
+011,06/06/2021,11:00,São Januário / Rio de Janeiro,Fluminense / RJ,Cuiabá / MT,1 X 0
+012,06/06/2021,18:15,Allianz Parque / Sao Paulo,Palmeiras / SP,Chapecoense / SC,3 X 1
+013,05/06/2021,21:00,Urbano Caldeira / Santos,Santos / SP,Ceará / CE,3 X 1
+014,06/06/2021,16:00,Raimundo Sampaio / Belo Horizonte,America / MG,Corinthians / SP,0 X 1
+015,23/11/2021,21:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Flamengo / RJ,2 X 2
+016,06/06/2021,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Internacional / RS,5 X 1
+017,06/06/2021,20:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Atlético Mineiro / MG,0 X 1
+018,05/06/2021,21:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Bahia / BA,3 X 3
+019,06/06/2021,18:15,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Athletico Paranaense / PR,0 X 3
+020,05/06/2021,19:00,Antônio Accioly / Goiania,Atlético / GO,São Paulo / SP,2 X 0
+021,13/06/2021,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,America / MG,2 X 0
+022,12/06/2021,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Corinthians / SP,1 X 1
+023,12/06/2021,19:00,Urbano Caldeira / Santos,Santos / SP,Juventude / RS,0 X 0
+024,13/06/2021,16:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,São Paulo / SP,1 X 0
+025,13/06/2021,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Athletico Paranaense / PR,0 X 1
+026,13/06/2021,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Sport / PE,1 X 0
+027,13/06/2021,20:30,Roberto Santos / Salvador,Bahia / BA,Internacional / RS,0 X 1
+028,13/06/2021,20:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Fluminense / RJ,2 X 2
+029,13/06/2021,20:30,Índio Condá / Chapeco,Chapecoense / SC,Ceará / CE,0 X 0
+030,21/07/2021,19:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Atlético / GO,2 X 1
+031,17/06/2021,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Santos / SP,1 X 0
+032,16/06/2021,20:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Red Bull Bragantino / SP,1 X 2
+033,16/06/2021,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Chapecoense / SC,1 X 1
+034,17/06/2021,16:00,Raimundo Sampaio / Belo Horizonte,America / MG,Cuiabá / MT,0 X 0
+035,16/06/2021,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Atlético Mineiro / MG,0 X 1
+036,17/06/2021,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Bahia / BA,1 X 2
+037,17/06/2021,19:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Grêmio / RS,1 X 0
+038,02/11/2021,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Flamengo / RJ,2 X 2
+039,16/06/2021,21:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Palmeiras / SP,0 X 3
+040,17/06/2021,19:00,Antônio Accioly / Goiania,Atlético / GO,Fortaleza / CE,0 X 0
+041,19/06/2021,21:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Red Bull Bragantino / SP,2 X 3
+042,20/06/2021,11:00,Allianz Parque / Sao Paulo,Palmeiras / SP,America / MG,2 X 1
+043,20/06/2021,18:15,Urbano Caldeira / Santos,Santos / SP,São Paulo / SP,2 X 0
+044,21/06/2021,20:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Chapecoense / SC,1 X 1
+045,20/06/2021,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Ceará / CE,1 X 1
+046,20/06/2021,18:15,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Fluminense / RJ,1 X 1
+047,20/06/2021,16:00,Roberto Santos / Salvador,Bahia / BA,Corinthians / SP,0 X 0
+048,20/06/2021,18:15,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Atlético / GO,2 X 1
+049,20/06/2021,20:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Sport / PE,1 X 0
+050,18/08/2021,19:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Grêmio / RS,0 X 1
+051,23/06/2021,19:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Fortaleza / CE,2 X 1
+052,24/06/2021,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Sport / PE,2 X 1
+053,23/06/2021,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Cuiabá / MT,2 X 2
+054,24/06/2021,16:00,Raimundo Sampaio / Belo Horizonte,America / MG,Juventude / RS,1 X 1
+055,24/06/2021,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Santos / SP,2 X 2
+056,24/06/2021,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Atlético Mineiro / MG,2 X 1
+057,24/06/2021,21:30,Roberto Santos / Salvador,Bahia / BA,Athletico Paranaense / PR,2 X 1
+058,23/06/2021,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Palmeiras / SP,3 X 1
+059,24/06/2021,19:00,Índio Condá / Chapeco,Chapecoense / SC,Internacional / RS,1 X 2
+060,23/06/2021,19:00,Antônio Accioly / Goiania,Atlético / GO,Fluminense / RJ,1 X 0
+061,27/06/2021,16:00,São Januário / Rio de Janeiro,Fluminense / RJ,Corinthians / SP,1 X 1
+062,27/06/2021,20:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Bahia / BA,3 X 2
+063,27/06/2021,20:30,Urbano Caldeira / Santos,Santos / SP,Atlético Mineiro / MG,2 X 0
+064,27/06/2021,20:30,Raimundo Sampaio / Belo Horizonte,America / MG,Internacional / RS,1 X 1
+065,27/06/2021,20:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Fortaleza / CE,0 X 0
+066,27/06/2021,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,São Paulo / SP,1 X 1
+067,27/06/2021,20:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Cuiabá / MT,0 X 0
+068,27/06/2021,20:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Chapecoense / SC,2 X 2
+069,27/06/2021,11:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Flamengo / RJ,1 X 0
+070,28/06/2021,20:00,Antônio Accioly / Goiania,Atlético / GO,Red Bull Bragantino / SP,0 X 1
+071,30/06/2021,16:00,Sylvio Raulino de Oliveira / Volta Redonda,Fluminense / RJ,Athletico Paranaense / PR,1 X 4
+072,30/06/2021,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,São Paulo / SP,0 X 0
+073,30/06/2021,20:30,Urbano Caldeira / Santos,Santos / SP,Sport / PE,0 X 0
+074,01/07/2021,19:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Atlético / GO,4 X 1
+075,30/06/2021,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Palmeiras / SP,1 X 2
+076,30/06/2021,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Chapecoense / SC,3 X 2
+077,30/06/2021,19:00,Roberto Santos / Salvador,Bahia / BA,America / MG,3 X 4
+078,01/07/2021,16:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Ceará / CE,0 X 0
+079,30/06/2021,21:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Grêmio / RS,2 X 0
+080,01/07/2021,20:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Flamengo / RJ,0 X 2
+081,04/07/2021,16:00,Arena Corinthians / Sao Paulo,Flamengo / RJ,Fluminense / RJ,0 X 1
+082,03/07/2021,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Internacional / RS,1 X 1
+083,04/07/2021,18:15,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Red Bull Bragantino / SP,1 X 2
+084,03/07/2021,19:00,Raimundo Sampaio / Belo Horizonte,America / MG,Santos / SP,2 X 0
+085,04/07/2021,20:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Atlético / GO,0 X 1
+086,04/07/2021,18:15,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Juventude / RS,2 X 0
+087,04/07/2021,16:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Palmeiras / SP,0 X 1
+088,03/07/2021,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Fortaleza / CE,2 X 1
+089,04/07/2021,11:00,Índio Condá / Chapeco,Chapecoense / SC,Bahia / BA,0 X 2
+090,04/07/2021,18:15,Arena Pantanal / Cuiaba,Cuiabá / MT,Atlético Mineiro / MG,0 X 1
+091,07/07/2021,21:30,São Januário / Rio de Janeiro,Fluminense / RJ,Ceará / CE,0 X 0
+092,07/07/2021,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Grêmio / RS,2 X 0
+093,06/07/2021,19:30,Urbano Caldeira / Santos,Santos / SP,Athletico Paranaense / PR,2 X 1
+094,07/07/2021,19:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Flamengo / RJ,2 X 1
+095,07/07/2021,21:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,São Paulo / SP,0 X 2
+096,07/07/2021,18:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,America / MG,4 X 0
+097,07/07/2021,18:00,Roberto Santos / Salvador,Bahia / BA,Juventude / RS,1 X 0
+098,07/07/2021,18:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Cuiabá / MT,1 X 1
+099,08/07/2021,21:00,Índio Condá / Chapeco,Chapecoense / SC,Corinthians / SP,0 X 1
+100,07/07/2021,19:15,Antônio Accioly / Goiania,Atlético / GO,Sport / PE,1 X 1
+101,11/07/2021,18:15,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Chapecoense / SC,2 X 1
+102,10/07/2021,16:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Santos / SP,3 X 2
+103,10/07/2021,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Bahia / BA,1 X 0
+104,10/07/2021,19:00,Raimundo Sampaio / Belo Horizonte,America / MG,Atlético Mineiro / MG,0 X 1
+105,10/07/2021,16:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Internacional / RS,0 X 0
+106,11/07/2021,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Corinthians / SP,1 X 0
+107,10/07/2021,19:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Fluminense / RJ,1 X 2
+108,10/07/2021,17:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Red Bull Bragantino / SP,2 X 2
+109,11/07/2021,11:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Atlético / GO,1 X 1
+110,11/07/2021,18:15,Arena Pantanal / Cuiaba,Cuiabá / MT,Ceará / CE,2 X 2
+111,17/07/2021,21:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Grêmio / RS,0 X 1
+112,17/07/2021,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Atlético Mineiro / MG,1 X 2
+113,17/07/2021,17:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Fortaleza / CE,0 X 1
+114,19/07/2021,20:00,Raimundo Sampaio / Belo Horizonte,America / MG,Sport / PE,0 X 1
+115,18/07/2021,20:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Juventude / RS,1 X 0
+116,17/07/2021,17:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Athletico Paranaense / PR,1 X 0
+117,18/07/2021,18:15,Roberto Santos / Salvador,Bahia / BA,Flamengo / RJ,0 X 5
+118,18/07/2021,20:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Santos / SP,2 X 2
+119,18/07/2021,11:00,Índio Condá / Chapeco,Chapecoense / SC,Cuiabá / MT,2 X 3
+120,18/07/2021,16:00,Antônio Accioly / Goiania,Atlético / GO,Palmeiras / SP,0 X 3
+121,25/07/2021,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,São Paulo / SP,5 X 1
+122,24/07/2021,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Fluminense / RJ,1 X 0
+123,25/07/2021,18:15,Urbano Caldeira / Santos,Santos / SP,Atlético / GO,0 X 1
+124,25/07/2021,11:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Bahia / BA,3 X 0
+125,24/07/2021,17:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,America / MG,1 X 1
+126,25/07/2021,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Red Bull Bragantino / SP,1 X 0
+127,25/07/2021,20:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Ceará / CE,0 X 0
+128,25/07/2021,18:15,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Internacional / RS,2 X 1
+129,26/07/2021,18:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Chapecoense / SC,1 X 0
+130,26/07/2021,20:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Corinthians / SP,1 X 2
+131,02/09/2021,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Juventude / RS,1 X 1
+132,01/08/2021,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Flamengo / RJ,1 X 3
+133,31/07/2021,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Palmeiras / SP,0 X 0
+134,01/08/2021,16:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Athletico Paranaense / PR,2 X 0
+135,31/07/2021,20:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Cuiabá / MT,0 X 0
+136,01/08/2021,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Fortaleza / CE,3 X 1
+137,01/08/2021,18:15,Roberto Santos / Salvador,Bahia / BA,Sport / PE,0 X 1
+138,31/07/2021,21:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Grêmio / RS,1 X 0
+139,01/08/2021,18:15,Índio Condá / Chapeco,Chapecoense / SC,Santos / SP,0 X 1
+140,01/08/2021,20:30,Antônio Accioly / Goiania,Atlético / GO,America / MG,1 X 1
+141,08/08/2021,18:15,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Internacional / RS,0 X 4
+142,07/08/2021,21:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Fortaleza / CE,2 X 3
+143,08/08/2021,16:00,Urbano Caldeira / Santos,Santos / SP,Corinthians / SP,0 X 0
+144,08/08/2021,16:00,Raimundo Sampaio / Belo Horizonte,America / MG,Fluminense / RJ,1 X 0
+145,09/08/2021,20:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Chapecoense / SC,2 X 1
+146,08/08/2021,18:15,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Atlético / GO,0 X 0
+147,06/08/2021,19:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Red Bull Bragantino / SP,0 X 0
+148,07/08/2021,18:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,São Paulo / SP,1 X 2
+149,08/08/2021,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Atlético Mineiro / MG,1 X 2
+150,07/08/2021,21:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Bahia / BA,1 X 1
+151,15/08/2021,16:00,Sylvio Raulino de Oliveira / Volta Redonda,Flamengo / RJ,Sport / PE,2 X 0
+152,15/08/2021,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Ceará / CE,3 X 1
+153,14/08/2021,21:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Grêmio / RS,2 X 1
+154,14/08/2021,19:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Palmeiras / SP,2 X 0
+155,15/08/2021,20:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fluminense / RJ,4 X 2
+156,15/08/2021,18:15,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Santos / SP,1 X 1
+157,15/08/2021,18:15,Roberto Santos / Salvador,Bahia / BA,Atlético / GO,1 X 2
+158,14/08/2021,17:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Juventude / RS,1 X 2
+159,16/08/2021,20:00,Índio Condá / Chapeco,Chapecoense / SC,America / MG,1 X 1
+160,15/08/2021,18:15,Arena Pantanal / Cuiaba,Cuiabá / MT,Athletico Paranaense / PR,1 X 0
+161,23/08/2021,20:00,São Januário / Rio de Janeiro,Fluminense / RJ,Atlético Mineiro / MG,1 X 1
+162,22/08/2021,11:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Cuiabá / MT,0 X 2
+163,22/08/2021,18:15,Urbano Caldeira / Santos,Santos / SP,Internacional / RS,2 X 2
+164,23/08/2021,20:00,Raimundo Sampaio / Belo Horizonte,America / MG,Red Bull Bragantino / SP,0 X 2
+165,21/08/2021,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Bahia / BA,2 X 0
+166,22/08/2021,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Flamengo / RJ,1 X 1
+167,22/08/2021,20:30,Adelmar da Costa Carvalho / Recife,Sport / PE,São Paulo / SP,0 X 1
+168,22/08/2021,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Corinthians / SP,0 X 1
+169,21/08/2021,21:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Fortaleza / CE,1 X 1
+170,21/08/2021,17:00,Antônio Accioly / Goiania,Atlético / GO,Chapecoense / SC,1 X 1
+171,30/08/2021,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Bahia / BA,2 X 0
+172,28/08/2021,21:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Athletico Paranaense / PR,2 X 1
+173,28/08/2021,19:00,Urbano Caldeira / Santos,Santos / SP,Flamengo / RJ,0 X 4
+174,29/08/2021,11:00,Raimundo Sampaio / Belo Horizonte,America / MG,Ceará / CE,2 X 0
+175,28/08/2021,21:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Corinthians / SP,0 X 1
+176,30/08/2021,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Cuiabá / MT,0 X 0
+177,28/08/2021,17:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Chapecoense / SC,0 X 0
+178,29/08/2021,20:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Atlético Mineiro / MG,1 X 1
+179,29/08/2021,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,São Paulo / SP,1 X 1
+180,29/08/2021,18:15,Antônio Accioly / Goiania,Atlético / GO,Internacional / RS,0 X 0
+181,05/11/2021,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Atlético / GO,2 X 0
+182,07/09/2021,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Juventude / RS,1 X 1
+183,22/09/2021,20:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,America / MG,0 X 0
+184,03/11/2021,21:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Grêmio / RS,2 X 1
+185,21/10/2021,20:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Red Bull Bragantino / SP,1 X 1
+186,20/10/2021,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Palmeiras / SP,1 X 2
+187,04/09/2021,21:00,Roberto Santos / Salvador,Bahia / BA,Fortaleza / CE,4 X 2
+188,05/09/2021,18:15,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Sport / PE,0 X 0
+189,07/09/2021,21:30,Índio Condá / Chapeco,Chapecoense / SC,Fluminense / RJ,1 X 2
+190,04/09/2021,21:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Santos / SP,2 X 1
+191,12/09/2021,20:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,São Paulo / SP,2 X 1
+192,12/09/2021,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Flamengo / RJ,1 X 3
+193,11/09/2021,21:00,Urbano Caldeira / Santos,Santos / SP,Bahia / BA,0 X 0
+194,11/09/2021,16:00,Raimundo Sampaio / Belo Horizonte,America / MG,Athletico Paranaense / PR,2 X 0
+195,12/09/2021,11:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Ceará / CE,2 X 0
+196,12/09/2021,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Atlético Mineiro / MG,0 X 2
+197,13/09/2021,20:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Internacional / RS,0 X 1
+198,11/09/2021,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Chapecoense / SC,1 X 2
+199,11/09/2021,17:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Cuiabá / MT,1 X 2
+200,12/09/2021,18:15,Antônio Accioly / Goiania,Atlético / GO,Corinthians / SP,1 X 1
+201,19/09/2021,20:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Grêmio / RS,0 X 1
+202,19/09/2021,18:15,Arena Corinthians / Sao Paulo,Corinthians / SP,America / MG,1 X 1
+203,19/09/2021,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Atlético / GO,2 X 1
+204,18/09/2021,19:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Sport / PE,3 X 0
+205,19/09/2021,11:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fortaleza / CE,1 X 0
+206,18/09/2021,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Santos / SP,0 X 0
+207,18/09/2021,21:00,Octávio Mangabeira / Salvador,Bahia / BA,Red Bull Bragantino / SP,1 X 1
+208,18/09/2021,18:45,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Juventude / RS,2 X 1
+209,18/09/2021,17:00,Índio Condá / Chapeco,Chapecoense / SC,Palmeiras / SP,0 X 2
+210,20/09/2021,20:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Fluminense / RJ,2 X 2
+211,26/09/2021,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Red Bull Bragantino / SP,2 X 1
+212,25/09/2021,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Palmeiras / SP,2 X 1
+213,25/09/2021,21:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Atlético Mineiro / MG,0 X 0
+214,26/09/2021,11:00,Raimundo Sampaio / Belo Horizonte,America / MG,Flamengo / RJ,1 X 1
+215,26/09/2021,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Bahia / BA,2 X 0
+216,25/09/2021,17:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Chapecoense / SC,1 X 0
+217,26/09/2021,18:15,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Fortaleza / CE,0 X 1
+218,26/09/2021,18:15,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Grêmio / RS,4 X 2
+219,26/09/2021,16:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Santos / SP,3 X 0
+220,26/09/2021,20:30,Antônio Accioly / Goiania,Atlético / GO,Cuiabá / MT,0 X 0
+221,03/10/2021,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Athletico Paranaense / PR,3 X 0
+222,03/10/2021,18:15,Allianz Parque / Sao Paulo,Palmeiras / SP,Juventude / RS,1 X 1
+223,27/10/2021,19:00,Urbano Caldeira / Santos,Santos / SP,Fluminense / RJ,2 X 0
+224,02/10/2021,21:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Internacional / RS,1 X 0
+225,03/10/2021,20:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Sport / PE,1 X 2
+226,02/10/2021,17:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Atlético / GO,0 X 3
+227,27/10/2021,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Ceará / CE,1 X 1
+228,02/10/2021,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Corinthians / SP,2 X 2
+229,03/10/2021,16:00,Índio Condá / Chapeco,Chapecoense / SC,São Paulo / SP,1 X 1
+230,02/10/2021,17:00,Arena Pantanal / Cuiaba,Cuiabá / MT,America / MG,0 X 2
+231,06/10/2021,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Fortaleza / CE,0 X 2
+232,05/10/2021,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Bahia / BA,3 X 1
+233,07/10/2021,18:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Santos / SP,1 X 1
+234,06/10/2021,21:30,Raimundo Sampaio / Belo Horizonte,America / MG,Palmeiras / SP,2 X 1
+235,06/10/2021,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Cuiabá / MT,2 X 2
+236,06/10/2021,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Internacional / RS,0 X 0
+237,06/10/2021,19:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Juventude / RS,3 X 1
+238,06/10/2021,20:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Flamengo / RJ,1 X 1
+239,06/10/2021,19:00,Índio Condá / Chapeco,Chapecoense / SC,Atlético Mineiro / MG,2 X 2
+240,06/10/2021,19:00,Antônio Accioly / Goiania,Atlético / GO,Athletico Paranaense / PR,0 X 2
+241,09/10/2021,16:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Atlético / GO,0 X 0
+242,09/10/2021,21:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Red Bull Bragantino / SP,2 X 4
+243,10/10/2021,16:00,Urbano Caldeira / Santos,Santos / SP,Grêmio / RS,1 X 0
+244,09/10/2021,16:30,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Ceará / CE,3 X 1
+245,10/10/2021,11:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Chapecoense / SC,5 X 2
+246,09/10/2021,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Flamengo / RJ,0 X 3
+247,09/10/2021,16:30,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Corinthians / SP,1 X 0
+248,09/10/2021,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Bahia / BA,0 X 2
+249,09/10/2021,21:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,America / MG,1 X 1
+250,11/10/2021,20:00,Arena Pantanal / Cuiaba,Cuiabá / MT,São Paulo / SP,0 X 0
+251,13/10/2021,19:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Juventude / RS,3 X 1
+252,13/10/2021,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Fluminense / RJ,1 X 0
+253,14/10/2021,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Ceará / CE,1 X 1
+254,13/10/2021,19:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Santos / SP,3 X 1
+255,13/10/2021,21:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,America / MG,3 X 1
+256,13/10/2021,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Grêmio / RS,1 X 0
+257,12/10/2021,21:30,Octávio Mangabeira / Salvador,Bahia / BA,Palmeiras / SP,0 X 0
+258,12/10/2021,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Atlético / GO,1 X 0
+259,13/10/2021,19:00,Índio Condá / Chapeco,Chapecoense / SC,Athletico Paranaense / PR,1 X 1
+260,14/10/2021,19:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Sport / PE,1 X 0
+261,17/10/2021,20:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Cuiabá / MT,0 X 0
+262,17/10/2021,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Internacional / RS,1 X 0
+263,18/10/2021,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Corinthians / SP,1 X 0
+264,16/10/2021,21:00,Raimundo Sampaio / Belo Horizonte,America / MG,Bahia / BA,0 X 0
+265,17/10/2021,18:15,Arena do Grêmio / Porto Alegre,Grêmio / RS,Juventude / RS,3 X 2
+266,17/10/2021,18:15,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Red Bull Bragantino / SP,2 X 2
+267,17/10/2021,20:30,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Santos / SP,0 X 0
+268,17/10/2021,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Fluminense / RJ,0 X 1
+269,16/10/2021,19:00,Índio Condá / Chapeco,Chapecoense / SC,Fortaleza / CE,1 X 2
+270,17/10/2021,18:15,Antônio Accioly / Goiania,Atlético / GO,Atlético Mineiro / MG,2 X 1
+271,23/10/2021,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Flamengo / RJ,3 X 1
+272,25/10/2021,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Sport / PE,2 X 1
+273,23/10/2021,17:00,Urbano Caldeira / Santos,Santos / SP,America / MG,0 X 2
+274,24/10/2021,16:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Cuiabá / MT,2 X 1
+275,24/10/2021,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Corinthians / SP,2 X 2
+276,23/10/2021,19:15,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Athletico Paranaense / PR,3 X 0
+277,24/10/2021,20:30,Octávio Mangabeira / Salvador,Bahia / BA,Chapecoense / SC,3 X 0
+278,24/10/2021,18:15,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,São Paulo / SP,1 X 0
+279,23/10/2021,17:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Ceará / CE,0 X 0
+280,25/10/2021,20:00,Antônio Accioly / Goiania,Atlético / GO,Grêmio / RS,2 X 0
+281,30/10/2021,19:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Atlético Mineiro / MG,1 X 0
+282,01/11/2021,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Chapecoense / SC,1 X 0
+283,31/10/2021,18:15,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Internacional / RS,1 X 0
+284,30/10/2021,21:00,Raimundo Sampaio / Belo Horizonte,America / MG,Fortaleza / CE,2 X 1
+285,31/10/2021,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Palmeiras / SP,1 X 3
+286,31/10/2021,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Fluminense / RJ,1 X 0
+287,31/10/2021,20:30,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Atlético / GO,2 X 0
+288,30/10/2021,17:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Santos / SP,0 X 1
+289,30/10/2021,19:15,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Bahia / BA,0 X 0
+290,01/11/2021,20:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Red Bull Bragantino / SP,1 X 0
+291,06/11/2021,21:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Sport / PE,1 X 0
+292,06/11/2021,17:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Fortaleza / CE,1 X 0
+293,07/11/2021,16:00,Urbano Caldeira / Santos,Santos / SP,Palmeiras / SP,0 X 2
+294,07/11/2021,16:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,America / MG,1 X 0
+295,06/11/2021,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Grêmio / RS,1 X 0
+296,07/11/2021,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Cuiabá / MT,1 X 0
+297,07/11/2021,18:15,Octávio Mangabeira / Salvador,Bahia / BA,São Paulo / SP,1 X 0
+298,07/11/2021,16:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Athletico Paranaense / PR,0 X 2
+299,08/11/2021,20:00,Índio Condá / Chapeco,Chapecoense / SC,Flamengo / RJ,2 X 2
+300,23/11/2021,19:00,Antônio Accioly / Goiania,Atlético / GO,Juventude / RS,1 X 1
+301,11/11/2021,19:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Bahia / BA,3 X 0
+302,10/11/2021,20:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Atlético / GO,4 X 0
+303,10/11/2021,19:00,Urbano Caldeira / Santos,Santos / SP,Red Bull Bragantino / SP,2 X 0
+304,10/11/2021,19:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Corinthians / SP,3 X 0
+305,09/11/2021,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Fluminense / RJ,1 X 0
+306,10/11/2021,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,São Paulo / SP,1 X 1
+307,10/11/2021,21:30,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,America / MG,2 X 3
+308,10/11/2021,18:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Ceará / CE,2 X 1
+309,10/11/2021,21:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Internacional / RS,2 X 1
+310,04/11/2021,21:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Chapecoense / SC,0 X 0
+311,14/11/2021,18:15,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Palmeiras / SP,2 X 1
+312,13/11/2021,21:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Cuiabá / MT,3 X 2
+313,14/11/2021,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Flamengo / RJ,0 X 4
+314,13/11/2021,18:30,Raimundo Sampaio / Belo Horizonte,America / MG,Grêmio / RS,3 X 1
+315,13/11/2021,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Athletico Paranaense / PR,2 X 1
+316,14/11/2021,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Sport / PE,2 X 1
+317,02/12/2021,18:00,Octávio Mangabeira / Salvador,Bahia / BA,Atlético Mineiro / MG,2 X 3
+318,13/11/2021,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Fortaleza / CE,3 X 0
+319,14/11/2021,19:00,Índio Condá / Chapeco,Chapecoense / SC,Juventude / RS,0 X 2
+320,13/11/2021,17:00,Antônio Accioly / Goiania,Atlético / GO,Santos / SP,0 X 0
+321,17/11/2021,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Corinthians / SP,1 X 0
+322,17/11/2021,20:30,Allianz Parque / Sao Paulo,Palmeiras / SP,São Paulo / SP,0 X 2
+323,17/11/2021,19:00,Urbano Caldeira / Santos,Santos / SP,Chapecoense / SC,2 X 0
+324,17/11/2021,19:00,Raimundo Sampaio / Belo Horizonte,America / MG,Atlético / GO,0 X 0
+325,16/11/2021,18:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Red Bull Bragantino / SP,3 X 0
+326,17/11/2021,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Ceará / CE,0 X 4
+327,18/11/2021,21:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Bahia / BA,1 X 0
+328,16/11/2021,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Atlético Mineiro / MG,0 X 1
+329,17/11/2021,20:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Fluminense / RJ,1 X 0
+330,17/11/2021,19:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Internacional / RS,1 X 0
+331,21/11/2021,17:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,America / MG,2 X 0
+332,21/11/2021,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Santos / SP,2 X 0
+333,24/11/2021,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Athletico Paranaense / PR,0 X 0
+334,20/11/2021,19:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Juventude / RS,2 X 0
+335,20/11/2021,21:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Flamengo / RJ,1 X 2
+336,20/11/2021,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Palmeiras / SP,1 X 0
+337,21/11/2021,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Cuiabá / MT,0 X 0
+338,28/10/2021,19:00,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Sport / PE,3 X 0
+339,20/11/2021,19:00,Índio Condá / Chapeco,Chapecoense / SC,Grêmio / RS,1 X 3
+340,20/11/2021,21:00,Antônio Accioly / Goiania,Atlético / GO,Ceará / CE,1 X 1
+341,24/11/2021,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Internacional / RS,1 X 0
+342,23/11/2021,21:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Atlético Mineiro / MG,2 X 2
+343,25/11/2021,19:00,Urbano Caldeira / Santos,Santos / SP,Fortaleza / CE,2 X 0
+344,30/11/2021,21:00,Raimundo Sampaio / Belo Horizonte,America / MG,Chapecoense / SC,3 X 0
+345,02/12/2021,20:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,São Paulo / SP,3 X 0
+346,25/11/2021,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Corinthians / SP,2 X 1
+347,03/12/2021,20:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Flamengo / RJ,1 X 1
+348,03/12/2021,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Cuiabá / MT,1 X 0
+349,30/11/2021,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Red Bull Bragantino / SP,1 X 0
+350,29/11/2021,19:00,Antônio Accioly / Goiania,Atlético / GO,Bahia / BA,2 X 1
+351,30/11/2021,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Ceará / CE,2 X 1
+352,28/11/2021,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Athletico Paranaense / PR,1 X 0
+353,27/11/2021,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Sport / PE,2 X 0
+354,28/11/2021,16:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Fluminense / RJ,2 X 1
+355,28/11/2021,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Santos / SP,1 X 1
+356,03/12/2021,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Juventude / RS,1 X 0
+357,26/11/2021,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Grêmio / RS,3 X 1
+358,27/11/2021,19:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,America / MG,1 X 1
+359,03/12/2021,20:00,Índio Condá / Chapeco,Chapecoense / SC,Atlético / GO,0 X 1
+360,30/11/2021,22:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Palmeiras / SP,1 X 3
+361,06/12/2021,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Santos / SP,0 X 1
+362,05/12/2021,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Grêmio / RS,1 X 1
+363,06/12/2021,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Juventude / RS,3 X 1
+364,05/12/2021,16:00,Magalhães Pinto / Belo Horizonte,Atlético Mineiro / MG,Red Bull Bragantino / SP,4 X 3
+365,06/12/2021,20:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Atlético / GO,1 X 2
+366,05/12/2021,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,America / MG,0 X 0
+367,05/12/2021,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Fluminense / RJ,2 X 0
+368,06/12/2021,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Palmeiras / SP,0 X 0
+369,06/12/2021,21:00,Índio Condá / Chapeco,Chapecoense / SC,Sport / PE,0 X 1
+370,06/12/2021,20:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Fortaleza / CE,1 X 0
+371,09/12/2021,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Chapecoense / SC,3 X 0
+372,09/12/2021,21:30,Arena Barueri / Barueri,Palmeiras / SP,Ceará / CE,1 X 0
+373,09/12/2021,21:30,Urbano Caldeira / Santos,Santos / SP,Cuiabá / MT,1 X 1
+374,09/12/2021,21:30,Raimundo Sampaio / Belo Horizonte,America / MG,São Paulo / SP,2 X 0
+375,09/12/2021,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Atlético Mineiro / MG,4 X 3
+376,09/12/2021,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Bahia / BA,2 X 1
+377,09/12/2021,21:30,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Athletico Paranaense / PR,1 X 1
+378,09/12/2021,21:30,Nabi Abi Chedid / Braganca Paulista,Red Bull Bragantino / SP,Internacional / RS,1 X 0
+379,09/12/2021,21:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Corinthians / SP,1 X 0
+380,09/12/2021,21:30,Antônio Accioly / Goiania,Atlético / GO,Flamengo / RJ,2 X 0
