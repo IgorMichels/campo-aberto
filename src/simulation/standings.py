@@ -15,6 +15,7 @@ import numpy as np
 class _TeamRecord:
     points: int = 0
     wins: int = 0
+    played: int = 0
     goals_for: int = 0
     goals_against: int = 0
 
@@ -37,9 +38,11 @@ def _build_records(teams: list[str], results: list[tuple]) -> dict[str, _TeamRec
         home_rec = records.get(home)
         away_rec = records.get(away)
         if home_rec is not None:
+            home_rec.played += 1
             home_rec.goals_for += home_goals
             home_rec.goals_against += away_goals
         if away_rec is not None:
+            away_rec.played += 1
             away_rec.goals_for += away_goals
             away_rec.goals_against += home_goals
 
@@ -71,6 +74,25 @@ def _head_to_head(team_a: str, team_b: str, results: list[tuple]) -> tuple[int, 
             goal_diff += away_goals - home_goals
             points += 3 if away_goals > home_goals else (1 if away_goals == home_goals else 0)
     return points, goal_diff
+
+
+def team_records(teams: list[str], results: list[tuple]) -> dict[str, dict]:
+    """Plain per-team aggregates (points, wins, played, goals_for, goals_against,
+    goal_diff) from already-played results -- e.g. a real standings snapshot as of
+    some reference date. No tiebreak/ordering involved (see rank_table for that);
+    this is just the raw numbers a standings table displays alongside it."""
+    records = _build_records(teams, results)
+    return {
+        team: {
+            "points": rec.points,
+            "wins": rec.wins,
+            "played": rec.played,
+            "goals_for": rec.goals_for,
+            "goals_against": rec.goals_against,
+            "goal_diff": rec.goal_diff,
+        }
+        for team, rec in records.items()
+    }
 
 
 def rank_table(
