@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campo Aberto - Confrontos</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%E2%9A%BD</text></svg>" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/matches.css" />
+</head>
+<body>
+  <header class="page-header">
+    <h1>Campo Aberto</h1>
+    <p class="subtitle">Probabilidades de placar por confronto</p>
+  </header>
+
+  <nav class="page-nav" aria-label="Páginas">
+    <a href="index.html">Classificação</a>
+    <a href="evolution.html">Evolução</a>
+    <a href="matches.html" aria-current="page">Confrontos</a>
+  </nav>
+
+  <main>
+    <div class="controls">
+      <div class="tabs" id="competition-tabs" role="tablist" aria-label="Competição"></div>
+
+      <div class="season-picker">
+        <label for="season-select">Temporada</label>
+        <select id="season-select"></select>
+      </div>
+    </div>
+
+    <p class="mock-disclaimer">
+      Confrontos e probabilidades fictícios, gerados apenas para demonstrar esta página --
+      ainda não há um modelo de placares por partida em produção.
+    </p>
+
+    <div class="round-bar">
+      <span class="round-label" id="round-label"></span>
+      <div class="search-wrap">
+        <span class="search-icon">&#128269;</span>
+        <input class="team-filter" id="team-filter" type="text" placeholder="Buscar time..." autocomplete="off" />
+      </div>
+    </div>
+
+    <div class="stickers-carousel">
+      <button class="scroll-btn left" id="scroll-left" aria-label="Rolar para a esquerda">&#10094;</button>
+      <div class="stickers-grid" id="stickers-grid"></div>
+      <button class="scroll-btn right" id="scroll-right" aria-label="Rolar para a direita">&#10095;</button>
+    </div>
+
+    <p class="status-message" id="status-message" hidden></p>
+  </main>
+
+  <div class="sticker-modal" id="sticker-modal">
+    <div class="sticker-modal-overlay" id="sticker-modal-overlay"></div>
+    <div class="sticker-modal-content" id="sticker-modal-content"></div>
+  </div>
+
+  <footer class="page-footer">
+    <p>
+      Gerado a partir de simulações do
+      <a href="https://github.com/IgorMichels/campo-aberto" target="_blank" rel="noopener">campo-aberto</a>.
+    </p>
+  </footer>
+
+  <script src="assets/js/matches.js"></script>
+</body>
+</html>

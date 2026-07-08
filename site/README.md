@@ -67,3 +67,15 @@ python -m src.site.export_site_data
 - `standings` is real (not simulated) points/played/goals_for/goals_against/goal_diff
   as of that snapshot's date, computed from `data/processed/brazil/matches.csv`.
 - `crest`/`color` are `site`-root-relative image path / hex color, used as-is.
+
+## Confrontos (mocked)
+
+`matches.html` shows one match-score-probability "sticker" per game (a
+5x5 heatmap of scoreline probabilities plus a home/draw/away win bar),
+inspired by the WorldCup2026 project's `previsoes.html` sticker cards.
+Unlike the rest of the site, its data (`data/{serie_a,serie_b}/stickers_*.json`)
+is **not** produced by `src.site.export_site_data` -- there is no per-match
+scoreline model in this project yet, so those files hold fictitious,
+randomly generated round-robin matchups and probabilities, purely to
+demonstrate the page. Regenerate/replace them by hand until a real
+match-level model exists.
