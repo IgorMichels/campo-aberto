@@ -164,9 +164,6 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
-
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -217,16 +214,25 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Data collection cache (reproducible from source APIs)
-data/raw/
-
 # Model posterior samples (historical snapshots, not source data)
 data/samples/
 
 # Simulation outputs (reproducible from data/samples/ + configs/)
 data/results/
 
+# Treated dataset (reproducible from data/raw/ + team_name_mapping.csv)
+data/processed/brazil/matches.csv
+data/processed/brazil/unmapped_team_names_log.csv
+
+# Crest images (third-party, refetchable; only the subset a site export
+# actually uses gets copied into site/assets/crests/, which is tracked)
+data/assets/crests/
+
 # Compiled Stan model binaries (cmdstanpy build artifacts, platform-specific --
 # recompiled automatically from the .stan source on first use)
 src/models/poisson_home
 src/models/*.hpp
+
+# Ad-hoc scratch scripts' generated outputs (reproducible from data/results/)
+scratch/crests_tmp/
+scratch/*.png
