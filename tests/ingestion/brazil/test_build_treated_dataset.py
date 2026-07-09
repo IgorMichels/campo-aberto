@@ -48,8 +48,8 @@ def test_load_raw_games_reads_every_cached_season(tmp_path):
     cache_dir = str(tmp_path)
 
     with (
-        mock.patch.object(srm, "CACHE_DIR", cache_dir),
-        mock.patch.object(btd, "CACHE_DIR", cache_dir),
+        mock.patch.object(srm, "CBF_CACHE_DIR", cache_dir),
+        mock.patch.object(btd, "CBF_CACHE_DIR", cache_dir),
     ):
         srm._save_games("Serie_A", 2020, {"001": game})
         srm._save_games("Serie_B", 2021, {"001": game})
@@ -76,8 +76,8 @@ def test_main_writes_treated_matches_and_logs_unmapped_names(tmp_path):
     tnm.save_mapping({"Santos Fc / SP": "Santos / SP"}, path=mapping_path)
 
     with (
-        mock.patch.object(srm, "CACHE_DIR", cache_dir),
-        mock.patch.object(btd, "CACHE_DIR", cache_dir),
+        mock.patch.object(srm, "CBF_CACHE_DIR", cache_dir),
+        mock.patch.object(btd, "CBF_CACHE_DIR", cache_dir),
         mock.patch.object(btd, "OUTPUT_PATH", output_path),
         mock.patch.object(btd, "UNMAPPED_LOG_PATH", unmapped_path),
         mock.patch.object(
@@ -121,8 +121,8 @@ def test_main_never_writes_to_the_mapping_file(tmp_path):
     mapping_path = str(tmp_path / "mapping.csv")  # deliberately never created
 
     with (
-        mock.patch.object(srm, "CACHE_DIR", cache_dir),
-        mock.patch.object(btd, "CACHE_DIR", cache_dir),
+        mock.patch.object(srm, "CBF_CACHE_DIR", cache_dir),
+        mock.patch.object(btd, "CBF_CACHE_DIR", cache_dir),
         mock.patch.object(btd, "OUTPUT_PATH", output_path),
         mock.patch.object(btd, "UNMAPPED_LOG_PATH", unmapped_path),
         mock.patch.object(

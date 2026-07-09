@@ -3,7 +3,7 @@
 Only fetches and parses the raw dockets, exactly as they come from CBF -- no
 team-name treatment happens here (see team_name_mapping.py and
 build_treated_dataset.py for that). Runs are incremental: each season is
-cached as a CSV under CACHE_DIR, keyed by the source's own game_id. A
+cached as a CSV under CBF_CACHE_DIR, keyed by the source's own game_id. A
 finished season (GAMES_PER_SEASON games found) is never re-scraped; an
 in-progress one resumes from its own highest game_id instead of restarting,
 after first re-checking whichever lower game_ids are still missing.
@@ -13,7 +13,7 @@ import csv
 import os
 
 from src.ingestion.brazil.constants import (
-    CACHE_DIR,
+    CBF_CACHE_DIR,
     COMPETITIONS,
     END_YEAR,
     GAMES_PER_SEASON,
@@ -25,7 +25,7 @@ FIELDNAMES = ["game_id", "date", "time", "stadium", "home_team", "away_team", "r
 
 
 def _cache_path(competition_key: str, year: int) -> str:
-    return os.path.join(CACHE_DIR, f"{competition_key}_{year}.csv")
+    return os.path.join(CBF_CACHE_DIR, f"{competition_key}_{year}.csv")
 
 
 def load_season_csv(path: str) -> dict:
@@ -52,7 +52,7 @@ def _load_games(competition_key: str, year: int) -> dict:
 
 
 def _save_games(competition_key: str, year: int, games: dict) -> None:
-    os.makedirs(CACHE_DIR, exist_ok=True)
+    os.makedirs(CBF_CACHE_DIR, exist_ok=True)
     with open(_cache_path(competition_key, year), "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDNAMES)
         writer.writeheader()

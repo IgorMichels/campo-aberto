@@ -3,7 +3,7 @@
 This folder holds the output of the Brazil ingestion pipeline (`src/ingestion/brazil/`). It's built in two stages:
 
 ```
-CBF dockets  →  data/raw/brazil/{competition}_{year}.csv  →  data/processed/brazil/matches.csv
+CBF dockets  →  data/raw/brazil/cbf/{competition}_{year}.csv  →  data/processed/brazil/matches.csv
    (scrape)              raw, no name treatment                treated, mapped names
 ```
 
@@ -11,7 +11,7 @@ Each country gets its own subfolder under `data/raw/` and `data/processed/` (mir
 
 - **`matches.csv`** — one row per match: `competition, season, match_datetime, venue, home_team, away_team, home_goals, away_goals`.
 - **`team_name_mapping.csv`** — the raw → normalized club-name "de-para" table (2 columns: `raw_name, normalized_name`). Manually curated over time; the pipeline never overwrites it once it exists.
-- **`unmapped_team_names_log.csv`** — raw club names found in `data/raw/brazil/` with no entry in the mapping yet, with rapidfuzz suggestions. Regenerated fresh on every run (not appended).
+- **`unmapped_team_names_log.csv`** — raw club names found in `data/raw/brazil/cbf/` with no entry in the mapping yet, with rapidfuzz suggestions. Regenerated fresh on every run (not appended).
 
 ## Running an update
 
@@ -24,7 +24,7 @@ python -m src.ingestion.brazil.run_pipeline
 This just runs the two stages below in order. You can also run either one on its own:
 
 ```bash
-python -m src.ingestion.brazil.scrape_raw_matches    # updates data/raw/brazil/*.csv
+python -m src.ingestion.brazil.scrape_raw_matches    # updates data/raw/brazil/cbf/*.csv
 python -m src.ingestion.brazil.build_treated_dataset # rebuilds data/processed/brazil/matches.csv + the unmapped-name log
 ```
 
