@@ -45,6 +45,61 @@ def test_team_index_is_alphabetically_sorted_and_one_indexed():
     assert stan_data["y_j"] == [0, 2]
 
 
+def test_build_stan_data_drops_rows_with_no_result_yet():
+    """matches.csv can now carry scheduled/postponed rows with no result yet
+    (see src/ingestion/brazil/build_treated_dataset.py) -- only played
+    matches ("para simular devemos considerar apenas os resultados dos jogos
+    já disputados") ever inform the fit."""
+    df = pd.DataFrame(
+        [
+            _match("Generic League", 2026, "2026-01-01", "Alpha FC", "Beta FC", 1, 0),
+            _match("Generic League", 2026, "2026-07-01", "Beta FC", "Alpha FC", None, None),
+        ]
+    )
+
+    stan_data, teams = build_stan_data(df, reference_date=pd.Timestamp("2026-01-01"))
+
+    assert stan_data["N"] == 1
+    assert teams == ["Alpha FC", "Beta FC"]  # both still known via the played match
+    assert stan_data["y_i"] == [1]
+    assert stan_data["y_j"] == [0]
+
+
+def test_build_stan_data_casts_goals_back_to_int_after_filtering():
+    """Filtering out the None-goals rows upcasts home_goals/away_goals to
+    float64 (pandas' NaN handling) -- must be cast back to int."""
+    df = pd.DataFrame(
+        [
+            _match("Generic League", 2026, "2026-01-01", "Alpha FC", "Beta FC", 2, 1),
+            _match("Generic League", 2026, "2026-07-01", "Beta FC", "Alpha FC", None, None),
+        ]
+    )
+
+    stan_data, _ = build_stan_data(df, reference_date=pd.Timestamp("2026-01-01"))
+
+    assert stan_data["y_i"] == [2]
+    assert isinstance(stan_data["y_i"][0], int)
+    assert isinstance(stan_data["y_j"][0], int)
+
+
+def test_reference_date_defaults_to_the_played_rows_latest_match():
+    """A future scheduled fixture's date must never be picked as the default
+    reference_date -- only a played match can define "as of now"."""
+    df = pd.DataFrame(
+        [
+            _match("Generic League", 2026, "2026-01-01", "Zeta FC", "Alpha FC", 1, 0),
+            _match("Generic League", 2026, "2026-01-08", "Beta FC", "Zeta FC", 2, 2),
+            _match("Generic League", 2026, "2026-12-01", "Alpha FC", "Beta FC", None, None),
+        ]
+    )
+
+    stan_data, _ = build_stan_data(df)  # no reference_date passed
+
+    # Same as the all-played case: latest played match (2026-01-08) is 0
+    # weeks ago, not the unplayed 2026-12-01 fixture.
+    assert stan_data["game_weight"] == pytest.approx([0.5 ** (1 / 25), 1.0])
+
+
 def test_reference_date_defaults_to_the_dataframes_latest_match():
     df = pd.DataFrame(
         [

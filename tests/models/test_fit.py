@@ -59,9 +59,27 @@ def test_samples_long_is_one_row_per_team_per_draw():
 
 def test_latest_match_date_returns_the_latest_match_date(tmp_path):
     csv_path = tmp_path / "matches.csv"
-    pd.DataFrame({"match_datetime": ["2026-01-01", "2026-03-15", "2026-02-01"]}).to_csv(
-        csv_path, index=False
-    )
+    pd.DataFrame(
+        {
+            "match_datetime": ["2026-01-01", "2026-03-15", "2026-02-01"],
+            "home_goals": [1, 2, 0],
+        }
+    ).to_csv(csv_path, index=False)
+
+    assert latest_match_date(str(csv_path)) == "2026_03_15"
+
+
+def test_latest_match_date_ignores_unplayed_rows(tmp_path):
+    """matches.csv can now carry scheduled/postponed rows with no result yet
+    (see src/ingestion/brazil/build_treated_dataset.py) -- a future fixture's
+    date must never be picked over the latest row that's actually played."""
+    csv_path = tmp_path / "matches.csv"
+    pd.DataFrame(
+        {
+            "match_datetime": ["2026-01-01", "2026-03-15", "2026-12-01"],
+            "home_goals": [1, 2, None],  # the 2026-12-01 row is a future fixture
+        }
+    ).to_csv(csv_path, index=False)
 
     assert latest_match_date(str(csv_path)) == "2026_03_15"
 
@@ -73,7 +91,9 @@ def test_save_samples_infers_country_from_the_matches_path_parent_directory(tmp_
     country_dir = tmp_path / "processed" / "atlantis"
     country_dir.mkdir(parents=True)
     matches_path = country_dir / "matches.csv"
-    pd.DataFrame({"match_datetime": ["2026-05-01"]}).to_csv(matches_path, index=False)
+    pd.DataFrame({"match_datetime": ["2026-05-01"], "home_goals": [1]}).to_csv(
+        matches_path, index=False
+    )
 
     teams = ["Alpha FC", "Beta FC"]
     mcmc = _fake_mcmc({1: ([0.1], [0.0]), 2: ([0.2], [0.0])})

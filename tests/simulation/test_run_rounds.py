@@ -11,6 +11,10 @@ from src.simulation.run_rounds import load_configs_by_season, round_reference_da
 
 
 def _matches_df(rows: list[dict]) -> pd.DataFrame:
+    # home_goals defaults to a played value (1) unless a row overrides it --
+    # keeps every pre-existing test below implicitly "all played" while still
+    # letting the new unplayed-row test set it to None explicitly.
+    rows = [{"home_goals": 1, **row} for row in rows]
     df = pd.DataFrame(rows)
     df["match_datetime"] = pd.to_datetime(df["match_datetime"])
     return df
@@ -62,6 +66,25 @@ def test_round_reference_dates_returns_empty_list_when_no_matches():
     df = _matches_df([{"competition": "Serie A", "season": 2025, "match_datetime": "2025-03-01"}])
 
     assert round_reference_dates(df, "Serie B", 2025) == []
+
+
+def test_round_reference_dates_ignores_unplayed_rows():
+    """matches.csv can now carry scheduled/postponed rows with no result yet
+    (see src/ingestion/brazil/build_treated_dataset.py) -- a future fixture
+    window must never spuriously produce a backtest round of its own."""
+    df = _matches_df(
+        [
+            {"competition": "Serie A", "season": 2025, "match_datetime": "2025-03-01"},
+            {
+                "competition": "Serie A",
+                "season": 2025,
+                "match_datetime": "2025-07-20",
+                "home_goals": None,  # scheduled, not played yet
+            },
+        ]
+    )
+
+    assert round_reference_dates(df, "Serie A", 2025) == [pd.Timestamp("2025-03-02")]
 
 
 def test_load_configs_by_season_groups_the_real_configs_by_filename_season_suffix():
