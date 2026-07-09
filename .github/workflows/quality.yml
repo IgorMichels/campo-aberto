@@ -1,0 +1,44 @@
+name: Quality checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v8
+        with:
+          enable-cache: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Python dependencies
+        run: uv sync --group dev
+
+      - name: Cache pre-commit environments
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pre-commit
+          key: pre-commit-${{ hashFiles('.pre-commit-config.yaml') }}
+
+      - name: Lint and format checks (pre-commit)
+        # Tests run as their own step below (full suite, not the local hook's
+        # per-commit scoped subset), so skip that hook here.
+        env:
+          SKIP: pytest-related
+        run: uv run pre-commit run --all-files --show-diff-on-failure
+
+      - name: Run tests
+        run: uv run pytest
