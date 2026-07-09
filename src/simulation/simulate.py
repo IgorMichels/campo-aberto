@@ -105,14 +105,18 @@ def simulate_scores(
     return home_goals, away_goals
 
 
-def _match_rates(attack, defense, eta, beta_home, home_idx, away_idx) -> tuple[np.ndarray, np.ndarray]:
+def _match_rates(
+    attack, defense, eta, beta_home, home_idx, away_idx
+) -> tuple[np.ndarray, np.ndarray]:
     """attack, defense: (n_draws, T). eta, beta_home: (n_draws,). home_idx, away_idx: (n_matches,)."""
     mu_home = np.exp(attack[:, home_idx] - defense[:, away_idx] + eta[:, None] + beta_home[:, None])
     mu_away = np.exp(attack[:, away_idx] - defense[:, home_idx] + eta[:, None])
     return mu_home, mu_away
 
 
-def _match_rates_per_draw(attack, defense, eta, beta_home, home_idx, away_idx) -> tuple[np.ndarray, np.ndarray]:
+def _match_rates_per_draw(
+    attack, defense, eta, beta_home, home_idx, away_idx
+) -> tuple[np.ndarray, np.ndarray]:
     """Same as _match_rates, but home_idx/away_idx name a *different* single match per draw
     (shape (n_draws,)) instead of a shared batch of fixtures -- used for playoffs, where
     who plays whom depends on that draw's own outcome so far.
@@ -249,16 +253,22 @@ def _run_round_robin_phase(
     return RoundRobinResult(group_orders=group_orders, group_all_results=group_all_results)
 
 
-def _resolve_manual_side(side, phase_results: dict[str, PhaseResult], team_index, n_draws) -> np.ndarray:
+def _resolve_manual_side(
+    side, phase_results: dict[str, PhaseResult], team_index, n_draws
+) -> np.ndarray:
     if isinstance(side, SlotRef):
         source = phase_results[side.from_phase]
         if not isinstance(source, PlayoffResult):
-            raise ValueError(f"manual pair references {side.from_phase!r}, which is not a playoff phase")
+            raise ValueError(
+                f"manual pair references {side.from_phase!r}, which is not a playoff phase"
+            )
         return np.array([team_index[name] for name in source.winners[side.pair]])
     return np.full(n_draws, team_index[side])
 
 
-def _simulate_playoff_pair(idx_a, idx_b, attack, defense, eta, beta_home, rho, teams, phase_cfg: PlayoffPhaseConfig, rng):
+def _simulate_playoff_pair(
+    idx_a, idx_b, attack, defense, eta, beta_home, rho, teams, phase_cfg: PlayoffPhaseConfig, rng
+):
     """idx_a, idx_b: (n_draws,) team indices for the two seeds of one pair -- 'a' is
     the better-seeded team (e.g. higher table position, or the pair listed first in
     a bracket_adjacent/manual matchup), 'b' the other one. Returns winner team names,
@@ -329,18 +339,26 @@ def _run_playoff_phase(
     if phase_cfg.pairing == "table_position":
         source = phase_results[phase_cfg.source_phase]
         if not isinstance(source, RoundRobinResult):
-            raise ValueError(f"phase {phase_cfg.id!r}: pairing 'table_position' requires a round_robin source_phase")
+            raise ValueError(
+                f"phase {phase_cfg.id!r}: pairing 'table_position' requires a round_robin source_phase"
+            )
         pair_sides = [
             (
-                np.array([team_index[source.group_orders[d]["_all"][pos_a - 1]] for d in range(n_draws)]),
-                np.array([team_index[source.group_orders[d]["_all"][pos_b - 1]] for d in range(n_draws)]),
+                np.array(
+                    [team_index[source.group_orders[d]["_all"][pos_a - 1]] for d in range(n_draws)]
+                ),
+                np.array(
+                    [team_index[source.group_orders[d]["_all"][pos_b - 1]] for d in range(n_draws)]
+                ),
             )
             for pos_a, pos_b in phase_cfg.pairs
         ]
     elif phase_cfg.pairing == "bracket_adjacent":
         source = phase_results[phase_cfg.source_phase]
         if not isinstance(source, PlayoffResult):
-            raise ValueError(f"phase {phase_cfg.id!r}: pairing 'bracket_adjacent' requires a playoff source_phase")
+            raise ValueError(
+                f"phase {phase_cfg.id!r}: pairing 'bracket_adjacent' requires a playoff source_phase"
+            )
         n_source_pairs = len(source.winners)
         pair_sides = [
             (
@@ -360,7 +378,9 @@ def _run_playoff_phase(
         ]
 
     winners = {
-        pair_index: _simulate_playoff_pair(idx_a, idx_b, attack, defense, eta, beta_home, rho, teams, phase_cfg, rng)
+        pair_index: _simulate_playoff_pair(
+            idx_a, idx_b, attack, defense, eta, beta_home, rho, teams, phase_cfg, rng
+        )
         for pair_index, (idx_a, idx_b) in enumerate(pair_sides)
     }
     return PlayoffResult(winners=winners)
@@ -478,7 +498,9 @@ def _tabulate(
         if isinstance(phase_cfg, RoundRobinPhaseConfig):
             assert isinstance(result, RoundRobinResult)
             cascade_names = set(phase_cfg.cascade)
-            cascade_spots = [next(s for s in phase_cfg.spots if s.name == name) for name in phase_cfg.cascade]
+            cascade_spots = [
+                next(s for s in phase_cfg.spots if s.name == name) for name in phase_cfg.cascade
+            ]
             phase_position_sum: dict[str, int] = defaultdict(int)
             for d in range(n_draws):
                 for order in result.group_orders[d].values():
@@ -488,7 +510,10 @@ def _tabulate(
                         for spot in phase_cfg.spots:
                             if spot.name in cascade_names:
                                 continue
-                            if spot.positions and spot.positions[0] <= position <= spot.positions[1]:
+                            if (
+                                spot.positions
+                                and spot.positions[0] <= position <= spot.positions[1]
+                            ):
                                 spot_counts[team][spot.name] += 1
                     if cascade_spots:
                         credited = _resolve_cascade(order, cascade_spots, guaranteed_slots)
@@ -505,9 +530,13 @@ def _tabulate(
                         if len(order) >= spot.pool_position
                     ]
                     combined_results = [
-                        r for group_results in result.group_all_results[d].values() for r in group_results
+                        r
+                        for group_results in result.group_all_results[d].values()
+                        for r in group_results
                     ]
-                    pool_order = rank_table(pool_candidates, combined_results, rng, phase_cfg.head_to_head_mode)
+                    pool_order = rank_table(
+                        pool_candidates, combined_results, rng, phase_cfg.head_to_head_mode
+                    )
                     for team in pool_order[: spot.top]:
                         spot_counts[team][spot.name] += 1
             position_sum = dict(phase_position_sum)  # the latest round_robin phase wins
@@ -598,6 +627,8 @@ def simulate_competition(
                 phase_cfg, config.name, season, reference_date, matches_df, draw_params, rng
             )
         else:
-            phase_results[phase_cfg.id] = _run_playoff_phase(phase_cfg, phase_results, draw_params, teams, rng)
+            phase_results[phase_cfg.id] = _run_playoff_phase(
+                phase_cfg, phase_results, draw_params, teams, rng
+            )
 
     return _tabulate(config, phase_results, n_draws, rng, guaranteed_slots)

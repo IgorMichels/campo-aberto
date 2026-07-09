@@ -114,8 +114,18 @@ def test_export_snapshot_drops_expected_position_renames_attaches_crest_and_stan
     _write_results_csv(
         csv_path,
         [
-            {"team": "Team A", "expected_position": 1.5, "prob_title": 0.4321, "prob_rebaixamento": 0.0},
-            {"team": "Team B", "expected_position": 2.5, "prob_title": 0.1, "prob_rebaixamento": 0.2},
+            {
+                "team": "Team A",
+                "expected_position": 1.5,
+                "prob_title": 0.4321,
+                "prob_rebaixamento": 0.0,
+            },
+            {
+                "team": "Team B",
+                "expected_position": 2.5,
+                "prob_title": 0.1,
+                "prob_rebaixamento": 0.2,
+            },
         ],
     )
     crest_src = _write_crest(tmp_path / "crests_src" / "team_a.png")
@@ -124,11 +134,21 @@ def test_export_snapshot_drops_expected_position_renames_attaches_crest_and_stan
     matches_df = _matches_df(TWO_MATCH_ROWS)
 
     date, columns, teams = _export_snapshot(
-        str(csv_path), crest_by_team, color_by_team, str(tmp_path / "crests"), (), matches_df, "Serie A", 2025
+        str(csv_path),
+        crest_by_team,
+        color_by_team,
+        str(tmp_path / "crests"),
+        (),
+        matches_df,
+        "Serie A",
+        2025,
     )
 
     assert date == "2025-01-01"
-    assert columns == [{"key": "title", "label": "Título"}, {"key": "rebaixamento", "label": "Rebaixamento"}]
+    assert columns == [
+        {"key": "title", "label": "Título"},
+        {"key": "rebaixamento", "label": "Rebaixamento"},
+    ]
     assert teams[0] == {
         "team": "Team A",
         "crest": "assets/crests/team_a.png",
@@ -136,7 +156,13 @@ def test_export_snapshot_drops_expected_position_renames_attaches_crest_and_stan
         "standings": {"points": 3, "played": 1, "goals_for": 2, "goals_against": 1, "goal_diff": 1},
         "probs": {"title": 0.4321, "rebaixamento": 0.0},
     }
-    assert teams[1]["standings"] == {"points": 0, "played": 1, "goals_for": 1, "goals_against": 2, "goal_diff": -1}
+    assert teams[1]["standings"] == {
+        "points": 0,
+        "played": 1,
+        "goals_for": 1,
+        "goals_against": 2,
+        "goal_diff": -1,
+    }
 
 
 def test_export_snapshot_standings_only_count_matches_up_to_reference_date(tmp_path):
@@ -164,13 +190,27 @@ def test_export_snapshot_standings_only_count_matches_up_to_reference_date(tmp_p
     )
 
     by_team = {t["team"]: t["standings"] for t in teams}
-    assert by_team["Team A"] == {"points": 4, "played": 2, "goals_for": 2, "goals_against": 1, "goal_diff": 1}
-    assert by_team["Team B"] == {"points": 1, "played": 2, "goals_for": 1, "goals_against": 2, "goal_diff": -1}
+    assert by_team["Team A"] == {
+        "points": 4,
+        "played": 2,
+        "goals_for": 2,
+        "goals_against": 1,
+        "goal_diff": 1,
+    }
+    assert by_team["Team B"] == {
+        "points": 1,
+        "played": 2,
+        "goals_for": 1,
+        "goals_against": 2,
+        "goal_diff": -1,
+    }
 
 
 def test_export_snapshot_raises_on_spot_with_no_portuguese_label(tmp_path):
     csv_path = tmp_path / "2025_01_01.csv"
-    _write_results_csv(csv_path, [{"team": "Team A", "expected_position": 1.0, "prob_unmapped_spot": 0.5}])
+    _write_results_csv(
+        csv_path, [{"team": "Team A", "expected_position": 1.0, "prob_unmapped_spot": 0.5}]
+    )
 
     with pytest.raises(ValueError, match="unmapped_spot"):
         _export_snapshot(
@@ -191,12 +231,21 @@ def test_export_snapshot_raises_on_team_with_no_crest_path(tmp_path):
 
     with pytest.raises(ValueError, match="Team A"):
         _export_snapshot(
-            str(csv_path), {}, {}, str(tmp_path / "crests"), (), _matches_df(TWO_MATCH_ROWS), "Serie A", 2025
+            str(csv_path),
+            {},
+            {},
+            str(tmp_path / "crests"),
+            (),
+            _matches_df(TWO_MATCH_ROWS),
+            "Serie A",
+            2025,
         )
 
 
 def test_build_columns_nests_an_aggregates_children_and_total_under_one_group():
-    aggregates = (AggregateConfig(name="libertadores", of=("libertadores_grupos", "libertadores_pre")),)
+    aggregates = (
+        AggregateConfig(name="libertadores", of=("libertadores_grupos", "libertadores_pre")),
+    )
     raw_names = ["title", "libertadores_grupos", "libertadores_pre", "sulamericana", "libertadores"]
 
     columns = _build_columns(raw_names, aggregates)
@@ -220,7 +269,15 @@ def test_export_snapshot_raises_on_aggregate_with_no_group_label(tmp_path):
     csv_path = tmp_path / "2025_01_01.csv"
     _write_results_csv(
         csv_path,
-        [{"team": "Team A", "expected_position": 1.0, "prob_title": 0.5, "prob_new_agg": 0.5, "prob_child": 0.5}],
+        [
+            {
+                "team": "Team A",
+                "expected_position": 1.0,
+                "prob_title": 0.5,
+                "prob_new_agg": 0.5,
+                "prob_child": 0.5,
+            }
+        ],
     )
     aggregates = (AggregateConfig(name="new_agg", of=("child",)),)
     # "child" needs a SPOT_LABELS entry too, or it'd (correctly) fail on that first --
@@ -248,8 +305,12 @@ def test_export_season_collects_every_date_keyed_by_snapshot(tmp_path):
     season_dir = tmp_path / "results"
     csv_2025_01 = season_dir / "2025_01_01.csv"
     csv_2025_06 = season_dir / "2025_06_01.csv"
-    _write_results_csv(csv_2025_01, [{"team": "Team A", "expected_position": 1.0, "prob_title": 0.5}])
-    _write_results_csv(csv_2025_06, [{"team": "Team A", "expected_position": 1.0, "prob_title": 0.6}])
+    _write_results_csv(
+        csv_2025_01, [{"team": "Team A", "expected_position": 1.0, "prob_title": 0.5}]
+    )
+    _write_results_csv(
+        csv_2025_06, [{"team": "Team A", "expected_position": 1.0, "prob_title": 0.6}]
+    )
     crest_by_team = {"Team A": _write_crest(tmp_path / "crests_src" / "a.png")}
     color_by_team = {"Team A": "#111111"}
 
@@ -349,5 +410,7 @@ def test_export_site_data_keeps_going_after_a_missing_crest(tmp_path, capsys):
 
     assert "No Crest FC" in capsys.readouterr().out
     manifest = json.loads((site_dir / "data" / "manifest.json").read_text())
-    assert manifest == {"competitions": [{"competition": "Serie A", "slug": "serie_a", "seasons": [2025]}]}
+    assert manifest == {
+        "competitions": [{"competition": "Serie A", "slug": "serie_a", "seasons": [2025]}]
+    }
     assert not (site_dir / "data" / "serie_b").exists()

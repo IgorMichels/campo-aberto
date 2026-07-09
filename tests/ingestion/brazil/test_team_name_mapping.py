@@ -29,7 +29,10 @@ def test_build_lookup_tables_lowercases_both_directions():
 def test_resolve_team_name_matches_a_known_raw_alias_case_insensitively():
     lower_mapping, lower_known_names = tnm.build_lookup_tables({"Santos Fc": "Santos / SP"})
 
-    assert tnm.resolve_team_name("SANTOS FC", lower_mapping, lower_known_names) == ("Santos / SP", True)
+    assert tnm.resolve_team_name("SANTOS FC", lower_mapping, lower_known_names) == (
+        "Santos / SP",
+        True,
+    )
 
 
 def test_resolve_team_name_matches_an_already_canonical_name_case_insensitively():
@@ -37,13 +40,19 @@ def test_resolve_team_name_matches_an_already_canonical_name_case_insensitively(
     SP' vs 'Santos FC / SP') even for names that are already canonical."""
     lower_mapping, lower_known_names = tnm.build_lookup_tables({"Santos Fc": "Santos / SP"})
 
-    assert tnm.resolve_team_name("santos / sp", lower_mapping, lower_known_names) == ("Santos / SP", True)
+    assert tnm.resolve_team_name("santos / sp", lower_mapping, lower_known_names) == (
+        "Santos / SP",
+        True,
+    )
 
 
 def test_resolve_team_name_reports_unresolved_names():
     lower_mapping, lower_known_names = tnm.build_lookup_tables({"Santos Fc": "Santos / SP"})
 
-    assert tnm.resolve_team_name("Unknown FC / XX", lower_mapping, lower_known_names) == ("Unknown FC / XX", False)
+    assert tnm.resolve_team_name("Unknown FC / XX", lower_mapping, lower_known_names) == (
+        "Unknown FC / XX",
+        False,
+    )
 
 
 def test_suggest_matches_prefers_same_state_candidates():

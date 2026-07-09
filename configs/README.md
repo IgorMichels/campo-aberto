@@ -42,10 +42,10 @@ spots awarded directly by table position, introduced as a playoff only in
 ## Top level
 
 ```yaml
-name: Serie A          # must match the `competition` column in matches.csv
-n_teams: 20             # total clubs in the competition; used to sanity-check spot positions
-phases: [ ... ]         # required, at least one
-aggregates: [ ... ]     # optional, see "Aggregates" below
+name: Serie A # must match the `competition` column in matches.csv
+n_teams: 20 # total clubs in the competition; used to sanity-check spot positions
+phases: [...] # required, at least one
+aggregates: [...] # optional, see "Aggregates" below
 ```
 
 ## Phases
@@ -58,10 +58,10 @@ Every phase has `id` (unique within the competition) and `type`
 ```yaml
 - id: league
   type: round_robin
-  head_to_head_mode: points_then_goal_diff  # or goal_diff_only
-  groups: [ ... ]        # optional, see "Groups" below
-  legs: 2                # 1 or 2, default 2
-  spots: [ ... ]
+  head_to_head_mode: points_then_goal_diff # or goal_diff_only
+  groups: [...] # optional, see "Groups" below
+  legs: 2 # 1 or 2, default 2
+  spots: [...]
 ```
 
 `legs: 2` (default) is a double round-robin -- every team plays every other
@@ -80,6 +80,7 @@ team list.
 `head_to_head_mode` controls the tiebreak used when exactly two clubs are
 tied on points/wins/goal-difference/goals-scored (see
 [`standings.py`](../src/simulation/standings.py)):
+
 - `points_then_goal_diff`: points earned across both head-to-head legs, then
   their combined goal difference (CBF Serie A rule).
 - `goal_diff_only`: combined goal difference of the two legs only, points
@@ -97,7 +98,7 @@ Without `groups`, all of the competition's teams (for the given
 round-robin table. With `groups`, each group runs its own independent
 round-robin (its own turno/returno), and any `positions`-based spot on that
 phase is evaluated **per group** rather than on a single combined table --
-e.g. `positions: {from: 1, to: 2}` means "1st and 2nd of *each* group", which
+e.g. `positions: {from: 1, to: 2}` means "1st and 2nd of _each_ group", which
 is exactly what a World Cup or Libertadores group stage needs.
 
 ```yaml
@@ -122,13 +123,13 @@ exercises it -- if you add one, that's the place to start.
 ```yaml
 - id: acesso
   type: playoff
-  source_phase: league     # id of an earlier phase this one seeds from
-  pairing: table_position  # table_position | bracket_adjacent | manual
-  pairs: [[3, 6], [4, 5]]  # meaning depends on `pairing`, see below
-  legs: 2                  # 1 or 2
-  leg_order: worse_seed_home_first  # or better_seed_home_first
-  tiebreak: points_then_goal_diff   # or goal_diff_only
-  spots: [ ... ]
+  source_phase: league # id of an earlier phase this one seeds from
+  pairing: table_position # table_position | bracket_adjacent | manual
+  pairs: [[3, 6], [4, 5]] # meaning depends on `pairing`, see below
+  legs: 2 # 1 or 2
+  leg_order: worse_seed_home_first # or better_seed_home_first
+  tiebreak: points_then_goal_diff # or goal_diff_only
+  spots: [...]
 ```
 
 - `pairing: table_position` -- `source_phase` must be a `round_robin` phase.
@@ -154,7 +155,7 @@ exercises it -- if you add one, that's the place to start.
 `table_position` pairing, or bracket order in the others) hosts leg 2, the
 decisive one; `leg_order` picks who hosts leg 1. Aggregate points (3/1/0 per
 leg) decide the winner; if points also tie, aggregate goal difference; if
-*that* also ties, the better seed advances (`tiebreak: points_then_goal_diff`)
+_that_ also ties, the better seed advances (`tiebreak: points_then_goal_diff`)
 or goal difference alone decides (`tiebreak: goal_diff_only`) -- both are real
 rules, not a random fallback (see Serie B's `acesso` phase for the CBF Art. 13
 version).
@@ -170,7 +171,7 @@ A team slot can reference another phase's winner instead of a literal name:
 
 ```yaml
 pairs:
-  - [{from_phase: prelim_1, pair: 0}, Team C]
+  - [{ from_phase: prelim_1, pair: 0 }, Team C]
 ```
 
 This resolves per Monte Carlo draw (a different draw may have a different
@@ -187,17 +188,18 @@ three resolution modes is set per spot:
 
 ```yaml
 - name: title
-  positions: {from: 1, to: 1}      # round_robin only; per-group if grouped
+  positions: { from: 1, to: 1 } # round_robin only; per-group if grouped
 
 - name: playoff_promotion
-  result: winner                    # playoff only; credits every pair's winner
+  result: winner # playoff only; credits every pair's winner
 
 - name: qualified_best_third
-  pool_position: 3                  # round_robin only, requires `groups`:
-  top: 8                            #   take the Nth-place team of every group,
-                                     #   re-rank that pool with the phase's own
-                                     #   tiebreak rules, keep the best `top`
-                                     #   (e.g. "best 8 third-placed teams")
+  pool_position: 3 # round_robin only, requires `groups`:
+  top:
+    8 #   take the Nth-place team of every group,
+    #   re-rank that pool with the phase's own
+    #   tiebreak rules, keep the best `top`
+    #   (e.g. "best 8 third-placed teams")
 ```
 
 ### Cascade (externally guaranteed slots)
@@ -205,8 +207,8 @@ three resolution modes is set per spot:
 ```yaml
 - id: league
   type: round_robin
-  spots: [ ... ]
-  cascade: [libertadores_grupos, libertadores_pre, sulamericana]  # best first
+  spots: [...]
+  cascade: [libertadores_grupos, libertadores_pre, sulamericana] # best first
 ```
 
 `cascade` names a subset of this phase's `positions`-based spots, ranked best
@@ -217,14 +219,15 @@ Serie A table position. Since we don't simulate the Copa do Brasil, its
 finalists are supplied at call time instead, via `simulate_competition`'s
 `guaranteed_slots: dict[team, list[spot_name]]` (or `--guaranteed-slot
 TEAM:SPOT`, repeatable, on `src.simulation.run` / `src.pipeline`) -- repeat
-the same team for multiple *independent* guarantees, e.g. a team that's both
+the same team for multiple _independent_ guarantees, e.g. a team that's both
 this year's Libertadores champion (also worth a `libertadores_grupos` berth)
 and Copa do Brasil champion.
 
 A team occupies exactly one seat: the best (closest to the front of
-`cascade`) among its own table position and *all* of its guarantees. Every
+`cascade`) among its own table position and _all_ of its guarantees. Every
 other guarantee it holds -- including a second one for the same tier it
 already occupies -- goes unused and becomes a bonus seat in its own tier:
+
 - An unused guarantee (table spot already as good or better, or a
   second/third guarantee for the tier the team already occupies) is handed
   to the next team in the table not yet credited anywhere (the "first team
@@ -243,14 +246,14 @@ sulamericana]`, capacities 4/1/6 from `configs/serie_a_2026.yaml`):
 - Team Y guaranteed `libertadores_pre`, finishes 3rd (a `libertadores_grupos`
   position): Y is credited `libertadores_grupos` (its table spot is already
   better), so its unused pré guarantee goes to 6th place instead (the first
-  team outside pré's 5th-place window) -- crediting *two* `libertadores_pre`
+  team outside pré's 5th-place window) -- crediting _two_ `libertadores_pre`
   recipients that draw. 6th place's own vacated `sulamericana` seat then
   backfills from 12th, same as above.
 - Team X is both this year's Libertadores champion and Copa do Brasil
   champion -- two independent `libertadores_grupos` guarantees -- and
   finishes 9th (a `sulamericana` position): both guarantees are extra berths,
   so `libertadores_grupos` needs 2 more seats than usual, filled by scanning
-  onward from 1st place regardless of tier boundaries -- giving X *and*
+  onward from 1st place regardless of tier boundaries -- giving X _and_
   1st-5th place all `libertadores_grupos` (6 recipients, reaching one spot
   past the table's normal top 4). Since 5th place -- the table's natural
   `libertadores_pre` recipient -- got pulled into groups instead, `pre` falls
@@ -280,7 +283,7 @@ guaranteed_slots:
 Libertadores champion's berth isn't known until that year's final is played
 (the 2025 final between Flamengo and Palmeiras was on 2025-11-29). Backtesting
 with a `reference_date` before `known_from` simulates the competition as it
-actually looked *at the time*, before that guarantee existed; a
+actually looked _at the time_, before that guarantee existed; a
 `reference_date` on or after `known_from` includes it. `simulate_competition`
 merges every config entry whose `known_from` has passed with any
 `guaranteed_slots` dict/`--guaranteed-slot` passed directly to the call (see
@@ -348,14 +351,14 @@ phases:
   - id: groups
     type: round_robin
     head_to_head_mode: points_then_goal_diff
-    groups: [[Team A, Team B, Team C, Team D], ...]  # 8 groups of 4
+    groups: [[Team A, Team B, Team C, Team D], ...] # 8 groups of 4
     spots:
       - name: qualified
-        positions: {from: 1, to: 2}
+        positions: { from: 1, to: 2 }
   - id: round_of_16
     type: playoff
     source_phase: groups
-    pairing: manual   # CONMEBOL's cross-group draw, not simple adjacency
+    pairing: manual # CONMEBOL's cross-group draw, not simple adjacency
     pairs: [[Team A, Team F], ...]
     legs: 2
     spots: []
@@ -377,18 +380,18 @@ phases:
   - id: groups
     type: round_robin
     head_to_head_mode: points_then_goal_diff
-    groups: [[Team A, Team B, Team C], ...]  # 12 groups of 4... err, of 3-4
+    groups: [[Team A, Team B, Team C], ...] # 12 groups of 4... err, of 3-4
     spots:
       - name: qualified_group
-        positions: {from: 1, to: 2}
+        positions: { from: 1, to: 2 }
       - name: qualified_best_third
         pool_position: 3
         top: 8
   - id: round_of_32
     type: playoff
     source_phase: groups
-    pairing: manual   # FIFA's seeding draw, not simple adjacency
-    pairs: [ ... ]
+    pairing: manual # FIFA's seeding draw, not simple adjacency
+    pairs: [...]
     legs: 1
     spots: []
   # ... more bracket_adjacent rounds ...

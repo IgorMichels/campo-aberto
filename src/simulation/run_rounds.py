@@ -74,7 +74,9 @@ def round_reference_dates(df: pd.DataFrame, competition: str, season: int) -> li
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     parser.add_argument("--matches", default=DEFAULT_MATCHES_PATH)
     parser.add_argument("--seasons", type=int, nargs="+", default=[2025, 2026])
     parser.add_argument("--n-draws", type=int, default=DEFAULT_N_DRAWS)

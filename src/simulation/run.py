@@ -65,7 +65,9 @@ def main() -> None:
     parser.add_argument("--matches", default=DEFAULT_MATCHES_PATH)
     parser.add_argument("--configs", nargs="+", default=DEFAULT_CONFIGS)
     parser.add_argument(
-        "--reference-date", default=None, help="e.g. 2026-06-30; defaults to the matches CSV's latest date"
+        "--reference-date",
+        default=None,
+        help="e.g. 2026-06-30; defaults to the matches CSV's latest date",
     )
     parser.add_argument("--season", type=int, default=DEFAULT_SEASON)
     parser.add_argument("--n-draws", type=int, default=DEFAULT_N_DRAWS)
@@ -84,7 +86,9 @@ def main() -> None:
 
     df = pd.read_csv(args.matches)
     df["match_datetime"] = pd.to_datetime(df["match_datetime"])
-    reference_date = pd.Timestamp(args.reference_date) if args.reference_date else df["match_datetime"].max()
+    reference_date = (
+        pd.Timestamp(args.reference_date) if args.reference_date else df["match_datetime"].max()
+    )
 
     train_df = df[df["match_datetime"] <= reference_date]
     stan_data, teams = build_stan_data(train_df, reference_date=reference_date)

@@ -84,7 +84,9 @@ def test_two_different_guarantees_use_the_better_and_cascade_the_other(teams20):
 def test_guaranteed_team_absent_from_order_is_ignored(teams20):
     """A guarantee naming a team from a different competition/group (e.g. a
     Serie A guarantee passed in while simulating Serie B) has no effect."""
-    result = _resolve_cascade(make_order(teams20), CASCADE, {"Not Playing / XX": ["libertadores_grupos"]})
+    result = _resolve_cascade(
+        make_order(teams20), CASCADE, {"Not Playing / XX": ["libertadores_grupos"]}
+    )
 
     assert result["libertadores_grupos"] == ["T1", "T2", "T3", "T4"]
 

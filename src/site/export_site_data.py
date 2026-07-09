@@ -55,7 +55,9 @@ AGGREGATE_GROUP_LABELS = {
     "libertadores": "Libertadores",
     "promotion": "Acesso",
 }
-AGGREGATE_TOTAL_LABEL = "Geral"  # the aggregate's own combined probability, nested as a group's last child
+AGGREGATE_TOTAL_LABEL = (
+    "Geral"  # the aggregate's own combined probability, nested as a group's last child
+)
 
 DEFAULT_SEASONS = [2025, 2026]
 
@@ -116,13 +118,19 @@ def _build_columns(raw_names: list[str], aggregates: tuple[AggregateConfig, ...]
 
 
 def _real_standings(
-    matches_df: pd.DataFrame, competition: str, season: int, reference_date: pd.Timestamp, teams: list[str]
+    matches_df: pd.DataFrame,
+    competition: str,
+    season: int,
+    reference_date: pd.Timestamp,
+    teams: list[str],
 ) -> dict[str, dict]:
     """Points/played/goals_for/goals_against/goal_diff per team from
     actually-played matches up to reference_date -- the real table as of that
     date, not a simulated one, so a reader can see what the probabilities are
     reacting to."""
-    played_results, _, _ = fixtures.split_fixtures(matches_df, competition, season, reference_date, teams=teams)
+    played_results, _, _ = fixtures.split_fixtures(
+        matches_df, competition, season, reference_date, teams=teams
+    )
     records = standings.team_records(teams, played_results)
     return {
         team: {
@@ -156,7 +164,9 @@ def _export_snapshot(
     aggregate_names = {agg.name for agg in aggregates}
     unknown = set(raw_names) - set(SPOT_LABELS) - aggregate_names
     if unknown:
-        raise ValueError(f"{csv_path}: no Portuguese label for spot(s) {sorted(unknown)} -- add to SPOT_LABELS")
+        raise ValueError(
+            f"{csv_path}: no Portuguese label for spot(s) {sorted(unknown)} -- add to SPOT_LABELS"
+        )
     missing_group_labels = aggregate_names - AGGREGATE_GROUP_LABELS.keys()
     if missing_group_labels:
         raise ValueError(
@@ -166,7 +176,9 @@ def _export_snapshot(
 
     reference_date = os.path.splitext(os.path.basename(csv_path))[0].replace("_", "-")
     team_names = list(df["team"])
-    standings_by_team = _real_standings(matches_df, competition, season, pd.Timestamp(reference_date), team_names)
+    standings_by_team = _real_standings(
+        matches_df, competition, season, pd.Timestamp(reference_date), team_names
+    )
 
     teams = []
     for _, row in df.iterrows():
@@ -182,7 +194,9 @@ def _export_snapshot(
                 "crest": _copy_crest(crest_path, crests_dir),
                 "color": color_by_team.get(team, "#4A5568"),
                 "standings": standings_by_team[team],
-                "probs": {raw: round(float(row[col]), 4) for col, raw in zip(prob_columns, raw_names)},
+                "probs": {
+                    raw: round(float(row[col]), 4) for col, raw in zip(prob_columns, raw_names)
+                },
             }
         )
 
@@ -204,7 +218,14 @@ def _export_season(
     columns = None
     for csv_path in csv_paths:
         date, date_columns, teams = _export_snapshot(
-            csv_path, crest_by_team, color_by_team, crests_dir, aggregates, matches_df, competition, season
+            csv_path,
+            crest_by_team,
+            color_by_team,
+            crests_dir,
+            aggregates,
+            matches_df,
+            competition,
+            season,
         )
         dates.append(date)
         snapshots[date] = {"teams": teams}
@@ -235,7 +256,9 @@ def export_site_data(
             slug = _competition_slug(config.name)
             csv_paths = _all_results_csvs(slug, season, results_dir)
             if not csv_paths:
-                print(f"Skipped {config.name} {season}: no results under {results_dir}/{slug}/{season}/")
+                print(
+                    f"Skipped {config.name} {season}: no results under {results_dir}/{slug}/{season}/"
+                )
                 continue
 
             try:
@@ -261,6 +284,7 @@ def export_site_data(
             season_path = os.path.join(season_dir, f"{season}.json")
             with open(season_path, "w", encoding="utf-8") as f:
                 json.dump(season_data, f, ensure_ascii=False, indent=2)
+                f.write("\n")
             print(f"Wrote {season_path} ({len(csv_paths)} dated snapshot(s))")
 
             exported.setdefault(slug, (config.name, []))[1].append(season)
@@ -274,11 +298,14 @@ def export_site_data(
     manifest_path = os.path.join(data_dir, "manifest.json")
     with open(manifest_path, "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2)
+        f.write("\n")
     print(f"Wrote {manifest_path}")
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     parser.add_argument("--seasons", type=int, nargs="+", default=DEFAULT_SEASONS)
     parser.add_argument("--results-dir", default=RESULTS_DIR)
     parser.add_argument("--club-infos", default=CLUB_INFOS_PATH)

@@ -163,7 +163,7 @@
   function sortedTeams(teams, columns) {
     if (!state.sort) return defaultOrderedTeams(teams);
     const column = [TEAM_COLUMN, ...leafColumns(columns)].find(
-      (c) => c.key === state.sort.key && (c.kind || "percent") === state.sort.kind
+      (c) => c.key === state.sort.key && (c.kind || "percent") === state.sort.kind,
     );
     if (!column) return defaultOrderedTeams(teams);
     const sign = state.sort.direction === "asc" ? 1 : -1;
@@ -191,7 +191,10 @@
     th.textContent = column.label + (active ? sortArrow(direction) : "");
     th.className = "sortable";
     th.tabIndex = 0;
-    th.setAttribute("aria-sort", active ? (direction === "asc" ? "ascending" : "descending") : "none");
+    th.setAttribute(
+      "aria-sort",
+      active ? (direction === "asc" ? "ascending" : "descending") : "none",
+    );
     th.dataset.sortKey = column.key;
     th.dataset.sortKind = column.kind || "percent";
     return th;
@@ -224,7 +227,9 @@
   function renderTableHead(columns) {
     const hasGroups = columns.some((column) => column.children);
     tableHeadRowEl.innerHTML = "";
-    tableHeadRowEl.parentElement.querySelectorAll("tr.sub-header-row").forEach((row) => row.remove());
+    tableHeadRowEl.parentElement
+      .querySelectorAll("tr.sub-header-row")
+      .forEach((row) => row.remove());
 
     const teamHeader = makeSortableHeader(TEAM_COLUMN);
     if (hasGroups) teamHeader.rowSpan = 2;

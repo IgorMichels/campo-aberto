@@ -119,7 +119,10 @@
           clashingDashes.add(dash);
         }
       }
-      dashByTeam.set(team, DASH_CYCLE.find((d) => !clashingDashes.has(d)));
+      dashByTeam.set(
+        team,
+        DASH_CYCLE.find((d) => !clashingDashes.has(d)),
+      );
     }
     return dashByTeam;
   }
@@ -129,7 +132,11 @@
   // eliminated -- later last-nonzero date ranks higher, a further tie falls
   // back to that date's probability value.
   function rankByFinalChance(teams, dates) {
-    const seriesFor = (team) => dates.map((d) => state.seasonData.snapshots[d].teams.find((t) => t.team === team).probs[state.spot] || 0);
+    const seriesFor = (team) =>
+      dates.map(
+        (d) =>
+          state.seasonData.snapshots[d].teams.find((t) => t.team === team).probs[state.spot] || 0,
+      );
     const sortKey = (team) => {
       const series = seriesFor(team);
       const finalValue = series[series.length - 1];
@@ -196,8 +203,11 @@
   function spotOptions(columns) {
     return columns.flatMap((column) =>
       column.children
-        ? column.children.map((child) => ({ key: child.key, label: `${column.label} — ${child.label}` }))
-        : [{ key: column.key, label: column.label }]
+        ? column.children.map((child) => ({
+            key: child.key,
+            label: `${column.label} — ${child.label}`,
+          }))
+        : [{ key: column.key, label: column.label }],
     );
   }
 
@@ -273,7 +283,9 @@
       spotSelectEl.appendChild(el);
     });
     const stillValid = options.some((o) => o.key === previousSpot);
-    state.spot = stillValid ? previousSpot : options.find((o) => o.key === "title")?.key || options[0].key;
+    state.spot = stillValid
+      ? previousSpot
+      : options.find((o) => o.key === "title")?.key || options[0].key;
     spotSelectEl.value = state.spot;
   }
 
@@ -392,19 +404,28 @@
     const rankedTeams = rankByFinalChance(state.selectedTeams, isoDates);
     const lastDate = isoDates[isoDates.length - 1];
     const trueYByTeam = new Map(
-      rankedTeams.map((name) => [name, (state.seasonData.snapshots[lastDate].teams.find((t) => t.team === name).probs[state.spot] || 0) * 100])
+      rankedTeams.map((name) => [
+        name,
+        (state.seasonData.snapshots[lastDate].teams.find((t) => t.team === name).probs[
+          state.spot
+        ] || 0) * 100,
+      ]),
     );
 
     // Dash assignment order follows the classificação order, not click order,
     // so it stays stable regardless of the sequence teams were selected in.
-    const orderedSelected = state.masterTeams.map((t) => t.team).filter((t) => state.selectedTeams.includes(t));
+    const orderedSelected = state.masterTeams
+      .map((t) => t.team)
+      .filter((t) => state.selectedTeams.includes(t));
     const lineDash = assignLineDashes(orderedSelected, colorByTeam);
 
     const xaxisRange = [-totalDays * 0.02, totalDays + totalDays * RIGHT_PAD_FRACTION];
     const pxPerXUnit = (FIG_W - MARGIN.l - MARGIN.r) / (xaxisRange[1] - xaxisRange[0]);
     const pxPerYUnit = (FIG_H - MARGIN.t - MARGIN.b) / 105;
 
-    const crestAspects = await Promise.all(orderedSelected.map((name) => loadCrestAspect(teamByName(name).crest)));
+    const crestAspects = await Promise.all(
+      orderedSelected.map((name) => loadCrestAspect(teamByName(name).crest)),
+    );
 
     // A crest sits vertically centered on its (possibly nudged) label position;
     // keep the label at least half the crest's rendered height away from the
@@ -412,7 +433,13 @@
     // crest among the selected teams sets how much clearance every label needs.
     const halfCrestHeights = crestAspects.map((aspect) => CREST_WIDTH_PX / aspect / 2 / pxPerYUnit);
     const crestClearance = Math.max(...halfCrestHeights) + 1;
-    const endpointDisplayY = declutterEndpointLabels(rankedTeams, trueYByTeam, NUDGE_SPACING, crestClearance, 105 - crestClearance);
+    const endpointDisplayY = declutterEndpointLabels(
+      rankedTeams,
+      trueYByTeam,
+      NUDGE_SPACING,
+      crestClearance,
+      105 - crestClearance,
+    );
 
     const gridColor = cssVar("--gridline") || "#EAECF0";
     const borderColor = cssVar("--border") || "#D9DEE7";
@@ -422,7 +449,11 @@
 
     const traces = orderedSelected.map((name) => {
       const team = teamByName(name);
-      const y = isoDates.map((d) => (state.seasonData.snapshots[d].teams.find((t) => t.team === name).probs[state.spot] || 0) * 100);
+      const y = isoDates.map(
+        (d) =>
+          (state.seasonData.snapshots[d].teams.find((t) => t.team === name).probs[state.spot] ||
+            0) * 100,
+      );
       const markerSizes = new Array(y.length).fill(5);
       markerSizes[markerSizes.length - 1] = 0; // endpoint is replaced by the crest icon
       return {
@@ -475,7 +506,7 @@
         layer: "above",
       });
       annotations.push({
-        x: crestX + (CREST_WIDTH_PX / pxPerXUnit) / 2 + totalDays * 0.004,
+        x: crestX + CREST_WIDTH_PX / pxPerXUnit / 2 + totalDays * 0.004,
         y: yDisplay,
         text: `<b>${name.split(" / ")[0]}</b>  ${yEnd.toFixed(1)}%`,
         showarrow: false,
@@ -486,7 +517,9 @@
     });
 
     const ticks = monthTicks(dates);
-    const spotLabel = Array.from(spotSelectEl.options).find((o) => o.value === state.spot)?.textContent || state.spot;
+    const spotLabel =
+      Array.from(spotSelectEl.options).find((o) => o.value === state.spot)?.textContent ||
+      state.spot;
 
     const layout = {
       title: {
@@ -511,7 +544,9 @@
       xaxis: {
         tickmode: "array",
         tickvals: ticks.map((d) => (d - dates[0]) / 86400000),
-        ticktext: ticks.map((d) => d.toLocaleDateString("pt-BR", { month: "short", year: "numeric" })),
+        ticktext: ticks.map((d) =>
+          d.toLocaleDateString("pt-BR", { month: "short", year: "numeric" }),
+        ),
         tickangle: 90,
         showgrid: false,
         zeroline: false,
@@ -553,7 +588,9 @@
     }
     showStatus("");
 
-    const orderedSelected = state.masterTeams.map((t) => t.team).filter((t) => state.selectedTeams.includes(t));
+    const orderedSelected = state.masterTeams
+      .map((t) => t.team)
+      .filter((t) => state.selectedTeams.includes(t));
 
     tableHeadEl.innerHTML = "";
     const dateHeader = document.createElement("th");
@@ -626,7 +663,9 @@
       const latestDate = data.dates[data.dates.length - 1];
       state.masterTeams = alphabeticalOrderedTeams(data.snapshots[latestDate].teams);
 
-      const carriedOver = state.selectedTeams.filter((name) => state.masterTeams.some((t) => t.team === name));
+      const carriedOver = state.selectedTeams.filter((name) =>
+        state.masterTeams.some((t) => t.team === name),
+      );
       if (carriedOver.length > 0) {
         state.selectedTeams = carriedOver.slice(0, MAX_TEAMS);
       } else {
@@ -654,7 +693,9 @@
     updateTabSelection();
     buildSeasonSelect(competition.seasons);
 
-    const season = competition.seasons.includes(state.season) ? state.season : competition.seasons[competition.seasons.length - 1];
+    const season = competition.seasons.includes(state.season)
+      ? state.season
+      : competition.seasons[competition.seasons.length - 1];
     seasonSelectEl.value = String(season);
     state.season = season;
 

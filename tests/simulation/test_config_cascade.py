@@ -75,4 +75,6 @@ def test_real_configs_parse_and_declare_double_round_robin_leagues():
                 assert phase.legs == 2, f"{path}: phase {phase.id!r} expected legs == 2"
             for spot in phase.spots:
                 if spot.positions is not None:
-                    assert spot.positions[1] <= config.n_teams, f"{path}: spot {spot.name!r} exceeds n_teams"
+                    assert spot.positions[1] <= config.n_teams, (
+                        f"{path}: spot {spot.name!r} exceeds n_teams"
+                    )

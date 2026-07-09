@@ -124,12 +124,16 @@
 
 .sticker-container.border-orange {
   border-color: #ff9f0a;
-  box-shadow: 0 0 15px rgba(255, 159, 10, 0.5), inset 0 0 7.5px rgba(255, 159, 10, 0.28);
+  box-shadow:
+    0 0 15px rgba(255, 159, 10, 0.5),
+    inset 0 0 7.5px rgba(255, 159, 10, 0.28);
 }
 
 .sticker-container.border-purple {
   border-color: #bf5af2;
-  box-shadow: 0 0 20px rgba(191, 90, 242, 0.5), inset 0 0 10px rgba(191, 90, 242, 0.28);
+  box-shadow:
+    0 0 20px rgba(191, 90, 242, 0.5),
+    inset 0 0 10px rgba(191, 90, 242, 0.28);
 }
 
 /* Color wash driven by each team's real accent color (--home-color /
@@ -334,9 +338,15 @@
   height: 100%;
 }
 
-.f-bar.home { background: #32ade6; }
-.f-bar.draw { background: #8e8e93; }
-.f-bar.away { background: #ff2d55; }
+.f-bar.home {
+  background: #32ade6;
+}
+.f-bar.draw {
+  background: #8e8e93;
+}
+.f-bar.away {
+  background: #ff2d55;
+}
 
 .footer-stats-row {
   display: flex;
@@ -349,9 +359,15 @@
   font-weight: 800;
 }
 
-.f-stat.home { color: #32ade6; }
-.f-stat.draw { color: #8e8e93; }
-.f-stat.away { color: #ff2d55; }
+.f-stat.home {
+  color: #32ade6;
+}
+.f-stat.draw {
+  color: #8e8e93;
+}
+.f-stat.away {
+  color: #ff2d55;
+}
 
 /* ── MODAL ── */
 

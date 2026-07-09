@@ -189,13 +189,19 @@ def _parse_spot(raw_spot: dict, phase_id: str) -> SpotConfig:
         if top < 1:
             raise ValueError(f"phase {phase_id!r} spot {name!r}: 'top' must be >= 1")
 
-    return SpotConfig(name=name, positions=positions, result=result, pool_position=pool_position, top=top)
+    return SpotConfig(
+        name=name, positions=positions, result=result, pool_position=pool_position, top=top
+    )
 
 
-def _parse_round_robin_phase(raw_phase: dict, phase_id: str, spots: tuple[SpotConfig, ...]) -> RoundRobinPhaseConfig:
+def _parse_round_robin_phase(
+    raw_phase: dict, phase_id: str, spots: tuple[SpotConfig, ...]
+) -> RoundRobinPhaseConfig:
     head_to_head_mode = raw_phase.get("head_to_head_mode")
     if head_to_head_mode not in HEAD_TO_HEAD_MODES:
-        raise ValueError(f"phase {phase_id!r}: 'head_to_head_mode' must be one of {HEAD_TO_HEAD_MODES}")
+        raise ValueError(
+            f"phase {phase_id!r}: 'head_to_head_mode' must be one of {HEAD_TO_HEAD_MODES}"
+        )
 
     for spot in spots:
         if spot.result is not None:
@@ -226,11 +232,18 @@ def _parse_round_robin_phase(raw_phase: dict, phase_id: str, spots: tuple[SpotCo
         raise ValueError(f"phase {phase_id!r}: 'legs' must be 1 or 2")
 
     return RoundRobinPhaseConfig(
-        id=phase_id, head_to_head_mode=head_to_head_mode, spots=spots, groups=groups, cascade=cascade, legs=legs
+        id=phase_id,
+        head_to_head_mode=head_to_head_mode,
+        spots=spots,
+        groups=groups,
+        cascade=cascade,
+        legs=legs,
     )
 
 
-def _parse_playoff_phase(raw_phase: dict, phase_id: str, spots: tuple[SpotConfig, ...]) -> PlayoffPhaseConfig:
+def _parse_playoff_phase(
+    raw_phase: dict, phase_id: str, spots: tuple[SpotConfig, ...]
+) -> PlayoffPhaseConfig:
     pairing = raw_phase.get("pairing")
     if pairing not in PAIRINGS:
         raise ValueError(f"phase {phase_id!r}: 'pairing' must be one of {PAIRINGS}")
@@ -243,7 +256,9 @@ def _parse_playoff_phase(raw_phase: dict, phase_id: str, spots: tuple[SpotConfig
     if pairing == "table_position":
         pairs = tuple((int(a), int(b)) for a, b in raw_phase.get("pairs", []))
         if not pairs:
-            raise ValueError(f"phase {phase_id!r}: pairing 'table_position' requires non-empty 'pairs'")
+            raise ValueError(
+                f"phase {phase_id!r}: pairing 'table_position' requires non-empty 'pairs'"
+            )
     elif pairing == "manual":
         pairs = tuple(
             (
@@ -300,7 +315,9 @@ def _parse_phase(raw_phase: dict) -> PhaseConfig:
         return _parse_round_robin_phase(raw_phase, phase_id, spots)
     if phase_type == "playoff":
         return _parse_playoff_phase(raw_phase, phase_id, spots)
-    raise ValueError(f"phase {phase_id!r}: 'type' must be 'round_robin' or 'playoff', got {phase_type!r}")
+    raise ValueError(
+        f"phase {phase_id!r}: 'type' must be 'round_robin' or 'playoff', got {phase_type!r}"
+    )
 
 
 def _parse_competition(raw: dict, source: str) -> CompetitionConfig:
@@ -324,10 +341,14 @@ def _parse_competition(raw: dict, source: str) -> CompetitionConfig:
     for i, p in enumerate(phases):
         if isinstance(p, PlayoffPhaseConfig) and p.source_phase is not None:
             if p.source_phase not in phase_ids:
-                raise ValueError(f"{source}: phase {p.id!r} source_phase {p.source_phase!r} is not a defined phase")
+                raise ValueError(
+                    f"{source}: phase {p.id!r} source_phase {p.source_phase!r} is not a defined phase"
+                )
             source_index = phase_ids.index(p.source_phase)
             if source_index >= i:
-                raise ValueError(f"{source}: phase {p.id!r} source_phase {p.source_phase!r} must come before it")
+                raise ValueError(
+                    f"{source}: phase {p.id!r} source_phase {p.source_phase!r} must come before it"
+                )
 
     for p in phases:
         if isinstance(p, RoundRobinPhaseConfig) and p.groups is None:
@@ -339,25 +360,39 @@ def _parse_competition(raw: dict, source: str) -> CompetitionConfig:
                     )
 
     all_spot_names = {spot.name for p in phases for spot in p.spots}
-    aggregates = tuple(AggregateConfig(name=a["name"], of=tuple(a["of"])) for a in raw.get("aggregates", []))
+    aggregates = tuple(
+        AggregateConfig(name=a["name"], of=tuple(a["of"])) for a in raw.get("aggregates", [])
+    )
     for agg in aggregates:
         for spot_name in agg.of:
             if spot_name not in all_spot_names:
-                raise ValueError(f"{source}: aggregate {agg.name!r} references unknown spot {spot_name!r}")
+                raise ValueError(
+                    f"{source}: aggregate {agg.name!r} references unknown spot {spot_name!r}"
+                )
 
-    guaranteed_slots = tuple(_parse_guaranteed_slot(g, all_spot_names, source) for g in raw.get("guaranteed_slots", []))
+    guaranteed_slots = tuple(
+        _parse_guaranteed_slot(g, all_spot_names, source) for g in raw.get("guaranteed_slots", [])
+    )
 
     return CompetitionConfig(
-        name=name, n_teams=n_teams, phases=phases, aggregates=aggregates, guaranteed_slots=guaranteed_slots
+        name=name,
+        n_teams=n_teams,
+        phases=phases,
+        aggregates=aggregates,
+        guaranteed_slots=guaranteed_slots,
     )
 
 
-def _parse_guaranteed_slot(raw_slot: dict, all_spot_names: set[str], source: str) -> GuaranteedSlotConfig:
+def _parse_guaranteed_slot(
+    raw_slot: dict, all_spot_names: set[str], source: str
+) -> GuaranteedSlotConfig:
     team = raw_slot.get("team")
     spot = raw_slot.get("spot")
     known_from = raw_slot.get("known_from")
     if not team or not spot or not known_from:
-        raise ValueError(f"{source}: guaranteed_slots entry requires 'team', 'spot' and 'known_from', got {raw_slot!r}")
+        raise ValueError(
+            f"{source}: guaranteed_slots entry requires 'team', 'spot' and 'known_from', got {raw_slot!r}"
+        )
     if spot not in all_spot_names:
         raise ValueError(f"{source}: guaranteed_slots entry references unknown spot {spot!r}")
     return GuaranteedSlotConfig(team=team, spot=spot, known_from=pd.Timestamp(known_from))
