@@ -30,3 +30,11 @@ UNMAPPED_LOG_PATH = "data/processed/brazil/unmapped_team_names_log.csv"
 
 # scrape_raw_matches.py
 CBF_CACHE_DIR = "data/raw/brazil/cbf"
+
+# espn_fixtures.py
+ESPN_SCOREBOARD_URL = (
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/{league_code}/scoreboard"
+)
+ESPN_LEAGUE_CODES = {"Serie_A": "bra.1", "Serie_B": "bra.2"}  # keyed like COMPETITIONS
+ESPN_CACHE_DIR = "data/raw/brazil/espn"  # sibling of CBF_CACHE_DIR -- each
+# external source gets its own subdirectory under data/raw/brazil/.

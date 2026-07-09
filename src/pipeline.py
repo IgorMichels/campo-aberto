@@ -1,7 +1,8 @@
 """Orchestrates the full campo-aberto pipeline end to end: scraping -> fit -> simulation -> site export.
 
-1. Scrapes fresh Brazil match dockets and rebuilds the treated matches CSV
-   (src.ingestion.brazil.run_pipeline).
+1. Scrapes fresh Brazil match dockets, fetches ESPN's schedule, and rebuilds
+   the treated matches CSV (mirrors src.ingestion.brazil.run_pipeline's
+   stages -- see that module's docstring).
 2. Fits poisson_home.stan on the full match history and saves posterior
    samples for historical tracking (src.models.fit).
 3. Simulates the rest of the season as of the latest known match and reports
@@ -26,7 +27,7 @@ from src.constants import (
     DEFAULT_SEED,
     SITE_DIR,
 )
-from src.ingestion.brazil import build_treated_dataset, scrape_raw_matches
+from src.ingestion.brazil import build_treated_dataset, espn_fixtures, scrape_raw_matches
 from src.models.fit import fit, save_samples
 from src.simulation.config import load_competition_config
 from src.simulation.results import save_results
@@ -68,6 +69,7 @@ def main() -> None:
 
     print("=== 1/4: scraping + building treated dataset ===")
     scrape_raw_matches.main()
+    espn_fixtures.main()
     build_treated_dataset.main()
 
     df = pd.read_csv(args.matches)
