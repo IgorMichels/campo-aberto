@@ -16,7 +16,12 @@ from datetime import datetime
 
 import pandas as pd
 
-from src.ingestion.brazil.constants import CACHE_DIR, COMPETITIONS, OUTPUT_PATH, UNMAPPED_LOG_PATH
+from src.ingestion.brazil.constants import (
+    CBF_CACHE_DIR,
+    COMPETITIONS,
+    OUTPUT_PATH,
+    UNMAPPED_LOG_PATH,
+)
 from src.ingestion.brazil.scrape_raw_matches import load_season_csv
 from src.ingestion.brazil.team_name_mapping import (
     build_lookup_tables,
@@ -31,7 +36,7 @@ RESULT_PATTERN = re.compile(r"^\s*(\d+)\s*[Xx]\s*(\d+)\s*$")
 def load_raw_games() -> dict:
     """Loads every cached raw season as {(competition_key, year): games}."""
     raw_games_by_season = {}
-    for path in glob.glob(os.path.join(CACHE_DIR, "*.csv")):
+    for path in glob.glob(os.path.join(CBF_CACHE_DIR, "*.csv")):
         file_name = os.path.splitext(os.path.basename(path))[0]
         competition_key, year = file_name.rsplit("_", 1)
         raw_games_by_season[(competition_key, int(year))] = load_season_csv(path)

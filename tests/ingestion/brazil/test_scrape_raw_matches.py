@@ -20,7 +20,7 @@ _GAME = {
 def test_save_and_load_season_csv_round_trip(tmp_path):
     games = {"001": _GAME}
 
-    with mock.patch.object(srm, "CACHE_DIR", str(tmp_path)):
+    with mock.patch.object(srm, "CBF_CACHE_DIR", str(tmp_path)):
         srm._save_games("Serie_A", 2020, games)
         loaded = srm.load_season_csv(srm._cache_path("Serie_A", 2020))
 
@@ -28,15 +28,15 @@ def test_save_and_load_season_csv_round_trip(tmp_path):
 
 
 def test_cache_path_is_keyed_by_competition_and_year():
-    with mock.patch.object(srm, "CACHE_DIR", "data/raw/brazil"):
-        assert srm._cache_path("Serie_A", 2020) == "data/raw/brazil/Serie_A_2020.csv"
+    with mock.patch.object(srm, "CBF_CACHE_DIR", "data/raw/brazil/cbf"):
+        assert srm._cache_path("Serie_A", 2020) == "data/raw/brazil/cbf/Serie_A_2020.csv"
 
 
 def test_a_complete_season_is_never_rescraped(tmp_path):
     """len(games) >= GAMES_PER_SEASON short-circuits before scrape_season is
     even called."""
     with (
-        mock.patch.object(srm, "CACHE_DIR", str(tmp_path)),
+        mock.patch.object(srm, "CBF_CACHE_DIR", str(tmp_path)),
         mock.patch.object(srm, "GAMES_PER_SEASON", 2),
     ):
         games = {"001": _GAME, "002": _GAME}
@@ -53,7 +53,7 @@ def test_a_complete_season_is_never_rescraped(tmp_path):
 
 def test_an_incomplete_season_resumes_from_its_highest_cached_game_id(tmp_path):
     with (
-        mock.patch.object(srm, "CACHE_DIR", str(tmp_path)),
+        mock.patch.object(srm, "CBF_CACHE_DIR", str(tmp_path)),
         mock.patch.object(srm, "GAMES_PER_SEASON", 10),
     ):
         srm._save_games("Serie_A", 2020, {"001": _GAME, "005": _GAME})
@@ -74,7 +74,7 @@ def test_resume_from_is_capped_at_games_per_season(tmp_path):
     """A stray game_id beyond GAMES_PER_SEASON (shouldn't normally happen)
     doesn't push resume_from past the season's real size."""
     with (
-        mock.patch.object(srm, "CACHE_DIR", str(tmp_path)),
+        mock.patch.object(srm, "CBF_CACHE_DIR", str(tmp_path)),
         mock.patch.object(srm, "GAMES_PER_SEASON", 5),
     ):
         srm._save_games("Serie_A", 2020, {"001": _GAME, "999": _GAME})
@@ -93,7 +93,7 @@ def test_resume_from_is_capped_at_games_per_season(tmp_path):
 
 def test_a_never_scraped_season_resumes_from_zero(tmp_path):
     with (
-        mock.patch.object(srm, "CACHE_DIR", str(tmp_path)),
+        mock.patch.object(srm, "CBF_CACHE_DIR", str(tmp_path)),
         mock.patch.object(srm, "GAMES_PER_SEASON", 10),
     ):
         captured = {}

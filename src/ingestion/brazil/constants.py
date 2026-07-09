@@ -29,4 +29,4 @@ OUTPUT_PATH = "data/processed/brazil/matches.csv"
 UNMAPPED_LOG_PATH = "data/processed/brazil/unmapped_team_names_log.csv"
 
 # scrape_raw_matches.py
-CACHE_DIR = "data/raw/brazil"
+CBF_CACHE_DIR = "data/raw/brazil/cbf"
