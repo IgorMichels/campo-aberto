@@ -566,6 +566,31 @@ def _tabulate(
     return df.sort_values(sort_col).reset_index(drop=True)
 
 
+def _attach_team_strengths(
+    df: pd.DataFrame, mcmc_fit: CmdStanMCMC, teams: list[str]
+) -> pd.DataFrame:
+    """Posterior MEAN attack/defense per team (columns "attack"/"defense",
+    mapped by df["team"]) + posterior mean eta/beta_home/rho (broadcast as
+    the same scalar on every row) -- a deliberate simplification vs. the
+    full-posterior resampling this module uses for season odds (draw_params
+    inside simulate_competition is already a resampled *subset*; this reads
+    the FULL posterior directly via mcmc_fit.stan_variables(), independent
+    of n_draws/seed, so team strength doesn't jitter between runs).
+    Consumed downstream by src.site.export_matches_data for the Confrontos
+    page's params.json."""
+    stan_vars = mcmc_fit.stan_variables()
+    attack_mean = stan_vars["attack"].mean(axis=0)
+    defense_mean = stan_vars["defense"].mean(axis=0)
+    index = {team: i for i, team in enumerate(teams)}
+    df = df.copy()
+    df["attack"] = df["team"].map(lambda t: float(attack_mean[index[t]]))
+    df["defense"] = df["team"].map(lambda t: float(defense_mean[index[t]]))
+    df["eta"] = float(stan_vars["eta"].mean())
+    df["beta_home"] = float(stan_vars["beta_home"].mean())
+    df["rho"] = float(stan_vars["rho"].mean())
+    return df
+
+
 def simulate_competition(
     config: CompetitionConfig,
     mcmc_fit: CmdStanMCMC,
@@ -631,4 +656,5 @@ def simulate_competition(
                 phase_cfg, phase_results, draw_params, teams, rng
             )
 
-    return _tabulate(config, phase_results, n_draws, rng, guaranteed_slots)
+    result = _tabulate(config, phase_results, n_draws, rng, guaranteed_slots)
+    return _attach_team_strengths(result, mcmc_fit, teams)
