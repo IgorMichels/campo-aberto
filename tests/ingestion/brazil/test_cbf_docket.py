@@ -1,12 +1,12 @@
 """Unit tests for cbf_docket.py's CBF PDF docket fetch/parse. Both requests.get
-and PyPDF2's PdfReader are mocked -- these tests never hit the network or
+and pypdf's PdfReader are mocked -- these tests never hit the network or
 parse a real PDF.
 """
 
 from unittest import mock
 
 import requests
-from PyPDF2.errors import PdfReadError
+from pypdf.errors import PdfReadError
 
 from src.ingestion.brazil import cbf_docket
 

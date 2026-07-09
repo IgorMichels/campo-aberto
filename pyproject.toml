@@ -7,10 +7,10 @@ dependencies = [
     "pandas>=2.0",
     "rapidfuzz>=3.0",
     "requests>=2.31",
-    "pypdf2>=3.0",
     "pyyaml>=6.0",
     "cmdstanpy>=1.2",
     "numpy>=1.26",
+    "pypdf>=6.0",
 ]
 
 [dependency-groups]

@@ -11,8 +11,8 @@ import time
 from typing import Optional
 
 import requests
-from PyPDF2 import PdfReader
-from PyPDF2.errors import PdfReadError
+from pypdf import PdfReader
+from pypdf.errors import PdfReadError
 
 from src.ingestion.brazil.constants import (
     COMPETITION_CODES,
@@ -65,7 +65,7 @@ def _parse_docket(content: bytes) -> Optional[dict]:
         reader = PdfReader(io.BytesIO(content))
         text = "\n".join(page.extract_text() for page in reader.pages)
     except (PdfReadError, ValueError):
-        # PyPDF2 raises assorted errors (not just PdfReadError) on the malformed
+        # pypdf raises assorted errors (not just PdfReadError) on the malformed
         # PDFs CBF occasionally serves; treat any of them as "unparseable".
         return None
 
