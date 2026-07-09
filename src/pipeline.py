@@ -74,7 +74,10 @@ def main() -> None:
 
     df = pd.read_csv(args.matches)
     df["match_datetime"] = pd.to_datetime(df["match_datetime"])
-    reference_date = df["match_datetime"].max()
+    # matches.csv can now contain scheduled/postponed rows with no result
+    # (see build_treated_dataset.py) -- reference_date must still land on the
+    # latest *played* match, not a future fixture's date.
+    reference_date = df[df["home_goals"].notna()]["match_datetime"].max()
 
     print("=== 2/4: fitting poisson_home.stan ===")
     # at least one posterior draw per requested Monte Carlo replicate

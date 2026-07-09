@@ -87,7 +87,12 @@ def main() -> None:
     df = pd.read_csv(args.matches)
     df["match_datetime"] = pd.to_datetime(df["match_datetime"])
     reference_date = (
-        pd.Timestamp(args.reference_date) if args.reference_date else df["match_datetime"].max()
+        pd.Timestamp(args.reference_date)
+        if args.reference_date
+        # matches.csv can now carry scheduled/postponed rows with no result
+        # (see src/ingestion/brazil/build_treated_dataset.py) -- the default
+        # must still land on the latest *played* match, not a future fixture.
+        else df[df["home_goals"].notna()]["match_datetime"].max()
     )
 
     train_df = df[df["match_datetime"] <= reference_date]

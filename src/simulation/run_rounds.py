@@ -67,7 +67,13 @@ def round_reference_dates(df: pd.DataFrame, competition: str, season: int) -> li
     (their time-of-day pushes them past midnight). Landing one day later
     guarantees every match on the round's last day is `<=` reference_date."""
     season_df = df[(df["competition"] == competition) & (df["season"] == season)]
-    days = sorted(season_df["match_datetime"].dt.normalize().unique())
+    # matches.csv can now carry scheduled/postponed rows with no result yet
+    # (see src/ingestion/brazil/build_treated_dataset.py) -- a "round" is
+    # only ever defined by matches that have actually been played, otherwise
+    # a future fixture window would spuriously produce backtest rounds with
+    # no new information.
+    played_season_df = season_df[season_df["home_goals"].notna()]
+    days = sorted(played_season_df["match_datetime"].dt.normalize().unique())
     if not days:
         return []
 

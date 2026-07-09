@@ -74,13 +74,17 @@ def samples_long(mcmc_fit: CmdStanMCMC, teams: list[str]) -> pd.DataFrame:
 
 
 def latest_match_date(matches_path: str) -> str:
-    """Returns the latest match_datetime date (YYYY_MM_DD) in the matches CSV.
+    """Returns the latest *played* match_datetime date (YYYY_MM_DD) in the matches CSV.
 
     Used to stamp a fit run's samples file, so successive runs on growing
-    data can be tracked historically per club.
+    data can be tracked historically per club. matches.csv can now carry
+    scheduled/postponed rows with no result yet (see
+    src/ingestion/brazil/build_treated_dataset.py) -- those must be excluded
+    so the stamp always reflects the data actually fit, not a future fixture.
     """
-    df = pd.read_csv(matches_path, usecols=["match_datetime"])
-    return pd.to_datetime(df["match_datetime"]).max().strftime("%Y_%m_%d")
+    df = pd.read_csv(matches_path, usecols=["match_datetime", "home_goals"])
+    played = df[df["home_goals"].notna()]
+    return pd.to_datetime(played["match_datetime"]).max().strftime("%Y_%m_%d")
 
 
 def save_samples(

@@ -36,6 +36,14 @@ def build_stan_data(
     Returns:
         (stan_data, teams), where teams[i - 1] is the team name for Stan index i.
     """
+    # matches.csv can now contain scheduled/postponed rows with no result
+    # (see src/ingestion/brazil/build_treated_dataset.py) -- only played
+    # matches ever inform the fit. Filtering upcasts home_goals/away_goals
+    # to float64 (pandas' NaN handling), so cast back to int once filtered.
+    df = df[df["home_goals"].notna()].copy()
+    df["home_goals"] = df["home_goals"].astype(int)
+    df["away_goals"] = df["away_goals"].astype(int)
+
     if reference_date is None:
         reference_date = df["match_datetime"].max()
 

@@ -44,7 +44,13 @@ def split_fixtures(
     all_fixtures = {(home, away) for home in teams for away in teams if home != away}
 
     season_df = df[(df["competition"] == competition) & (df["season"] == season)]
-    played_df = season_df[season_df["match_datetime"] <= reference_date]
+    # matches.csv can now carry scheduled/postponed rows with no result (see
+    # src/ingestion/brazil/build_treated_dataset.py) -- guard against a
+    # postponed match's stale original date landing at/before reference_date
+    # while it's still actually unplayed.
+    played_df = season_df[
+        (season_df["match_datetime"] <= reference_date) & season_df["home_goals"].notna()
+    ]
 
     played_results = [
         row
