@@ -2,10 +2,11 @@
 
 A round is a maximal run of consecutive calendar days (gap of at most 1 day)
 that has at least one match for a given competition+season -- e.g. a normal
-weekend or midweek round. Each round's reference_date is its *last* match day
-(the point at which every one of that round's results is known), so running
-this reproduces the timeseries of spot probabilities the way they actually
-evolved across the season, one snapshot per round.
+weekend or midweek round. Each round's reference_date is the day *after* its
+last match day (the first midnight at which every one of that round's
+results is known), so running this reproduces the timeseries of spot
+probabilities the way they actually evolved across the season, one snapshot
+per round.
 
 Loops over every configs/*.yaml whose filename's season suffix (see
 configs/README.md's "Per-season configs" section) is in --seasons, grouping
@@ -57,8 +58,14 @@ def load_configs_by_season(seasons: list[int]) -> dict[int, list[CompetitionConf
 
 
 def round_reference_dates(df: pd.DataFrame, competition: str, season: int) -> list[pd.Timestamp]:
-    """One reference_date per round -- the last calendar day of each maximal
-    run of consecutive match days for this competition+season."""
+    """One reference_date per round -- the day after the last calendar day of
+    each maximal run of consecutive match days for this competition+season.
+
+    Reference dates are always midnight, but real matches aren't, so a
+    reference_date equal to the round's last match day would exclude that
+    same day's matches from any `match_datetime <= reference_date` filter
+    (their time-of-day pushes them past midnight). Landing one day later
+    guarantees every match on the round's last day is `<=` reference_date."""
     season_df = df[(df["competition"] == competition) & (df["season"] == season)]
     days = sorted(season_df["match_datetime"].dt.normalize().unique())
     if not days:
@@ -70,7 +77,7 @@ def round_reference_dates(df: pd.DataFrame, competition: str, season: int) -> li
             rounds[-1].append(day)
         else:
             rounds.append([day])
-    return [pd.Timestamp(round_days[-1]) for round_days in rounds]
+    return [pd.Timestamp(round_days[-1]) + pd.Timedelta(days=1) for round_days in rounds]
 
 
 def main() -> None:

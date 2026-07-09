@@ -27,13 +27,14 @@ def test_round_reference_dates_groups_consecutive_days_into_one_round():
 
     dates = round_reference_dates(df, "Serie A", 2025)
 
-    assert dates == [pd.Timestamp("2025-03-02"), pd.Timestamp("2025-03-09")]
+    assert dates == [pd.Timestamp("2025-03-03"), pd.Timestamp("2025-03-10")]
 
 
-def test_round_reference_dates_uses_the_last_day_of_each_round():
+def test_round_reference_dates_uses_the_day_after_the_last_day_of_each_round():
     """A round spanning three consecutive days (gap of exactly 1 between each) is
-    still one round, and its reference_date is the round's last day -- the point
-    at which every one of that round's results is actually known."""
+    still one round, and its reference_date is the day after the round's last day
+    -- the first midnight at which every one of that round's results (played at
+    whatever time of day) is actually known."""
     df = _matches_df(
         [
             {"competition": "Serie A", "season": 2025, "match_datetime": "2025-03-01"},
@@ -42,7 +43,7 @@ def test_round_reference_dates_uses_the_last_day_of_each_round():
         ]
     )
 
-    assert round_reference_dates(df, "Serie A", 2025) == [pd.Timestamp("2025-03-03")]
+    assert round_reference_dates(df, "Serie A", 2025) == [pd.Timestamp("2025-03-04")]
 
 
 def test_round_reference_dates_filters_by_competition_and_season():
@@ -54,7 +55,7 @@ def test_round_reference_dates_filters_by_competition_and_season():
         ]
     )
 
-    assert round_reference_dates(df, "Serie A", 2025) == [pd.Timestamp("2025-03-01")]
+    assert round_reference_dates(df, "Serie A", 2025) == [pd.Timestamp("2025-03-02")]
 
 
 def test_round_reference_dates_returns_empty_list_when_no_matches():
