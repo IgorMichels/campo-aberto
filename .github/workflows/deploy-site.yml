@@ -1,9 +1,10 @@
 name: Deploy site
 
 on:
-  push:
+  workflow_run:
+    workflows: ["Quality checks"]
+    types: [completed]
     branches: [main]
-    paths: ["site/**"]
   workflow_dispatch:
 
 permissions:
@@ -17,18 +18,37 @@ concurrency:
 
 jobs:
   deploy:
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          fetch-depth: 2
+
+      - name: Check if site/ changed
+        id: filter
+        if: github.event_name != 'workflow_dispatch'
+        run: |
+          if git diff --quiet HEAD^ HEAD -- site/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - uses: actions/configure-pages@v5
+        if: github.event_name == 'workflow_dispatch' || steps.filter.outputs.changed == 'true'
 
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name == 'workflow_dispatch' || steps.filter.outputs.changed == 'true'
         with:
           path: site
 
       - id: deployment
         uses: actions/deploy-pages@v4
+        if: github.event_name == 'workflow_dispatch' || steps.filter.outputs.changed == 'true'
