@@ -1,4 +1,4 @@
-"""Orchestrates the full campo-aberto pipeline end to end: scraping -> fit -> simulation.
+"""Orchestrates the full campo-aberto pipeline end to end: scraping -> fit -> simulation -> site export.
 
 1. Scrapes fresh Brazil match dockets and rebuilds the treated matches CSV
    (src.ingestion.brazil.run_pipeline).
@@ -7,6 +7,9 @@
 3. Simulates the rest of the season as of the latest known match and reports
    title / continental / promotion / relegation probabilities
    (src.simulation.simulate).
+4. Exports the fresh data/results/ snapshots into the static site's committed
+   data (src.site.export_site_data). The site/ output still needs to be
+   committed and pushed for a deploy to actually go out -- see site/README.md.
 """
 
 import argparse
@@ -21,12 +24,14 @@ from src.constants import (
     DEFAULT_N_DRAWS,
     DEFAULT_SEASON,
     DEFAULT_SEED,
+    SITE_DIR,
 )
 from src.ingestion.brazil import build_treated_dataset, scrape_raw_matches
 from src.models.fit import fit, save_samples
 from src.simulation.config import load_competition_config
 from src.simulation.results import save_results
 from src.simulation.simulate import simulate_competition
+from src.site.export_site_data import export_site_data
 
 
 def _parse_guaranteed_slots(entries: list[str]) -> dict[str, list[str]]:
@@ -61,7 +66,7 @@ def main() -> None:
     args = parser.parse_args()
     guaranteed_slots = _parse_guaranteed_slots(args.guaranteed_slot)
 
-    print("=== 1/3: scraping + building treated dataset ===")
+    print("=== 1/4: scraping + building treated dataset ===")
     scrape_raw_matches.main()
     build_treated_dataset.main()
 
@@ -69,7 +74,7 @@ def main() -> None:
     df["match_datetime"] = pd.to_datetime(df["match_datetime"])
     reference_date = df["match_datetime"].max()
 
-    print("=== 2/3: fitting poisson_home.stan ===")
+    print("=== 2/4: fitting poisson_home.stan ===")
     # at least one posterior draw per requested Monte Carlo replicate
     iter_sampling = -(-args.n_draws // args.chains)
     mcmc_fit, teams = fit(
@@ -82,7 +87,7 @@ def main() -> None:
     samples_path = save_samples(mcmc_fit, teams, args.matches)
     print(f"Saved samples to {samples_path}")
 
-    print("=== 3/3: simulating the rest of the season ===")
+    print("=== 3/4: simulating the rest of the season ===")
     for config_path in args.configs:
         config = load_competition_config(config_path)
         result = simulate_competition(
@@ -101,6 +106,12 @@ def main() -> None:
 
         results_path = save_results(result, config.name, args.season, reference_date)
         print(f"Saved results to {results_path}")
+
+    print("=== 4/4: exporting site data ===")
+    export_site_data()
+    print(
+        f"Site data refreshed under {SITE_DIR}/data -- review and commit that directory to deploy."
+    )
 
 
 if __name__ == "__main__":
