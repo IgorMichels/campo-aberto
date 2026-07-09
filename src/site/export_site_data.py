@@ -11,9 +11,11 @@ reference-date snapshot, each paired with a real (not simulated) standings
 table as of that same date -- see src.simulation.fixtures.split_fixtures +
 src.simulation.standings.team_records.
 
-Must be re-run (and its site/ output committed) after every
-`python -m src.pipeline`, since data/results/ never reaches git/CI on its
-own -- see site/README.md.
+Run as the last step of `python -m src.pipeline`; its site/ output still
+needs to be reviewed and committed for a deploy to go out, since
+data/results/ never reaches git/CI on its own -- see site/README.md.
+Can also be run standalone, e.g. after editing configs/*.yaml or
+data/club_infos.csv without rerunning the full pipeline:
 
     python -m src.site.export_site_data
 """
