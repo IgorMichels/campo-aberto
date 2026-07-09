@@ -22,7 +22,9 @@ def fit_stan_data(stan_data: dict, **sample_kwargs) -> CmdStanMCMC:
     return model.sample(data=stan_data, **sample_kwargs)
 
 
-def fit(matches_path: str, reference_date: pd.Timestamp | None = None, **sample_kwargs) -> tuple[CmdStanMCMC, list[str]]:
+def fit(
+    matches_path: str, reference_date: pd.Timestamp | None = None, **sample_kwargs
+) -> tuple[CmdStanMCMC, list[str]]:
     """Compiles poisson_home.stan and samples it on the given matches CSV.
 
     Args:

@@ -45,7 +45,9 @@ def _config():
 
 def _run(config, order, playoff_winners, guaranteed_slots=None):
     league_result = RoundRobinResult(group_orders=[{"_all": order}], group_all_results=None)
-    playoff_result = PlayoffResult(winners={i: np.array([winner]) for i, winner in enumerate(playoff_winners)})
+    playoff_result = PlayoffResult(
+        winners={i: np.array([winner]) for i, winner in enumerate(playoff_winners)}
+    )
     df = _tabulate(
         config,
         {"league": league_result, "playoff": playoff_result},
@@ -102,7 +104,10 @@ def test_no_cascade_so_guaranteed_slots_have_no_effect(teams20):
     order = make_order(teams20)
     without = _run(_config(), order, playoff_winners=["T3", "T4"])
     with_guarantee = _run(
-        _config(), order, playoff_winners=["T3", "T4"], guaranteed_slots={"T9": ["direct_promotion"]}
+        _config(),
+        order,
+        playoff_winners=["T3", "T4"],
+        guaranteed_slots={"T9": ["direct_promotion"]},
     )
 
     assert without.equals(with_guarantee)

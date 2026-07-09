@@ -37,10 +37,20 @@ def test_result_pattern_does_not_match_garbage():
 
 
 def test_load_raw_games_reads_every_cached_season(tmp_path):
-    game = {"Date": "08/08/2020", "Time": "19:00", "Stadium": "X", "Home": "A", "Away": "B", "Result": "1 X 0"}
+    game = {
+        "Date": "08/08/2020",
+        "Time": "19:00",
+        "Stadium": "X",
+        "Home": "A",
+        "Away": "B",
+        "Result": "1 X 0",
+    }
     cache_dir = str(tmp_path)
 
-    with mock.patch.object(srm, "CACHE_DIR", cache_dir), mock.patch.object(btd, "CACHE_DIR", cache_dir):
+    with (
+        mock.patch.object(srm, "CACHE_DIR", cache_dir),
+        mock.patch.object(btd, "CACHE_DIR", cache_dir),
+    ):
         srm._save_games("Serie_A", 2020, {"001": game})
         srm._save_games("Serie_B", 2021, {"001": game})
 
@@ -70,7 +80,9 @@ def test_main_writes_treated_matches_and_logs_unmapped_names(tmp_path):
         mock.patch.object(btd, "CACHE_DIR", cache_dir),
         mock.patch.object(btd, "OUTPUT_PATH", output_path),
         mock.patch.object(btd, "UNMAPPED_LOG_PATH", unmapped_path),
-        mock.patch.object(btd, "load_mapping", functools.partial(tnm.load_mapping, path=mapping_path)),
+        mock.patch.object(
+            btd, "load_mapping", functools.partial(tnm.load_mapping, path=mapping_path)
+        ),
     ):
         srm._save_games("Serie_A", 2020, {"001": game1})
 
@@ -113,7 +125,9 @@ def test_main_never_writes_to_the_mapping_file(tmp_path):
         mock.patch.object(btd, "CACHE_DIR", cache_dir),
         mock.patch.object(btd, "OUTPUT_PATH", output_path),
         mock.patch.object(btd, "UNMAPPED_LOG_PATH", unmapped_path),
-        mock.patch.object(btd, "load_mapping", functools.partial(tnm.load_mapping, path=mapping_path)),
+        mock.patch.object(
+            btd, "load_mapping", functools.partial(tnm.load_mapping, path=mapping_path)
+        ),
     ):
         srm._save_games("Serie_A", 2020, {"001": game})
 

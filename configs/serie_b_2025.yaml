@@ -22,8 +22,8 @@ phases:
     head_to_head_mode: goal_diff_only
     spots:
       - name: title
-        positions: {from: 1, to: 1}
+        positions: { from: 1, to: 1 }
       - name: direct_promotion
-        positions: {from: 1, to: 4} # promoted to Serie A outright -- no access playoff this season
+        positions: { from: 1, to: 4 } # promoted to Serie A outright -- no access playoff this season
       - name: rebaixamento
-        positions: {from: 17, to: 20} # relegated to Serie C (Art. 5)
+        positions: { from: 17, to: 20 } # relegated to Serie C (Art. 5)

@@ -95,7 +95,9 @@ def test_matches_older_than_cutoff_are_dropped_entirely():
 def test_cutoff_can_remove_a_team_from_the_roster_entirely():
     df = pd.DataFrame(
         [
-            _match("X League", 2026, "2020-01-01", "Ghost FC", "A FC", 1, 0),  # Ghost FC's only match
+            _match(
+                "X League", 2026, "2020-01-01", "Ghost FC", "A FC", 1, 0
+            ),  # Ghost FC's only match
             _match("X League", 2026, "2026-01-01", "A FC", "B FC", 2, 2),
         ]
     )
@@ -109,9 +111,9 @@ def test_cutoff_can_remove_a_team_from_the_roster_entirely():
 
 def test_load_stan_data_reads_csv_and_parses_match_datetime(tmp_path):
     csv_path = tmp_path / "matches.csv"
-    pd.DataFrame(
-        [_match("Generic League", 2026, "2026-01-01", "A FC", "B FC", 1, 0)]
-    ).to_csv(csv_path, index=False)
+    pd.DataFrame([_match("Generic League", 2026, "2026-01-01", "A FC", "B FC", 1, 0)]).to_csv(
+        csv_path, index=False
+    )
 
     stan_data, teams = load_stan_data(str(csv_path))
 

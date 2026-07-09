@@ -59,7 +59,9 @@ def build_stan_data(
     return stan_data, teams
 
 
-def load_stan_data(matches_path: str, reference_date: pd.Timestamp | None = None, **kwargs) -> tuple[dict, list[str]]:
+def load_stan_data(
+    matches_path: str, reference_date: pd.Timestamp | None = None, **kwargs
+) -> tuple[dict, list[str]]:
     """Loads a matches CSV and builds the data dict expected by poisson_home.stan.
 
     Args:

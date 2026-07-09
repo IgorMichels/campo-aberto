@@ -152,7 +152,9 @@
       <div class="sticker-wrapper"
         style="--rand-rot: ${randomRot}deg; --rand-y: ${randomY}px;"
         data-search="${escapeHTML(searchText)}">
-        <div class="sticker-container ${borderClass}" style="--home-color: ${match.home_color}; --away-color: ${match.away_color};">
+        <div class="sticker-container ${borderClass}" style="--home-color: ${
+          match.home_color
+        }; --away-color: ${match.away_color};">
           <div class="sticker-bg-blur"></div>
 
           <div class="sticker-glass">
@@ -163,7 +165,9 @@
 
             <div class="sticker-header">
               <div class="team">
-                <div class="sticker-crest"><img src="${match.home_crest}" alt="${escapeHTML(match.home_team)}"></div>
+                <div class="sticker-crest"><img src="${match.home_crest}" alt="${escapeHTML(
+                  match.home_team,
+                )}"></div>
                 <div class="team-name">${escapeHTML(match.home_team)}</div>
               </div>
 
@@ -173,7 +177,9 @@
               </div>
 
               <div class="team">
-                <div class="sticker-crest"><img src="${match.away_crest}" alt="${escapeHTML(match.away_team)}"></div>
+                <div class="sticker-crest"><img src="${match.away_crest}" alt="${escapeHTML(
+                  match.away_team,
+                )}"></div>
                 <div class="team-name">${escapeHTML(match.away_team)}</div>
               </div>
             </div>

@@ -3,7 +3,7 @@
 This directory is the deployable output of the results website: a static
 page (plain HTML/CSS/vanilla JS, no build step) rendered from the simulation
 outputs under `data/results/` (git-ignored). Unlike `data/results/`, this
-directory *is* tracked -- what's committed here is exactly what gets served.
+directory _is_ tracked -- what's committed here is exactly what gets served.
 
 A push to `main` that touches this directory triggers
 `.github/workflows/deploy-site.yml`, which deploys it to GitHub Pages

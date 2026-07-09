@@ -37,15 +37,15 @@ phases:
     head_to_head_mode: points_then_goal_diff
     spots:
       - name: title
-        positions: {from: 1, to: 1}
+        positions: { from: 1, to: 1 }
       - name: libertadores_grupos
-        positions: {from: 1, to: 4} # CONMEBOL Libertadores 2026, group stage
+        positions: { from: 1, to: 4 } # CONMEBOL Libertadores 2026, group stage
       - name: libertadores_pre
-        positions: {from: 5, to: 6} # Libertadores 2026, preliminary phase -- 2 slots this season
+        positions: { from: 5, to: 6 } # Libertadores 2026, preliminary phase -- 2 slots this season
       - name: sulamericana
-        positions: {from: 7, to: 12} # CONMEBOL Sul-Americana 2026
+        positions: { from: 7, to: 12 } # CONMEBOL Sul-Americana 2026
       - name: rebaixamento
-        positions: {from: 17, to: 20} # relegated to Serie B (Art. 8)
+        positions: { from: 17, to: 20 } # relegated to Serie B (Art. 8)
     # Priority order (best first) for Copa do Brasil guaranteed-slot cascading
     # -- see guaranteed_slots in configs/README.md. title is deliberately
     # excluded: it's a bonus nested inside libertadores_grupos, not a
