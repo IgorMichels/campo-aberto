@@ -11,9 +11,14 @@ A push to `main` that touches this directory triggers
 
 ## Regenerating
 
-After running `python -m src.pipeline`, regenerate this directory's data and
-commit the result -- that commit is what actually triggers a new deploy,
-since `data/results/` itself never reaches git or CI:
+`python -m src.pipeline` regenerates this directory's data as its last step
+(calling `src.site.export_site_data`). Review and commit the result -- that
+commit is what actually triggers a new deploy, since `data/results/` itself
+never reaches git or CI.
+
+To regenerate just the site data (e.g. after editing `configs/*.yaml` or
+`data/club_infos.csv` without rerunning the full pipeline), run the export
+on its own:
 
 ```bash
 python -m src.site.export_site_data
