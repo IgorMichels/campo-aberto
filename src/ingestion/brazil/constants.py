@@ -27,6 +27,7 @@ SUGGESTION_COUNT = 3
 # build_treated_dataset.py
 OUTPUT_PATH = "data/processed/brazil/matches.csv"
 UNMAPPED_LOG_PATH = "data/processed/brazil/unmapped_team_names_log.csv"
+DISCREPANCY_LOG_PATH = "data/processed/brazil/score_discrepancies.csv"
 
 # scrape_raw_matches.py
 CBF_CACHE_DIR = "data/raw/brazil/cbf"

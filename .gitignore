@@ -223,6 +223,7 @@ data/results/
 # Treated dataset (reproducible from data/raw/ + team_name_mapping.csv)
 data/processed/brazil/matches.csv
 data/processed/brazil/unmapped_team_names_log.csv
+data/processed/brazil/score_discrepancies.csv
 
 # Crest images (third-party, refetchable; only the subset a site export
 # actually uses gets copied into site/assets/crests/, which is tracked)
