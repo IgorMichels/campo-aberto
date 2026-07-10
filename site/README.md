@@ -24,6 +24,21 @@ on its own:
 python -m src.site.export_site_data
 ```
 
+To regenerate the Confrontos data (`matches_manifest.json`,
+`<slug>/matches_<season>.json`, `params.json`), run:
+
+```bash
+python -m src.site.export_matches_data
+```
+
+This must run _after_ `python -m src.ingestion.brazil.run_pipeline` (which
+produces the merged `matches.csv` its upcoming-fixture cards read from) and
+_after_ `python -m src.simulation.run_rounds` / `python -m src.pipeline`
+(which produce the `attack`/`defense`/`eta`/`beta_home`/`rho` columns on
+`data/results/` that `params.json` is built from). `python -m src.pipeline`
+does not call `export_matches_data` for you -- run it as a separate step
+once both of the above are up to date.
+
 ## Data schema
 
 `data/manifest.json`: `{"competitions": [{"competition": "Serie A", "slug": "serie_a", "seasons": [2025, 2026]}, ...]}`.
@@ -73,14 +88,115 @@ python -m src.site.export_site_data
   as of that snapshot's date, computed from `data/processed/brazil/matches.csv`.
 - `crest`/`color` are `site`-root-relative image path / hex color, used as-is.
 
-## Confrontos (mocked)
+## Confrontos
 
 `matches.html` shows one match-score-probability "sticker" per game (a
 5x5 heatmap of scoreline probabilities plus a home/draw/away win bar),
-inspired by the WorldCup2026 project's `previsoes.html` sticker cards.
-Unlike the rest of the site, its data (`data/{serie_a,serie_b}/stickers_*.json`)
-is **not** produced by `src.site.export_site_data` -- there is no per-match
-scoreline model in this project yet, so those files hold fictitious,
-randomly generated round-robin matchups and probabilities, purely to
-demonstrate the page. Regenerate/replace them by hand until a real
-match-level model exists.
+inspired by the WorldCup2026 project's `previsoes.html` sticker cards. Two
+sources feed the page:
+
+1. **Real, not-yet-played fixtures** -- one card per unplayed row in
+   `data/processed/brazil/matches.csv` (the unified CBF+ESPN dataset, see
+   below), soonest-first, plus a "Data a definir" bucket for postponed
+   matches with no confirmed date.
+2. **A FIFA-style free-pick builder** -- choose a competition then a team,
+   for both home and away (any two teams, any competition/season, including
+   cross-division matchups), and see a live scoreline grid for a matchup
+   that may never actually be scheduled.
+
+Both card types are computed the same way, by the same client-side JS
+function -- there is no separate "real fixture" vs. "free pick" formula.
+
+### Data lineage
+
+`data/processed/brazil/matches.csv` is the single source of truth for every
+match, played or not: CBF's official docket score wins whenever available;
+ESPN's public scoreboard API fills in the schedule (and, for a match CBF
+hasn't confirmed yet, the only date available at all). Produced by
+`python -m src.ingestion.brazil.run_pipeline` (or `python -m src.pipeline`),
+which now also fetches ESPN's fixture list and merges it into `matches.csv`
+alongside CBF's results -- see `data/processed/brazil/README.md` for the
+merge precedence and the `score_discrepancies.csv` sanity report.
+
+`data/results/<slug>/<season>/<date>.csv` (produced by
+`python -m src.simulation.run_rounds` / `python -m src.pipeline`) carries,
+alongside its existing `team`/`expected_position`/`prob_*` columns, each
+team's posterior-**mean** `attack`/`defense` plus the shared posterior-mean
+`eta`/`beta_home`/`rho` from that round's Stan fit. `export_matches_data`
+reads the single globally-latest such file for the shared scalars, and the
+union of every competition's own latest file for the `teams` dict (Serie A
+and Serie B are fit jointly, so their `attack`/`defense` values already
+live on one shared scale, even when their schedules have drifted to
+different latest-played dates).
+
+### Scoreline math: client-side JS, one implementation
+
+All scoreline probabilities -- for both real-fixture cards and free-pick
+cards -- are computed live in the browser by `assets/js/dixon_coles.js`
+(`window.DixonColes.matchRates` / `.scorelineProbabilities`), a
+Dixon-Coles-adjusted independent-Poisson model: the same closed form
+`src/models/poisson_home.stan` fits and `src/simulation/simulate.py`
+already codes as a rejection-sampling bound, evaluated here as an explicit
+probability instead. There is deliberately no Python port of this formula
+-- every parameter it needs (`attack`/`defense` per team, `eta`,
+`beta_home`, `rho`) is already shipped to the browser in `params.json`, so
+a server-side implementation would be pure duplication.
+
+### Data schema
+
+`data/matches_manifest.json` -- same shape as `manifest.json`, but scoped
+to "has upcoming fixtures right now" rather than "has ever been
+backtested" (a finished season/competition simply has no entry):
+
+```json
+{"competitions": [{"competition": "Serie A", "slug": "serie_a", "seasons": [2026]}, ...]}
+```
+
+`data/<slug>/matches_<season>.json` -- one entry per real, not-yet-played
+match. No probabilities here; they're computed client-side from
+`params.json`. Sorted scheduled-first-by-date, then postponed last
+(alphabetical by home team):
+
+```json
+{
+  "matches": [
+    {
+      "home_team": "Atlético Mineiro / MG",
+      "away_team": "Flamengo / RJ",
+      "home_crest": "assets/crests/atl_mg.png",
+      "away_crest": "assets/crests/flarj.png",
+      "home_color": "#000000",
+      "away_color": "#C1121F",
+      "date": "2026-07-21T22:30:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "...",
+      "away_team": "...",
+      "home_crest": "...",
+      "away_crest": "...",
+      "home_color": "...",
+      "away_color": "...",
+      "date": null,
+      "status": "postponed"
+    }
+  ]
+}
+```
+
+`data/params.json` -- the shared model parameters every card (real fixture
+or free pick) is computed from, entirely in the browser:
+
+```json
+{
+  "reference_date": "2026-07-09",
+  "eta": 0.021,
+  "beta_home": 0.318,
+  "rho": 0.026,
+  "teams": { "Flamengo / RJ": { "attack": 0.41, "defense": 0.18 }, "...": "..." }
+}
+```
+
+The free-pick builder's team rosters (names/crests/colors, not strengths)
+are read from the already-existing `data/<slug>/<season>.json` files above,
+filtered to teams present in `params.json`'s `teams` dict.
