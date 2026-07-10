@@ -32,13 +32,11 @@ parameters {
   real eta;
   real beta_home;
   real<lower=-0.5, upper=0.5> rho;
-  real<lower=0.01, upper=5> sigma_att;
-  real<lower=0.01, upper=5> sigma_def;
 }
 
 transformed parameters {
-  vector[T] attack_raw = attack_raw_std * sigma_att;
-  vector[T] defense_raw = defense_raw_std * sigma_def;
+  vector[T] attack_raw = attack_raw_std;
+  vector[T] defense_raw = defense_raw_std;
   vector[T] attack = attack_raw - mean(attack_raw);
   vector[T] defense = defense_raw - mean(defense_raw);
 }
@@ -49,8 +47,6 @@ model {
   eta ~ normal(0, 1);
   beta_home ~ normal(0, 0.5);
   rho ~ normal(0, 0.1);
-  sigma_att ~ cauchy(0, 2.5);
-  sigma_def ~ cauchy(0, 2.5);
 
   for (n in 1:N) {
     real mu = exp(attack[team_i[n]] - defense[team_j[n]] + eta + beta_home);
