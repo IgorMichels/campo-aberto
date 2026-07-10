@@ -1,0 +1,294 @@
+{
+  "matches": [
+    {
+      "home_team": "Juventude / RS",
+      "away_team": "Vila Nova / GO",
+      "home_crest": "assets/crests/juventude.png",
+      "away_crest": "assets/crests/vilago.png",
+      "home_color": "#008000",
+      "away_color": "#FDF40F",
+      "date": "2026-07-10T22:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Sport / PE",
+      "away_team": "Botafogo / SP",
+      "home_crest": "assets/crests/sport.png",
+      "away_crest": "assets/crests/botafogosp_bra.png",
+      "home_color": "#CC001A",
+      "away_color": "#E52D2D",
+      "date": "2026-07-10T23:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Operário / PR",
+      "away_team": "Novorizontino / SP",
+      "home_crest": "assets/crests/operario_pr.png",
+      "away_crest": "assets/crests/novorizontino.png",
+      "home_color": "#000000",
+      "away_color": "#F6E32F",
+      "date": "2026-07-12T14:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Avaí / SC",
+      "away_team": "Náutico / PE",
+      "home_crest": "assets/crests/avai_bra.png",
+      "away_crest": "assets/crests/nautico.png",
+      "home_color": "#005AB2",
+      "away_color": "#ED1C24",
+      "date": "2026-07-12T19:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "São Bernardo / SP",
+      "away_team": "Cuiabá / MT",
+      "home_crest": "assets/crests/saobernardosp.png",
+      "away_crest": "assets/crests/cuiaba_bra.png",
+      "home_color": "#FFD100",
+      "away_color": "#006633",
+      "date": "2026-07-12T19:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Atlético Goianiense / GO",
+      "away_team": "Fortaleza / CE",
+      "home_crest": "assets/crests/atleticogo_bra.png",
+      "away_crest": "assets/crests/fortaleza.png",
+      "home_color": "#CC0000",
+      "away_color": "#006CB5",
+      "date": "2026-07-12T21:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "CRB / AL",
+      "away_team": "Goiás / GO",
+      "home_crest": "assets/crests/crb_bra.png",
+      "away_crest": "assets/crests/goias.png",
+      "home_color": "#ED1C2A",
+      "away_color": "#006633",
+      "date": "2026-07-12T22:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "América / MG",
+      "away_team": "Londrina / PR",
+      "home_crest": "assets/crests/americamg_bra.png",
+      "away_crest": "assets/crests/londrina_pr.png",
+      "home_color": "#006140",
+      "away_color": "#E5292E",
+      "date": "2026-07-13T22:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Ceará / CE",
+      "away_team": "Athletic / MG",
+      "home_crest": "assets/crests/ceara_bra.png",
+      "away_crest": "assets/crests/athletic_mg.png",
+      "home_color": "#000000",
+      "away_color": "#000000",
+      "date": "2026-07-13T23:30:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "CRB / AL",
+      "away_team": "Náutico / PE",
+      "home_crest": "assets/crests/crb_bra.png",
+      "away_crest": "assets/crests/nautico.png",
+      "home_color": "#ED1C2A",
+      "away_color": "#ED1C24",
+      "date": "2026-07-16T23:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "América / MG",
+      "away_team": "Ceará / CE",
+      "home_crest": "assets/crests/americamg_bra.png",
+      "away_crest": "assets/crests/ceara_bra.png",
+      "home_color": "#006140",
+      "away_color": "#000000",
+      "date": "2026-07-17T22:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Juventude / RS",
+      "away_team": "Cuiabá / MT",
+      "home_crest": "assets/crests/juventude.png",
+      "away_crest": "assets/crests/cuiaba_bra.png",
+      "home_color": "#008000",
+      "away_color": "#006633",
+      "date": "2026-07-17T22:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "São Bernardo / SP",
+      "away_team": "Avaí / SC",
+      "home_crest": "assets/crests/saobernardosp.png",
+      "away_crest": "assets/crests/avai_bra.png",
+      "home_color": "#FFD100",
+      "away_color": "#005AB2",
+      "date": "2026-07-17T22:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Londrina / PR",
+      "away_team": "Botafogo / SP",
+      "home_crest": "assets/crests/londrina_pr.png",
+      "away_crest": "assets/crests/botafogosp_bra.png",
+      "home_color": "#E5292E",
+      "away_color": "#E52D2D",
+      "date": "2026-07-18T00:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Fortaleza / CE",
+      "away_team": "Novorizontino / SP",
+      "home_crest": "assets/crests/fortaleza.png",
+      "away_crest": "assets/crests/novorizontino.png",
+      "home_color": "#006CB5",
+      "away_color": "#F6E32F",
+      "date": "2026-07-18T00:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Criciúma / SC",
+      "away_team": "Vila Nova / GO",
+      "home_crest": "assets/crests/criciuma_bra.png",
+      "away_crest": "assets/crests/vilago.png",
+      "home_color": "#FFCC00",
+      "away_color": "#FDF40F",
+      "date": "2026-07-18T19:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Ponte Preta / SP",
+      "away_team": "Goiás / GO",
+      "home_crest": "assets/crests/pontepreta_bra.png",
+      "away_crest": "assets/crests/goias.png",
+      "home_color": "#000000",
+      "away_color": "#006633",
+      "date": "2026-07-18T19:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Sport / PE",
+      "away_team": "Operário / PR",
+      "home_crest": "assets/crests/sport.png",
+      "away_crest": "assets/crests/operario_pr.png",
+      "home_color": "#CC001A",
+      "away_color": "#000000",
+      "date": "2026-07-18T19:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Atlético Goianiense / GO",
+      "away_team": "Athletic / MG",
+      "home_crest": "assets/crests/atleticogo_bra.png",
+      "away_crest": "assets/crests/athletic_mg.png",
+      "home_color": "#CC0000",
+      "away_color": "#000000",
+      "date": "2026-07-20T23:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Avaí / SC",
+      "away_team": "América / MG",
+      "home_crest": "assets/crests/avai_bra.png",
+      "away_crest": "assets/crests/americamg_bra.png",
+      "home_color": "#005AB2",
+      "away_color": "#006140",
+      "date": "2026-07-21T22:30:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Novorizontino / SP",
+      "away_team": "Criciúma / SC",
+      "home_crest": "assets/crests/novorizontino.png",
+      "away_crest": "assets/crests/criciuma_bra.png",
+      "home_color": "#F6E32F",
+      "away_color": "#FFCC00",
+      "date": "2026-07-21T22:30:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Vila Nova / GO",
+      "away_team": "Fortaleza / CE",
+      "home_crest": "assets/crests/vilago.png",
+      "away_crest": "assets/crests/fortaleza.png",
+      "home_color": "#FDF40F",
+      "away_color": "#006CB5",
+      "date": "2026-07-22T00:35:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Ceará / CE",
+      "away_team": "CRB / AL",
+      "home_crest": "assets/crests/ceara_bra.png",
+      "away_crest": "assets/crests/crb_bra.png",
+      "home_color": "#000000",
+      "away_color": "#ED1C2A",
+      "date": "2026-07-22T22:30:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Operário / PR",
+      "away_team": "Ponte Preta / SP",
+      "home_crest": "assets/crests/operario_pr.png",
+      "away_crest": "assets/crests/pontepreta_bra.png",
+      "home_color": "#000000",
+      "away_color": "#000000",
+      "date": "2026-07-22T22:30:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Goiás / GO",
+      "away_team": "Sport / PE",
+      "home_crest": "assets/crests/goias.png",
+      "away_crest": "assets/crests/sport.png",
+      "home_color": "#006633",
+      "away_color": "#CC001A",
+      "date": "2026-07-22T23:30:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Náutico / PE",
+      "away_team": "Londrina / PR",
+      "home_crest": "assets/crests/nautico.png",
+      "away_crest": "assets/crests/londrina_pr.png",
+      "home_color": "#ED1C24",
+      "away_color": "#E5292E",
+      "date": "2026-07-23T00:30:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Athletic / MG",
+      "away_team": "São Bernardo / SP",
+      "home_crest": "assets/crests/athletic_mg.png",
+      "away_crest": "assets/crests/saobernardosp.png",
+      "home_color": "#000000",
+      "away_color": "#FFD100",
+      "date": "2026-07-23T22:30:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Cuiabá / MT",
+      "away_team": "Atlético Goianiense / GO",
+      "home_crest": "assets/crests/cuiaba_bra.png",
+      "away_crest": "assets/crests/atleticogo_bra.png",
+      "home_color": "#006633",
+      "away_color": "#CC0000",
+      "date": "2026-07-23T23:30:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Botafogo / SP",
+      "away_team": "Juventude / RS",
+      "home_crest": "assets/crests/botafogosp_bra.png",
+      "away_crest": "assets/crests/juventude.png",
+      "home_color": "#E52D2D",
+      "away_color": "#008000",
+      "date": "2026-07-24T00:30:00Z",
+      "status": "scheduled"
+    }
+  ]
+}
