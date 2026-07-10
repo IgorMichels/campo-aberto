@@ -33,13 +33,9 @@
         </div>
       </div>
 
-      <p class="mock-disclaimer">
-        Confrontos e probabilidades fictícios, gerados apenas para demonstrar esta página -- ainda
-        não há um modelo de placares por partida em produção.
-      </p>
+      <p class="model-note" id="model-note"></p>
 
       <div class="round-bar">
-        <span class="round-label" id="round-label"></span>
         <div class="search-wrap">
           <span class="search-icon">&#128269;</span>
           <input
@@ -63,6 +59,40 @@
       </div>
 
       <p class="status-message" id="status-message" hidden></p>
+
+      <section class="confronto-builder">
+        <h2 class="builder-title">Monte seu confronto</h2>
+        <p class="builder-subtitle">
+          Escolha a competição e o time de cada lado -- qualquer combinação, inclusive entre
+          divisões diferentes.
+        </p>
+
+        <div class="builder-grid">
+          <div class="builder-side" data-side="home">
+            <label for="builder-home-competition">Competição (casa)</label>
+            <select class="competition-select" id="builder-home-competition"></select>
+
+            <label for="builder-home-team">Time da casa</label>
+            <select class="team-select" id="builder-home-team"></select>
+
+            <div class="crest-preview" id="builder-home-crest"></div>
+          </div>
+
+          <div class="builder-vs" aria-hidden="true">&times;</div>
+
+          <div class="builder-side" data-side="away">
+            <label for="builder-away-competition">Competição (visitante)</label>
+            <select class="competition-select" id="builder-away-competition"></select>
+
+            <label for="builder-away-team">Time visitante</label>
+            <select class="team-select" id="builder-away-team"></select>
+
+            <div class="crest-preview" id="builder-away-crest"></div>
+          </div>
+        </div>
+
+        <div class="builder-result" id="builder-result"></div>
+      </section>
     </main>
 
     <div class="sticker-modal" id="sticker-modal">
@@ -79,6 +109,7 @@
       </p>
     </footer>
 
+    <script src="assets/js/dixon_coles.js"></script>
     <script src="assets/js/matches.js"></script>
   </body>
 </html>
