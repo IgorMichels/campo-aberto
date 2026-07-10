@@ -74,6 +74,37 @@ def test_split_fixtures_does_not_treat_a_stale_dated_unplayed_row_as_played():
     assert ("Beta FC", "Alpha FC") in remaining
 
 
+def test_split_fixtures_casts_goals_back_to_int_despite_unplayed_rows_in_the_same_season():
+    """A DataFrame mixing played (int-looking) and unplayed (None) goals has
+    home_goals/away_goals upcast to float64 by pandas (same reason
+    build_stan_data casts back in src/models/data.py) -- played_results'
+    goals must still come out as real ints, not e.g. 2.0, since they feed
+    src.simulation.standings' goals_for/goals_against accumulation and,
+    from there, the exported standings JSON."""
+    df = pd.DataFrame(
+        [
+            _match("Serie A", 2026, "2026-01-01", "Alpha FC", "Beta FC", 2, 1),
+            {
+                "competition": "Serie A",
+                "season": 2026,
+                "match_datetime": pd.Timestamp("2026-07-01"),
+                "home_team": "Beta FC",
+                "away_team": "Alpha FC",
+                "home_goals": None,
+                "away_goals": None,
+            },
+        ]
+    )
+    assert df["home_goals"].dtype == "float64"  # sanity check on the premise
+
+    played, _, _ = split_fixtures(df, "Serie A", 2026, reference_date=pd.Timestamp("2026-02-01"))
+
+    home_goals, away_goals = played[0][2], played[0][3]
+    assert (home_goals, away_goals) == (2, 1)
+    assert isinstance(home_goals, int)
+    assert isinstance(away_goals, int)
+
+
 def test_split_fixtures_restricts_to_an_explicit_roster_when_given():
     df = pd.DataFrame(
         [

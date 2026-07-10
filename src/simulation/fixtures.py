@@ -50,7 +50,13 @@ def split_fixtures(
     # while it's still actually unplayed.
     played_df = season_df[
         (season_df["match_datetime"] <= reference_date) & season_df["home_goals"].notna()
-    ]
+    ].copy()
+    # Filtering out the None-goals rows still leaves home_goals/away_goals
+    # upcast to float64 (pandas' NaN handling on the full column) -- cast
+    # back to int so played_results' goals are real ints, not e.g. 2.0,
+    # matching build_stan_data's same fix in src/models/data.py.
+    played_df["home_goals"] = played_df["home_goals"].astype(int)
+    played_df["away_goals"] = played_df["away_goals"].astype(int)
 
     played_results = [
         row
