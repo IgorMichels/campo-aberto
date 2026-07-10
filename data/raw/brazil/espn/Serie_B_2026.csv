@@ -1,0 +1,381 @@
+date,venue,home_team_raw,away_team_raw,home_goals,away_goals,status
+2026-03-21T20:00Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,CRB,2,2,played
+2026-03-21T21:00Z,Arena Castelão,Ceará,São Bernardo,1,1,played
+2026-03-21T21:15Z,Germano Krüger,Operário PR,Atlético Goianiense,1,0,played
+2026-03-21T22:15Z,Estádio Santa Cruz,Botafogo-SP,Fortaleza,4,0,played
+2026-03-21T23:30Z,Arena Pantanal,Cuiabá,Sport,0,0,played
+2026-03-22T19:00Z,Estádio da Ressacada,Avaí,Juventude,2,0,played
+2026-03-22T19:00Z,Estádio dos Aflitos,Náutico,Criciúma,0,1,played
+2026-03-22T21:00Z,Estádio Joaquim Portugal,Athletic,Ponte Preta,2,1,played
+2026-03-22T21:00Z,Estádio da Serrinha,Goiás,América Mineiro,3,1,played
+2026-03-22T23:00Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,Londrina,1,3,played
+2026-03-31T21:30Z,Alfredo Jaconi,Juventude,Novorizontino,0,0,played
+2026-03-31T22:00Z,Arena Castelão,Fortaleza,Cuiabá,0,0,played
+2026-04-01T21:00Z,Arena MRV,América Mineiro,Botafogo-SP,1,2,played
+2026-04-01T22:00Z,Estádio Antônio Accioly,Atlético Goianiense,Náutico,1,2,played
+2026-04-01T22:00Z,Estadio VGD,Londrina,Goiás,2,2,played
+2026-04-01T22:00Z,Ilha do Retiro,Sport,Vila Nova,1,1,played
+2026-04-02T00:00Z,Moisés Lucarelli,Ponte Preta,Ceará,1,1,played
+2026-04-02T00:30Z,Estádio Rei Pelé,CRB,Avaí,0,1,played
+2026-04-02T00:30Z,Heriberto Hülse,Criciúma,Athletic,1,1,played
+2026-04-02T22:00Z,Estádio Primeiro de Maio,São Bernardo,Operário PR,1,2,played
+2026-04-04T19:00Z,Arena Castelão,Fortaleza,Juventude,2,1,played
+2026-04-04T21:00Z,Arena Pantanal,Cuiabá,Ceará,0,2,played
+2026-04-04T21:00Z,Estádio dos Aflitos,Náutico,Ponte Preta,1,0,played
+2026-04-04T23:00Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,Atlético Goianiense,2,1,played
+2026-04-04T23:30Z,Estadio VGD,Londrina,Sport,1,2,played
+2026-04-05T19:00Z,Estádio da Ressacada,Avaí,Operário PR,0,0,played
+2026-04-05T21:00Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,CRB,1,1,played
+2026-04-05T23:00Z,Estádio Joaquim Portugal,Athletic,América Mineiro,1,1,played
+2026-04-05T23:30Z,Estádio Santa Cruz,Botafogo-SP,São Bernardo,1,2,played
+2026-04-07T00:00Z,Estádio da Serrinha,Goiás,Criciúma,1,0,played
+2026-04-10T23:30Z,Heriberto Hülse,Criciúma,Botafogo-SP,1,0,played
+2026-04-11T19:00Z,Alfredo Jaconi,Juventude,Goiás,2,0,played
+2026-04-11T21:00Z,Moisés Lucarelli,Ponte Preta,Vila Nova,0,1,played
+2026-04-11T21:00Z,Ilha do Retiro,Sport,Avaí,2,2,played
+2026-04-11T23:30Z,Arena Castelão,Ceará,Náutico,1,0,played
+2026-04-12T21:00Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Novorizontino,0,3,played
+2026-04-12T21:00Z,Germano Krüger,Operário PR,Cuiabá,0,0,played
+2026-04-12T21:00Z,Estádio Primeiro de Maio,São Bernardo,Fortaleza,0,1,played
+2026-04-12T23:00Z,Estádio Rei Pelé,CRB,Athletic,2,3,played
+2026-04-12T23:30Z,Estádio Antônio Accioly,Atlético Goianiense,Londrina,2,1,played
+2026-04-18T21:00Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Sport,0,0,played
+2026-04-18T21:00Z,Estádio dos Aflitos,Náutico,São Bernardo,0,3,played
+2026-04-18T21:30Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,Operário PR,2,1,played
+2026-04-18T23:30Z,Estádio da Ressacada,Avaí,Ponte Preta,1,2,played
+2026-04-18T23:45Z,Estádio Rei Pelé,CRB,Juventude,0,1,played
+2026-04-19T19:00Z,Estádio Santa Cruz,Botafogo-SP,Atlético Goianiense,1,1,played
+2026-04-19T19:00Z,Estadio VGD,Londrina,Ceará,0,0,played
+2026-04-19T21:00Z,Estádio da Serrinha,Goiás,Cuiabá,0,2,played
+2026-04-19T23:00Z,Estádio Presidente Vargas,Fortaleza,Criciúma,3,2,played
+2026-04-19T23:00Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,Athletic,2,1,played
+2026-04-23T00:30Z,Arena Pantanal,Cuiabá,Botafogo-SP,1,1,played
+2026-04-24T23:00Z,Moisés Lucarelli,Ponte Preta,América Mineiro,1,0,played
+2026-04-25T23:30Z,Ilha do Retiro,Sport,Novorizontino,1,0,played
+2026-04-26T00:00Z,Alfredo Jaconi,Juventude,Londrina,1,0,played
+2026-04-26T19:00Z,Estádio Primeiro de Maio,São Bernardo,Goiás,1,0,played
+2026-04-26T21:00Z,Arena Castelão,Ceará,Vila Nova,3,3,played
+2026-04-26T21:00Z,Germano Krüger,Operário PR,Fortaleza,0,0,played
+2026-04-26T23:30Z,Estádio Antônio Accioly,Atlético Goianiense,Avaí,2,1,played
+2026-04-26T23:30Z,Heriberto Hülse,Criciúma,CRB,3,1,played
+2026-04-27T22:00Z,Estádio Joaquim Portugal,Athletic,Náutico,0,1,played
+2026-05-02T19:00Z,Estádio Santa Cruz,Botafogo-SP,Náutico,1,1,played
+2026-05-02T21:30Z,Arena Pantanal,Cuiabá,Criciúma,1,1,played
+2026-05-02T23:30Z,Arena Castelão,Fortaleza,Goiás,4,1,played
+2026-05-03T19:00Z,Germano Krüger,Operário PR,Londrina,3,0,played
+2026-05-03T19:00Z,Estádio Primeiro de Maio,São Bernardo,Ponte Preta,3,0,played
+2026-05-03T21:00Z,Ilha do Retiro,Sport,Ceará,2,0,played
+2026-05-03T21:30Z,Estádio Antônio Accioly,Atlético Goianiense,Juventude,0,0,played
+2026-05-03T23:30Z,Estádio Raimundo Sampaio (Independência),América Mineiro,CRB,1,2,played
+2026-05-03T23:30Z,Estádio da Ressacada,Avaí,Novorizontino,3,3,played
+2026-05-04T22:00Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,Athletic,1,1,played
+2026-05-09T19:00Z,Estádio da Serrinha,Goiás,Vila Nova,1,0,played
+2026-05-09T21:00Z,Estádio Joaquim Portugal,Athletic,Cuiabá,0,0,played
+2026-05-09T21:30Z,Moisés Lucarelli,Ponte Preta,Sport,1,3,played
+2026-05-09T22:00Z,Arena Castelão,Ceará,Atlético Goianiense,0,1,played
+2026-05-09T23:30Z,Estádio Rei Pelé,CRB,Operário PR,3,0,played
+2026-05-10T00:15Z,Alfredo Jaconi,Juventude,Criciúma,0,0,played
+2026-05-10T19:00Z,Estádio dos Aflitos,Náutico,América Mineiro,4,0,played
+2026-05-10T21:30Z,Estádio da Ressacada,Avaí,Fortaleza,0,0,played
+2026-05-10T22:30Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,Botafogo-SP,1,0,played
+2026-05-12T22:30Z,Estadio VGD,Londrina,São Bernardo,1,3,played
+2026-05-16T19:00Z,Germano Krüger,Operário PR,Náutico,2,6,played
+2026-05-16T19:00Z,Estádio Primeiro de Maio,São Bernardo,América Mineiro,1,1,played
+2026-05-16T21:30Z,Estádio da Serrinha,Goiás,Botafogo-SP,1,0,played
+2026-05-16T23:30Z,Arena Pantanal,Cuiabá,Novorizontino,0,0,played
+2026-05-17T19:00Z,Estádio Joaquim Portugal,Athletic,Juventude,1,1,played
+2026-05-17T21:00Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,Avaí,2,0,played
+2026-05-17T21:30Z,Arena Castelão,Ceará,Fortaleza,2,1,played
+2026-05-17T21:30Z,Heriberto Hülse,Criciúma,Atlético Goianiense,1,1,played
+2026-05-17T23:30Z,Ilha do Retiro,Sport,CRB,1,2,played
+2026-05-18T22:00Z,Moisés Lucarelli,Ponte Preta,Londrina,1,4,played
+2026-05-22T22:00Z,Estádio dos Aflitos,Náutico,Cuiabá,1,0,played
+2026-05-23T19:00Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,Ceará,2,1,played
+2026-05-23T21:30Z,Arena Castelão,Fortaleza,Londrina,3,0,played
+2026-05-23T23:30Z,Alfredo Jaconi,Juventude,Sport,0,1,played
+2026-05-24T19:00Z,Estádio Antônio Accioly,Atlético Goianiense,São Bernardo,0,1,played
+2026-05-24T19:30Z,Estádio Rei Pelé,CRB,Ponte Preta,4,2,played
+2026-05-24T21:30Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Vila Nova,1,2,played
+2026-05-24T22:00Z,Estádio da Ressacada,Avaí,Goiás,0,2,played
+2026-05-24T23:30Z,Germano Krüger,Operário PR,Criciúma,1,1,played
+2026-05-25T22:00Z,Estádio Santa Cruz,Botafogo-SP,Athletic,1,2,played
+2026-05-30T00:00Z,Alfredo Jaconi,Juventude,América Mineiro,3,0,played
+2026-05-30T19:00Z,Estádio Antônio Accioly,Atlético Goianiense,Goiás,1,1,played
+2026-05-30T19:00Z,Estádio da Ressacada,Avaí,Criciúma,1,2,played
+2026-05-30T21:00Z,Estádio Joaquim Portugal,Athletic,Fortaleza,1,0,played
+2026-05-30T23:30Z,Ilha do Retiro,Sport,Náutico,2,0,played
+2026-05-31T14:00Z,Estadio VGD,Londrina,Vila Nova,0,1,played
+2026-05-31T14:00Z,Estádio Primeiro de Maio,São Bernardo,Novorizontino,1,1,played
+2026-05-31T19:00Z,Arena Castelão,Ceará,Operário PR,1,2,played
+2026-05-31T23:30Z,Arena Pantanal,Cuiabá,CRB,2,0,played
+2026-06-01T22:00Z,Moisés Lucarelli,Ponte Preta,Botafogo-SP,0,0,played
+2026-06-05T23:00Z,Couto Pereira,Operário PR,Juventude,2,1,played
+2026-06-06T14:00Z,Heriberto Hülse,Criciúma,Londrina,1,0,played
+2026-06-07T19:00Z,Estádio Rei Pelé,CRB,São Bernardo,2,3,played
+2026-06-08T23:00Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Atlético Goianiense,1,2,played
+2026-06-08T23:00Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,Botafogo-SP,1,0,played
+2026-06-09T22:00Z,Estádio dos Aflitos,Náutico,Fortaleza,0,1,played
+2026-06-09T22:00Z,Moisés Lucarelli,Ponte Preta,Cuiabá,1,2,played
+2026-06-10T23:00Z,Estádio Presidente Vargas,Ceará,Avaí,2,1,played
+2026-06-10T23:00Z,Estádio da Serrinha,Goiás,Novorizontino,0,4,played
+2026-06-11T00:00Z,Ilha do Retiro,Sport,Athletic,1,1,played
+2026-06-12T22:00Z,Estádio Antônio Accioly,Atlético Goianiense,CRB,3,3,played
+2026-06-14T14:00Z,Alfredo Jaconi,Juventude,Ponte Preta,3,0,played
+2026-06-14T14:00Z,Estádio Primeiro de Maio,São Bernardo,Sport,0,0,played
+2026-06-14T19:00Z,Estádio Joaquim Portugal,Athletic,Goiás,1,1,played
+2026-06-14T20:00Z,Arena Pantanal,Cuiabá,Vila Nova,1,0,played
+2026-06-14T22:00Z,Estádio Santa Cruz,Botafogo-SP,Operário PR,2,1,played
+2026-06-14T22:00Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,Náutico,2,2,played
+2026-06-16T00:00Z,Heriberto Hülse,Criciúma,Ceará,1,1,played
+2026-06-16T00:00Z,Estadio VGD,Londrina,Avaí,3,2,played
+2026-06-16T23:00Z,Arena Castelão,Fortaleza,América Mineiro,0,3,played
+2026-06-19T00:00Z,Ilha do Retiro,Sport,Atlético Goianiense,1,1,played
+2026-06-20T14:00Z,Estadio VGD,Londrina,Athletic,2,0,played
+2026-06-20T22:00Z,Estádio Presidente Vargas,Ceará,Botafogo-SP,0,1,played
+2026-06-20T22:00Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,Náutico,4,3,played
+2026-06-21T14:00Z,Estádio da Ressacada,Avaí,Cuiabá,1,0,played
+2026-06-21T19:00Z,Estádio Rei Pelé,CRB,Fortaleza,1,1,played
+2026-06-21T20:00Z,Estádio Primeiro de Maio,São Bernardo,Juventude,0,1,played
+2026-06-21T21:30Z,Estádio da Serrinha,Goiás,Operário PR,0,3,played
+2026-06-22T23:00Z,Moisés Lucarelli,Ponte Preta,Novorizontino,0,2,played
+2026-06-23T23:00Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Criciúma,0,1,played
+2026-06-25T23:30Z,Arena Pantanal,Cuiabá,Londrina,2,2,played
+2026-06-26T22:00Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,Vila Nova,2,1,played
+2026-06-27T14:00Z,Germano Krüger,Operário PR,América Mineiro,1,0,played
+2026-06-27T19:00Z,Heriberto Hülse,Criciúma,São Bernardo,1,0,played
+2026-06-28T19:00Z,Estádio Joaquim Portugal,Athletic,Avaí,1,0,played
+2026-06-28T19:00Z,Estádio Antônio Accioly,Atlético Goianiense,Ponte Preta,2,0,played
+2026-06-28T19:00Z,Alfredo Jaconi,Juventude,Ceará,2,0,played
+2026-06-28T21:30Z,Arena Castelão,Fortaleza,Sport,2,1,played
+2026-06-28T21:30Z,Estádio dos Aflitos,Náutico,Goiás,0,1,played
+2026-06-30T23:00Z,Estádio Santa Cruz,Botafogo-SP,CRB,0,1,played
+2026-07-02T23:00Z,Arena Pantanal,Cuiabá,América Mineiro,1,0,played
+2026-07-03T00:00Z,Arena Castelão,Fortaleza,Ponte Preta,2,0,played
+2026-07-04T19:00Z,Heriberto Hülse,Criciúma,Sport,1,0,played
+2026-07-04T19:00Z,Estadio VGD,Londrina,CRB,5,0,played
+2026-07-04T19:00Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,Atlético Goianiense,3,0,played
+2026-07-04T23:00Z,Estádio da Serrinha,Goiás,Ceará,2,0,played
+2026-07-05T23:30Z,Estádio dos Aflitos,Náutico,Juventude,0,0,played
+2026-07-06T22:00Z,Estádio Santa Cruz,Botafogo-SP,Avaí,3,1,played
+2026-07-06T22:00Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,São Bernardo,2,1,played
+2026-07-07T23:00Z,Estádio Joaquim Portugal,Athletic,Operário PR,0,1,played
+2026-07-08T23:00Z,Moisés Lucarelli,Ponte Preta,Criciúma,1,2,played
+2026-07-10T22:00Z,Alfredo Jaconi,Juventude,Vila Nova,,,scheduled
+2026-07-10T23:00Z,Ilha do Retiro,Sport,Botafogo-SP,,,scheduled
+2026-07-12T14:00Z,Germano Krüger,Operário PR,Novorizontino,,,scheduled
+2026-07-12T19:00Z,Estádio da Ressacada,Avaí,Náutico,,,scheduled
+2026-07-12T19:00Z,Estádio Primeiro de Maio,São Bernardo,Cuiabá,,,scheduled
+2026-07-12T21:00Z,Estádio Antônio Accioly,Atlético Goianiense,Fortaleza,,,scheduled
+2026-07-12T22:00Z,Estádio Rei Pelé,CRB,Goiás,,,scheduled
+2026-07-13T22:00Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Londrina,,,scheduled
+2026-07-13T23:30Z,Estádio Presidente Vargas,Ceará,Athletic,,,scheduled
+2026-07-16T23:00Z,Estádio Rei Pelé,CRB,Náutico,,,scheduled
+2026-07-17T22:00Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Ceará,,,scheduled
+2026-07-17T22:00Z,Alfredo Jaconi,Juventude,Cuiabá,,,scheduled
+2026-07-17T22:00Z,Estádio Primeiro de Maio,São Bernardo,Avaí,,,scheduled
+2026-07-18T00:00Z,Arena Castelão,Fortaleza,Novorizontino,,,scheduled
+2026-07-18T00:00Z,Estadio VGD,Londrina,Botafogo-SP,,,scheduled
+2026-07-18T19:00Z,Heriberto Hülse,Criciúma,Vila Nova,,,scheduled
+2026-07-18T19:00Z,Moisés Lucarelli,Ponte Preta,Goiás,,,scheduled
+2026-07-18T19:00Z,Ilha do Retiro,Sport,Operário PR,,,scheduled
+2026-07-20T23:00Z,Estádio Antônio Accioly,Atlético Goianiense,Athletic,,,scheduled
+2026-07-21T22:30Z,Estádio da Ressacada,Avaí,América Mineiro,,,scheduled
+2026-07-21T22:30Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,Criciúma,,,scheduled
+2026-07-22T00:35Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,Fortaleza,,,scheduled
+2026-07-22T22:30Z,Arena Castelão,Ceará,CRB,,,scheduled
+2026-07-22T22:30Z,Germano Krüger,Operário PR,Ponte Preta,,,scheduled
+2026-07-22T23:30Z,Estádio da Serrinha,Goiás,Sport,,,scheduled
+2026-07-23T00:30Z,Estádio dos Aflitos,Náutico,Londrina,,,scheduled
+2026-07-23T22:30Z,Estádio Joaquim Portugal,Athletic,São Bernardo,,,scheduled
+2026-07-23T23:30Z,Arena Pantanal,Cuiabá,Atlético Goianiense,,,scheduled
+2026-07-24T00:30Z,Estádio Santa Cruz,Botafogo-SP,Juventude,,,scheduled
+2026-07-26T19:00Z,Heriberto Hülse,Criciúma,Náutico,,,scheduled
+2026-07-26T19:00Z,Estádio Primeiro de Maio,São Bernardo,Ceará,,,scheduled
+2026-07-26T21:30Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Goiás,,,scheduled
+2026-07-26T21:30Z,Estadio VGD,Londrina,Novorizontino,,,scheduled
+2026-07-27T22:30Z,Estádio Antônio Accioly,Atlético Goianiense,Operário PR,,,scheduled
+2026-07-27T22:30Z,Estádio Rei Pelé,CRB,Vila Nova,,,scheduled
+2026-07-27T22:30Z,Ilha do Retiro,Sport,Cuiabá,,,scheduled
+2026-07-28T22:30Z,Alfredo Jaconi,Juventude,Avaí,,,scheduled
+2026-07-28T22:30Z,Moisés Lucarelli,Ponte Preta,Athletic,,,scheduled
+2026-07-29T00:35Z,Arena Castelão,Fortaleza,Botafogo-SP,,,scheduled
+2026-08-07T22:30Z,Germano Krüger,Operário PR,São Bernardo,,,scheduled
+2026-08-07T23:30Z,Arena Castelão,Ceará,Ponte Preta,,,scheduled
+2026-08-08T19:00Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,Sport,,,scheduled
+2026-08-08T21:30Z,Estádio Santa Cruz,Botafogo-SP,América Mineiro,,,scheduled
+2026-08-09T14:00Z,Estádio Joaquim Portugal,Athletic,Criciúma,,,scheduled
+2026-08-09T19:00Z,Estádio dos Aflitos,Náutico,Atlético Goianiense,,,scheduled
+2026-08-09T19:00Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,Juventude,,,scheduled
+2026-08-09T21:00Z,Arena Pantanal,Cuiabá,Fortaleza,,,scheduled
+2026-08-10T22:30Z,Estádio da Serrinha,Goiás,Londrina,,,scheduled
+2026-08-11T22:30Z,Estádio da Ressacada,Avaí,CRB,,,scheduled
+2026-08-14T22:30Z,Moisés Lucarelli,Ponte Preta,Náutico,,,scheduled
+2026-08-14T23:30Z,Ilha do Retiro,Sport,Londrina,,,scheduled
+2026-08-15T19:00Z,Estádio Antônio Accioly,Atlético Goianiense,Vila Nova,,,scheduled
+2026-08-15T19:00Z,Heriberto Hülse,Criciúma,Goiás,,,scheduled
+2026-08-15T21:30Z,Arena Castelão,Ceará,Cuiabá,,,scheduled
+2026-08-15T21:30Z,Alfredo Jaconi,Juventude,Fortaleza,,,scheduled
+2026-08-16T14:00Z,Germano Krüger,Operário PR,Avaí,,,scheduled
+2026-08-16T19:00Z,Estádio Primeiro de Maio,São Bernardo,Botafogo-SP,,,scheduled
+2026-08-16T21:30Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Athletic,,,scheduled
+2026-08-16T21:30Z,Estádio Rei Pelé,CRB,Novorizontino,,,scheduled
+2026-08-18T22:30Z,Estadio VGD,Londrina,Atlético Goianiense,,,scheduled
+2026-08-19T00:30Z,Estádio dos Aflitos,Náutico,Ceará,,,scheduled
+2026-08-19T00:35Z,Estádio da Serrinha,Goiás,Juventude,,,scheduled
+2026-08-19T22:30Z,Estádio da Ressacada,Avaí,Sport,,,scheduled
+2026-08-19T22:30Z,Arena Castelão,Fortaleza,São Bernardo,,,scheduled
+2026-08-19T23:30Z,Arena Pantanal,Cuiabá,Operário PR,,,scheduled
+2026-08-19T23:30Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,Ponte Preta,,,scheduled
+2026-08-20T00:30Z,Estádio Santa Cruz,Botafogo-SP,Criciúma,,,scheduled
+2026-08-20T22:30Z,Estádio Joaquim Portugal,Athletic,CRB,,,scheduled
+2026-08-20T23:30Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,América Mineiro,,,scheduled
+2026-08-22T21:00Z,Arena Castelão,Ceará,Londrina,,,scheduled
+2026-08-22T21:30Z,Arena Pantanal,Cuiabá,Goiás,,,scheduled
+2026-08-23T19:00Z,Moisés Lucarelli,Ponte Preta,Avaí,,,scheduled
+2026-08-23T19:00Z,Estádio Primeiro de Maio,São Bernardo,Náutico,,,scheduled
+2026-08-23T21:00Z,Germano Krüger,Operário PR,Vila Nova,,,scheduled
+2026-08-23T21:30Z,Heriberto Hülse,Criciúma,Fortaleza,,,scheduled
+2026-08-24T22:30Z,Estádio Joaquim Portugal,Athletic,Novorizontino,,,scheduled
+2026-08-24T22:30Z,Ilha do Retiro,Sport,América Mineiro,,,scheduled
+2026-08-25T22:30Z,Estádio Antônio Accioly,Atlético Goianiense,Botafogo-SP,,,scheduled
+2026-08-25T22:30Z,Alfredo Jaconi,Juventude,CRB,,,scheduled
+2026-08-28T18:00Z,,América Mineiro,Ponte Preta,,,scheduled
+2026-08-28T18:00Z,,Avaí,Atlético Goianiense,,,scheduled
+2026-08-28T18:00Z,,Botafogo-SP,Cuiabá,,,scheduled
+2026-08-28T18:00Z,,CRB,Criciúma,,,scheduled
+2026-08-28T18:00Z,,Fortaleza,Operário PR,,,scheduled
+2026-08-28T18:00Z,,Goiás,São Bernardo,,,scheduled
+2026-08-28T18:00Z,,Londrina,Juventude,,,scheduled
+2026-08-28T18:00Z,,Náutico,Athletic,,,scheduled
+2026-08-28T18:00Z,,Novorizontino,Sport,,,scheduled
+2026-08-28T18:00Z,,Vila Nova,Ceará,,,scheduled
+2026-09-04T18:00Z,,Athletic,Vila Nova,,,scheduled
+2026-09-04T18:00Z,,Ceará,Sport,,,scheduled
+2026-09-04T18:00Z,,CRB,América Mineiro,,,scheduled
+2026-09-04T18:00Z,,Criciúma,Cuiabá,,,scheduled
+2026-09-04T18:00Z,,Goiás,Fortaleza,,,scheduled
+2026-09-04T18:00Z,,Juventude,Atlético Goianiense,,,scheduled
+2026-09-04T18:00Z,,Londrina,Operário PR,,,scheduled
+2026-09-04T18:00Z,,Náutico,Botafogo-SP,,,scheduled
+2026-09-04T18:00Z,,Novorizontino,Avaí,,,scheduled
+2026-09-04T18:00Z,,Ponte Preta,São Bernardo,,,scheduled
+2026-09-08T18:00Z,,América Mineiro,Náutico,,,scheduled
+2026-09-08T18:00Z,,Atlético Goianiense,Ceará,,,scheduled
+2026-09-08T18:00Z,,Botafogo-SP,Novorizontino,,,scheduled
+2026-09-08T18:00Z,,Criciúma,Juventude,,,scheduled
+2026-09-08T18:00Z,,Cuiabá,Athletic,,,scheduled
+2026-09-08T18:00Z,,Fortaleza,Avaí,,,scheduled
+2026-09-08T18:00Z,,Operário PR,CRB,,,scheduled
+2026-09-08T18:00Z,,São Bernardo,Londrina,,,scheduled
+2026-09-08T18:00Z,,Sport,Ponte Preta,,,scheduled
+2026-09-08T18:00Z,,Vila Nova,Goiás,,,scheduled
+2026-09-11T18:00Z,,América Mineiro,São Bernardo,,,scheduled
+2026-09-11T18:00Z,,Atlético Goianiense,Criciúma,,,scheduled
+2026-09-11T18:00Z,,Avaí,Vila Nova,,,scheduled
+2026-09-11T18:00Z,,Botafogo-SP,Goiás,,,scheduled
+2026-09-11T18:00Z,,CRB,Sport,,,scheduled
+2026-09-11T18:00Z,,Fortaleza,Ceará,,,scheduled
+2026-09-11T18:00Z,,Juventude,Athletic,,,scheduled
+2026-09-11T18:00Z,,Londrina,Ponte Preta,,,scheduled
+2026-09-11T18:00Z,,Náutico,Operário PR,,,scheduled
+2026-09-11T18:00Z,,Novorizontino,Cuiabá,,,scheduled
+2026-09-18T18:00Z,,Athletic,Botafogo-SP,,,scheduled
+2026-09-18T18:00Z,,Ceará,Novorizontino,,,scheduled
+2026-09-18T18:00Z,,Criciúma,Operário PR,,,scheduled
+2026-09-18T18:00Z,,Cuiabá,Náutico,,,scheduled
+2026-09-18T18:00Z,,Goiás,Avaí,,,scheduled
+2026-09-18T18:00Z,,Londrina,Fortaleza,,,scheduled
+2026-09-18T18:00Z,,Ponte Preta,CRB,,,scheduled
+2026-09-18T18:00Z,,São Bernardo,Atlético Goianiense,,,scheduled
+2026-09-18T18:00Z,,Sport,Juventude,,,scheduled
+2026-09-18T18:00Z,,Vila Nova,América Mineiro,,,scheduled
+2026-09-25T18:00Z,,América Mineiro,Juventude,,,scheduled
+2026-09-25T18:00Z,,Botafogo-SP,Ponte Preta,,,scheduled
+2026-09-25T18:00Z,,CRB,Cuiabá,,,scheduled
+2026-09-25T18:00Z,,Criciúma,Avaí,,,scheduled
+2026-09-25T18:00Z,,Fortaleza,Athletic,,,scheduled
+2026-09-25T18:00Z,,Goiás,Atlético Goianiense,,,scheduled
+2026-09-25T18:00Z,,Náutico,Sport,,,scheduled
+2026-09-25T18:00Z,,Novorizontino,São Bernardo,,,scheduled
+2026-09-25T18:00Z,,Operário PR,Ceará,,,scheduled
+2026-09-25T18:00Z,,Vila Nova,Londrina,,,scheduled
+2026-10-02T18:00Z,,Athletic,Sport,,,scheduled
+2026-10-02T18:00Z,,Atlético Goianiense,América Mineiro,,,scheduled
+2026-10-02T18:00Z,,Avaí,Ceará,,,scheduled
+2026-10-02T18:00Z,,Botafogo-SP,Vila Nova,,,scheduled
+2026-10-02T18:00Z,,Cuiabá,Ponte Preta,,,scheduled
+2026-10-02T18:00Z,,Fortaleza,Náutico,,,scheduled
+2026-10-02T18:00Z,,Juventude,Operário PR,,,scheduled
+2026-10-02T18:00Z,,Londrina,Criciúma,,,scheduled
+2026-10-02T18:00Z,,Novorizontino,Goiás,,,scheduled
+2026-10-02T18:00Z,,São Bernardo,CRB,,,scheduled
+2026-10-06T18:00Z,,América Mineiro,Fortaleza,,,scheduled
+2026-10-06T18:00Z,,Avaí,Londrina,,,scheduled
+2026-10-06T18:00Z,,Ceará,Criciúma,,,scheduled
+2026-10-06T18:00Z,,CRB,Atlético Goianiense,,,scheduled
+2026-10-06T18:00Z,,Goiás,Athletic,,,scheduled
+2026-10-06T18:00Z,,Náutico,Novorizontino,,,scheduled
+2026-10-06T18:00Z,,Operário PR,Botafogo-SP,,,scheduled
+2026-10-06T18:00Z,,Ponte Preta,Juventude,,,scheduled
+2026-10-06T18:00Z,,Sport,São Bernardo,,,scheduled
+2026-10-06T18:00Z,,Vila Nova,Cuiabá,,,scheduled
+2026-10-09T18:00Z,,Athletic,Londrina,,,scheduled
+2026-10-09T18:00Z,,Atlético Goianiense,Sport,,,scheduled
+2026-10-09T18:00Z,,Botafogo-SP,Ceará,,,scheduled
+2026-10-09T18:00Z,,Criciúma,América Mineiro,,,scheduled
+2026-10-09T18:00Z,,Cuiabá,Avaí,,,scheduled
+2026-10-09T18:00Z,,Fortaleza,CRB,,,scheduled
+2026-10-09T18:00Z,,Juventude,São Bernardo,,,scheduled
+2026-10-09T18:00Z,,Náutico,Vila Nova,,,scheduled
+2026-10-09T18:00Z,,Novorizontino,Ponte Preta,,,scheduled
+2026-10-09T18:00Z,,Operário PR,Goiás,,,scheduled
+2026-10-16T18:00Z,,América Mineiro,Operário PR,,,scheduled
+2026-10-16T18:00Z,,Avaí,Athletic,,,scheduled
+2026-10-16T18:00Z,,Ceará,Juventude,,,scheduled
+2026-10-16T18:00Z,,CRB,Botafogo-SP,,,scheduled
+2026-10-16T18:00Z,,Goiás,Náutico,,,scheduled
+2026-10-16T18:00Z,,Londrina,Cuiabá,,,scheduled
+2026-10-16T18:00Z,,Ponte Preta,Atlético Goianiense,,,scheduled
+2026-10-16T18:00Z,,São Bernardo,Criciúma,,,scheduled
+2026-10-16T18:00Z,,Sport,Fortaleza,,,scheduled
+2026-10-16T18:00Z,,Vila Nova,Novorizontino,,,scheduled
+2026-10-23T18:00Z,,América Mineiro,Cuiabá,,,scheduled
+2026-10-23T18:00Z,,Atlético Goianiense,Novorizontino,,,scheduled
+2026-10-23T18:00Z,,Avaí,Botafogo-SP,,,scheduled
+2026-10-23T18:00Z,,Ceará,Goiás,,,scheduled
+2026-10-23T18:00Z,,CRB,Londrina,,,scheduled
+2026-10-23T18:00Z,,Juventude,Náutico,,,scheduled
+2026-10-23T18:00Z,,Operário PR,Athletic,,,scheduled
+2026-10-23T18:00Z,,Ponte Preta,Fortaleza,,,scheduled
+2026-10-23T18:00Z,,São Bernardo,Vila Nova,,,scheduled
+2026-10-23T18:00Z,,Sport,Criciúma,,,scheduled
+2026-10-30T18:00Z,,Athletic,Ceará,,,scheduled
+2026-10-30T18:00Z,,Botafogo-SP,Sport,,,scheduled
+2026-10-30T18:00Z,,Criciúma,Ponte Preta,,,scheduled
+2026-10-30T18:00Z,,Cuiabá,São Bernardo,,,scheduled
+2026-10-30T18:00Z,,Fortaleza,Atlético Goianiense,,,scheduled
+2026-10-30T18:00Z,,Goiás,CRB,,,scheduled
+2026-10-30T18:00Z,,Londrina,América Mineiro,,,scheduled
+2026-10-30T18:00Z,,Náutico,Avaí,,,scheduled
+2026-10-30T18:00Z,,Novorizontino,Operário PR,,,scheduled
+2026-10-30T18:00Z,,Vila Nova,Juventude,,,scheduled
+2026-11-06T20:00Z,,Athletic,Atlético Goianiense,,,scheduled
+2026-11-06T20:00Z,,Avaí,São Bernardo,,,scheduled
+2026-11-06T20:00Z,,Botafogo-SP,Londrina,,,scheduled
+2026-11-06T20:00Z,,Ceará,América Mineiro,,,scheduled
+2026-11-06T20:00Z,,Cuiabá,Juventude,,,scheduled
+2026-11-06T20:00Z,,Goiás,Ponte Preta,,,scheduled
+2026-11-06T20:00Z,,Náutico,CRB,,,scheduled
+2026-11-06T20:00Z,,Novorizontino,Fortaleza,,,scheduled
+2026-11-06T20:00Z,,Operário PR,Sport,,,scheduled
+2026-11-06T20:00Z,,Vila Nova,Criciúma,,,scheduled
+2026-11-14T20:00Z,,América Mineiro,Avaí,,,scheduled
+2026-11-14T20:00Z,,Atlético Goianiense,Cuiabá,,,scheduled
+2026-11-14T20:00Z,,CRB,Ceará,,,scheduled
+2026-11-14T20:00Z,,Criciúma,Novorizontino,,,scheduled
+2026-11-14T20:00Z,,Fortaleza,Vila Nova,,,scheduled
+2026-11-14T20:00Z,,Juventude,Botafogo-SP,,,scheduled
+2026-11-14T20:00Z,,Londrina,Náutico,,,scheduled
+2026-11-14T20:00Z,,Ponte Preta,Operário PR,,,scheduled
+2026-11-14T20:00Z,,São Bernardo,Athletic,,,scheduled
+2026-11-14T20:00Z,,Sport,Goiás,,,scheduled
