@@ -1,0 +1,383 @@
+date,venue,home_team_raw,away_team_raw,home_goals,away_goals,status
+2026-01-28T22:00Z,Arena MRV,Atlético-MG,Palmeiras,2,2,played
+2026-01-28T22:00Z,Couto Pereira,Coritiba,Red Bull Bragantino,0,1,played
+2026-01-28T22:00Z,Estadio Beira-Rio,Internacional,Athletico-PR,0,1,played
+2026-01-28T22:00Z,Estadio Manoel Barradas,Vitória,Remo,2,0,played
+2026-01-28T22:30Z,Estadio do Maracana,Fluminense,Grêmio,2,1,played
+2026-01-28T23:00Z,Arena Condá,Chapecoense,Santos,4,2,played
+2026-01-28T23:00Z,Estádio Vila Belmiro (Urbano Caldeira),Corinthians,Bahia,1,2,played
+2026-01-29T00:30Z,Estádio Cícero Pompeu de Toledo,São Paulo,Flamengo,2,1,played
+2026-01-29T23:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Vasco da Gama,2,1,played
+2026-01-30T00:30Z,Joao Havelange Stadium,Botafogo,Cruzeiro,4,0,played
+2026-02-04T22:00Z,Estadio do Maracana,Flamengo,Internacional,1,1,played
+2026-02-04T22:00Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Atlético-MG,1,0,played
+2026-02-04T23:00Z,Mangueirão,Remo,Mirassol,2,2,played
+2026-02-04T23:00Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,São Paulo,1,1,played
+2026-02-05T00:30Z,Arena do Grêmio,Grêmio,Botafogo,5,3,played
+2026-02-05T00:30Z,Arena Barueri,Palmeiras,Vitória,5,1,played
+2026-02-05T22:00Z,Arena Fonte Nova,Bahia,Fluminense,1,1,played
+2026-02-05T23:00Z,Estádio São Januário,Vasco da Gama,Chapecoense,1,1,played
+2026-02-06T00:30Z,Estadio Mineirão,Cruzeiro,Coritiba,1,2,played
+2026-02-11T00:30Z,Estadio Manoel Barradas,Vitória,Flamengo,1,2,played
+2026-02-11T22:00Z,Arena Condá,Chapecoense,Coritiba,3,3,played
+2026-02-11T22:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Cruzeiro,2,2,played
+2026-02-11T23:00Z,Arena MRV,Atlético-MG,Remo,3,3,played
+2026-02-12T00:30Z,Estádio Cícero Pompeu de Toledo,São Paulo,Grêmio,2,0,played
+2026-02-12T00:30Z,Estádio São Januário,Vasco da Gama,Bahia,0,1,played
+2026-02-12T22:00Z,Arena da Baixada,Athletico-PR,Santos,2,1,played
+2026-02-12T22:30Z,Estadio do Maracana,Fluminense,Botafogo,1,0,played
+2026-02-12T23:00Z,Neo Química Arena,Corinthians,Red Bull Bragantino,2,0,played
+2026-02-13T00:30Z,Estadio Beira-Rio,Internacional,Palmeiras,1,3,played
+2026-02-19T22:30Z,Arena da Baixada,Athletico-PR,Corinthians,0,1,played
+2026-02-25T20:00Z,Arena Fonte Nova,Bahia,Chapecoense,,,postponed
+2026-02-25T20:00Z,Joao Havelange Stadium,Botafogo,Vitória,,,postponed
+2026-02-25T20:00Z,Estadio do Maracana,Flamengo,Mirassol,,,postponed
+2026-02-25T22:00Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Athletico-PR,1,1,played
+2026-02-25T22:00Z,Mangueirão,Remo,Internacional,1,1,played
+2026-02-25T22:30Z,Couto Pereira,Coritiba,São Paulo,0,1,played
+2026-02-25T23:00Z,Estadio Mineirão,Cruzeiro,Corinthians,1,1,played
+2026-02-26T00:30Z,Arena do Grêmio,Grêmio,Atlético-MG,2,1,played
+2026-02-26T00:30Z,Arena Barueri,Palmeiras,Fluminense,2,1,played
+2026-02-26T22:00Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Vasco da Gama,2,1,played
+2026-03-11T00:30Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Santos,2,2,played
+2026-03-11T22:00Z,Arena MRV,Atlético-MG,Internacional,1,0,played
+2026-03-11T23:00Z,Arena Fonte Nova,Bahia,Vitória,1,1,played
+2026-03-12T00:30Z,Neo Química Arena,Corinthians,Coritiba,0,2,played
+2026-03-12T00:30Z,Estadio do Maracana,Flamengo,Cruzeiro,2,0,played
+2026-03-12T22:00Z,Mangueirão,Remo,Fluminense,0,2,played
+2026-03-12T22:30Z,Estádio São Januário,Vasco da Gama,Palmeiras,2,1,played
+2026-03-12T23:00Z,Estádio do Canindé,São Paulo,Chapecoense,2,0,played
+2026-03-13T00:30Z,Arena do Grêmio,Grêmio,Red Bull Bragantino,1,1,played
+2026-03-14T21:30Z,Estadio Manoel Barradas,Vitória,Atlético-MG,2,0,played
+2026-03-14T23:30Z,Joao Havelange Stadium,Botafogo,Flamengo,0,3,played
+2026-03-15T19:00Z,Estadio do Maracana,Fluminense,Athletico-PR,3,2,played
+2026-03-15T19:00Z,Estadio Beira-Rio,Internacional,Bahia,0,1,played
+2026-03-15T19:00Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Corinthians,1,1,played
+2026-03-15T21:30Z,Couto Pereira,Coritiba,Remo,1,0,played
+2026-03-15T21:30Z,Allianz Parque,Palmeiras,Mirassol,1,0,played
+2026-03-15T23:30Z,Estadio Mineirão,Cruzeiro,Vasco da Gama,3,3,played
+2026-03-15T23:30Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,São Paulo,1,2,played
+2026-03-16T23:00Z,Arena Condá,Chapecoense,Grêmio,1,1,played
+2026-03-18T22:00Z,Arena Fonte Nova,Bahia,Red Bull Bragantino,2,0,played
+2026-03-18T22:00Z,Allianz Parque,Palmeiras,Botafogo,2,1,played
+2026-03-18T22:30Z,Arena da Baixada,Athletico-PR,Cruzeiro,2,1,played
+2026-03-18T23:00Z,Arena MRV,Atlético-MG,São Paulo,1,0,played
+2026-03-18T23:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Coritiba,0,1,played
+2026-03-19T00:30Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Internacional,1,2,played
+2026-03-19T00:30Z,Estadio do Maracana,Vasco da Gama,Fluminense,3,2,played
+2026-03-19T22:00Z,Arena do Grêmio,Grêmio,Vitória,2,0,played
+2026-03-19T23:00Z,Estadio do Maracana,Flamengo,Remo,3,0,played
+2026-03-20T00:30Z,Arena Condá,Chapecoense,Corinthians,0,0,played
+2026-03-21T19:00Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Botafogo,1,2,played
+2026-03-21T21:30Z,Estadio do Maracana,Fluminense,Atlético-MG,1,0,played
+2026-03-22T00:00Z,Estádio Cícero Pompeu de Toledo,São Paulo,Palmeiras,0,1,played
+2026-03-22T19:00Z,Arena da Baixada,Athletico-PR,Coritiba,2,0,played
+2026-03-22T19:00Z,Estadio Mineirão,Cruzeiro,Santos,0,0,played
+2026-03-22T19:00Z,Mangueirão,Remo,Bahia,4,1,played
+2026-03-22T19:00Z,Estádio São Januário,Vasco da Gama,Grêmio,2,1,played
+2026-03-22T21:30Z,Estadio Beira-Rio,Internacional,Chapecoense,2,0,played
+2026-03-22T21:30Z,Estadio Manoel Barradas,Vitória,Mirassol,1,0,played
+2026-03-22T23:30Z,Neo Química Arena,Corinthians,Flamengo,1,1,played
+2026-03-29T22:30Z,Arena da Baixada,Athletico-PR,Botafogo,4,1,played
+2026-04-01T22:30Z,Joao Havelange Stadium,Botafogo,Mirassol,3,2,played
+2026-04-01T22:30Z,Estadio Beira-Rio,Internacional,São Paulo,1,1,played
+2026-04-01T23:00Z,Arena Fonte Nova,Bahia,Athletico-PR,3,0,played
+2026-04-01T23:00Z,Estadio Mineirão,Cruzeiro,Vitória,3,0,played
+2026-04-01T23:30Z,Couto Pereira,Coritiba,Vasco da Gama,1,1,played
+2026-04-02T00:30Z,Estadio do Maracana,Fluminense,Corinthians,3,1,played
+2026-04-02T22:00Z,Arena Condá,Chapecoense,Atlético-MG,0,4,played
+2026-04-02T22:00Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Remo,2,0,played
+2026-04-03T00:30Z,Arena Barueri,Palmeiras,Grêmio,2,1,played
+2026-04-03T00:30Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Flamengo,3,0,played
+2026-04-04T21:30Z,Estádio Cícero Pompeu de Toledo,São Paulo,Cruzeiro,4,1,played
+2026-04-04T23:30Z,Couto Pereira,Coritiba,Fluminense,1,1,played
+2026-04-05T00:00Z,Estádio São Januário,Vasco da Gama,Botafogo,1,2,played
+2026-04-05T19:00Z,Arena Condá,Chapecoense,Vitória,1,1,played
+2026-04-05T20:30Z,Arena MRV,Atlético-MG,Athletico-PR,2,1,played
+2026-04-05T20:30Z,Estadio do Maracana,Flamengo,Santos,3,1,played
+2026-04-05T22:30Z,Arena Fonte Nova,Bahia,Palmeiras,1,2,played
+2026-04-05T22:30Z,Neo Química Arena,Corinthians,Internacional,0,1,played
+2026-04-05T23:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Red Bull Bragantino,0,1,played
+2026-04-05T23:30Z,Arena do Grêmio,Grêmio,Remo,0,0,played
+2026-04-11T19:30Z,Mangueirão,Remo,Vasco da Gama,1,1,played
+2026-04-11T19:30Z,Estadio Manoel Barradas,Vitória,São Paulo,2,0,played
+2026-04-11T21:30Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Bahia,1,2,played
+2026-04-11T23:00Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Atlético-MG,1,0,played
+2026-04-11T23:30Z,Estadio Beira-Rio,Internacional,Grêmio,0,0,played
+2026-04-12T14:00Z,Arena da Baixada,Athletico-PR,Chapecoense,2,0,played
+2026-04-12T19:00Z,Joao Havelange Stadium,Botafogo,Coritiba,2,2,played
+2026-04-12T21:00Z,Estadio do Maracana,Fluminense,Flamengo,1,2,played
+2026-04-12T21:30Z,Neo Química Arena,Corinthians,Palmeiras,0,0,played
+2026-04-12T21:30Z,Estadio Mineirão,Cruzeiro,Red Bull Bragantino,2,1,played
+2026-04-18T21:30Z,Arena Condá,Chapecoense,Botafogo,1,4,played
+2026-04-18T21:30Z,Estádio São Januário,Vasco da Gama,São Paulo,2,1,played
+2026-04-18T23:00Z,Estadio Manoel Barradas,Vitória,Corinthians,0,0,played
+2026-04-18T23:30Z,Estadio Mineirão,Cruzeiro,Grêmio,2,0,played
+2026-04-19T14:00Z,Estadio Beira-Rio,Internacional,Mirassol,1,2,played
+2026-04-19T19:00Z,Couto Pereira,Coritiba,Atlético-MG,2,0,played
+2026-04-19T19:00Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Fluminense,2,3,played
+2026-04-19T21:30Z,Allianz Parque,Palmeiras,Athletico-PR,1,0,played
+2026-04-19T21:30Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Remo,4,2,played
+2026-04-19T22:30Z,Estadio do Maracana,Flamengo,Bahia,2,0,played
+2026-04-25T21:30Z,Arena Fonte Nova,Bahia,Santos,2,2,played
+2026-04-25T21:30Z,Arena BRB Mané Garrincha,Botafogo,Internacional,2,2,played
+2026-04-25T21:30Z,Estadio Evandro Almeida (Baenao),Remo,Cruzeiro,0,1,played
+2026-04-26T00:00Z,Estádio Brinco de Ouro da Princesa,São Paulo,Mirassol,1,0,played
+2026-04-26T19:00Z,Neo Química Arena,Corinthians,Vasco da Gama,1,0,played
+2026-04-26T19:00Z,Arena do Grêmio,Grêmio,Coritiba,1,0,played
+2026-04-26T21:30Z,Arena da Baixada,Athletico-PR,Vitória,3,1,played
+2026-04-26T21:30Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Palmeiras,0,1,played
+2026-04-26T23:30Z,Arena MRV,Atlético-MG,Flamengo,0,4,played
+2026-04-26T23:30Z,Estadio do Maracana,Fluminense,Chapecoense,2,1,played
+2026-05-02T19:00Z,Joao Havelange Stadium,Botafogo,Remo,1,2,played
+2026-05-02T21:30Z,Allianz Parque,Palmeiras,Santos,1,1,played
+2026-05-02T21:30Z,Estadio Manoel Barradas,Vitória,Coritiba,4,1,played
+2026-05-02T23:30Z,Arena da Baixada,Athletico-PR,Grêmio,0,0,played
+2026-05-03T00:00Z,Estadio Mineirão,Cruzeiro,Atlético-MG,1,3,played
+2026-05-03T19:00Z,Estadio do Maracana,Flamengo,Vasco da Gama,2,2,played
+2026-05-03T19:00Z,Estádio Municipal Cicero de Souza Marques,São Paulo,Bahia,2,2,played
+2026-05-03T21:30Z,Arena Condá,Chapecoense,Red Bull Bragantino,1,2,played
+2026-05-03T21:30Z,Estadio Beira-Rio,Internacional,Fluminense,2,0,played
+2026-05-03T23:30Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Corinthians,2,1,played
+2026-05-09T19:00Z,Couto Pereira,Coritiba,Internacional,2,2,played
+2026-05-09T21:00Z,Estadio do Maracana,Fluminense,Vitória,2,2,played
+2026-05-10T00:00Z,Arena Fonte Nova,Bahia,Cruzeiro,1,2,played
+2026-05-10T19:00Z,Arena MRV,Atlético-MG,Botafogo,1,1,played
+2026-05-10T19:00Z,Mangueirão,Remo,Palmeiras,1,1,played
+2026-05-10T21:30Z,Neo Química Arena,Corinthians,São Paulo,3,2,played
+2026-05-10T21:30Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Chapecoense,1,1,played
+2026-05-10T21:30Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Red Bull Bragantino,2,0,played
+2026-05-10T22:30Z,Arena do Grêmio,Grêmio,Flamengo,0,1,played
+2026-05-10T23:30Z,Estádio São Januário,Vasco da Gama,Athletico-PR,1,0,played
+2026-05-16T21:30Z,Arena MRV,Atlético-MG,Mirassol,3,1,played
+2026-05-16T21:30Z,Estadio Beira-Rio,Internacional,Vasco da Gama,4,1,played
+2026-05-16T22:00Z,Estadio do Maracana,Fluminense,São Paulo,2,1,played
+2026-05-17T00:00Z,Arena Barueri,Palmeiras,Cruzeiro,1,1,played
+2026-05-17T14:00Z,Neo Química Arena,Santos,Coritiba,0,3,played
+2026-05-17T19:00Z,Arena Fonte Nova,Bahia,Grêmio,1,1,played
+2026-05-17T19:00Z,Joao Havelange Stadium,Botafogo,Corinthians,3,1,played
+2026-05-17T21:30Z,Arena Condá,Chapecoense,Remo,2,3,played
+2026-05-17T21:30Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Vitória,2,0,played
+2026-05-17T22:30Z,Arena da Baixada,Athletico-PR,Flamengo,1,1,played
+2026-05-23T20:00Z,Estádio Cícero Pompeu de Toledo,São Paulo,Botafogo,1,1,played
+2026-05-23T20:00Z,Estadio Manoel Barradas,Vitória,Internacional,2,0,played
+2026-05-23T22:00Z,Arena do Grêmio,Grêmio,Santos,3,2,played
+2026-05-23T22:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Fluminense,1,0,played
+2026-05-24T00:00Z,Estadio do Maracana,Flamengo,Palmeiras,0,3,played
+2026-05-24T19:00Z,Estadio Mineirão,Cruzeiro,Chapecoense,2,1,played
+2026-05-24T19:00Z,Mangueirão,Remo,Athletico-PR,1,2,played
+2026-05-24T21:30Z,Neo Química Arena,Corinthians,Atlético-MG,1,0,played
+2026-05-24T23:30Z,Estádio São Januário,Vasco da Gama,Red Bull Bragantino,0,3,played
+2026-05-25T23:00Z,Couto Pereira,Coritiba,Bahia,3,2,played
+2026-05-30T19:00Z,Arena da Baixada,Athletico-PR,Mirassol,1,0,played
+2026-05-30T19:00Z,Estadio do Maracana,Flamengo,Coritiba,3,0,played
+2026-05-30T20:30Z,Arena Fonte Nova,Bahia,Botafogo,2,1,played
+2026-05-30T20:30Z,Arena do Grêmio,Grêmio,Corinthians,1,3,played
+2026-05-30T23:00Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Vitória,3,1,played
+2026-05-31T14:00Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Internacional,3,1,played
+2026-05-31T19:00Z,Allianz Parque,Palmeiras,Chapecoense,1,0,played
+2026-05-31T19:00Z,Estádio São Januário,Vasco da Gama,Atlético-MG,0,1,played
+2026-05-31T23:30Z,Estadio Mineirão,Cruzeiro,Fluminense,1,1,played
+2026-05-31T23:30Z,Mangueirão,Remo,São Paulo,1,0,played
+2026-07-16T22:30Z,Joao Havelange Stadium,Botafogo,Santos,,,scheduled
+2026-07-16T22:30Z,Estadio Manoel Barradas,Vitória,Vasco da Gama,,,scheduled
+2026-07-17T22:30Z,Arena Fonte Nova,Bahia,Chapecoense,,,scheduled
+2026-07-17T23:00Z,Estadio do Maracana,Fluminense,Red Bull Bragantino,,,scheduled
+2026-07-17T23:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Grêmio,,,scheduled
+2026-07-21T22:30Z,Arena MRV,Atlético-MG,Bahia,,,scheduled
+2026-07-22T22:30Z,Couto Pereira,Coritiba,Palmeiras,,,scheduled
+2026-07-23T00:30Z,Arena Condá,Chapecoense,Flamengo,,,scheduled
+2026-07-23T00:30Z,Estadio Beira-Rio,Internacional,Cruzeiro,,,scheduled
+2026-07-23T00:30Z,Estádio Municipal Cicero de Souza Marques,São Paulo,Athletico-PR,,,scheduled
+2026-07-23T22:30Z,Joao Havelange Stadium,Botafogo,Vitória,,,scheduled
+2026-07-23T22:30Z,Neo Química Arena,Corinthians,Remo,,,scheduled
+2026-07-25T21:30Z,Arena da Baixada,Athletico-PR,Internacional,,,scheduled
+2026-07-25T21:30Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Chapecoense,,,scheduled
+2026-07-25T23:30Z,Estádio São Januário,Vasco da Gama,Mirassol,,,scheduled
+2026-07-26T19:00Z,Arena Fonte Nova,Bahia,Corinthians,,,scheduled
+2026-07-26T19:00Z,Estadio Mineirão,Cruzeiro,Botafogo,,,scheduled
+2026-07-26T21:30Z,Estadio do Maracana,Flamengo,São Paulo,,,scheduled
+2026-07-26T21:30Z,Arena do Grêmio,Grêmio,Fluminense,,,scheduled
+2026-07-26T21:30Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Coritiba,,,scheduled
+2026-07-26T22:30Z,Allianz Parque,Palmeiras,Atlético-MG,,,scheduled
+2026-07-26T22:30Z,Mangueirão,Remo,Vitória,,,scheduled
+2026-07-29T18:00Z,Arena MRV,Atlético-MG,Red Bull Bragantino,,,postponed
+2026-07-29T18:00Z,Joao Havelange Stadium,Botafogo,Grêmio,,,postponed
+2026-07-29T18:00Z,Arena Condá,Chapecoense,Vasco da Gama,,,postponed
+2026-07-29T18:00Z,,São Paulo,Santos,,,postponed
+2026-07-29T22:30Z,Estadio Beira-Rio,Internacional,Flamengo,,,scheduled
+2026-07-29T22:30Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Remo,,,scheduled
+2026-07-30T00:30Z,Estadio do Maracana,Fluminense,Bahia,,,scheduled
+2026-07-30T00:30Z,Estadio Manoel Barradas,Vitória,Palmeiras,,,scheduled
+2026-07-30T22:30Z,Neo Química Arena,Corinthians,Athletico-PR,,,scheduled
+2026-07-31T00:30Z,Couto Pereira,Coritiba,Cruzeiro,,,scheduled
+2026-08-08T19:00Z,Arena do Grêmio,Grêmio,São Paulo,,,scheduled
+2026-08-08T21:30Z,Mangueirão,Remo,Atlético-MG,,,scheduled
+2026-08-08T23:30Z,Couto Pereira,Coritiba,Chapecoense,,,scheduled
+2026-08-09T00:00Z,Joao Havelange Stadium,Botafogo,Fluminense,,,scheduled
+2026-08-09T14:00Z,Estadio Mineirão,Cruzeiro,Mirassol,,,scheduled
+2026-08-09T19:00Z,Arena Fonte Nova,Bahia,Vasco da Gama,,,scheduled
+2026-08-09T19:00Z,Allianz Parque,Palmeiras,Internacional,,,scheduled
+2026-08-09T21:30Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Corinthians,,,scheduled
+2026-08-09T21:30Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Athletico-PR,,,scheduled
+2026-08-09T22:30Z,Estadio do Maracana,Flamengo,Vitória,,,scheduled
+2026-08-15T19:30Z,Arena MRV,Atlético-MG,Grêmio,,,scheduled
+2026-08-15T19:30Z,Estadio do Maracana,Fluminense,Palmeiras,,,scheduled
+2026-08-15T21:30Z,Arena da Baixada,Athletico-PR,Red Bull Bragantino,,,scheduled
+2026-08-16T00:00Z,Estádio Cícero Pompeu de Toledo,São Paulo,Coritiba,,,scheduled
+2026-08-16T14:00Z,Arena Condá,Chapecoense,Bahia,,,scheduled
+2026-08-16T19:00Z,Estádio São Januário,Vasco da Gama,Santos,,,scheduled
+2026-08-16T21:30Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Flamengo,,,scheduled
+2026-08-16T21:30Z,Estadio Manoel Barradas,Vitória,Botafogo,,,scheduled
+2026-08-16T22:30Z,Neo Química Arena,Corinthians,Cruzeiro,,,scheduled
+2026-08-17T23:00Z,Estadio Beira-Rio,Internacional,Remo,,,scheduled
+2026-08-22T19:00Z,Estadio do Maracana,Fluminense,Remo,,,scheduled
+2026-08-22T21:30Z,Estadio Beira-Rio,Internacional,Atlético-MG,,,scheduled
+2026-08-22T23:30Z,Estadio Mineirão,Cruzeiro,Flamengo,,,scheduled
+2026-08-23T19:00Z,Allianz Parque,Palmeiras,Vasco da Gama,,,scheduled
+2026-08-23T19:00Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Grêmio,,,scheduled
+2026-08-23T19:00Z,Estadio Manoel Barradas,Vitória,Bahia,,,scheduled
+2026-08-23T21:30Z,Arena Condá,Chapecoense,São Paulo,,,scheduled
+2026-08-23T21:30Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Mirassol,,,scheduled
+2026-08-23T22:30Z,Couto Pereira,Coritiba,Corinthians,,,scheduled
+2026-08-24T23:00Z,Joao Havelange Stadium,Botafogo,Athletico-PR,,,scheduled
+2026-08-29T18:00Z,Arena da Baixada,Athletico-PR,Fluminense,,,scheduled
+2026-08-29T18:00Z,Arena MRV,Atlético-MG,Vitória,,,scheduled
+2026-08-29T18:00Z,Arena Fonte Nova,Bahia,Internacional,,,scheduled
+2026-08-29T18:00Z,Neo Química Arena,Corinthians,Santos,,,scheduled
+2026-08-29T18:00Z,Estadio do Maracana,Flamengo,Botafogo,,,scheduled
+2026-08-29T18:00Z,Arena do Grêmio,Grêmio,Chapecoense,,,scheduled
+2026-08-29T18:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Palmeiras,,,scheduled
+2026-08-29T18:00Z,Estadio Evandro Almeida (Baenao),Remo,Coritiba,,,scheduled
+2026-08-29T18:00Z,Estádio Cícero Pompeu de Toledo,São Paulo,Red Bull Bragantino,,,scheduled
+2026-08-29T18:00Z,Estádio São Januário,Vasco da Gama,Cruzeiro,,,scheduled
+2026-09-05T18:00Z,Joao Havelange Stadium,Botafogo,Palmeiras,,,scheduled
+2026-09-05T18:00Z,Neo Química Arena,Corinthians,Chapecoense,,,scheduled
+2026-09-05T18:00Z,Couto Pereira,Coritiba,Mirassol,,,scheduled
+2026-09-05T18:00Z,Estadio Mineirão,Cruzeiro,Athletico-PR,,,scheduled
+2026-09-05T18:00Z,Estadio do Maracana,Fluminense,Vasco da Gama,,,scheduled
+2026-09-05T18:00Z,Estadio Beira-Rio,Internacional,Santos,,,scheduled
+2026-09-05T18:00Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Bahia,,,scheduled
+2026-09-05T18:00Z,Estadio Evandro Almeida (Baenao),Remo,Flamengo,,,scheduled
+2026-09-05T18:00Z,Estádio Cícero Pompeu de Toledo,São Paulo,Atlético-MG,,,scheduled
+2026-09-05T18:00Z,Estadio Manoel Barradas,Vitória,Grêmio,,,scheduled
+2026-09-12T18:00Z,Arena MRV,Atlético-MG,Fluminense,,,scheduled
+2026-09-12T18:00Z,Arena Fonte Nova,Bahia,Remo,,,scheduled
+2026-09-12T18:00Z,Joao Havelange Stadium,Botafogo,Red Bull Bragantino,,,scheduled
+2026-09-12T18:00Z,Arena Condá,Chapecoense,Internacional,,,scheduled
+2026-09-12T18:00Z,Couto Pereira,Coritiba,Athletico-PR,,,scheduled
+2026-09-12T18:00Z,Estadio do Maracana,Flamengo,Corinthians,,,scheduled
+2026-09-12T18:00Z,Arena do Grêmio,Grêmio,Vasco da Gama,,,scheduled
+2026-09-12T18:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Vitória,,,scheduled
+2026-09-12T18:00Z,Allianz Parque,Palmeiras,São Paulo,,,scheduled
+2026-09-12T18:00Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Cruzeiro,,,scheduled
+2026-09-19T18:00Z,Arena da Baixada,Athletico-PR,Bahia,,,scheduled
+2026-09-19T18:00Z,Arena MRV,Atlético-MG,Chapecoense,,,scheduled
+2026-09-19T18:00Z,Neo Química Arena,Corinthians,Fluminense,,,scheduled
+2026-09-19T18:00Z,Estadio do Maracana,Flamengo,Red Bull Bragantino,,,scheduled
+2026-09-19T18:00Z,Arena do Grêmio,Grêmio,Palmeiras,,,scheduled
+2026-09-19T18:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Botafogo,,,scheduled
+2026-09-19T18:00Z,Estadio Evandro Almeida (Baenao),Remo,Santos,,,scheduled
+2026-09-19T18:00Z,Estádio Cícero Pompeu de Toledo,São Paulo,Internacional,,,scheduled
+2026-09-19T18:00Z,Estádio São Januário,Vasco da Gama,Coritiba,,,scheduled
+2026-09-19T18:00Z,Estadio Manoel Barradas,Vitória,Cruzeiro,,,scheduled
+2026-10-07T18:00Z,Arena da Baixada,Athletico-PR,Atlético-MG,,,scheduled
+2026-10-07T18:00Z,Joao Havelange Stadium,Botafogo,Vasco da Gama,,,scheduled
+2026-10-07T18:00Z,Estadio Mineirão,Cruzeiro,São Paulo,,,scheduled
+2026-10-07T18:00Z,Estadio do Maracana,Fluminense,Coritiba,,,scheduled
+2026-10-07T18:00Z,Estadio Beira-Rio,Internacional,Corinthians,,,scheduled
+2026-10-07T18:00Z,Allianz Parque,Palmeiras,Bahia,,,scheduled
+2026-10-07T18:00Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Mirassol,,,scheduled
+2026-10-07T18:00Z,Estadio Evandro Almeida (Baenao),Remo,Grêmio,,,scheduled
+2026-10-07T18:00Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Flamengo,,,scheduled
+2026-10-07T18:00Z,Estadio Manoel Barradas,Vitória,Chapecoense,,,scheduled
+2026-10-10T18:00Z,Arena MRV,Atlético-MG,Santos,,,scheduled
+2026-10-10T18:00Z,Arena Fonte Nova,Bahia,Mirassol,,,scheduled
+2026-10-10T18:00Z,Arena Condá,Chapecoense,Athletico-PR,,,scheduled
+2026-10-10T18:00Z,Couto Pereira,Coritiba,Botafogo,,,scheduled
+2026-10-10T18:00Z,Estadio do Maracana,Flamengo,Fluminense,,,scheduled
+2026-10-10T18:00Z,Arena do Grêmio,Grêmio,Internacional,,,scheduled
+2026-10-10T18:00Z,Allianz Parque,Palmeiras,Corinthians,,,scheduled
+2026-10-10T18:00Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Cruzeiro,,,scheduled
+2026-10-10T18:00Z,Estádio Cícero Pompeu de Toledo,São Paulo,Vitória,,,scheduled
+2026-10-10T18:00Z,Estádio São Januário,Vasco da Gama,Remo,,,scheduled
+2026-10-17T18:00Z,Arena da Baixada,Athletico-PR,Palmeiras,,,scheduled
+2026-10-17T18:00Z,Arena MRV,Atlético-MG,Coritiba,,,scheduled
+2026-10-17T18:00Z,Arena Fonte Nova,Bahia,Flamengo,,,scheduled
+2026-10-17T18:00Z,Joao Havelange Stadium,Botafogo,Chapecoense,,,scheduled
+2026-10-17T18:00Z,Neo Química Arena,Corinthians,Vitória,,,scheduled
+2026-10-17T18:00Z,Estadio do Maracana,Fluminense,Santos,,,scheduled
+2026-10-17T18:00Z,Arena do Grêmio,Grêmio,Cruzeiro,,,scheduled
+2026-10-17T18:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Internacional,,,scheduled
+2026-10-17T18:00Z,Estadio Evandro Almeida (Baenao),Remo,Red Bull Bragantino,,,scheduled
+2026-10-17T18:00Z,Estádio Cícero Pompeu de Toledo,São Paulo,Vasco da Gama,,,scheduled
+2026-10-24T18:00Z,Arena Condá,Chapecoense,Fluminense,,,scheduled
+2026-10-24T18:00Z,Couto Pereira,Coritiba,Grêmio,,,scheduled
+2026-10-24T18:00Z,Estadio Mineirão,Cruzeiro,Remo,,,scheduled
+2026-10-24T18:00Z,Estadio do Maracana,Flamengo,Atlético-MG,,,scheduled
+2026-10-24T18:00Z,Estadio Beira-Rio,Internacional,Botafogo,,,scheduled
+2026-10-24T18:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,São Paulo,,,scheduled
+2026-10-24T18:00Z,Allianz Parque,Palmeiras,Red Bull Bragantino,,,scheduled
+2026-10-24T18:00Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Bahia,,,scheduled
+2026-10-24T18:00Z,Estádio São Januário,Vasco da Gama,Corinthians,,,scheduled
+2026-10-24T18:00Z,Estadio Manoel Barradas,Vitória,Athletico-PR,,,scheduled
+2026-10-28T18:00Z,Arena MRV,Atlético-MG,Cruzeiro,,,scheduled
+2026-10-28T18:00Z,Arena Fonte Nova,Bahia,São Paulo,,,scheduled
+2026-10-28T18:00Z,Neo Química Arena,Corinthians,Mirassol,,,scheduled
+2026-10-28T18:00Z,Couto Pereira,Coritiba,Vitória,,,scheduled
+2026-10-28T18:00Z,Estadio do Maracana,Fluminense,Internacional,,,scheduled
+2026-10-28T18:00Z,Arena do Grêmio,Grêmio,Athletico-PR,,,scheduled
+2026-10-28T18:00Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Chapecoense,,,scheduled
+2026-10-28T18:00Z,Estadio Evandro Almeida (Baenao),Remo,Botafogo,,,scheduled
+2026-10-28T18:00Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Palmeiras,,,scheduled
+2026-10-28T18:00Z,Estádio São Januário,Vasco da Gama,Flamengo,,,scheduled
+2026-11-04T20:00Z,Arena da Baixada,Athletico-PR,Vasco da Gama,,,scheduled
+2026-11-04T20:00Z,Joao Havelange Stadium,Botafogo,Atlético-MG,,,scheduled
+2026-11-04T20:00Z,Arena Condá,Chapecoense,Mirassol,,,scheduled
+2026-11-04T20:00Z,Estadio Mineirão,Cruzeiro,Bahia,,,scheduled
+2026-11-04T20:00Z,Estadio do Maracana,Flamengo,Grêmio,,,scheduled
+2026-11-04T20:00Z,Estadio Beira-Rio,Internacional,Coritiba,,,scheduled
+2026-11-04T20:00Z,Allianz Parque,Palmeiras,Remo,,,scheduled
+2026-11-04T20:00Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Santos,,,scheduled
+2026-11-04T20:00Z,Estádio Cícero Pompeu de Toledo,São Paulo,Corinthians,,,scheduled
+2026-11-04T20:00Z,Estadio Manoel Barradas,Vitória,Fluminense,,,scheduled
+2026-11-18T20:00Z,Neo Química Arena,Corinthians,Botafogo,,,scheduled
+2026-11-18T20:00Z,Couto Pereira,Coritiba,Santos,,,scheduled
+2026-11-18T20:00Z,Estadio Mineirão,Cruzeiro,Palmeiras,,,scheduled
+2026-11-18T20:00Z,Estadio do Maracana,Flamengo,Athletico-PR,,,scheduled
+2026-11-18T20:00Z,Arena do Grêmio,Grêmio,Bahia,,,scheduled
+2026-11-18T20:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Atlético-MG,,,scheduled
+2026-11-18T20:00Z,Estadio Evandro Almeida (Baenao),Remo,Chapecoense,,,scheduled
+2026-11-18T20:00Z,Estádio Cícero Pompeu de Toledo,São Paulo,Fluminense,,,scheduled
+2026-11-18T20:00Z,Estádio São Januário,Vasco da Gama,Internacional,,,scheduled
+2026-11-18T20:00Z,Estadio Manoel Barradas,Vitória,Red Bull Bragantino,,,scheduled
+2026-11-21T20:00Z,Arena da Baixada,Athletico-PR,Remo,,,scheduled
+2026-11-21T20:00Z,Arena MRV,Atlético-MG,Corinthians,,,scheduled
+2026-11-21T20:00Z,Arena Fonte Nova,Bahia,Coritiba,,,scheduled
+2026-11-21T20:00Z,Joao Havelange Stadium,Botafogo,São Paulo,,,scheduled
+2026-11-21T20:00Z,Arena Condá,Chapecoense,Cruzeiro,,,scheduled
+2026-11-21T20:00Z,Estadio do Maracana,Fluminense,Mirassol,,,scheduled
+2026-11-21T20:00Z,Estadio Beira-Rio,Internacional,Vitória,,,scheduled
+2026-11-21T20:00Z,Allianz Parque,Palmeiras,Flamengo,,,scheduled
+2026-11-21T20:00Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Vasco da Gama,,,scheduled
+2026-11-21T20:00Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Grêmio,,,scheduled
+2026-11-28T20:00Z,Arena MRV,Atlético-MG,Vasco da Gama,,,scheduled
+2026-11-28T20:00Z,Joao Havelange Stadium,Botafogo,Bahia,,,scheduled
+2026-11-28T20:00Z,Arena Condá,Chapecoense,Palmeiras,,,scheduled
+2026-11-28T20:00Z,Neo Química Arena,Corinthians,Grêmio,,,scheduled
+2026-11-28T20:00Z,Couto Pereira,Coritiba,Flamengo,,,scheduled
+2026-11-28T20:00Z,Estadio do Maracana,Fluminense,Cruzeiro,,,scheduled
+2026-11-28T20:00Z,Estadio Beira-Rio,Internacional,Red Bull Bragantino,,,scheduled
+2026-11-28T20:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Athletico-PR,,,scheduled
+2026-11-28T20:00Z,Estádio Cícero Pompeu de Toledo,São Paulo,Remo,,,scheduled
+2026-11-28T20:00Z,Estadio Manoel Barradas,Vitória,Santos,,,scheduled
+2026-12-02T20:00Z,Arena da Baixada,Athletico-PR,São Paulo,,,scheduled
+2026-12-02T20:00Z,Arena Fonte Nova,Bahia,Atlético-MG,,,scheduled
+2026-12-02T20:00Z,Estadio Mineirão,Cruzeiro,Internacional,,,scheduled
+2026-12-02T20:00Z,Estadio do Maracana,Flamengo,Chapecoense,,,scheduled
+2026-12-02T20:00Z,Arena do Grêmio,Grêmio,Mirassol,,,scheduled
+2026-12-02T20:00Z,Allianz Parque,Palmeiras,Coritiba,,,scheduled
+2026-12-02T20:00Z,Estádio Municipal Cicero de Souza Marques,Red Bull Bragantino,Fluminense,,,scheduled
+2026-12-02T20:00Z,Estadio Evandro Almeida (Baenao),Remo,Corinthians,,,scheduled
+2026-12-02T20:00Z,Estádio Vila Belmiro (Urbano Caldeira),Santos,Botafogo,,,scheduled
+2026-12-02T20:00Z,Estádio São Januário,Vasco da Gama,Vitória,,,scheduled

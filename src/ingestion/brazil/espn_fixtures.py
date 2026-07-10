@@ -20,6 +20,13 @@ leagues[0].season.year and leagues[0].calendar (every ISO date the season
 touches), used only to size the ranged call's date window. The ranged call
 silently caps at 100 events without limit=1000; with it, it returns the
 league's entire season, played and unplayed alike.
+
+Runs are incremental, mirroring scrape_raw_matches.py's own rule: a cached
+season with a full GAMES_PER_SEASON rows, all of them already "played", is
+never re-fetched (its cheap no-param probe still runs every time, just to
+learn the current season's year -- see _probe_season_year). Unlike CBF's
+per-game_id resume, ESPN's ranged call is all-or-nothing, so an in-progress
+season is refetched in full every run rather than resumed incrementally.
 """
 
 import csv
@@ -35,6 +42,7 @@ from src.ingestion.brazil.constants import (
     ESPN_CACHE_DIR,
     ESPN_LEAGUE_CODES,
     ESPN_SCOREBOARD_URL,
+    GAMES_PER_SEASON,
     RETRY_ATTEMPTS,
     RETRY_BACKOFF_SECONDS,
 )
@@ -169,13 +177,45 @@ def _save_rows(competition_key: str, year: int, rows: list[dict]) -> None:
             writer.writerow(row)
 
 
+def _is_season_complete(cache_path: str) -> bool:
+    """True once a season's cache has a full GAMES_PER_SEASON rows and every
+    one of them is already "played" -- mirrors scrape_raw_matches.py's "a
+    finished season is never re-scraped" rule. A played match's score is
+    final; only a scheduled/postponed row can ever change on a later run, so
+    once none are left there's nothing ESPN's (expensive, ~380-event) ranged
+    call could still teach us.
+    """
+    if not os.path.exists(cache_path):
+        return False
+    with open(cache_path, encoding="utf-8", newline="") as f:
+        rows = list(csv.DictReader(f))
+    return len(rows) >= GAMES_PER_SEASON and all(row["status"] == "played" for row in rows)
+
+
+def _probe_season_year(league_code: str) -> Optional[int]:
+    """The cheap, no-params probe call's season year alone -- used to locate
+    the cache file *before* deciding whether the full ranged fetch (see
+    _fetch_season_window) is even worth making."""
+    probe = fetch_scoreboard(league_code)
+    if probe is None or not probe.get("leagues"):
+        return None
+    return probe["leagues"][0]["season"]["year"]
+
+
 def main() -> None:
     for competition_key in COMPETITIONS:
         league_code = ESPN_LEAGUE_CODES[competition_key]
-        year, rows = _fetch_season_window(league_code)
+        year = _probe_season_year(league_code)
         if year is None:
             print(f"{competition_key}: ESPN fetch failed, skipping")
             continue
+
+        cache_path = _cache_path(competition_key, year)
+        if _is_season_complete(cache_path):
+            print(f"{competition_key} {year}: season already complete, skipping ESPN fetch")
+            continue
+
+        _, rows = _fetch_season_window(league_code)
         _save_rows(competition_key, year, rows)
         print(f"{competition_key} {year}: {len(rows)} ESPN rows fetched")
 

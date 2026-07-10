@@ -202,6 +202,7 @@ def test_fetch_season_matches_returns_empty_list_when_the_probe_fails(monkeypatc
 def test_main_writes_one_csv_per_competition(tmp_path, monkeypatch):
     cache_dir = str(tmp_path / "espn")
     monkeypatch.setattr(espn_fixtures, "ESPN_CACHE_DIR", cache_dir)
+    monkeypatch.setattr(espn_fixtures, "_probe_season_year", lambda league_code: 2026)
 
     def fake_window(league_code):
         year = 2026
@@ -215,3 +216,83 @@ def test_main_writes_one_csv_per_competition(tmp_path, monkeypatch):
     import os
 
     assert set(os.listdir(cache_dir)) == {"Serie_A_2026.csv", "Serie_B_2026.csv"}
+
+
+def test_main_skips_the_ranged_fetch_when_the_cached_season_is_already_complete(
+    tmp_path, monkeypatch
+):
+    """A cached season with GAMES_PER_SEASON rows, all "played", must never
+    trigger the expensive ranged call again -- mirrors
+    scrape_raw_matches.py's "a finished season is never re-scraped" rule."""
+    cache_dir = str(tmp_path / "espn")
+    monkeypatch.setattr(espn_fixtures, "ESPN_CACHE_DIR", cache_dir)
+    monkeypatch.setattr(espn_fixtures, "GAMES_PER_SEASON", 1)
+    monkeypatch.setattr(espn_fixtures, "_probe_season_year", lambda league_code: 2026)
+
+    played_row = espn_fixtures._event_to_row(_event("STATUS_FULL_TIME"))
+    espn_fixtures._save_rows("Serie_A", 2026, [played_row])
+    espn_fixtures._save_rows("Serie_B", 2026, [played_row])
+
+    def fail_if_called(league_code):
+        raise AssertionError("_fetch_season_window should not run for an already-complete season")
+
+    monkeypatch.setattr(espn_fixtures, "_fetch_season_window", fail_if_called)
+
+    espn_fixtures.main()  # must not raise
+
+
+def test_main_still_fetches_when_the_cached_season_has_unplayed_rows(tmp_path, monkeypatch):
+    cache_dir = str(tmp_path / "espn")
+    monkeypatch.setattr(espn_fixtures, "ESPN_CACHE_DIR", cache_dir)
+    monkeypatch.setattr(espn_fixtures, "GAMES_PER_SEASON", 1)
+    monkeypatch.setattr(espn_fixtures, "_probe_season_year", lambda league_code: 2026)
+
+    scheduled_row = espn_fixtures._event_to_row(_event("STATUS_SCHEDULED"))
+    espn_fixtures._save_rows("Serie_A", 2026, [scheduled_row])
+    espn_fixtures._save_rows("Serie_B", 2026, [scheduled_row])
+
+    calls = []
+
+    def fake_window(league_code):
+        calls.append(league_code)
+        return 2026, [espn_fixtures._event_to_row(_event("STATUS_FULL_TIME"))]
+
+    monkeypatch.setattr(espn_fixtures, "_fetch_season_window", fake_window)
+
+    espn_fixtures.main()
+
+    assert calls == ["bra.1", "bra.2"]
+
+
+def test_is_season_complete_false_when_no_cache_file_exists(tmp_path):
+    assert espn_fixtures._is_season_complete(str(tmp_path / "missing.csv")) is False
+
+
+def test_is_season_complete_false_when_a_row_is_still_unplayed(tmp_path, monkeypatch):
+    monkeypatch.setattr(espn_fixtures, "GAMES_PER_SEASON", 2)
+    monkeypatch.setattr(espn_fixtures, "ESPN_CACHE_DIR", str(tmp_path))
+    espn_fixtures._save_rows(
+        "Serie_A",
+        2026,
+        [
+            espn_fixtures._event_to_row(_event("STATUS_FULL_TIME")),
+            espn_fixtures._event_to_row(_event("STATUS_SCHEDULED")),
+        ],
+    )
+
+    assert espn_fixtures._is_season_complete(espn_fixtures._cache_path("Serie_A", 2026)) is False
+
+
+def test_is_season_complete_true_when_every_row_is_played(tmp_path, monkeypatch):
+    monkeypatch.setattr(espn_fixtures, "GAMES_PER_SEASON", 2)
+    monkeypatch.setattr(espn_fixtures, "ESPN_CACHE_DIR", str(tmp_path))
+    espn_fixtures._save_rows(
+        "Serie_A",
+        2026,
+        [
+            espn_fixtures._event_to_row(_event("STATUS_FULL_TIME")),
+            espn_fixtures._event_to_row(_event("STATUS_FULL_TIME")),
+        ],
+    )
+
+    assert espn_fixtures._is_season_complete(espn_fixtures._cache_path("Serie_A", 2026)) is True

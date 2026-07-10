@@ -66,6 +66,8 @@ CBF's docket scraping only ever produces a row for a match that's already been p
 
 Run it as part of the full pipeline (`python -m src.ingestion.brazil.run_pipeline`, which runs it before `build_treated_dataset` so the merge always sees fresh data), or on its own with `python -m src.ingestion.brazil.espn_fixtures`.
 
+`data/raw/brazil/espn/*.csv` is tracked source data, same as `data/raw/brazil/cbf/*.csv` -- and, like the CBF layer, runs are incremental: a season with a full slate of already-`played` rows is never re-fetched (only the cheap, no-params probe call still runs, to learn the current season's year). Unlike CBF's per-`game_id` resume, an in-progress season is refetched in full every run rather than resumed incrementally, since ESPN's ranged call is all-or-nothing.
+
 Unmapped ESPN team names (ESPN spells every club with no `/UF` suffix at all, e.g. `"Atlético-MG"` instead of `"Atlético Mineiro / MG"`) land in the _same_ `unmapped_team_names_log.csv` described above, alongside any unmapped CBF names from the same run -- resolve them the same way (see "Resolving unmapped team names" below).
 
 ## Resolving unmapped team names
