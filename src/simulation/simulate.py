@@ -134,8 +134,14 @@ def _simulate_remaining_all_draws(
 
     Returns (home_goals, away_goals), each shape (n_draws, n_fixtures).
     """
-    home_idx = np.array([team_index[home] for home, _ in remaining_fixtures])
-    away_idx = np.array([team_index[away] for _, away in remaining_fixtures])
+    # dtype=int64 matters even though team_index values are already ints:
+    # np.array([]) with no explicit dtype defaults to float64, and an empty
+    # remaining_fixtures (a round-robin phase already fully played as of
+    # reference_date -- e.g. the season's final backtest checkpoint) would
+    # otherwise produce a float index array that numpy's fancy indexing
+    # rejects outright.
+    home_idx = np.array([team_index[home] for home, _ in remaining_fixtures], dtype=np.int64)
+    away_idx = np.array([team_index[away] for _, away in remaining_fixtures], dtype=np.int64)
     mu_home, mu_away = _match_rates(attack, defense, eta, beta_home, home_idx, away_idx)
     return simulate_scores(mu_home, mu_away, rho, rng)
 
@@ -567,7 +573,10 @@ def _tabulate(
 
 
 def _attach_team_strengths(
-    df: pd.DataFrame, mcmc_fit: CmdStanMCMC, teams: list[str]
+    df: pd.DataFrame,
+    mcmc_fit: CmdStanMCMC,
+    teams: list[str],
+    team_aliases: dict[str, str] | None = None,
 ) -> pd.DataFrame:
     """Posterior MEAN attack/defense per team (columns "attack"/"defense",
     mapped by df["team"]) + posterior mean eta/beta_home/rho (broadcast as
@@ -577,11 +586,22 @@ def _attach_team_strengths(
     the FULL posterior directly via mcmc_fit.stan_variables(), independent
     of n_draws/seed, so team strength doesn't jitter between runs).
     Consumed downstream by src.site.export_matches_data for the Confrontos
-    page's params.json."""
+    page's params.json.
+
+    `team_aliases` (optional, {alias_team: real_team}) is simulate_competition's
+    debut/stale-data substitution (see that function's docstring): `teams` is
+    always the REAL, Stan-fitted roster only (unlike simulate_competition's own
+    internal team list, which is extended with alias entries) -- an alias name
+    reuses its substitute's exact index here rather than getting its own new
+    one, since this function only ever reads attack_mean/defense_mean *by*
+    index, never the other way around (no `teams[i]` reverse lookup anywhere
+    in this function), so aliasing the index is sufficient and correct."""
     stan_vars = mcmc_fit.stan_variables()
     attack_mean = stan_vars["attack"].mean(axis=0)
     defense_mean = stan_vars["defense"].mean(axis=0)
     index = {team: i for i, team in enumerate(teams)}
+    for alias, real in (team_aliases or {}).items():
+        index[alias] = index[real]
     df = df.copy()
     df["attack"] = df["team"].map(lambda t: float(attack_mean[index[t]]))
     df["defense"] = df["team"].map(lambda t: float(defense_mean[index[t]]))
@@ -601,6 +621,7 @@ def simulate_competition(
     n_draws: int = 200,
     seed: int = 0,
     guaranteed_slots: dict[str, list[str]] | None = None,
+    team_aliases: dict[str, str] | None = None,
 ) -> pd.DataFrame:
     """Monte Carlo simulates every phase of `config` in order and reports the
     probability of each declared spot (see configs/README.md for the schema).
@@ -618,6 +639,19 @@ def simulate_competition(
             `config.guaranteed_slots`. Only has an effect on phases whose
             `cascade` lists spot_name (see RoundRobinPhaseConfig.cascade /
             _resolve_cascade).
+        team_aliases: {debut_or_stale_team: previous_season_relegated_team} for
+            a team `teams`/`mcmc_fit` has no posterior for at all (e.g. the
+            pre-season backtest checkpoint src.simulation.run_rounds.reference_dates
+            adds before round 1, when a newly-promoted or long-absent team has
+            zero matches inside the training window) -- see
+            src.simulation.run_rounds._relegated_teams_previous_season for how
+            substitutes are picked. Each alias team gets its own, separate
+            index carrying an exact COPY of its substitute's attack/defense
+            draws (not a shared index) -- this matters specifically for
+            _simulate_playoff_pair's `np.array(teams)[winner_idx]`, which
+            converts a winner's numeric index back into a name positionally:
+            sharing an index would make an alias team's own playoff advancement
+            get reported under its substitute's name instead of its own.
     """
     if reference_date is None:
         reference_date = matches_df["match_datetime"].max()
@@ -627,7 +661,6 @@ def simulate_competition(
         if reference_date >= entry.known_from:
             guaranteed_slots.setdefault(entry.team, []).append(entry.spot)
 
-    team_index = {team: i for i, team in enumerate(teams)}
     stan_vars = mcmc_fit.stan_variables()
     total_draws = stan_vars["eta"].shape[0]
     rng = np.random.default_rng(seed)
@@ -636,9 +669,21 @@ def simulate_competition(
     # outcome every time, so this is a normal posterior-predictive resample, not a shortcut.
     draw_indices = rng.choice(total_draws, size=n_draws, replace=n_draws > total_draws)
 
+    attack_draws = stan_vars["attack"][draw_indices]
+    defense_draws = stan_vars["defense"][draw_indices]
+    sim_teams = teams
+    if team_aliases:
+        team_index = {team: i for i, team in enumerate(teams)}
+        alias_names = list(team_aliases)
+        substitute_cols = [team_index[team_aliases[name]] for name in alias_names]
+        attack_draws = np.concatenate([attack_draws, attack_draws[:, substitute_cols]], axis=1)
+        defense_draws = np.concatenate([defense_draws, defense_draws[:, substitute_cols]], axis=1)
+        sim_teams = [*teams, *alias_names]
+
+    team_index = {team: i for i, team in enumerate(sim_teams)}
     draw_params: DrawParams = (
-        stan_vars["attack"][draw_indices],
-        stan_vars["defense"][draw_indices],
+        attack_draws,
+        defense_draws,
         stan_vars["eta"][draw_indices],
         stan_vars["beta_home"][draw_indices],
         stan_vars["rho"][draw_indices],
@@ -653,8 +698,8 @@ def simulate_competition(
             )
         else:
             phase_results[phase_cfg.id] = _run_playoff_phase(
-                phase_cfg, phase_results, draw_params, teams, rng
+                phase_cfg, phase_results, draw_params, sim_teams, rng
             )
 
     result = _tabulate(config, phase_results, n_draws, rng, guaranteed_slots)
-    return _attach_team_strengths(result, mcmc_fit, teams)
+    return _attach_team_strengths(result, mcmc_fit, teams, team_aliases)
