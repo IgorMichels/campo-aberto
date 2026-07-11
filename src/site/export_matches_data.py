@@ -43,6 +43,7 @@ from zoneinfo import ZoneInfo
 import pandas as pd
 
 from src.constants import CLUB_INFOS_PATH, DEFAULT_MATCHES_PATH, RESULTS_DIR, SITE_DIR
+from src.models.registry import MODEL_REGISTRY
 from src.simulation.run_rounds import load_configs_by_season
 from src.site.export_site_data import (
     DEFAULT_SEASONS,
@@ -100,29 +101,43 @@ def _latest_results_csv_by_competition(results_dir: str = RESULTS_DIR) -> dict[s
 
 
 def _load_params(results_dir: str = RESULTS_DIR) -> dict:
-    """Shared scalars (eta/beta_home/rho, plus the reference_date they were
-    fit as of) from the single globally-latest results CSV -- the freshest
-    fit available. `teams`, however, is the UNION of every competition's own
-    latest file's attack/defense (see _latest_results_csv_by_competition):
-    using the single globally-latest file alone would silently drop every
-    team from a competition whose own latest round fell on an earlier date
-    (a real, currently-occurring case -- see that helper's docstring)."""
+    """{reference_date, model, shared: {...}, teams: {team: {...}, ...}} --
+    `model` names which src.models.registry.MODEL_REGISTRY adapter produced
+    these numbers, and `shared`/`teams` hold exactly the scalar/per-team
+    columns that adapter declares (adapter.shared_param_names/
+    .team_param_names), so this function never hardcodes a parameter name.
+
+    `model`/`shared`/`reference_date` come from the single globally-latest
+    results CSV -- the freshest fit available. `teams`, however, is the
+    UNION of every competition's own latest file's team params (see
+    _latest_results_csv_by_competition): using the single globally-latest
+    file alone would silently drop every team from a competition whose own
+    latest round fell on an earlier date (a real, currently-occurring case
+    -- see that helper's docstring)."""
     csv_path = _latest_results_csv(results_dir)
     df = pd.read_csv(csv_path)
     reference_date = os.path.splitext(os.path.basename(csv_path))[0].replace("_", "-")
     first = df.iloc[0]
+    model = first["model"]
+    adapter = MODEL_REGISTRY[model]
 
     teams: dict[str, dict] = {}
     for slug_csv_path in _latest_results_csv_by_competition(results_dir).values():
         slug_df = pd.read_csv(slug_csv_path)
+        slug_model = slug_df["model"].iloc[0]
+        if slug_model != model:
+            raise ValueError(
+                f"mixed models across results CSVs ({model!r} in {csv_path!r} vs "
+                f"{slug_model!r} in {slug_csv_path!r}) -- re-export after every "
+                "competition has been re-fit under the same model"
+            )
         for _, row in slug_df.iterrows():
-            teams[row["team"]] = {"attack": float(row["attack"]), "defense": float(row["defense"])}
+            teams[row["team"]] = {param: float(row[param]) for param in adapter.team_param_names}
 
     return {
         "reference_date": reference_date,
-        "eta": float(first["eta"]),
-        "beta_home": float(first["beta_home"]),
-        "rho": float(first["rho"]),
+        "model": model,
+        "shared": {param: float(first[param]) for param in adapter.shared_param_names},
         "teams": teams,
     }
 
@@ -214,18 +229,19 @@ def _upcoming_cards(
 
 
 def _read_snapshot_params(csv_path: str) -> dict:
-    """{eta, beta_home, rho, teams: {team: {attack, defense}, ...}} for every
-    team in this single dated results CSV -- same scalar/teams shape as
-    _load_params's return, but scoped to one already-resolved snapshot file
-    instead of merging the single globally-latest one across competitions."""
+    """{model, shared: {...}, teams: {team: {...}, ...}} for every team in
+    this single dated results CSV -- same shape as _load_params's return,
+    but scoped to one already-resolved snapshot file instead of merging the
+    single globally-latest one across competitions."""
     df = pd.read_csv(csv_path)
     first = df.iloc[0]
+    model = first["model"]
+    adapter = MODEL_REGISTRY[model]
     return {
-        "eta": float(first["eta"]),
-        "beta_home": float(first["beta_home"]),
-        "rho": float(first["rho"]),
+        "model": model,
+        "shared": {param: float(first[param]) for param in adapter.shared_param_names},
         "teams": {
-            row["team"]: {"attack": float(row["attack"]), "defense": float(row["defense"])}
+            row["team"]: {param: float(row[param]) for param in adapter.team_param_names}
             for _, row in df.iterrows()
         },
     }
@@ -277,9 +293,8 @@ def _played_cards(
                 has_model = True
                 reference_date = os.path.splitext(os.path.basename(snap_path))[0].replace("_", "-")
                 params = {
-                    "eta": full_params["eta"],
-                    "beta_home": full_params["beta_home"],
-                    "rho": full_params["rho"],
+                    "model": full_params["model"],
+                    "shared": full_params["shared"],
                     "teams": {
                         home_team: full_params["teams"][home_team],
                         away_team: full_params["teams"][away_team],
