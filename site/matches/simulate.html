@@ -15,7 +15,9 @@
   <body>
     <header class="page-header">
       <h1>Campo Aberto</h1>
-      <p class="subtitle">Monte um confronto entre quaisquer dois times</p>
+      <p class="subtitle">
+        Use as setas para escolher os dois times e veja a probabilidade de cada placar
+      </p>
     </header>
 
     <nav class="page-nav" aria-label="Páginas">
@@ -34,33 +36,105 @@
       <p class="status-message" id="status-message" hidden></p>
 
       <section class="confronto-builder">
-        <h2 class="builder-title">Monte seu confronto</h2>
-        <p class="builder-subtitle">
-          Escolha a competição e o time de cada lado -- qualquer combinação, inclusive entre
-          divisões diferentes.
-        </p>
+        <h2 class="builder-title">Monte seu confronto!</h2>
 
         <div class="builder-grid">
           <div class="builder-side" data-side="home">
-            <label for="builder-home-competition">Competição (casa)</label>
-            <select class="competition-select" id="builder-home-competition"></select>
+            <div class="competition-carousel">
+              <button
+                type="button"
+                class="carousel-arrow"
+                id="builder-home-competition-prev"
+                aria-label="Competição anterior"
+              >
+                &#9664;
+              </button>
 
-            <label for="builder-home-team">Time da casa</label>
-            <select class="team-select" id="builder-home-team"></select>
+              <div class="competition-carousel-name" id="builder-home-competition-name"></div>
 
-            <div class="crest-preview" id="builder-home-crest"></div>
+              <button
+                type="button"
+                class="carousel-arrow"
+                id="builder-home-competition-next"
+                aria-label="Próxima competição"
+              >
+                &#9654;
+              </button>
+            </div>
+
+            <div class="team-carousel">
+              <button
+                type="button"
+                class="carousel-arrow"
+                id="builder-home-prev"
+                aria-label="Time anterior"
+              >
+                &#9664;
+              </button>
+
+              <div class="team-carousel-card">
+                <div class="crest-preview" id="builder-home-crest"></div>
+                <div class="team-carousel-name" id="builder-home-name"></div>
+              </div>
+
+              <button
+                type="button"
+                class="carousel-arrow"
+                id="builder-home-next"
+                aria-label="Próximo time"
+              >
+                &#9654;
+              </button>
+            </div>
           </div>
 
-          <div class="builder-vs" aria-hidden="true">&times;</div>
-
           <div class="builder-side" data-side="away">
-            <label for="builder-away-competition">Competição (visitante)</label>
-            <select class="competition-select" id="builder-away-competition"></select>
+            <div class="competition-carousel">
+              <button
+                type="button"
+                class="carousel-arrow"
+                id="builder-away-competition-prev"
+                aria-label="Competição anterior"
+              >
+                &#9664;
+              </button>
 
-            <label for="builder-away-team">Time visitante</label>
-            <select class="team-select" id="builder-away-team"></select>
+              <div class="competition-carousel-name" id="builder-away-competition-name"></div>
 
-            <div class="crest-preview" id="builder-away-crest"></div>
+              <button
+                type="button"
+                class="carousel-arrow"
+                id="builder-away-competition-next"
+                aria-label="Próxima competição"
+              >
+                &#9654;
+              </button>
+            </div>
+
+            <div class="team-carousel">
+              <button
+                type="button"
+                class="carousel-arrow"
+                id="builder-away-prev"
+                aria-label="Time anterior"
+              >
+                &#9664;
+              </button>
+
+              <div class="team-carousel-card">
+                <div class="crest-preview" id="builder-away-crest"></div>
+                <div class="team-carousel-name" id="builder-away-name"></div>
+              </div>
+
+              <button
+                type="button"
+                class="carousel-arrow"
+                id="builder-away-next"
+                aria-label="Próximo time"
+              >
+                &#9654;
+              </button>
+            </div>
           </div>
         </div>
 

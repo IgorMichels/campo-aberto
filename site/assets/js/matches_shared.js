@@ -145,16 +145,6 @@
     });
   }
 
-  function buildCompetitionOptions(selectEl, competitions) {
-    selectEl.innerHTML = "";
-    competitions.forEach((competition) => {
-      const option = document.createElement("option");
-      option.value = competition.slug;
-      option.textContent = competition.competition.replace("Serie", "Série");
-      selectEl.appendChild(option);
-    });
-  }
-
   // Finds the single highest-probability scoreline in a match's 5x5 grid.
   function bestScore(scores) {
     let best = { home: 0, away: 0, prob: -1 };
@@ -670,7 +660,6 @@
     buildTabs,
     updateTabSelection,
     buildSeasonSelect,
-    buildCompetitionOptions,
     bestScore,
     renderHeatmap,
     renderStickerCard,
