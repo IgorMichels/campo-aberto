@@ -81,6 +81,7 @@ from src.constants import (
 )
 from src.models.data import build_stan_data
 from src.models.fit import fit_stan_data
+from src.models.registry import DEFAULT_MODEL, MODEL_REGISTRY
 from src.simulation import fixtures, standings
 from src.simulation.config import CompetitionConfig, RoundRobinPhaseConfig, load_competition_config
 from src.simulation.results import save_results
@@ -300,6 +301,7 @@ def main() -> None:
     parser.add_argument("--seed", type=int, default=DEFAULT_SEED)
     parser.add_argument("--chains", type=int, default=DEFAULT_CHAINS)
     parser.add_argument("--iter-warmup", type=int, default=DEFAULT_ITER_WARMUP)
+    parser.add_argument("--model", default=DEFAULT_MODEL, choices=sorted(MODEL_REGISTRY))
     parser.add_argument(
         "--guaranteed-slot",
         action="append",
@@ -379,6 +381,7 @@ def main() -> None:
             stan_data, teams = build_stan_data(train_df, reference_date=reference_date)
             mcmc_fit = fit_stan_data(
                 stan_data,
+                model=args.model,
                 chains=args.chains,
                 iter_warmup=args.iter_warmup,
                 iter_sampling=iter_sampling,
@@ -445,6 +448,7 @@ def main() -> None:
                     seed=args.seed,
                     guaranteed_slots=guaranteed_slots,
                     team_aliases=team_aliases or None,
+                    model=args.model,
                 )
                 print(f"=== {config.name} {season} (as of {reference_date.date()}) ===")
                 print(result.to_string(index=False))

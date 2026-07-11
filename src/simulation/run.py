@@ -42,6 +42,7 @@ from src.constants import (
 )
 from src.models.data import build_stan_data
 from src.models.fit import fit_stan_data
+from src.models.registry import DEFAULT_MODEL, MODEL_REGISTRY
 from src.simulation.config import load_competition_config
 from src.simulation.results import save_results
 from src.simulation.simulate import simulate_competition
@@ -74,6 +75,7 @@ def main() -> None:
     parser.add_argument("--seed", type=int, default=DEFAULT_SEED)
     parser.add_argument("--chains", type=int, default=DEFAULT_CHAINS)
     parser.add_argument("--iter-warmup", type=int, default=DEFAULT_ITER_WARMUP)
+    parser.add_argument("--model", default=DEFAULT_MODEL, choices=sorted(MODEL_REGISTRY))
     parser.add_argument(
         "--guaranteed-slot",
         action="append",
@@ -100,7 +102,11 @@ def main() -> None:
     # at least one posterior draw per requested Monte Carlo replicate
     iter_sampling = -(-args.n_draws // args.chains)
     mcmc_fit = fit_stan_data(
-        stan_data, chains=args.chains, iter_warmup=args.iter_warmup, iter_sampling=iter_sampling
+        stan_data,
+        model=args.model,
+        chains=args.chains,
+        iter_warmup=args.iter_warmup,
+        iter_sampling=iter_sampling,
     )
 
     for config_path in args.configs:
@@ -115,6 +121,7 @@ def main() -> None:
             n_draws=args.n_draws,
             seed=args.seed,
             guaranteed_slots=guaranteed_slots,
+            model=args.model,
         )
         print(f"=== {config.name} {args.season} (as of {reference_date.date()}) ===")
         print(result.to_string(index=False))

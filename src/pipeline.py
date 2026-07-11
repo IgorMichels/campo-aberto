@@ -34,6 +34,7 @@ from src.constants import (
 )
 from src.ingestion.brazil import build_treated_dataset, espn_fixtures, scrape_raw_matches
 from src.models.fit import fit, save_samples
+from src.models.registry import DEFAULT_MODEL, MODEL_REGISTRY
 from src.simulation.config import load_competition_config
 from src.simulation.results import save_results
 from src.simulation.simulate import simulate_competition
@@ -63,6 +64,7 @@ def main() -> None:
     parser.add_argument("--seed", type=int, default=DEFAULT_SEED)
     parser.add_argument("--chains", type=int, default=DEFAULT_CHAINS)
     parser.add_argument("--iter-warmup", type=int, default=DEFAULT_ITER_WARMUP)
+    parser.add_argument("--model", default=DEFAULT_MODEL, choices=sorted(MODEL_REGISTRY))
     parser.add_argument(
         "--guaranteed-slot",
         action="append",
@@ -85,17 +87,18 @@ def main() -> None:
     # latest *played* match, not a future fixture's date.
     reference_date = df[df["home_goals"].notna()]["match_datetime"].max()
 
-    print("=== 2/4: fitting poisson_home.stan ===")
+    print(f"=== 2/4: fitting {args.model} ===")
     # at least one posterior draw per requested Monte Carlo replicate
     iter_sampling = -(-args.n_draws // args.chains)
     mcmc_fit, teams = fit(
         args.matches,
         reference_date=reference_date,
+        model=args.model,
         chains=args.chains,
         iter_warmup=args.iter_warmup,
         iter_sampling=iter_sampling,
     )
-    samples_path = save_samples(mcmc_fit, teams, args.matches)
+    samples_path = save_samples(mcmc_fit, teams, args.matches, model=args.model)
     print(f"Saved samples to {samples_path}")
 
     print("=== 3/4: simulating the rest of the season ===")
@@ -111,6 +114,7 @@ def main() -> None:
             n_draws=args.n_draws,
             seed=args.seed,
             guaranteed_slots=guaranteed_slots,
+            model=args.model,
         )
         print(f"\n=== {config.name} {args.season} (as of {reference_date.date()}) ===")
         print(result.to_string(index=False))
