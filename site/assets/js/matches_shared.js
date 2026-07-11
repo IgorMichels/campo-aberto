@@ -304,25 +304,22 @@
   // `params` (NOT read from any shared module state -- explicit argument)
   // is either the page's one current params.json (upcoming/free-pick) or a
   // played match's own embedded historical snapshot (see
-  // src.site.export_matches_data._played_cards). Returns null (caller
+  // src.site.export_matches_data._played_cards) -- either way, shaped
+  // {model, shared, teams}. Dispatches through window.ScoreModels[params.model]
+  // (see score_models.js) instead of calling one hardcoded implementation,
+  // so a candidate model needs no change here. Returns null (caller
   // skips/warns) if either team has no known params.
   function computeCard(base, params) {
     const homeParams = params.teams[base.home_team];
     const awayParams = params.teams[base.away_team];
     if (!homeParams || !awayParams) return null;
 
-    const { muHome, muAway } = DixonColes.matchRates(
-      homeParams.attack,
-      homeParams.defense,
-      awayParams.attack,
-      awayParams.defense,
-      params.eta,
-      params.beta_home,
-    );
-    const { grid, home_win, draw, away_win } = DixonColes.scorelineProbabilities(
+    const model = window.ScoreModels[params.model];
+    const { muHome, muAway } = model.matchRates(homeParams, awayParams, params.shared);
+    const { grid, home_win, draw, away_win } = model.scorelineProbabilities(
       muHome,
       muAway,
-      params.rho,
+      params.shared,
     );
 
     const scores = {};
@@ -332,11 +329,10 @@
       });
     });
 
-    // Symmetric in home/away (a plain sum) -- measures "how strong are
-    // these two teams combined", independent of who hosts. Drives the
-    // card's rarity border (see computeStrengthTiers/strengthTierClass).
-    const total_strength =
-      homeParams.attack + homeParams.defense + awayParams.attack + awayParams.defense;
+    // Symmetric in home/away -- measures "how strong are these two teams
+    // combined", independent of who hosts. Drives the card's rarity border
+    // (see computeStrengthTiers/strengthTierClass).
+    const total_strength = model.teamStrength(homeParams) + model.teamStrength(awayParams);
 
     return { ...base, scores, home_win, draw, away_win, total_strength };
   }
@@ -349,15 +345,19 @@
   // shared module-level state, since matches/played.html computes a card's
   // total_strength from a DIFFERENT params object per match, but still
   // wants one consistent tier scale across the whole page -- see each
-  // page's own init()).
-  function computeStrengthTiers(paramsTeams) {
+  // page's own init()). `model` selects window.ScoreModels[model].teamStrength
+  // (see score_models.js) -- never dereferenced when paramsTeams is empty
+  // (a real case: a played season with no match that has a model yet), so a
+  // null/missing model is harmless in that case.
+  function computeStrengthTiers(paramsTeams, model) {
+    const scoreModel = window.ScoreModels[model];
     const teamNames = Object.keys(paramsTeams);
     const totals = [];
     for (let i = 0; i < teamNames.length; i++) {
       const a = paramsTeams[teamNames[i]];
       for (let j = i + 1; j < teamNames.length; j++) {
         const b = paramsTeams[teamNames[j]];
-        totals.push(a.attack + a.defense + b.attack + b.defense);
+        totals.push(scoreModel.teamStrength(a) + scoreModel.teamStrength(b));
       }
     }
     totals.sort((x, y) => x - y);
@@ -372,7 +372,7 @@
       teamNames
         .map((name) => ({
           name,
-          team_strength: paramsTeams[name].attack + paramsTeams[name].defense,
+          team_strength: scoreModel.teamStrength(paramsTeams[name]),
         }))
         .sort((x, y) => y.team_strength - x.team_strength)
         .slice(0, 3)

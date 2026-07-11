@@ -132,10 +132,14 @@
     try {
       const data = await fetchJSON(`data/${slug}/played_${season}.json`);
       const paramsTeams = {};
+      let model = null;
       data.matches.forEach((match) => {
-        if (match.has_model) Object.assign(paramsTeams, match.params.teams);
+        if (match.has_model) {
+          Object.assign(paramsTeams, match.params.teams);
+          model = match.params.model;
+        }
       });
-      state.tiers = computeStrengthTiers(paramsTeams);
+      state.tiers = computeStrengthTiers(paramsTeams, model);
 
       state.filterText = "";
       teamFilterEl.value = "";
@@ -212,7 +216,7 @@
       // params (the shared-link visitor hasn't loaded this competition's
       // full season yet, so there's no wider distribution to compare
       // against) -- good enough for a single restored card's border.
-      const tiers = computeStrengthTiers(match.params.teams);
+      const tiers = computeStrengthTiers(match.params.teams, match.params.model);
       const card = computeCard(
         {
           home_team: match.home_team,
