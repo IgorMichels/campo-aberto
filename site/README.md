@@ -11,10 +11,14 @@ A push to `main` that touches this directory triggers
 
 ## Regenerating
 
-`python -m src.pipeline` regenerates this directory's data as its last step
-(calling `src.site.export_site_data`). Review and commit the result -- that
-commit is what actually triggers a new deploy, since `data/results/` itself
-never reaches git or CI.
+`python -m src.pipeline` regenerates this directory's data as its last step,
+calling both `src.site.export_site_data` (standings/odds:
+`manifest.json`, `<slug>/<season>.json`) and `src.site.export_matches_data`
+(the "Jogos" pages: `matches_manifest.json`, `<slug>/matches_<season>.json`,
+`played_manifest.json`, `<slug>/played_<season>.json`, `params.json`),
+passing both the same reference date so they agree on "as of". Review and
+commit the result -- that commit is what actually triggers a new deploy,
+since `data/results/` itself never reaches git or CI.
 
 To regenerate just the site data (e.g. after editing `configs/*.yaml` or
 `data/club_infos.csv` without rerunning the full pipeline), run the export
@@ -24,20 +28,19 @@ on its own:
 python -m src.site.export_site_data
 ```
 
-To regenerate the Confrontos data (`matches_manifest.json`,
-`<slug>/matches_<season>.json`, `params.json`), run:
+To regenerate just the "Jogos" data (e.g. after editing `matches.csv` or
+`data/club_infos.csv` without rerunning the full pipeline), run:
 
 ```bash
 python -m src.site.export_matches_data
 ```
 
 This must run _after_ `python -m src.ingestion.brazil.run_pipeline` (which
-produces the merged `matches.csv` its upcoming-fixture cards read from) and
-_after_ `python -m src.simulation.run_rounds` / `python -m src.pipeline`
-(which produce the `attack`/`defense`/`eta`/`beta_home`/`rho` columns on
-`data/results/` that `params.json` is built from). `python -m src.pipeline`
-does not call `export_matches_data` for you -- run it as a separate step
-once both of the above are up to date.
+produces the merged `matches.csv` both upcoming- and played-fixture cards
+read from) and _after_ `python -m src.simulation.run_rounds` / `python -m
+src.pipeline` (which produce the `attack`/`defense`/`eta`/`beta_home`/`rho`
+columns on `data/results/` that `params.json` -- and each played match's own
+embedded historical params slice, see below -- are built from).
 
 ## Data schema
 
@@ -88,24 +91,35 @@ once both of the above are up to date.
   as of that snapshot's date, computed from `data/processed/brazil/matches.csv`.
 - `crest`/`color` are `site`-root-relative image path / hex color, used as-is.
 
-## Confrontos
+## Jogos
 
-`matches.html` shows one match-score-probability "sticker" per game (a
-5x5 heatmap of scoreline probabilities plus a home/draw/away win bar),
-inspired by the WorldCup2026 project's `previsoes.html` sticker cards. Two
-sources feed the page:
+Three pages under `matches/` share one match-score-probability "sticker"
+card component (a 5x5 heatmap of scoreline probabilities plus a home/draw/
+away win bar), inspired by the WorldCup2026 project's `previsoes.html`
+sticker cards, and one shared modal (zoom/download-as-PNG/share-link):
 
-1. **Real, not-yet-played fixtures** -- one card per unplayed row in
+1. **`matches/upcoming.html`** ("Próximos") -- every not-yet-played row in
    `data/processed/brazil/matches.csv` (the unified CBF+ESPN dataset, see
    below), soonest-first, plus a "Data a definir" bucket for postponed
-   matches with no confirmed date.
-2. **A FIFA-style free-pick builder** -- choose a competition then a team,
-   for both home and away (any two teams, any competition/season, including
-   cross-division matchups), and see a live scoreline grid for a matchup
-   that may never actually be scheduled.
+   matches with no confirmed date, in a paginated grid (10 by default,
+   "mostrar mais" reveals more from the same already-fetched list).
+2. **`matches/played.html`** ("Passados") -- every already-played match for
+   the same tracked seasons, most-recent-first, each sticker computed from
+   the model snapshot most recently fit _before_ that specific match was
+   played (not today's params) with the real final score highlighted; a
+   match predating that competition/season's first backtest snapshot shows
+   a "sem modelo disponível ainda" placeholder instead of a probability
+   grid.
+3. **`matches/simulate.html`** ("Simule") -- a FIFA-style free-pick builder:
+   choose a competition then a team, for both home and away (any two teams,
+   any competition/season, including cross-division matchups), and see a
+   live scoreline grid for a matchup that may never actually be scheduled.
 
-Both card types are computed the same way, by the same client-side JS
-function -- there is no separate "real fixture" vs. "free pick" formula.
+All three card types are computed the same way, by the same client-side JS
+function (`computeCard(base, params)` in `assets/js/matches_shared.js`) --
+there is no separate formula per page, only a different `params` object:
+the current shared `params.json` for upcoming/free-pick cards, or a played
+match's own embedded historical snapshot for past cards.
 
 ### Data lineage
 
@@ -152,10 +166,11 @@ backtested" (a finished season/competition simply has no entry):
 {"competitions": [{"competition": "Serie A", "slug": "serie_a", "seasons": [2026]}, ...]}
 ```
 
-`data/<slug>/matches_<season>.json` -- one entry per real, not-yet-played
-match. No probabilities here; they're computed client-side from
-`params.json`. Sorted scheduled-first-by-date, then postponed last
-(alphabetical by home team):
+`data/<slug>/matches_<season>.json` -- **every** remaining not-yet-played
+match (no date window or count cap -- `matches/upcoming.html` paginates
+client-side over the full list). No probabilities here; they're computed
+client-side from `params.json`. Sorted scheduled-first-by-date, then
+postponed last (alphabetical by home team):
 
 ```json
 {
@@ -184,8 +199,69 @@ match. No probabilities here; they're computed client-side from
 }
 ```
 
-`data/params.json` -- the shared model parameters every card (real fixture
-or free pick) is computed from, entirely in the browser:
+`data/played_manifest.json` -- same shape as `matches_manifest.json`, but
+scoped to "has at least one played card exported" (a season/competition can
+appear here, in `matches_manifest.json`, in both, or in neither):
+
+```json
+{"competitions": [{"competition": "Serie A", "slug": "serie_a", "seasons": [2025, 2026]}, ...]}
+```
+
+`data/<slug>/played_<season>.json` -- every already-played match for this
+competition/season, most-recent-first, each embedding its OWN 2-team params
+slice (the model snapshot most recently fit _strictly before_ that match's
+own date -- see `src.site.export_site_data._snapshot_csv_before` /
+`src.site.export_matches_data._played_cards`) instead of reading the page's
+shared `params.json`, since different matches reference different
+historical dates:
+
+```json
+{
+  "matches": [
+    {
+      "home_team": "Flamengo / RJ",
+      "away_team": "Palmeiras / SP",
+      "home_crest": "assets/crests/flarj.png",
+      "away_crest": "assets/crests/palsp.png",
+      "home_color": "#C1121F",
+      "away_color": "#006437",
+      "date": "2026-05-10T22:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-04",
+      "params": {
+        "eta": 0.021,
+        "beta_home": 0.318,
+        "rho": 0.026,
+        "teams": {
+          "Flamengo / RJ": { "attack": 0.41, "defense": 0.18 },
+          "Palmeiras / SP": { "attack": 0.52, "defense": 0.09 }
+        }
+      }
+    },
+    {
+      "home_team": "...",
+      "away_team": "...",
+      "...": "...",
+      "has_model": false,
+      "reference_date": null,
+      "params": null
+    }
+  ]
+}
+```
+
+`has_model: false` (with `reference_date`/`params` both `null`) happens for
+a match with no valid prior snapshot -- a real, recurring case for a
+season's earliest played matches, which predate that competition/season's
+very first backtest reference date. `matches/played.html` renders a "sem
+modelo disponível ainda" placeholder for these instead of a probability
+grid.
+
+`data/params.json` -- the shared model parameters an upcoming-fixture or
+free-pick card is computed from, entirely in the browser (a played card
+uses its own embedded `params` above instead):
 
 ```json
 {
