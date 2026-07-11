@@ -89,6 +89,78 @@ body {
   border-bottom-color: var(--accent);
 }
 
+/* A .page-nav entry with its own submenu (currently just "Jogos" ->
+   Próximos/Passados/Simule) -- opens on hover (pure CSS, mouse users) or on
+   click/tap (nav.js toggles .is-open, for touch devices that can't hover).
+   The trigger is styled through the plain ".page-nav a" rules above (it's
+   still a real <a>, just with this class added on top) plus the small
+   caret appended here. */
+.nav-dropdown {
+  position: relative;
+  display: flex;
+}
+
+/* The trigger stretches to the same height its plain-<a> siblings get from
+   .page-nav's flex stretch (the wrapping div above already matches their
+   height; without this the <a> inside it stays at its own shorter natural
+   height and sits top-aligned, reading as "shifted up" relative to
+   Classificação/Evolução), then centers its own text within that height. */
+.nav-dropdown-trigger {
+  display: flex;
+  align-items: center;
+}
+
+.nav-dropdown-trigger::after {
+  content: " \25BE"; /* ▾ */
+  font-size: 0.7em;
+}
+
+.nav-dropdown-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  /* No gap between the trigger's bottom edge and this menu's top edge --
+     top: 100% (no margin) means the two boxes are directly adjacent, so
+     :hover on .nav-dropdown never lapses while the mouse crosses from one
+     to the other. Breathing room comes from this box's own top padding
+     instead of a margin outside it, which would have been a dead zone. */
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.6rem 0.35rem 0.35rem;
+  min-width: 140px;
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown.is-open .nav-dropdown-menu {
+  display: flex;
+}
+
+.nav-dropdown-menu a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.nav-dropdown-menu a:hover {
+  color: var(--text-primary);
+  background: var(--border);
+}
+
+.nav-dropdown-menu a[aria-current="page"] {
+  color: var(--accent-strong);
+  background: var(--border);
+}
+
 main {
   max-width: 1200px;
   margin: 0 auto;
