@@ -1,6 +1,12 @@
 (() => {
   "use strict";
 
+  // Shared with evolution.js/matches_shared.js via team_display.js, loaded before
+  // this file -- see that file for why club names keep their " / UF" state
+  // suffix in the data (disambiguates clubs like "Botafogo / RJ" vs
+  // "Botafogo / SP") even though it's never shown to the user.
+  const { displayTeamName } = window.CampoAberto;
+
   const state = {
     manifest: null,
     competitionSlug: null,
@@ -278,12 +284,12 @@
       const crest = document.createElement("img");
       crest.className = "crest";
       crest.src = team.crest;
-      crest.alt = `Escudo do ${team.team}`;
+      crest.alt = `Escudo do ${displayTeamName(team.team)}`;
       crest.loading = "lazy";
 
       const name = document.createElement("span");
       name.className = "team-name";
-      name.textContent = team.team;
+      name.textContent = displayTeamName(team.team);
 
       teamCell.appendChild(crest);
       teamCell.appendChild(name);

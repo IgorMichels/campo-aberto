@@ -8,9 +8,14 @@
 3. Simulates the rest of the season as of the latest known match and reports
    title / continental / promotion / relegation probabilities
    (src.simulation.simulate).
-4. Exports the fresh data/results/ snapshots into the static site's committed
-   data (src.site.export_site_data). The site/ output still needs to be
-   committed and pushed for a deploy to actually go out -- see site/README.md.
+4. Exports the fresh data into the static site's committed data: both the
+   standings/odds export (src.site.export_site_data, data/results/ snapshots
+   -> site/data/manifest.json + <slug>/<season>.json) and the Confrontos
+   export (src.site.export_matches_data, matches.csv + the same results ->
+   site/data/matches_manifest.json + <slug>/matches_<season>.json +
+   params.json), both as of the same reference_date so they agree on
+   "as of". The site/ output still needs to be reviewed and committed for a
+   deploy to actually go out -- see site/README.md.
 """
 
 import argparse
@@ -32,6 +37,7 @@ from src.models.fit import fit, save_samples
 from src.simulation.config import load_competition_config
 from src.simulation.results import save_results
 from src.simulation.simulate import simulate_competition
+from src.site.export_matches_data import export_matches_data
 from src.site.export_site_data import export_site_data
 
 
@@ -114,6 +120,7 @@ def main() -> None:
 
     print("=== 4/4: exporting site data ===")
     export_site_data()
+    export_matches_data(now=reference_date)
     print(
         f"Site data refreshed under {SITE_DIR}/data -- review and commit that directory to deploy."
     )
