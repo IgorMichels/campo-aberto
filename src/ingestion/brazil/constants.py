@@ -1,11 +1,13 @@
 """Shared constants for the Brazilian football ingestion pipeline."""
 
+from datetime import datetime
+
 COMPETITIONS = {
     "Serie_A": "Serie A",
     "Serie_B": "Serie B",
 }
-START_YEAR = 2020
-END_YEAR = 2026
+START_YEAR = 2020  # real historical floor, not a "current" concept -- stays fixed
+END_YEAR = datetime.now().year  # scraping always covers the current calendar year
 GAMES_PER_SEASON = 380
 
 # cbf_docket.py
