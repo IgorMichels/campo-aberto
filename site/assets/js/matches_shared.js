@@ -7,6 +7,11 @@
   // have one implementation. Page-specific state/wiring (which manifest to
   // load, how to paginate, free-pick builder vs. real fixtures) lives in each
   // page's own matches_upcoming.js/matches_played.js/matches_simulate.js.
+  //
+  // renderStickerCard's card layout (crests, most-likely score, heatmap,
+  // win/draw/away bar) is inspired by the sticker cards lflaguardia built
+  // for the WorldCup2026 project's previsoes page:
+  // https://github.com/BrazilianFootball/WorldCup2026
 
   // Every one of matches/*.html lives one directory below site/ -- prefixing
   // every fetch/image path here, once, instead of at every call site.
