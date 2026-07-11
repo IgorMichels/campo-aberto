@@ -21,6 +21,7 @@ from src.site.export_site_data import (
     _copy_crest,
     _export_season,
     _export_snapshot,
+    _snapshot_csv_before,
     export_site_data,
 )
 
@@ -91,6 +92,38 @@ def test_all_results_csvs_returns_every_dated_file_oldest_first(tmp_path):
 
 def test_all_results_csvs_returns_empty_list_when_missing(tmp_path):
     assert _all_results_csvs("serie_a", 2025, str(tmp_path)) == []
+
+
+def test_snapshot_csv_before_picks_the_latest_one_strictly_before(tmp_path):
+    season_dir = tmp_path / "serie_a" / "2025"
+    for name in ["2025_01_01.csv", "2025_02_01.csv", "2025_03_01.csv"]:
+        _write_results_csv(season_dir / name, [{"team": "A", "prob_title": 0.1}])
+
+    result = _snapshot_csv_before("serie_a", 2025, pd.Timestamp("2025-02-15"), str(tmp_path))
+
+    assert result == str(season_dir / "2025_02_01.csv")
+
+
+def test_snapshot_csv_before_excludes_a_snapshot_dated_the_same_day(tmp_path):
+    season_dir = tmp_path / "serie_a" / "2025"
+    _write_results_csv(season_dir / "2025_02_01.csv", [{"team": "A", "prob_title": 0.1}])
+
+    result = _snapshot_csv_before("serie_a", 2025, pd.Timestamp("2025-02-01"), str(tmp_path))
+
+    assert result is None
+
+
+def test_snapshot_csv_before_returns_none_when_every_snapshot_is_on_or_after(tmp_path):
+    season_dir = tmp_path / "serie_a" / "2025"
+    _write_results_csv(season_dir / "2025_03_01.csv", [{"team": "A", "prob_title": 0.1}])
+
+    result = _snapshot_csv_before("serie_a", 2025, pd.Timestamp("2025-01-15"), str(tmp_path))
+
+    assert result is None
+
+
+def test_snapshot_csv_before_returns_none_when_no_snapshots_exist(tmp_path):
+    assert _snapshot_csv_before("serie_a", 2025, pd.Timestamp("2025-01-15"), str(tmp_path)) is None
 
 
 def test_copy_crest_writes_once_and_skips_identical_rewrite(tmp_path):

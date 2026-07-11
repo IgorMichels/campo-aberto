@@ -1,20 +1,30 @@
-"""CLI: exports real, not-yet-played fixtures (from the unified
-data/processed/brazil/matches.csv, git-ignored) plus real, posterior-mean
-team strengths (from data/results/*.csv's extra columns, also git-ignored --
-see src.simulation.simulate._attach_team_strengths) into the static site's
-committed Confrontos data (site/data/matches_manifest.json,
-site/data/<slug>/matches_<season>.json, site/data/params.json).
+"""CLI: exports real fixtures -- both not-yet-played (from the unified
+data/processed/brazil/matches.csv, git-ignored) and already-played -- plus
+real, posterior-mean team strengths (from data/results/*.csv's extra
+columns, also git-ignored -- see src.simulation.simulate._attach_team_strengths)
+into the static site's committed "Jogos" data:
+site/data/matches_manifest.json + site/data/<slug>/matches_<season>.json
+(upcoming fixtures, current shared params.json), and
+site/data/played_manifest.json + site/data/<slug>/played_<season>.json
+(already-played matches, each embedding its OWN 2-team params slice -- the
+model snapshot most recently fit strictly before that match was played, see
+_played_cards/_snapshot_csv_before -- since different matches can reference
+different historical dates, unlike the one shared params.json upcoming
+fixtures use).
 
 Deliberately a separate module from src.site.export_site_data (standings/
 odds export): different inputs (matches.csv + data/results' new columns,
 vs. every dated results CSV), different output files (matches_manifest.json
 vs. manifest.json -- "has upcoming fixtures right now" is a different
 question from "has ever been backtested", so a finished season can appear
-in one and not the other), and no probabilities baked in at export time --
-this file writes only real fixtures + real model parameters, never a
-scoreline. Every scoreline probability the Confrontos page shows is computed
-client-side, live, by site/assets/js/dixon_coles.js from params.json -- see
-plans/confrontos_rework.md Step 3/4/5.
+in one and not the other), and no probabilities baked in at export time for
+upcoming fixtures -- this file writes only real fixtures + real model
+parameters, never a scoreline for those. Every scoreline probability the
+site's "Jogos" pages show is computed client-side, live, by
+site/assets/js/dixon_coles.js from whichever params object applies (the
+shared params.json for upcoming/free-pick cards, or a played match's own
+embedded params for past cards) -- see plans/confrontos_rework.md Step
+3/4/5.
 
 Run after both `python -m src.ingestion.brazil.run_pipeline` (for a fresh
 matches.csv) and `python -m src.simulation.run_rounds` / `src.pipeline`
@@ -34,14 +44,12 @@ import pandas as pd
 
 from src.constants import CLUB_INFOS_PATH, DEFAULT_MATCHES_PATH, RESULTS_DIR, SITE_DIR
 from src.simulation.run_rounds import load_configs_by_season
-from src.site.export_site_data import DEFAULT_SEASONS, _competition_slug, _copy_crest
-
-# How far ahead a "scheduled" match still counts as an upcoming card, and how
-# many to fall back to (soonest first, regardless of date) when that window
-# is empty -- e.g. during a real-world break like a World Cup, where every
-# scheduled match is further out than 14 days.
-FIXTURE_WINDOW_DAYS = 14
-FIXTURE_FALLBACK_COUNT = 10
+from src.site.export_site_data import (
+    DEFAULT_SEASONS,
+    _competition_slug,
+    _copy_crest,
+    _snapshot_csv_before,
+)
 
 # matches.csv's match_datetime is always Brazil local time (see
 # src.ingestion.brazil.build_treated_dataset, both CBF's own local timestamps
@@ -127,10 +135,13 @@ def _to_utc_iso(ts: pd.Timestamp) -> str:
 def _selected_rows(
     matches_df: pd.DataFrame, competition: str, season: int, now: pd.Timestamp
 ) -> pd.DataFrame:
-    """Every not-yet-played row for this competition+season that survives the
-    14-day-window-then-fallback-to-10 scheduled selection, plus every
-    postponed row (always included, no date to filter by) -- in final card
+    """Every not-yet-played row for this competition+season, in final card
     order (dated soonest-first, then postponed alphabetically by home team).
+    Every remaining scheduled fixture is included -- no date window/cap here
+    any more, since the site paginates client-side ("mostrar mais") over the
+    full list instead of the server truncating it. The `match_datetime >=
+    now` floor stays as a guard against a stale row whose date has passed
+    but whose status hasn't flipped to "played" in matches.csv yet.
     Factored out of _upcoming_cards so export_matches_data can also call it,
     BEFORE any crest gets copied, to know exactly which teams a card might
     need a crest for -- copying site/assets/crests/ eagerly for every club
@@ -144,11 +155,7 @@ def _selected_rows(
     ]
 
     scheduled = rows[rows["status"] == "scheduled"].sort_values("match_datetime")
-    window_end = now + pd.Timedelta(days=FIXTURE_WINDOW_DAYS)
-    windowed = scheduled[
-        (scheduled["match_datetime"] >= now) & (scheduled["match_datetime"] <= window_end)
-    ]
-    dated_rows = windowed if not windowed.empty else scheduled.head(FIXTURE_FALLBACK_COUNT)
+    dated_rows = scheduled[scheduled["match_datetime"] >= now]
 
     # No date to filter by -- always included in full, alphabetical by home
     # team, appended after the dated ones (see the module docstring / plan's
@@ -206,6 +213,98 @@ def _upcoming_cards(
     return cards
 
 
+def _read_snapshot_params(csv_path: str) -> dict:
+    """{eta, beta_home, rho, teams: {team: {attack, defense}, ...}} for every
+    team in this single dated results CSV -- same scalar/teams shape as
+    _load_params's return, but scoped to one already-resolved snapshot file
+    instead of merging the single globally-latest one across competitions."""
+    df = pd.read_csv(csv_path)
+    first = df.iloc[0]
+    return {
+        "eta": float(first["eta"]),
+        "beta_home": float(first["beta_home"]),
+        "rho": float(first["rho"]),
+        "teams": {
+            row["team"]: {"attack": float(row["attack"]), "defense": float(row["defense"])}
+            for _, row in df.iterrows()
+        },
+    }
+
+
+def _played_cards(
+    matches_df: pd.DataFrame,
+    competition: str,
+    season: int,
+    crest_by_team: dict,
+    color_by_team: dict,
+    slug: str,
+    results_dir: str,
+) -> list[dict]:
+    """Every played match for this competition+season, most-recent-first, as
+    a card dict ready for site/data/<slug>/played_<season>.json. Unlike the
+    upcoming cards (one shared, current params.json for the whole page),
+    each played match embeds its OWN 2-team params slice -- the model
+    snapshot most recently fit strictly before that match was played (see
+    _snapshot_csv_before) -- since different matches can reference different
+    dates. `has_model` is False (params/reference_date null) when no prior
+    snapshot exists yet (a real, confirmed case for a season's earliest
+    played matches) or when a team is missing from that snapshot's own
+    roster; the site renders a "sem modelo disponível" placeholder for those
+    instead of a probability grid."""
+    snapshot_cache: dict[str, dict] = {}
+    rows = matches_df[
+        (matches_df["competition"] == competition)
+        & (matches_df["season"] == season)
+        & (matches_df["status"] == "played")
+    ].sort_values("match_datetime", ascending=False)
+
+    cards = []
+    for _, row in rows.iterrows():
+        home_team, away_team = row["home_team"], row["away_team"]
+        if home_team not in crest_by_team or away_team not in crest_by_team:
+            print(
+                f"Skipped played {home_team} x {away_team} ({competition} {season}): missing crest"
+            )
+            continue
+
+        snap_path = _snapshot_csv_before(slug, season, row["match_datetime"], results_dir)
+        has_model = False
+        reference_date = None
+        params = None
+        if snap_path is not None:
+            full_params = snapshot_cache.setdefault(snap_path, _read_snapshot_params(snap_path))
+            if home_team in full_params["teams"] and away_team in full_params["teams"]:
+                has_model = True
+                reference_date = os.path.splitext(os.path.basename(snap_path))[0].replace("_", "-")
+                params = {
+                    "eta": full_params["eta"],
+                    "beta_home": full_params["beta_home"],
+                    "rho": full_params["rho"],
+                    "teams": {
+                        home_team: full_params["teams"][home_team],
+                        away_team: full_params["teams"][away_team],
+                    },
+                }
+
+        cards.append(
+            {
+                "home_team": home_team,
+                "away_team": away_team,
+                "home_crest": crest_by_team[home_team],
+                "away_crest": crest_by_team[away_team],
+                "home_color": color_by_team.get(home_team, "#4A5568"),
+                "away_color": color_by_team.get(away_team, "#4A5568"),
+                "date": _to_utc_iso(row["match_datetime"]),
+                "home_goals": int(row["home_goals"]),
+                "away_goals": int(row["away_goals"]),
+                "has_model": has_model,
+                "reference_date": reference_date,
+                "params": params,
+            }
+        )
+    return cards
+
+
 def export_matches_data(
     seasons: list[int] = DEFAULT_SEASONS,
     results_dir: str = RESULTS_DIR,
@@ -230,18 +329,30 @@ def export_matches_data(
 
     configs_by_season = load_configs_by_season(seasons)
 
-    # Only copy a crest for a team that could actually end up in a card
-    # (known to the latest Stan fit AND surviving the window/postponed
-    # selection for some competition+season being exported) -- see
-    # _selected_rows' docstring for why this matters (avoids committing
-    # unreferenced crests for every one of club_infos.csv's ~57 clubs).
-    needed_teams: set = set()
+    # Only copy a crest for a team that could actually end up in a card --
+    # see _selected_rows' docstring for why this matters (avoids committing
+    # unreferenced crests for every one of club_infos.csv's ~57 clubs). An
+    # upcoming card is skipped entirely when a team isn't known to the
+    # latest Stan fit (see _upcoming_cards), so that set is intersected with
+    # known_teams; a played card is never skipped for that reason (it just
+    # renders a "sem modelo" placeholder, see _played_cards), so every team
+    # appearing in a played row needs a crest regardless of known_teams.
+    upcoming_needed_teams: set = set()
+    played_needed_teams: set = set()
     for season, configs in configs_by_season.items():
         for config in configs:
             selected = _selected_rows(matches_df, config.name, season, now)
-            needed_teams.update(selected["home_team"])
-            needed_teams.update(selected["away_team"])
-    needed_teams &= known_teams
+            upcoming_needed_teams.update(selected["home_team"])
+            upcoming_needed_teams.update(selected["away_team"])
+
+            played_rows = matches_df[
+                (matches_df["competition"] == config.name)
+                & (matches_df["season"] == season)
+                & (matches_df["status"] == "played")
+            ]
+            played_needed_teams.update(played_rows["home_team"])
+            played_needed_teams.update(played_rows["away_team"])
+    needed_teams = (upcoming_needed_teams & known_teams) | played_needed_teams
 
     crest_by_team = {}
     for team in needed_teams:
@@ -254,27 +365,44 @@ def export_matches_data(
 
     # {slug: (competition name, [season, ...])}, only combos that actually
     # produced at least one card -- a finished season/competition naturally
-    # disappears from both the manifest and its own JSON file.
+    # disappears from both the manifest and its own JSON file. Tracked
+    # separately for upcoming vs. played cards: a season with no upcoming
+    # fixtures left can still have played ones, and vice versa.
     exported: dict[str, tuple[str, list[int]]] = {}
+    played_exported: dict[str, tuple[str, list[int]]] = {}
     for season, configs in sorted(configs_by_season.items()):
         for config in configs:
             slug = _competition_slug(config.name)
+
             cards = _upcoming_cards(
                 matches_df, config.name, season, now, crest_by_team, color_by_team, known_teams
             )
-            if not cards:
+            if cards:
+                season_dir = os.path.join(data_dir, slug)
+                os.makedirs(season_dir, exist_ok=True)
+                season_path = os.path.join(season_dir, f"matches_{season}.json")
+                with open(season_path, "w", encoding="utf-8") as f:
+                    json.dump({"matches": cards}, f, ensure_ascii=False, indent=2)
+                    f.write("\n")
+                print(f"Wrote {season_path} ({len(cards)} card(s))")
+                exported.setdefault(slug, (config.name, []))[1].append(season)
+            else:
                 print(f"Skipped {config.name} {season}: no upcoming cards")
-                continue
 
-            season_dir = os.path.join(data_dir, slug)
-            os.makedirs(season_dir, exist_ok=True)
-            season_path = os.path.join(season_dir, f"matches_{season}.json")
-            with open(season_path, "w", encoding="utf-8") as f:
-                json.dump({"matches": cards}, f, ensure_ascii=False, indent=2)
-                f.write("\n")
-            print(f"Wrote {season_path} ({len(cards)} card(s))")
-
-            exported.setdefault(slug, (config.name, []))[1].append(season)
+            played_cards = _played_cards(
+                matches_df, config.name, season, crest_by_team, color_by_team, slug, results_dir
+            )
+            if played_cards:
+                season_dir = os.path.join(data_dir, slug)
+                os.makedirs(season_dir, exist_ok=True)
+                played_path = os.path.join(season_dir, f"played_{season}.json")
+                with open(played_path, "w", encoding="utf-8") as f:
+                    json.dump({"matches": played_cards}, f, ensure_ascii=False, indent=2)
+                    f.write("\n")
+                print(f"Wrote {played_path} ({len(played_cards)} card(s))")
+                played_exported.setdefault(slug, (config.name, []))[1].append(season)
+            else:
+                print(f"Skipped {config.name} {season}: no played cards")
 
     manifest = {
         "competitions": [
@@ -287,6 +415,18 @@ def export_matches_data(
         json.dump(manifest, f, ensure_ascii=False, indent=2)
         f.write("\n")
     print(f"Wrote {manifest_path}")
+
+    played_manifest = {
+        "competitions": [
+            {"competition": name, "slug": slug, "seasons": sorted(seasons_)}
+            for slug, (name, seasons_) in played_exported.items()
+        ]
+    }
+    played_manifest_path = os.path.join(data_dir, "played_manifest.json")
+    with open(played_manifest_path, "w", encoding="utf-8") as f:
+        json.dump(played_manifest, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    print(f"Wrote {played_manifest_path}")
 
     params_path = os.path.join(data_dir, "params.json")
     with open(params_path, "w", encoding="utf-8") as f:
