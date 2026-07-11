@@ -279,6 +279,14 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   width: 100%;
+  /* Fixed to exactly 2 lines' worth of height (9px * 1.2 line-height) --
+     -webkit-line-clamp alone only caps the MAXIMUM at 2 lines, it doesn't
+     reserve that space for a shorter one-line name (e.g. "Remo"). Without
+     this, a one-line name's header is visibly shorter than a two-line one's
+     (e.g. "Red Bull Bragantino"), and since .sticker-container has a fixed
+     height, that difference pushes the heatmap below it up or down
+     depending on which team is in the card. */
+  height: 21.6px;
 }
 
 .sticker-crest {
