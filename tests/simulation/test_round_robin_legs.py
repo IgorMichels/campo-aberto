@@ -11,6 +11,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
+from src.models.adapters.poisson_home import ADAPTER as POISSON_HOME
 from src.simulation.config import _parse_competition
 from src.simulation.simulate import DrawParams, _run_round_robin_phase
 
@@ -50,13 +51,19 @@ def test_single_round_robin_phase_raises_not_implemented():
     phase_cfg = config.phase("league")
 
     n_draws, n_teams = 3, 20
-    draw_params: DrawParams = (
-        np.zeros((n_draws, n_teams)),
-        np.zeros((n_draws, n_teams)),
-        np.zeros(n_draws),
-        np.zeros(n_draws),
-        np.zeros(n_draws),
-        {f"T{i}": i for i in range(n_teams)},
+    draw_params = DrawParams(
+        adapter=POISSON_HOME,
+        team_params={
+            "attack": np.zeros((n_draws, n_teams)),
+            "defense": np.zeros((n_draws, n_teams)),
+        },
+        shared_params={
+            "eta": np.zeros(n_draws),
+            "beta_home": np.zeros(n_draws),
+            "rho": np.zeros(n_draws),
+        },
+        team_index={f"T{i}": i for i in range(n_teams)},
+        n_draws=n_draws,
     )
 
     with pytest.raises(NotImplementedError, match="legs=1"):
