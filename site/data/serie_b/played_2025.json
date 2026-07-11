@@ -13,9 +13,12 @@
       "has_model": true,
       "reference_date": "2025-11-21",
       "params": {
-        "eta": -0.090229894226905,
-        "beta_home": 0.336374106094,
-        "rho": 0.0206508547793349,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.090229894226905,
+          "beta_home": 0.336374106094,
+          "rho": 0.0206508547793349
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.2973630885587217,
@@ -41,9 +44,12 @@
       "has_model": true,
       "reference_date": "2025-11-21",
       "params": {
-        "eta": -0.090229894226905,
-        "beta_home": 0.336374106094,
-        "rho": 0.0206508547793349,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.090229894226905,
+          "beta_home": 0.336374106094,
+          "rho": 0.0206508547793349
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.0769360089835212,
@@ -69,9 +75,12 @@
       "has_model": true,
       "reference_date": "2025-11-21",
       "params": {
-        "eta": -0.090229894226905,
-        "beta_home": 0.336374106094,
-        "rho": 0.0206508547793349,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.090229894226905,
+          "beta_home": 0.336374106094,
+          "rho": 0.0206508547793349
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.2269465020362034,
@@ -97,9 +106,12 @@
       "has_model": true,
       "reference_date": "2025-11-21",
       "params": {
-        "eta": -0.090229894226905,
-        "beta_home": 0.336374106094,
-        "rho": 0.0206508547793349,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.090229894226905,
+          "beta_home": 0.336374106094,
+          "rho": 0.0206508547793349
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.2098016385024294,
@@ -125,9 +137,12 @@
       "has_model": true,
       "reference_date": "2025-11-21",
       "params": {
-        "eta": -0.090229894226905,
-        "beta_home": 0.336374106094,
-        "rho": 0.0206508547793349,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.090229894226905,
+          "beta_home": 0.336374106094,
+          "rho": 0.0206508547793349
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": 0.0410130816003634,
@@ -153,9 +168,12 @@
       "has_model": true,
       "reference_date": "2025-11-21",
       "params": {
-        "eta": -0.090229894226905,
-        "beta_home": 0.336374106094,
-        "rho": 0.0206508547793349,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.090229894226905,
+          "beta_home": 0.336374106094,
+          "rho": 0.0206508547793349
+        },
         "teams": {
           "Remo / PA": {
             "attack": 0.0896425605588685,
@@ -181,9 +199,12 @@
       "has_model": true,
       "reference_date": "2025-11-21",
       "params": {
-        "eta": -0.090229894226905,
-        "beta_home": 0.336374106094,
-        "rho": 0.0206508547793349,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.090229894226905,
+          "beta_home": 0.336374106094,
+          "rho": 0.0206508547793349
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.1465289738062606,
@@ -209,9 +230,12 @@
       "has_model": true,
       "reference_date": "2025-11-21",
       "params": {
-        "eta": -0.090229894226905,
-        "beta_home": 0.336374106094,
-        "rho": 0.0206508547793349,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.090229894226905,
+          "beta_home": 0.336374106094,
+          "rho": 0.0206508547793349
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.1196633286777993,
@@ -237,9 +261,12 @@
       "has_model": true,
       "reference_date": "2025-11-21",
       "params": {
-        "eta": -0.090229894226905,
-        "beta_home": 0.336374106094,
-        "rho": 0.0206508547793349,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.090229894226905,
+          "beta_home": 0.336374106094,
+          "rho": 0.0206508547793349
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.154708536503606,
@@ -265,9 +292,12 @@
       "has_model": true,
       "reference_date": "2025-11-17",
       "params": {
-        "eta": -0.1006024335822113,
-        "beta_home": 0.338703548278,
-        "rho": 0.0282740252864066,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1006024335822113,
+          "beta_home": 0.338703548278,
+          "rho": 0.0282740252864066
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.1402342038608532,
@@ -293,9 +323,12 @@
       "has_model": true,
       "reference_date": "2025-11-14",
       "params": {
-        "eta": -0.0952726346001674,
-        "beta_home": 0.33358410326,
-        "rho": 0.0328948862809458,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0952726346001674,
+          "beta_home": 0.33358410326,
+          "rho": 0.0328948862809458
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.051707935857613,
@@ -321,9 +354,12 @@
       "has_model": true,
       "reference_date": "2025-11-14",
       "params": {
-        "eta": -0.0952726346001674,
-        "beta_home": 0.33358410326,
-        "rho": 0.0328948862809458,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0952726346001674,
+          "beta_home": 0.33358410326,
+          "rho": 0.0328948862809458
+        },
         "teams": {
           "América / MG": {
             "attack": -0.0330089488938926,
@@ -349,9 +385,12 @@
       "has_model": true,
       "reference_date": "2025-11-14",
       "params": {
-        "eta": -0.0952726346001674,
-        "beta_home": 0.33358410326,
-        "rho": 0.0328948862809458,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0952726346001674,
+          "beta_home": 0.33358410326,
+          "rho": 0.0328948862809458
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0111831953431958,
@@ -377,9 +416,12 @@
       "has_model": true,
       "reference_date": "2025-11-14",
       "params": {
-        "eta": -0.0952726346001674,
-        "beta_home": 0.33358410326,
-        "rho": 0.0328948862809458,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0952726346001674,
+          "beta_home": 0.33358410326,
+          "rho": 0.0328948862809458
+        },
         "teams": {
           "Goiás / GO": {
             "attack": -0.0749969754951724,
@@ -405,9 +447,12 @@
       "has_model": true,
       "reference_date": "2025-11-14",
       "params": {
-        "eta": -0.0952726346001674,
-        "beta_home": 0.33358410326,
-        "rho": 0.0328948862809458,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0952726346001674,
+          "beta_home": 0.33358410326,
+          "rho": 0.0328948862809458
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.617773082452458,
@@ -433,9 +478,12 @@
       "has_model": true,
       "reference_date": "2025-11-14",
       "params": {
-        "eta": -0.0952726346001674,
-        "beta_home": 0.33358410326,
-        "rho": 0.0328948862809458,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0952726346001674,
+          "beta_home": 0.33358410326,
+          "rho": 0.0328948862809458
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.039039536894924,
@@ -461,9 +509,12 @@
       "has_model": true,
       "reference_date": "2025-11-14",
       "params": {
-        "eta": -0.0952726346001674,
-        "beta_home": 0.33358410326,
-        "rho": 0.0328948862809458,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0952726346001674,
+          "beta_home": 0.33358410326,
+          "rho": 0.0328948862809458
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0048536762689115,
@@ -489,9 +540,12 @@
       "has_model": true,
       "reference_date": "2025-11-14",
       "params": {
-        "eta": -0.0952726346001674,
-        "beta_home": 0.33358410326,
-        "rho": 0.0328948862809458,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0952726346001674,
+          "beta_home": 0.33358410326,
+          "rho": 0.0328948862809458
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.1561904463843196,
@@ -517,9 +571,12 @@
       "has_model": true,
       "reference_date": "2025-11-14",
       "params": {
-        "eta": -0.0952726346001674,
-        "beta_home": 0.33358410326,
-        "rho": 0.0328948862809458,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0952726346001674,
+          "beta_home": 0.33358410326,
+          "rho": 0.0328948862809458
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.1737076807403832,
@@ -545,9 +602,12 @@
       "has_model": true,
       "reference_date": "2025-11-10",
       "params": {
-        "eta": -0.097267161895353,
-        "beta_home": 0.336284737178,
-        "rho": 0.0284095607115213,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.097267161895353,
+          "beta_home": 0.336284737178,
+          "rho": 0.0284095607115213
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.1932243639350613,
@@ -573,9 +633,12 @@
       "has_model": true,
       "reference_date": "2025-11-07",
       "params": {
-        "eta": -0.1116727841787169,
-        "beta_home": 0.353614384725,
-        "rho": 0.0255292408786481,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1116727841787169,
+          "beta_home": 0.353614384725,
+          "rho": 0.0255292408786481
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.2523077897806999,
@@ -601,9 +664,12 @@
       "has_model": true,
       "reference_date": "2025-11-07",
       "params": {
-        "eta": -0.1116727841787169,
-        "beta_home": 0.353614384725,
-        "rho": 0.0255292408786481,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1116727841787169,
+          "beta_home": 0.353614384725,
+          "rho": 0.0255292408786481
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": 0.0857044489377404,
@@ -629,9 +695,12 @@
       "has_model": true,
       "reference_date": "2025-11-07",
       "params": {
-        "eta": -0.1116727841787169,
-        "beta_home": 0.353614384725,
-        "rho": 0.0255292408786481,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1116727841787169,
+          "beta_home": 0.353614384725,
+          "rho": 0.0255292408786481
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.1960841983674823,
@@ -657,9 +726,12 @@
       "has_model": true,
       "reference_date": "2025-11-07",
       "params": {
-        "eta": -0.1116727841787169,
-        "beta_home": 0.353614384725,
-        "rho": 0.0255292408786481,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1116727841787169,
+          "beta_home": 0.353614384725,
+          "rho": 0.0255292408786481
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.0580916623646228,
@@ -685,9 +757,12 @@
       "has_model": true,
       "reference_date": "2025-11-07",
       "params": {
-        "eta": -0.1116727841787169,
-        "beta_home": 0.353614384725,
-        "rho": 0.0255292408786481,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1116727841787169,
+          "beta_home": 0.353614384725,
+          "rho": 0.0255292408786481
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.019969280544274,
@@ -713,9 +788,12 @@
       "has_model": true,
       "reference_date": "2025-11-07",
       "params": {
-        "eta": -0.1116727841787169,
-        "beta_home": 0.353614384725,
-        "rho": 0.0255292408786481,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1116727841787169,
+          "beta_home": 0.353614384725,
+          "rho": 0.0255292408786481
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.1449618442100344,
@@ -741,9 +819,12 @@
       "has_model": true,
       "reference_date": "2025-11-07",
       "params": {
-        "eta": -0.1116727841787169,
-        "beta_home": 0.353614384725,
-        "rho": 0.0255292408786481,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1116727841787169,
+          "beta_home": 0.353614384725,
+          "rho": 0.0255292408786481
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.1059831943747448,
@@ -769,9 +850,12 @@
       "has_model": true,
       "reference_date": "2025-11-07",
       "params": {
-        "eta": -0.1116727841787169,
-        "beta_home": 0.353614384725,
-        "rho": 0.0255292408786481,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1116727841787169,
+          "beta_home": 0.353614384725,
+          "rho": 0.0255292408786481
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.1241030171926682,
@@ -797,9 +881,12 @@
       "has_model": true,
       "reference_date": "2025-11-03",
       "params": {
-        "eta": -0.108863177860941,
-        "beta_home": 0.348559858549,
-        "rho": 0.0174639119200945,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.108863177860941,
+          "beta_home": 0.348559858549,
+          "rho": 0.0174639119200945
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.1041780568672299,
@@ -825,9 +912,12 @@
       "has_model": true,
       "reference_date": "2025-11-03",
       "params": {
-        "eta": -0.108863177860941,
-        "beta_home": 0.348559858549,
-        "rho": 0.0174639119200945,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.108863177860941,
+          "beta_home": 0.348559858549,
+          "rho": 0.0174639119200945
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.0551681974428599,
@@ -853,9 +943,12 @@
       "has_model": true,
       "reference_date": "2025-10-31",
       "params": {
-        "eta": -0.1013932605405129,
-        "beta_home": 0.344822722209,
-        "rho": 0.0316803965333966,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1013932605405129,
+          "beta_home": 0.344822722209,
+          "rho": 0.0316803965333966
+        },
         "teams": {
           "América / MG": {
             "attack": -0.0601937327016966,
@@ -881,9 +974,12 @@
       "has_model": true,
       "reference_date": "2025-10-31",
       "params": {
-        "eta": -0.1013932605405129,
-        "beta_home": 0.344822722209,
-        "rho": 0.0316803965333966,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1013932605405129,
+          "beta_home": 0.344822722209,
+          "rho": 0.0316803965333966
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.522800373875099,
@@ -909,9 +1005,12 @@
       "has_model": true,
       "reference_date": "2025-10-31",
       "params": {
-        "eta": -0.1013932605405129,
-        "beta_home": 0.344822722209,
-        "rho": 0.0316803965333966,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1013932605405129,
+          "beta_home": 0.344822722209,
+          "rho": 0.0316803965333966
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.2385038872118706,
@@ -937,9 +1036,12 @@
       "has_model": true,
       "reference_date": "2025-10-31",
       "params": {
-        "eta": -0.1013932605405129,
-        "beta_home": 0.344822722209,
-        "rho": 0.0316803965333966,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1013932605405129,
+          "beta_home": 0.344822722209,
+          "rho": 0.0316803965333966
+        },
         "teams": {
           "Remo / PA": {
             "attack": 0.1055300208166869,
@@ -965,9 +1067,12 @@
       "has_model": true,
       "reference_date": "2025-10-31",
       "params": {
-        "eta": -0.1013932605405129,
-        "beta_home": 0.344822722209,
-        "rho": 0.0316803965333966,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1013932605405129,
+          "beta_home": 0.344822722209,
+          "rho": 0.0316803965333966
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.2536847299816124,
@@ -993,9 +1098,12 @@
       "has_model": true,
       "reference_date": "2025-10-31",
       "params": {
-        "eta": -0.1013932605405129,
-        "beta_home": 0.344822722209,
-        "rho": 0.0316803965333966,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1013932605405129,
+          "beta_home": 0.344822722209,
+          "rho": 0.0316803965333966
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0413209613755034,
@@ -1021,9 +1129,12 @@
       "has_model": true,
       "reference_date": "2025-10-31",
       "params": {
-        "eta": -0.1013932605405129,
-        "beta_home": 0.344822722209,
-        "rho": 0.0316803965333966,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1013932605405129,
+          "beta_home": 0.344822722209,
+          "rho": 0.0316803965333966
+        },
         "teams": {
           "Goiás / GO": {
             "attack": -0.0420725982280694,
@@ -1049,9 +1160,12 @@
       "has_model": true,
       "reference_date": "2025-10-27",
       "params": {
-        "eta": -0.096319899019362,
-        "beta_home": 0.341342672763,
-        "rho": 0.0314185932408608,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.096319899019362,
+          "beta_home": 0.341342672763,
+          "rho": 0.0314185932408608
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.0026193496474581,
@@ -1077,9 +1191,12 @@
       "has_model": true,
       "reference_date": "2025-10-27",
       "params": {
-        "eta": -0.096319899019362,
-        "beta_home": 0.341342672763,
-        "rho": 0.0314185932408608,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.096319899019362,
+          "beta_home": 0.341342672763,
+          "rho": 0.0314185932408608
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.1518774522959351,
@@ -1105,9 +1222,12 @@
       "has_model": true,
       "reference_date": "2025-10-27",
       "params": {
-        "eta": -0.096319899019362,
-        "beta_home": 0.341342672763,
-        "rho": 0.0314185932408608,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.096319899019362,
+          "beta_home": 0.341342672763,
+          "rho": 0.0314185932408608
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.1725907275467833,
@@ -1133,9 +1253,12 @@
       "has_model": true,
       "reference_date": "2025-10-24",
       "params": {
-        "eta": -0.1048629108666707,
-        "beta_home": 0.35486895195,
-        "rho": 0.021983936395443,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1048629108666707,
+          "beta_home": 0.35486895195,
+          "rho": 0.021983936395443
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.0984581225158779,
@@ -1161,9 +1284,12 @@
       "has_model": true,
       "reference_date": "2025-10-24",
       "params": {
-        "eta": -0.1048629108666707,
-        "beta_home": 0.35486895195,
-        "rho": 0.021983936395443,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1048629108666707,
+          "beta_home": 0.35486895195,
+          "rho": 0.021983936395443
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": 0.0728933589786581,
@@ -1189,9 +1315,12 @@
       "has_model": true,
       "reference_date": "2025-10-24",
       "params": {
-        "eta": -0.1048629108666707,
-        "beta_home": 0.35486895195,
-        "rho": 0.021983936395443,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1048629108666707,
+          "beta_home": 0.35486895195,
+          "rho": 0.021983936395443
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.1930918549042867,
@@ -1217,9 +1346,12 @@
       "has_model": true,
       "reference_date": "2025-10-24",
       "params": {
-        "eta": -0.1048629108666707,
-        "beta_home": 0.35486895195,
-        "rho": 0.021983936395443,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1048629108666707,
+          "beta_home": 0.35486895195,
+          "rho": 0.021983936395443
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.061445317058991,
@@ -1245,9 +1377,12 @@
       "has_model": true,
       "reference_date": "2025-10-24",
       "params": {
-        "eta": -0.1048629108666707,
-        "beta_home": 0.35486895195,
-        "rho": 0.021983936395443,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1048629108666707,
+          "beta_home": 0.35486895195,
+          "rho": 0.021983936395443
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0665250387192133,
@@ -1273,9 +1408,12 @@
       "has_model": true,
       "reference_date": "2025-10-24",
       "params": {
-        "eta": -0.1048629108666707,
-        "beta_home": 0.35486895195,
-        "rho": 0.021983936395443,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1048629108666707,
+          "beta_home": 0.35486895195,
+          "rho": 0.021983936395443
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.2008970023691512,
@@ -1301,9 +1439,12 @@
       "has_model": true,
       "reference_date": "2025-10-24",
       "params": {
-        "eta": -0.1048629108666707,
-        "beta_home": 0.35486895195,
-        "rho": 0.021983936395443,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1048629108666707,
+          "beta_home": 0.35486895195,
+          "rho": 0.021983936395443
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.4935482600095509,
@@ -1329,9 +1470,12 @@
       "has_model": true,
       "reference_date": "2025-10-24",
       "params": {
-        "eta": -0.1048629108666707,
-        "beta_home": 0.35486895195,
-        "rho": 0.021983936395443,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1048629108666707,
+          "beta_home": 0.35486895195,
+          "rho": 0.021983936395443
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.0138348427777764,
@@ -1357,9 +1501,12 @@
       "has_model": true,
       "reference_date": "2025-10-20",
       "params": {
-        "eta": -0.1058638505656998,
-        "beta_home": 0.353713377693,
-        "rho": 0.0128186643199852,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1058638505656998,
+          "beta_home": 0.353713377693,
+          "rho": 0.0128186643199852
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.0736204914822644,
@@ -1385,9 +1532,12 @@
       "has_model": true,
       "reference_date": "2025-10-20",
       "params": {
-        "eta": -0.1058638505656998,
-        "beta_home": 0.353713377693,
-        "rho": 0.0128186643199852,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1058638505656998,
+          "beta_home": 0.353713377693,
+          "rho": 0.0128186643199852
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.1347037438494369,
@@ -1413,9 +1563,12 @@
       "has_model": true,
       "reference_date": "2025-10-17",
       "params": {
-        "eta": -0.1054128065915464,
-        "beta_home": 0.348377889,
-        "rho": 0.0187369892833612,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1054128065915464,
+          "beta_home": 0.348377889,
+          "rho": 0.0187369892833612
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.0377829203722778,
@@ -1441,9 +1594,12 @@
       "has_model": true,
       "reference_date": "2025-10-17",
       "params": {
-        "eta": -0.1054128065915464,
-        "beta_home": 0.348377889,
-        "rho": 0.0187369892833612,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1054128065915464,
+          "beta_home": 0.348377889,
+          "rho": 0.0187369892833612
+        },
         "teams": {
           "Goiás / GO": {
             "attack": -0.0612424609670367,
@@ -1469,9 +1625,12 @@
       "has_model": true,
       "reference_date": "2025-10-17",
       "params": {
-        "eta": -0.1054128065915464,
-        "beta_home": 0.348377889,
-        "rho": 0.0187369892833612,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1054128065915464,
+          "beta_home": 0.348377889,
+          "rho": 0.0187369892833612
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.3071825346974144,
@@ -1497,9 +1656,12 @@
       "has_model": true,
       "reference_date": "2025-10-17",
       "params": {
-        "eta": -0.1054128065915464,
-        "beta_home": 0.348377889,
-        "rho": 0.0187369892833612,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1054128065915464,
+          "beta_home": 0.348377889,
+          "rho": 0.0187369892833612
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.1247879208788037,
@@ -1525,9 +1687,12 @@
       "has_model": true,
       "reference_date": "2025-10-17",
       "params": {
-        "eta": -0.1054128065915464,
-        "beta_home": 0.348377889,
-        "rho": 0.0187369892833612,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1054128065915464,
+          "beta_home": 0.348377889,
+          "rho": 0.0187369892833612
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0573895242374678,
@@ -1553,9 +1718,12 @@
       "has_model": true,
       "reference_date": "2025-10-17",
       "params": {
-        "eta": -0.1054128065915464,
-        "beta_home": 0.348377889,
-        "rho": 0.0187369892833612,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1054128065915464,
+          "beta_home": 0.348377889,
+          "rho": 0.0187369892833612
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.238206094129719,
@@ -1581,9 +1749,12 @@
       "has_model": true,
       "reference_date": "2025-10-17",
       "params": {
-        "eta": -0.1054128065915464,
-        "beta_home": 0.348377889,
-        "rho": 0.0187369892833612,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1054128065915464,
+          "beta_home": 0.348377889,
+          "rho": 0.0187369892833612
+        },
         "teams": {
           "Remo / PA": {
             "attack": 0.0120904106983206,
@@ -1609,9 +1780,12 @@
       "has_model": true,
       "reference_date": "2025-10-17",
       "params": {
-        "eta": -0.1054128065915464,
-        "beta_home": 0.348377889,
-        "rho": 0.0187369892833612,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1054128065915464,
+          "beta_home": 0.348377889,
+          "rho": 0.0187369892833612
+        },
         "teams": {
           "América / MG": {
             "attack": -0.0655051241434143,
@@ -1637,9 +1811,12 @@
       "has_model": true,
       "reference_date": "2025-10-17",
       "params": {
-        "eta": -0.1054128065915464,
-        "beta_home": 0.348377889,
-        "rho": 0.0187369892833612,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1054128065915464,
+          "beta_home": 0.348377889,
+          "rho": 0.0187369892833612
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.1426936652326124,
@@ -1665,9 +1842,12 @@
       "has_model": true,
       "reference_date": "2025-10-13",
       "params": {
-        "eta": -0.1122155203594272,
-        "beta_home": 0.34409449789,
-        "rho": 0.0256026189629813,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1122155203594272,
+          "beta_home": 0.34409449789,
+          "rho": 0.0256026189629813
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.1856075260257257,
@@ -1693,9 +1873,12 @@
       "has_model": true,
       "reference_date": "2025-10-13",
       "params": {
-        "eta": -0.1122155203594272,
-        "beta_home": 0.34409449789,
-        "rho": 0.0256026189629813,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1122155203594272,
+          "beta_home": 0.34409449789,
+          "rho": 0.0256026189629813
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.1522923015924278,
@@ -1721,9 +1904,12 @@
       "has_model": true,
       "reference_date": "2025-10-13",
       "params": {
-        "eta": -0.1122155203594272,
-        "beta_home": 0.34409449789,
-        "rho": 0.0256026189629813,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1122155203594272,
+          "beta_home": 0.34409449789,
+          "rho": 0.0256026189629813
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": 0.0614526249115574,
@@ -1749,9 +1935,12 @@
       "has_model": true,
       "reference_date": "2025-10-13",
       "params": {
-        "eta": -0.1122155203594272,
-        "beta_home": 0.34409449789,
-        "rho": 0.0256026189629813,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1122155203594272,
+          "beta_home": 0.34409449789,
+          "rho": 0.0256026189629813
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.259547891318454,
@@ -1777,9 +1966,12 @@
       "has_model": true,
       "reference_date": "2025-10-10",
       "params": {
-        "eta": -0.1138874088482793,
-        "beta_home": 0.336808708911,
-        "rho": 0.0244697619427617,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1138874088482793,
+          "beta_home": 0.336808708911,
+          "rho": 0.0244697619427617
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.0519032586657687,
@@ -1805,9 +1997,12 @@
       "has_model": true,
       "reference_date": "2025-10-10",
       "params": {
-        "eta": -0.1138874088482793,
-        "beta_home": 0.336808708911,
-        "rho": 0.0244697619427617,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1138874088482793,
+          "beta_home": 0.336808708911,
+          "rho": 0.0244697619427617
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.64118912788306,
@@ -1833,9 +2028,12 @@
       "has_model": true,
       "reference_date": "2025-10-10",
       "params": {
-        "eta": -0.1138874088482793,
-        "beta_home": 0.336808708911,
-        "rho": 0.0244697619427617,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1138874088482793,
+          "beta_home": 0.336808708911,
+          "rho": 0.0244697619427617
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.0795628336033147,
@@ -1861,9 +2059,12 @@
       "has_model": true,
       "reference_date": "2025-10-10",
       "params": {
-        "eta": -0.1138874088482793,
-        "beta_home": 0.336808708911,
-        "rho": 0.0244697619427617,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1138874088482793,
+          "beta_home": 0.336808708911,
+          "rho": 0.0244697619427617
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.1292453827788565,
@@ -1889,9 +2090,12 @@
       "has_model": true,
       "reference_date": "2025-10-10",
       "params": {
-        "eta": -0.1138874088482793,
-        "beta_home": 0.336808708911,
-        "rho": 0.0244697619427617,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1138874088482793,
+          "beta_home": 0.336808708911,
+          "rho": 0.0244697619427617
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0638592148779453,
@@ -1917,9 +2121,12 @@
       "has_model": true,
       "reference_date": "2025-10-10",
       "params": {
-        "eta": -0.1138874088482793,
-        "beta_home": 0.336808708911,
-        "rho": 0.0244697619427617,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1138874088482793,
+          "beta_home": 0.336808708911,
+          "rho": 0.0244697619427617
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.1416389999085996,
@@ -1945,9 +2152,12 @@
       "has_model": true,
       "reference_date": "2025-10-10",
       "params": {
-        "eta": -0.1138874088482793,
-        "beta_home": 0.336808708911,
-        "rho": 0.0244697619427617,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1138874088482793,
+          "beta_home": 0.336808708911,
+          "rho": 0.0244697619427617
+        },
         "teams": {
           "Athletic / MG": {
             "attack": 0.0034664127246179,
@@ -1973,9 +2183,12 @@
       "has_model": true,
       "reference_date": "2025-10-06",
       "params": {
-        "eta": -0.1196539202596005,
-        "beta_home": 0.3372726135859999,
-        "rho": 0.0188588333380997,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1196539202596005,
+          "beta_home": 0.3372726135859999,
+          "rho": 0.0188588333380997
+        },
         "teams": {
           "Remo / PA": {
             "attack": -0.0690388889821336,
@@ -2001,9 +2214,12 @@
       "has_model": true,
       "reference_date": "2025-10-06",
       "params": {
-        "eta": -0.1196539202596005,
-        "beta_home": 0.3372726135859999,
-        "rho": 0.0188588333380997,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1196539202596005,
+          "beta_home": 0.3372726135859999,
+          "rho": 0.0188588333380997
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.1198789877440314,
@@ -2029,9 +2245,12 @@
       "has_model": true,
       "reference_date": "2025-10-06",
       "params": {
-        "eta": -0.1196539202596005,
-        "beta_home": 0.3372726135859999,
-        "rho": 0.0188588333380997,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1196539202596005,
+          "beta_home": 0.3372726135859999,
+          "rho": 0.0188588333380997
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.027478995712289,
@@ -2057,9 +2276,12 @@
       "has_model": true,
       "reference_date": "2025-10-06",
       "params": {
-        "eta": -0.1196539202596005,
-        "beta_home": 0.3372726135859999,
-        "rho": 0.0188588333380997,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1196539202596005,
+          "beta_home": 0.3372726135859999,
+          "rho": 0.0188588333380997
+        },
         "teams": {
           "América / MG": {
             "attack": -0.0521693377056301,
@@ -2085,9 +2307,12 @@
       "has_model": true,
       "reference_date": "2025-10-06",
       "params": {
-        "eta": -0.1196539202596005,
-        "beta_home": 0.3372726135859999,
-        "rho": 0.0188588333380997,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1196539202596005,
+          "beta_home": 0.3372726135859999,
+          "rho": 0.0188588333380997
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.1029826658502525,
@@ -2113,9 +2338,12 @@
       "has_model": true,
       "reference_date": "2025-10-06",
       "params": {
-        "eta": -0.1196539202596005,
-        "beta_home": 0.3372726135859999,
-        "rho": 0.0188588333380997,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1196539202596005,
+          "beta_home": 0.3372726135859999,
+          "rho": 0.0188588333380997
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.2032451905485057,
@@ -2141,9 +2369,12 @@
       "has_model": true,
       "reference_date": "2025-10-06",
       "params": {
-        "eta": -0.1196539202596005,
-        "beta_home": 0.3372726135859999,
-        "rho": 0.0188588333380997,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1196539202596005,
+          "beta_home": 0.3372726135859999,
+          "rho": 0.0188588333380997
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.0489447867510906,
@@ -2169,9 +2400,12 @@
       "has_model": true,
       "reference_date": "2025-10-06",
       "params": {
-        "eta": -0.1196539202596005,
-        "beta_home": 0.3372726135859999,
-        "rho": 0.0188588333380997,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1196539202596005,
+          "beta_home": 0.3372726135859999,
+          "rho": 0.0188588333380997
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.2967105622545868,
@@ -2197,9 +2431,12 @@
       "has_model": true,
       "reference_date": "2025-10-06",
       "params": {
-        "eta": -0.1196539202596005,
-        "beta_home": 0.3372726135859999,
-        "rho": 0.0188588333380997,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1196539202596005,
+          "beta_home": 0.3372726135859999,
+          "rho": 0.0188588333380997
+        },
         "teams": {
           "Goiás / GO": {
             "attack": -0.0451544894440519,
@@ -2225,9 +2462,12 @@
       "has_model": true,
       "reference_date": "2025-10-06",
       "params": {
-        "eta": -0.1196539202596005,
-        "beta_home": 0.3372726135859999,
-        "rho": 0.0188588333380997,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1196539202596005,
+          "beta_home": 0.3372726135859999,
+          "rho": 0.0188588333380997
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.1765330497080519,
@@ -2253,9 +2493,12 @@
       "has_model": true,
       "reference_date": "2025-10-03",
       "params": {
-        "eta": -0.1147076759274632,
-        "beta_home": 0.3241398654369999,
-        "rho": 0.0082610124337067,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1147076759274632,
+          "beta_home": 0.3241398654369999,
+          "rho": 0.0082610124337067
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.1690878624780883,
@@ -2281,9 +2524,12 @@
       "has_model": true,
       "reference_date": "2025-10-03",
       "params": {
-        "eta": -0.1147076759274632,
-        "beta_home": 0.3241398654369999,
-        "rho": 0.0082610124337067,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1147076759274632,
+          "beta_home": 0.3241398654369999,
+          "rho": 0.0082610124337067
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.1672922021286413,
@@ -2309,9 +2555,12 @@
       "has_model": true,
       "reference_date": "2025-10-03",
       "params": {
-        "eta": -0.1147076759274632,
-        "beta_home": 0.3241398654369999,
-        "rho": 0.0082610124337067,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1147076759274632,
+          "beta_home": 0.3241398654369999,
+          "rho": 0.0082610124337067
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.0106866963504812,
@@ -2337,9 +2586,12 @@
       "has_model": true,
       "reference_date": "2025-10-03",
       "params": {
-        "eta": -0.1147076759274632,
-        "beta_home": 0.3241398654369999,
-        "rho": 0.0082610124337067,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1147076759274632,
+          "beta_home": 0.3241398654369999,
+          "rho": 0.0082610124337067
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.5575457934267941,
@@ -2365,9 +2617,12 @@
       "has_model": true,
       "reference_date": "2025-10-03",
       "params": {
-        "eta": -0.1147076759274632,
-        "beta_home": 0.3241398654369999,
-        "rho": 0.0082610124337067,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1147076759274632,
+          "beta_home": 0.3241398654369999,
+          "rho": 0.0082610124337067
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": 0.0772784066700889,
@@ -2393,9 +2648,12 @@
       "has_model": true,
       "reference_date": "2025-09-29",
       "params": {
-        "eta": -0.1174609871621491,
-        "beta_home": 0.335427762062,
-        "rho": 0.0229018276560745,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1174609871621491,
+          "beta_home": 0.335427762062,
+          "rho": 0.0229018276560745
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.0745914580139932,
@@ -2421,9 +2679,12 @@
       "has_model": true,
       "reference_date": "2025-09-29",
       "params": {
-        "eta": -0.1174609871621491,
-        "beta_home": 0.335427762062,
-        "rho": 0.0229018276560745,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1174609871621491,
+          "beta_home": 0.335427762062,
+          "rho": 0.0229018276560745
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.1562381223583926,
@@ -2449,9 +2710,12 @@
       "has_model": true,
       "reference_date": "2025-09-29",
       "params": {
-        "eta": -0.1174609871621491,
-        "beta_home": 0.335427762062,
-        "rho": 0.0229018276560745,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1174609871621491,
+          "beta_home": 0.335427762062,
+          "rho": 0.0229018276560745
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.1377207896469732,
@@ -2477,9 +2741,12 @@
       "has_model": true,
       "reference_date": "2025-09-29",
       "params": {
-        "eta": -0.1174609871621491,
-        "beta_home": 0.335427762062,
-        "rho": 0.0229018276560745,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1174609871621491,
+          "beta_home": 0.335427762062,
+          "rho": 0.0229018276560745
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.1271520923058025,
@@ -2505,9 +2772,12 @@
       "has_model": true,
       "reference_date": "2025-09-29",
       "params": {
-        "eta": -0.1174609871621491,
-        "beta_home": 0.335427762062,
-        "rho": 0.0229018276560745,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1174609871621491,
+          "beta_home": 0.335427762062,
+          "rho": 0.0229018276560745
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.2145652916182318,
@@ -2533,9 +2803,12 @@
       "has_model": true,
       "reference_date": "2025-09-29",
       "params": {
-        "eta": -0.1174609871621491,
-        "beta_home": 0.335427762062,
-        "rho": 0.0229018276560745,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1174609871621491,
+          "beta_home": 0.335427762062,
+          "rho": 0.0229018276560745
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.0297541980555582,
@@ -2561,9 +2834,12 @@
       "has_model": true,
       "reference_date": "2025-09-26",
       "params": {
-        "eta": -0.1195833281000198,
-        "beta_home": 0.327354026391,
-        "rho": 0.0148612161803584,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1195833281000198,
+          "beta_home": 0.327354026391,
+          "rho": 0.0148612161803584
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0347642395122791,
@@ -2589,9 +2865,12 @@
       "has_model": true,
       "reference_date": "2025-09-26",
       "params": {
-        "eta": -0.1195833281000198,
-        "beta_home": 0.327354026391,
-        "rho": 0.0148612161803584,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1195833281000198,
+          "beta_home": 0.327354026391,
+          "rho": 0.0148612161803584
+        },
         "teams": {
           "América / MG": {
             "attack": -0.1191709751374484,
@@ -2617,9 +2896,12 @@
       "has_model": true,
       "reference_date": "2025-09-26",
       "params": {
-        "eta": -0.1195833281000198,
-        "beta_home": 0.327354026391,
-        "rho": 0.0148612161803584,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1195833281000198,
+          "beta_home": 0.327354026391,
+          "rho": 0.0148612161803584
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.1965258816131643,
@@ -2645,9 +2927,12 @@
       "has_model": true,
       "reference_date": "2025-09-26",
       "params": {
-        "eta": -0.1195833281000198,
-        "beta_home": 0.327354026391,
-        "rho": 0.0148612161803584,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1195833281000198,
+          "beta_home": 0.327354026391,
+          "rho": 0.0148612161803584
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.0515894260533587,
@@ -2673,9 +2958,12 @@
       "has_model": true,
       "reference_date": "2025-09-26",
       "params": {
-        "eta": -0.1195833281000198,
-        "beta_home": 0.327354026391,
-        "rho": 0.0148612161803584,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1195833281000198,
+          "beta_home": 0.327354026391,
+          "rho": 0.0148612161803584
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.250285617456445,
@@ -2701,9 +2989,12 @@
       "has_model": true,
       "reference_date": "2025-09-26",
       "params": {
-        "eta": -0.1195833281000198,
-        "beta_home": 0.327354026391,
-        "rho": 0.0148612161803584,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1195833281000198,
+          "beta_home": 0.327354026391,
+          "rho": 0.0148612161803584
+        },
         "teams": {
           "Remo / PA": {
             "attack": -0.1929233966949555,
@@ -2729,9 +3020,12 @@
       "has_model": true,
       "reference_date": "2025-09-26",
       "params": {
-        "eta": -0.1195833281000198,
-        "beta_home": 0.327354026391,
-        "rho": 0.0148612161803584,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1195833281000198,
+          "beta_home": 0.327354026391,
+          "rho": 0.0148612161803584
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.0921288752108858,
@@ -2757,9 +3051,12 @@
       "has_model": true,
       "reference_date": "2025-09-26",
       "params": {
-        "eta": -0.1195833281000198,
-        "beta_home": 0.327354026391,
-        "rho": 0.0148612161803584,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1195833281000198,
+          "beta_home": 0.327354026391,
+          "rho": 0.0148612161803584
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0793811930308886,
@@ -2785,9 +3082,12 @@
       "has_model": true,
       "reference_date": "2025-09-26",
       "params": {
-        "eta": -0.1195833281000198,
-        "beta_home": 0.327354026391,
-        "rho": 0.0148612161803584,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1195833281000198,
+          "beta_home": 0.327354026391,
+          "rho": 0.0148612161803584
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.2048288828289187,
@@ -2813,9 +3113,12 @@
       "has_model": true,
       "reference_date": "2025-09-22",
       "params": {
-        "eta": -0.1276113561712378,
-        "beta_home": 0.334333405404,
-        "rho": 0.0116572512055379,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1276113561712378,
+          "beta_home": 0.334333405404,
+          "rho": 0.0116572512055379
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": 0.0966677777095523,
@@ -2841,9 +3144,12 @@
       "has_model": true,
       "reference_date": "2025-09-22",
       "params": {
-        "eta": -0.1276113561712378,
-        "beta_home": 0.334333405404,
-        "rho": 0.0116572512055379,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1276113561712378,
+          "beta_home": 0.334333405404,
+          "rho": 0.0116572512055379
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.1102439629620393,
@@ -2869,9 +3175,12 @@
       "has_model": true,
       "reference_date": "2025-09-22",
       "params": {
-        "eta": -0.1276113561712378,
-        "beta_home": 0.334333405404,
-        "rho": 0.0116572512055379,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1276113561712378,
+          "beta_home": 0.334333405404,
+          "rho": 0.0116572512055379
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.1063708165423441,
@@ -2897,9 +3206,12 @@
       "has_model": true,
       "reference_date": "2025-09-22",
       "params": {
-        "eta": -0.1276113561712378,
-        "beta_home": 0.334333405404,
-        "rho": 0.0116572512055379,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1276113561712378,
+          "beta_home": 0.334333405404,
+          "rho": 0.0116572512055379
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.6561336850388899,
@@ -2925,9 +3237,12 @@
       "has_model": true,
       "reference_date": "2025-09-22",
       "params": {
-        "eta": -0.1276113561712378,
-        "beta_home": 0.334333405404,
-        "rho": 0.0116572512055379,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1276113561712378,
+          "beta_home": 0.334333405404,
+          "rho": 0.0116572512055379
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.135411935647217,
@@ -2953,9 +3268,12 @@
       "has_model": true,
       "reference_date": "2025-09-22",
       "params": {
-        "eta": -0.1276113561712378,
-        "beta_home": 0.334333405404,
-        "rho": 0.0116572512055379,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1276113561712378,
+          "beta_home": 0.334333405404,
+          "rho": 0.0116572512055379
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.0714832486886034,
@@ -2981,9 +3299,12 @@
       "has_model": true,
       "reference_date": "2025-09-22",
       "params": {
-        "eta": -0.1276113561712378,
-        "beta_home": 0.334333405404,
-        "rho": 0.0116572512055379,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1276113561712378,
+          "beta_home": 0.334333405404,
+          "rho": 0.0116572512055379
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.1475470659327441,
@@ -3009,9 +3330,12 @@
       "has_model": true,
       "reference_date": "2025-09-22",
       "params": {
-        "eta": -0.1276113561712378,
-        "beta_home": 0.334333405404,
-        "rho": 0.0116572512055379,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1276113561712378,
+          "beta_home": 0.334333405404,
+          "rho": 0.0116572512055379
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.1433042678434206,
@@ -3037,9 +3361,12 @@
       "has_model": true,
       "reference_date": "2025-09-22",
       "params": {
-        "eta": -0.1276113561712378,
-        "beta_home": 0.334333405404,
-        "rho": 0.0116572512055379,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1276113561712378,
+          "beta_home": 0.334333405404,
+          "rho": 0.0116572512055379
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.0119588250958729,
@@ -3065,9 +3392,12 @@
       "has_model": true,
       "reference_date": "2025-09-22",
       "params": {
-        "eta": -0.1276113561712378,
-        "beta_home": 0.334333405404,
-        "rho": 0.0116572512055379,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1276113561712378,
+          "beta_home": 0.334333405404,
+          "rho": 0.0116572512055379
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.2924376545414749,
@@ -3093,9 +3423,12 @@
       "has_model": true,
       "reference_date": "2025-09-19",
       "params": {
-        "eta": -0.1225703342502789,
-        "beta_home": 0.329302804027,
-        "rho": -0.0086114920272469,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1225703342502789,
+          "beta_home": 0.329302804027,
+          "rho": -0.0086114920272469
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.0727564885961484,
@@ -3121,9 +3454,12 @@
       "has_model": true,
       "reference_date": "2025-09-19",
       "params": {
-        "eta": -0.1225703342502789,
-        "beta_home": 0.329302804027,
-        "rho": -0.0086114920272469,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1225703342502789,
+          "beta_home": 0.329302804027,
+          "rho": -0.0086114920272469
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.1605750265022962,
@@ -3149,9 +3485,12 @@
       "has_model": true,
       "reference_date": "2025-09-19",
       "params": {
-        "eta": -0.1225703342502789,
-        "beta_home": 0.329302804027,
-        "rho": -0.0086114920272469,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1225703342502789,
+          "beta_home": 0.329302804027,
+          "rho": -0.0086114920272469
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0582445499079484,
@@ -3177,9 +3516,12 @@
       "has_model": true,
       "reference_date": "2025-09-19",
       "params": {
-        "eta": -0.1225703342502789,
-        "beta_home": 0.329302804027,
-        "rho": -0.0086114920272469,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1225703342502789,
+          "beta_home": 0.329302804027,
+          "rho": -0.0086114920272469
+        },
         "teams": {
           "América / MG": {
             "attack": -0.0840931621013822,
@@ -3205,9 +3547,12 @@
       "has_model": true,
       "reference_date": "2025-09-19",
       "params": {
-        "eta": -0.1225703342502789,
-        "beta_home": 0.329302804027,
-        "rho": -0.0086114920272469,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1225703342502789,
+          "beta_home": 0.329302804027,
+          "rho": -0.0086114920272469
+        },
         "teams": {
           "Remo / PA": {
             "attack": -0.140943086444081,
@@ -3233,9 +3578,12 @@
       "has_model": true,
       "reference_date": "2025-09-19",
       "params": {
-        "eta": -0.1225703342502789,
-        "beta_home": 0.329302804027,
-        "rho": -0.0086114920272469,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1225703342502789,
+          "beta_home": 0.329302804027,
+          "rho": -0.0086114920272469
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0435398570695047,
@@ -3261,9 +3609,12 @@
       "has_model": true,
       "reference_date": "2025-09-19",
       "params": {
-        "eta": -0.1225703342502789,
-        "beta_home": 0.329302804027,
-        "rho": -0.0086114920272469,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1225703342502789,
+          "beta_home": 0.329302804027,
+          "rho": -0.0086114920272469
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.1975558137673441,
@@ -3289,9 +3640,12 @@
       "has_model": true,
       "reference_date": "2025-09-19",
       "params": {
-        "eta": -0.1225703342502789,
-        "beta_home": 0.329302804027,
-        "rho": -0.0086114920272469,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1225703342502789,
+          "beta_home": 0.329302804027,
+          "rho": -0.0086114920272469
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.0705163502174476,
@@ -3317,9 +3671,12 @@
       "has_model": true,
       "reference_date": "2025-09-15",
       "params": {
-        "eta": -0.1312318726067449,
-        "beta_home": 0.3352701573309999,
-        "rho": -0.0064307033645925,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1312318726067449,
+          "beta_home": 0.3352701573309999,
+          "rho": -0.0064307033645925
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.104997902943364,
@@ -3345,9 +3702,12 @@
       "has_model": true,
       "reference_date": "2025-09-15",
       "params": {
-        "eta": -0.1312318726067449,
-        "beta_home": 0.3352701573309999,
-        "rho": -0.0064307033645925,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1312318726067449,
+          "beta_home": 0.3352701573309999,
+          "rho": -0.0064307033645925
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.2985915022157144,
@@ -3373,9 +3733,12 @@
       "has_model": true,
       "reference_date": "2025-09-15",
       "params": {
-        "eta": -0.1312318726067449,
-        "beta_home": 0.3352701573309999,
-        "rho": -0.0064307033645925,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1312318726067449,
+          "beta_home": 0.3352701573309999,
+          "rho": -0.0064307033645925
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": 0.1137679448979571,
@@ -3401,9 +3764,12 @@
       "has_model": true,
       "reference_date": "2025-09-15",
       "params": {
-        "eta": -0.1312318726067449,
-        "beta_home": 0.3352701573309999,
-        "rho": -0.0064307033645925,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1312318726067449,
+          "beta_home": 0.3352701573309999,
+          "rho": -0.0064307033645925
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.145532688739043,
@@ -3429,9 +3795,12 @@
       "has_model": true,
       "reference_date": "2025-09-12",
       "params": {
-        "eta": -0.1199945823017804,
-        "beta_home": 0.33007233605,
-        "rho": 0.0023595762627339,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1199945823017804,
+          "beta_home": 0.33007233605,
+          "rho": 0.0023595762627339
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.155979846731588,
@@ -3457,9 +3826,12 @@
       "has_model": true,
       "reference_date": "2025-09-12",
       "params": {
-        "eta": -0.1199945823017804,
-        "beta_home": 0.33007233605,
-        "rho": 0.0023595762627339,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1199945823017804,
+          "beta_home": 0.33007233605,
+          "rho": 0.0023595762627339
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.0703447858936485,
@@ -3485,9 +3857,12 @@
       "has_model": true,
       "reference_date": "2025-09-12",
       "params": {
-        "eta": -0.1199945823017804,
-        "beta_home": 0.33007233605,
-        "rho": 0.0023595762627339,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1199945823017804,
+          "beta_home": 0.33007233605,
+          "rho": 0.0023595762627339
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.0593196211441442,
@@ -3513,9 +3888,12 @@
       "has_model": true,
       "reference_date": "2025-09-12",
       "params": {
-        "eta": -0.1199945823017804,
-        "beta_home": 0.33007233605,
-        "rho": 0.0023595762627339,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1199945823017804,
+          "beta_home": 0.33007233605,
+          "rho": 0.0023595762627339
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.1397114704804031,
@@ -3541,9 +3919,12 @@
       "has_model": true,
       "reference_date": "2025-09-12",
       "params": {
-        "eta": -0.1199945823017804,
-        "beta_home": 0.33007233605,
-        "rho": 0.0023595762627339,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1199945823017804,
+          "beta_home": 0.33007233605,
+          "rho": 0.0023595762627339
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.1221659542384212,
@@ -3569,9 +3950,12 @@
       "has_model": true,
       "reference_date": "2025-09-12",
       "params": {
-        "eta": -0.1199945823017804,
-        "beta_home": 0.33007233605,
-        "rho": 0.0023595762627339,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1199945823017804,
+          "beta_home": 0.33007233605,
+          "rho": 0.0023595762627339
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.22775275196512,
@@ -3597,9 +3981,12 @@
       "has_model": true,
       "reference_date": "2025-09-08",
       "params": {
-        "eta": -0.1215457227288017,
-        "beta_home": 0.33096617581,
-        "rho": 0.0054232054367693,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1215457227288017,
+          "beta_home": 0.33096617581,
+          "rho": 0.0054232054367693
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.0402257488404567,
@@ -3625,9 +4012,12 @@
       "has_model": true,
       "reference_date": "2025-09-08",
       "params": {
-        "eta": -0.1215457227288017,
-        "beta_home": 0.33096617581,
-        "rho": 0.0054232054367693,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1215457227288017,
+          "beta_home": 0.33096617581,
+          "rho": 0.0054232054367693
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.5696218902102,
@@ -3653,9 +4043,12 @@
       "has_model": true,
       "reference_date": "2025-09-05",
       "params": {
-        "eta": -0.1329897801804547,
-        "beta_home": 0.3324882232197,
-        "rho": 0.0094404933524365,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1329897801804547,
+          "beta_home": 0.3324882232197,
+          "rho": 0.0094404933524365
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.0910200415870782,
@@ -3681,9 +4074,12 @@
       "has_model": true,
       "reference_date": "2025-09-05",
       "params": {
-        "eta": -0.1329897801804547,
-        "beta_home": 0.3324882232197,
-        "rho": 0.0094404933524365,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1329897801804547,
+          "beta_home": 0.3324882232197,
+          "rho": 0.0094404933524365
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.0581207480116095,
@@ -3709,9 +4105,12 @@
       "has_model": true,
       "reference_date": "2025-09-05",
       "params": {
-        "eta": -0.1329897801804547,
-        "beta_home": 0.3324882232197,
-        "rho": 0.0094404933524365,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1329897801804547,
+          "beta_home": 0.3324882232197,
+          "rho": 0.0094404933524365
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.0925472632407763,
@@ -3737,9 +4136,12 @@
       "has_model": true,
       "reference_date": "2025-09-05",
       "params": {
-        "eta": -0.1329897801804547,
-        "beta_home": 0.3324882232197,
-        "rho": 0.0094404933524365,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1329897801804547,
+          "beta_home": 0.3324882232197,
+          "rho": 0.0094404933524365
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0639000568579841,
@@ -3765,9 +4167,12 @@
       "has_model": true,
       "reference_date": "2025-09-05",
       "params": {
-        "eta": -0.1329897801804547,
-        "beta_home": 0.3324882232197,
-        "rho": 0.0094404933524365,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1329897801804547,
+          "beta_home": 0.3324882232197,
+          "rho": 0.0094404933524365
+        },
         "teams": {
           "América / MG": {
             "attack": -0.0291408666738203,
@@ -3793,9 +4198,12 @@
       "has_model": true,
       "reference_date": "2025-09-05",
       "params": {
-        "eta": -0.1329897801804547,
-        "beta_home": 0.3324882232197,
-        "rho": 0.0094404933524365,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1329897801804547,
+          "beta_home": 0.3324882232197,
+          "rho": 0.0094404933524365
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0802799984598083,
@@ -3821,9 +4229,12 @@
       "has_model": true,
       "reference_date": "2025-09-05",
       "params": {
-        "eta": -0.1329897801804547,
-        "beta_home": 0.3324882232197,
-        "rho": 0.0094404933524365,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1329897801804547,
+          "beta_home": 0.3324882232197,
+          "rho": 0.0094404933524365
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.2595169873340969,
@@ -3849,9 +4260,12 @@
       "has_model": true,
       "reference_date": "2025-09-01",
       "params": {
-        "eta": -0.137875321741614,
-        "beta_home": 0.332294493186,
-        "rho": 0.010006988801355,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.137875321741614,
+          "beta_home": 0.332294493186,
+          "rho": 0.010006988801355
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.1011492933371188,
@@ -3877,9 +4291,12 @@
       "has_model": true,
       "reference_date": "2025-09-01",
       "params": {
-        "eta": -0.137875321741614,
-        "beta_home": 0.332294493186,
-        "rho": 0.010006988801355,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.137875321741614,
+          "beta_home": 0.332294493186,
+          "rho": 0.010006988801355
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.2027153926547547,
@@ -3905,9 +4322,12 @@
       "has_model": true,
       "reference_date": "2025-09-01",
       "params": {
-        "eta": -0.137875321741614,
-        "beta_home": 0.332294493186,
-        "rho": 0.010006988801355,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.137875321741614,
+          "beta_home": 0.332294493186,
+          "rho": 0.010006988801355
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.1618998832808975,
@@ -3933,9 +4353,12 @@
       "has_model": true,
       "reference_date": "2025-09-01",
       "params": {
-        "eta": -0.137875321741614,
-        "beta_home": 0.332294493186,
-        "rho": 0.010006988801355,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.137875321741614,
+          "beta_home": 0.332294493186,
+          "rho": 0.010006988801355
+        },
         "teams": {
           "América / MG": {
             "attack": -0.0520492286202338,
@@ -3961,9 +4384,12 @@
       "has_model": true,
       "reference_date": "2025-08-29",
       "params": {
-        "eta": -0.1385494027193805,
-        "beta_home": 0.32776436968,
-        "rho": 0.0056264619656525,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1385494027193805,
+          "beta_home": 0.32776436968,
+          "rho": 0.0056264619656525
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.0534558645428325,
@@ -3989,9 +4415,12 @@
       "has_model": true,
       "reference_date": "2025-08-29",
       "params": {
-        "eta": -0.1385494027193805,
-        "beta_home": 0.32776436968,
-        "rho": 0.0056264619656525,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1385494027193805,
+          "beta_home": 0.32776436968,
+          "rho": 0.0056264619656525
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": 0.1326034879396389,
@@ -4017,9 +4446,12 @@
       "has_model": true,
       "reference_date": "2025-08-29",
       "params": {
-        "eta": -0.1385494027193805,
-        "beta_home": 0.32776436968,
-        "rho": 0.0056264619656525,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1385494027193805,
+          "beta_home": 0.32776436968,
+          "rho": 0.0056264619656525
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.5737629834398749,
@@ -4045,9 +4477,12 @@
       "has_model": true,
       "reference_date": "2025-08-29",
       "params": {
-        "eta": -0.1385494027193805,
-        "beta_home": 0.32776436968,
-        "rho": 0.0056264619656525,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1385494027193805,
+          "beta_home": 0.32776436968,
+          "rho": 0.0056264619656525
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.1571763987103882,
@@ -4073,9 +4508,12 @@
       "has_model": true,
       "reference_date": "2025-08-29",
       "params": {
-        "eta": -0.1385494027193805,
-        "beta_home": 0.32776436968,
-        "rho": 0.0056264619656525,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1385494027193805,
+          "beta_home": 0.32776436968,
+          "rho": 0.0056264619656525
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.0510150944138354,
@@ -4101,9 +4539,12 @@
       "has_model": true,
       "reference_date": "2025-08-29",
       "params": {
-        "eta": -0.1385494027193805,
-        "beta_home": 0.32776436968,
-        "rho": 0.0056264619656525,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1385494027193805,
+          "beta_home": 0.32776436968,
+          "rho": 0.0056264619656525
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.1123649087419944,
@@ -4129,9 +4570,12 @@
       "has_model": true,
       "reference_date": "2025-08-29",
       "params": {
-        "eta": -0.1385494027193805,
-        "beta_home": 0.32776436968,
-        "rho": 0.0056264619656525,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1385494027193805,
+          "beta_home": 0.32776436968,
+          "rho": 0.0056264619656525
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.1255905221058367,
@@ -4157,9 +4601,12 @@
       "has_model": true,
       "reference_date": "2025-08-25",
       "params": {
-        "eta": -0.1350187650730752,
-        "beta_home": 0.3201435525677999,
-        "rho": 0.0047120015781436,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1350187650730752,
+          "beta_home": 0.3201435525677999,
+          "rho": 0.0047120015781436
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.1108943521414898,
@@ -4185,9 +4632,12 @@
       "has_model": true,
       "reference_date": "2025-08-25",
       "params": {
-        "eta": -0.1350187650730752,
-        "beta_home": 0.3201435525677999,
-        "rho": 0.0047120015781436,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1350187650730752,
+          "beta_home": 0.3201435525677999,
+          "rho": 0.0047120015781436
+        },
         "teams": {
           "Remo / PA": {
             "attack": -0.1708132468923412,
@@ -4213,9 +4663,12 @@
       "has_model": true,
       "reference_date": "2025-08-22",
       "params": {
-        "eta": -0.1391003214305463,
-        "beta_home": 0.330005704428,
-        "rho": 0.0039012265105404,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1391003214305463,
+          "beta_home": 0.330005704428,
+          "rho": 0.0039012265105404
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0061912058922222,
@@ -4241,9 +4694,12 @@
       "has_model": true,
       "reference_date": "2025-08-22",
       "params": {
-        "eta": -0.1391003214305463,
-        "beta_home": 0.330005704428,
-        "rho": 0.0039012265105404,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1391003214305463,
+          "beta_home": 0.330005704428,
+          "rho": 0.0039012265105404
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.400140232782348,
@@ -4269,9 +4725,12 @@
       "has_model": true,
       "reference_date": "2025-08-22",
       "params": {
-        "eta": -0.1391003214305463,
-        "beta_home": 0.330005704428,
-        "rho": 0.0039012265105404,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1391003214305463,
+          "beta_home": 0.330005704428,
+          "rho": 0.0039012265105404
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.1167497375800743,
@@ -4297,9 +4756,12 @@
       "has_model": true,
       "reference_date": "2025-08-22",
       "params": {
-        "eta": -0.1391003214305463,
-        "beta_home": 0.330005704428,
-        "rho": 0.0039012265105404,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1391003214305463,
+          "beta_home": 0.330005704428,
+          "rho": 0.0039012265105404
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": 0.0150337257603617,
@@ -4325,9 +4787,12 @@
       "has_model": true,
       "reference_date": "2025-08-22",
       "params": {
-        "eta": -0.1391003214305463,
-        "beta_home": 0.330005704428,
-        "rho": 0.0039012265105404,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1391003214305463,
+          "beta_home": 0.330005704428,
+          "rho": 0.0039012265105404
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.1718975112624464,
@@ -4353,9 +4818,12 @@
       "has_model": true,
       "reference_date": "2025-08-22",
       "params": {
-        "eta": -0.1391003214305463,
-        "beta_home": 0.330005704428,
-        "rho": 0.0039012265105404,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1391003214305463,
+          "beta_home": 0.330005704428,
+          "rho": 0.0039012265105404
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.0767369161330549,
@@ -4381,9 +4849,12 @@
       "has_model": true,
       "reference_date": "2025-08-22",
       "params": {
-        "eta": -0.1391003214305463,
-        "beta_home": 0.330005704428,
-        "rho": 0.0039012265105404,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1391003214305463,
+          "beta_home": 0.330005704428,
+          "rho": 0.0039012265105404
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.1339444491040721,
@@ -4409,9 +4880,12 @@
       "has_model": true,
       "reference_date": "2025-08-22",
       "params": {
-        "eta": -0.1391003214305463,
-        "beta_home": 0.330005704428,
-        "rho": 0.0039012265105404,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1391003214305463,
+          "beta_home": 0.330005704428,
+          "rho": 0.0039012265105404
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.031072208203489,
@@ -4437,9 +4911,12 @@
       "has_model": true,
       "reference_date": "2025-08-18",
       "params": {
-        "eta": -0.132182822147072,
-        "beta_home": 0.327428112574,
-        "rho": 0.0096609775532827,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.132182822147072,
+          "beta_home": 0.327428112574,
+          "rho": 0.0096609775532827
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0752584990220183,
@@ -4465,9 +4942,12 @@
       "has_model": true,
       "reference_date": "2025-08-18",
       "params": {
-        "eta": -0.132182822147072,
-        "beta_home": 0.327428112574,
-        "rho": 0.0096609775532827,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.132182822147072,
+          "beta_home": 0.327428112574,
+          "rho": 0.0096609775532827
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.0260297515261208,
@@ -4493,9 +4973,12 @@
       "has_model": true,
       "reference_date": "2025-08-18",
       "params": {
-        "eta": -0.132182822147072,
-        "beta_home": 0.327428112574,
-        "rho": 0.0096609775532827,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.132182822147072,
+          "beta_home": 0.327428112574,
+          "rho": 0.0096609775532827
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.1196270036645734,
@@ -4521,9 +5004,12 @@
       "has_model": true,
       "reference_date": "2025-08-15",
       "params": {
-        "eta": -0.158344643953273,
-        "beta_home": 0.356333216642,
-        "rho": 0.0089058352764061,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.158344643953273,
+          "beta_home": 0.356333216642,
+          "rho": 0.0089058352764061
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.0117393783295125,
@@ -4549,9 +5035,12 @@
       "has_model": true,
       "reference_date": "2025-08-15",
       "params": {
-        "eta": -0.158344643953273,
-        "beta_home": 0.356333216642,
-        "rho": 0.0089058352764061,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.158344643953273,
+          "beta_home": 0.356333216642,
+          "rho": 0.0089058352764061
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.462498183558556,
@@ -4577,9 +5066,12 @@
       "has_model": true,
       "reference_date": "2025-08-15",
       "params": {
-        "eta": -0.158344643953273,
-        "beta_home": 0.356333216642,
-        "rho": 0.0089058352764061,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.158344643953273,
+          "beta_home": 0.356333216642,
+          "rho": 0.0089058352764061
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.1975326513662789,
@@ -4605,9 +5097,12 @@
       "has_model": true,
       "reference_date": "2025-08-15",
       "params": {
-        "eta": -0.158344643953273,
-        "beta_home": 0.356333216642,
-        "rho": 0.0089058352764061,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.158344643953273,
+          "beta_home": 0.356333216642,
+          "rho": 0.0089058352764061
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": 0.047501529609529,
@@ -4633,9 +5128,12 @@
       "has_model": true,
       "reference_date": "2025-08-15",
       "params": {
-        "eta": -0.158344643953273,
-        "beta_home": 0.356333216642,
-        "rho": 0.0089058352764061,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.158344643953273,
+          "beta_home": 0.356333216642,
+          "rho": 0.0089058352764061
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.076493187049937,
@@ -4661,9 +5159,12 @@
       "has_model": true,
       "reference_date": "2025-08-15",
       "params": {
-        "eta": -0.158344643953273,
-        "beta_home": 0.356333216642,
-        "rho": 0.0089058352764061,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.158344643953273,
+          "beta_home": 0.356333216642,
+          "rho": 0.0089058352764061
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.1049577443120746,
@@ -4689,9 +5190,12 @@
       "has_model": true,
       "reference_date": "2025-08-15",
       "params": {
-        "eta": -0.158344643953273,
-        "beta_home": 0.356333216642,
-        "rho": 0.0089058352764061,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.158344643953273,
+          "beta_home": 0.356333216642,
+          "rho": 0.0089058352764061
+        },
         "teams": {
           "Remo / PA": {
             "attack": -0.1021967718457023,
@@ -4717,9 +5221,12 @@
       "has_model": true,
       "reference_date": "2025-08-11",
       "params": {
-        "eta": -0.158344766845342,
-        "beta_home": 0.3567514555471,
-        "rho": 0.002504196872292,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.158344766845342,
+          "beta_home": 0.3567514555471,
+          "rho": 0.002504196872292
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.188788792554776,
@@ -4745,9 +5252,12 @@
       "has_model": true,
       "reference_date": "2025-08-11",
       "params": {
-        "eta": -0.158344766845342,
-        "beta_home": 0.3567514555471,
-        "rho": 0.002504196872292,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.158344766845342,
+          "beta_home": 0.3567514555471,
+          "rho": 0.002504196872292
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.0475234952344812,
@@ -4773,9 +5283,12 @@
       "has_model": true,
       "reference_date": "2025-08-11",
       "params": {
-        "eta": -0.158344766845342,
-        "beta_home": 0.3567514555471,
-        "rho": 0.002504196872292,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.158344766845342,
+          "beta_home": 0.3567514555471,
+          "rho": 0.002504196872292
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.0486787604671251,
@@ -4801,9 +5314,12 @@
       "has_model": true,
       "reference_date": "2025-08-08",
       "params": {
-        "eta": -0.171932730854104,
-        "beta_home": 0.371771810457,
-        "rho": 0.0013565822829594,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.171932730854104,
+          "beta_home": 0.371771810457,
+          "rho": 0.0013565822829594
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.0944864669426855,
@@ -4829,9 +5345,12 @@
       "has_model": true,
       "reference_date": "2025-08-08",
       "params": {
-        "eta": -0.171932730854104,
-        "beta_home": 0.371771810457,
-        "rho": 0.0013565822829594,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.171932730854104,
+          "beta_home": 0.371771810457,
+          "rho": 0.0013565822829594
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0101705760108719,
@@ -4857,9 +5376,12 @@
       "has_model": true,
       "reference_date": "2025-08-08",
       "params": {
-        "eta": -0.171932730854104,
-        "beta_home": 0.371771810457,
-        "rho": 0.0013565822829594,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.171932730854104,
+          "beta_home": 0.371771810457,
+          "rho": 0.0013565822829594
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.216112831223995,
@@ -4885,9 +5407,12 @@
       "has_model": true,
       "reference_date": "2025-08-08",
       "params": {
-        "eta": -0.171932730854104,
-        "beta_home": 0.371771810457,
-        "rho": 0.0013565822829594,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.171932730854104,
+          "beta_home": 0.371771810457,
+          "rho": 0.0013565822829594
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0017700608306804,
@@ -4913,9 +5438,12 @@
       "has_model": true,
       "reference_date": "2025-08-08",
       "params": {
-        "eta": -0.171932730854104,
-        "beta_home": 0.371771810457,
-        "rho": 0.0013565822829594,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.171932730854104,
+          "beta_home": 0.371771810457,
+          "rho": 0.0013565822829594
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.4041124819019681,
@@ -4941,9 +5469,12 @@
       "has_model": true,
       "reference_date": "2025-08-08",
       "params": {
-        "eta": -0.171932730854104,
-        "beta_home": 0.371771810457,
-        "rho": 0.0013565822829594,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.171932730854104,
+          "beta_home": 0.371771810457,
+          "rho": 0.0013565822829594
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.1476889815915021,
@@ -4969,9 +5500,12 @@
       "has_model": true,
       "reference_date": "2025-08-08",
       "params": {
-        "eta": -0.171932730854104,
-        "beta_home": 0.371771810457,
-        "rho": 0.0013565822829594,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.171932730854104,
+          "beta_home": 0.371771810457,
+          "rho": 0.0013565822829594
+        },
         "teams": {
           "América / MG": {
             "attack": -0.0085139119167113,
@@ -4997,9 +5531,12 @@
       "has_model": true,
       "reference_date": "2025-08-04",
       "params": {
-        "eta": -0.171622557194564,
-        "beta_home": 0.3696993638529999,
-        "rho": 0.0031503421931958,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.171622557194564,
+          "beta_home": 0.3696993638529999,
+          "rho": 0.0031503421931958
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.0234227921657197,
@@ -5025,9 +5562,12 @@
       "has_model": true,
       "reference_date": "2025-08-04",
       "params": {
-        "eta": -0.171622557194564,
-        "beta_home": 0.3696993638529999,
-        "rho": 0.0031503421931958,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.171622557194564,
+          "beta_home": 0.3696993638529999,
+          "rho": 0.0031503421931958
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.1297452096820934,
@@ -5053,9 +5593,12 @@
       "has_model": true,
       "reference_date": "2025-08-01",
       "params": {
-        "eta": -0.18162191092681,
-        "beta_home": 0.378006907603,
-        "rho": 0.0119876448931284,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18162191092681,
+          "beta_home": 0.378006907603,
+          "rho": 0.0119876448931284
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.1022134159794287,
@@ -5081,9 +5624,12 @@
       "has_model": true,
       "reference_date": "2025-08-01",
       "params": {
-        "eta": -0.18162191092681,
-        "beta_home": 0.378006907603,
-        "rho": 0.0119876448931284,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18162191092681,
+          "beta_home": 0.378006907603,
+          "rho": 0.0119876448931284
+        },
         "teams": {
           "Athletic / MG": {
             "attack": 0.0604760414617872,
@@ -5109,9 +5655,12 @@
       "has_model": true,
       "reference_date": "2025-08-01",
       "params": {
-        "eta": -0.18162191092681,
-        "beta_home": 0.378006907603,
-        "rho": 0.0119876448931284,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18162191092681,
+          "beta_home": 0.378006907603,
+          "rho": 0.0119876448931284
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.0695681205552078,
@@ -5137,9 +5686,12 @@
       "has_model": true,
       "reference_date": "2025-08-01",
       "params": {
-        "eta": -0.18162191092681,
-        "beta_home": 0.378006907603,
-        "rho": 0.0119876448931284,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18162191092681,
+          "beta_home": 0.378006907603,
+          "rho": 0.0119876448931284
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": 0.013966498197214,
@@ -5165,9 +5717,12 @@
       "has_model": true,
       "reference_date": "2025-08-01",
       "params": {
-        "eta": -0.18162191092681,
-        "beta_home": 0.378006907603,
-        "rho": 0.0119876448931284,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18162191092681,
+          "beta_home": 0.378006907603,
+          "rho": 0.0119876448931284
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.0086075491198153,
@@ -5193,9 +5748,12 @@
       "has_model": true,
       "reference_date": "2025-08-01",
       "params": {
-        "eta": -0.18162191092681,
-        "beta_home": 0.378006907603,
-        "rho": 0.0119876448931284,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18162191092681,
+          "beta_home": 0.378006907603,
+          "rho": 0.0119876448931284
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.241426015067685,
@@ -5221,9 +5779,12 @@
       "has_model": true,
       "reference_date": "2025-08-01",
       "params": {
-        "eta": -0.18162191092681,
-        "beta_home": 0.378006907603,
-        "rho": 0.0119876448931284,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18162191092681,
+          "beta_home": 0.378006907603,
+          "rho": 0.0119876448931284
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.4320490772287699,
@@ -5249,9 +5810,12 @@
       "has_model": true,
       "reference_date": "2025-07-28",
       "params": {
-        "eta": -0.17760526142366,
-        "beta_home": 0.3723300446679999,
-        "rho": 0.0168988645216688,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.17760526142366,
+          "beta_home": 0.3723300446679999,
+          "rho": 0.0168988645216688
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.106513320350849,
@@ -5277,9 +5841,12 @@
       "has_model": true,
       "reference_date": "2025-07-28",
       "params": {
-        "eta": -0.17760526142366,
-        "beta_home": 0.3723300446679999,
-        "rho": 0.0168988645216688,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.17760526142366,
+          "beta_home": 0.3723300446679999,
+          "rho": 0.0168988645216688
+        },
         "teams": {
           "Remo / PA": {
             "attack": -0.0451956132721606,
@@ -5305,9 +5872,12 @@
       "has_model": true,
       "reference_date": "2025-07-28",
       "params": {
-        "eta": -0.17760526142366,
-        "beta_home": 0.3723300446679999,
-        "rho": 0.0168988645216688,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.17760526142366,
+          "beta_home": 0.3723300446679999,
+          "rho": 0.0168988645216688
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.1104683570025934,
@@ -5333,9 +5903,12 @@
       "has_model": true,
       "reference_date": "2025-07-28",
       "params": {
-        "eta": -0.17760526142366,
-        "beta_home": 0.3723300446679999,
-        "rho": 0.0168988645216688,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.17760526142366,
+          "beta_home": 0.3723300446679999,
+          "rho": 0.0168988645216688
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.1404861657595885,
@@ -5361,9 +5934,12 @@
       "has_model": true,
       "reference_date": "2025-07-28",
       "params": {
-        "eta": -0.17760526142366,
-        "beta_home": 0.3723300446679999,
-        "rho": 0.0168988645216688,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.17760526142366,
+          "beta_home": 0.3723300446679999,
+          "rho": 0.0168988645216688
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0551175640292214,
@@ -5389,9 +5965,12 @@
       "has_model": true,
       "reference_date": "2025-07-25",
       "params": {
-        "eta": -0.176061885515529,
-        "beta_home": 0.367768929734,
-        "rho": 0.0280314472205806,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.176061885515529,
+          "beta_home": 0.367768929734,
+          "rho": 0.0280314472205806
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.0688757841846466,
@@ -5417,9 +5996,12 @@
       "has_model": true,
       "reference_date": "2025-07-25",
       "params": {
-        "eta": -0.176061885515529,
-        "beta_home": 0.367768929734,
-        "rho": 0.0280314472205806,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.176061885515529,
+          "beta_home": 0.367768929734,
+          "rho": 0.0280314472205806
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.1157035253583267,
@@ -5445,9 +6027,12 @@
       "has_model": true,
       "reference_date": "2025-07-25",
       "params": {
-        "eta": -0.176061885515529,
-        "beta_home": 0.367768929734,
-        "rho": 0.0280314472205806,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.176061885515529,
+          "beta_home": 0.367768929734,
+          "rho": 0.0280314472205806
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.1675792468275707,
@@ -5473,9 +6058,12 @@
       "has_model": true,
       "reference_date": "2025-07-25",
       "params": {
-        "eta": -0.176061885515529,
-        "beta_home": 0.367768929734,
-        "rho": 0.0280314472205806,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.176061885515529,
+          "beta_home": 0.367768929734,
+          "rho": 0.0280314472205806
+        },
         "teams": {
           "América / MG": {
             "attack": -0.0130586671560859,
@@ -5501,9 +6089,12 @@
       "has_model": true,
       "reference_date": "2025-07-25",
       "params": {
-        "eta": -0.176061885515529,
-        "beta_home": 0.367768929734,
-        "rho": 0.0280314472205806,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.176061885515529,
+          "beta_home": 0.367768929734,
+          "rho": 0.0280314472205806
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.4427803110878877,
@@ -5529,9 +6120,12 @@
       "has_model": true,
       "reference_date": "2025-07-25",
       "params": {
-        "eta": -0.176061885515529,
-        "beta_home": 0.367768929734,
-        "rho": 0.0280314472205806,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.176061885515529,
+          "beta_home": 0.367768929734,
+          "rho": 0.0280314472205806
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.0276942507223966,
@@ -5557,9 +6151,12 @@
       "has_model": true,
       "reference_date": "2025-07-25",
       "params": {
-        "eta": -0.176061885515529,
-        "beta_home": 0.367768929734,
-        "rho": 0.0280314472205806,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.176061885515529,
+          "beta_home": 0.367768929734,
+          "rho": 0.0280314472205806
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.1964408033636595,
@@ -5585,9 +6182,12 @@
       "has_model": true,
       "reference_date": "2025-07-25",
       "params": {
-        "eta": -0.176061885515529,
-        "beta_home": 0.367768929734,
-        "rho": 0.0280314472205806,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.176061885515529,
+          "beta_home": 0.367768929734,
+          "rho": 0.0280314472205806
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.1318334403701159,
@@ -5613,9 +6213,12 @@
       "has_model": true,
       "reference_date": "2025-07-21",
       "params": {
-        "eta": -0.18515197826826,
-        "beta_home": 0.369909632575,
-        "rho": 0.0351508863145301,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18515197826826,
+          "beta_home": 0.369909632575,
+          "rho": 0.0351508863145301
+        },
         "teams": {
           "Remo / PA": {
             "attack": -0.0830139111433898,
@@ -5641,9 +6244,12 @@
       "has_model": true,
       "reference_date": "2025-07-21",
       "params": {
-        "eta": -0.18515197826826,
-        "beta_home": 0.369909632575,
-        "rho": 0.0351508863145301,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18515197826826,
+          "beta_home": 0.369909632575,
+          "rho": 0.0351508863145301
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.3527409942672214,
@@ -5669,9 +6275,12 @@
       "has_model": true,
       "reference_date": "2025-07-21",
       "params": {
-        "eta": -0.18515197826826,
-        "beta_home": 0.369909632575,
-        "rho": 0.0351508863145301,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18515197826826,
+          "beta_home": 0.369909632575,
+          "rho": 0.0351508863145301
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.2420799267790837,
@@ -5697,9 +6306,12 @@
       "has_model": true,
       "reference_date": "2025-07-21",
       "params": {
-        "eta": -0.18515197826826,
-        "beta_home": 0.369909632575,
-        "rho": 0.0351508863145301,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18515197826826,
+          "beta_home": 0.369909632575,
+          "rho": 0.0351508863145301
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.1278563696437062,
@@ -5725,9 +6337,12 @@
       "has_model": true,
       "reference_date": "2025-07-21",
       "params": {
-        "eta": -0.18515197826826,
-        "beta_home": 0.369909632575,
-        "rho": 0.0351508863145301,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18515197826826,
+          "beta_home": 0.369909632575,
+          "rho": 0.0351508863145301
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": 0.0331489403584089,
@@ -5753,9 +6368,12 @@
       "has_model": true,
       "reference_date": "2025-07-21",
       "params": {
-        "eta": -0.18515197826826,
-        "beta_home": 0.369909632575,
-        "rho": 0.0351508863145301,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18515197826826,
+          "beta_home": 0.369909632575,
+          "rho": 0.0351508863145301
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": -0.0268976536244911,
@@ -5781,9 +6399,12 @@
       "has_model": true,
       "reference_date": "2025-07-21",
       "params": {
-        "eta": -0.18515197826826,
-        "beta_home": 0.369909632575,
-        "rho": 0.0351508863145301,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18515197826826,
+          "beta_home": 0.369909632575,
+          "rho": 0.0351508863145301
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.1387084967669027,
@@ -5809,9 +6430,12 @@
       "has_model": true,
       "reference_date": "2025-07-21",
       "params": {
-        "eta": -0.18515197826826,
-        "beta_home": 0.369909632575,
-        "rho": 0.0351508863145301,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18515197826826,
+          "beta_home": 0.369909632575,
+          "rho": 0.0351508863145301
+        },
         "teams": {
           "Athletic / MG": {
             "attack": 0.0988400759326441,
@@ -5837,9 +6461,12 @@
       "has_model": true,
       "reference_date": "2025-07-21",
       "params": {
-        "eta": -0.18515197826826,
-        "beta_home": 0.369909632575,
-        "rho": 0.0351508863145301,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18515197826826,
+          "beta_home": 0.369909632575,
+          "rho": 0.0351508863145301
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.0759882174096964,
@@ -5865,9 +6492,12 @@
       "has_model": true,
       "reference_date": "2025-07-21",
       "params": {
-        "eta": -0.18515197826826,
-        "beta_home": 0.369909632575,
-        "rho": 0.0351508863145301,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18515197826826,
+          "beta_home": 0.369909632575,
+          "rho": 0.0351508863145301
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.1198280932321246,
@@ -5893,9 +6523,12 @@
       "has_model": true,
       "reference_date": "2025-07-18",
       "params": {
-        "eta": -0.1977755991963335,
-        "beta_home": 0.368060454098,
-        "rho": 0.0255622573108593,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1977755991963335,
+          "beta_home": 0.368060454098,
+          "rho": 0.0255622573108593
+        },
         "teams": {
           "América / MG": {
             "attack": 0.0456509107008826,
@@ -5921,9 +6554,12 @@
       "has_model": true,
       "reference_date": "2025-07-18",
       "params": {
-        "eta": -0.1977755991963335,
-        "beta_home": 0.368060454098,
-        "rho": 0.0255622573108593,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1977755991963335,
+          "beta_home": 0.368060454098,
+          "rho": 0.0255622573108593
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.3183825183725307,
@@ -5949,9 +6585,12 @@
       "has_model": true,
       "reference_date": "2025-07-18",
       "params": {
-        "eta": -0.1977755991963335,
-        "beta_home": 0.368060454098,
-        "rho": 0.0255622573108593,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1977755991963335,
+          "beta_home": 0.368060454098,
+          "rho": 0.0255622573108593
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.8341394834621529,
@@ -5977,9 +6616,12 @@
       "has_model": true,
       "reference_date": "2025-07-18",
       "params": {
-        "eta": -0.1977755991963335,
-        "beta_home": 0.368060454098,
-        "rho": 0.0255622573108593,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1977755991963335,
+          "beta_home": 0.368060454098,
+          "rho": 0.0255622573108593
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0943975880648788,
@@ -6005,9 +6647,12 @@
       "has_model": true,
       "reference_date": "2025-07-18",
       "params": {
-        "eta": -0.1977755991963335,
-        "beta_home": 0.368060454098,
-        "rho": 0.0255622573108593,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1977755991963335,
+          "beta_home": 0.368060454098,
+          "rho": 0.0255622573108593
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.0256543024964411,
@@ -6033,9 +6678,12 @@
       "has_model": true,
       "reference_date": "2025-07-18",
       "params": {
-        "eta": -0.1977755991963335,
-        "beta_home": 0.368060454098,
-        "rho": 0.0255622573108593,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1977755991963335,
+          "beta_home": 0.368060454098,
+          "rho": 0.0255622573108593
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.1423278545665245,
@@ -6061,9 +6709,12 @@
       "has_model": true,
       "reference_date": "2025-07-14",
       "params": {
-        "eta": -0.191799905473244,
-        "beta_home": 0.3617875383799,
-        "rho": 0.0298748200376746,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.191799905473244,
+          "beta_home": 0.3617875383799,
+          "rho": 0.0298748200376746
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.0668182707076882,
@@ -6089,9 +6740,12 @@
       "has_model": true,
       "reference_date": "2025-07-14",
       "params": {
-        "eta": -0.191799905473244,
-        "beta_home": 0.3617875383799,
-        "rho": 0.0298748200376746,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.191799905473244,
+          "beta_home": 0.3617875383799,
+          "rho": 0.0298748200376746
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.0482516119344775,
@@ -6117,9 +6771,12 @@
       "has_model": true,
       "reference_date": "2025-07-14",
       "params": {
-        "eta": -0.191799905473244,
-        "beta_home": 0.3617875383799,
-        "rho": 0.0298748200376746,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.191799905473244,
+          "beta_home": 0.3617875383799,
+          "rho": 0.0298748200376746
+        },
         "teams": {
           "Remo / PA": {
             "attack": -0.0692616735768651,
@@ -6145,9 +6802,12 @@
       "has_model": true,
       "reference_date": "2025-07-14",
       "params": {
-        "eta": -0.191799905473244,
-        "beta_home": 0.3617875383799,
-        "rho": 0.0298748200376746,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.191799905473244,
+          "beta_home": 0.3617875383799,
+          "rho": 0.0298748200376746
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.0992438880344804,
@@ -6173,9 +6833,12 @@
       "has_model": true,
       "reference_date": "2025-07-14",
       "params": {
-        "eta": -0.191799905473244,
-        "beta_home": 0.3617875383799,
-        "rho": 0.0298748200376746,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.191799905473244,
+          "beta_home": 0.3617875383799,
+          "rho": 0.0298748200376746
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.2068223837271231,
@@ -6201,9 +6864,12 @@
       "has_model": true,
       "reference_date": "2025-07-11",
       "params": {
-        "eta": -0.1967115578856639,
-        "beta_home": 0.3654252798124,
-        "rho": 0.0262199994361552,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1967115578856639,
+          "beta_home": 0.3654252798124,
+          "rho": 0.0262199994361552
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.2677313843948868,
@@ -6229,9 +6895,12 @@
       "has_model": true,
       "reference_date": "2025-07-11",
       "params": {
-        "eta": -0.1967115578856639,
-        "beta_home": 0.3654252798124,
-        "rho": 0.0262199994361552,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1967115578856639,
+          "beta_home": 0.3654252798124,
+          "rho": 0.0262199994361552
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.1553052698320424,
@@ -6257,9 +6926,12 @@
       "has_model": true,
       "reference_date": "2025-07-11",
       "params": {
-        "eta": -0.1967115578856639,
-        "beta_home": 0.3654252798124,
-        "rho": 0.0262199994361552,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1967115578856639,
+          "beta_home": 0.3654252798124,
+          "rho": 0.0262199994361552
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": -0.0133095091790821,
@@ -6285,9 +6957,12 @@
       "has_model": true,
       "reference_date": "2025-07-11",
       "params": {
-        "eta": -0.1967115578856639,
-        "beta_home": 0.3654252798124,
-        "rho": 0.0262199994361552,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1967115578856639,
+          "beta_home": 0.3654252798124,
+          "rho": 0.0262199994361552
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0326348800894746,
@@ -6313,9 +6988,12 @@
       "has_model": true,
       "reference_date": "2025-07-11",
       "params": {
-        "eta": -0.1967115578856639,
-        "beta_home": 0.3654252798124,
-        "rho": 0.0262199994361552,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1967115578856639,
+          "beta_home": 0.3654252798124,
+          "rho": 0.0262199994361552
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.0869703254758869,
@@ -6341,9 +7019,12 @@
       "has_model": true,
       "reference_date": "2025-07-11",
       "params": {
-        "eta": -0.1967115578856639,
-        "beta_home": 0.3654252798124,
-        "rho": 0.0262199994361552,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1967115578856639,
+          "beta_home": 0.3654252798124,
+          "rho": 0.0262199994361552
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.280034744146486,
@@ -6369,9 +7050,12 @@
       "has_model": true,
       "reference_date": "2025-07-11",
       "params": {
-        "eta": -0.1967115578856639,
-        "beta_home": 0.3654252798124,
-        "rho": 0.0262199994361552,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1967115578856639,
+          "beta_home": 0.3654252798124,
+          "rho": 0.0262199994361552
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.0042674441345149,
@@ -6397,9 +7081,12 @@
       "has_model": true,
       "reference_date": "2025-07-07",
       "params": {
-        "eta": -0.201533553681376,
-        "beta_home": 0.3761192233859999,
-        "rho": 0.0224025051319019,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.201533553681376,
+          "beta_home": 0.3761192233859999,
+          "rho": 0.0224025051319019
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.0807311874992639,
@@ -6425,9 +7112,12 @@
       "has_model": true,
       "reference_date": "2025-07-07",
       "params": {
-        "eta": -0.201533553681376,
-        "beta_home": 0.3761192233859999,
-        "rho": 0.0224025051319019,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.201533553681376,
+          "beta_home": 0.3761192233859999,
+          "rho": 0.0224025051319019
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.106218969337129,
@@ -6453,9 +7143,12 @@
       "has_model": true,
       "reference_date": "2025-07-07",
       "params": {
-        "eta": -0.201533553681376,
-        "beta_home": 0.3761192233859999,
-        "rho": 0.0224025051319019,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.201533553681376,
+          "beta_home": 0.3761192233859999,
+          "rho": 0.0224025051319019
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.171355986213035,
@@ -6481,9 +7174,12 @@
       "has_model": true,
       "reference_date": "2025-07-04",
       "params": {
-        "eta": -0.19923716365737,
-        "beta_home": 0.3796487940929999,
-        "rho": 0.0263917941988026,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.19923716365737,
+          "beta_home": 0.3796487940929999,
+          "rho": 0.0263917941988026
+        },
         "teams": {
           "América / MG": {
             "attack": 0.1032532810480609,
@@ -6509,9 +7205,12 @@
       "has_model": true,
       "reference_date": "2025-07-04",
       "params": {
-        "eta": -0.19923716365737,
-        "beta_home": 0.3796487940929999,
-        "rho": 0.0263917941988026,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.19923716365737,
+          "beta_home": 0.3796487940929999,
+          "rho": 0.0263917941988026
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.0562956250312825,
@@ -6537,9 +7236,12 @@
       "has_model": true,
       "reference_date": "2025-07-04",
       "params": {
-        "eta": -0.19923716365737,
-        "beta_home": 0.3796487940929999,
-        "rho": 0.0263917941988026,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.19923716365737,
+          "beta_home": 0.3796487940929999,
+          "rho": 0.0263917941988026
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.2441452582026525,
@@ -6565,9 +7267,12 @@
       "has_model": true,
       "reference_date": "2025-07-04",
       "params": {
-        "eta": -0.19923716365737,
-        "beta_home": 0.3796487940929999,
-        "rho": 0.0263917941988026,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.19923716365737,
+          "beta_home": 0.3796487940929999,
+          "rho": 0.0263917941988026
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.0477112236230559,
@@ -6593,9 +7298,12 @@
       "has_model": true,
       "reference_date": "2025-07-04",
       "params": {
-        "eta": -0.19923716365737,
-        "beta_home": 0.3796487940929999,
-        "rho": 0.0263917941988026,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.19923716365737,
+          "beta_home": 0.3796487940929999,
+          "rho": 0.0263917941988026
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.2894020680630204,
@@ -6621,9 +7329,12 @@
       "has_model": true,
       "reference_date": "2025-07-04",
       "params": {
-        "eta": -0.19923716365737,
-        "beta_home": 0.3796487940929999,
-        "rho": 0.0263917941988026,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.19923716365737,
+          "beta_home": 0.3796487940929999,
+          "rho": 0.0263917941988026
+        },
         "teams": {
           "Avaí / SC": {
             "attack": 0.0028074775899502,
@@ -6649,9 +7360,12 @@
       "has_model": true,
       "reference_date": "2025-07-04",
       "params": {
-        "eta": -0.19923716365737,
-        "beta_home": 0.3796487940929999,
-        "rho": 0.0263917941988026,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.19923716365737,
+          "beta_home": 0.3796487940929999,
+          "rho": 0.0263917941988026
+        },
         "teams": {
           "Remo / PA": {
             "attack": 0.0027436881843113,
@@ -6677,9 +7391,12 @@
       "has_model": true,
       "reference_date": "2025-06-30",
       "params": {
-        "eta": -0.202124192629911,
-        "beta_home": 0.3808372884949999,
-        "rho": 0.0225436838763458,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.202124192629911,
+          "beta_home": 0.3808372884949999,
+          "rho": 0.0225436838763458
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.0627882323877764,
@@ -6705,9 +7422,12 @@
       "has_model": true,
       "reference_date": "2025-06-30",
       "params": {
-        "eta": -0.202124192629911,
-        "beta_home": 0.3808372884949999,
-        "rho": 0.0225436838763458,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.202124192629911,
+          "beta_home": 0.3808372884949999,
+          "rho": 0.0225436838763458
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.132399041821429,
@@ -6733,9 +7453,12 @@
       "has_model": true,
       "reference_date": "2025-06-27",
       "params": {
-        "eta": -0.2067037262582,
-        "beta_home": 0.387102932065,
-        "rho": 0.0176875879585717,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2067037262582,
+          "beta_home": 0.387102932065,
+          "rho": 0.0176875879585717
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.0949670800463078,
@@ -6761,9 +7484,12 @@
       "has_model": true,
       "reference_date": "2025-06-27",
       "params": {
-        "eta": -0.2067037262582,
-        "beta_home": 0.387102932065,
-        "rho": 0.0176875879585717,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2067037262582,
+          "beta_home": 0.387102932065,
+          "rho": 0.0176875879585717
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.298445954826563,
@@ -6789,9 +7515,12 @@
       "has_model": true,
       "reference_date": "2025-06-27",
       "params": {
-        "eta": -0.2067037262582,
-        "beta_home": 0.387102932065,
-        "rho": 0.0176875879585717,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2067037262582,
+          "beta_home": 0.387102932065,
+          "rho": 0.0176875879585717
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": 0.0476860737526855,
@@ -6817,9 +7546,12 @@
       "has_model": true,
       "reference_date": "2025-06-27",
       "params": {
-        "eta": -0.2067037262582,
-        "beta_home": 0.387102932065,
-        "rho": 0.0176875879585717,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2067037262582,
+          "beta_home": 0.387102932065,
+          "rho": 0.0176875879585717
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": -0.0636558532476442,
@@ -6845,9 +7577,12 @@
       "has_model": true,
       "reference_date": "2025-06-27",
       "params": {
-        "eta": -0.2067037262582,
-        "beta_home": 0.387102932065,
-        "rho": 0.0176875879585717,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2067037262582,
+          "beta_home": 0.387102932065,
+          "rho": 0.0176875879585717
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.1698797239839669,
@@ -6873,9 +7608,12 @@
       "has_model": true,
       "reference_date": "2025-06-27",
       "params": {
-        "eta": -0.2067037262582,
-        "beta_home": 0.387102932065,
-        "rho": 0.0176875879585717,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2067037262582,
+          "beta_home": 0.387102932065,
+          "rho": 0.0176875879585717
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.754085806258545,
@@ -6901,9 +7639,12 @@
       "has_model": true,
       "reference_date": "2025-06-27",
       "params": {
-        "eta": -0.2067037262582,
-        "beta_home": 0.387102932065,
-        "rho": 0.0176875879585717,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2067037262582,
+          "beta_home": 0.387102932065,
+          "rho": 0.0176875879585717
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.1292326035896653,
@@ -6929,9 +7670,12 @@
       "has_model": true,
       "reference_date": "2025-06-27",
       "params": {
-        "eta": -0.2067037262582,
-        "beta_home": 0.387102932065,
-        "rho": 0.0176875879585717,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2067037262582,
+          "beta_home": 0.387102932065,
+          "rho": 0.0176875879585717
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.176469359302781,
@@ -6957,9 +7701,12 @@
       "has_model": true,
       "reference_date": "2025-06-23",
       "params": {
-        "eta": -0.21111088505293,
-        "beta_home": 0.39090787795,
-        "rho": 0.0164782359947491,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21111088505293,
+          "beta_home": 0.39090787795,
+          "rho": 0.0164782359947491
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0144192437340153,
@@ -6985,9 +7732,12 @@
       "has_model": true,
       "reference_date": "2025-06-23",
       "params": {
-        "eta": -0.21111088505293,
-        "beta_home": 0.39090787795,
-        "rho": 0.0164782359947491,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21111088505293,
+          "beta_home": 0.39090787795,
+          "rho": 0.0164782359947491
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.1110873622412279,
@@ -7013,9 +7763,12 @@
       "has_model": true,
       "reference_date": "2025-06-20",
       "params": {
-        "eta": -0.21115491939489,
-        "beta_home": 0.389867974588,
-        "rho": 0.0089720974718844,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21115491939489,
+          "beta_home": 0.389867974588,
+          "rho": 0.0089720974718844
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.1770632492106937,
@@ -7041,9 +7794,12 @@
       "has_model": true,
       "reference_date": "2025-06-20",
       "params": {
-        "eta": -0.21115491939489,
-        "beta_home": 0.389867974588,
-        "rho": 0.0089720974718844,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21115491939489,
+          "beta_home": 0.389867974588,
+          "rho": 0.0089720974718844
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.0743850026163215,
@@ -7069,9 +7825,12 @@
       "has_model": true,
       "reference_date": "2025-06-20",
       "params": {
-        "eta": -0.21115491939489,
-        "beta_home": 0.389867974588,
-        "rho": 0.0089720974718844,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21115491939489,
+          "beta_home": 0.389867974588,
+          "rho": 0.0089720974718844
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.357665792670819,
@@ -7097,9 +7856,12 @@
       "has_model": true,
       "reference_date": "2025-06-20",
       "params": {
-        "eta": -0.21115491939489,
-        "beta_home": 0.389867974588,
-        "rho": 0.0089720974718844,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21115491939489,
+          "beta_home": 0.389867974588,
+          "rho": 0.0089720974718844
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.1301327614821003,
@@ -7125,9 +7887,12 @@
       "has_model": true,
       "reference_date": "2025-06-20",
       "params": {
-        "eta": -0.21115491939489,
-        "beta_home": 0.389867974588,
-        "rho": 0.0089720974718844,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21115491939489,
+          "beta_home": 0.389867974588,
+          "rho": 0.0089720974718844
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.0923770525207854,
@@ -7153,9 +7918,12 @@
       "has_model": true,
       "reference_date": "2025-06-20",
       "params": {
-        "eta": -0.21115491939489,
-        "beta_home": 0.389867974588,
-        "rho": 0.0089720974718844,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21115491939489,
+          "beta_home": 0.389867974588,
+          "rho": 0.0089720974718844
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.0310085687142656,
@@ -7181,9 +7949,12 @@
       "has_model": true,
       "reference_date": "2025-06-20",
       "params": {
-        "eta": -0.21115491939489,
-        "beta_home": 0.389867974588,
-        "rho": 0.0089720974718844,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21115491939489,
+          "beta_home": 0.389867974588,
+          "rho": 0.0089720974718844
+        },
         "teams": {
           "Remo / PA": {
             "attack": 0.0554018015014185,
@@ -7209,9 +7980,12 @@
       "has_model": true,
       "reference_date": "2025-06-20",
       "params": {
-        "eta": -0.21115491939489,
-        "beta_home": 0.389867974588,
-        "rho": 0.0089720974718844,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21115491939489,
+          "beta_home": 0.389867974588,
+          "rho": 0.0089720974718844
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0081566390270445,
@@ -7237,9 +8011,12 @@
       "has_model": true,
       "reference_date": "2025-06-16",
       "params": {
-        "eta": -0.21370559801216,
-        "beta_home": 0.38744346965,
-        "rho": 0.0124492100737777,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21370559801216,
+          "beta_home": 0.38744346965,
+          "rho": 0.0124492100737777
+        },
         "teams": {
           "América / MG": {
             "attack": 0.096662912125195,
@@ -7265,9 +8042,12 @@
       "has_model": true,
       "reference_date": "2025-06-16",
       "params": {
-        "eta": -0.21370559801216,
-        "beta_home": 0.38744346965,
-        "rho": 0.0124492100737777,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21370559801216,
+          "beta_home": 0.38744346965,
+          "rho": 0.0124492100737777
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.2489984420529013,
@@ -7293,9 +8073,12 @@
       "has_model": true,
       "reference_date": "2025-06-16",
       "params": {
-        "eta": -0.21370559801216,
-        "beta_home": 0.38744346965,
-        "rho": 0.0124492100737777,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21370559801216,
+          "beta_home": 0.38744346965,
+          "rho": 0.0124492100737777
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.7639636871228129,
@@ -7321,9 +8104,12 @@
       "has_model": true,
       "reference_date": "2025-06-13",
       "params": {
-        "eta": -0.21554642507598,
-        "beta_home": 0.382007059146,
-        "rho": 0.0107051471852122,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21554642507598,
+          "beta_home": 0.382007059146,
+          "rho": 0.0107051471852122
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": -0.0502716551978242,
@@ -7349,9 +8135,12 @@
       "has_model": true,
       "reference_date": "2025-06-13",
       "params": {
-        "eta": -0.21554642507598,
-        "beta_home": 0.382007059146,
-        "rho": 0.0107051471852122,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21554642507598,
+          "beta_home": 0.382007059146,
+          "rho": 0.0107051471852122
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": -0.0375343900276757,
@@ -7377,9 +8166,12 @@
       "has_model": true,
       "reference_date": "2025-06-13",
       "params": {
-        "eta": -0.21554642507598,
-        "beta_home": 0.382007059146,
-        "rho": 0.0107051471852122,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21554642507598,
+          "beta_home": 0.382007059146,
+          "rho": 0.0107051471852122
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": 0.0317405622874724,
@@ -7405,9 +8197,12 @@
       "has_model": true,
       "reference_date": "2025-06-13",
       "params": {
-        "eta": -0.21554642507598,
-        "beta_home": 0.382007059146,
-        "rho": 0.0107051471852122,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21554642507598,
+          "beta_home": 0.382007059146,
+          "rho": 0.0107051471852122
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.0650145717751561,
@@ -7433,9 +8228,12 @@
       "has_model": true,
       "reference_date": "2025-06-13",
       "params": {
-        "eta": -0.21554642507598,
-        "beta_home": 0.382007059146,
-        "rho": 0.0107051471852122,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21554642507598,
+          "beta_home": 0.382007059146,
+          "rho": 0.0107051471852122
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.41177140302737,
@@ -7461,9 +8259,12 @@
       "has_model": true,
       "reference_date": "2025-06-13",
       "params": {
-        "eta": -0.21554642507598,
-        "beta_home": 0.382007059146,
-        "rho": 0.0107051471852122,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21554642507598,
+          "beta_home": 0.382007059146,
+          "rho": 0.0107051471852122
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.0624886154341138,
@@ -7489,9 +8290,12 @@
       "has_model": true,
       "reference_date": "2025-06-13",
       "params": {
-        "eta": -0.21554642507598,
-        "beta_home": 0.382007059146,
-        "rho": 0.0107051471852122,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21554642507598,
+          "beta_home": 0.382007059146,
+          "rho": 0.0107051471852122
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.1098171522204786,
@@ -7517,9 +8321,12 @@
       "has_model": true,
       "reference_date": "2025-06-09",
       "params": {
-        "eta": -0.2201885441776,
-        "beta_home": 0.392250947855,
-        "rho": 0.0141503814221171,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2201885441776,
+          "beta_home": 0.392250947855,
+          "rho": 0.0141503814221171
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.2938765565635998,
@@ -7545,9 +8352,12 @@
       "has_model": true,
       "reference_date": "2025-06-09",
       "params": {
-        "eta": -0.2201885441776,
-        "beta_home": 0.392250947855,
-        "rho": 0.0141503814221171,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2201885441776,
+          "beta_home": 0.392250947855,
+          "rho": 0.0141503814221171
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.1010133671103674,
@@ -7573,9 +8383,12 @@
       "has_model": true,
       "reference_date": "2025-06-06",
       "params": {
-        "eta": -0.2201044552726999,
-        "beta_home": 0.394015067765,
-        "rho": 0.0030767375525473,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2201044552726999,
+          "beta_home": 0.394015067765,
+          "rho": 0.0030767375525473
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.4138891212413264,
@@ -7601,9 +8414,12 @@
       "has_model": true,
       "reference_date": "2025-06-06",
       "params": {
-        "eta": -0.2201044552726999,
-        "beta_home": 0.394015067765,
-        "rho": 0.0030767375525473,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2201044552726999,
+          "beta_home": 0.394015067765,
+          "rho": 0.0030767375525473
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": -0.0162830699199791,
@@ -7629,9 +8445,12 @@
       "has_model": true,
       "reference_date": "2025-06-06",
       "params": {
-        "eta": -0.2201044552726999,
-        "beta_home": 0.394015067765,
-        "rho": 0.0030767375525473,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2201044552726999,
+          "beta_home": 0.394015067765,
+          "rho": 0.0030767375525473
+        },
         "teams": {
           "Remo / PA": {
             "attack": 0.0099375543861568,
@@ -7657,9 +8476,12 @@
       "has_model": true,
       "reference_date": "2025-06-06",
       "params": {
-        "eta": -0.2201044552726999,
-        "beta_home": 0.394015067765,
-        "rho": 0.0030767375525473,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2201044552726999,
+          "beta_home": 0.394015067765,
+          "rho": 0.0030767375525473
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.111365059190092,
@@ -7685,9 +8507,12 @@
       "has_model": true,
       "reference_date": "2025-06-06",
       "params": {
-        "eta": -0.2201044552726999,
-        "beta_home": 0.394015067765,
-        "rho": 0.0030767375525473,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2201044552726999,
+          "beta_home": 0.394015067765,
+          "rho": 0.0030767375525473
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.1904891341957453,
@@ -7713,9 +8538,12 @@
       "has_model": true,
       "reference_date": "2025-06-06",
       "params": {
-        "eta": -0.2201044552726999,
-        "beta_home": 0.394015067765,
-        "rho": 0.0030767375525473,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2201044552726999,
+          "beta_home": 0.394015067765,
+          "rho": 0.0030767375525473
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0237791759955811,
@@ -7741,9 +8569,12 @@
       "has_model": true,
       "reference_date": "2025-06-06",
       "params": {
-        "eta": -0.2201044552726999,
-        "beta_home": 0.394015067765,
-        "rho": 0.0030767375525473,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2201044552726999,
+          "beta_home": 0.394015067765,
+          "rho": 0.0030767375525473
+        },
         "teams": {
           "América / MG": {
             "attack": 0.0367646873659145,
@@ -7769,9 +8600,12 @@
       "has_model": true,
       "reference_date": "2025-06-02",
       "params": {
-        "eta": -0.21906467738267,
-        "beta_home": 0.389612404327,
-        "rho": 0.0054683437196382,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21906467738267,
+          "beta_home": 0.389612404327,
+          "rho": 0.0054683437196382
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.0181716390444721,
@@ -7797,9 +8631,12 @@
       "has_model": true,
       "reference_date": "2025-06-02",
       "params": {
-        "eta": -0.21906467738267,
-        "beta_home": 0.389612404327,
-        "rho": 0.0054683437196382,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21906467738267,
+          "beta_home": 0.389612404327,
+          "rho": 0.0054683437196382
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": 0.030910895594364,
@@ -7825,9 +8662,12 @@
       "has_model": true,
       "reference_date": "2025-06-02",
       "params": {
-        "eta": -0.21906467738267,
-        "beta_home": 0.389612404327,
-        "rho": 0.0054683437196382,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21906467738267,
+          "beta_home": 0.389612404327,
+          "rho": 0.0054683437196382
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.1751435782819231,
@@ -7853,9 +8693,12 @@
       "has_model": true,
       "reference_date": "2025-05-30",
       "params": {
-        "eta": -0.2223744157451999,
-        "beta_home": 0.399166786645,
-        "rho": -0.0023744608984611,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2223744157451999,
+          "beta_home": 0.399166786645,
+          "rho": -0.0023744608984611
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.1966977463958717,
@@ -7881,9 +8724,12 @@
       "has_model": true,
       "reference_date": "2025-05-30",
       "params": {
-        "eta": -0.2223744157451999,
-        "beta_home": 0.399166786645,
-        "rho": -0.0023744608984611,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2223744157451999,
+          "beta_home": 0.399166786645,
+          "rho": -0.0023744608984611
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": -0.146149720608623,
@@ -7909,9 +8755,12 @@
       "has_model": true,
       "reference_date": "2025-05-30",
       "params": {
-        "eta": -0.2223744157451999,
-        "beta_home": 0.399166786645,
-        "rho": -0.0023744608984611,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2223744157451999,
+          "beta_home": 0.399166786645,
+          "rho": -0.0023744608984611
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.75472273008307,
@@ -7937,9 +8786,12 @@
       "has_model": true,
       "reference_date": "2025-05-30",
       "params": {
-        "eta": -0.2223744157451999,
-        "beta_home": 0.399166786645,
-        "rho": -0.0023744608984611,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2223744157451999,
+          "beta_home": 0.399166786645,
+          "rho": -0.0023744608984611
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.1234996919458174,
@@ -7965,9 +8817,12 @@
       "has_model": true,
       "reference_date": "2025-05-30",
       "params": {
-        "eta": -0.2223744157451999,
-        "beta_home": 0.399166786645,
-        "rho": -0.0023744608984611,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2223744157451999,
+          "beta_home": 0.399166786645,
+          "rho": -0.0023744608984611
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.1079968404643271,
@@ -7993,9 +8848,12 @@
       "has_model": true,
       "reference_date": "2025-05-30",
       "params": {
-        "eta": -0.2223744157451999,
-        "beta_home": 0.399166786645,
-        "rho": -0.0023744608984611,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2223744157451999,
+          "beta_home": 0.399166786645,
+          "rho": -0.0023744608984611
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.2399854966305727,
@@ -8021,9 +8879,12 @@
       "has_model": true,
       "reference_date": "2025-05-30",
       "params": {
-        "eta": -0.2223744157451999,
-        "beta_home": 0.399166786645,
-        "rho": -0.0023744608984611,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2223744157451999,
+          "beta_home": 0.399166786645,
+          "rho": -0.0023744608984611
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.0806234692609446,
@@ -8049,9 +8910,12 @@
       "has_model": true,
       "reference_date": "2025-05-30",
       "params": {
-        "eta": -0.2223744157451999,
-        "beta_home": 0.399166786645,
-        "rho": -0.0023744608984611,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2223744157451999,
+          "beta_home": 0.399166786645,
+          "rho": -0.0023744608984611
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.0284748489254596,
@@ -8077,9 +8941,12 @@
       "has_model": true,
       "reference_date": "2025-05-26",
       "params": {
-        "eta": -0.2196558698119,
-        "beta_home": 0.398823391695,
-        "rho": -0.0063325686949808,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2196558698119,
+          "beta_home": 0.398823391695,
+          "rho": -0.0063325686949808
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.0346744021594583,
@@ -8105,9 +8972,12 @@
       "has_model": true,
       "reference_date": "2025-05-26",
       "params": {
-        "eta": -0.2196558698119,
-        "beta_home": 0.398823391695,
-        "rho": -0.0063325686949808,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2196558698119,
+          "beta_home": 0.398823391695,
+          "rho": -0.0063325686949808
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.0941222523549264,
@@ -8133,9 +9003,12 @@
       "has_model": true,
       "reference_date": "2025-05-26",
       "params": {
-        "eta": -0.2196558698119,
-        "beta_home": 0.398823391695,
-        "rho": -0.0063325686949808,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2196558698119,
+          "beta_home": 0.398823391695,
+          "rho": -0.0063325686949808
+        },
         "teams": {
           "América / MG": {
             "attack": 0.0455964738547514,
@@ -8161,9 +9034,12 @@
       "has_model": true,
       "reference_date": "2025-05-23",
       "params": {
-        "eta": -0.2244695311802999,
-        "beta_home": 0.406685717089,
-        "rho": -0.0054487624337923,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2244695311802999,
+          "beta_home": 0.406685717089,
+          "rho": -0.0054487624337923
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.0157448912411342,
@@ -8189,9 +9065,12 @@
       "has_model": true,
       "reference_date": "2025-05-23",
       "params": {
-        "eta": -0.2244695311802999,
-        "beta_home": 0.406685717089,
-        "rho": -0.0054487624337923,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2244695311802999,
+          "beta_home": 0.406685717089,
+          "rho": -0.0054487624337923
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.2349076650991575,
@@ -8217,9 +9096,12 @@
       "has_model": true,
       "reference_date": "2025-05-23",
       "params": {
-        "eta": -0.2244695311802999,
-        "beta_home": 0.406685717089,
-        "rho": -0.0054487624337923,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2244695311802999,
+          "beta_home": 0.406685717089,
+          "rho": -0.0054487624337923
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0308942808532138,
@@ -8245,9 +9127,12 @@
       "has_model": true,
       "reference_date": "2025-05-23",
       "params": {
-        "eta": -0.2244695311802999,
-        "beta_home": 0.406685717089,
-        "rho": -0.0054487624337923,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2244695311802999,
+          "beta_home": 0.406685717089,
+          "rho": -0.0054487624337923
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.4441483284834499,
@@ -8273,9 +9158,12 @@
       "has_model": true,
       "reference_date": "2025-05-23",
       "params": {
-        "eta": -0.2244695311802999,
-        "beta_home": 0.406685717089,
-        "rho": -0.0054487624337923,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2244695311802999,
+          "beta_home": 0.406685717089,
+          "rho": -0.0054487624337923
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.0294573223722661,
@@ -8301,9 +9189,12 @@
       "has_model": true,
       "reference_date": "2025-05-23",
       "params": {
-        "eta": -0.2244695311802999,
-        "beta_home": 0.406685717089,
-        "rho": -0.0054487624337923,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2244695311802999,
+          "beta_home": 0.406685717089,
+          "rho": -0.0054487624337923
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0665101603412625,
@@ -8329,9 +9220,12 @@
       "has_model": true,
       "reference_date": "2025-05-23",
       "params": {
-        "eta": -0.2244695311802999,
-        "beta_home": 0.406685717089,
-        "rho": -0.0054487624337923,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2244695311802999,
+          "beta_home": 0.406685717089,
+          "rho": -0.0054487624337923
+        },
         "teams": {
           "Remo / PA": {
             "attack": 0.098709814566221,
@@ -8357,9 +9251,12 @@
       "has_model": true,
       "reference_date": "2025-05-23",
       "params": {
-        "eta": -0.2244695311802999,
-        "beta_home": 0.406685717089,
-        "rho": -0.0054487624337923,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2244695311802999,
+          "beta_home": 0.406685717089,
+          "rho": -0.0054487624337923
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.108261996610639,
@@ -8385,9 +9282,12 @@
       "has_model": true,
       "reference_date": "2025-05-19",
       "params": {
-        "eta": -0.2283742507496,
-        "beta_home": 0.4060477947549999,
-        "rho": -0.0049130351316017,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2283742507496,
+          "beta_home": 0.4060477947549999,
+          "rho": -0.0049130351316017
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.1411343702249314,
@@ -8413,9 +9313,12 @@
       "has_model": true,
       "reference_date": "2025-05-16",
       "params": {
-        "eta": -0.21364863804011,
-        "beta_home": 0.389638055056,
-        "rho": 0.0073936705031589,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21364863804011,
+          "beta_home": 0.389638055056,
+          "rho": 0.0073936705031589
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.030560411128325,
@@ -8441,9 +9344,12 @@
       "has_model": true,
       "reference_date": "2025-05-16",
       "params": {
-        "eta": -0.21364863804011,
-        "beta_home": 0.389638055056,
-        "rho": 0.0073936705031589,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21364863804011,
+          "beta_home": 0.389638055056,
+          "rho": 0.0073936705031589
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -1.0485002501811749,
@@ -8469,9 +9375,12 @@
       "has_model": true,
       "reference_date": "2025-05-16",
       "params": {
-        "eta": -0.21364863804011,
-        "beta_home": 0.389638055056,
-        "rho": 0.0073936705031589,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21364863804011,
+          "beta_home": 0.389638055056,
+          "rho": 0.0073936705031589
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.194405708347306,
@@ -8497,9 +9406,12 @@
       "has_model": true,
       "reference_date": "2025-05-16",
       "params": {
-        "eta": -0.21364863804011,
-        "beta_home": 0.389638055056,
-        "rho": 0.0073936705031589,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21364863804011,
+          "beta_home": 0.389638055056,
+          "rho": 0.0073936705031589
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.1221756941513408,
@@ -8525,9 +9437,12 @@
       "has_model": true,
       "reference_date": "2025-05-16",
       "params": {
-        "eta": -0.21364863804011,
-        "beta_home": 0.389638055056,
-        "rho": 0.0073936705031589,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21364863804011,
+          "beta_home": 0.389638055056,
+          "rho": 0.0073936705031589
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.093421564002541,
@@ -8553,9 +9468,12 @@
       "has_model": true,
       "reference_date": "2025-05-16",
       "params": {
-        "eta": -0.21364863804011,
-        "beta_home": 0.389638055056,
-        "rho": 0.0073936705031589,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21364863804011,
+          "beta_home": 0.389638055056,
+          "rho": 0.0073936705031589
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.0083672315148812,
@@ -8581,9 +9499,12 @@
       "has_model": true,
       "reference_date": "2025-05-16",
       "params": {
-        "eta": -0.21364863804011,
-        "beta_home": 0.389638055056,
-        "rho": 0.0073936705031589,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21364863804011,
+          "beta_home": 0.389638055056,
+          "rho": 0.0073936705031589
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.088884162884711,
@@ -8609,9 +9530,12 @@
       "has_model": true,
       "reference_date": "2025-05-16",
       "params": {
-        "eta": -0.21364863804011,
-        "beta_home": 0.389638055056,
-        "rho": 0.0073936705031589,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21364863804011,
+          "beta_home": 0.389638055056,
+          "rho": 0.0073936705031589
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.1706282538619585,
@@ -8637,9 +9561,12 @@
       "has_model": true,
       "reference_date": "2025-05-12",
       "params": {
-        "eta": -0.21903618745444,
-        "beta_home": 0.3967432064299999,
-        "rho": 0.0181508387716296,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21903618745444,
+          "beta_home": 0.3967432064299999,
+          "rho": 0.0181508387716296
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": -0.2474293946826251,
@@ -8665,9 +9592,12 @@
       "has_model": true,
       "reference_date": "2025-05-12",
       "params": {
-        "eta": -0.21903618745444,
-        "beta_home": 0.3967432064299999,
-        "rho": 0.0181508387716296,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21903618745444,
+          "beta_home": 0.3967432064299999,
+          "rho": 0.0181508387716296
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": 0.0114494959752328,
@@ -8693,9 +9623,12 @@
       "has_model": true,
       "reference_date": "2025-05-12",
       "params": {
-        "eta": -0.21903618745444,
-        "beta_home": 0.3967432064299999,
-        "rho": 0.0181508387716296,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21903618745444,
+          "beta_home": 0.3967432064299999,
+          "rho": 0.0181508387716296
+        },
         "teams": {
           "América / MG": {
             "attack": 0.0700338376481182,
@@ -8721,9 +9654,12 @@
       "has_model": true,
       "reference_date": "2025-05-12",
       "params": {
-        "eta": -0.21903618745444,
-        "beta_home": 0.3967432064299999,
-        "rho": 0.0181508387716296,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.21903618745444,
+          "beta_home": 0.3967432064299999,
+          "rho": 0.0181508387716296
+        },
         "teams": {
           "Remo / PA": {
             "attack": 0.09234022750107,
@@ -8749,9 +9685,12 @@
       "has_model": true,
       "reference_date": "2025-05-09",
       "params": {
-        "eta": -0.2296595903939,
-        "beta_home": 0.398415717569,
-        "rho": 0.0204688917970104,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2296595903939,
+          "beta_home": 0.398415717569,
+          "rho": 0.0204688917970104
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.485597847744118,
@@ -8777,9 +9716,12 @@
       "has_model": true,
       "reference_date": "2025-05-09",
       "params": {
-        "eta": -0.2296595903939,
-        "beta_home": 0.398415717569,
-        "rho": 0.0204688917970104,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2296595903939,
+          "beta_home": 0.398415717569,
+          "rho": 0.0204688917970104
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.1221744217200458,
@@ -8805,9 +9747,12 @@
       "has_model": true,
       "reference_date": "2025-05-09",
       "params": {
-        "eta": -0.2296595903939,
-        "beta_home": 0.398415717569,
-        "rho": 0.0204688917970104,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2296595903939,
+          "beta_home": 0.398415717569,
+          "rho": 0.0204688917970104
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.0527609931713976,
@@ -8833,9 +9778,12 @@
       "has_model": true,
       "reference_date": "2025-05-09",
       "params": {
-        "eta": -0.2296595903939,
-        "beta_home": 0.398415717569,
-        "rho": 0.0204688917970104,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2296595903939,
+          "beta_home": 0.398415717569,
+          "rho": 0.0204688917970104
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.093504111091095,
@@ -8861,9 +9809,12 @@
       "has_model": true,
       "reference_date": "2025-05-09",
       "params": {
-        "eta": -0.2296595903939,
-        "beta_home": 0.398415717569,
-        "rho": 0.0204688917970104,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2296595903939,
+          "beta_home": 0.398415717569,
+          "rho": 0.0204688917970104
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.1157751662173568,
@@ -8889,9 +9840,12 @@
       "has_model": true,
       "reference_date": "2025-05-09",
       "params": {
-        "eta": -0.2296595903939,
-        "beta_home": 0.398415717569,
-        "rho": 0.0204688917970104,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2296595903939,
+          "beta_home": 0.398415717569,
+          "rho": 0.0204688917970104
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.2184942764828228,
@@ -8917,9 +9871,12 @@
       "has_model": true,
       "reference_date": "2025-05-09",
       "params": {
-        "eta": -0.2296595903939,
-        "beta_home": 0.398415717569,
-        "rho": 0.0204688917970104,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2296595903939,
+          "beta_home": 0.398415717569,
+          "rho": 0.0204688917970104
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0010729427555382,
@@ -8945,9 +9902,12 @@
       "has_model": true,
       "reference_date": "2025-05-05",
       "params": {
-        "eta": -0.223210255595,
-        "beta_home": 0.399838173433,
-        "rho": 0.0173380157501572,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.223210255595,
+          "beta_home": 0.399838173433,
+          "rho": 0.0173380157501572
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.1534944993515299,
@@ -8973,9 +9933,12 @@
       "has_model": true,
       "reference_date": "2025-05-05",
       "params": {
-        "eta": -0.223210255595,
-        "beta_home": 0.399838173433,
-        "rho": 0.0173380157501572,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.223210255595,
+          "beta_home": 0.399838173433,
+          "rho": 0.0173380157501572
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.1189673459428669,
@@ -9001,9 +9964,12 @@
       "has_model": true,
       "reference_date": "2025-05-05",
       "params": {
-        "eta": -0.223210255595,
-        "beta_home": 0.399838173433,
-        "rho": 0.0173380157501572,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.223210255595,
+          "beta_home": 0.399838173433,
+          "rho": 0.0173380157501572
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.1323104874110465,
@@ -9029,9 +9995,12 @@
       "has_model": true,
       "reference_date": "2025-05-02",
       "params": {
-        "eta": -0.22163069797145,
-        "beta_home": 0.392094537087,
-        "rho": -0.0021914285515897,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22163069797145,
+          "beta_home": 0.392094537087,
+          "rho": -0.0021914285515897
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.1765224837709157,
@@ -9057,9 +10026,12 @@
       "has_model": true,
       "reference_date": "2025-05-02",
       "params": {
-        "eta": -0.22163069797145,
-        "beta_home": 0.392094537087,
-        "rho": -0.0021914285515897,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22163069797145,
+          "beta_home": 0.392094537087,
+          "rho": -0.0021914285515897
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.2791812954556744,
@@ -9085,9 +10057,12 @@
       "has_model": true,
       "reference_date": "2025-05-02",
       "params": {
-        "eta": -0.22163069797145,
-        "beta_home": 0.392094537087,
-        "rho": -0.0021914285515897,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22163069797145,
+          "beta_home": 0.392094537087,
+          "rho": -0.0021914285515897
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.1967834539827983,
@@ -9113,9 +10088,12 @@
       "has_model": true,
       "reference_date": "2025-05-02",
       "params": {
-        "eta": -0.22163069797145,
-        "beta_home": 0.392094537087,
-        "rho": -0.0021914285515897,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22163069797145,
+          "beta_home": 0.392094537087,
+          "rho": -0.0021914285515897
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": -0.3142530234324251,
@@ -9141,9 +10119,12 @@
       "has_model": true,
       "reference_date": "2025-05-02",
       "params": {
-        "eta": -0.22163069797145,
-        "beta_home": 0.392094537087,
-        "rho": -0.0021914285515897,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22163069797145,
+          "beta_home": 0.392094537087,
+          "rho": -0.0021914285515897
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.058795187716243,
@@ -9169,9 +10150,12 @@
       "has_model": true,
       "reference_date": "2025-05-02",
       "params": {
-        "eta": -0.22163069797145,
-        "beta_home": 0.392094537087,
-        "rho": -0.0021914285515897,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22163069797145,
+          "beta_home": 0.392094537087,
+          "rho": -0.0021914285515897
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -1.07566870902092,
@@ -9197,9 +10181,12 @@
       "has_model": true,
       "reference_date": "2025-05-02",
       "params": {
-        "eta": -0.22163069797145,
-        "beta_home": 0.392094537087,
-        "rho": -0.0021914285515897,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22163069797145,
+          "beta_home": 0.392094537087,
+          "rho": -0.0021914285515897
+        },
         "teams": {
           "Remo / PA": {
             "attack": 0.1806293701644352,
@@ -9225,9 +10212,12 @@
       "has_model": true,
       "reference_date": "2025-04-28",
       "params": {
-        "eta": -0.2224038670665599,
-        "beta_home": 0.392885142881,
-        "rho": -0.0021189255228945,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.2224038670665599,
+          "beta_home": 0.392885142881,
+          "rho": -0.0021189255228945
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.473627755008225,
@@ -9253,9 +10243,12 @@
       "has_model": true,
       "reference_date": "2025-04-25",
       "params": {
-        "eta": -0.22400897240926,
-        "beta_home": 0.378530008953,
-        "rho": 0.0043810112111315,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22400897240926,
+          "beta_home": 0.378530008953,
+          "rho": 0.0043810112111315
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.252394081317005,
@@ -9281,9 +10274,12 @@
       "has_model": true,
       "reference_date": "2025-04-25",
       "params": {
-        "eta": -0.22400897240926,
-        "beta_home": 0.378530008953,
-        "rho": 0.0043810112111315,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22400897240926,
+          "beta_home": 0.378530008953,
+          "rho": 0.0043810112111315
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.0507971464718568,
@@ -9309,9 +10305,12 @@
       "has_model": true,
       "reference_date": "2025-04-25",
       "params": {
-        "eta": -0.22400897240926,
-        "beta_home": 0.378530008953,
-        "rho": 0.0043810112111315,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22400897240926,
+          "beta_home": 0.378530008953,
+          "rho": 0.0043810112111315
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.2059653653840742,
@@ -9337,9 +10336,12 @@
       "has_model": true,
       "reference_date": "2025-04-25",
       "params": {
-        "eta": -0.22400897240926,
-        "beta_home": 0.378530008953,
-        "rho": 0.0043810112111315,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22400897240926,
+          "beta_home": 0.378530008953,
+          "rho": 0.0043810112111315
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.4595936105759683,
@@ -9365,9 +10367,12 @@
       "has_model": true,
       "reference_date": "2025-04-25",
       "params": {
-        "eta": -0.22400897240926,
-        "beta_home": 0.378530008953,
-        "rho": 0.0043810112111315,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22400897240926,
+          "beta_home": 0.378530008953,
+          "rho": 0.0043810112111315
+        },
         "teams": {
           "Athletic / MG": {
             "attack": -0.3711254105813182,
@@ -9393,9 +10398,12 @@
       "has_model": true,
       "reference_date": "2025-04-25",
       "params": {
-        "eta": -0.22400897240926,
-        "beta_home": 0.378530008953,
-        "rho": 0.0043810112111315,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22400897240926,
+          "beta_home": 0.378530008953,
+          "rho": 0.0043810112111315
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.0942993919490362,
@@ -9421,9 +10429,12 @@
       "has_model": true,
       "reference_date": "2025-04-25",
       "params": {
-        "eta": -0.22400897240926,
-        "beta_home": 0.378530008953,
-        "rho": 0.0043810112111315,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.22400897240926,
+          "beta_home": 0.378530008953,
+          "rho": 0.0043810112111315
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.0348687086812058,
@@ -9449,9 +10460,12 @@
       "has_model": true,
       "reference_date": "2025-04-21",
       "params": {
-        "eta": -0.20718782956559,
-        "beta_home": 0.380914184505,
-        "rho": 0.0067889545201512,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.20718782956559,
+          "beta_home": 0.380914184505,
+          "rho": 0.0067889545201512
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.0061108397722015,
@@ -9477,9 +10491,12 @@
       "has_model": true,
       "reference_date": "2025-04-21",
       "params": {
-        "eta": -0.20718782956559,
-        "beta_home": 0.380914184505,
-        "rho": 0.0067889545201512,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.20718782956559,
+          "beta_home": 0.380914184505,
+          "rho": 0.0067889545201512
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0905866367637986,
@@ -9505,9 +10522,12 @@
       "has_model": true,
       "reference_date": "2025-04-21",
       "params": {
-        "eta": -0.20718782956559,
-        "beta_home": 0.380914184505,
-        "rho": 0.0067889545201512,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.20718782956559,
+          "beta_home": 0.380914184505,
+          "rho": 0.0067889545201512
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.0729870351841042,
@@ -9533,9 +10553,12 @@
       "has_model": true,
       "reference_date": "2025-04-21",
       "params": {
-        "eta": -0.20718782956559,
-        "beta_home": 0.380914184505,
-        "rho": 0.0067889545201512,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.20718782956559,
+          "beta_home": 0.380914184505,
+          "rho": 0.0067889545201512
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -1.084453183583011,
@@ -9561,9 +10584,12 @@
       "has_model": true,
       "reference_date": "2025-04-21",
       "params": {
-        "eta": -0.20718782956559,
-        "beta_home": 0.380914184505,
-        "rho": 0.0067889545201512,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.20718782956559,
+          "beta_home": 0.380914184505,
+          "rho": 0.0067889545201512
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.0823118642182967,
@@ -9589,9 +10615,12 @@
       "has_model": true,
       "reference_date": "2025-04-18",
       "params": {
-        "eta": -0.186089064770505,
-        "beta_home": 0.370350523547,
-        "rho": 0.008512049478914,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.186089064770505,
+          "beta_home": 0.370350523547,
+          "rho": 0.008512049478914
+        },
         "teams": {
           "Remo / PA": {
             "attack": 0.393222818395832,
@@ -9617,9 +10646,12 @@
       "has_model": true,
       "reference_date": "2025-04-18",
       "params": {
-        "eta": -0.186089064770505,
-        "beta_home": 0.370350523547,
-        "rho": 0.008512049478914,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.186089064770505,
+          "beta_home": 0.370350523547,
+          "rho": 0.008512049478914
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.0841616651824797,
@@ -9645,9 +10677,12 @@
       "has_model": true,
       "reference_date": "2025-04-18",
       "params": {
-        "eta": -0.186089064770505,
-        "beta_home": 0.370350523547,
-        "rho": 0.008512049478914,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.186089064770505,
+          "beta_home": 0.370350523547,
+          "rho": 0.008512049478914
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.4237400830136967,
@@ -9673,9 +10708,12 @@
       "has_model": true,
       "reference_date": "2025-04-18",
       "params": {
-        "eta": -0.186089064770505,
-        "beta_home": 0.370350523547,
-        "rho": 0.008512049478914,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.186089064770505,
+          "beta_home": 0.370350523547,
+          "rho": 0.008512049478914
+        },
         "teams": {
           "América / MG": {
             "attack": 0.1231081305420332,
@@ -9701,9 +10739,12 @@
       "has_model": true,
       "reference_date": "2025-04-18",
       "params": {
-        "eta": -0.186089064770505,
-        "beta_home": 0.370350523547,
-        "rho": 0.008512049478914,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.186089064770505,
+          "beta_home": 0.370350523547,
+          "rho": 0.008512049478914
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.1431756847119483,
@@ -9729,9 +10770,12 @@
       "has_model": true,
       "reference_date": "2025-04-18",
       "params": {
-        "eta": -0.186089064770505,
-        "beta_home": 0.370350523547,
-        "rho": 0.008512049478914,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.186089064770505,
+          "beta_home": 0.370350523547,
+          "rho": 0.008512049478914
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": -0.201876364540198,
@@ -9757,9 +10801,12 @@
       "has_model": true,
       "reference_date": "2025-04-18",
       "params": {
-        "eta": -0.186089064770505,
-        "beta_home": 0.370350523547,
-        "rho": 0.008512049478914,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.186089064770505,
+          "beta_home": 0.370350523547,
+          "rho": 0.008512049478914
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.0382906107146273,
@@ -9785,9 +10832,12 @@
       "has_model": true,
       "reference_date": "2025-04-18",
       "params": {
-        "eta": -0.186089064770505,
-        "beta_home": 0.370350523547,
-        "rho": 0.008512049478914,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.186089064770505,
+          "beta_home": 0.370350523547,
+          "rho": 0.008512049478914
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.1753230372736337,
@@ -9813,9 +10863,12 @@
       "has_model": true,
       "reference_date": "2025-04-14",
       "params": {
-        "eta": -0.18418390359452,
-        "beta_home": 0.3527963898253,
-        "rho": 0.0032503679626223,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18418390359452,
+          "beta_home": 0.3527963898253,
+          "rho": 0.0032503679626223
+        },
         "teams": {
           "América / MG": {
             "attack": 0.066721027772396,
@@ -9841,9 +10894,12 @@
       "has_model": true,
       "reference_date": "2025-04-14",
       "params": {
-        "eta": -0.18418390359452,
-        "beta_home": 0.3527963898253,
-        "rho": 0.0032503679626223,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18418390359452,
+          "beta_home": 0.3527963898253,
+          "rho": 0.0032503679626223
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.3854825690711487,
@@ -9869,9 +10925,12 @@
       "has_model": true,
       "reference_date": "2025-04-14",
       "params": {
-        "eta": -0.18418390359452,
-        "beta_home": 0.3527963898253,
-        "rho": 0.0032503679626223,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18418390359452,
+          "beta_home": 0.3527963898253,
+          "rho": 0.0032503679626223
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.1417974620406515,
@@ -9897,9 +10956,12 @@
       "has_model": true,
       "reference_date": "2025-04-14",
       "params": {
-        "eta": -0.18418390359452,
-        "beta_home": 0.3527963898253,
-        "rho": 0.0032503679626223,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18418390359452,
+          "beta_home": 0.3527963898253,
+          "rho": 0.0032503679626223
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0504790035004168,
@@ -9925,9 +10987,12 @@
       "has_model": true,
       "reference_date": "2025-04-14",
       "params": {
-        "eta": -0.18418390359452,
-        "beta_home": 0.3527963898253,
-        "rho": 0.0032503679626223,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18418390359452,
+          "beta_home": 0.3527963898253,
+          "rho": 0.0032503679626223
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.2875487952335016,
@@ -9953,9 +11018,12 @@
       "has_model": true,
       "reference_date": "2025-04-14",
       "params": {
-        "eta": -0.18418390359452,
-        "beta_home": 0.3527963898253,
-        "rho": 0.0032503679626223,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18418390359452,
+          "beta_home": 0.3527963898253,
+          "rho": 0.0032503679626223
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.2254172536460365,
@@ -9981,9 +11049,12 @@
       "has_model": true,
       "reference_date": "2025-04-14",
       "params": {
-        "eta": -0.18418390359452,
-        "beta_home": 0.3527963898253,
-        "rho": 0.0032503679626223,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18418390359452,
+          "beta_home": 0.3527963898253,
+          "rho": 0.0032503679626223
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": 0.0200416953124613,
@@ -10009,9 +11080,12 @@
       "has_model": true,
       "reference_date": "2025-04-14",
       "params": {
-        "eta": -0.18418390359452,
-        "beta_home": 0.3527963898253,
-        "rho": 0.0032503679626223,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18418390359452,
+          "beta_home": 0.3527963898253,
+          "rho": 0.0032503679626223
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.171290519516706,
@@ -10037,9 +11111,12 @@
       "has_model": true,
       "reference_date": "2025-04-14",
       "params": {
-        "eta": -0.18418390359452,
-        "beta_home": 0.3527963898253,
-        "rho": 0.0032503679626223,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18418390359452,
+          "beta_home": 0.3527963898253,
+          "rho": 0.0032503679626223
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.1267808521022635,
@@ -10065,9 +11142,12 @@
       "has_model": true,
       "reference_date": "2025-04-14",
       "params": {
-        "eta": -0.18418390359452,
-        "beta_home": 0.3527963898253,
-        "rho": 0.0032503679626223,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.18418390359452,
+          "beta_home": 0.3527963898253,
+          "rho": 0.0032503679626223
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.1285501097248833,
@@ -10093,9 +11173,12 @@
       "has_model": true,
       "reference_date": "2025-04-11",
       "params": {
-        "eta": -0.1508190907898339,
-        "beta_home": 0.3486393522979,
-        "rho": 0.007393903360333,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1508190907898339,
+          "beta_home": 0.3486393522979,
+          "rho": 0.007393903360333
+        },
         "teams": {
           "Botafogo / SP": {
             "attack": -0.2922751690078203,
@@ -10121,9 +11204,12 @@
       "has_model": true,
       "reference_date": "2025-04-11",
       "params": {
-        "eta": -0.1508190907898339,
-        "beta_home": 0.3486393522979,
-        "rho": 0.007393903360333,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1508190907898339,
+          "beta_home": 0.3486393522979,
+          "rho": 0.007393903360333
+        },
         "teams": {
           "Remo / PA": {
             "attack": -0.066317975392235,
@@ -10149,9 +11235,12 @@
       "has_model": true,
       "reference_date": "2025-04-11",
       "params": {
-        "eta": -0.1508190907898339,
-        "beta_home": 0.3486393522979,
-        "rho": 0.007393903360333,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1508190907898339,
+          "beta_home": 0.3486393522979,
+          "rho": 0.007393903360333
+        },
         "teams": {
           "Athletic / MG": {
             "attack": 0.3626596234984133,
@@ -10177,9 +11266,12 @@
       "has_model": true,
       "reference_date": "2025-04-11",
       "params": {
-        "eta": -0.1508190907898339,
-        "beta_home": 0.3486393522979,
-        "rho": 0.007393903360333,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1508190907898339,
+          "beta_home": 0.3486393522979,
+          "rho": 0.007393903360333
+        },
         "teams": {
           "Operário / PR": {
             "attack": -0.157775005285968,
@@ -10205,9 +11297,12 @@
       "has_model": true,
       "reference_date": "2025-04-11",
       "params": {
-        "eta": -0.1508190907898339,
-        "beta_home": 0.3486393522979,
-        "rho": 0.007393903360333,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1508190907898339,
+          "beta_home": 0.3486393522979,
+          "rho": 0.007393903360333
+        },
         "teams": {
           "Novorizontino / SP": {
             "attack": -0.041747267950601,
@@ -10233,9 +11328,12 @@
       "has_model": true,
       "reference_date": "2025-04-11",
       "params": {
-        "eta": -0.1508190907898339,
-        "beta_home": 0.3486393522979,
-        "rho": 0.007393903360333,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1508190907898339,
+          "beta_home": 0.3486393522979,
+          "rho": 0.007393903360333
+        },
         "teams": {
           "Amazonas / AM": {
             "attack": -0.4325321092847389,
@@ -10261,9 +11359,12 @@
       "has_model": true,
       "reference_date": "2025-04-11",
       "params": {
-        "eta": -0.1508190907898339,
-        "beta_home": 0.3486393522979,
-        "rho": 0.007393903360333,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1508190907898339,
+          "beta_home": 0.3486393522979,
+          "rho": 0.007393903360333
+        },
         "teams": {
           "Vila Nova / GO": {
             "attack": -0.0949128337177044,
@@ -10289,9 +11390,12 @@
       "has_model": true,
       "reference_date": "2025-04-11",
       "params": {
-        "eta": -0.1508190907898339,
-        "beta_home": 0.3486393522979,
-        "rho": 0.007393903360333,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1508190907898339,
+          "beta_home": 0.3486393522979,
+          "rho": 0.007393903360333
+        },
         "teams": {
           "Chapecoense / SC": {
             "attack": -0.2722351926255284,
@@ -10317,9 +11421,12 @@
       "has_model": true,
       "reference_date": "2025-04-07",
       "params": {
-        "eta": -0.1819303931668,
-        "beta_home": 0.3486626007309,
-        "rho": 0.008721332965271,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1819303931668,
+          "beta_home": 0.3486626007309,
+          "rho": 0.008721332965271
+        },
         "teams": {
           "Cuiabá / MT": {
             "attack": -0.1995048905980761,
@@ -10345,9 +11452,12 @@
       "has_model": true,
       "reference_date": "2025-04-07",
       "params": {
-        "eta": -0.1819303931668,
-        "beta_home": 0.3486626007309,
-        "rho": 0.008721332965271,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1819303931668,
+          "beta_home": 0.3486626007309,
+          "rho": 0.008721332965271
+        },
         "teams": {
           "Athletico Paranaense / PR": {
             "attack": 0.1417460313841214,
@@ -10373,9 +11483,12 @@
       "has_model": true,
       "reference_date": "2025-04-04",
       "params": {
-        "eta": -0.148539518031659,
-        "beta_home": 0.3411965533557,
-        "rho": 0.0089924949795084,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.148539518031659,
+          "beta_home": 0.3411965533557,
+          "rho": 0.0089924949795084
+        },
         "teams": {
           "Atlético Goianiense / GO": {
             "attack": -0.1446054871014382,
@@ -10401,9 +11514,12 @@
       "has_model": true,
       "reference_date": "2025-04-04",
       "params": {
-        "eta": -0.148539518031659,
-        "beta_home": 0.3411965533557,
-        "rho": 0.0089924949795084,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.148539518031659,
+          "beta_home": 0.3411965533557,
+          "rho": 0.0089924949795084
+        },
         "teams": {
           "Avaí / SC": {
             "attack": -0.2886120684312135,
@@ -10429,9 +11545,12 @@
       "has_model": true,
       "reference_date": "2025-04-04",
       "params": {
-        "eta": -0.148539518031659,
-        "beta_home": 0.3411965533557,
-        "rho": 0.0089924949795084,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.148539518031659,
+          "beta_home": 0.3411965533557,
+          "rho": 0.0089924949795084
+        },
         "teams": {
           "Ferroviária / SP": {
             "attack": -0.3088195997697505,
@@ -10457,9 +11576,12 @@
       "has_model": true,
       "reference_date": "2025-04-04",
       "params": {
-        "eta": -0.148539518031659,
-        "beta_home": 0.3411965533557,
-        "rho": 0.0089924949795084,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.148539518031659,
+          "beta_home": 0.3411965533557,
+          "rho": 0.0089924949795084
+        },
         "teams": {
           "Volta Redonda / RJ": {
             "attack": -0.3027942494140259,
@@ -10485,9 +11607,12 @@
       "has_model": true,
       "reference_date": "2025-04-04",
       "params": {
-        "eta": -0.148539518031659,
-        "beta_home": 0.3411965533557,
-        "rho": 0.0089924949795084,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.148539518031659,
+          "beta_home": 0.3411965533557,
+          "rho": 0.0089924949795084
+        },
         "teams": {
           "América / MG": {
             "attack": 0.1097963440177266,
@@ -10513,9 +11638,12 @@
       "has_model": true,
       "reference_date": "2025-04-04",
       "params": {
-        "eta": -0.148539518031659,
-        "beta_home": 0.3411965533557,
-        "rho": 0.0089924949795084,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.148539518031659,
+          "beta_home": 0.3411965533557,
+          "rho": 0.0089924949795084
+        },
         "teams": {
           "CRB / AL": {
             "attack": -0.1473207867566996,
@@ -10541,9 +11669,12 @@
       "has_model": true,
       "reference_date": "2025-04-04",
       "params": {
-        "eta": -0.148539518031659,
-        "beta_home": 0.3411965533557,
-        "rho": 0.0089924949795084,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.148539518031659,
+          "beta_home": 0.3411965533557,
+          "rho": 0.0089924949795084
+        },
         "teams": {
           "Coritiba / PR": {
             "attack": -0.0189872852743305,
@@ -10569,9 +11700,12 @@
       "has_model": true,
       "reference_date": "2025-03-31",
       "params": {
-        "eta": -0.15043159285341,
-        "beta_home": 0.343338022465,
-        "rho": 0.0097292144273101,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.15043159285341,
+          "beta_home": 0.343338022465,
+          "rho": 0.0097292144273101
+        },
         "teams": {
           "Criciúma / SC": {
             "attack": 0.0350916443982638,
@@ -10597,9 +11731,12 @@
       "has_model": true,
       "reference_date": "2025-03-31",
       "params": {
-        "eta": -0.15043159285341,
-        "beta_home": 0.343338022465,
-        "rho": 0.0097292144273101,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.15043159285341,
+          "beta_home": 0.343338022465,
+          "rho": 0.0097292144273101
+        },
         "teams": {
           "Paysandu / PA": {
             "attack": -0.0905885520506794,
@@ -10625,9 +11762,12 @@
       "has_model": true,
       "reference_date": "2025-03-31",
       "params": {
-        "eta": -0.15043159285341,
-        "beta_home": 0.343338022465,
-        "rho": 0.0097292144273101,
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.15043159285341,
+          "beta_home": 0.343338022465,
+          "rho": 0.0097292144273101
+        },
         "teams": {
           "Goiás / GO": {
             "attack": 0.1728836037392176,
