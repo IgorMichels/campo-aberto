@@ -1,7 +1,11 @@
-"""Fits poisson_home.stan on a matches CSV and reports posterior team strengths.
+"""Fits a candidate model's .stan file on a matches CSV and reports posterior
+team strengths.
 
-Generic over the matches CSV passed in -- pass any competition/country's
-data/processed/.../matches.csv (see src/models/data.py for the expected schema).
+Generic over both the matches CSV passed in -- pass any competition/country's
+data/processed/.../matches.csv (see src/models/data.py for the expected
+schema) -- and the model fit -- pass any src.models.registry.MODEL_REGISTRY
+key (see src/models/adapter.py for what a model declares about its own
+parameter names).
 """
 
 import argparse
@@ -12,60 +16,70 @@ from cmdstanpy import CmdStanMCMC, CmdStanModel
 
 from src.constants import DEFAULT_MATCHES_PATH, SAMPLES_DIR
 from src.models.data import load_stan_data
+from src.models.registry import DEFAULT_MODEL, MODEL_REGISTRY
 
-STAN_FILE = os.path.join(os.path.dirname(__file__), "poisson_home.stan")
 
-
-def fit_stan_data(stan_data: dict, **sample_kwargs) -> CmdStanMCMC:
-    """Compiles poisson_home.stan and samples it on an already-built stan_data dict."""
-    model = CmdStanModel(stan_file=STAN_FILE)
-    return model.sample(data=stan_data, **sample_kwargs)
+def fit_stan_data(stan_data: dict, model: str = DEFAULT_MODEL, **sample_kwargs) -> CmdStanMCMC:
+    """Compiles `model`'s .stan file and samples it on an already-built stan_data dict."""
+    stan_model = CmdStanModel(stan_file=MODEL_REGISTRY[model].stan_file)
+    return stan_model.sample(data=stan_data, **sample_kwargs)
 
 
 def fit(
-    matches_path: str, reference_date: pd.Timestamp | None = None, **sample_kwargs
+    matches_path: str,
+    reference_date: pd.Timestamp | None = None,
+    model: str = DEFAULT_MODEL,
+    **sample_kwargs,
 ) -> tuple[CmdStanMCMC, list[str]]:
-    """Compiles poisson_home.stan and samples it on the given matches CSV.
+    """Compiles `model`'s .stan file and samples it on the given matches CSV.
 
     Args:
         matches_path: path to a matches CSV (see load_stan_data).
         reference_date: forwarded to load_stan_data, i.e. the date each match's
             time-decay weight is measured from. Defaults to the matches CSV's
             latest match_datetime.
+        model: a src.models.registry.MODEL_REGISTRY key.
         **sample_kwargs: forwarded to CmdStanModel.sample (e.g. chains, seed).
 
     Returns:
         (mcmc_fit, teams), where teams[i - 1] names Stan index i.
     """
     stan_data, teams = load_stan_data(matches_path, reference_date=reference_date)
-    mcmc_fit = fit_stan_data(stan_data, **sample_kwargs)
+    mcmc_fit = fit_stan_data(stan_data, model=model, **sample_kwargs)
     return mcmc_fit, teams
 
 
-def summarize_teams(mcmc_fit: CmdStanMCMC, teams: list[str]) -> pd.DataFrame:
-    """Builds a table of posterior mean attack/defense strength per team."""
+def summarize_teams(
+    mcmc_fit: CmdStanMCMC, teams: list[str], model: str = DEFAULT_MODEL
+) -> pd.DataFrame:
+    """Builds a table of posterior mean team-strength params, one column per
+    `model`'s declared team_param_names, sorted by the first of those
+    descending (e.g. "attack" for poisson_home)."""
+    adapter = MODEL_REGISTRY[model]
     draws = mcmc_fit.draws_pd()
     rows = [
         {
             "team": team,
-            "attack": draws[f"attack[{i}]"].mean(),
-            "defense": draws[f"defense[{i}]"].mean(),
+            **{param: draws[f"{param}[{i}]"].mean() for param in adapter.team_param_names},
         }
         for i, team in enumerate(teams, start=1)
     ]
-    return pd.DataFrame(rows).sort_values("attack", ascending=False)
+    return pd.DataFrame(rows).sort_values(adapter.team_param_names[0], ascending=False)
 
 
-def samples_long(mcmc_fit: CmdStanMCMC, teams: list[str]) -> pd.DataFrame:
-    """Builds a long-format DataFrame of posterior attack/defense draws per team."""
+def samples_long(
+    mcmc_fit: CmdStanMCMC, teams: list[str], model: str = DEFAULT_MODEL
+) -> pd.DataFrame:
+    """Builds a long-format DataFrame of posterior team-strength draws, one
+    column per `model`'s declared team_param_names."""
+    adapter = MODEL_REGISTRY[model]
     draws = mcmc_fit.draws_pd()
     frames = [
         pd.DataFrame(
             {
                 "team": team,
                 "draw": range(len(draws)),
-                "attack": draws[f"attack[{i}]"],
-                "defense": draws[f"defense[{i}]"],
+                **{param: draws[f"{param}[{i}]"] for param in adapter.team_param_names},
             }
         )
         for i, team in enumerate(teams, start=1)
@@ -92,8 +106,9 @@ def save_samples(
     teams: list[str],
     matches_path: str,
     samples_dir: str = SAMPLES_DIR,
+    model: str = DEFAULT_MODEL,
 ) -> str:
-    """Saves posterior attack/defense draws for all teams to a dated CSV.
+    """Saves posterior team-strength draws for all teams to a dated CSV.
 
     The competition/country is inferred from matches_path's parent directory
     (mirroring data/processed/<country>/matches.csv), and the file is named
@@ -106,7 +121,7 @@ def save_samples(
     out_dir = os.path.join(samples_dir, country)
     os.makedirs(out_dir, exist_ok=True)
     out_path = os.path.join(out_dir, f"{latest_match_date(matches_path)}.csv")
-    samples_long(mcmc_fit, teams).to_csv(out_path, index=False)
+    samples_long(mcmc_fit, teams, model=model).to_csv(out_path, index=False)
     return out_path
 
 
@@ -114,13 +129,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--matches", default=DEFAULT_MATCHES_PATH)
     parser.add_argument("--output", default=None, help="optional CSV path to save team strengths")
+    parser.add_argument("--model", default=DEFAULT_MODEL, choices=sorted(MODEL_REGISTRY))
     args = parser.parse_args()
 
-    mcmc_fit, teams = fit(args.matches)
-    summary = summarize_teams(mcmc_fit, teams)
+    mcmc_fit, teams = fit(args.matches, model=args.model)
+    summary = summarize_teams(mcmc_fit, teams, model=args.model)
     print(summary.to_string(index=False))
 
-    samples_path = save_samples(mcmc_fit, teams, args.matches)
+    samples_path = save_samples(mcmc_fit, teams, args.matches, model=args.model)
     print(f"Saved samples to {samples_path}")
 
     if args.output:
