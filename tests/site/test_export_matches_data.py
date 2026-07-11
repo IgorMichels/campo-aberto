@@ -12,6 +12,7 @@ import json
 import pandas as pd
 import pytest
 
+from src.models.registry import MODEL_REGISTRY
 from src.site.export_matches_data import (
     _latest_results_csv,
     _latest_results_csv_by_competition,
@@ -21,6 +22,22 @@ from src.site.export_matches_data import (
     _upcoming_cards,
     export_matches_data,
 )
+
+
+class _DummyAdapter:
+    """A deliberately minimal, non-production stand-in for ModelAdapter, shaped
+    nothing like PoissonHomeAdapter (one team param "skill", one shared param
+    "home_boost") -- proves _load_params/_read_snapshot_params genuinely read
+    column names off the registry instead of hardcoding attack/defense/eta/
+    beta_home/rho. Only .name/.team_param_names/.shared_param_names are ever
+    read by this module (never .sample_scores*), so those are all this needs."""
+
+    name = "dummy"
+    team_param_names = ("skill",)
+    shared_param_names = ("home_boost",)
+
+
+DUMMY_ADAPTER = _DummyAdapter()
 
 
 def _write_results_csv(path, rows: list[dict]) -> None:
@@ -45,11 +62,12 @@ def _matches_df(rows: list[dict]) -> pd.DataFrame:
     return df
 
 
-def _strengths_row(team, attack, defense, eta=0.2, beta_home=0.3, rho=-0.05):
+def _strengths_row(team, attack, defense, eta=0.2, beta_home=0.3, rho=-0.05, model="poisson_home"):
     return {
         "team": team,
         "expected_position": 1.0,
         "prob_title": 0.5,
+        "model": model,
         "attack": attack,
         "defense": defense,
         "eta": eta,
@@ -125,13 +143,70 @@ def test_load_params_reads_shared_scalars_and_every_team(tmp_path):
     # motivated this design -- see _latest_results_csv_by_competition.
     assert params == {
         "reference_date": "2026-02-01",
-        "eta": 0.21,
-        "beta_home": 0.31,
-        "rho": -0.04,
+        "model": "poisson_home",
+        "shared": {"eta": 0.21, "beta_home": 0.31, "rho": -0.04},
         "teams": {
             "Team A": {"attack": 0.1, "defense": 0.2},
             "Team B": {"attack": 0.3, "defense": 0.4},
             "Team C": {"attack": -0.1, "defense": 0.05},
+        },
+    }
+
+
+def _dummy_strengths_row(team, skill, home_boost=0.2, model="dummy"):
+    """Mirrors _strengths_row but for tests/models/_dummy_adapter.py's
+    DummyAdapter shape (one team param "skill", one shared param
+    "home_boost") -- used to prove _load_params/_read_snapshot_params are
+    genuinely generic, not just poisson_home with an unused registry lookup."""
+    return {
+        "team": team,
+        "expected_position": 1.0,
+        "prob_title": 0.5,
+        "model": model,
+        "skill": skill,
+        "home_boost": home_boost,
+    }
+
+
+def test_load_params_raises_on_mixed_models_across_competitions(tmp_path, monkeypatch):
+    """A mid-migration state -- one competition's latest CSV already re-fit
+    under a new model, another's not yet -- must fail loudly instead of
+    silently merging incompatible team-param dicts into one JSON."""
+    monkeypatch.setitem(MODEL_REGISTRY, "dummy", DUMMY_ADAPTER)
+    _write_results_csv(
+        tmp_path / "serie_a" / "2026" / "2026_01_01.csv",
+        [_strengths_row("Team A", 0.1, 0.2, model="poisson_home")],
+    )
+    _write_results_csv(
+        tmp_path / "serie_b" / "2026" / "2026_02_01.csv",
+        [_dummy_strengths_row("Team B", skill=0.3, home_boost=0.15)],
+    )
+
+    with pytest.raises(ValueError, match="mixed models"):
+        _load_params(str(tmp_path))
+
+
+def test_load_params_with_a_non_poisson_home_model_shapes_the_envelope_from_its_own_names(
+    tmp_path, monkeypatch
+):
+    monkeypatch.setitem(MODEL_REGISTRY, "dummy", DUMMY_ADAPTER)
+    _write_results_csv(
+        tmp_path / "serie_a" / "2026" / "2026_02_01.csv",
+        [
+            _dummy_strengths_row("Team A", skill=0.4, home_boost=0.15),
+            _dummy_strengths_row("Team B", skill=-0.2, home_boost=0.15),
+        ],
+    )
+
+    params = _load_params(str(tmp_path))
+
+    assert params == {
+        "reference_date": "2026-02-01",
+        "model": "dummy",
+        "shared": {"home_boost": 0.15},
+        "teams": {
+            "Team A": {"skill": 0.4},
+            "Team B": {"skill": -0.2},
         },
     }
 
@@ -308,12 +383,34 @@ def test_read_snapshot_params_reads_scalars_and_every_team(tmp_path):
     params = _read_snapshot_params(str(csv_path))
 
     assert params == {
-        "eta": 0.02,
-        "beta_home": 0.3,
-        "rho": -0.01,
+        "model": "poisson_home",
+        "shared": {"eta": 0.02, "beta_home": 0.3, "rho": -0.01},
         "teams": {
             "Team A": {"attack": 0.1, "defense": 0.2},
             "Team B": {"attack": -0.1, "defense": 0.05},
+        },
+    }
+
+
+def test_read_snapshot_params_with_a_non_poisson_home_model(tmp_path, monkeypatch):
+    monkeypatch.setitem(MODEL_REGISTRY, "dummy", DUMMY_ADAPTER)
+    csv_path = tmp_path / "2026_05_01.csv"
+    _write_results_csv(
+        csv_path,
+        [
+            _dummy_strengths_row("Team A", skill=0.4, home_boost=0.15),
+            _dummy_strengths_row("Team B", skill=-0.2, home_boost=0.15),
+        ],
+    )
+
+    params = _read_snapshot_params(str(csv_path))
+
+    assert params == {
+        "model": "dummy",
+        "shared": {"home_boost": 0.15},
+        "teams": {
+            "Team A": {"skill": 0.4},
+            "Team B": {"skill": -0.2},
         },
     }
 
@@ -344,9 +441,8 @@ def test_played_cards_has_model_true_with_two_team_params_slice(tmp_path):
     assert card["reference_date"] == "2026-05-01"
     # Only the two relevant teams travel with the card, not the full roster.
     assert card["params"] == {
-        "eta": 0.02,
-        "beta_home": 0.3,
-        "rho": -0.01,
+        "model": "poisson_home",
+        "shared": {"eta": 0.02, "beta_home": 0.3, "rho": -0.01},
         "teams": {
             "Home 0": {"attack": 0.1, "defense": 0.2},
             "Away 0": {"attack": -0.1, "defense": 0.05},
