@@ -58,10 +58,52 @@ def load_raw_games() -> dict:
     return raw_games_by_season
 
 
+def _dedupe_espn_games(games: list[dict]) -> list[dict]:
+    """Collapses ESPN's own duplicate rows for the same (home_team_raw,
+    away_team_raw) pair -- within one competition+season -- down to a single
+    row per pair. ESPN's scoreboard API can carry BOTH the original event
+    (status="postponed", stale original date) AND a new event for the
+    rescheduled date (status="scheduled") for a match that got postponed and
+    later rescheduled -- confirmed live in Serie_A_2026.csv, where Bahia x
+    Chapecoense and Botafogo x Vitoria each appeared twice this way. Left
+    undeduped, the ESPN-only branch of main()'s loop (no CBF row yet to
+    absorb both into one) would emit one output row per ESPN row, producing
+    two rows in matches.csv for a single real match -- the actual cause of
+    Serie A 2026 landing at 382 rows instead of the expected 380.
+
+    A non-"postponed" row is always more informative than a stale
+    "postponed" one (it reflects whatever ESPN currently believes about the
+    match -- rescheduled, played, etc.), so it wins whenever both exist. If
+    more than one non-postponed row somehow exists for the same pair
+    (shouldn't normally happen), the one with the latest `date` wins, as the
+    freshest information ESPN has for that match.
+    """
+    best_by_pair: dict[tuple[str, str], dict] = {}
+    for game in games:
+        key = (game["home_team_raw"], game["away_team_raw"])
+        current = best_by_pair.get(key)
+        if current is None:
+            best_by_pair[key] = game
+            continue
+
+        current_is_postponed = current["status"] == "postponed"
+        game_is_postponed = game["status"] == "postponed"
+        if current_is_postponed and not game_is_postponed:
+            best_by_pair[key] = game
+        elif not current_is_postponed and not game_is_postponed and game["date"] > current["date"]:
+            best_by_pair[key] = game
+        # else: game is postponed and current isn't (or both are postponed
+        # -- date doesn't matter for two stale rows) -- keep current as-is.
+    return list(best_by_pair.values())
+
+
 def load_espn_games() -> dict:
     """Loads every cached ESPN season as {(competition_key, year): [row, ...]}
     from data/raw/brazil/espn (see espn_fixtures.py), same
     file_name.rsplit("_", 1) convention load_raw_games() already uses.
+    Deduplicated per (competition_key, year) via _dedupe_espn_games -- see
+    its docstring for why ESPN's own raw cache can carry two rows for one
+    real match.
     """
     espn_games_by_season = {}
     for path in glob.glob(os.path.join(ESPN_CACHE_DIR, "*.csv")):
@@ -80,7 +122,7 @@ def load_espn_games() -> dict:
                 }
                 for row in csv.DictReader(f)
             ]
-        espn_games_by_season[(competition_key, int(year))] = rows
+        espn_games_by_season[(competition_key, int(year))] = _dedupe_espn_games(rows)
     return espn_games_by_season
 
 

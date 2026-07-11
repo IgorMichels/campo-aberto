@@ -109,6 +109,90 @@ def test_load_espn_games_reads_every_cached_season(tmp_path):
     assert loaded["status"] == "scheduled"
 
 
+def test_dedupe_espn_games_prefers_scheduled_row_over_stale_postponed_row():
+    """The confirmed real-world case: a match gets postponed (ESPN keeps the
+    stale original-date row with status="postponed") and later rescheduled
+    (ESPN adds a second row, same team pair, status="scheduled", new date).
+    Only the informative one should survive."""
+    postponed_row = {
+        "date": "2026-05-01T19:00Z",
+        "venue": "Fonte Nova",
+        "home_team_raw": "Bahia",
+        "away_team_raw": "Chapecoense",
+        "home_goals": None,
+        "away_goals": None,
+        "status": "postponed",
+    }
+    rescheduled_row = {
+        "date": "2026-07-16T22:30Z",
+        "venue": "Fonte Nova",
+        "home_team_raw": "Bahia",
+        "away_team_raw": "Chapecoense",
+        "home_goals": None,
+        "away_goals": None,
+        "status": "scheduled",
+    }
+
+    deduped = btd._dedupe_espn_games([postponed_row, rescheduled_row])
+
+    assert len(deduped) == 1
+    assert deduped[0]["status"] == "scheduled"
+    assert deduped[0]["date"] == "2026-07-16T22:30Z"
+
+
+def test_dedupe_espn_games_order_does_not_matter():
+    """Same pair as above, but postponed row seen second -- still only the
+    scheduled row survives."""
+    postponed_row = {
+        "date": "2026-05-01T19:00Z",
+        "venue": "Fonte Nova",
+        "home_team_raw": "Bahia",
+        "away_team_raw": "Chapecoense",
+        "home_goals": None,
+        "away_goals": None,
+        "status": "postponed",
+    }
+    rescheduled_row = {
+        "date": "2026-07-16T22:30Z",
+        "venue": "Fonte Nova",
+        "home_team_raw": "Bahia",
+        "away_team_raw": "Chapecoense",
+        "home_goals": None,
+        "away_goals": None,
+        "status": "scheduled",
+    }
+
+    deduped = btd._dedupe_espn_games([rescheduled_row, postponed_row])
+
+    assert len(deduped) == 1
+    assert deduped[0]["status"] == "scheduled"
+
+
+def test_dedupe_espn_games_keeps_distinct_pairs():
+    row_a = {
+        "date": "2026-07-16T22:30Z",
+        "venue": "X",
+        "home_team_raw": "Bahia",
+        "away_team_raw": "Chapecoense",
+        "home_goals": None,
+        "away_goals": None,
+        "status": "scheduled",
+    }
+    row_b = {
+        "date": "2026-07-17T22:30Z",
+        "venue": "Y",
+        "home_team_raw": "Botafogo",
+        "away_team_raw": "Vitoria",
+        "home_goals": None,
+        "away_goals": None,
+        "status": "scheduled",
+    }
+
+    deduped = btd._dedupe_espn_games([row_a, row_b])
+
+    assert len(deduped) == 2
+
+
 def test_main_writes_treated_matches_and_logs_unmapped_names(tmp_path):
     game1 = {
         "Date": "08/08/2020",
@@ -380,6 +464,62 @@ def test_espn_only_row_reported_played_with_no_cbf_match_still_gets_scheduled_st
     assert row["status"] == "scheduled"  # ...but CBF hasn't confirmed it yet
     assert pd.isna(row["home_goals"])
     assert pd.isna(row["away_goals"])
+
+
+def test_main_dedupes_espn_postponed_then_rescheduled_rows_into_a_single_match(tmp_path):
+    """Integration-level version of the _dedupe_espn_games unit tests above:
+    two ESPN rows for the same pair (a stale "postponed" row plus the
+    rescheduled "scheduled" row, no CBF match yet to absorb either) must
+    still produce exactly one row in matches.csv -- the real bug that
+    inflated Serie A 2026's matches.csv to 382 rows instead of 380."""
+    postponed_row = {
+        "date": "2026-05-01T19:00Z",
+        "venue": "Fonte Nova",
+        "home_team_raw": "Bahia",
+        "away_team_raw": "Chapecoense",
+        "home_goals": "",
+        "away_goals": "",
+        "status": "postponed",
+    }
+    rescheduled_row = {
+        "date": "2026-07-16T22:30Z",
+        "venue": "Fonte Nova",
+        "home_team_raw": "Bahia",
+        "away_team_raw": "Chapecoense",
+        "home_goals": "",
+        "away_goals": "",
+        "status": "scheduled",
+    }
+    mapping = {"Bahia": "Bahia / BA", "Chapecoense": "Chapecoense / SC"}
+
+    cache_dir = str(tmp_path / "raw")
+    espn_cache_dir = str(tmp_path / "espn")
+    output_path = str(tmp_path / "matches.csv")
+    unmapped_path = str(tmp_path / "unmapped.csv")
+    discrepancy_path = str(tmp_path / "discrepancies.csv")
+    mapping_path = str(tmp_path / "mapping.csv")
+
+    tnm.save_mapping(mapping, path=mapping_path)
+    _save_espn_games(espn_cache_dir, "Serie_A", 2026, [postponed_row, rescheduled_row])
+
+    with (
+        mock.patch.object(srm, "CBF_CACHE_DIR", cache_dir),
+        mock.patch.object(btd, "CBF_CACHE_DIR", cache_dir),
+        mock.patch.object(btd, "ESPN_CACHE_DIR", espn_cache_dir),
+        mock.patch.object(btd, "OUTPUT_PATH", output_path),
+        mock.patch.object(btd, "UNMAPPED_LOG_PATH", unmapped_path),
+        mock.patch.object(btd, "DISCREPANCY_LOG_PATH", discrepancy_path),
+        mock.patch.object(
+            btd, "load_mapping", functools.partial(tnm.load_mapping, path=mapping_path)
+        ),
+    ):
+        btd.main()
+
+    matches = pd.read_csv(output_path)
+    assert len(matches) == 1
+    row = matches.iloc[0]
+    assert row["status"] == "scheduled"
+    assert row["match_datetime"] == "2026-07-16 19:30"  # UTC -> Brazil local
 
 
 def test_unmapped_espn_name_lands_in_the_same_unmapped_log_as_an_unmapped_cbf_name(tmp_path):
