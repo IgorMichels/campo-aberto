@@ -29,7 +29,13 @@ import shutil
 
 import pandas as pd
 
-from src.constants import CLUB_INFOS_PATH, DEFAULT_MATCHES_PATH, RESULTS_DIR, SITE_DIR
+from src.constants import (
+    CLUB_INFOS_PATH,
+    DEFAULT_MATCHES_PATH,
+    DEFAULT_SEASON,
+    RESULTS_DIR,
+    SITE_DIR,
+)
 from src.simulation import fixtures, standings
 from src.simulation.config import AggregateConfig
 from src.simulation.run_rounds import load_configs_by_season
@@ -61,7 +67,7 @@ AGGREGATE_TOTAL_LABEL = (
     "Geral"  # the aggregate's own combined probability, nested as a group's last child
 )
 
-DEFAULT_SEASONS = [2025, 2026]
+DEFAULT_SEASONS = [DEFAULT_SEASON - 1, DEFAULT_SEASON]  # current season + previous season
 
 
 def _competition_slug(name: str) -> str:
