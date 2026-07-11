@@ -36,6 +36,7 @@
       competitionNextBtn: document.getElementById("builder-home-competition-next"),
       crestPreview: document.getElementById("builder-home-crest"),
       nameLabel: document.getElementById("builder-home-name"),
+      teamMenu: document.getElementById("builder-home-team-menu"),
       prevBtn: document.getElementById("builder-home-prev"),
       nextBtn: document.getElementById("builder-home-next"),
     },
@@ -45,6 +46,7 @@
       competitionNextBtn: document.getElementById("builder-away-competition-next"),
       crestPreview: document.getElementById("builder-away-crest"),
       nameLabel: document.getElementById("builder-away-name"),
+      teamMenu: document.getElementById("builder-away-team-menu"),
       prevBtn: document.getElementById("builder-away-prev"),
       nextBtn: document.getElementById("builder-away-next"),
     },
@@ -71,13 +73,46 @@
     nameLabel.textContent = team ? displayTeamName(team.team) : "";
   }
 
+  function closeTeamMenu(side) {
+    const { teamMenu, nameLabel } = builderSides[side];
+    teamMenu.parentElement.classList.remove("is-open");
+    nameLabel.setAttribute("aria-expanded", "false");
+  }
+
+  // Rebuilds a side's dropdown list from its current roster -- called after
+  // every roster load/competition switch (new teams to list) and after
+  // EITHER side's team changes (the OTHER side's list needs its disabled
+  // option to track that change too, so both sides are always re-rendered
+  // together, not just the one that moved).
+  function renderTeamMenu(side) {
+    const { teamMenu } = builderSides[side];
+    const otherTeam = state.freePick[otherSideOf(side)].team;
+    const currentTeam = state.freePick[side].team;
+
+    teamMenu.innerHTML = freePickRosters[side]
+      .map((team) => {
+        const isMirror = team.team === otherTeam;
+        return `<button
+          type="button"
+          data-team="${escapeHTML(team.team)}"
+          ${team.team === currentTeam ? 'aria-current="true"' : ""}
+          ${isMirror ? `disabled title="Já escolhido do outro lado"` : ""}
+        >${escapeHTML(displayTeamName(team.team))}</button>`;
+      })
+      .join("");
+  }
+
   // Sets a side's selected team and re-renders both the crest/name preview
-  // and the resulting sticker -- the single path every default-selection and
-  // arrow-cycle codepath below goes through, so the two are never out of sync.
+  // and the resulting sticker -- the single path every default-selection,
+  // arrow-cycle, and dropdown-pick codepath below goes through, so none of
+  // them can ever fall out of sync with each other.
   function setFreePickTeam(side, teamName) {
     state.freePick[side].team = teamName;
     updateTeamPreview(side, teamName);
     renderBuilderResult();
+    closeTeamMenu(side);
+    renderTeamMenu("home");
+    renderTeamMenu("away");
   }
 
   // Moves a side's selection by +-1 through its own roster (wrapping around
@@ -182,6 +217,7 @@
 
       freePickRosters[side] = roster;
       if (roster.length === 0) {
+        renderTeamMenu(side);
         renderBuilderResult();
         return;
       }
@@ -190,6 +226,7 @@
       setFreePickTeam(side, defaultTeam);
     } catch (error) {
       freePickRosters[side] = [];
+      renderTeamMenu(side);
       renderBuilderResult();
     }
   }
@@ -220,6 +257,33 @@
 
       builderSides[side].prevBtn.addEventListener("click", () => cycleTeam(side, -1));
       builderSides[side].nextBtn.addEventListener("click", () => cycleTeam(side, 1));
+
+      const { nameLabel, teamMenu } = builderSides[side];
+      nameLabel.addEventListener("click", () => {
+        const isOpen = teamMenu.parentElement.classList.toggle("is-open");
+        nameLabel.setAttribute("aria-expanded", String(isOpen));
+        if (isOpen) closeTeamMenu(otherSideOf(side));
+      });
+
+      teamMenu.addEventListener("click", (event) => {
+        const button = event.target.closest("button[data-team]");
+        if (button) setFreePickTeam(side, button.dataset.team);
+      });
+    });
+
+    document.addEventListener("click", (event) => {
+      ["home", "away"].forEach((side) => {
+        if (!builderSides[side].teamMenu.parentElement.contains(event.target)) {
+          closeTeamMenu(side);
+        }
+      });
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closeTeamMenu("home");
+        closeTeamMenu("away");
+      }
     });
   }
 
