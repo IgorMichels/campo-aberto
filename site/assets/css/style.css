@@ -111,8 +111,14 @@ body {
 }
 
 .nav-dropdown-trigger::after {
-  content: " \25BE"; /* ▾ */
-  font-size: 0.7em;
+  content: "\25BE"; /* ▾ */
+  margin-left: 0.35rem;
+  /* Matches .team-select-trigger::after (site/assets/css/matches.css) in
+     actual size -- both in rem, not em, since the two triggers don't share
+     a font-size to multiply against. */
+  font-size: 1.105rem;
+  position: relative;
+  top: 2px;
 }
 
 .nav-dropdown-menu {
