@@ -7,29 +7,13 @@ phases, each either:
   - `playoff`: a bracket of pairs, seeded from an earlier phase, decided over
     one or two legs.
 
-Score sampling is vectorized over (posterior draws x remaining fixtures) with
-numpy, via rejection sampling: draw (x, y) from the two *independent*
-Poissons (numpy's native, vectorized, C-level rng.poisson), and accept/reject
-against the Dixon-Coles tau(x, y) correction (REC-equivalent to dc_log_prob
-in poisson_home.stan), which only reweights the 4 cells x,y in {0,1}. This
-was tried two ways:
-  - Gathering only the still-"pending" (draw, fixture) cells each round via
-    boolean/fancy indexing (`arr[rows, cols]`). Fewer values processed per
-    round, but fancy-indexed gather/scatter on a scattered subset of a large
-    2-D array is cache-hostile -- this was *slower* than the dense grid
-    approach it replaced (measured: ~98s vs ~37s for 100k draws x ~200
-    fixtures).
-  - Recomputing the *whole* (n_draws, n_fixtures) array every round with
-    np.where, leaving already-accepted cells alone instead of compacting them
-    out. Wastes some resampling on already-accepted cells, but every
-    operation stays a plain elementwise, contiguous-memory numpy op -- this
-    is the one below, and it's ~5x faster than even the original dense
-    (draws x fixtures x 11 x 11) grid + cumsum approach, a common way to
-    vectorize this kind of score sampling, since it never materializes a
-    per-score-pair grid at all. It also has no truncation (rng.poisson has no
-    upper bound), unlike a fixed max-goals grid.
-Acceptance per round is 1/bound, and bound is close to 1 whenever rho is (our
-prior is ~N(0, 0.1)), so this converges in a handful of rounds in practice.
+This module only orchestrates phases (round-robin fixtures, playoff pairs,
+cascade-guaranteed slots, standings) from already-sampled scores -- it never
+knows how a score was sampled. That's a src.models.adapter.ModelAdapter's
+job (see src/models/registry.py for which one is active); this module only
+ever calls `draw_params.adapter.sample_scores`/`.sample_scores_single`. See
+src/models/adapters/poisson_home.py for the actual score-sampling
+implementation (and its performance rationale) of today's production model.
 
 Turning a completed round_robin phase into standings still needs a per-draw
 pass (standings.rank_table) since the CBF head-to-head/random tiebreak isn't a
@@ -46,6 +30,8 @@ import numpy as np
 import pandas as pd
 from cmdstanpy import CmdStanMCMC
 
+from src.models.adapter import ModelAdapter
+from src.models.registry import DEFAULT_MODEL, MODEL_REGISTRY
 from src.simulation import fixtures
 from src.simulation.config import (
     CompetitionConfig,
@@ -56,79 +42,24 @@ from src.simulation.config import (
 )
 from src.simulation.standings import rank_table
 
-DrawParams = tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray, dict[str, int]]
 
-
-def simulate_scores(
-    mu_home: np.ndarray,
-    mu_away: np.ndarray,
-    rho: np.ndarray,
-    rng: np.random.Generator,
-) -> tuple[np.ndarray, np.ndarray]:
-    """Batch Dixon-Coles-adjusted Poisson score sampling via rejection sampling.
-
-    Args:
-        mu_home, mu_away: shape (n_draws, n_matches).
-        rho: shape (n_draws,).
-
-    Returns:
-        (home_goals, away_goals), each shape (n_draws, n_matches), int.
+@dataclass
+class DrawParams:
+    """Everything the round-robin/playoff/cascade orchestration below needs
+    from a model's posterior, without knowing that model's own parameter
+    names -- only `adapter` (src/models/adapter.py) ever interprets
+    `team_params`/`shared_params`.
     """
-    n_draws, n_matches = mu_home.shape
-    rho = np.broadcast_to(rho[:, None], (n_draws, n_matches))
 
-    tau00 = 1 - mu_home * mu_away * rho
-    tau01 = 1 + mu_home * rho
-    tau10 = 1 + mu_away * rho
-    tau11 = 1 - rho
-    bound = np.maximum.reduce([np.ones_like(mu_home), tau00, tau01, tau10, tau11])
-
-    home_goals = np.zeros((n_draws, n_matches), dtype=np.int64)
-    away_goals = np.zeros((n_draws, n_matches), dtype=np.int64)
-    pending = np.ones((n_draws, n_matches), dtype=bool)
-
-    while pending.any():
-        x = rng.poisson(mu_home)
-        y = rng.poisson(mu_away)
-
-        tau = np.ones_like(mu_home)
-        tau = np.where((x == 0) & (y == 0), np.maximum(tau00, 0), tau)
-        tau = np.where((x == 0) & (y == 1), np.maximum(tau01, 0), tau)
-        tau = np.where((x == 1) & (y == 0), np.maximum(tau10, 0), tau)
-        tau = np.where((x == 1) & (y == 1), np.maximum(tau11, 0), tau)
-
-        accept = pending & (rng.random((n_draws, n_matches)) < (tau / bound))
-        home_goals = np.where(accept, x, home_goals)
-        away_goals = np.where(accept, y, away_goals)
-        pending &= ~accept
-
-    return home_goals, away_goals
-
-
-def _match_rates(
-    attack, defense, eta, beta_home, home_idx, away_idx
-) -> tuple[np.ndarray, np.ndarray]:
-    """attack, defense: (n_draws, T). eta, beta_home: (n_draws,). home_idx, away_idx: (n_matches,)."""
-    mu_home = np.exp(attack[:, home_idx] - defense[:, away_idx] + eta[:, None] + beta_home[:, None])
-    mu_away = np.exp(attack[:, away_idx] - defense[:, home_idx] + eta[:, None])
-    return mu_home, mu_away
-
-
-def _match_rates_per_draw(
-    attack, defense, eta, beta_home, home_idx, away_idx
-) -> tuple[np.ndarray, np.ndarray]:
-    """Same as _match_rates, but home_idx/away_idx name a *different* single match per draw
-    (shape (n_draws,)) instead of a shared batch of fixtures -- used for playoffs, where
-    who plays whom depends on that draw's own outcome so far.
-    """
-    row = np.arange(attack.shape[0])
-    mu_home = np.exp(attack[row, home_idx] - defense[row, away_idx] + eta + beta_home)
-    mu_away = np.exp(attack[row, away_idx] - defense[row, home_idx] + eta)
-    return mu_home, mu_away
+    adapter: ModelAdapter
+    team_params: dict[str, np.ndarray]  # name -> (n_draws, T)
+    shared_params: dict[str, np.ndarray]  # name -> (n_draws,)
+    team_index: dict[str, int]
+    n_draws: int
 
 
 def _simulate_remaining_all_draws(
-    remaining_fixtures, attack, defense, eta, beta_home, rho, team_index, rng
+    remaining_fixtures, draw_params: DrawParams, rng
 ) -> tuple[np.ndarray, np.ndarray]:
     """Simulates every remaining fixture for every draw at once.
 
@@ -140,10 +71,12 @@ def _simulate_remaining_all_draws(
     # reference_date -- e.g. the season's final backtest checkpoint) would
     # otherwise produce a float index array that numpy's fancy indexing
     # rejects outright.
+    team_index = draw_params.team_index
     home_idx = np.array([team_index[home] for home, _ in remaining_fixtures], dtype=np.int64)
     away_idx = np.array([team_index[away] for _, away in remaining_fixtures], dtype=np.int64)
-    mu_home, mu_away = _match_rates(attack, defense, eta, beta_home, home_idx, away_idx)
-    return simulate_scores(mu_home, mu_away, rho, rng)
+    return draw_params.adapter.sample_scores(
+        draw_params.team_params, draw_params.shared_params, home_idx, away_idx, rng
+    )
 
 
 @dataclass
@@ -179,8 +112,7 @@ def _run_round_robin_phase(
     draw_params: DrawParams,
     rng: np.random.Generator,
 ) -> RoundRobinResult:
-    attack, defense, eta, beta_home, rho, team_index = draw_params
-    n_draws = attack.shape[0]
+    n_draws = draw_params.n_draws
 
     if phase_cfg.legs != 2:
         raise NotImplementedError(
@@ -223,9 +155,7 @@ def _run_round_robin_phase(
         remaining_by_group[group_id] = remaining
 
     all_remaining = [f for group_id in groups for f in remaining_by_group[group_id]]
-    home_goals, away_goals = _simulate_remaining_all_draws(
-        all_remaining, attack, defense, eta, beta_home, rho, team_index, rng
-    )
+    home_goals, away_goals = _simulate_remaining_all_draws(all_remaining, draw_params, rng)
 
     offsets = {}
     offset = 0
@@ -273,7 +203,7 @@ def _resolve_manual_side(
 
 
 def _simulate_playoff_pair(
-    idx_a, idx_b, attack, defense, eta, beta_home, rho, teams, phase_cfg: PlayoffPhaseConfig, rng
+    idx_a, idx_b, draw_params: DrawParams, teams, phase_cfg: PlayoffPhaseConfig, rng
 ):
     """idx_a, idx_b: (n_draws,) team indices for the two seeds of one pair -- 'a' is
     the better-seeded team (e.g. higher table position, or the pair listed first in
@@ -288,9 +218,9 @@ def _simulate_playoff_pair(
     else:
         home1, away1 = idx_a, idx_b
 
-    mu_home1, mu_away1 = _match_rates_per_draw(attack, defense, eta, beta_home, home1, away1)
-    g_home1, g_away1 = simulate_scores(mu_home1[:, None], mu_away1[:, None], rho, rng)
-    g_home1, g_away1 = g_home1[:, 0], g_away1[:, 0]
+    g_home1, g_away1 = draw_params.adapter.sample_scores_single(
+        draw_params.team_params, draw_params.shared_params, home1, away1, rng
+    )
 
     if phase_cfg.legs == 1:
         if phase_cfg.leg_order == "worse_seed_home_first":
@@ -306,9 +236,9 @@ def _simulate_playoff_pair(
         return np.array(teams)[winner_idx]
 
     home2, away2 = away1, home1
-    mu_home2, mu_away2 = _match_rates_per_draw(attack, defense, eta, beta_home, home2, away2)
-    g_home2, g_away2 = simulate_scores(mu_home2[:, None], mu_away2[:, None], rho, rng)
-    g_home2, g_away2 = g_home2[:, 0], g_away2[:, 0]
+    g_home2, g_away2 = draw_params.adapter.sample_scores_single(
+        draw_params.team_params, draw_params.shared_params, home2, away2, rng
+    )
 
     if phase_cfg.leg_order == "worse_seed_home_first":
         b_g1, a_g1 = g_home1, g_away1
@@ -339,8 +269,8 @@ def _run_playoff_phase(
     teams: list[str],
     rng: np.random.Generator,
 ) -> PlayoffResult:
-    attack, defense, eta, beta_home, rho, team_index = draw_params
-    n_draws = attack.shape[0]
+    team_index = draw_params.team_index
+    n_draws = draw_params.n_draws
 
     if phase_cfg.pairing == "table_position":
         source = phase_results[phase_cfg.source_phase]
@@ -384,9 +314,7 @@ def _run_playoff_phase(
         ]
 
     winners = {
-        pair_index: _simulate_playoff_pair(
-            idx_a, idx_b, attack, defense, eta, beta_home, rho, teams, phase_cfg, rng
-        )
+        pair_index: _simulate_playoff_pair(idx_a, idx_b, draw_params, teams, phase_cfg, rng)
         for pair_index, (idx_a, idx_b) in enumerate(pair_sides)
     }
     return PlayoffResult(winners=winners)
@@ -576,38 +504,40 @@ def _attach_team_strengths(
     df: pd.DataFrame,
     mcmc_fit: CmdStanMCMC,
     teams: list[str],
+    adapter: ModelAdapter,
     team_aliases: dict[str, str] | None = None,
 ) -> pd.DataFrame:
-    """Posterior MEAN attack/defense per team (columns "attack"/"defense",
-    mapped by df["team"]) + posterior mean eta/beta_home/rho (broadcast as
-    the same scalar on every row) -- a deliberate simplification vs. the
-    full-posterior resampling this module uses for season odds (draw_params
-    inside simulate_competition is already a resampled *subset*; this reads
-    the FULL posterior directly via mcmc_fit.stan_variables(), independent
-    of n_draws/seed, so team strength doesn't jitter between runs).
-    Consumed downstream by src.site.export_matches_data for the Confrontos
-    page's params.json.
+    """Posterior MEAN team/shared params -- one column per name in
+    `adapter.team_param_names` (mapped by df["team"]) and
+    `adapter.shared_param_names` (broadcast as the same scalar on every row)
+    -- plus a `model` column naming `adapter.name`, so the result is
+    self-describing. A deliberate simplification vs. the full-posterior
+    resampling this module uses for season odds (draw_params inside
+    simulate_competition is already a resampled *subset*; this reads the
+    FULL posterior directly via mcmc_fit.stan_variables(), independent of
+    n_draws/seed, so team strength doesn't jitter between runs). Consumed
+    downstream by src.site.export_matches_data for the Confrontos page's
+    params.json.
 
     `team_aliases` (optional, {alias_team: real_team}) is simulate_competition's
     debut/stale-data substitution (see that function's docstring): `teams` is
     always the REAL, Stan-fitted roster only (unlike simulate_competition's own
     internal team list, which is extended with alias entries) -- an alias name
     reuses its substitute's exact index here rather than getting its own new
-    one, since this function only ever reads attack_mean/defense_mean *by*
-    index, never the other way around (no `teams[i]` reverse lookup anywhere
-    in this function), so aliasing the index is sufficient and correct."""
+    one, since this function only ever reads a team param *by* index, never
+    the other way around (no `teams[i]` reverse lookup anywhere in this
+    function), so aliasing the index is sufficient and correct."""
     stan_vars = mcmc_fit.stan_variables()
-    attack_mean = stan_vars["attack"].mean(axis=0)
-    defense_mean = stan_vars["defense"].mean(axis=0)
     index = {team: i for i, team in enumerate(teams)}
     for alias, real in (team_aliases or {}).items():
         index[alias] = index[real]
     df = df.copy()
-    df["attack"] = df["team"].map(lambda t: float(attack_mean[index[t]]))
-    df["defense"] = df["team"].map(lambda t: float(defense_mean[index[t]]))
-    df["eta"] = float(stan_vars["eta"].mean())
-    df["beta_home"] = float(stan_vars["beta_home"].mean())
-    df["rho"] = float(stan_vars["rho"].mean())
+    df["model"] = adapter.name
+    for param in adapter.team_param_names:
+        mean = stan_vars[param].mean(axis=0)
+        df[param] = [float(mean[index[t]]) for t in df["team"]]
+    for param in adapter.shared_param_names:
+        df[param] = float(stan_vars[param].mean())
     return df
 
 
@@ -622,6 +552,7 @@ def simulate_competition(
     seed: int = 0,
     guaranteed_slots: dict[str, list[str]] | None = None,
     team_aliases: dict[str, str] | None = None,
+    model: str = DEFAULT_MODEL,
 ) -> pd.DataFrame:
     """Monte Carlo simulates every phase of `config` in order and reports the
     probability of each declared spot (see configs/README.md for the schema).
@@ -646,12 +577,15 @@ def simulate_competition(
             zero matches inside the training window) -- see
             src.simulation.run_rounds._relegated_teams_previous_season for how
             substitutes are picked. Each alias team gets its own, separate
-            index carrying an exact COPY of its substitute's attack/defense
-            draws (not a shared index) -- this matters specifically for
+            index carrying an exact COPY of its substitute's team params (not
+            a shared index) -- this matters specifically for
             _simulate_playoff_pair's `np.array(teams)[winner_idx]`, which
             converts a winner's numeric index back into a name positionally:
             sharing an index would make an alias team's own playoff advancement
             get reported under its substitute's name instead of its own.
+        model: which src.models.registry.MODEL_REGISTRY entry `mcmc_fit` was
+            sampled from -- selects which Stan variable names are read and
+            which score-sampling math runs (see src/models/adapter.py).
     """
     if reference_date is None:
         reference_date = matches_df["match_datetime"].max()
@@ -661,33 +595,35 @@ def simulate_competition(
         if reference_date >= entry.known_from:
             guaranteed_slots.setdefault(entry.team, []).append(entry.spot)
 
+    adapter = MODEL_REGISTRY[model]
     stan_vars = mcmc_fit.stan_variables()
-    total_draws = stan_vars["eta"].shape[0]
+    total_draws = next(iter(stan_vars.values())).shape[0]
     rng = np.random.default_rng(seed)
     # More simulation replicates than posterior draws just means resampling draws with
     # replacement -- each reused parameter vector still gets a fresh, independent match
     # outcome every time, so this is a normal posterior-predictive resample, not a shortcut.
     draw_indices = rng.choice(total_draws, size=n_draws, replace=n_draws > total_draws)
 
-    attack_draws = stan_vars["attack"][draw_indices]
-    defense_draws = stan_vars["defense"][draw_indices]
+    team_params = {name: stan_vars[name][draw_indices] for name in adapter.team_param_names}
+    shared_params = {name: stan_vars[name][draw_indices] for name in adapter.shared_param_names}
     sim_teams = teams
     if team_aliases:
         team_index = {team: i for i, team in enumerate(teams)}
         alias_names = list(team_aliases)
         substitute_cols = [team_index[team_aliases[name]] for name in alias_names]
-        attack_draws = np.concatenate([attack_draws, attack_draws[:, substitute_cols]], axis=1)
-        defense_draws = np.concatenate([defense_draws, defense_draws[:, substitute_cols]], axis=1)
+        team_params = {
+            name: np.concatenate([arr, arr[:, substitute_cols]], axis=1)
+            for name, arr in team_params.items()
+        }
         sim_teams = [*teams, *alias_names]
 
     team_index = {team: i for i, team in enumerate(sim_teams)}
-    draw_params: DrawParams = (
-        attack_draws,
-        defense_draws,
-        stan_vars["eta"][draw_indices],
-        stan_vars["beta_home"][draw_indices],
-        stan_vars["rho"][draw_indices],
-        team_index,
+    draw_params = DrawParams(
+        adapter=adapter,
+        team_params=team_params,
+        shared_params=shared_params,
+        team_index=team_index,
+        n_draws=n_draws,
     )
 
     phase_results: dict[str, PhaseResult] = {}
@@ -702,4 +638,4 @@ def simulate_competition(
             )
 
     result = _tabulate(config, phase_results, n_draws, rng, guaranteed_slots)
-    return _attach_team_strengths(result, mcmc_fit, teams, team_aliases)
+    return _attach_team_strengths(result, mcmc_fit, teams, adapter, team_aliases)

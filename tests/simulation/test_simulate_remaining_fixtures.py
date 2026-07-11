@@ -12,25 +12,33 @@ true end (see src/simulation/simulate.py's dtype=np.int64 fix).
 
 import numpy as np
 
-from src.simulation.simulate import _simulate_remaining_all_draws
+from src.models.adapters.poisson_home import ADAPTER as POISSON_HOME
+from src.simulation.simulate import DrawParams, _simulate_remaining_all_draws
 
 
-def _dummy_posteriors(n_draws: int, n_teams: int):
+def _dummy_draw_params(n_draws: int, n_teams: int, team_index: dict[str, int]) -> DrawParams:
     rng = np.random.default_rng(0)
-    attack = rng.normal(size=(n_draws, n_teams))
-    defense = rng.normal(size=(n_draws, n_teams))
-    eta = rng.normal(size=n_draws)
-    beta_home = rng.normal(size=n_draws)
-    rho = np.zeros(n_draws)
-    return attack, defense, eta, beta_home, rho, rng
+    return DrawParams(
+        adapter=POISSON_HOME,
+        team_params={
+            "attack": rng.normal(size=(n_draws, n_teams)),
+            "defense": rng.normal(size=(n_draws, n_teams)),
+        },
+        shared_params={
+            "eta": rng.normal(size=n_draws),
+            "beta_home": rng.normal(size=n_draws),
+            "rho": np.zeros(n_draws),
+        },
+        team_index=team_index,
+        n_draws=n_draws,
+    )
 
 
 def test_empty_remaining_fixtures_returns_empty_arrays_instead_of_crashing():
-    attack, defense, eta, beta_home, rho, rng = _dummy_posteriors(n_draws=5, n_teams=3)
-    team_index = {"A": 0, "B": 1, "C": 2}
+    draw_params = _dummy_draw_params(n_draws=5, n_teams=3, team_index={"A": 0, "B": 1, "C": 2})
 
     home_goals, away_goals = _simulate_remaining_all_draws(
-        [], attack, defense, eta, beta_home, rho, team_index, rng
+        [], draw_params, np.random.default_rng(1)
     )
 
     assert home_goals.shape == (5, 0)
@@ -38,11 +46,10 @@ def test_empty_remaining_fixtures_returns_empty_arrays_instead_of_crashing():
 
 
 def test_nonempty_remaining_fixtures_still_simulates_normally():
-    attack, defense, eta, beta_home, rho, rng = _dummy_posteriors(n_draws=5, n_teams=3)
-    team_index = {"A": 0, "B": 1, "C": 2}
+    draw_params = _dummy_draw_params(n_draws=5, n_teams=3, team_index={"A": 0, "B": 1, "C": 2})
 
     home_goals, away_goals = _simulate_remaining_all_draws(
-        [("A", "B"), ("B", "C")], attack, defense, eta, beta_home, rho, team_index, rng
+        [("A", "B"), ("B", "C")], draw_params, np.random.default_rng(1)
     )
 
     assert home_goals.shape == (5, 2)
