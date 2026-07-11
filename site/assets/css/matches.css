@@ -98,6 +98,17 @@
   z-index: 5;
 }
 
+/* A no-model placeholder card (see .sticker-container.no-model below) isn't
+   clickable -- matches_played.js's click handler skips it, so its own
+   hover/cursor affordance shouldn't imply otherwise. */
+.sticker-wrapper:has(.no-model) {
+  cursor: default;
+}
+
+.sticker-wrapper:has(.no-model):hover {
+  transform: none;
+}
+
 .sticker-container {
   width: var(--sticker-w);
   height: var(--sticker-h);
@@ -306,6 +317,51 @@
   font-weight: 500;
 }
 
+/* The literal final score, shown only on matches/played.html cards
+   (renderStickerCard's optional match.final_score) alongside the
+   most-likely-scoreline prediction above it. */
+.score-center .real-score {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffd60a;
+  margin-top: 4px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* A played match with no prior model snapshot (has_model: false, see
+   src.site.export_matches_data._played_cards) -- same footprint as a real
+   sticker so the grid doesn't jump between card types, but visually
+   muted/placeholder-styled instead of showing a probability grid. */
+.sticker-container.no-model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 20px;
+  background: linear-gradient(160deg, #1c1c1c, #0a0a0a);
+  border-color: rgba(255, 255, 255, 0.15);
+  filter: grayscale(0.5);
+  cursor: default;
+}
+
+.sticker-container.no-model .sticker-header {
+  width: 100%;
+  padding: 0;
+}
+
+.sticker-container.no-model .real-score {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 20px;
+}
+
+.no-model-message {
+  margin: 0;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+  text-align: center;
+}
+
 .heatmap-wrapper {
   flex: 1;
   display: flex;
@@ -363,6 +419,23 @@
 
 .heatmap-cell.best .score {
   color: rgba(0, 0, 0, 0.6);
+}
+
+/* Marks the real final score's cell on a matches/played.html card (see
+   renderHeatmap's `actual` param) -- an inset ring so it combines visually
+   with .best's own (outer) glow instead of one silently overriding the
+   other, whether or not the real result also happens to be the
+   single most-likely scoreline. */
+.heatmap-cell.actual {
+  box-shadow:
+    inset 0 0 0 2px #ffd60a,
+    0 0 10px rgba(255, 214, 10, 0.5);
+}
+
+.heatmap-cell.actual.best {
+  box-shadow:
+    inset 0 0 0 2px #ffd60a,
+    0 0 15px rgba(255, 255, 255, 0.6);
 }
 
 .heatmap-cell .prob {
