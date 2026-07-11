@@ -13,11 +13,11 @@ import pandas as pd
 import pytest
 
 from src.site.export_matches_data import (
-    FIXTURE_FALLBACK_COUNT,
-    FIXTURE_WINDOW_DAYS,
     _latest_results_csv,
     _latest_results_csv_by_competition,
     _load_params,
+    _played_cards,
+    _read_snapshot_params,
     _upcoming_cards,
     export_matches_data,
 )
@@ -204,23 +204,31 @@ def test_upcoming_cards_windowed_scheduled_rows_sorted_soonest_first():
     assert all(c["date"] is not None for c in cards)
 
 
-def test_upcoming_cards_falls_back_to_next_10_when_window_is_empty():
-    # 12 scheduled matches, all further out than FIXTURE_WINDOW_DAYS (14 days)
-    # from NOW -- the windowed set is empty, so the fallback kicks in and
-    # keeps only the FIXTURE_FALLBACK_COUNT soonest ones, in order.
-    far_dates = [
-        (NOW + pd.Timedelta(days=FIXTURE_WINDOW_DAYS + 5 + i)).strftime("%Y-%m-%d %H:%M")
-        for i in range(12)
-    ]
+def test_upcoming_cards_includes_every_remaining_scheduled_row_regardless_of_distance():
+    # 20 scheduled matches, every one far in the future -- no window/cap any
+    # more (the site paginates client-side instead), so all 20 must come
+    # back, still soonest-first.
+    far_dates = [(NOW + pd.Timedelta(days=30 + i)).strftime("%Y-%m-%d %H:%M") for i in range(20)]
     rows = _card_rows(scheduled_dates=far_dates)
     df = _matches_df(rows)
-    teams = {f"Home {i}" for i in range(12)} | {f"Away {i}" for i in range(12)}
+    teams = {f"Home {i}" for i in range(20)} | {f"Away {i}" for i in range(20)}
     crest_by_team, color_by_team = _crests_colors(teams)
 
     cards = _upcoming_cards(df, "Serie A", 2026, NOW, crest_by_team, color_by_team, teams)
 
-    assert len(cards) == FIXTURE_FALLBACK_COUNT
-    assert [c["home_team"] for c in cards] == [f"Home {i}" for i in range(FIXTURE_FALLBACK_COUNT)]
+    assert len(cards) == 20
+    assert [c["home_team"] for c in cards] == [f"Home {i}" for i in range(20)]
+
+
+def test_upcoming_cards_excludes_scheduled_row_dated_before_now():
+    rows = _card_rows(scheduled_dates=["2026-01-01 16:00", "2026-07-15 16:00"])
+    df = _matches_df(rows)
+    teams = {f"Home {i}" for i in range(2)} | {f"Away {i}" for i in range(2)}
+    crest_by_team, color_by_team = _crests_colors(teams)
+
+    cards = _upcoming_cards(df, "Serie A", 2026, NOW, crest_by_team, color_by_team, teams)
+
+    assert [c["home_team"] for c in cards] == ["Home 1"]
 
 
 def test_upcoming_cards_postponed_rows_always_included_alphabetically_after_dated():
@@ -260,6 +268,183 @@ def test_upcoming_cards_skips_row_with_team_missing_from_known_teams(capsys):
     known_teams = {"Home 0"}  # "Away 0" missing
 
     cards = _upcoming_cards(df, "Serie A", 2026, NOW, crest_by_team, color_by_team, known_teams)
+
+    assert cards == []
+    assert "Home 0 x Away 0" in capsys.readouterr().out
+
+
+# ---------------------------------------------------------------------------
+# _read_snapshot_params / _played_cards
+# ---------------------------------------------------------------------------
+
+
+def _played_rows(*, matches, competition="Serie A", season=2026):
+    """matches: list of (home, away, home_goals, away_goals, match_datetime)."""
+    return [
+        {
+            "competition": competition,
+            "season": season,
+            "match_datetime": dt,
+            "home_team": home,
+            "away_team": away,
+            "home_goals": hg,
+            "away_goals": ag,
+            "status": "played",
+        }
+        for home, away, hg, ag, dt in matches
+    ]
+
+
+def test_read_snapshot_params_reads_scalars_and_every_team(tmp_path):
+    csv_path = tmp_path / "2026_05_01.csv"
+    _write_results_csv(
+        csv_path,
+        [
+            _strengths_row("Team A", 0.1, 0.2, eta=0.02, beta_home=0.3, rho=-0.01),
+            _strengths_row("Team B", -0.1, 0.05, eta=0.02, beta_home=0.3, rho=-0.01),
+        ],
+    )
+
+    params = _read_snapshot_params(str(csv_path))
+
+    assert params == {
+        "eta": 0.02,
+        "beta_home": 0.3,
+        "rho": -0.01,
+        "teams": {
+            "Team A": {"attack": 0.1, "defense": 0.2},
+            "Team B": {"attack": -0.1, "defense": 0.05},
+        },
+    }
+
+
+def test_played_cards_has_model_true_with_two_team_params_slice(tmp_path):
+    results_dir = tmp_path / "results"
+    _write_results_csv(
+        results_dir / "serie_a" / "2026" / "2026_05_01.csv",
+        [
+            _strengths_row("Home 0", 0.1, 0.2, eta=0.02, beta_home=0.3, rho=-0.01),
+            _strengths_row("Away 0", -0.1, 0.05, eta=0.02, beta_home=0.3, rho=-0.01),
+            _strengths_row("Other Team", 0.5, 0.5, eta=0.02, beta_home=0.3, rho=-0.01),
+        ],
+    )
+    rows = _played_rows(matches=[("Home 0", "Away 0", 2, 1, "2026-05-10 16:00")])
+    df = _matches_df(rows)
+    crest_by_team, color_by_team = _crests_colors({"Home 0", "Away 0"})
+
+    cards = _played_cards(
+        df, "Serie A", 2026, crest_by_team, color_by_team, "serie_a", str(results_dir)
+    )
+
+    assert len(cards) == 1
+    card = cards[0]
+    assert card["home_team"] == "Home 0" and card["away_team"] == "Away 0"
+    assert card["home_goals"] == 2 and card["away_goals"] == 1
+    assert card["has_model"] is True
+    assert card["reference_date"] == "2026-05-01"
+    # Only the two relevant teams travel with the card, not the full roster.
+    assert card["params"] == {
+        "eta": 0.02,
+        "beta_home": 0.3,
+        "rho": -0.01,
+        "teams": {
+            "Home 0": {"attack": 0.1, "defense": 0.2},
+            "Away 0": {"attack": -0.1, "defense": 0.05},
+        },
+    }
+
+
+def test_played_cards_has_model_false_when_no_prior_snapshot_exists(tmp_path):
+    results_dir = tmp_path / "results"
+    # Only snapshot AFTER the match -- no valid "prior" snapshot exists yet
+    # (the real, confirmed edge case for a season's earliest played matches).
+    _write_results_csv(
+        results_dir / "serie_a" / "2026" / "2026_05_01.csv",
+        [
+            _strengths_row("Home 0", 0.1, 0.2),
+            _strengths_row("Away 0", -0.1, 0.05),
+        ],
+    )
+    rows = _played_rows(matches=[("Home 0", "Away 0", 2, 1, "2026-01-01 16:00")])
+    df = _matches_df(rows)
+    crest_by_team, color_by_team = _crests_colors({"Home 0", "Away 0"})
+
+    cards = _played_cards(
+        df, "Serie A", 2026, crest_by_team, color_by_team, "serie_a", str(results_dir)
+    )
+
+    assert len(cards) == 1
+    assert cards[0]["has_model"] is False
+    assert cards[0]["reference_date"] is None
+    assert cards[0]["params"] is None
+
+
+def test_played_cards_has_model_false_when_team_missing_from_snapshot_roster(tmp_path):
+    results_dir = tmp_path / "results"
+    _write_results_csv(
+        results_dir / "serie_a" / "2026" / "2026_05_01.csv",
+        [_strengths_row("Home 0", 0.1, 0.2)],  # "Away 0" never fit
+    )
+    rows = _played_rows(matches=[("Home 0", "Away 0", 2, 1, "2026-05-10 16:00")])
+    df = _matches_df(rows)
+    crest_by_team, color_by_team = _crests_colors({"Home 0", "Away 0"})
+
+    cards = _played_cards(
+        df, "Serie A", 2026, crest_by_team, color_by_team, "serie_a", str(results_dir)
+    )
+
+    assert cards[0]["has_model"] is False
+
+
+def test_played_cards_mixed_season_some_with_and_without_a_snapshot(tmp_path):
+    results_dir = tmp_path / "results"
+    _write_results_csv(
+        results_dir / "serie_a" / "2026" / "2026_05_01.csv",
+        [_strengths_row("Home 0", 0.1, 0.2), _strengths_row("Away 0", -0.1, 0.05)],
+    )
+    rows = _played_rows(
+        matches=[
+            ("Home 0", "Away 0", 2, 1, "2026-01-01 16:00"),  # before the only snapshot
+            ("Home 0", "Away 0", 1, 1, "2026-05-10 16:00"),  # after it
+        ]
+    )
+    df = _matches_df(rows)
+    crest_by_team, color_by_team = _crests_colors({"Home 0", "Away 0"})
+
+    cards = _played_cards(
+        df, "Serie A", 2026, crest_by_team, color_by_team, "serie_a", str(results_dir)
+    )
+
+    has_model_by_date = {c["date"][:10]: c["has_model"] for c in cards}
+    assert has_model_by_date == {"2026-01-01": False, "2026-05-10": True}
+
+
+def test_played_cards_most_recent_first():
+    rows = _played_rows(
+        matches=[
+            ("Home 0", "Away 0", 1, 0, "2026-01-01 16:00"),
+            ("Home 0", "Away 0", 2, 0, "2026-06-01 16:00"),
+            ("Home 0", "Away 0", 0, 0, "2026-03-01 16:00"),
+        ]
+    )
+    df = _matches_df(rows)
+    crest_by_team, color_by_team = _crests_colors({"Home 0", "Away 0"})
+
+    cards = _played_cards(
+        df, "Serie A", 2026, crest_by_team, color_by_team, "serie_a", "/nonexistent"
+    )
+
+    assert [c["date"][:10] for c in cards] == ["2026-06-01", "2026-03-01", "2026-01-01"]
+
+
+def test_played_cards_skips_row_with_missing_crest(capsys):
+    rows = _played_rows(matches=[("Home 0", "Away 0", 1, 0, "2026-01-01 16:00")])
+    df = _matches_df(rows)
+    crest_by_team, color_by_team = _crests_colors({"Home 0"})  # "Away 0" missing
+
+    cards = _played_cards(
+        df, "Serie A", 2026, crest_by_team, color_by_team, "serie_a", "/nonexistent"
+    )
 
     assert cards == []
     assert "Home 0 x Away 0" in capsys.readouterr().out
@@ -346,8 +531,13 @@ def test_export_matches_data_writes_manifest_matches_and_params(tmp_path):
     assert (site_dir / "assets" / "crests" / "team.png").read_bytes() == b"crest-bytes"
 
 
-def test_export_matches_data_finished_season_produces_no_file_or_manifest_entry(tmp_path):
-    # All matches for this competition/season are "played" -- no cards.
+def test_export_matches_data_finished_season_produces_no_upcoming_file_or_manifest_entry(
+    tmp_path,
+):
+    # All matches for this competition/season are "played" -- no upcoming
+    # cards/manifest entry, but a played_2026.json + played_manifest.json
+    # entry IS produced (played_teams' fixed match date, 2026-01-01, predates
+    # the only results snapshot, 2026-07-01, so has_model is False here).
     matches_rows = _card_rows(played_teams=[("Home 0", "Away 0")])
     results_rows_by_path = {
         "serie_a/2026/2026_07_01.csv": [
@@ -376,3 +566,52 @@ def test_export_matches_data_finished_season_produces_no_file_or_manifest_entry(
     manifest = json.loads((site_dir / "data" / "matches_manifest.json").read_text())
     assert manifest == {"competitions": []}
     assert not (site_dir / "data" / "serie_a" / "matches_2026.json").exists()
+
+    played_manifest = json.loads((site_dir / "data" / "played_manifest.json").read_text())
+    assert played_manifest == {
+        "competitions": [{"competition": "Serie A", "slug": "serie_a", "seasons": [2026]}]
+    }
+    played_json = json.loads((site_dir / "data" / "serie_a" / "played_2026.json").read_text())
+    assert len(played_json["matches"]) == 1
+    assert played_json["matches"][0]["has_model"] is False
+
+
+def test_export_matches_data_writes_played_cards_with_embedded_params(tmp_path):
+    matches_rows = _card_rows(played_teams=[("Home 0", "Away 0")])  # played on 2026-01-01
+    results_rows_by_path = {
+        # A snapshot BEFORE the match's own date (still filed under the
+        # 2026 season directory -- _snapshot_csv_before looks under
+        # results_dir/<slug>/<season>/, not by the filename's own year), so
+        # has_model is True here.
+        "serie_a/2026/2025_12_01.csv": [
+            _strengths_row("Home 0", 0.1, 0.2),
+            _strengths_row("Away 0", -0.1, 0.05),
+        ],
+    }
+    club_infos_rows = {"Home 0": "#123456", "Away 0": "#654321"}
+
+    matches_path, results_dir, club_infos_path, site_dir = _setup_export(
+        tmp_path,
+        matches_rows=matches_rows,
+        results_rows_by_path=results_rows_by_path,
+        club_infos_rows=club_infos_rows,
+    )
+
+    export_matches_data(
+        seasons=[2026],
+        results_dir=str(results_dir),
+        matches_path=str(matches_path),
+        club_infos_path=str(club_infos_path),
+        site_dir=str(site_dir),
+        now=NOW,
+    )
+
+    played_json = json.loads((site_dir / "data" / "serie_a" / "played_2026.json").read_text())
+    card = played_json["matches"][0]
+    assert card["home_goals"] == 1 and card["away_goals"] == 0
+    assert card["has_model"] is True
+    assert card["reference_date"] == "2025-12-01"
+    assert card["params"]["teams"] == {
+        "Home 0": {"attack": 0.1, "defense": 0.2},
+        "Away 0": {"attack": -0.1, "defense": 0.05},
+    }

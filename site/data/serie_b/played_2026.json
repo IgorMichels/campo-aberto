@@ -1,0 +1,4512 @@
+{
+  "matches": [
+    {
+      "home_team": "Ponte Preta / SP",
+      "away_team": "Criciúma / SC",
+      "home_crest": "assets/crests/pontepreta_bra.png",
+      "away_crest": "assets/crests/criciuma_bra.png",
+      "home_color": "#000000",
+      "away_color": "#FFCC00",
+      "date": "2026-07-08T23:00:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-07-06",
+      "params": {
+        "eta": -0.0656282717841451,
+        "beta_home": 0.3164193768602,
+        "rho": 0.0112505251385768,
+        "teams": {
+          "Ponte Preta / SP": {
+            "attack": -0.67222411415336,
+            "defense": -0.5730690960936999
+          },
+          "Criciúma / SC": {
+            "attack": -0.0906337510578178,
+            "defense": 0.271729425028683
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Athletic / MG",
+      "away_team": "Operário / PR",
+      "home_crest": "assets/crests/athletic_mg.png",
+      "away_crest": "assets/crests/operario_pr.png",
+      "home_color": "#000000",
+      "away_color": "#000000",
+      "date": "2026-07-07T23:00:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-07-06",
+      "params": {
+        "eta": -0.0656282717841451,
+        "beta_home": 0.3164193768602,
+        "rho": 0.0112505251385768,
+        "teams": {
+          "Athletic / MG": {
+            "attack": -0.1649699154241599,
+            "defense": -0.0928486336109064
+          },
+          "Operário / PR": {
+            "attack": -0.063437282326634,
+            "defense": -0.1039520611592468
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Vila Nova / GO",
+      "away_team": "São Bernardo / SP",
+      "home_crest": "assets/crests/vilago.png",
+      "away_crest": "assets/crests/saobernardosp.png",
+      "home_color": "#FDF40F",
+      "away_color": "#FFD100",
+      "date": "2026-07-06T22:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-07-03",
+      "params": {
+        "eta": -0.0581230900888103,
+        "beta_home": 0.3010604578765,
+        "rho": 0.0154960281544646,
+        "teams": {
+          "Vila Nova / GO": {
+            "attack": 0.0157270351152594,
+            "defense": -0.1695382884051957
+          },
+          "São Bernardo / SP": {
+            "attack": -0.0276698816819493,
+            "defense": 0.2732158351978743
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Botafogo / SP",
+      "away_team": "Avaí / SC",
+      "home_crest": "assets/crests/botafogosp_bra.png",
+      "away_crest": "assets/crests/avai_bra.png",
+      "home_color": "#E52D2D",
+      "away_color": "#005AB2",
+      "date": "2026-07-06T22:00:00Z",
+      "home_goals": 3,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-07-03",
+      "params": {
+        "eta": -0.0581230900888103,
+        "beta_home": 0.3010604578765,
+        "rho": 0.0154960281544646,
+        "teams": {
+          "Botafogo / SP": {
+            "attack": -0.3495469426272992,
+            "defense": -0.0724559236037992
+          },
+          "Avaí / SC": {
+            "attack": -0.1089985755334626,
+            "defense": -0.1673483959556748
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Náutico / PE",
+      "away_team": "Juventude / RS",
+      "home_crest": "assets/crests/nautico.png",
+      "away_crest": "assets/crests/juventude.png",
+      "home_color": "#ED1C24",
+      "away_color": "#008000",
+      "date": "2026-07-05T23:30:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-07-03",
+      "params": {
+        "eta": -0.0581230900888103,
+        "beta_home": 0.3010604578765,
+        "rho": 0.0154960281544646,
+        "teams": {
+          "Náutico / PE": {
+            "attack": 0.1530131711491822,
+            "defense": -0.2403563595750018
+          },
+          "Juventude / RS": {
+            "attack": -0.0899314075340031,
+            "defense": 0.0725671482952342
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Goiás / GO",
+      "away_team": "Ceará / CE",
+      "home_crest": "assets/crests/goias.png",
+      "away_crest": "assets/crests/ceara_bra.png",
+      "home_color": "#006633",
+      "away_color": "#000000",
+      "date": "2026-07-04T23:00:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-07-03",
+      "params": {
+        "eta": -0.0581230900888103,
+        "beta_home": 0.3010604578765,
+        "rho": 0.0154960281544646,
+        "teams": {
+          "Goiás / GO": {
+            "attack": -0.183263015379044,
+            "defense": -0.1002619249682919
+          },
+          "Ceará / CE": {
+            "attack": -0.1810719907823696,
+            "defense": 0.0597503772337205
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Londrina / PR",
+      "away_team": "CRB / AL",
+      "home_crest": "assets/crests/londrina_pr.png",
+      "away_crest": "assets/crests/crb_bra.png",
+      "home_color": "#E5292E",
+      "away_color": "#ED1C2A",
+      "date": "2026-07-04T19:00:00Z",
+      "home_goals": 5,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-07-03",
+      "params": {
+        "eta": -0.0581230900888103,
+        "beta_home": 0.3010604578765,
+        "rho": 0.0154960281544646,
+        "teams": {
+          "Londrina / PR": {
+            "attack": 0.0491901562934977,
+            "defense": -0.414795436759374
+          },
+          "CRB / AL": {
+            "attack": 0.1246626075198867,
+            "defense": -0.2785474894440494
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Novorizontino / SP",
+      "away_team": "Atlético Goianiense / GO",
+      "home_crest": "assets/crests/novorizontino.png",
+      "away_crest": "assets/crests/atleticogo_bra.png",
+      "home_color": "#F6E32F",
+      "away_color": "#CC0000",
+      "date": "2026-07-04T19:00:00Z",
+      "home_goals": 3,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-07-03",
+      "params": {
+        "eta": -0.0581230900888103,
+        "beta_home": 0.3010604578765,
+        "rho": 0.0154960281544646,
+        "teams": {
+          "Novorizontino / SP": {
+            "attack": 0.0681959185922533,
+            "defense": 0.1544880677772414
+          },
+          "Atlético Goianiense / GO": {
+            "attack": -0.1613032164665453,
+            "defense": 0.0069593185779625
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Criciúma / SC",
+      "away_team": "Sport / PE",
+      "home_crest": "assets/crests/criciuma_bra.png",
+      "away_crest": "assets/crests/sport.png",
+      "home_color": "#FFCC00",
+      "away_color": "#CC001A",
+      "date": "2026-07-04T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-07-03",
+      "params": {
+        "eta": -0.0581230900888103,
+        "beta_home": 0.3010604578765,
+        "rho": 0.0154960281544646,
+        "teams": {
+          "Criciúma / SC": {
+            "attack": -0.0743885439065046,
+            "defense": 0.2320503204579417
+          },
+          "Sport / PE": {
+            "attack": -0.1282480920800852,
+            "defense": -0.1139382264503218
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Fortaleza / CE",
+      "away_team": "Ponte Preta / SP",
+      "home_crest": "assets/crests/fortaleza.png",
+      "away_crest": "assets/crests/pontepreta_bra.png",
+      "home_color": "#006CB5",
+      "away_color": "#000000",
+      "date": "2026-07-03T00:00:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-29",
+      "params": {
+        "eta": -0.0559081703536121,
+        "beta_home": 0.3025537426259,
+        "rho": 0.009586062263249,
+        "teams": {
+          "Fortaleza / CE": {
+            "attack": 0.065243731309707,
+            "defense": -0.0107301221738374
+          },
+          "Ponte Preta / SP": {
+            "attack": -0.6187404416088895,
+            "defense": -0.5891950214612299
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Cuiabá / MT",
+      "away_team": "América / MG",
+      "home_crest": "assets/crests/cuiaba_bra.png",
+      "away_crest": "assets/crests/americamg_bra.png",
+      "home_color": "#006633",
+      "away_color": "#006140",
+      "date": "2026-07-02T23:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-29",
+      "params": {
+        "eta": -0.0559081703536121,
+        "beta_home": 0.3025537426259,
+        "rho": 0.009586062263249,
+        "teams": {
+          "Cuiabá / MT": {
+            "attack": -0.356981514962103,
+            "defense": 0.179642439203813
+          },
+          "América / MG": {
+            "attack": -0.3067112360406872,
+            "defense": -0.262548073453653
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Botafogo / SP",
+      "away_team": "CRB / AL",
+      "home_crest": "assets/crests/botafogosp_bra.png",
+      "away_crest": "assets/crests/crb_bra.png",
+      "home_color": "#E52D2D",
+      "away_color": "#ED1C2A",
+      "date": "2026-06-30T23:00:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-29",
+      "params": {
+        "eta": -0.0559081703536121,
+        "beta_home": 0.3025537426259,
+        "rho": 0.009586062263249,
+        "teams": {
+          "Botafogo / SP": {
+            "attack": -0.3003825138695087,
+            "defense": -0.0831491469305726
+          },
+          "CRB / AL": {
+            "attack": 0.1215746698141232,
+            "defense": -0.31227143211926
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Náutico / PE",
+      "away_team": "Goiás / GO",
+      "home_crest": "assets/crests/nautico.png",
+      "away_crest": "assets/crests/goias.png",
+      "home_color": "#ED1C24",
+      "away_color": "#006633",
+      "date": "2026-06-28T21:30:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-26",
+      "params": {
+        "eta": -0.047367796369211,
+        "beta_home": 0.2971338844712,
+        "rho": 0.0007166683462953,
+        "teams": {
+          "Náutico / PE": {
+            "attack": 0.2385809422037684,
+            "defense": -0.2278728291597247
+          },
+          "Goiás / GO": {
+            "attack": -0.1875832036039594,
+            "defense": -0.1540834590710137
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Fortaleza / CE",
+      "away_team": "Sport / PE",
+      "home_crest": "assets/crests/fortaleza.png",
+      "away_crest": "assets/crests/sport.png",
+      "home_color": "#006CB5",
+      "away_color": "#CC001A",
+      "date": "2026-06-28T21:30:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-26",
+      "params": {
+        "eta": -0.047367796369211,
+        "beta_home": 0.2971338844712,
+        "rho": 0.0007166683462953,
+        "teams": {
+          "Fortaleza / CE": {
+            "attack": 0.0502164049400744,
+            "defense": 0.0039663358900569
+          },
+          "Sport / PE": {
+            "attack": -0.1376493473125326,
+            "defense": -0.0908362386144393
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Juventude / RS",
+      "away_team": "Ceará / CE",
+      "home_crest": "assets/crests/juventude.png",
+      "away_crest": "assets/crests/ceara_bra.png",
+      "home_color": "#008000",
+      "away_color": "#000000",
+      "date": "2026-06-28T19:00:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-26",
+      "params": {
+        "eta": -0.047367796369211,
+        "beta_home": 0.2971338844712,
+        "rho": 0.0007166683462953,
+        "teams": {
+          "Juventude / RS": {
+            "attack": -0.1318071743145997,
+            "defense": 0.053940237989499
+          },
+          "Ceará / CE": {
+            "attack": -0.1504439645691344,
+            "defense": 0.1017270509076424
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Atlético Goianiense / GO",
+      "away_team": "Ponte Preta / SP",
+      "home_crest": "assets/crests/atleticogo_bra.png",
+      "away_crest": "assets/crests/pontepreta_bra.png",
+      "home_color": "#CC0000",
+      "away_color": "#000000",
+      "date": "2026-06-28T19:00:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-26",
+      "params": {
+        "eta": -0.047367796369211,
+        "beta_home": 0.2971338844712,
+        "rho": 0.0007166683462953,
+        "teams": {
+          "Atlético Goianiense / GO": {
+            "attack": -0.1724821032537111,
+            "defense": -0.0071492424237721
+          },
+          "Ponte Preta / SP": {
+            "attack": -0.5760741332639822,
+            "defense": -0.573512655788558
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Athletic / MG",
+      "away_team": "Avaí / SC",
+      "home_crest": "assets/crests/athletic_mg.png",
+      "away_crest": "assets/crests/avai_bra.png",
+      "home_color": "#000000",
+      "away_color": "#005AB2",
+      "date": "2026-06-28T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-26",
+      "params": {
+        "eta": -0.047367796369211,
+        "beta_home": 0.2971338844712,
+        "rho": 0.0007166683462953,
+        "teams": {
+          "Athletic / MG": {
+            "attack": -0.174557262717529,
+            "defense": -0.1295686006363231
+          },
+          "Avaí / SC": {
+            "attack": -0.0926183750632046,
+            "defense": -0.1751807076000873
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Criciúma / SC",
+      "away_team": "São Bernardo / SP",
+      "home_crest": "assets/crests/criciuma_bra.png",
+      "away_crest": "assets/crests/saobernardosp.png",
+      "home_color": "#FFCC00",
+      "away_color": "#FFD100",
+      "date": "2026-06-27T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-26",
+      "params": {
+        "eta": -0.047367796369211,
+        "beta_home": 0.2971338844712,
+        "rho": 0.0007166683462953,
+        "teams": {
+          "Criciúma / SC": {
+            "attack": -0.0893594549476104,
+            "defense": 0.2096312473960362
+          },
+          "São Bernardo / SP": {
+            "attack": 0.00313419005026,
+            "defense": 0.293226984717045
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Operário / PR",
+      "away_team": "América / MG",
+      "home_crest": "assets/crests/operario_pr.png",
+      "away_crest": "assets/crests/americamg_bra.png",
+      "home_color": "#000000",
+      "away_color": "#006140",
+      "date": "2026-06-27T14:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-26",
+      "params": {
+        "eta": -0.047367796369211,
+        "beta_home": 0.2971338844712,
+        "rho": 0.0007166683462953,
+        "teams": {
+          "Operário / PR": {
+            "attack": -0.0612176693842239,
+            "defense": -0.1180734697031814
+          },
+          "América / MG": {
+            "attack": -0.2863303441689428,
+            "defense": -0.2744350430393529
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Novorizontino / SP",
+      "away_team": "Vila Nova / GO",
+      "home_crest": "assets/crests/novorizontino.png",
+      "away_crest": "assets/crests/vilago.png",
+      "home_color": "#F6E32F",
+      "away_color": "#FDF40F",
+      "date": "2026-06-26T22:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-22",
+      "params": {
+        "eta": -0.0514061069939439,
+        "beta_home": 0.3020060053039999,
+        "rho": -0.0003269395054717,
+        "teams": {
+          "Novorizontino / SP": {
+            "attack": 0.0383851683725305,
+            "defense": 0.1500423006529927
+          },
+          "Vila Nova / GO": {
+            "attack": -0.0094436085523268,
+            "defense": -0.1466330005750775
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Cuiabá / MT",
+      "away_team": "Londrina / PR",
+      "home_crest": "assets/crests/cuiaba_bra.png",
+      "away_crest": "assets/crests/londrina_pr.png",
+      "home_color": "#006633",
+      "away_color": "#E5292E",
+      "date": "2026-06-25T23:30:00Z",
+      "home_goals": 2,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-06-22",
+      "params": {
+        "eta": -0.0514061069939439,
+        "beta_home": 0.3020060053039999,
+        "rho": -0.0003269395054717,
+        "teams": {
+          "Cuiabá / MT": {
+            "attack": -0.396933357639912,
+            "defense": 0.246553267631891
+          },
+          "Londrina / PR": {
+            "attack": -0.0316931939886811,
+            "defense": -0.377444348779437
+          }
+        }
+      }
+    },
+    {
+      "home_team": "América / MG",
+      "away_team": "Criciúma / SC",
+      "home_crest": "assets/crests/americamg_bra.png",
+      "away_crest": "assets/crests/criciuma_bra.png",
+      "home_color": "#006140",
+      "away_color": "#FFCC00",
+      "date": "2026-06-23T23:00:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-22",
+      "params": {
+        "eta": -0.0514061069939439,
+        "beta_home": 0.3020060053039999,
+        "rho": -0.0003269395054717,
+        "teams": {
+          "América / MG": {
+            "attack": -0.2484222200172687,
+            "defense": -0.2780096030409055
+          },
+          "Criciúma / SC": {
+            "attack": -0.0779610055997555,
+            "defense": 0.1667368456376713
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ponte Preta / SP",
+      "away_team": "Novorizontino / SP",
+      "home_crest": "assets/crests/pontepreta_bra.png",
+      "away_crest": "assets/crests/novorizontino.png",
+      "home_color": "#000000",
+      "away_color": "#F6E32F",
+      "date": "2026-06-22T23:00:00Z",
+      "home_goals": 0,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-06-19",
+      "params": {
+        "eta": -0.0562308075113584,
+        "beta_home": 0.3069656386471,
+        "rho": -0.010678773806964,
+        "teams": {
+          "Ponte Preta / SP": {
+            "attack": -0.4904772661729439,
+            "defense": -0.5750793728985176
+          },
+          "Novorizontino / SP": {
+            "attack": 0.0421934750128352,
+            "defense": 0.1467653451421773
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Goiás / GO",
+      "away_team": "Operário / PR",
+      "home_crest": "assets/crests/goias.png",
+      "away_crest": "assets/crests/operario_pr.png",
+      "home_color": "#006633",
+      "away_color": "#000000",
+      "date": "2026-06-21T21:30:00Z",
+      "home_goals": 0,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-06-19",
+      "params": {
+        "eta": -0.0562308075113584,
+        "beta_home": 0.3069656386471,
+        "rho": -0.010678773806964,
+        "teams": {
+          "Goiás / GO": {
+            "attack": -0.1492146532570585,
+            "defense": -0.0905587329047427
+          },
+          "Operário / PR": {
+            "attack": -0.1233407735535134,
+            "defense": -0.1657783146727452
+          }
+        }
+      }
+    },
+    {
+      "home_team": "São Bernardo / SP",
+      "away_team": "Juventude / RS",
+      "home_crest": "assets/crests/saobernardosp.png",
+      "away_crest": "assets/crests/juventude.png",
+      "home_color": "#FFD100",
+      "away_color": "#008000",
+      "date": "2026-06-21T20:00:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-19",
+      "params": {
+        "eta": -0.0562308075113584,
+        "beta_home": 0.3069656386471,
+        "rho": -0.010678773806964,
+        "teams": {
+          "São Bernardo / SP": {
+            "attack": 0.0908110888649156,
+            "defense": 0.3197436083998388
+          },
+          "Juventude / RS": {
+            "attack": -0.1491402282852981,
+            "defense": 0.011823748485691
+          }
+        }
+      }
+    },
+    {
+      "home_team": "CRB / AL",
+      "away_team": "Fortaleza / CE",
+      "home_crest": "assets/crests/crb_bra.png",
+      "away_crest": "assets/crests/fortaleza.png",
+      "home_color": "#ED1C2A",
+      "away_color": "#006CB5",
+      "date": "2026-06-21T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-19",
+      "params": {
+        "eta": -0.0562308075113584,
+        "beta_home": 0.3069656386471,
+        "rho": -0.010678773806964,
+        "teams": {
+          "CRB / AL": {
+            "attack": 0.1312678045047645,
+            "defense": -0.32004574407652
+          },
+          "Fortaleza / CE": {
+            "attack": 0.0702856858057777,
+            "defense": -0.0144950427535107
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Avaí / SC",
+      "away_team": "Cuiabá / MT",
+      "home_crest": "assets/crests/avai_bra.png",
+      "away_crest": "assets/crests/cuiaba_bra.png",
+      "home_color": "#005AB2",
+      "away_color": "#006633",
+      "date": "2026-06-21T14:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-19",
+      "params": {
+        "eta": -0.0562308075113584,
+        "beta_home": 0.3069656386471,
+        "rho": -0.010678773806964,
+        "teams": {
+          "Avaí / SC": {
+            "attack": -0.0907008919472057,
+            "defense": -0.215166225803719
+          },
+          "Cuiabá / MT": {
+            "attack": -0.3523960807326964,
+            "defense": 0.238657560556621
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ceará / CE",
+      "away_team": "Botafogo / SP",
+      "home_crest": "assets/crests/ceara_bra.png",
+      "away_crest": "assets/crests/botafogosp_bra.png",
+      "home_color": "#000000",
+      "away_color": "#E52D2D",
+      "date": "2026-06-20T22:00:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-19",
+      "params": {
+        "eta": -0.0562308075113584,
+        "beta_home": 0.3069656386471,
+        "rho": -0.010678773806964,
+        "teams": {
+          "Ceará / CE": {
+            "attack": -0.0973091305127258,
+            "defense": 0.1054982800841549
+          },
+          "Botafogo / SP": {
+            "attack": -0.3131886649917831,
+            "defense": -0.1268622453906827
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Vila Nova / GO",
+      "away_team": "Náutico / PE",
+      "home_crest": "assets/crests/vilago.png",
+      "away_crest": "assets/crests/nautico.png",
+      "home_color": "#FDF40F",
+      "away_color": "#ED1C24",
+      "date": "2026-06-20T22:00:00Z",
+      "home_goals": 4,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-06-19",
+      "params": {
+        "eta": -0.0562308075113584,
+        "beta_home": 0.3069656386471,
+        "rho": -0.010678773806964,
+        "teams": {
+          "Vila Nova / GO": {
+            "attack": -0.0926558059953626,
+            "defense": -0.0820948001014713
+          },
+          "Náutico / PE": {
+            "attack": 0.1325086012374384,
+            "defense": -0.0331262955373756
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Londrina / PR",
+      "away_team": "Athletic / MG",
+      "home_crest": "assets/crests/londrina_pr.png",
+      "away_crest": "assets/crests/athletic_mg.png",
+      "home_color": "#E5292E",
+      "away_color": "#000000",
+      "date": "2026-06-20T14:00:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-19",
+      "params": {
+        "eta": -0.0562308075113584,
+        "beta_home": 0.3069656386471,
+        "rho": -0.010678773806964,
+        "teams": {
+          "Londrina / PR": {
+            "attack": -0.0801207428640439,
+            "defense": -0.443328145931204
+          },
+          "Athletic / MG": {
+            "attack": -0.1146283172135442,
+            "defense": -0.1173675000810524
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Sport / PE",
+      "away_team": "Atlético Goianiense / GO",
+      "home_crest": "assets/crests/sport.png",
+      "away_crest": "assets/crests/atleticogo_bra.png",
+      "home_color": "#CC001A",
+      "away_color": "#CC0000",
+      "date": "2026-06-19T00:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-15",
+      "params": {
+        "eta": -0.0644351283869015,
+        "beta_home": 0.313359481407,
+        "rho": -0.0059724389380877,
+        "teams": {
+          "Sport / PE": {
+            "attack": -0.1202262535336604,
+            "defense": -0.0958558586038404
+          },
+          "Atlético Goianiense / GO": {
+            "attack": -0.1748448137197718,
+            "defense": -0.038271946132128
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Fortaleza / CE",
+      "away_team": "América / MG",
+      "home_crest": "assets/crests/fortaleza.png",
+      "away_crest": "assets/crests/americamg_bra.png",
+      "home_color": "#006CB5",
+      "away_color": "#006140",
+      "date": "2026-06-16T23:00:00Z",
+      "home_goals": 0,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-06-15",
+      "params": {
+        "eta": -0.0644351283869015,
+        "beta_home": 0.313359481407,
+        "rho": -0.0059724389380877,
+        "teams": {
+          "Fortaleza / CE": {
+            "attack": 0.1465214685040513,
+            "defense": 0.0620350981450494
+          },
+          "América / MG": {
+            "attack": -0.344407923527345,
+            "defense": -0.338234091025368
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Criciúma / SC",
+      "away_team": "Ceará / CE",
+      "home_crest": "assets/crests/criciuma_bra.png",
+      "away_crest": "assets/crests/ceara_bra.png",
+      "home_color": "#FFCC00",
+      "away_color": "#000000",
+      "date": "2026-06-16T00:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-12",
+      "params": {
+        "eta": -0.0652331357205818,
+        "beta_home": 0.313319380171,
+        "rho": -0.0036462194893627,
+        "teams": {
+          "Criciúma / SC": {
+            "attack": -0.0631203780223659,
+            "defense": 0.1609412735874228
+          },
+          "Ceará / CE": {
+            "attack": -0.097264027634749,
+            "defense": 0.1000936338758192
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Londrina / PR",
+      "away_team": "Avaí / SC",
+      "home_crest": "assets/crests/londrina_pr.png",
+      "away_crest": "assets/crests/avai_bra.png",
+      "home_color": "#E5292E",
+      "away_color": "#005AB2",
+      "date": "2026-06-16T00:00:00Z",
+      "home_goals": 3,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-06-12",
+      "params": {
+        "eta": -0.0652331357205818,
+        "beta_home": 0.313319380171,
+        "rho": -0.0036462194893627,
+        "teams": {
+          "Londrina / PR": {
+            "attack": -0.2110256970050303,
+            "defense": -0.3913426591052558
+          },
+          "Avaí / SC": {
+            "attack": -0.1085873601207224,
+            "defense": -0.1667017900924761
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Novorizontino / SP",
+      "away_team": "Náutico / PE",
+      "home_crest": "assets/crests/novorizontino.png",
+      "away_crest": "assets/crests/nautico.png",
+      "home_color": "#F6E32F",
+      "away_color": "#ED1C24",
+      "date": "2026-06-14T22:00:00Z",
+      "home_goals": 2,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-06-12",
+      "params": {
+        "eta": -0.0652331357205818,
+        "beta_home": 0.313319380171,
+        "rho": -0.0036462194893627,
+        "teams": {
+          "Novorizontino / SP": {
+            "attack": 0.0240923079198941,
+            "defense": 0.1949664123087383
+          },
+          "Náutico / PE": {
+            "attack": 0.0628089883949754,
+            "defense": 0.0256928835583288
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Botafogo / SP",
+      "away_team": "Operário / PR",
+      "home_crest": "assets/crests/botafogosp_bra.png",
+      "away_crest": "assets/crests/operario_pr.png",
+      "home_color": "#E52D2D",
+      "away_color": "#000000",
+      "date": "2026-06-14T22:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-12",
+      "params": {
+        "eta": -0.0652331357205818,
+        "beta_home": 0.313319380171,
+        "rho": -0.0036462194893627,
+        "teams": {
+          "Botafogo / SP": {
+            "attack": -0.344124400762242,
+            "defense": -0.1338932752637426
+          },
+          "Operário / PR": {
+            "attack": -0.1145378797326542,
+            "defense": -0.1483028552203472
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Cuiabá / MT",
+      "away_team": "Vila Nova / GO",
+      "home_crest": "assets/crests/cuiaba_bra.png",
+      "away_crest": "assets/crests/vilago.png",
+      "home_color": "#006633",
+      "away_color": "#FDF40F",
+      "date": "2026-06-14T20:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-12",
+      "params": {
+        "eta": -0.0652331357205818,
+        "beta_home": 0.313319380171,
+        "rho": -0.0036462194893627,
+        "teams": {
+          "Cuiabá / MT": {
+            "attack": -0.3376558529897779,
+            "defense": 0.2008002929718363
+          },
+          "Vila Nova / GO": {
+            "attack": -0.0561589095830473,
+            "defense": -0.1038064656520627
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Athletic / MG",
+      "away_team": "Goiás / GO",
+      "home_crest": "assets/crests/athletic_mg.png",
+      "away_crest": "assets/crests/goias.png",
+      "home_color": "#000000",
+      "away_color": "#006633",
+      "date": "2026-06-14T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-12",
+      "params": {
+        "eta": -0.0652331357205818,
+        "beta_home": 0.313319380171,
+        "rho": -0.0036462194893627,
+        "teams": {
+          "Athletic / MG": {
+            "attack": -0.097545302565573,
+            "defense": -0.1255797395033812
+          },
+          "Goiás / GO": {
+            "attack": -0.1396806643773976,
+            "defense": -0.1144833822196747
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Juventude / RS",
+      "away_team": "Ponte Preta / SP",
+      "home_crest": "assets/crests/juventude.png",
+      "away_crest": "assets/crests/pontepreta_bra.png",
+      "home_color": "#008000",
+      "away_color": "#000000",
+      "date": "2026-06-14T14:00:00Z",
+      "home_goals": 3,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-12",
+      "params": {
+        "eta": -0.0652331357205818,
+        "beta_home": 0.313319380171,
+        "rho": -0.0036462194893627,
+        "teams": {
+          "Juventude / RS": {
+            "attack": -0.1749855110666389,
+            "defense": -0.0087726683100025
+          },
+          "Ponte Preta / SP": {
+            "attack": -0.4471475426616443,
+            "defense": -0.540586821872287
+          }
+        }
+      }
+    },
+    {
+      "home_team": "São Bernardo / SP",
+      "away_team": "Sport / PE",
+      "home_crest": "assets/crests/saobernardosp.png",
+      "away_crest": "assets/crests/sport.png",
+      "home_color": "#FFD100",
+      "away_color": "#CC001A",
+      "date": "2026-06-14T14:00:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-12",
+      "params": {
+        "eta": -0.0652331357205818,
+        "beta_home": 0.313319380171,
+        "rho": -0.0036462194893627,
+        "teams": {
+          "São Bernardo / SP": {
+            "attack": 0.2053368516372426,
+            "defense": 0.2201918993355654
+          },
+          "Sport / PE": {
+            "attack": -0.0844693029320918,
+            "defense": -0.1456153039700042
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Atlético Goianiense / GO",
+      "away_team": "CRB / AL",
+      "home_crest": "assets/crests/atleticogo_bra.png",
+      "away_crest": "assets/crests/crb_bra.png",
+      "home_color": "#CC0000",
+      "away_color": "#ED1C2A",
+      "date": "2026-06-12T22:00:00Z",
+      "home_goals": 3,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-06-08",
+      "params": {
+        "eta": -0.0704957113028061,
+        "beta_home": 0.3237159214839,
+        "rho": -0.0067765012390505,
+        "teams": {
+          "Atlético Goianiense / GO": {
+            "attack": -0.2759609592529264,
+            "defense": 0.0453245039468826
+          },
+          "CRB / AL": {
+            "attack": 0.0730898477575956,
+            "defense": -0.2794915391052155
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Sport / PE",
+      "away_team": "Athletic / MG",
+      "home_crest": "assets/crests/sport.png",
+      "away_crest": "assets/crests/athletic_mg.png",
+      "home_color": "#CC001A",
+      "away_color": "#000000",
+      "date": "2026-06-11T00:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-08",
+      "params": {
+        "eta": -0.0704957113028061,
+        "beta_home": 0.3237159214839,
+        "rho": -0.0067765012390505,
+        "teams": {
+          "Sport / PE": {
+            "attack": -0.074227810466837,
+            "defense": -0.1506243093199161
+          },
+          "Athletic / MG": {
+            "attack": -0.0924766618421262,
+            "defense": -0.1418386618825486
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Goiás / GO",
+      "away_team": "Novorizontino / SP",
+      "home_crest": "assets/crests/goias.png",
+      "away_crest": "assets/crests/novorizontino.png",
+      "home_color": "#006633",
+      "away_color": "#F6E32F",
+      "date": "2026-06-10T23:00:00Z",
+      "home_goals": 0,
+      "away_goals": 4,
+      "has_model": true,
+      "reference_date": "2026-06-08",
+      "params": {
+        "eta": -0.0704957113028061,
+        "beta_home": 0.3237159214839,
+        "rho": -0.0067765012390505,
+        "teams": {
+          "Goiás / GO": {
+            "attack": -0.1050407348662939,
+            "defense": -0.0036513537170896
+          },
+          "Novorizontino / SP": {
+            "attack": -0.0740290409154614,
+            "defense": 0.1557786936326789
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ceará / CE",
+      "away_team": "Avaí / SC",
+      "home_crest": "assets/crests/ceara_bra.png",
+      "away_crest": "assets/crests/avai_bra.png",
+      "home_color": "#000000",
+      "away_color": "#005AB2",
+      "date": "2026-06-10T23:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-08",
+      "params": {
+        "eta": -0.0704957113028061,
+        "beta_home": 0.3237159214839,
+        "rho": -0.0067765012390505,
+        "teams": {
+          "Ceará / CE": {
+            "attack": -0.1269389185481085,
+            "defense": 0.106230717303356
+          },
+          "Avaí / SC": {
+            "attack": -0.1102301441022871,
+            "defense": -0.1462645713561228
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Náutico / PE",
+      "away_team": "Fortaleza / CE",
+      "home_crest": "assets/crests/nautico.png",
+      "away_crest": "assets/crests/fortaleza.png",
+      "home_color": "#ED1C24",
+      "away_color": "#006CB5",
+      "date": "2026-06-09T22:00:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-08",
+      "params": {
+        "eta": -0.0704957113028061,
+        "beta_home": 0.3237159214839,
+        "rho": -0.0067765012390505,
+        "teams": {
+          "Náutico / PE": {
+            "attack": 0.1740332132324709,
+            "defense": 0.0192691976089627
+          },
+          "Fortaleza / CE": {
+            "attack": 0.1467295303310271,
+            "defense": 0.0108059919274034
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ponte Preta / SP",
+      "away_team": "Cuiabá / MT",
+      "home_crest": "assets/crests/pontepreta_bra.png",
+      "away_crest": "assets/crests/cuiaba_bra.png",
+      "home_color": "#000000",
+      "away_color": "#006633",
+      "date": "2026-06-09T22:00:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-06-08",
+      "params": {
+        "eta": -0.0704957113028061,
+        "beta_home": 0.3237159214839,
+        "rho": -0.0067765012390505,
+        "teams": {
+          "Ponte Preta / SP": {
+            "attack": -0.476176081976161,
+            "defense": -0.4854447678315029
+          },
+          "Cuiabá / MT": {
+            "attack": -0.3778663376597,
+            "defense": 0.2199160312310507
+          }
+        }
+      }
+    },
+    {
+      "home_team": "América / MG",
+      "away_team": "Atlético Goianiense / GO",
+      "home_crest": "assets/crests/americamg_bra.png",
+      "away_crest": "assets/crests/atleticogo_bra.png",
+      "home_color": "#006140",
+      "away_color": "#CC0000",
+      "date": "2026-06-08T23:00:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-06-05",
+      "params": {
+        "eta": -0.0722213209673027,
+        "beta_home": 0.325611754862,
+        "rho": -0.0100862116740797,
+        "teams": {
+          "América / MG": {
+            "attack": -0.3310077937220723,
+            "defense": -0.3126308761689583
+          },
+          "Atlético Goianiense / GO": {
+            "attack": -0.2714797217595527,
+            "defense": 0.0443304719562092
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Vila Nova / GO",
+      "away_team": "Botafogo / SP",
+      "home_crest": "assets/crests/vilago.png",
+      "away_crest": "assets/crests/botafogosp_bra.png",
+      "home_color": "#FDF40F",
+      "away_color": "#E52D2D",
+      "date": "2026-06-08T23:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-05",
+      "params": {
+        "eta": -0.0722213209673027,
+        "beta_home": 0.325611754862,
+        "rho": -0.0100862116740797,
+        "teams": {
+          "Vila Nova / GO": {
+            "attack": -0.0355426933970379,
+            "defense": -0.1336785674562529
+          },
+          "Botafogo / SP": {
+            "attack": -0.300840113623255,
+            "defense": -0.157158768600289
+          }
+        }
+      }
+    },
+    {
+      "home_team": "CRB / AL",
+      "away_team": "São Bernardo / SP",
+      "home_crest": "assets/crests/crb_bra.png",
+      "away_crest": "assets/crests/saobernardosp.png",
+      "home_color": "#ED1C2A",
+      "away_color": "#FFD100",
+      "date": "2026-06-07T19:00:00Z",
+      "home_goals": 2,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-06-05",
+      "params": {
+        "eta": -0.0722213209673027,
+        "beta_home": 0.325611754862,
+        "rho": -0.0100862116740797,
+        "teams": {
+          "CRB / AL": {
+            "attack": 0.0467975445364595,
+            "defense": -0.2333573170900018
+          },
+          "São Bernardo / SP": {
+            "attack": 0.1093891311648083,
+            "defense": 0.3365259349814369
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Criciúma / SC",
+      "away_team": "Londrina / PR",
+      "home_crest": "assets/crests/criciuma_bra.png",
+      "away_crest": "assets/crests/londrina_pr.png",
+      "home_color": "#FFCC00",
+      "away_color": "#E5292E",
+      "date": "2026-06-06T14:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-06-05",
+      "params": {
+        "eta": -0.0722213209673027,
+        "beta_home": 0.325611754862,
+        "rho": -0.0100862116740797,
+        "teams": {
+          "Criciúma / SC": {
+            "attack": -0.0277244177472211,
+            "defense": 0.1303357754342615
+          },
+          "Londrina / PR": {
+            "attack": -0.129332579748014,
+            "defense": -0.4631449871474549
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Operário / PR",
+      "away_team": "Juventude / RS",
+      "home_crest": "assets/crests/operario_pr.png",
+      "away_crest": "assets/crests/juventude.png",
+      "home_color": "#000000",
+      "away_color": "#008000",
+      "date": "2026-06-05T23:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-01",
+      "params": {
+        "eta": -0.0687009275640389,
+        "beta_home": 0.325770280122,
+        "rho": -0.0066283134512093,
+        "teams": {
+          "Operário / PR": {
+            "attack": -0.1508921265472644,
+            "defense": -0.1479018425868546
+          },
+          "Juventude / RS": {
+            "attack": -0.1783768911100534,
+            "defense": 0.0164879661318636
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ponte Preta / SP",
+      "away_team": "Botafogo / SP",
+      "home_crest": "assets/crests/pontepreta_bra.png",
+      "away_crest": "assets/crests/botafogosp_bra.png",
+      "home_color": "#000000",
+      "away_color": "#E52D2D",
+      "date": "2026-06-01T22:00:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-29",
+      "params": {
+        "eta": -0.0621891792354045,
+        "beta_home": 0.316610999401,
+        "rho": -0.0146853522692384,
+        "teams": {
+          "Ponte Preta / SP": {
+            "attack": -0.3725419235441629,
+            "defense": -0.524876122552022
+          },
+          "Botafogo / SP": {
+            "attack": -0.2490985707340285,
+            "defense": -0.1844562334023876
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Cuiabá / MT",
+      "away_team": "CRB / AL",
+      "home_crest": "assets/crests/cuiaba_bra.png",
+      "away_crest": "assets/crests/crb_bra.png",
+      "home_color": "#006633",
+      "away_color": "#ED1C2A",
+      "date": "2026-05-31T23:30:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-29",
+      "params": {
+        "eta": -0.0621891792354045,
+        "beta_home": 0.316610999401,
+        "rho": -0.0146853522692384,
+        "teams": {
+          "Cuiabá / MT": {
+            "attack": -0.4298212100182029,
+            "defense": 0.1862693554935666
+          },
+          "CRB / AL": {
+            "attack": 0.0591638070269149,
+            "defense": -0.2057718563573917
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ceará / CE",
+      "away_team": "Operário / PR",
+      "home_crest": "assets/crests/ceara_bra.png",
+      "away_crest": "assets/crests/operario_pr.png",
+      "home_color": "#000000",
+      "away_color": "#000000",
+      "date": "2026-05-31T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-05-29",
+      "params": {
+        "eta": -0.0621891792354045,
+        "beta_home": 0.316610999401,
+        "rho": -0.0146853522692384,
+        "teams": {
+          "Ceará / CE": {
+            "attack": -0.1148044070657033,
+            "defense": 0.1525252091142201
+          },
+          "Operário / PR": {
+            "attack": -0.208224646865279,
+            "defense": -0.1481567760551936
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Londrina / PR",
+      "away_team": "Vila Nova / GO",
+      "home_crest": "assets/crests/londrina_pr.png",
+      "away_crest": "assets/crests/vilago.png",
+      "home_color": "#E5292E",
+      "away_color": "#FDF40F",
+      "date": "2026-05-31T14:00:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-29",
+      "params": {
+        "eta": -0.0621891792354045,
+        "beta_home": 0.316610999401,
+        "rho": -0.0146853522692384,
+        "teams": {
+          "Londrina / PR": {
+            "attack": -0.0014244675383709,
+            "defense": -0.4884103194036674
+          },
+          "Vila Nova / GO": {
+            "attack": -0.0207241611188742,
+            "defense": -0.1780648998998502
+          }
+        }
+      }
+    },
+    {
+      "home_team": "São Bernardo / SP",
+      "away_team": "Novorizontino / SP",
+      "home_crest": "assets/crests/saobernardosp.png",
+      "away_crest": "assets/crests/novorizontino.png",
+      "home_color": "#FFD100",
+      "away_color": "#F6E32F",
+      "date": "2026-05-31T14:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-29",
+      "params": {
+        "eta": -0.0621891792354045,
+        "beta_home": 0.316610999401,
+        "rho": -0.0146853522692384,
+        "teams": {
+          "São Bernardo / SP": {
+            "attack": 0.1383402511590801,
+            "defense": 0.429104118487165
+          },
+          "Novorizontino / SP": {
+            "attack": -0.0860552183354536,
+            "defense": 0.1329641334074578
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Sport / PE",
+      "away_team": "Náutico / PE",
+      "home_crest": "assets/crests/sport.png",
+      "away_crest": "assets/crests/nautico.png",
+      "home_color": "#CC001A",
+      "away_color": "#ED1C24",
+      "date": "2026-05-30T23:30:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-29",
+      "params": {
+        "eta": -0.0621891792354045,
+        "beta_home": 0.316610999401,
+        "rho": -0.0146853522692384,
+        "teams": {
+          "Sport / PE": {
+            "attack": -0.105585802689155,
+            "defense": -0.185962446147588
+          },
+          "Náutico / PE": {
+            "attack": 0.2647334241584096,
+            "defense": 0.1057681607502644
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Athletic / MG",
+      "away_team": "Fortaleza / CE",
+      "home_crest": "assets/crests/athletic_mg.png",
+      "away_crest": "assets/crests/fortaleza.png",
+      "home_color": "#000000",
+      "away_color": "#006CB5",
+      "date": "2026-05-30T21:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-29",
+      "params": {
+        "eta": -0.0621891792354045,
+        "beta_home": 0.316610999401,
+        "rho": -0.0146853522692384,
+        "teams": {
+          "Athletic / MG": {
+            "attack": -0.0902686263559274,
+            "defense": -0.1851310133123288
+          },
+          "Fortaleza / CE": {
+            "attack": 0.1884453885990195,
+            "defense": 0.0033275284690118
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Atlético Goianiense / GO",
+      "away_team": "Goiás / GO",
+      "home_crest": "assets/crests/atleticogo_bra.png",
+      "away_crest": "assets/crests/goias.png",
+      "home_color": "#CC0000",
+      "away_color": "#006633",
+      "date": "2026-05-30T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-29",
+      "params": {
+        "eta": -0.0621891792354045,
+        "beta_home": 0.316610999401,
+        "rho": -0.0146853522692384,
+        "teams": {
+          "Atlético Goianiense / GO": {
+            "attack": -0.2755438408417526,
+            "defense": 0.0604803516890362
+          },
+          "Goiás / GO": {
+            "attack": -0.1270856856487469,
+            "defense": 0.000609531187413
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Avaí / SC",
+      "away_team": "Criciúma / SC",
+      "home_crest": "assets/crests/avai_bra.png",
+      "away_crest": "assets/crests/criciuma_bra.png",
+      "home_color": "#005AB2",
+      "away_color": "#FFCC00",
+      "date": "2026-05-30T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-05-29",
+      "params": {
+        "eta": -0.0621891792354045,
+        "beta_home": 0.316610999401,
+        "rho": -0.0146853522692384,
+        "teams": {
+          "Avaí / SC": {
+            "attack": -0.1238026405788778,
+            "defense": -0.1142333546398507
+          },
+          "Criciúma / SC": {
+            "attack": -0.0622266075843511,
+            "defense": 0.1297401665982905
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Juventude / RS",
+      "away_team": "América / MG",
+      "home_crest": "assets/crests/juventude.png",
+      "away_crest": "assets/crests/americamg_bra.png",
+      "home_color": "#008000",
+      "away_color": "#006140",
+      "date": "2026-05-30T00:00:00Z",
+      "home_goals": 3,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-25",
+      "params": {
+        "eta": -0.0627650982542029,
+        "beta_home": 0.318271982381,
+        "rho": -0.015180060187028,
+        "teams": {
+          "Juventude / RS": {
+            "attack": -0.2534965324184531,
+            "defense": -0.0008643146375169
+          },
+          "América / MG": {
+            "attack": -0.3119796335608941,
+            "defense": -0.2591455957370069
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Botafogo / SP",
+      "away_team": "Athletic / MG",
+      "home_crest": "assets/crests/botafogosp_bra.png",
+      "away_crest": "assets/crests/athletic_mg.png",
+      "home_color": "#E52D2D",
+      "away_color": "#000000",
+      "date": "2026-05-25T22:00:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-05-22",
+      "params": {
+        "eta": -0.0657567151914925,
+        "beta_home": 0.3323798005658,
+        "rho": -0.0217662752968448,
+        "teams": {
+          "Botafogo / SP": {
+            "attack": -0.2462502069123514,
+            "defense": -0.1444041631912717
+          },
+          "Athletic / MG": {
+            "attack": -0.1297461425237062,
+            "defense": -0.1996876282405336
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Operário / PR",
+      "away_team": "Criciúma / SC",
+      "home_crest": "assets/crests/operario_pr.png",
+      "away_crest": "assets/crests/criciuma_bra.png",
+      "home_color": "#000000",
+      "away_color": "#FFCC00",
+      "date": "2026-05-24T23:30:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-22",
+      "params": {
+        "eta": -0.0657567151914925,
+        "beta_home": 0.3323798005658,
+        "rho": -0.0217662752968448,
+        "teams": {
+          "Operário / PR": {
+            "attack": -0.2128244716061172,
+            "defense": -0.1387793300334807
+          },
+          "Criciúma / SC": {
+            "attack": -0.0627220800312542,
+            "defense": 0.1380250958761845
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Avaí / SC",
+      "away_team": "Goiás / GO",
+      "home_crest": "assets/crests/avai_bra.png",
+      "away_crest": "assets/crests/goias.png",
+      "home_color": "#005AB2",
+      "away_color": "#006633",
+      "date": "2026-05-24T22:00:00Z",
+      "home_goals": 0,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-05-22",
+      "params": {
+        "eta": -0.0657567151914925,
+        "beta_home": 0.3323798005658,
+        "rho": -0.0217662752968448,
+        "teams": {
+          "Avaí / SC": {
+            "attack": -0.0712657886237499,
+            "defense": -0.0843777956844856
+          },
+          "Goiás / GO": {
+            "attack": -0.1724862052752863,
+            "defense": -0.0361661398269769
+          }
+        }
+      }
+    },
+    {
+      "home_team": "América / MG",
+      "away_team": "Vila Nova / GO",
+      "home_crest": "assets/crests/americamg_bra.png",
+      "away_crest": "assets/crests/vilago.png",
+      "home_color": "#006140",
+      "away_color": "#FDF40F",
+      "date": "2026-05-24T21:30:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-05-22",
+      "params": {
+        "eta": -0.0657567151914925,
+        "beta_home": 0.3323798005658,
+        "rho": -0.0217662752968448,
+        "teams": {
+          "América / MG": {
+            "attack": -0.3047369773991649,
+            "defense": -0.2364246261156631
+          },
+          "Vila Nova / GO": {
+            "attack": -0.0462771043661782,
+            "defense": -0.187811622704595
+          }
+        }
+      }
+    },
+    {
+      "home_team": "CRB / AL",
+      "away_team": "Ponte Preta / SP",
+      "home_crest": "assets/crests/crb_bra.png",
+      "away_crest": "assets/crests/pontepreta_bra.png",
+      "home_color": "#ED1C2A",
+      "away_color": "#000000",
+      "date": "2026-05-24T19:30:00Z",
+      "home_goals": 4,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-05-22",
+      "params": {
+        "eta": -0.0657567151914925,
+        "beta_home": 0.3323798005658,
+        "rho": -0.0217662752968448,
+        "teams": {
+          "CRB / AL": {
+            "attack": 0.0044178270595578,
+            "defense": -0.1636307315690592
+          },
+          "Ponte Preta / SP": {
+            "attack": -0.5028833072652314,
+            "defense": -0.4144572636353659
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Atlético Goianiense / GO",
+      "away_team": "São Bernardo / SP",
+      "home_crest": "assets/crests/atleticogo_bra.png",
+      "away_crest": "assets/crests/saobernardosp.png",
+      "home_color": "#CC0000",
+      "away_color": "#FFD100",
+      "date": "2026-05-24T19:00:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-22",
+      "params": {
+        "eta": -0.0657567151914925,
+        "beta_home": 0.3323798005658,
+        "rho": -0.0217662752968448,
+        "teams": {
+          "Atlético Goianiense / GO": {
+            "attack": -0.2398812336201805,
+            "defense": 0.0609943898904476
+          },
+          "São Bernardo / SP": {
+            "attack": 0.1481166581163704,
+            "defense": 0.3407418625935834
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Juventude / RS",
+      "away_team": "Sport / PE",
+      "home_crest": "assets/crests/juventude.png",
+      "away_crest": "assets/crests/sport.png",
+      "home_color": "#008000",
+      "away_color": "#CC001A",
+      "date": "2026-05-23T23:30:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-22",
+      "params": {
+        "eta": -0.0657567151914925,
+        "beta_home": 0.3323798005658,
+        "rho": -0.0217662752968448,
+        "teams": {
+          "Juventude / RS": {
+            "attack": -0.1935978859088152,
+            "defense": 0.002549511570593
+          },
+          "Sport / PE": {
+            "attack": -0.0993769402201691,
+            "defense": -0.2142573585957332
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Fortaleza / CE",
+      "away_team": "Londrina / PR",
+      "home_crest": "assets/crests/fortaleza.png",
+      "away_crest": "assets/crests/londrina_pr.png",
+      "home_color": "#006CB5",
+      "away_color": "#E5292E",
+      "date": "2026-05-23T21:30:00Z",
+      "home_goals": 3,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-22",
+      "params": {
+        "eta": -0.0657567151914925,
+        "beta_home": 0.3323798005658,
+        "rho": -0.0217662752968448,
+        "teams": {
+          "Fortaleza / CE": {
+            "attack": 0.17290622628838,
+            "defense": -0.0252801331378163
+          },
+          "Londrina / PR": {
+            "attack": 0.097350838647466,
+            "defense": -0.4699089111532344
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Novorizontino / SP",
+      "away_team": "Ceará / CE",
+      "home_crest": "assets/crests/novorizontino.png",
+      "away_crest": "assets/crests/ceara_bra.png",
+      "home_color": "#F6E32F",
+      "away_color": "#000000",
+      "date": "2026-05-23T19:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-22",
+      "params": {
+        "eta": -0.0657567151914925,
+        "beta_home": 0.3323798005658,
+        "rho": -0.0217662752968448,
+        "teams": {
+          "Novorizontino / SP": {
+            "attack": -0.123069692636426,
+            "defense": 0.1524517701139009
+          },
+          "Ceará / CE": {
+            "attack": -0.1392698212786761,
+            "defense": 0.20310633057162
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Náutico / PE",
+      "away_team": "Cuiabá / MT",
+      "home_crest": "assets/crests/nautico.png",
+      "away_crest": "assets/crests/cuiaba_bra.png",
+      "home_color": "#ED1C24",
+      "away_color": "#006633",
+      "date": "2026-05-22T22:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-18",
+      "params": {
+        "eta": -0.0745165080111086,
+        "beta_home": 0.338110865906,
+        "rho": -0.0218720675522194,
+        "teams": {
+          "Náutico / PE": {
+            "attack": 0.3382608046151206,
+            "defense": 0.0472306035188284
+          },
+          "Cuiabá / MT": {
+            "attack": -0.382215976145942,
+            "defense": 0.1614695376158448
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ponte Preta / SP",
+      "away_team": "Londrina / PR",
+      "home_crest": "assets/crests/pontepreta_bra.png",
+      "away_crest": "assets/crests/londrina_pr.png",
+      "home_color": "#000000",
+      "away_color": "#E5292E",
+      "date": "2026-05-18T22:00:00Z",
+      "home_goals": 1,
+      "away_goals": 4,
+      "has_model": true,
+      "reference_date": "2026-05-15",
+      "params": {
+        "eta": -0.0895635311631097,
+        "beta_home": 0.34311200442,
+        "rho": -0.0089631717329048,
+        "teams": {
+          "Ponte Preta / SP": {
+            "attack": -0.4648871133497789,
+            "defense": -0.3021046835209486
+          },
+          "Londrina / PR": {
+            "attack": -0.1667818159506088,
+            "defense": -0.486393306682057
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Sport / PE",
+      "away_team": "CRB / AL",
+      "home_crest": "assets/crests/sport.png",
+      "away_crest": "assets/crests/crb_bra.png",
+      "home_color": "#CC001A",
+      "away_color": "#ED1C2A",
+      "date": "2026-05-17T23:30:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-05-15",
+      "params": {
+        "eta": -0.0895635311631097,
+        "beta_home": 0.34311200442,
+        "rho": -0.0089631717329048,
+        "teams": {
+          "Sport / PE": {
+            "attack": -0.0670864226176706,
+            "defense": -0.195746846866285
+          },
+          "CRB / AL": {
+            "attack": -0.0157532433828761,
+            "defense": -0.1920828823609353
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Criciúma / SC",
+      "away_team": "Atlético Goianiense / GO",
+      "home_crest": "assets/crests/criciuma_bra.png",
+      "away_crest": "assets/crests/atleticogo_bra.png",
+      "home_color": "#FFCC00",
+      "away_color": "#CC0000",
+      "date": "2026-05-17T21:30:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-15",
+      "params": {
+        "eta": -0.0895635311631097,
+        "beta_home": 0.34311200442,
+        "rho": -0.0089631717329048,
+        "teams": {
+          "Criciúma / SC": {
+            "attack": -0.0473675354006769,
+            "defense": 0.1073570199524286
+          },
+          "Atlético Goianiense / GO": {
+            "attack": -0.2388353217252245,
+            "defense": 0.0175202848413927
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ceará / CE",
+      "away_team": "Fortaleza / CE",
+      "home_crest": "assets/crests/ceara_bra.png",
+      "away_crest": "assets/crests/fortaleza.png",
+      "home_color": "#000000",
+      "away_color": "#006CB5",
+      "date": "2026-05-17T21:30:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-15",
+      "params": {
+        "eta": -0.0895635311631097,
+        "beta_home": 0.34311200442,
+        "rho": -0.0089631717329048,
+        "teams": {
+          "Ceará / CE": {
+            "attack": -0.1460473855358,
+            "defense": 0.1861388054976806
+          },
+          "Fortaleza / CE": {
+            "attack": 0.1867898384454078,
+            "defense": 0.007373054968628
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Vila Nova / GO",
+      "away_team": "Avaí / SC",
+      "home_crest": "assets/crests/vilago.png",
+      "away_crest": "assets/crests/avai_bra.png",
+      "home_color": "#FDF40F",
+      "away_color": "#005AB2",
+      "date": "2026-05-17T21:00:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-15",
+      "params": {
+        "eta": -0.0895635311631097,
+        "beta_home": 0.34311200442,
+        "rho": -0.0089631717329048,
+        "teams": {
+          "Vila Nova / GO": {
+            "attack": -0.0478827361112675,
+            "defense": -0.2442330147181657
+          },
+          "Avaí / SC": {
+            "attack": -0.0222484498193787,
+            "defense": -0.0686415398956825
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Athletic / MG",
+      "away_team": "Juventude / RS",
+      "home_crest": "assets/crests/athletic_mg.png",
+      "away_crest": "assets/crests/juventude.png",
+      "home_color": "#000000",
+      "away_color": "#008000",
+      "date": "2026-05-17T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-15",
+      "params": {
+        "eta": -0.0895635311631097,
+        "beta_home": 0.34311200442,
+        "rho": -0.0089631717329048,
+        "teams": {
+          "Athletic / MG": {
+            "attack": -0.1112514607353213,
+            "defense": -0.227799114275093
+          },
+          "Juventude / RS": {
+            "attack": -0.1831507233505269,
+            "defense": -0.0069321700947583
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Cuiabá / MT",
+      "away_team": "Novorizontino / SP",
+      "home_crest": "assets/crests/cuiaba_bra.png",
+      "away_crest": "assets/crests/novorizontino.png",
+      "home_color": "#006633",
+      "away_color": "#F6E32F",
+      "date": "2026-05-16T23:30:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-15",
+      "params": {
+        "eta": -0.0895635311631097,
+        "beta_home": 0.34311200442,
+        "rho": -0.0089631717329048,
+        "teams": {
+          "Cuiabá / MT": {
+            "attack": -0.323782734974159,
+            "defense": 0.1190313032760892
+          },
+          "Novorizontino / SP": {
+            "attack": -0.0879480571126652,
+            "defense": 0.0982719574852293
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Goiás / GO",
+      "away_team": "Botafogo / SP",
+      "home_crest": "assets/crests/goias.png",
+      "away_crest": "assets/crests/botafogosp_bra.png",
+      "home_color": "#006633",
+      "away_color": "#E52D2D",
+      "date": "2026-05-16T21:30:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-15",
+      "params": {
+        "eta": -0.0895635311631097,
+        "beta_home": 0.34311200442,
+        "rho": -0.0089631717329048,
+        "teams": {
+          "Goiás / GO": {
+            "attack": -0.1608588685499506,
+            "defense": -0.0816851835588459
+          },
+          "Botafogo / SP": {
+            "attack": -0.2018543175096132,
+            "defense": -0.1788560635804693
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Operário / PR",
+      "away_team": "Náutico / PE",
+      "home_crest": "assets/crests/operario_pr.png",
+      "away_crest": "assets/crests/nautico.png",
+      "home_color": "#000000",
+      "away_color": "#ED1C24",
+      "date": "2026-05-16T19:00:00Z",
+      "home_goals": 2,
+      "away_goals": 6,
+      "has_model": true,
+      "reference_date": "2026-05-15",
+      "params": {
+        "eta": -0.0895635311631097,
+        "beta_home": 0.34311200442,
+        "rho": -0.0089631717329048,
+        "teams": {
+          "Operário / PR": {
+            "attack": -0.2580628911513946,
+            "defense": 0.0273753937766921
+          },
+          "Náutico / PE": {
+            "attack": -0.0901775007628757,
+            "defense": 0.1686423250247886
+          }
+        }
+      }
+    },
+    {
+      "home_team": "São Bernardo / SP",
+      "away_team": "América / MG",
+      "home_crest": "assets/crests/saobernardosp.png",
+      "away_crest": "assets/crests/americamg_bra.png",
+      "home_color": "#FFD100",
+      "away_color": "#006140",
+      "date": "2026-05-16T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-15",
+      "params": {
+        "eta": -0.0895635311631097,
+        "beta_home": 0.34311200442,
+        "rho": -0.0089631717329048,
+        "teams": {
+          "São Bernardo / SP": {
+            "attack": 0.2844301542028948,
+            "defense": 0.3136620589319789
+          },
+          "América / MG": {
+            "attack": -0.311719720773946,
+            "defense": -0.3008737901711766
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Londrina / PR",
+      "away_team": "São Bernardo / SP",
+      "home_crest": "assets/crests/londrina_pr.png",
+      "away_crest": "assets/crests/saobernardosp.png",
+      "home_color": "#E5292E",
+      "away_color": "#FFD100",
+      "date": "2026-05-12T22:30:00Z",
+      "home_goals": 1,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-05-11",
+      "params": {
+        "eta": -0.0940104018192488,
+        "beta_home": 0.3455077712732,
+        "rho": -0.0098043744245666,
+        "teams": {
+          "Londrina / PR": {
+            "attack": -0.185938877620018,
+            "defense": -0.3969910057419802
+          },
+          "São Bernardo / SP": {
+            "attack": 0.1931974506424082,
+            "defense": 0.341814063981951
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Novorizontino / SP",
+      "away_team": "Botafogo / SP",
+      "home_crest": "assets/crests/novorizontino.png",
+      "away_crest": "assets/crests/botafogosp_bra.png",
+      "home_color": "#F6E32F",
+      "away_color": "#E52D2D",
+      "date": "2026-05-10T22:30:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-04",
+      "params": {
+        "eta": -0.0936605368870129,
+        "beta_home": 0.3415612997271,
+        "rho": -0.0029819785830801,
+        "teams": {
+          "Novorizontino / SP": {
+            "attack": -0.0685961503764951,
+            "defense": 0.0768841936583002
+          },
+          "Botafogo / SP": {
+            "attack": -0.1716576912222338,
+            "defense": -0.1989440535066091
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Avaí / SC",
+      "away_team": "Fortaleza / CE",
+      "home_crest": "assets/crests/avai_bra.png",
+      "away_crest": "assets/crests/fortaleza.png",
+      "home_color": "#005AB2",
+      "away_color": "#006CB5",
+      "date": "2026-05-10T21:30:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-04",
+      "params": {
+        "eta": -0.0936605368870129,
+        "beta_home": 0.3415612997271,
+        "rho": -0.0029819785830801,
+        "teams": {
+          "Avaí / SC": {
+            "attack": 0.0308380363484252,
+            "defense": -0.1088158646906742
+          },
+          "Fortaleza / CE": {
+            "attack": 0.2238591987333217,
+            "defense": -0.026060884513863
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Náutico / PE",
+      "away_team": "América / MG",
+      "home_crest": "assets/crests/nautico.png",
+      "away_crest": "assets/crests/americamg_bra.png",
+      "home_color": "#ED1C24",
+      "away_color": "#006140",
+      "date": "2026-05-10T19:00:00Z",
+      "home_goals": 4,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-04",
+      "params": {
+        "eta": -0.0936605368870129,
+        "beta_home": 0.3415612997271,
+        "rho": -0.0029819785830801,
+        "teams": {
+          "Náutico / PE": {
+            "attack": -0.4473493926641849,
+            "defense": 0.09662485008806
+          },
+          "América / MG": {
+            "attack": -0.2830588680269659,
+            "defense": -0.2144038720181528
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Juventude / RS",
+      "away_team": "Criciúma / SC",
+      "home_crest": "assets/crests/juventude.png",
+      "away_crest": "assets/crests/criciuma_bra.png",
+      "home_color": "#008000",
+      "away_color": "#FFCC00",
+      "date": "2026-05-10T00:15:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-04",
+      "params": {
+        "eta": -0.0936605368870129,
+        "beta_home": 0.3415612997271,
+        "rho": -0.0029819785830801,
+        "teams": {
+          "Juventude / RS": {
+            "attack": -0.1337222419454629,
+            "defense": -0.0311377155270462
+          },
+          "Criciúma / SC": {
+            "attack": -0.0209660005831946,
+            "defense": 0.0636274989770504
+          }
+        }
+      }
+    },
+    {
+      "home_team": "CRB / AL",
+      "away_team": "Operário / PR",
+      "home_crest": "assets/crests/crb_bra.png",
+      "away_crest": "assets/crests/operario_pr.png",
+      "home_color": "#ED1C2A",
+      "away_color": "#000000",
+      "date": "2026-05-09T23:30:00Z",
+      "home_goals": 3,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-04",
+      "params": {
+        "eta": -0.0936605368870129,
+        "beta_home": 0.3415612997271,
+        "rho": -0.0029819785830801,
+        "teams": {
+          "CRB / AL": {
+            "attack": -0.0797687966677463,
+            "defense": -0.2057738924457466
+          },
+          "Operário / PR": {
+            "attack": -0.2229011875872386,
+            "defense": 0.11147490180171
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ceará / CE",
+      "away_team": "Atlético Goianiense / GO",
+      "home_crest": "assets/crests/ceara_bra.png",
+      "away_crest": "assets/crests/atleticogo_bra.png",
+      "home_color": "#000000",
+      "away_color": "#CC0000",
+      "date": "2026-05-09T22:00:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-04",
+      "params": {
+        "eta": -0.0936605368870129,
+        "beta_home": 0.3415612997271,
+        "rho": -0.0029819785830801,
+        "teams": {
+          "Ceará / CE": {
+            "attack": -0.0844076185851089,
+            "defense": 0.1879965919454712
+          },
+          "Atlético Goianiense / GO": {
+            "attack": -0.2505919680764875,
+            "defense": -0.0256476766189503
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ponte Preta / SP",
+      "away_team": "Sport / PE",
+      "home_crest": "assets/crests/pontepreta_bra.png",
+      "away_crest": "assets/crests/sport.png",
+      "home_color": "#000000",
+      "away_color": "#CC001A",
+      "date": "2026-05-09T21:30:00Z",
+      "home_goals": 1,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-05-04",
+      "params": {
+        "eta": -0.0936605368870129,
+        "beta_home": 0.3415612997271,
+        "rho": -0.0029819785830801,
+        "teams": {
+          "Ponte Preta / SP": {
+            "attack": -0.4415873965610087,
+            "defense": -0.1889103732228234
+          },
+          "Sport / PE": {
+            "attack": -0.1361685280631145,
+            "defense": -0.1914363662241989
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Athletic / MG",
+      "away_team": "Cuiabá / MT",
+      "home_crest": "assets/crests/athletic_mg.png",
+      "away_crest": "assets/crests/cuiaba_bra.png",
+      "home_color": "#000000",
+      "away_color": "#006633",
+      "date": "2026-05-09T21:00:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-04",
+      "params": {
+        "eta": -0.0936605368870129,
+        "beta_home": 0.3415612997271,
+        "rho": -0.0029819785830801,
+        "teams": {
+          "Athletic / MG": {
+            "attack": -0.0510753114701423,
+            "defense": -0.2925801963851
+          },
+          "Cuiabá / MT": {
+            "attack": -0.2892736178517128,
+            "defense": 0.0873665479357621
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Goiás / GO",
+      "away_team": "Vila Nova / GO",
+      "home_crest": "assets/crests/goias.png",
+      "away_crest": "assets/crests/vilago.png",
+      "home_color": "#006633",
+      "away_color": "#FDF40F",
+      "date": "2026-05-09T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-04",
+      "params": {
+        "eta": -0.0936605368870129,
+        "beta_home": 0.3415612997271,
+        "rho": -0.0029819785830801,
+        "teams": {
+          "Goiás / GO": {
+            "attack": -0.1356326459442605,
+            "defense": -0.1150967218170036
+          },
+          "Vila Nova / GO": {
+            "attack": 0.0205462388652129,
+            "defense": -0.2592027101690199
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Vila Nova / GO",
+      "away_team": "Athletic / MG",
+      "home_crest": "assets/crests/vilago.png",
+      "away_crest": "assets/crests/athletic_mg.png",
+      "home_color": "#FDF40F",
+      "away_color": "#000000",
+      "date": "2026-05-04T22:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-27",
+      "params": {
+        "eta": -0.1027924254478794,
+        "beta_home": 0.345236547228,
+        "rho": 0.0091522516372568,
+        "teams": {
+          "Vila Nova / GO": {
+            "attack": 0.0378022786842524,
+            "defense": -0.260309464513496
+          },
+          "Athletic / MG": {
+            "attack": 0.0332823307303323,
+            "defense": -0.2934318114975099
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Avaí / SC",
+      "away_team": "Novorizontino / SP",
+      "home_crest": "assets/crests/avai_bra.png",
+      "away_crest": "assets/crests/novorizontino.png",
+      "home_color": "#005AB2",
+      "away_color": "#F6E32F",
+      "date": "2026-05-03T23:30:00Z",
+      "home_goals": 3,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-04-27",
+      "params": {
+        "eta": -0.1027924254478794,
+        "beta_home": 0.345236547228,
+        "rho": 0.0091522516372568,
+        "teams": {
+          "Avaí / SC": {
+            "attack": -0.0223090777816922,
+            "defense": -0.0201867985296933
+          },
+          "Novorizontino / SP": {
+            "attack": -0.1294391529720587,
+            "defense": 0.1712100084731484
+          }
+        }
+      }
+    },
+    {
+      "home_team": "América / MG",
+      "away_team": "CRB / AL",
+      "home_crest": "assets/crests/americamg_bra.png",
+      "away_crest": "assets/crests/crb_bra.png",
+      "home_color": "#006140",
+      "away_color": "#ED1C2A",
+      "date": "2026-05-03T23:30:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-04-27",
+      "params": {
+        "eta": -0.1027924254478794,
+        "beta_home": 0.345236547228,
+        "rho": 0.0091522516372568,
+        "teams": {
+          "América / MG": {
+            "attack": -0.2482596820913852,
+            "defense": -0.174827440897905
+          },
+          "CRB / AL": {
+            "attack": -0.0909579830362557,
+            "defense": -0.218043808564699
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Atlético Goianiense / GO",
+      "away_team": "Juventude / RS",
+      "home_crest": "assets/crests/atleticogo_bra.png",
+      "away_crest": "assets/crests/juventude.png",
+      "home_color": "#CC0000",
+      "away_color": "#008000",
+      "date": "2026-05-03T21:30:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-27",
+      "params": {
+        "eta": -0.1027924254478794,
+        "beta_home": 0.345236547228,
+        "rho": 0.0091522516372568,
+        "teams": {
+          "Atlético Goianiense / GO": {
+            "attack": -0.1844626125847336,
+            "defense": -0.063432453078879
+          },
+          "Juventude / RS": {
+            "attack": -0.0698399061662864,
+            "defense": -0.0813508713405968
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Sport / PE",
+      "away_team": "Ceará / CE",
+      "home_crest": "assets/crests/sport.png",
+      "away_crest": "assets/crests/ceara_bra.png",
+      "home_color": "#CC001A",
+      "away_color": "#000000",
+      "date": "2026-05-03T21:00:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-27",
+      "params": {
+        "eta": -0.1027924254478794,
+        "beta_home": 0.345236547228,
+        "rho": 0.0091522516372568,
+        "teams": {
+          "Sport / PE": {
+            "attack": -0.1631866834948001,
+            "defense": -0.2298691793485678
+          },
+          "Ceará / CE": {
+            "attack": -0.043210026814396,
+            "defense": 0.218999906067517
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Operário / PR",
+      "away_team": "Londrina / PR",
+      "home_crest": "assets/crests/operario_pr.png",
+      "away_crest": "assets/crests/londrina_pr.png",
+      "home_color": "#000000",
+      "away_color": "#E5292E",
+      "date": "2026-05-03T19:00:00Z",
+      "home_goals": 3,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-27",
+      "params": {
+        "eta": -0.1027924254478794,
+        "beta_home": 0.345236547228,
+        "rho": 0.0091522516372568,
+        "teams": {
+          "Operário / PR": {
+            "attack": -0.2782823912070299,
+            "defense": 0.0689928466238056
+          },
+          "Londrina / PR": {
+            "attack": -0.0641021129983096,
+            "defense": -0.2035965930090436
+          }
+        }
+      }
+    },
+    {
+      "home_team": "São Bernardo / SP",
+      "away_team": "Ponte Preta / SP",
+      "home_crest": "assets/crests/saobernardosp.png",
+      "away_crest": "assets/crests/pontepreta_bra.png",
+      "home_color": "#FFD100",
+      "away_color": "#000000",
+      "date": "2026-05-03T19:00:00Z",
+      "home_goals": 3,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-27",
+      "params": {
+        "eta": -0.1027924254478794,
+        "beta_home": 0.345236547228,
+        "rho": 0.0091522516372568,
+        "teams": {
+          "São Bernardo / SP": {
+            "attack": 0.089065006279155,
+            "defense": 0.1935686668901103
+          },
+          "Ponte Preta / SP": {
+            "attack": -0.377847901634354,
+            "defense": -0.0964146570605199
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Fortaleza / CE",
+      "away_team": "Goiás / GO",
+      "home_crest": "assets/crests/fortaleza.png",
+      "away_crest": "assets/crests/goias.png",
+      "home_color": "#006CB5",
+      "away_color": "#006633",
+      "date": "2026-05-02T23:30:00Z",
+      "home_goals": 4,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-27",
+      "params": {
+        "eta": -0.1027924254478794,
+        "beta_home": 0.345236547228,
+        "rho": 0.0091522516372568,
+        "teams": {
+          "Fortaleza / CE": {
+            "attack": 0.1397933580613453,
+            "defense": -0.038362785529556
+          },
+          "Goiás / GO": {
+            "attack": -0.1259319549718523,
+            "defense": -0.0289576631574043
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Cuiabá / MT",
+      "away_team": "Criciúma / SC",
+      "home_crest": "assets/crests/cuiaba_bra.png",
+      "away_crest": "assets/crests/criciuma_bra.png",
+      "home_color": "#006633",
+      "away_color": "#FFCC00",
+      "date": "2026-05-02T21:30:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-27",
+      "params": {
+        "eta": -0.1027924254478794,
+        "beta_home": 0.345236547228,
+        "rho": 0.0091522516372568,
+        "teams": {
+          "Cuiabá / MT": {
+            "attack": -0.2790501816706575,
+            "defense": 0.0831257380534739
+          },
+          "Criciúma / SC": {
+            "attack": -0.0195738884619066,
+            "defense": 0.0601295605532288
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Botafogo / SP",
+      "away_team": "Náutico / PE",
+      "home_crest": "assets/crests/botafogosp_bra.png",
+      "away_crest": "assets/crests/nautico.png",
+      "home_color": "#E52D2D",
+      "away_color": "#ED1C24",
+      "date": "2026-05-02T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-27",
+      "params": {
+        "eta": -0.1027924254478794,
+        "beta_home": 0.345236547228,
+        "rho": 0.0091522516372568,
+        "teams": {
+          "Botafogo / SP": {
+            "attack": -0.1549753630885263,
+            "defense": -0.1978368332499887
+          },
+          "Náutico / PE": {
+            "attack": -0.5427481484132426,
+            "defense": -0.1231250134822988
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Athletic / MG",
+      "away_team": "Náutico / PE",
+      "home_crest": "assets/crests/athletic_mg.png",
+      "away_crest": "assets/crests/nautico.png",
+      "home_color": "#000000",
+      "away_color": "#ED1C24",
+      "date": "2026-04-27T22:00:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-24",
+      "params": {
+        "eta": -0.0927300603311064,
+        "beta_home": 0.3453238437865,
+        "rho": -0.013735939147073,
+        "teams": {
+          "Athletic / MG": {
+            "attack": 0.0256504676364966,
+            "defense": -0.2855710868394633
+          },
+          "Náutico / PE": {
+            "attack": -0.6017306097149019,
+            "defense": -0.13222309247092
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Criciúma / SC",
+      "away_team": "CRB / AL",
+      "home_crest": "assets/crests/criciuma_bra.png",
+      "away_crest": "assets/crests/crb_bra.png",
+      "home_color": "#FFCC00",
+      "away_color": "#ED1C2A",
+      "date": "2026-04-26T23:30:00Z",
+      "home_goals": 3,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-24",
+      "params": {
+        "eta": -0.0927300603311064,
+        "beta_home": 0.3453238437865,
+        "rho": -0.013735939147073,
+        "teams": {
+          "Criciúma / SC": {
+            "attack": -0.0762674092332136,
+            "defense": 0.0756885206506844
+          },
+          "CRB / AL": {
+            "attack": -0.1043128260687119,
+            "defense": -0.1584103320531233
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Atlético Goianiense / GO",
+      "away_team": "Avaí / SC",
+      "home_crest": "assets/crests/atleticogo_bra.png",
+      "away_crest": "assets/crests/avai_bra.png",
+      "home_color": "#CC0000",
+      "away_color": "#005AB2",
+      "date": "2026-04-26T23:30:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-24",
+      "params": {
+        "eta": -0.0927300603311064,
+        "beta_home": 0.3453238437865,
+        "rho": -0.013735939147073,
+        "teams": {
+          "Atlético Goianiense / GO": {
+            "attack": -0.2349397750862163,
+            "defense": -0.0486295527400392
+          },
+          "Avaí / SC": {
+            "attack": -0.0280916390023405,
+            "defense": 0.0278759022745934
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ceará / CE",
+      "away_team": "Vila Nova / GO",
+      "home_crest": "assets/crests/ceara_bra.png",
+      "away_crest": "assets/crests/vilago.png",
+      "home_color": "#000000",
+      "away_color": "#FDF40F",
+      "date": "2026-04-26T21:00:00Z",
+      "home_goals": 3,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-04-24",
+      "params": {
+        "eta": -0.0927300603311064,
+        "beta_home": 0.3453238437865,
+        "rho": -0.013735939147073,
+        "teams": {
+          "Ceará / CE": {
+            "attack": -0.1306845668292622,
+            "defense": 0.3398280510516777
+          },
+          "Vila Nova / GO": {
+            "attack": -0.0514450518811816,
+            "defense": -0.1978471933728899
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Operário / PR",
+      "away_team": "Fortaleza / CE",
+      "home_crest": "assets/crests/operario_pr.png",
+      "away_crest": "assets/crests/fortaleza.png",
+      "home_color": "#000000",
+      "away_color": "#006CB5",
+      "date": "2026-04-26T21:00:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-24",
+      "params": {
+        "eta": -0.0927300603311064,
+        "beta_home": 0.3453238437865,
+        "rho": -0.013735939147073,
+        "teams": {
+          "Operário / PR": {
+            "attack": -0.2306364324820509,
+            "defense": 0.0239788483443878
+          },
+          "Fortaleza / CE": {
+            "attack": 0.1662027185008294,
+            "defense": -0.0640338985673973
+          }
+        }
+      }
+    },
+    {
+      "home_team": "São Bernardo / SP",
+      "away_team": "Goiás / GO",
+      "home_crest": "assets/crests/saobernardosp.png",
+      "away_crest": "assets/crests/goias.png",
+      "home_color": "#FFD100",
+      "away_color": "#006633",
+      "date": "2026-04-26T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-24",
+      "params": {
+        "eta": -0.0927300603311064,
+        "beta_home": 0.3453238437865,
+        "rho": -0.013735939147073,
+        "teams": {
+          "São Bernardo / SP": {
+            "attack": 0.1433105338486066,
+            "defense": 0.072469248489817
+          },
+          "Goiás / GO": {
+            "attack": -0.0942764259380458,
+            "defense": -0.0297630805676158
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Juventude / RS",
+      "away_team": "Londrina / PR",
+      "home_crest": "assets/crests/juventude.png",
+      "away_crest": "assets/crests/londrina_pr.png",
+      "home_color": "#008000",
+      "away_color": "#E5292E",
+      "date": "2026-04-26T00:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-24",
+      "params": {
+        "eta": -0.0927300603311064,
+        "beta_home": 0.3453238437865,
+        "rho": -0.013735939147073,
+        "teams": {
+          "Juventude / RS": {
+            "attack": -0.0484932466024094,
+            "defense": -0.1048765341012894
+          },
+          "Londrina / PR": {
+            "attack": 0.0945205460832312,
+            "defense": -0.2887923683913904
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Sport / PE",
+      "away_team": "Novorizontino / SP",
+      "home_crest": "assets/crests/sport.png",
+      "away_crest": "assets/crests/novorizontino.png",
+      "home_color": "#CC001A",
+      "away_color": "#F6E32F",
+      "date": "2026-04-25T23:30:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-24",
+      "params": {
+        "eta": -0.0927300603311064,
+        "beta_home": 0.3453238437865,
+        "rho": -0.013735939147073,
+        "teams": {
+          "Sport / PE": {
+            "attack": -0.1615651790364979,
+            "defense": -0.2488764364258379
+          },
+          "Novorizontino / SP": {
+            "attack": -0.0952493270074796,
+            "defense": 0.1907351035931571
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ponte Preta / SP",
+      "away_team": "América / MG",
+      "home_crest": "assets/crests/pontepreta_bra.png",
+      "away_crest": "assets/crests/americamg_bra.png",
+      "home_color": "#000000",
+      "away_color": "#006140",
+      "date": "2026-04-24T23:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-20",
+      "params": {
+        "eta": -0.0938723347926756,
+        "beta_home": 0.346263439317,
+        "rho": -0.0125501610357235,
+        "teams": {
+          "Ponte Preta / SP": {
+            "attack": -0.3555860256460483,
+            "defense": -0.1977689115107803
+          },
+          "América / MG": {
+            "attack": -0.2145600702363418,
+            "defense": -0.1736580563770234
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Cuiabá / MT",
+      "away_team": "Botafogo / SP",
+      "home_crest": "assets/crests/cuiaba_bra.png",
+      "away_crest": "assets/crests/botafogosp_bra.png",
+      "home_color": "#006633",
+      "away_color": "#E52D2D",
+      "date": "2026-04-23T00:30:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-20",
+      "params": {
+        "eta": -0.0938723347926756,
+        "beta_home": 0.346263439317,
+        "rho": -0.0125501610357235,
+        "teams": {
+          "Cuiabá / MT": {
+            "attack": -0.26939961972249,
+            "defense": 0.102359201225479
+          },
+          "Botafogo / SP": {
+            "attack": -0.1818627382383698,
+            "defense": -0.2026533740473738
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Fortaleza / CE",
+      "away_team": "Criciúma / SC",
+      "home_crest": "assets/crests/fortaleza.png",
+      "away_crest": "assets/crests/criciuma_bra.png",
+      "home_color": "#006CB5",
+      "away_color": "#FFCC00",
+      "date": "2026-04-19T23:00:00Z",
+      "home_goals": 3,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-04-13",
+      "params": {
+        "eta": -0.1035665568726615,
+        "beta_home": 0.359064711274,
+        "rho": -0.0077329677009375,
+        "teams": {
+          "Fortaleza / CE": {
+            "attack": 0.091582216999259,
+            "defense": -0.0509354661057875
+          },
+          "Criciúma / SC": {
+            "attack": -0.1009762069876909,
+            "defense": 0.166887661730009
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Novorizontino / SP",
+      "away_team": "Athletic / MG",
+      "home_crest": "assets/crests/novorizontino.png",
+      "away_crest": "assets/crests/athletic_mg.png",
+      "home_color": "#F6E32F",
+      "away_color": "#000000",
+      "date": "2026-04-19T23:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-13",
+      "params": {
+        "eta": -0.1035665568726615,
+        "beta_home": 0.359064711274,
+        "rho": -0.0077329677009375,
+        "teams": {
+          "Novorizontino / SP": {
+            "attack": -0.1108457134995892,
+            "defense": 0.2136745994840311
+          },
+          "Athletic / MG": {
+            "attack": 0.0333798340165348,
+            "defense": -0.2611203880050839
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Goiás / GO",
+      "away_team": "Cuiabá / MT",
+      "home_crest": "assets/crests/goias.png",
+      "away_crest": "assets/crests/cuiaba_bra.png",
+      "home_color": "#006633",
+      "away_color": "#006633",
+      "date": "2026-04-19T21:00:00Z",
+      "home_goals": 0,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-04-13",
+      "params": {
+        "eta": -0.1035665568726615,
+        "beta_home": 0.359064711274,
+        "rho": -0.0077329677009375,
+        "teams": {
+          "Goiás / GO": {
+            "attack": -0.0458282027245959,
+            "defense": 0.0450625284281471
+          },
+          "Cuiabá / MT": {
+            "attack": -0.3228979959939548,
+            "defense": 0.0547682159838318
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Botafogo / SP",
+      "away_team": "Atlético Goianiense / GO",
+      "home_crest": "assets/crests/botafogosp_bra.png",
+      "away_crest": "assets/crests/atleticogo_bra.png",
+      "home_color": "#E52D2D",
+      "away_color": "#CC0000",
+      "date": "2026-04-19T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-13",
+      "params": {
+        "eta": -0.1035665568726615,
+        "beta_home": 0.359064711274,
+        "rho": -0.0077329677009375,
+        "teams": {
+          "Botafogo / SP": {
+            "attack": -0.1716642516696301,
+            "defense": -0.2020021140920286
+          },
+          "Atlético Goianiense / GO": {
+            "attack": -0.2229210378875998,
+            "defense": -0.0417835620030301
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Londrina / PR",
+      "away_team": "Ceará / CE",
+      "home_crest": "assets/crests/londrina_pr.png",
+      "away_crest": "assets/crests/ceara_bra.png",
+      "home_color": "#E5292E",
+      "away_color": "#000000",
+      "date": "2026-04-19T19:00:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-13",
+      "params": {
+        "eta": -0.1035665568726615,
+        "beta_home": 0.359064711274,
+        "rho": -0.0077329677009375,
+        "teams": {
+          "Londrina / PR": {
+            "attack": 0.277527211275469,
+            "defense": -0.451571273590477
+          },
+          "Ceará / CE": {
+            "attack": -0.0697657841834046,
+            "defense": 0.2638753748689925
+          }
+        }
+      }
+    },
+    {
+      "home_team": "CRB / AL",
+      "away_team": "Juventude / RS",
+      "home_crest": "assets/crests/crb_bra.png",
+      "away_crest": "assets/crests/juventude.png",
+      "home_color": "#ED1C2A",
+      "away_color": "#008000",
+      "date": "2026-04-18T23:45:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-13",
+      "params": {
+        "eta": -0.1035665568726615,
+        "beta_home": 0.359064711274,
+        "rho": -0.0077329677009375,
+        "teams": {
+          "CRB / AL": {
+            "attack": -0.0259385758210422,
+            "defense": -0.1598152726427981
+          },
+          "Juventude / RS": {
+            "attack": -0.0458962357118712,
+            "defense": -0.151136821065064
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Avaí / SC",
+      "away_team": "Ponte Preta / SP",
+      "home_crest": "assets/crests/avai_bra.png",
+      "away_crest": "assets/crests/pontepreta_bra.png",
+      "home_color": "#005AB2",
+      "away_color": "#000000",
+      "date": "2026-04-18T23:30:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-04-13",
+      "params": {
+        "eta": -0.1035665568726615,
+        "beta_home": 0.359064711274,
+        "rho": -0.0077329677009375,
+        "teams": {
+          "Avaí / SC": {
+            "attack": 0.0018978958310737,
+            "defense": 0.1031958583963752
+          },
+          "Ponte Preta / SP": {
+            "attack": -0.517373497552952,
+            "defense": -0.2210751322148789
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Vila Nova / GO",
+      "away_team": "Operário / PR",
+      "home_crest": "assets/crests/vilago.png",
+      "away_crest": "assets/crests/operario_pr.png",
+      "home_color": "#FDF40F",
+      "away_color": "#000000",
+      "date": "2026-04-18T21:30:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-13",
+      "params": {
+        "eta": -0.1035665568726615,
+        "beta_home": 0.359064711274,
+        "rho": -0.0077329677009375,
+        "teams": {
+          "Vila Nova / GO": {
+            "attack": -0.0687756492727428,
+            "defense": -0.1887249108462198
+          },
+          "Operário / PR": {
+            "attack": -0.2288846314356607,
+            "defense": 0.0545177634710792
+          }
+        }
+      }
+    },
+    {
+      "home_team": "América / MG",
+      "away_team": "Sport / PE",
+      "home_crest": "assets/crests/americamg_bra.png",
+      "away_crest": "assets/crests/sport.png",
+      "home_color": "#006140",
+      "away_color": "#CC001A",
+      "date": "2026-04-18T21:00:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-13",
+      "params": {
+        "eta": -0.1035665568726615,
+        "beta_home": 0.359064711274,
+        "rho": -0.0077329677009375,
+        "teams": {
+          "América / MG": {
+            "attack": -0.1297212298797743,
+            "defense": -0.2017357174904372
+          },
+          "Sport / PE": {
+            "attack": -0.127954656339726,
+            "defense": -0.2831621753101725
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Náutico / PE",
+      "away_team": "São Bernardo / SP",
+      "home_crest": "assets/crests/nautico.png",
+      "away_crest": "assets/crests/saobernardosp.png",
+      "home_color": "#ED1C24",
+      "away_color": "#FFD100",
+      "date": "2026-04-18T21:00:00Z",
+      "home_goals": 0,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-04-13",
+      "params": {
+        "eta": -0.1035665568726615,
+        "beta_home": 0.359064711274,
+        "rho": -0.0077329677009375,
+        "teams": {
+          "Náutico / PE": {
+            "attack": -0.3799749140167721,
+            "defense": 0.2480381902430679
+          },
+          "São Bernardo / SP": {
+            "attack": -0.1770618061080887,
+            "defense": -0.0967714890549324
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Atlético Goianiense / GO",
+      "away_team": "Londrina / PR",
+      "home_crest": "assets/crests/atleticogo_bra.png",
+      "away_crest": "assets/crests/londrina_pr.png",
+      "home_color": "#CC0000",
+      "away_color": "#E5292E",
+      "date": "2026-04-12T23:30:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-10",
+      "params": {
+        "eta": -0.0908167543846559,
+        "beta_home": 0.36257039217,
+        "rho": -0.0053498976630197,
+        "teams": {
+          "Atlético Goianiense / GO": {
+            "attack": -0.2495158519300032,
+            "defense": -0.0403560752825661
+          },
+          "Londrina / PR": {
+            "attack": 0.327060950862704,
+            "defense": -0.4117914066018627
+          }
+        }
+      }
+    },
+    {
+      "home_team": "CRB / AL",
+      "away_team": "Athletic / MG",
+      "home_crest": "assets/crests/crb_bra.png",
+      "away_crest": "assets/crests/athletic_mg.png",
+      "home_color": "#ED1C2A",
+      "away_color": "#000000",
+      "date": "2026-04-12T23:00:00Z",
+      "home_goals": 2,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-04-10",
+      "params": {
+        "eta": -0.0908167543846559,
+        "beta_home": 0.36257039217,
+        "rho": -0.0053498976630197,
+        "teams": {
+          "CRB / AL": {
+            "attack": -0.0468450900339163,
+            "defense": -0.0793799111900656
+          },
+          "Athletic / MG": {
+            "attack": -0.0595033114030967,
+            "defense": -0.2293312403329795
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Operário / PR",
+      "away_team": "Cuiabá / MT",
+      "home_crest": "assets/crests/operario_pr.png",
+      "away_crest": "assets/crests/cuiaba_bra.png",
+      "home_color": "#000000",
+      "away_color": "#006633",
+      "date": "2026-04-12T21:00:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-10",
+      "params": {
+        "eta": -0.0908167543846559,
+        "beta_home": 0.36257039217,
+        "rho": -0.0053498976630197,
+        "teams": {
+          "Operário / PR": {
+            "attack": -0.1864021291435506,
+            "defense": 0.0494153891418066
+          },
+          "Cuiabá / MT": {
+            "attack": -0.301824305556808,
+            "defense": 0.0119046090533161
+          }
+        }
+      }
+    },
+    {
+      "home_team": "América / MG",
+      "away_team": "Novorizontino / SP",
+      "home_crest": "assets/crests/americamg_bra.png",
+      "away_crest": "assets/crests/novorizontino.png",
+      "home_color": "#006140",
+      "away_color": "#F6E32F",
+      "date": "2026-04-12T21:00:00Z",
+      "home_goals": 0,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-04-10",
+      "params": {
+        "eta": -0.0908167543846559,
+        "beta_home": 0.36257039217,
+        "rho": -0.0053498976630197,
+        "teams": {
+          "América / MG": {
+            "attack": -0.0951989550566406,
+            "defense": -0.1202037900000937
+          },
+          "Novorizontino / SP": {
+            "attack": -0.1944857443741343,
+            "defense": 0.1774056260598477
+          }
+        }
+      }
+    },
+    {
+      "home_team": "São Bernardo / SP",
+      "away_team": "Fortaleza / CE",
+      "home_crest": "assets/crests/saobernardosp.png",
+      "away_crest": "assets/crests/fortaleza.png",
+      "home_color": "#FFD100",
+      "away_color": "#006CB5",
+      "date": "2026-04-12T21:00:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-10",
+      "params": {
+        "eta": -0.0908167543846559,
+        "beta_home": 0.36257039217,
+        "rho": -0.0053498976630197,
+        "teams": {
+          "São Bernardo / SP": {
+            "attack": 0.11671859398941,
+            "defense": -0.1090043604209869
+          },
+          "Fortaleza / CE": {
+            "attack": 0.0654588706049529,
+            "defense": -0.0956948266004461
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ceará / CE",
+      "away_team": "Náutico / PE",
+      "home_crest": "assets/crests/ceara_bra.png",
+      "away_crest": "assets/crests/nautico.png",
+      "home_color": "#000000",
+      "away_color": "#ED1C24",
+      "date": "2026-04-11T23:30:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-10",
+      "params": {
+        "eta": -0.0908167543846559,
+        "beta_home": 0.36257039217,
+        "rho": -0.0053498976630197,
+        "teams": {
+          "Ceará / CE": {
+            "attack": -0.0873569820843436,
+            "defense": 0.2522048326268814
+          },
+          "Náutico / PE": {
+            "attack": -0.261996448021789,
+            "defense": 0.2830324982897383
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Sport / PE",
+      "away_team": "Avaí / SC",
+      "home_crest": "assets/crests/sport.png",
+      "away_crest": "assets/crests/avai_bra.png",
+      "home_color": "#CC001A",
+      "away_color": "#005AB2",
+      "date": "2026-04-11T21:00:00Z",
+      "home_goals": 2,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-04-10",
+      "params": {
+        "eta": -0.0908167543846559,
+        "beta_home": 0.36257039217,
+        "rho": -0.0053498976630197,
+        "teams": {
+          "Sport / PE": {
+            "attack": -0.1967140807702483,
+            "defense": -0.257919459956822
+          },
+          "Avaí / SC": {
+            "attack": -0.0368164228809406,
+            "defense": 0.1633772315832618
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ponte Preta / SP",
+      "away_team": "Vila Nova / GO",
+      "home_crest": "assets/crests/pontepreta_bra.png",
+      "away_crest": "assets/crests/vilago.png",
+      "home_color": "#000000",
+      "away_color": "#FDF40F",
+      "date": "2026-04-11T21:00:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-10",
+      "params": {
+        "eta": -0.0908167543846559,
+        "beta_home": 0.36257039217,
+        "rho": -0.0053498976630197,
+        "teams": {
+          "Ponte Preta / SP": {
+            "attack": -0.3453483241440643,
+            "defense": -0.2188825271205063
+          },
+          "Vila Nova / GO": {
+            "attack": -0.062759641233714,
+            "defense": -0.2225322249968153
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Juventude / RS",
+      "away_team": "Goiás / GO",
+      "home_crest": "assets/crests/juventude.png",
+      "away_crest": "assets/crests/goias.png",
+      "home_color": "#008000",
+      "away_color": "#006633",
+      "date": "2026-04-11T19:00:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-10",
+      "params": {
+        "eta": -0.0908167543846559,
+        "beta_home": 0.36257039217,
+        "rho": -0.0053498976630197,
+        "teams": {
+          "Juventude / RS": {
+            "attack": -0.1079241240203447,
+            "defense": -0.1887080979676706
+          },
+          "Goiás / GO": {
+            "attack": -0.0052747120496044,
+            "defense": 0.0962110377727649
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Criciúma / SC",
+      "away_team": "Botafogo / SP",
+      "home_crest": "assets/crests/criciuma_bra.png",
+      "away_crest": "assets/crests/botafogosp_bra.png",
+      "home_color": "#FFCC00",
+      "away_color": "#E52D2D",
+      "date": "2026-04-10T23:30:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-06",
+      "params": {
+        "eta": -0.0883958385747135,
+        "beta_home": 0.361383841576,
+        "rho": -0.0083289287529813,
+        "teams": {
+          "Criciúma / SC": {
+            "attack": -0.0478058405346642,
+            "defense": 0.129987433154733
+          },
+          "Botafogo / SP": {
+            "attack": -0.1493164133266515,
+            "defense": -0.2003314535201645
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Goiás / GO",
+      "away_team": "Criciúma / SC",
+      "home_crest": "assets/crests/goias.png",
+      "away_crest": "assets/crests/criciuma_bra.png",
+      "home_color": "#006633",
+      "away_color": "#FFCC00",
+      "date": "2026-04-07T00:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-03",
+      "params": {
+        "eta": -0.0863090410015907,
+        "beta_home": 0.374342254278,
+        "rho": 0.0012347329382213,
+        "teams": {
+          "Goiás / GO": {
+            "attack": 0.0167148131135835,
+            "defense": 0.1188440389713109
+          },
+          "Criciúma / SC": {
+            "attack": -0.0440257794290174,
+            "defense": 0.1587486810234661
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Botafogo / SP",
+      "away_team": "São Bernardo / SP",
+      "home_crest": "assets/crests/botafogosp_bra.png",
+      "away_crest": "assets/crests/saobernardosp.png",
+      "home_color": "#E52D2D",
+      "away_color": "#FFD100",
+      "date": "2026-04-05T23:30:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-04-03",
+      "params": {
+        "eta": -0.0863090410015907,
+        "beta_home": 0.374342254278,
+        "rho": 0.0012347329382213,
+        "teams": {
+          "Botafogo / SP": {
+            "attack": -0.132955829623321,
+            "defense": -0.1595352598057428
+          },
+          "São Bernardo / SP": {
+            "attack": -0.1555595888503176,
+            "defense": -0.2247994926496467
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Athletic / MG",
+      "away_team": "América / MG",
+      "home_crest": "assets/crests/athletic_mg.png",
+      "away_crest": "assets/crests/americamg_bra.png",
+      "home_color": "#000000",
+      "away_color": "#006140",
+      "date": "2026-04-05T23:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-03",
+      "params": {
+        "eta": -0.0863090410015907,
+        "beta_home": 0.374342254278,
+        "rho": 0.0012347329382213,
+        "teams": {
+          "Athletic / MG": {
+            "attack": -0.0402082938728517,
+            "defense": -0.2060591001445068
+          },
+          "América / MG": {
+            "attack": -0.0801342086533977,
+            "defense": -0.1168664985924028
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Novorizontino / SP",
+      "away_team": "CRB / AL",
+      "home_crest": "assets/crests/novorizontino.png",
+      "away_crest": "assets/crests/crb_bra.png",
+      "home_color": "#F6E32F",
+      "away_color": "#ED1C2A",
+      "date": "2026-04-05T21:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-03",
+      "params": {
+        "eta": -0.0863090410015907,
+        "beta_home": 0.374342254278,
+        "rho": 0.0012347329382213,
+        "teams": {
+          "Novorizontino / SP": {
+            "attack": -0.1752986825895365,
+            "defense": 0.2293379862567027
+          },
+          "CRB / AL": {
+            "attack": -0.0614163199941212,
+            "defense": -0.064424283096167
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Avaí / SC",
+      "away_team": "Operário / PR",
+      "home_crest": "assets/crests/avai_bra.png",
+      "away_crest": "assets/crests/operario_pr.png",
+      "home_color": "#005AB2",
+      "away_color": "#000000",
+      "date": "2026-04-05T19:00:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-03",
+      "params": {
+        "eta": -0.0863090410015907,
+        "beta_home": 0.374342254278,
+        "rho": 0.0012347329382213,
+        "teams": {
+          "Avaí / SC": {
+            "attack": 0.0129937700185805,
+            "defense": 0.1379207256919116
+          },
+          "Operário / PR": {
+            "attack": -0.1543206929994675,
+            "defense": -0.0020991547044295
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Londrina / PR",
+      "away_team": "Sport / PE",
+      "home_crest": "assets/crests/londrina_pr.png",
+      "away_crest": "assets/crests/sport.png",
+      "home_color": "#E5292E",
+      "away_color": "#CC001A",
+      "date": "2026-04-04T23:30:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-04-03",
+      "params": {
+        "eta": -0.0863090410015907,
+        "beta_home": 0.374342254278,
+        "rho": 0.0012347329382213,
+        "teams": {
+          "Londrina / PR": {
+            "attack": 0.6927191001529769,
+            "defense": -0.1738763264274825
+          },
+          "Sport / PE": {
+            "attack": -0.2463361497100416,
+            "defense": -0.3046166053460651
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Vila Nova / GO",
+      "away_team": "Atlético Goianiense / GO",
+      "home_crest": "assets/crests/vilago.png",
+      "away_crest": "assets/crests/atleticogo_bra.png",
+      "home_color": "#FDF40F",
+      "away_color": "#CC0000",
+      "date": "2026-04-04T23:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-03",
+      "params": {
+        "eta": -0.0863090410015907,
+        "beta_home": 0.374342254278,
+        "rho": 0.0012347329382213,
+        "teams": {
+          "Vila Nova / GO": {
+            "attack": -0.0972841112241545,
+            "defense": -0.2048578802047527
+          },
+          "Atlético Goianiense / GO": {
+            "attack": -0.2664321320968155,
+            "defense": 0.0111848452227341
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Náutico / PE",
+      "away_team": "Ponte Preta / SP",
+      "home_crest": "assets/crests/nautico.png",
+      "away_crest": "assets/crests/pontepreta_bra.png",
+      "home_color": "#ED1C24",
+      "away_color": "#000000",
+      "date": "2026-04-04T21:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-03",
+      "params": {
+        "eta": -0.0863090410015907,
+        "beta_home": 0.374342254278,
+        "rho": 0.0012347329382213,
+        "teams": {
+          "Náutico / PE": {
+            "attack": -0.1301452601580018,
+            "defense": 0.0826439348940633
+          },
+          "Ponte Preta / SP": {
+            "attack": -0.2626331325524975,
+            "defense": -0.2736639973306813
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Cuiabá / MT",
+      "away_team": "Ceará / CE",
+      "home_crest": "assets/crests/cuiaba_bra.png",
+      "away_crest": "assets/crests/ceara_bra.png",
+      "home_color": "#006633",
+      "away_color": "#000000",
+      "date": "2026-04-04T21:00:00Z",
+      "home_goals": 0,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-04-03",
+      "params": {
+        "eta": -0.0863090410015907,
+        "beta_home": 0.374342254278,
+        "rho": 0.0012347329382213,
+        "teams": {
+          "Cuiabá / MT": {
+            "attack": -0.266326528129455,
+            "defense": 0.0676792168485272
+          },
+          "Ceará / CE": {
+            "attack": -0.1622079795116636,
+            "defense": 0.2037284286291825
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Fortaleza / CE",
+      "away_team": "Juventude / RS",
+      "home_crest": "assets/crests/fortaleza.png",
+      "away_crest": "assets/crests/juventude.png",
+      "home_color": "#006CB5",
+      "away_color": "#008000",
+      "date": "2026-04-04T19:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-03",
+      "params": {
+        "eta": -0.0863090410015907,
+        "beta_home": 0.374342254278,
+        "rho": 0.0012347329382213,
+        "teams": {
+          "Fortaleza / CE": {
+            "attack": 0.0399736900233814,
+            "defense": -0.0971736933327293
+          },
+          "Juventude / RS": {
+            "attack": -0.1293251502352818,
+            "defense": -0.1853204497070261
+          }
+        }
+      }
+    },
+    {
+      "home_team": "São Bernardo / SP",
+      "away_team": "Operário / PR",
+      "home_crest": "assets/crests/saobernardosp.png",
+      "away_crest": "assets/crests/operario_pr.png",
+      "home_color": "#FFD100",
+      "away_color": "#000000",
+      "date": "2026-04-02T22:00:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-03-23",
+      "params": {
+        "eta": -0.1099954183184848,
+        "beta_home": 0.378298330645,
+        "rho": 0.0186240137293492,
+        "teams": {
+          "São Bernardo / SP": {
+            "attack": 0.029137216199345,
+            "defense": 0.1891401890466882
+          },
+          "Operário / PR": {
+            "attack": -0.183414158232753,
+            "defense": -0.0248290112238544
+          }
+        }
+      }
+    },
+    {
+      "home_team": "CRB / AL",
+      "away_team": "Avaí / SC",
+      "home_crest": "assets/crests/crb_bra.png",
+      "away_crest": "assets/crests/avai_bra.png",
+      "home_color": "#ED1C2A",
+      "away_color": "#005AB2",
+      "date": "2026-04-02T00:30:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-03-23",
+      "params": {
+        "eta": -0.1099954183184848,
+        "beta_home": 0.378298330645,
+        "rho": 0.0186240137293492,
+        "teams": {
+          "CRB / AL": {
+            "attack": -0.001079284563258,
+            "defense": -0.0793849591029934
+          },
+          "Avaí / SC": {
+            "attack": 0.0155466702228737,
+            "defense": 0.0763400544607953
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Criciúma / SC",
+      "away_team": "Athletic / MG",
+      "home_crest": "assets/crests/criciuma_bra.png",
+      "away_crest": "assets/crests/athletic_mg.png",
+      "home_color": "#FFCC00",
+      "away_color": "#000000",
+      "date": "2026-04-02T00:30:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-03-23",
+      "params": {
+        "eta": -0.1099954183184848,
+        "beta_home": 0.378298330645,
+        "rho": 0.0186240137293492,
+        "teams": {
+          "Criciúma / SC": {
+            "attack": -0.0121648313357924,
+            "defense": 0.1368499836604987
+          },
+          "Athletic / MG": {
+            "attack": -0.038589926542408,
+            "defense": -0.2374786167494553
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ponte Preta / SP",
+      "away_team": "Ceará / CE",
+      "home_crest": "assets/crests/pontepreta_bra.png",
+      "away_crest": "assets/crests/ceara_bra.png",
+      "home_color": "#000000",
+      "away_color": "#000000",
+      "date": "2026-04-02T00:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-03-23",
+      "params": {
+        "eta": -0.1099954183184848,
+        "beta_home": 0.378298330645,
+        "rho": 0.0186240137293492,
+        "teams": {
+          "Ponte Preta / SP": {
+            "attack": -0.2798066326495258,
+            "defense": -0.29417142782051
+          },
+          "Ceará / CE": {
+            "attack": -0.1339722874894631,
+            "defense": 0.1917327461841284
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Londrina / PR",
+      "away_team": "Goiás / GO",
+      "home_crest": "assets/crests/londrina_pr.png",
+      "away_crest": "assets/crests/goias.png",
+      "home_color": "#E5292E",
+      "away_color": "#006633",
+      "date": "2026-04-01T22:00:00Z",
+      "home_goals": 2,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-03-23",
+      "params": {
+        "eta": -0.1099954183184848,
+        "beta_home": 0.378298330645,
+        "rho": 0.0186240137293492,
+        "teams": {
+          "Londrina / PR": {
+            "attack": 0.88205031057951,
+            "defense": 0.1993633207973613
+          },
+          "Goiás / GO": {
+            "attack": 0.0049353879651394,
+            "defense": 0.0830036939264606
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Sport / PE",
+      "away_team": "Vila Nova / GO",
+      "home_crest": "assets/crests/sport.png",
+      "away_crest": "assets/crests/vilago.png",
+      "home_color": "#CC001A",
+      "away_color": "#FDF40F",
+      "date": "2026-04-01T22:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-03-23",
+      "params": {
+        "eta": -0.1099954183184848,
+        "beta_home": 0.378298330645,
+        "rho": 0.0186240137293492,
+        "teams": {
+          "Sport / PE": {
+            "attack": -0.2250948629678499,
+            "defense": -0.3334842114344004
+          },
+          "Vila Nova / GO": {
+            "attack": -0.0791442199083859,
+            "defense": -0.2227995954159299
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Atlético Goianiense / GO",
+      "away_team": "Náutico / PE",
+      "home_crest": "assets/crests/atleticogo_bra.png",
+      "away_crest": "assets/crests/nautico.png",
+      "home_color": "#CC0000",
+      "away_color": "#ED1C24",
+      "date": "2026-04-01T22:00:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-03-23",
+      "params": {
+        "eta": -0.1099954183184848,
+        "beta_home": 0.378298330645,
+        "rho": 0.0186240137293492,
+        "teams": {
+          "Atlético Goianiense / GO": {
+            "attack": -0.2565864132164339,
+            "defense": 0.0428763674588094
+          },
+          "Náutico / PE": {
+            "attack": -0.7232373033439384,
+            "defense": 0.05950957095158
+          }
+        }
+      }
+    },
+    {
+      "home_team": "América / MG",
+      "away_team": "Botafogo / SP",
+      "home_crest": "assets/crests/americamg_bra.png",
+      "away_crest": "assets/crests/botafogosp_bra.png",
+      "home_color": "#006140",
+      "away_color": "#E52D2D",
+      "date": "2026-04-01T21:00:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-03-23",
+      "params": {
+        "eta": -0.1099954183184848,
+        "beta_home": 0.378298330645,
+        "rho": 0.0186240137293492,
+        "teams": {
+          "América / MG": {
+            "attack": -0.0506787782046286,
+            "defense": -0.0804906371895034
+          },
+          "Botafogo / SP": {
+            "attack": -0.1764292064718963,
+            "defense": -0.1799981133683563
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Fortaleza / CE",
+      "away_team": "Cuiabá / MT",
+      "home_crest": "assets/crests/fortaleza.png",
+      "away_crest": "assets/crests/cuiaba_bra.png",
+      "home_color": "#006CB5",
+      "away_color": "#006633",
+      "date": "2026-03-31T22:00:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-03-23",
+      "params": {
+        "eta": -0.1099954183184848,
+        "beta_home": 0.378298330645,
+        "rho": 0.0186240137293492,
+        "teams": {
+          "Fortaleza / CE": {
+            "attack": 0.0924519447808819,
+            "defense": -0.1581806928360136
+          },
+          "Cuiabá / MT": {
+            "attack": -0.2179961222297343,
+            "defense": -0.0045126116438617
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Juventude / RS",
+      "away_team": "Novorizontino / SP",
+      "home_crest": "assets/crests/juventude.png",
+      "away_crest": "assets/crests/novorizontino.png",
+      "home_color": "#008000",
+      "away_color": "#F6E32F",
+      "date": "2026-03-31T21:30:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-03-23",
+      "params": {
+        "eta": -0.1099954183184848,
+        "beta_home": 0.378298330645,
+        "rho": 0.0186240137293492,
+        "teams": {
+          "Juventude / RS": {
+            "attack": -0.085007219628545,
+            "defense": -0.2438514356478254
+          },
+          "Novorizontino / SP": {
+            "attack": -0.1003162607698428,
+            "defense": 0.1898982776898724
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Novorizontino / SP",
+      "away_team": "Londrina / PR",
+      "home_crest": "assets/crests/novorizontino.png",
+      "away_crest": "assets/crests/londrina_pr.png",
+      "home_color": "#F6E32F",
+      "away_color": "#E5292E",
+      "date": "2026-03-22T23:00:00Z",
+      "home_goals": 1,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-03-20",
+      "params": {
+        "eta": -0.0921236425140879,
+        "beta_home": 0.358099401985,
+        "rho": 0.0170662898741093,
+        "teams": {
+          "Novorizontino / SP": {
+            "attack": -0.1079706140180793,
+            "defense": 0.2241149686938384
+          },
+          "Londrina / PR": {
+            "attack": -0.2169085882725041,
+            "defense": -0.2514403981738414
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Goiás / GO",
+      "away_team": "América / MG",
+      "home_crest": "assets/crests/goias.png",
+      "away_crest": "assets/crests/americamg_bra.png",
+      "home_color": "#006633",
+      "away_color": "#006140",
+      "date": "2026-03-22T21:00:00Z",
+      "home_goals": 3,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-03-20",
+      "params": {
+        "eta": -0.0921236425140879,
+        "beta_home": 0.358099401985,
+        "rho": 0.0170662898741093,
+        "teams": {
+          "Goiás / GO": {
+            "attack": -0.0767087395123336,
+            "defense": 0.0788523603863708
+          },
+          "América / MG": {
+            "attack": -0.0760385512170246,
+            "defense": -0.0250415855900727
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Athletic / MG",
+      "away_team": "Ponte Preta / SP",
+      "home_crest": "assets/crests/athletic_mg.png",
+      "away_crest": "assets/crests/pontepreta_bra.png",
+      "home_color": "#000000",
+      "away_color": "#000000",
+      "date": "2026-03-22T21:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-03-20",
+      "params": {
+        "eta": -0.0921236425140879,
+        "beta_home": 0.358099401985,
+        "rho": 0.0170662898741093,
+        "teams": {
+          "Athletic / MG": {
+            "attack": -0.0613156631615618,
+            "defense": -0.2599520298533313
+          },
+          "Ponte Preta / SP": {
+            "attack": -0.3103960042830115,
+            "defense": -0.2604777727218764
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Náutico / PE",
+      "away_team": "Criciúma / SC",
+      "home_crest": "assets/crests/nautico.png",
+      "away_crest": "assets/crests/criciuma_bra.png",
+      "home_color": "#ED1C24",
+      "away_color": "#FFCC00",
+      "date": "2026-03-22T19:00:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-03-20",
+      "params": {
+        "eta": -0.0921236425140879,
+        "beta_home": 0.358099401985,
+        "rho": 0.0170662898741093,
+        "teams": {
+          "Náutico / PE": {
+            "attack": -0.0640449299267825,
+            "defense": -0.316487060978545
+          },
+          "Criciúma / SC": {
+            "attack": -0.0237981072041793,
+            "defense": 0.0905475786833047
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Avaí / SC",
+      "away_team": "Juventude / RS",
+      "home_crest": "assets/crests/avai_bra.png",
+      "away_crest": "assets/crests/juventude.png",
+      "home_color": "#005AB2",
+      "away_color": "#008000",
+      "date": "2026-03-22T19:00:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-03-20",
+      "params": {
+        "eta": -0.0921236425140879,
+        "beta_home": 0.358099401985,
+        "rho": 0.0170662898741093,
+        "teams": {
+          "Avaí / SC": {
+            "attack": -0.0036053218075903,
+            "defense": 0.0237558565996972
+          },
+          "Juventude / RS": {
+            "attack": -0.0254768419360269,
+            "defense": -0.1988863635076898
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Cuiabá / MT",
+      "away_team": "Sport / PE",
+      "home_crest": "assets/crests/cuiaba_bra.png",
+      "away_crest": "assets/crests/sport.png",
+      "home_color": "#006633",
+      "away_color": "#CC001A",
+      "date": "2026-03-21T23:30:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-03-20",
+      "params": {
+        "eta": -0.0921236425140879,
+        "beta_home": 0.358099401985,
+        "rho": 0.0170662898741093,
+        "teams": {
+          "Cuiabá / MT": {
+            "attack": -0.1560945395293069,
+            "defense": -0.0526407191776828
+          },
+          "Sport / PE": {
+            "attack": -0.1661296597505456,
+            "defense": -0.340021150055624
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Botafogo / SP",
+      "away_team": "Fortaleza / CE",
+      "home_crest": "assets/crests/botafogosp_bra.png",
+      "away_crest": "assets/crests/fortaleza.png",
+      "home_color": "#E52D2D",
+      "away_color": "#006CB5",
+      "date": "2026-03-21T22:15:00Z",
+      "home_goals": 4,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-03-20",
+      "params": {
+        "eta": -0.0921236425140879,
+        "beta_home": 0.358099401985,
+        "rho": 0.0170662898741093,
+        "teams": {
+          "Botafogo / SP": {
+            "attack": -0.3299404950015565,
+            "defense": -0.2353889815855875
+          },
+          "Fortaleza / CE": {
+            "attack": 0.16107509052398,
+            "defense": -0.0340803763079557
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Operário / PR",
+      "away_team": "Atlético Goianiense / GO",
+      "home_crest": "assets/crests/operario_pr.png",
+      "away_crest": "assets/crests/atleticogo_bra.png",
+      "home_color": "#000000",
+      "away_color": "#CC0000",
+      "date": "2026-03-21T21:15:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-03-20",
+      "params": {
+        "eta": -0.0921236425140879,
+        "beta_home": 0.358099401985,
+        "rho": 0.0170662898741093,
+        "teams": {
+          "Operário / PR": {
+            "attack": -0.1957836063087061,
+            "defense": -0.0707460507591616
+          },
+          "Atlético Goianiense / GO": {
+            "attack": -0.229212473493253,
+            "defense": 0.0376846646248172
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ceará / CE",
+      "away_team": "São Bernardo / SP",
+      "home_crest": "assets/crests/ceara_bra.png",
+      "away_crest": "assets/crests/saobernardosp.png",
+      "home_color": "#000000",
+      "away_color": "#FFD100",
+      "date": "2026-03-21T21:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-03-20",
+      "params": {
+        "eta": -0.0921236425140879,
+        "beta_home": 0.358099401985,
+        "rho": 0.0170662898741093,
+        "teams": {
+          "Ceará / CE": {
+            "attack": -0.1071086861250802,
+            "defense": 0.2266492303621835
+          },
+          "São Bernardo / SP": {
+            "attack": -0.1759060505154433,
+            "defense": -0.2704095390098838
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Vila Nova / GO",
+      "away_team": "CRB / AL",
+      "home_crest": "assets/crests/vilago.png",
+      "away_crest": "assets/crests/crb_bra.png",
+      "home_color": "#FDF40F",
+      "away_color": "#ED1C2A",
+      "date": "2026-03-21T20:00:00Z",
+      "home_goals": 2,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-03-20",
+      "params": {
+        "eta": -0.0921236425140879,
+        "beta_home": 0.358099401985,
+        "rho": 0.0170662898741093,
+        "teams": {
+          "Vila Nova / GO": {
+            "attack": -0.1254633636901686,
+            "defense": -0.2028864744535043
+          },
+          "CRB / AL": {
+            "attack": -0.0523110807372812,
+            "defense": -0.0612949643746772
+          }
+        }
+      }
+    }
+  ]
+}

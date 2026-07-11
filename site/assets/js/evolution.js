@@ -22,6 +22,12 @@
   const DASH_CYCLE = ["solid", "dash", "dot", "dashdot", "longdash", "longdashdot"];
   const CLASH_THRESHOLD = 15.0; // CIE76 Delta-E below this reads as "same color" in a line chart
 
+  // Shared with app.js/matches_shared.js via team_display.js, loaded before this
+  // file -- see that file for why club names keep their " / UF" state
+  // suffix in the data (disambiguates clubs like "Botafogo / RJ" vs
+  // "Botafogo / SP") even though it's never shown to the user.
+  const { displayTeamName } = window.CampoAberto;
+
   const state = {
     manifest: null,
     competitionSlug: null,
@@ -324,7 +330,7 @@
       img.loading = "lazy";
 
       const name = document.createElement("span");
-      name.textContent = team;
+      name.textContent = displayTeamName(team);
 
       row.appendChild(checkbox);
       row.appendChild(img);
@@ -419,9 +425,47 @@
       .filter((t) => state.selectedTeams.includes(t));
     const lineDash = assignLineDashes(orderedSelected, colorByTeam);
 
+    const yByTeam = new Map(
+      orderedSelected.map((name) => [
+        name,
+        isoDates.map(
+          (d) =>
+            (state.seasonData.snapshots[d].teams.find((t) => t.team === name).probs[state.spot] ||
+              0) * 100,
+        ),
+      ]),
+    );
+
     const xaxisRange = [-totalDays * 0.02, totalDays + totalDays * RIGHT_PAD_FRACTION];
     const pxPerXUnit = (FIG_W - MARGIN.l - MARGIN.r) / (xaxisRange[1] - xaxisRange[0]);
-    const pxPerYUnit = (FIG_H - MARGIN.t - MARGIN.b) / 105;
+
+    // Autoscale the y-axis to the selected teams' own data range for this
+    // spot instead of always showing the full 0-100% band -- a spot most
+    // teams sit near 0% or 100% for (e.g. a near-decided title race, or a
+    // tight relegation battle) reads far more clearly zoomed in. Computed by
+    // hand (not Plotly's own autorange) since the endpoint crests/labels
+    // below are placed in data (yref: "y") coordinates and have to agree
+    // with whatever range actually renders.
+    //
+    // minSpan is the important safety valve: it keeps the zoomed-in range
+    // from ever collapsing tighter than what NUDGE_SPACING needs to keep
+    // every selected team's endpoint label legible. Without it, two teams
+    // with a near-identical final chance for the current spot (e.g.
+    // Flamengo and Palmeiras both hovering around the same
+    // pré-Libertadores probability) would get decluttered into a gap wider
+    // than the zoomed-in chart itself, clamping them right back on top of
+    // each other -- the exact overlap a naive "just fit the data" autoscale
+    // would reintroduce.
+    const allY = orderedSelected.flatMap((name) => yByTeam.get(name));
+    const dataMin = Math.min(...allY);
+    const dataMax = Math.max(...allY);
+    const minSpan = NUDGE_SPACING * Math.max(1, orderedSelected.length - 1) + 15;
+    const ySpan = Math.max(dataMax - dataMin, minSpan);
+    const yCenter = (dataMax + dataMin) / 2;
+    const yPadding = ySpan * 0.12;
+    const yMin = yCenter - ySpan / 2 - yPadding;
+    const yMax = yCenter + ySpan / 2 + yPadding;
+    const pxPerYUnit = (FIG_H - MARGIN.t - MARGIN.b) / (yMax - yMin);
 
     const crestAspects = await Promise.all(
       orderedSelected.map((name) => loadCrestAspect(teamByName(name).crest)),
@@ -429,7 +473,7 @@
 
     // A crest sits vertically centered on its (possibly nudged) label position;
     // keep the label at least half the crest's rendered height away from the
-    // 0%/100% edges, or its icon gets cropped by the plot area -- the tallest
+    // axis edges, or its icon gets cropped by the plot area -- the tallest
     // crest among the selected teams sets how much clearance every label needs.
     const halfCrestHeights = crestAspects.map((aspect) => CREST_WIDTH_PX / aspect / 2 / pxPerYUnit);
     const crestClearance = Math.max(...halfCrestHeights) + 1;
@@ -437,8 +481,8 @@
       rankedTeams,
       trueYByTeam,
       NUDGE_SPACING,
-      crestClearance,
-      105 - crestClearance,
+      Math.max(0, yMin) + crestClearance,
+      Math.min(100, yMax) - crestClearance,
     );
 
     const gridColor = cssVar("--gridline") || "#EAECF0";
@@ -449,11 +493,7 @@
 
     const traces = orderedSelected.map((name) => {
       const team = teamByName(name);
-      const y = isoDates.map(
-        (d) =>
-          (state.seasonData.snapshots[d].teams.find((t) => t.team === name).probs[state.spot] ||
-            0) * 100,
-      );
+      const y = yByTeam.get(name);
       const markerSizes = new Array(y.length).fill(5);
       markerSizes[markerSizes.length - 1] = 0; // endpoint is replaced by the crest icon
       return {
@@ -464,7 +504,7 @@
         line: { color: team.color, width: 2, dash: lineDash.get(name) },
         marker: { size: markerSizes, color: team.color, line: { color: surface, width: 1 } },
         text: isoDates.map(formatDateLabel),
-        hovertemplate: `<b>${name}</b><br>%{text}: %{y:.1f}%<extra></extra>`,
+        hovertemplate: `<b>${displayTeamName(name)}</b><br>%{text}: %{y:.1f}%<extra></extra>`,
       };
     });
 
@@ -508,7 +548,7 @@
       annotations.push({
         x: crestX + CREST_WIDTH_PX / pxPerXUnit / 2 + totalDays * 0.004,
         y: yDisplay,
-        text: `<b>${name.split(" / ")[0]}</b>  ${yEnd.toFixed(1)}%`,
+        text: `<b>${displayTeamName(name)}</b>  ${yEnd.toFixed(1)}%`,
         showarrow: false,
         xanchor: "left",
         yanchor: "middle",
@@ -568,7 +608,7 @@
         showline: false,
         ticksuffix: "%",
         tickfont: { size: 13 },
-        range: [0, 105],
+        range: [yMin, yMax],
       },
     };
 
@@ -608,7 +648,7 @@
       crest.loading = "lazy";
 
       const label = document.createElement("span");
-      label.textContent = name;
+      label.textContent = displayTeamName(name);
 
       wrapper.appendChild(crest);
       wrapper.appendChild(label);

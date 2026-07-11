@@ -2,14 +2,25 @@
 (src.models.fit, src.simulation.run, src.pipeline).
 """
 
+from datetime import datetime
+import glob
+
 DEFAULT_MATCHES_PATH = "data/processed/brazil/matches.csv"
 # Competition configs are per-season: the REC changes year to year (e.g. Serie
 # A's extra pre-Libertadores slot in 2025, Serie B's access playoff introduced
 # in 2026 -- see configs/serie_*_2025.yaml vs configs/serie_*_2026.yaml). Pass
 # --configs explicitly when simulating/backtesting a season other than the
 # current default.
-DEFAULT_CONFIGS = ["configs/serie_a_2026.yaml", "configs/serie_b_2026.yaml"]
-DEFAULT_SEASON = 2026
+#
+# DEFAULT_CONFIGS is derived from DEFAULT_SEASON rather than hardcoded, so it
+# never needs a manual bump on its own -- but it degrades to an empty list if
+# next year's configs/serie_*_<year>.yaml files haven't been authored yet.
+# That's a real, expected manual step each year (the yaml encodes that
+# season's competition rules, e.g. the REC changes above, which aren't
+# inferable from anything) rather than something this glob can paper over by
+# pointing at stale files.
+DEFAULT_SEASON = datetime.now().year
+DEFAULT_CONFIGS = sorted(glob.glob(f"configs/serie_*_{DEFAULT_SEASON}.yaml"))
 
 DEFAULT_CHAINS = 4
 DEFAULT_ITER_WARMUP = 1500
