@@ -141,7 +141,7 @@
       ]);
       state.matchesManifest = matchesManifest;
       state.params = params;
-      state.tiers = computeStrengthTiers(params.teams);
+      state.tiers = computeStrengthTiers(params.teams, params.model);
     } catch (error) {
       showStatus(`Não foi possível carregar os dados: ${error.message}`);
       return;

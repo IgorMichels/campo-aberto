@@ -38,9 +38,10 @@ python -m src.site.export_matches_data
 This must run _after_ `python -m src.ingestion.brazil.run_pipeline` (which
 produces the merged `matches.csv` both upcoming- and played-fixture cards
 read from) and _after_ `python -m src.simulation.run_rounds` / `python -m
-src.pipeline` (which produce the `attack`/`defense`/`eta`/`beta_home`/`rho`
-columns on `data/results/` that `params.json` -- and each played match's own
-embedded historical params slice, see below -- are built from).
+src.pipeline` (which produce the `model` column plus whichever team/shared
+columns that model declares -- see `src/models/registry.py` -- on
+`data/results/` that `params.json` -- and each played match's own embedded
+historical params slice, see below -- are built from).
 
 ## Data schema
 
@@ -134,27 +135,39 @@ merge precedence and the `score_discrepancies.csv` sanity report.
 
 `data/results/<slug>/<season>/<date>.csv` (produced by
 `python -m src.simulation.run_rounds` / `python -m src.pipeline`) carries,
-alongside its existing `team`/`expected_position`/`prob_*` columns, each
-team's posterior-**mean** `attack`/`defense` plus the shared posterior-mean
-`eta`/`beta_home`/`rho` from that round's Stan fit. `export_matches_data`
+alongside its existing `team`/`expected_position`/`prob_*` columns, a
+`model` column naming which `src/models/registry.py` adapter produced that
+round's Stan fit, plus whichever team/shared columns that adapter declares
+(posterior-**mean** `attack`/`defense` and shared `eta`/`beta_home`/`rho`,
+for today's only registered model, `poisson_home`). `export_matches_data`
 reads the single globally-latest such file for the shared scalars, and the
 union of every competition's own latest file for the `teams` dict (Serie A
-and Serie B are fit jointly, so their `attack`/`defense` values already
-live on one shared scale, even when their schedules have drifted to
-different latest-played dates).
+and Serie B are fit jointly, so their team-param values already live on one
+shared scale, even when their schedules have drifted to different
+latest-played dates) -- and raises loudly if two competitions' latest files
+disagree on `model` (a reachable mid-migration state, not something to
+silently merge).
 
-### Scoreline math: client-side JS, one implementation
+### Scoreline math: client-side JS, one implementation per model
 
 All scoreline probabilities -- for both real-fixture cards and free-pick
-cards -- are computed live in the browser by `assets/js/dixon_coles.js`
-(`window.DixonColes.matchRates` / `.scorelineProbabilities`), a
+cards -- are computed live in the browser, dispatched through
+`window.ScoreModels[params.model]` (`assets/js/score_models.js`) to
+whichever model produced that `params` object's numbers. Today's only
+registered model, `poisson_home` (`assets/js/poisson_home.js`,
+`.matchRates` / `.scorelineProbabilities` / `.teamStrength`), is a
 Dixon-Coles-adjusted independent-Poisson model: the same closed form
-`src/models/poisson_home.stan` fits and `src/simulation/simulate.py`
-already codes as a rejection-sampling bound, evaluated here as an explicit
-probability instead. There is deliberately no Python port of this formula
--- every parameter it needs (`attack`/`defense` per team, `eta`,
-`beta_home`, `rho`) is already shipped to the browser in `params.json`, so
-a server-side implementation would be pure duplication.
+`src/models/poisson_home.stan` fits and
+`src/models/adapters/poisson_home.py` already codes as a rejection-sampling
+bound, evaluated here as an explicit probability instead. There is
+deliberately no Python port of this formula for _rendering_ -- every
+parameter it needs is already shipped to the browser in `params.json`
+(`shared`/`teams`, see below), so a server-side implementation would be
+pure duplication. A candidate model (see `src/models/registry.py`) needs
+one new JS file implementing the same 3-function contract, one line
+registering it in `score_models.js`'s style, and one `<script>` tag added
+to each of `matches/{upcoming,played,simulate}.html` -- `matches_shared.js`
+itself needs no change.
 
 ### Data schema
 
@@ -231,9 +244,8 @@ historical dates:
       "has_model": true,
       "reference_date": "2026-05-04",
       "params": {
-        "eta": 0.021,
-        "beta_home": 0.318,
-        "rho": 0.026,
+        "model": "poisson_home",
+        "shared": { "eta": 0.021, "beta_home": 0.318, "rho": 0.026 },
         "teams": {
           "Flamengo / RJ": { "attack": 0.41, "defense": 0.18 },
           "Palmeiras / SP": { "attack": 0.52, "defense": 0.09 }
@@ -261,14 +273,15 @@ grid.
 
 `data/params.json` -- the shared model parameters an upcoming-fixture or
 free-pick card is computed from, entirely in the browser (a played card
-uses its own embedded `params` above instead):
+uses its own embedded `params` above instead). `model` selects which
+`window.ScoreModels` entry (`assets/js/score_models.js`) interprets
+`shared`/`teams` -- see "Scoreline math" above:
 
 ```json
 {
   "reference_date": "2026-07-09",
-  "eta": 0.021,
-  "beta_home": 0.318,
-  "rho": 0.026,
+  "model": "poisson_home",
+  "shared": { "eta": 0.021, "beta_home": 0.318, "rho": 0.026 },
   "teams": { "Flamengo / RJ": { "attack": 0.41, "defense": 0.18 }, "...": "..." }
 }
 ```

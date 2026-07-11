@@ -1,18 +1,18 @@
 (() => {
   "use strict";
 
-  // Dixon-Coles-adjusted independent-Poisson scoreline probabilities -- the
-  // ONLY implementation of this math in the whole project (see
-  // plans/confrontos_rework.md, Step 3). Every parameter this needs
-  // (posterior-mean attack/defense per team + shared eta/beta_home/rho) is
-  // already shipped to the browser in site/data/params.json, so there is no
-  // Python port: a second implementation would be pure duplication.
+  // The "poisson_home" entry in window.ScoreModels (see score_models.js) --
+  // today's production model, and the ONLY implementation of this specific
+  // math in the whole project (see plans/confrontos_rework.md, Step 3).
+  // Every parameter this needs (posterior-mean attack/defense per team +
+  // shared eta/beta_home/rho) is already shipped to the browser in
+  // site/data/params.json, so there is no Python port: a second
+  // implementation would be pure duplication.
   //
   // This is the exact closed-form evaluation of the correction
   // src/models/poisson_home.stan's dc_log_prob already fits and
-  // src/simulation/simulate.py::simulate_scores already codes as
-  // tau00/tau01/tau10/tau11 -- there, only ever used as a rejection-sampling
-  // accept/reject bound. dixon_coles.js is the first place this repo
+  // src/models/adapters/poisson_home.py already codes as a rejection-
+  // sampling accept/reject bound -- this file is the first place this repo
   // evaluates it as an explicit closed-form probability.
   //
   //   mu_home = exp(attack_home - defense_away + eta + beta_home)
@@ -51,11 +51,15 @@
     return 1;
   }
 
-  // Per-match scoring rates from each side's posterior-mean attack/defense
-  // plus the shared eta/beta_home. Note the parameter order: attackHome,
-  // defenseHome, attackAway, defenseAway (each side's own attack/defense
-  // together), not grouped by "home rate inputs" / "away rate inputs".
-  function matchRates(attackHome, defenseHome, attackAway, defenseAway, eta, betaHome) {
+  // Per-match scoring rates from each side's own team params (this model's
+  // shape: {attack, defense}) plus the shared params (this model's shape:
+  // {eta, beta_home, rho}) -- object arguments, not positional scalars, so
+  // window.ScoreModels' contract (see score_models.js) doesn't assume every
+  // model has exactly this parameter set.
+  function matchRates(homeTeamParams, awayTeamParams, sharedParams) {
+    const { attack: attackHome, defense: defenseHome } = homeTeamParams;
+    const { attack: attackAway, defense: defenseAway } = awayTeamParams;
+    const { eta, beta_home: betaHome } = sharedParams;
     const muHome = Math.exp(attackHome - defenseAway + eta + betaHome);
     const muAway = Math.exp(attackAway - defenseHome + eta);
     return { muHome, muAway };
@@ -72,7 +76,8 @@
   // down to a (maxGoals+1) x (maxGoals+1) grid for display (each of the last
   // row/column/corner is the sum of every fine cell with that many goals or
   // more, matching the fine grid's own tail convention).
-  function scorelineProbabilities(muHome, muAway, rho, maxGoals = 4, outcomeCap = 10) {
+  function scorelineProbabilities(muHome, muAway, sharedParams, maxGoals = 4, outcomeCap = 10) {
+    const { rho } = sharedParams;
     const pHome = poissonPmfWithTail(muHome, outcomeCap);
     const pAway = poissonPmfWithTail(muAway, outcomeCap);
 
@@ -131,5 +136,13 @@
     return values;
   }
 
-  window.DixonColes = { matchRates, scorelineProbabilities };
+  // Symmetric "how strong is this team" scalar, used only to derive the
+  // sticker card's rarity border (see matches_shared.js::computeStrengthTiers/
+  // strengthTierClass) -- not part of the scoreline math itself.
+  function teamStrength(teamParams) {
+    return teamParams.attack + teamParams.defense;
+  }
+
+  window.ScoreModels = window.ScoreModels || {};
+  window.ScoreModels.poisson_home = { matchRates, scorelineProbabilities, teamStrength };
 })();
