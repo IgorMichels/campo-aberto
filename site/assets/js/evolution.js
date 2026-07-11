@@ -22,6 +22,12 @@
   const DASH_CYCLE = ["solid", "dash", "dot", "dashdot", "longdash", "longdashdot"];
   const CLASH_THRESHOLD = 15.0; // CIE76 Delta-E below this reads as "same color" in a line chart
 
+  // Shared with app.js/matches_shared.js via team_display.js, loaded before this
+  // file -- see that file for why club names keep their " / UF" state
+  // suffix in the data (disambiguates clubs like "Botafogo / RJ" vs
+  // "Botafogo / SP") even though it's never shown to the user.
+  const { displayTeamName } = window.CampoAberto;
+
   const state = {
     manifest: null,
     competitionSlug: null,
@@ -324,7 +330,7 @@
       img.loading = "lazy";
 
       const name = document.createElement("span");
-      name.textContent = team;
+      name.textContent = displayTeamName(team);
 
       row.appendChild(checkbox);
       row.appendChild(img);
@@ -464,7 +470,7 @@
         line: { color: team.color, width: 2, dash: lineDash.get(name) },
         marker: { size: markerSizes, color: team.color, line: { color: surface, width: 1 } },
         text: isoDates.map(formatDateLabel),
-        hovertemplate: `<b>${name}</b><br>%{text}: %{y:.1f}%<extra></extra>`,
+        hovertemplate: `<b>${displayTeamName(name)}</b><br>%{text}: %{y:.1f}%<extra></extra>`,
       };
     });
 
@@ -508,7 +514,7 @@
       annotations.push({
         x: crestX + CREST_WIDTH_PX / pxPerXUnit / 2 + totalDays * 0.004,
         y: yDisplay,
-        text: `<b>${name.split(" / ")[0]}</b>  ${yEnd.toFixed(1)}%`,
+        text: `<b>${displayTeamName(name)}</b>  ${yEnd.toFixed(1)}%`,
         showarrow: false,
         xanchor: "left",
         yanchor: "middle",
@@ -608,7 +614,7 @@
       crest.loading = "lazy";
 
       const label = document.createElement("span");
-      label.textContent = name;
+      label.textContent = displayTeamName(name);
 
       wrapper.appendChild(crest);
       wrapper.appendChild(label);
