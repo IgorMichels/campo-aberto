@@ -3,61 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Campo Aberto - Confrontos</title>
+    <title>Campo Aberto - Simule um jogo</title>
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%E2%9A%BD</text></svg>"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/matches.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/matches.css" />
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
   </head>
   <body>
     <header class="page-header">
       <h1>Campo Aberto</h1>
-      <p class="subtitle">Probabilidades de placar por confronto</p>
+      <p class="subtitle">Monte um confronto entre quaisquer dois times</p>
     </header>
 
     <nav class="page-nav" aria-label="Páginas">
-      <a href="index.html">Classificação</a>
-      <a href="evolution.html">Evolução</a>
-      <a href="matches.html" aria-current="page">Confrontos</a>
+      <a href="../index.html">Classificação</a>
+      <a href="../evolution.html">Evolução</a>
+      <a href="upcoming.html" aria-current="page">Jogos</a>
+    </nav>
+
+    <nav class="page-nav matches-subnav" aria-label="Jogos">
+      <a href="upcoming.html">Próximos</a>
+      <a href="played.html">Passados</a>
+      <a href="simulate.html" aria-current="page">Simule</a>
     </nav>
 
     <main>
-      <div class="controls">
-        <div class="tabs" id="competition-tabs" role="tablist" aria-label="Competição"></div>
-
-        <div class="season-picker">
-          <label for="season-select">Temporada</label>
-          <select id="season-select"></select>
-        </div>
-      </div>
-
-      <p class="model-note" id="model-note"></p>
-
-      <div class="round-bar">
-        <div class="search-wrap">
-          <span class="search-icon">&#128269;</span>
-          <input
-            class="team-filter"
-            id="team-filter"
-            type="text"
-            placeholder="Buscar time..."
-            autocomplete="off"
-          />
-        </div>
-      </div>
-
-      <div class="stickers-carousel">
-        <button class="scroll-btn left" id="scroll-left" aria-label="Rolar para a esquerda">
-          &#10094;
-        </button>
-        <div class="stickers-grid" id="stickers-grid"></div>
-        <button class="scroll-btn right" id="scroll-right" aria-label="Rolar para a direita">
-          &#10095;
-        </button>
-      </div>
-
       <p class="status-message" id="status-message" hidden></p>
 
       <section class="confronto-builder">
@@ -97,7 +70,38 @@
 
     <div class="sticker-modal" id="sticker-modal">
       <div class="sticker-modal-overlay" id="sticker-modal-overlay"></div>
-      <div class="sticker-modal-content" id="sticker-modal-content"></div>
+      <div class="sticker-modal-inner">
+        <div class="sticker-modal-content" id="sticker-modal-content"></div>
+        <div class="sticker-modal-toolbar">
+          <button
+            type="button"
+            class="modal-btn modal-btn-download"
+            id="sticker-modal-download"
+            aria-label="Baixar figurinha"
+            title="Baixar figurinha"
+          >
+            &#11015; Baixar
+          </button>
+          <button
+            type="button"
+            class="modal-btn modal-btn-share"
+            id="sticker-modal-share"
+            aria-label="Compartilhar figurinha"
+            title="Compartilhar figurinha"
+          >
+            &#128279; Compartilhar
+          </button>
+        </div>
+        <button
+          type="button"
+          class="modal-btn-close-circle"
+          id="sticker-modal-close"
+          aria-label="Fechar"
+          title="Fechar"
+        >
+          &#10005;
+        </button>
+      </div>
     </div>
 
     <footer class="page-footer">
@@ -109,7 +113,9 @@
       </p>
     </footer>
 
-    <script src="assets/js/dixon_coles.js"></script>
-    <script src="assets/js/matches.js"></script>
+    <script src="../assets/js/dixon_coles.js"></script>
+    <script src="../assets/js/team_display.js"></script>
+    <script src="../assets/js/matches_shared.js"></script>
+    <script src="../assets/js/matches_simulate.js"></script>
   </body>
 </html>
