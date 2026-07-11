@@ -21,6 +21,7 @@ data/club_infos.csv without rerunning the full pipeline:
 """
 
 import argparse
+import bisect
 import filecmp
 import glob
 import json
@@ -80,6 +81,22 @@ def _all_results_csvs(slug: str, season: int, results_dir: str) -> list[str]:
     """Every dated CSV for this competition+season, oldest first -- each one
     becomes a selectable reference-date snapshot on the site."""
     return sorted(glob.glob(os.path.join(results_dir, slug, str(season), "*.csv")))
+
+
+def _snapshot_csv_before(
+    slug: str, season: int, before: pd.Timestamp, results_dir: str
+) -> str | None:
+    """The latest dated CSV for this competition+season whose embedded date is
+    STRICTLY before `before`'s calendar date -- i.e. the most recent model
+    snapshot fit before a given match was played. Filenames are YYYY_MM_DD.csv,
+    so a plain string comparison against `before`'s own YYYY-MM-DD is already
+    chronological (see _all_results_csvs). Returns None when no such snapshot
+    exists yet -- a real, confirmed case for a season's earliest played
+    matches, which predate that competition+season's very first backtest."""
+    csv_paths = _all_results_csvs(slug, season, results_dir)
+    dates = [os.path.splitext(os.path.basename(p))[0].replace("_", "-") for p in csv_paths]
+    idx = bisect.bisect_left(dates, before.strftime("%Y-%m-%d"))
+    return csv_paths[idx - 1] if idx > 0 else None
 
 
 def _copy_crest(src_path: str, crests_dir: str) -> str:
