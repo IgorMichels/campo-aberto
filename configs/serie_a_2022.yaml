@@ -1,0 +1,57 @@
+# Brasileirao Serie A 2022.
+#
+# Source: REC (Regulamento Especifico da Competicao) for the 2022 season.
+# Same table-position spot layout as configs/serie_a_2025.yaml (4 direct
+# Libertadores group-stage berths + 2 pre-Libertadores berths + 6
+# Sul-Americana berths by table position, in place since 2016) -- this only
+# shrank starting with 2026's REC (1 pre-Libertadores berth, Sul-Americana
+# window narrowing to 6-11), so 2022-2025 all share this shape.
+#
+# Known simplifications (things our data/model can't reproduce exactly):
+# - Tiebreak steps 5-6 (fewer red/yellow cards) are skipped -- we have no
+#   disciplinary data -- so a tied pair falls straight through to a random
+#   draw, same as the official last-resort "sorteio" criterion (which really
+#   is a random draw, so a per-simulation coin flip is the statistically
+#   correct stand-in for it).
+# - The Copa do Brasil champion/runner-up and the Libertadores champion each
+#   get a Libertadores berth regardless of Serie A table position -- modeled
+#   below via `guaranteed_slots`, dated to each final's real decisive-leg
+#   date (see the `cascade` field and configs/README.md for the allocation
+#   rules).
+name: Serie A
+n_teams: 20
+
+phases:
+  - id: league
+    type: round_robin
+    # Head-to-head ("confronto direto"), only used when exactly 2 clubs are
+    # tied on points/wins/goal-difference/goals-scored: points earned across
+    # both legs, then goal difference of those two legs.
+    head_to_head_mode: points_then_goal_diff
+    spots:
+      - name: title
+        positions: { from: 1, to: 1 }
+      - name: libertadores_grupos
+        positions: { from: 1, to: 4 } # CONMEBOL Libertadores 2023, group stage
+      - name: libertadores_pre
+        positions: { from: 5, to: 6 } # Libertadores 2023, preliminary phase
+      - name: sulamericana
+        positions: { from: 7, to: 12 } # CONMEBOL Sul-Americana 2023
+      - name: rebaixamento
+        positions: { from: 17, to: 20 } # relegated to Serie B (Ceara, Atletico-GO, Avai, Juventude)
+    # Priority order (best first) for guaranteed-slot cascading -- see
+    # guaranteed_slots in configs/README.md. title is deliberately excluded:
+    # it's a bonus nested inside libertadores_grupos, not a competing tier.
+    cascade: [libertadores_grupos, libertadores_pre, sulamericana]
+
+aggregates:
+  - name: libertadores
+    of: [libertadores_grupos, libertadores_pre]
+
+guaranteed_slots:
+  - team: "Flamengo / RJ"
+    spot: libertadores_grupos
+    known_from: "2022-10-19" # Copa do Brasil 2022 champion (won on penalties vs. Corinthians)
+  - team: "Flamengo / RJ"
+    spot: libertadores_grupos
+    known_from: "2022-10-29" # Libertadores 2022 champion (beat Athletico-PR 1-0, Guayaquil)
