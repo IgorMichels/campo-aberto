@@ -1,0 +1,31 @@
+# Brasileirao Serie B 2022.
+#
+# Source: REC (Regulamento Especifico da Competicao) for the 2022 season.
+# No access playoff -- the "cruzamento olimpico" (Art. 13 in the 2026 REC)
+# wasn't introduced until 2026; the last time a mata-mata decided promotion
+# to the elite before that was ~2001/2002. So 2022-2025 all award the 4
+# promotion spots directly by table position, same shape as
+# configs/serie_b_2025.yaml.
+#
+# Known simplifications:
+# - Tiebreak steps 5-6 (fewer red/yellow cards) are skipped -- we have no
+#   disciplinary data -- so a tied pair falls straight through to a random
+#   draw, the statistically correct stand-in for the official last-resort
+#   "sorteio".
+name: Serie B
+n_teams: 20
+
+phases:
+  - id: league
+    type: round_robin
+    # Head-to-head ("confronto direto"), only used when exactly 2 clubs are
+    # tied: goal difference of the two legs combined ("jogo de 180
+    # minutos") -- points aren't used here, unlike Serie A.
+    head_to_head_mode: goal_diff_only
+    spots:
+      - name: title
+        positions: { from: 1, to: 1 }
+      - name: direct_promotion
+        positions: { from: 1, to: 4 } # promoted to Serie A outright -- no access playoff this season
+      - name: rebaixamento
+        positions: { from: 17, to: 20 } # relegated to Serie C
