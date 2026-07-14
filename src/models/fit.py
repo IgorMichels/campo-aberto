@@ -112,7 +112,9 @@ def save_samples(
 
     The competition/country is inferred from matches_path's parent directory
     (mirroring data/processed/<country>/matches.csv), and the file is named
-    after the latest match date in the input data.
+    after the latest match date in the input data plus `model` (e.g.
+    "2026_07_08__poisson_home.csv"), so two candidate models fit on the same
+    matches.csv never overwrite each other's samples.
 
     Returns:
         The path the samples were saved to.
@@ -120,7 +122,7 @@ def save_samples(
     country = os.path.basename(os.path.dirname(matches_path))
     out_dir = os.path.join(samples_dir, country)
     os.makedirs(out_dir, exist_ok=True)
-    out_path = os.path.join(out_dir, f"{latest_match_date(matches_path)}.csv")
+    out_path = os.path.join(out_dir, f"{latest_match_date(matches_path)}__{model}.csv")
     samples_long(mcmc_fit, teams, model=model).to_csv(out_path, index=False)
     return out_path
 
