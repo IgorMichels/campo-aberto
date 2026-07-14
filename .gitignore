@@ -233,3 +233,7 @@ data/assets/crests/
 # recompiled automatically from the .stan source on first use)
 src/models/stan_models/poisson_home
 src/models/stan_models/*.hpp
+
+# Walk-forward backtest per-checkpoint cache (reproducible from matches.csv --
+# see src.models.backtest)
+data/backtest_cache/

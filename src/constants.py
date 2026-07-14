@@ -36,6 +36,9 @@ DEFAULT_MAX_WEEKS_AGO = 100
 
 SAMPLES_DIR = "data/samples"  # posterior attack/defense draws, saved by src.models.fit
 RESULTS_DIR = "data/results"  # per-competition spot probabilities, saved by src.simulation.run
+BACKTEST_CACHE_DIR = (
+    "data/backtest_cache"  # per-checkpoint scored records, saved by src.models.backtest
+)
 
 CLUB_INFOS_PATH = (
     "data/assets/club_infos.csv"  # colors + crest_path per team, read by src.site.export_site_data
