@@ -15,8 +15,12 @@
   --head-row-h: 2.4rem;
 }
 
+/* Dark palette applies either from the OS preference (when the user hasn't
+   picked a theme via the toggle button, i.e. no data-theme attribute) or
+   from an explicit data-theme="dark" set by theme.js, which always wins
+   over the OS preference in either direction. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --surface-1: #1a1a19;
     --page-plane: #0d0d0d;
     --text-primary: #ffffff;
@@ -31,6 +35,22 @@
     --seq-g: 135;
     --seq-b: 229;
   }
+}
+
+:root[data-theme="dark"] {
+  --surface-1: #1a1a19;
+  --page-plane: #0d0d0d;
+  --text-primary: #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted: #898781;
+  --gridline: #2c2c2a;
+  --baseline: #383835;
+  --border: rgba(255, 255, 255, 0.1);
+  --accent: #3987e5;
+  --accent-strong: #86b6ef;
+  --seq-r: 57;
+  --seq-g: 135;
+  --seq-b: 229;
 }
 
 * {
@@ -165,6 +185,29 @@ body {
 .nav-dropdown-menu a[aria-current="page"] {
   color: var(--accent-strong);
   background: var(--border);
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 20;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-1);
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent);
 }
 
 main {

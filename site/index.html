@@ -9,8 +9,27 @@
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%E2%9A%BD</text></svg>"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script>
+      // Applies any stored theme choice before first paint, so the page
+      // never flashes the wrong palette. theme.js (loaded later) owns the
+      // toggle button itself.
+      (() => {
+        const stored = localStorage.getItem("campo-aberto-theme");
+        if (stored === "light" || stored === "dark") {
+          document.documentElement.setAttribute("data-theme", stored);
+        }
+      })();
+    </script>
   </head>
   <body>
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-pressed="false"
+      aria-label="Mudar para tema escuro"
+    ></button>
+
     <header class="page-header">
       <h1>Campo Aberto</h1>
       <p class="subtitle">Probabilidades simuladas para o Brasileirão</p>
@@ -76,6 +95,7 @@
     </footer>
 
     <script src="assets/js/nav.js"></script>
+    <script src="assets/js/theme.js"></script>
     <script src="assets/js/team_display.js"></script>
     <script src="assets/js/app.js"></script>
   </body>
