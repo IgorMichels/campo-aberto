@@ -230,8 +230,12 @@ data/processed/brazil/score_discrepancies.csv
 data/assets/crests/
 
 # Compiled Stan model binaries (cmdstanpy build artifacts, platform-specific --
-# recompiled automatically from the .stan source on first use)
+# recompiled automatically from the .stan source on first use). Named
+# explicitly (one per MODEL_REGISTRY entry) rather than a blanket
+# extension-less glob, so a new source file added under src/models/stan_models/
+# without a .stan extension doesn't silently vanish from git.
 src/models/stan_models/poisson_home
+src/models/stan_models/poisson_strength
 src/models/stan_models/*.hpp
 
 # Walk-forward backtest per-checkpoint cache (reproducible from matches.csv --
