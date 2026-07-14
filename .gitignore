@@ -231,5 +231,5 @@ data/assets/crests/
 
 # Compiled Stan model binaries (cmdstanpy build artifacts, platform-specific --
 # recompiled automatically from the .stan source on first use)
-src/models/poisson_home
-src/models/*.hpp
+src/models/stan_models/poisson_home
+src/models/stan_models/*.hpp
