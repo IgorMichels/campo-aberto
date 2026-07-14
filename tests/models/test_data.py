@@ -9,7 +9,16 @@ shared across countries".
 import pandas as pd
 import pytest
 
-from src.models.data import _time_weight, build_stan_data, load_stan_data
+from src.models.data import (
+    ARRIVED_FROM_BELOW,
+    ELEVATOR,
+    STAYED_SECOND,
+    STAYED_TOP,
+    _prior_groups,
+    _time_weight,
+    build_stan_data,
+    load_stan_data,
+)
 
 
 def _match(competition, season, dt, home, away, home_goals, away_goals):
@@ -192,3 +201,95 @@ def test_load_stan_data_forwards_kwargs_to_build_stan_data(tmp_path):
 
     assert stan_data["N"] == 1
     assert teams == ["A FC", "B FC"]
+
+
+# --- "group" (hierarchical-prior classification, see _prior_groups) ---
+
+
+def _mobility_df() -> pd.DataFrame:
+    """5 teams covering all 4 groups at once:
+    - Alpha FC: Serie A in both 2025 and 2026 -> STAYED_TOP.
+    - Beta FC: Serie B in both 2025 and 2026 -> STAYED_SECOND.
+    - Gamma FC: Serie B in 2025, Serie A in 2026 (promoted) -> ELEVATOR.
+    - Delta FC: Serie A in 2025, Serie B in 2026 (relegated) -> ELEVATOR too
+      (same group regardless of direction).
+    - Epsilon FC: only plays in 2026 (Serie B), no 2025 data at all ->
+      ARRIVED_FROM_BELOW.
+    """
+    return pd.DataFrame(
+        [
+            _match("Serie A", 2025, "2025-01-01", "Alpha FC", "Delta FC", 1, 0),
+            _match("Serie B", 2025, "2025-01-08", "Beta FC", "Gamma FC", 2, 1),
+            _match("Serie A", 2026, "2026-01-01", "Alpha FC", "Gamma FC", 1, 1),
+            _match("Serie B", 2026, "2026-01-08", "Beta FC", "Delta FC", 0, 2),
+            _match("Serie B", 2026, "2026-01-15", "Epsilon FC", "Beta FC", 1, 1),
+        ]
+    )
+
+
+def test_prior_group_assigns_all_4_groups_by_season_transition():
+    stan_data, teams = build_stan_data(
+        _mobility_df(), reference_date=pd.Timestamp("2026-01-15"), max_weeks_ago=1000
+    )
+
+    assert teams == ["Alpha FC", "Beta FC", "Delta FC", "Epsilon FC", "Gamma FC"]
+    group_by_team = dict(zip(teams, stan_data["group"]))
+    assert group_by_team["Alpha FC"] == STAYED_TOP
+    assert group_by_team["Beta FC"] == STAYED_SECOND
+    assert group_by_team["Delta FC"] == ELEVATOR  # Serie A 2025 -> Serie B 2026
+    assert group_by_team["Gamma FC"] == ELEVATOR  # Serie B 2025 -> Serie A 2026
+    assert group_by_team["Epsilon FC"] == ARRIVED_FROM_BELOW
+
+
+def test_prior_group_is_aligned_with_the_teams_list_order():
+    stan_data, teams = build_stan_data(
+        _mobility_df(), reference_date=pd.Timestamp("2026-01-15"), max_weeks_ago=1000
+    )
+
+    assert stan_data["group"] == [STAYED_TOP, STAYED_SECOND, ELEVATOR, ARRIVED_FROM_BELOW, ELEVATOR]
+    assert len(stan_data["group"]) == len(teams)
+
+
+def test_prior_group_raises_with_a_single_competition():
+    df = pd.DataFrame(
+        [
+            _match("Generic League", 2025, "2025-01-01", "Alpha FC", "Beta FC", 1, 0),
+            _match("Generic League", 2026, "2026-01-01", "Beta FC", "Alpha FC", 2, 2),
+        ]
+    )
+
+    with pytest.raises(ValueError):
+        _prior_groups(df, ["Alpha FC", "Beta FC"])
+
+
+def test_prior_group_raises_with_more_than_2_competitions():
+    df = pd.DataFrame(
+        [
+            _match("Serie A", 2026, "2026-01-01", "Alpha FC", "Beta FC", 1, 0),
+            _match("Serie B", 2026, "2026-01-02", "Gamma FC", "Delta FC", 2, 2),
+            _match("Serie C", 2026, "2026-01-03", "Epsilon FC", "Zeta FC", 0, 0),
+        ]
+    )
+
+    with pytest.raises(ValueError):
+        _prior_groups(df, ["Alpha FC", "Beta FC", "Gamma FC", "Delta FC", "Epsilon FC", "Zeta FC"])
+
+
+def test_build_stan_data_omits_group_when_not_exactly_2_competitions():
+    """build_stan_data itself must stay generic over any number of
+    competitions (see module docstring) -- only hierarchical_home.stan
+    actually declares "group" in its data block, so every other model must
+    keep working on data _prior_groups can't classify. The ValueError is
+    swallowed here and surfaces later only if hierarchical_home is fit on
+    such data (at Stan's own data validation)."""
+    df = pd.DataFrame(
+        [
+            _match("Generic League", 2025, "2025-01-01", "Alpha FC", "Beta FC", 1, 0),
+            _match("Generic League", 2026, "2026-01-01", "Beta FC", "Alpha FC", 2, 2),
+        ]
+    )
+
+    stan_data, teams = build_stan_data(df, reference_date=pd.Timestamp("2026-01-01"))
+
+    assert teams == ["Alpha FC", "Beta FC"]
+    assert "group" not in stan_data
