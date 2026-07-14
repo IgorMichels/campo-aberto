@@ -9,10 +9,14 @@ this module -- see its docstring: "Generic over the matches CSV passed in --
 pass any competition/country's data/processed/.../matches.csv".
 """
 
+import os
+
 import pandas as pd
 import pytest
 
 from src.models.fit import latest_match_date, samples_long, save_samples, summarize_teams
+from src.models.registry import MODEL_REGISTRY
+from tests.models._dummy_adapter import ADAPTER as DUMMY_ADAPTER
 
 
 class _FakeMCMC:
@@ -101,7 +105,42 @@ def test_save_samples_infers_country_from_the_matches_path_parent_directory(tmp_
 
     out_path = save_samples(mcmc, teams, str(matches_path), samples_dir=str(samples_dir))
 
-    assert out_path == str(samples_dir / "atlantis" / "2026_05_01.csv")
+    assert out_path == str(samples_dir / "atlantis" / "2026_05_01__poisson_home.csv")
     saved = pd.read_csv(out_path)
     assert set(saved["team"]) == set(teams)
     assert len(saved) == 2  # 2 teams x 1 draw
+
+
+def test_save_samples_includes_the_model_name_so_two_models_dont_collide(tmp_path, monkeypatch):
+    """Fitting two different models on the same matches.csv (same latest match
+    date) must produce two distinct files, not a silent overwrite. Registers
+    the existing DummyAdapter fixture as a throwaway second MODEL_REGISTRY
+    entry rather than depending on any real second candidate model."""
+    monkeypatch.setitem(MODEL_REGISTRY, DUMMY_ADAPTER.name, DUMMY_ADAPTER)
+
+    country_dir = tmp_path / "processed" / "atlantis"
+    country_dir.mkdir(parents=True)
+    matches_path = country_dir / "matches.csv"
+    pd.DataFrame({"match_datetime": ["2026-05-01"], "home_goals": [1]}).to_csv(
+        matches_path, index=False
+    )
+
+    teams = ["Alpha FC", "Beta FC"]
+    home_mcmc = _fake_mcmc({1: ([0.1], [0.0]), 2: ([0.2], [0.0])})
+    dummy_mcmc = _FakeMCMC(pd.DataFrame({"skill[1]": [0.1], "skill[2]": [0.2]}))
+    samples_dir = tmp_path / "samples"
+
+    home_path = save_samples(
+        home_mcmc, teams, str(matches_path), samples_dir=str(samples_dir), model="poisson_home"
+    )
+    dummy_path = save_samples(
+        dummy_mcmc,
+        teams,
+        str(matches_path),
+        samples_dir=str(samples_dir),
+        model=DUMMY_ADAPTER.name,
+    )
+
+    assert home_path != dummy_path
+    assert os.path.isfile(home_path)
+    assert os.path.isfile(dummy_path)
