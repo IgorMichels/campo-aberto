@@ -65,7 +65,8 @@ historical params slice, see below -- are built from).
     "2025-12-07": {
       "teams": [
         {"team": "Flamengo / RJ", "crest": "assets/crests/flarj.png", "color": "#C1121F",
-         "standings": {"points": 79, "played": 38, "goals_for": 78, "goals_against": 27, "goal_diff": 51},
+         "standings": {"points": 79, "played": 38, "goals_for": 78, "goals_against": 27, "goal_diff": 51,
+                       "rank": 1, "zone": "libertadores_grupos"},
          "probs": {"title": 1.0, "libertadores_grupos": 1.0, "libertadores_pre": 0.0,
                    "libertadores": 1.0, "rebaixamento": 0.0}},
         ...
@@ -90,6 +91,21 @@ historical params slice, see below -- are built from).
   column's own `key` is exactly what to look up.
 - `standings` is real (not simulated) points/played/goals_for/goals_against/goal_diff
   as of that snapshot's date, computed from `data/processed/brazil/matches.csv`.
+  `rank` is that date's official classification position (the full CBF tiebreak,
+  via `src.simulation.standings.rank_table` -- not just points). `zone` is the
+  `positions`-based spot name (e.g. `libertadores_grupos`, `direct_promotion`,
+  `rebaixamento`) that rank currently earns, or `null` for a mid-table position
+  outside every declared spot -- for any spot in that phase's `cascade` (see
+  `configs/*.yaml`), this already accounts for externally guaranteed slots
+  (e.g. a Copa do Brasil berth) via `src.simulation.standings.resolve_cascade`,
+  so a guarantee can shift the real zone boundary exactly as it would the
+  final table, not just raw table position. A `table_position`-paired playoff
+  phase (e.g. Serie B's access playoff, "cruzamento olímpico") also gets a
+  zone this way, from the playoff phase's own `pairs` (e.g.
+  `playoff_promotion` for whichever positions currently seed it), even though
+  that phase's own spot only resolves once the playoff is actually played.
+  Meant to be rendered as-is (a rank number + a zone-based row color), not
+  recomputed client-side.
 - `crest`/`color` are `site`-root-relative image path / hex color, used as-is.
 
 ## Jogos

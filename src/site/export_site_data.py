@@ -8,8 +8,8 @@ simulation itself reads), then for each one exports every dated CSV under
 data/results/<slug>/<season>/ (see src.simulation.results.save_results for
 how that path and its dated filenames are produced) as one selectable
 reference-date snapshot, each paired with a real (not simulated) standings
-table as of that same date -- see src.simulation.fixtures.split_fixtures +
-src.simulation.standings.team_records.
+table as of that same date -- see src.simulation.fixtures.split_fixtures,
+src.simulation.standings.team_records/rank_table/resolve_cascade.
 
 Run as the last step of `python -m src.pipeline`; its site/ output still
 needs to be reviewed and committed for a deploy to go out, since
@@ -28,6 +28,7 @@ import json
 import os
 import shutil
 
+import numpy as np
 import pandas as pd
 
 from src.constants import (
@@ -38,7 +39,12 @@ from src.constants import (
     SITE_DIR,
 )
 from src.simulation import fixtures, standings
-from src.simulation.config import AggregateConfig
+from src.simulation.config import (
+    AggregateConfig,
+    CompetitionConfig,
+    PlayoffPhaseConfig,
+    RoundRobinPhaseConfig,
+)
 from src.simulation.run_rounds import load_configs_by_season
 
 # Portuguese labels for every non-aggregate spot declared across
@@ -142,21 +148,114 @@ def _build_columns(raw_names: list[str], aggregates: tuple[AggregateConfig, ...]
     return columns
 
 
+def _active_guaranteed_slots(
+    config: CompetitionConfig, reference_date: pd.Timestamp
+) -> dict[str, list[str]]:
+    """{team: [spot_name, ...]} for every config.guaranteed_slots entry already
+    known as of reference_date -- same known_from gating simulate_competition
+    itself applies (see GuaranteedSlotConfig), so the real table's zone
+    assignment reacts to a berth (e.g. a Libertadores champion decided
+    mid-season) on the same date the probabilities do."""
+    guaranteed_slots: dict[str, list[str]] = {}
+    for entry in config.guaranteed_slots:
+        if reference_date >= entry.known_from:
+            guaranteed_slots.setdefault(entry.team, []).append(entry.spot)
+    return guaranteed_slots
+
+
+def _real_classification(
+    teams: list[str],
+    played_results: list[tuple],
+    league_phase: RoundRobinPhaseConfig,
+    playoff_phases: list[PlayoffPhaseConfig],
+    guaranteed_slots: dict[str, list[str]],
+) -> dict[str, dict]:
+    """Real (not simulated) {team: {"rank", "zone"}} from already-played results:
+    `rank` is the official classification position (standings.rank_table's full
+    CBF tiebreak, not just points), `zone` is the positions-based spot (e.g.
+    libertadores_grupos, rebaixamento) that position earns -- run through
+    standings.resolve_cascade for any spot in league_phase.cascade, so an
+    externally guaranteed berth (see _active_guaranteed_slots) shifts the real
+    zone boundary exactly as it would the final table, not just table position.
+    `zone` is None for a position outside every declared spot (e.g. mid-table).
+
+    A `table_position`-paired playoff phase sourced from league_phase (e.g.
+    Serie B's access playoff, "cruzamento olímpico") isn't itself a `positions`
+    spot -- its own spot only fires once that playoff is actually played out
+    (`result: winner`) -- but the real table can still show which teams
+    currently occupy that bracket, same as any other zone, from the phase's
+    own `pairs`.
+
+    The random-draw tiebreak step (rank_table's last resort, matching REC's own
+    "sorteio") uses a fixed seed: real disciplinary data isn't available to
+    break a genuine last-resort tie, and a fixed seed keeps a given date's
+    export reproducible across reruns.
+    """
+    rng = np.random.default_rng(0)
+    order = standings.rank_table(teams, played_results, rng, league_phase.head_to_head_mode)
+    rank_of = {team: position for position, team in enumerate(order, start=1)}
+
+    zone_of: dict[str, str] = {}
+    cascade_spots = [
+        next(s for s in league_phase.spots if s.name == name) for name in league_phase.cascade
+    ]
+    if cascade_spots:
+        credited = standings.resolve_cascade(order, cascade_spots, guaranteed_slots)
+        for spot_name, recipients in credited.items():
+            for team in recipients:
+                zone_of[team] = spot_name
+
+    # Widest range first: a spot fully nested inside a broader one (e.g. Serie
+    # A/B's title, always positions (1, 1)) has no cascade entry of its own to
+    # resolve the overlap the way libertadores_grupos does above, so without
+    # this ordering it would win the position from the broader spot it's
+    # actually part of just by coming first in the config's spot list.
+    positional_spots = sorted(
+        (s for s in league_phase.spots if s.name not in league_phase.cascade and s.positions),
+        key=lambda s: s.positions[1] - s.positions[0],
+        reverse=True,
+    )
+    for spot in positional_spots:
+        for team in teams:
+            if team in zone_of:
+                continue
+            if spot.positions[0] <= rank_of[team] <= spot.positions[1]:
+                zone_of[team] = spot.name
+
+    for phase in playoff_phases:
+        if phase.pairing != "table_position" or phase.source_phase != league_phase.id:
+            continue
+        positions = {position for pair in phase.pairs for position in pair}
+        spot_name = phase.spots[0].name
+        for team in teams:
+            if team not in zone_of and rank_of[team] in positions:
+                zone_of[team] = spot_name
+
+    return {team: {"rank": rank_of[team], "zone": zone_of.get(team)} for team in teams}
+
+
 def _real_standings(
     matches_df: pd.DataFrame,
     competition: str,
     season: int,
     reference_date: pd.Timestamp,
     teams: list[str],
+    league_phase: RoundRobinPhaseConfig,
+    playoff_phases: list[PlayoffPhaseConfig],
+    guaranteed_slots: dict[str, list[str]],
 ) -> dict[str, dict]:
-    """Points/played/goals_for/goals_against/goal_diff per team from
+    """Points/played/goals_for/goals_against/goal_diff/rank/zone per team from
     actually-played matches up to reference_date -- the real table as of that
     date, not a simulated one, so a reader can see what the probabilities are
-    reacting to."""
+    reacting to. `rank`/`zone` come from _real_classification (see there for
+    the guaranteed-slot cascade this reuses from the simulation itself)."""
     played_results, _, _ = fixtures.split_fixtures(
         matches_df, competition, season, reference_date, teams=teams
     )
     records = standings.team_records(teams, played_results)
+    classification = _real_classification(
+        teams, played_results, league_phase, playoff_phases, guaranteed_slots
+    )
     return {
         team: {
             "points": rec["points"],
@@ -164,6 +263,8 @@ def _real_standings(
             "goals_for": rec["goals_for"],
             "goals_against": rec["goals_against"],
             "goal_diff": rec["goal_diff"],
+            "rank": classification[team]["rank"],
+            "zone": classification[team]["zone"],
         }
         for team, rec in records.items()
     }
@@ -174,14 +275,17 @@ def _export_snapshot(
     crest_by_team: dict,
     color_by_team: dict,
     crests_dir: str,
-    aggregates: tuple[AggregateConfig, ...],
+    config: CompetitionConfig,
     matches_df: pd.DataFrame,
-    competition: str,
     season: int,
 ) -> tuple[str, list[dict], list[dict]]:
     """One dated CSV -> (reference_date, columns, teams) for a single snapshot.
     `columns` is only exposed so the caller can sanity-check it stays the same
     across every date in a season (it's config-driven, so it always should)."""
+    aggregates = config.aggregates
+    league_phase = next(p for p in config.phases if isinstance(p, RoundRobinPhaseConfig))
+    playoff_phases = [p for p in config.phases if isinstance(p, PlayoffPhaseConfig)]
+
     df = pd.read_csv(csv_path).drop(columns=["expected_position"])
     prob_columns = [c for c in df.columns if c.startswith("prob_")]
     raw_names = [c.removeprefix("prob_") for c in prob_columns]
@@ -200,9 +304,18 @@ def _export_snapshot(
     columns = _build_columns(raw_names, aggregates)
 
     reference_date = os.path.splitext(os.path.basename(csv_path))[0].replace("_", "-")
+    reference_timestamp = pd.Timestamp(reference_date)
     team_names = list(df["team"])
+    guaranteed_slots = _active_guaranteed_slots(config, reference_timestamp)
     standings_by_team = _real_standings(
-        matches_df, competition, season, pd.Timestamp(reference_date), team_names
+        matches_df,
+        config.name,
+        season,
+        reference_timestamp,
+        team_names,
+        league_phase,
+        playoff_phases,
+        guaranteed_slots,
     )
 
     teams = []
@@ -233,9 +346,8 @@ def _export_season(
     crest_by_team: dict,
     color_by_team: dict,
     crests_dir: str,
-    aggregates: tuple[AggregateConfig, ...],
+    config: CompetitionConfig,
     matches_df: pd.DataFrame,
-    competition: str,
     season: int,
 ) -> dict:
     dates = []
@@ -247,9 +359,8 @@ def _export_season(
             crest_by_team,
             color_by_team,
             crests_dir,
-            aggregates,
+            config,
             matches_df,
-            competition,
             season,
         )
         dates.append(date)
@@ -292,9 +403,8 @@ def export_site_data(
                     crest_by_team,
                     color_by_team,
                     crests_dir,
-                    config.aggregates,
+                    config,
                     matches_df,
-                    config.name,
                     season,
                 )
             except ValueError as exc:
