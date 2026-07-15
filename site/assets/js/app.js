@@ -325,10 +325,11 @@
       const data = await fetchJSON(`data/${slug}/${season}.json`);
       state.seasonData = data;
 
-      // Keep the currently selected date if this season also has it (e.g. picking
-      // an earlier round, then switching competition/season) -- otherwise default
-      // to the most recent one.
-      const date = data.dates.includes(state.date) ? state.date : data.dates[data.dates.length - 1];
+      // loadSeason only ever runs from a division/season change (see
+      // selectCompetition/selectSeason below) -- always reset to the most
+      // recent date rather than trying to carry over whatever was selected
+      // before.
+      const date = data.dates[data.dates.length - 1];
       buildDateSelect(data.dates);
       dateSelectEl.value = date;
       state.date = date;
