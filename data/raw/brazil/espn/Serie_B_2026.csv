@@ -160,15 +160,15 @@ date,venue,home_team_raw,away_team_raw,home_goals,away_goals,status
 2026-07-06T22:00Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,São Bernardo,2,1,played
 2026-07-07T23:00Z,Estádio Joaquim Portugal,Athletic,Operário PR,0,1,played
 2026-07-08T23:00Z,Moisés Lucarelli,Ponte Preta,Criciúma,1,2,played
-2026-07-10T22:00Z,Alfredo Jaconi,Juventude,Vila Nova,,,scheduled
-2026-07-10T23:00Z,Ilha do Retiro,Sport,Botafogo-SP,,,scheduled
-2026-07-12T14:00Z,Germano Krüger,Operário PR,Novorizontino,,,scheduled
-2026-07-12T19:00Z,Estádio da Ressacada,Avaí,Náutico,,,scheduled
-2026-07-12T19:00Z,Estádio Primeiro de Maio,São Bernardo,Cuiabá,,,scheduled
-2026-07-12T21:00Z,Estádio Antônio Accioly,Atlético Goianiense,Fortaleza,,,scheduled
-2026-07-12T22:00Z,Estádio Rei Pelé,CRB,Goiás,,,scheduled
-2026-07-13T22:00Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Londrina,,,scheduled
-2026-07-13T23:30Z,Estádio Presidente Vargas,Ceará,Athletic,,,scheduled
+2026-07-10T22:00Z,Alfredo Jaconi,Juventude,Vila Nova,1,0,played
+2026-07-10T23:00Z,Ilha do Retiro,Sport,Botafogo-SP,3,3,played
+2026-07-12T14:00Z,Germano Krüger,Operário PR,Novorizontino,2,1,played
+2026-07-12T19:00Z,Estádio da Ressacada,Avaí,Náutico,2,0,played
+2026-07-12T19:00Z,Estádio Primeiro de Maio,São Bernardo,Cuiabá,2,2,played
+2026-07-12T21:00Z,Estádio Antônio Accioly,Atlético Goianiense,Fortaleza,1,0,played
+2026-07-12T22:00Z,Estádio Rei Pelé,CRB,Goiás,2,2,played
+2026-07-13T22:00Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Londrina,1,1,played
+2026-07-13T23:30Z,Estádio Presidente Vargas,Ceará,Athletic,0,0,played
 2026-07-16T23:00Z,Estádio Rei Pelé,CRB,Náutico,,,scheduled
 2026-07-17T22:00Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Ceará,,,scheduled
 2026-07-17T22:00Z,Alfredo Jaconi,Juventude,Cuiabá,,,scheduled
@@ -178,11 +178,11 @@ date,venue,home_team_raw,away_team_raw,home_goals,away_goals,status
 2026-07-18T19:00Z,Heriberto Hülse,Criciúma,Vila Nova,,,scheduled
 2026-07-18T19:00Z,Moisés Lucarelli,Ponte Preta,Goiás,,,scheduled
 2026-07-18T19:00Z,Ilha do Retiro,Sport,Operário PR,,,scheduled
-2026-07-20T23:00Z,Estádio Antônio Accioly,Atlético Goianiense,Athletic,,,scheduled
+2026-07-18T21:00Z,Estádio Antônio Accioly,Atlético Goianiense,Athletic,,,scheduled
 2026-07-21T22:30Z,Estádio da Ressacada,Avaí,América Mineiro,,,scheduled
 2026-07-21T22:30Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,Criciúma,,,scheduled
 2026-07-22T00:35Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,Fortaleza,,,scheduled
-2026-07-22T22:30Z,Arena Castelão,Ceará,CRB,,,scheduled
+2026-07-22T22:30Z,Estádio Presidente Vargas,Ceará,CRB,,,scheduled
 2026-07-22T22:30Z,Germano Krüger,Operário PR,Ponte Preta,,,scheduled
 2026-07-22T23:30Z,Estádio da Serrinha,Goiás,Sport,,,scheduled
 2026-07-23T00:30Z,Estádio dos Aflitos,Náutico,Londrina,,,scheduled
@@ -200,7 +200,7 @@ date,venue,home_team_raw,away_team_raw,home_goals,away_goals,status
 2026-07-28T22:30Z,Moisés Lucarelli,Ponte Preta,Athletic,,,scheduled
 2026-07-29T00:35Z,Arena Castelão,Fortaleza,Botafogo-SP,,,scheduled
 2026-08-07T22:30Z,Germano Krüger,Operário PR,São Bernardo,,,scheduled
-2026-08-07T23:30Z,Arena Castelão,Ceará,Ponte Preta,,,scheduled
+2026-08-07T23:30Z,Estádio Presidente Vargas,Ceará,Ponte Preta,,,scheduled
 2026-08-08T19:00Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,Sport,,,scheduled
 2026-08-08T21:30Z,Estádio Santa Cruz,Botafogo-SP,América Mineiro,,,scheduled
 2026-08-09T14:00Z,Estádio Joaquim Portugal,Athletic,Criciúma,,,scheduled
@@ -213,7 +213,7 @@ date,venue,home_team_raw,away_team_raw,home_goals,away_goals,status
 2026-08-14T23:30Z,Ilha do Retiro,Sport,Londrina,,,scheduled
 2026-08-15T19:00Z,Estádio Antônio Accioly,Atlético Goianiense,Vila Nova,,,scheduled
 2026-08-15T19:00Z,Heriberto Hülse,Criciúma,Goiás,,,scheduled
-2026-08-15T21:30Z,Arena Castelão,Ceará,Cuiabá,,,scheduled
+2026-08-15T21:30Z,Estádio Presidente Vargas,Ceará,Cuiabá,,,scheduled
 2026-08-15T21:30Z,Alfredo Jaconi,Juventude,Fortaleza,,,scheduled
 2026-08-16T14:00Z,Germano Krüger,Operário PR,Avaí,,,scheduled
 2026-08-16T19:00Z,Estádio Primeiro de Maio,São Bernardo,Botafogo-SP,,,scheduled
@@ -229,7 +229,7 @@ date,venue,home_team_raw,away_team_raw,home_goals,away_goals,status
 2026-08-20T00:30Z,Estádio Santa Cruz,Botafogo-SP,Criciúma,,,scheduled
 2026-08-20T22:30Z,Estádio Joaquim Portugal,Athletic,CRB,,,scheduled
 2026-08-20T23:30Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,América Mineiro,,,scheduled
-2026-08-22T21:00Z,Arena Castelão,Ceará,Londrina,,,scheduled
+2026-08-22T21:00Z,Estádio Presidente Vargas,Ceará,Londrina,,,scheduled
 2026-08-22T21:30Z,Arena Pantanal,Cuiabá,Goiás,,,scheduled
 2026-08-23T19:00Z,Moisés Lucarelli,Ponte Preta,Avaí,,,scheduled
 2026-08-23T19:00Z,Estádio Primeiro de Maio,São Bernardo,Náutico,,,scheduled
