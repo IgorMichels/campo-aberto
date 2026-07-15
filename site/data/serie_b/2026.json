@@ -70,7 +70,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.1748,
@@ -89,7 +91,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.1196,
@@ -108,7 +112,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1095,
@@ -127,7 +133,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.1066,
@@ -146,7 +154,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0927,
@@ -165,7 +175,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0778,
@@ -184,7 +196,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0501,
@@ -203,7 +217,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0474,
@@ -222,7 +238,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0298,
@@ -241,7 +259,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0327,
@@ -260,7 +280,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0282,
@@ -279,7 +301,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0184,
@@ -298,7 +322,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0173,
@@ -317,7 +343,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0163,
@@ -336,7 +364,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0145,
@@ -355,7 +385,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0086,
@@ -374,7 +406,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0062,
@@ -393,7 +427,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0399,
@@ -412,7 +448,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0062,
@@ -431,7 +469,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0034,
@@ -454,7 +494,9 @@
             "played": 1,
             "goals_for": 3,
             "goals_against": 1,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.6561,
@@ -473,7 +515,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 0,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0295,
@@ -492,7 +536,9 @@
             "played": 1,
             "goals_for": 3,
             "goals_against": 1,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0288,
@@ -511,7 +557,9 @@
             "played": 1,
             "goals_for": 2,
             "goals_against": 0,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0232,
@@ -530,7 +578,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 1,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.1614,
@@ -549,7 +599,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 3,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0094,
@@ -568,7 +620,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 1,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0126,
@@ -587,7 +641,9 @@
             "played": 1,
             "goals_for": 2,
             "goals_against": 2,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0094,
@@ -606,7 +662,9 @@
             "played": 1,
             "goals_for": 0,
             "goals_against": 4,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0113,
@@ -625,7 +683,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 3,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0068,
@@ -644,7 +704,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 0,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0045,
@@ -663,7 +725,9 @@
             "played": 1,
             "goals_for": 2,
             "goals_against": 1,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0047,
@@ -682,7 +746,9 @@
             "played": 1,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0027,
@@ -701,7 +767,9 @@
             "played": 1,
             "goals_for": 0,
             "goals_against": 1,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0036,
@@ -720,7 +788,9 @@
             "played": 1,
             "goals_for": 4,
             "goals_against": 0,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0022,
@@ -739,7 +809,9 @@
             "played": 1,
             "goals_for": 2,
             "goals_against": 2,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0015,
@@ -758,7 +830,9 @@
             "played": 1,
             "goals_for": 0,
             "goals_against": 2,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0032,
@@ -777,7 +851,9 @@
             "played": 1,
             "goals_for": 0,
             "goals_against": 1,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0218,
@@ -796,7 +872,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 2,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0067,
@@ -815,7 +893,9 @@
             "played": 1,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0006,
@@ -838,7 +918,9 @@
             "played": 2,
             "goals_for": 5,
             "goals_against": 3,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.4915,
@@ -857,7 +939,9 @@
             "played": 2,
             "goals_for": 3,
             "goals_against": 0,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0805,
@@ -876,7 +960,9 @@
             "played": 2,
             "goals_for": 5,
             "goals_against": 3,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0522,
@@ -895,7 +981,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 1,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0493,
@@ -914,7 +1002,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 2,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0237,
@@ -933,7 +1023,9 @@
             "played": 2,
             "goals_for": 1,
             "goals_against": 3,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0141,
@@ -952,7 +1044,9 @@
             "played": 2,
             "goals_for": 3,
             "goals_against": 1,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0184,
@@ -971,7 +1065,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 2,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.1241,
@@ -990,7 +1086,9 @@
             "played": 2,
             "goals_for": 0,
             "goals_against": 4,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0162,
@@ -1009,7 +1107,9 @@
             "played": 2,
             "goals_for": 6,
             "goals_against": 1,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0107,
@@ -1028,7 +1128,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 3,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0112,
@@ -1047,7 +1149,9 @@
             "played": 2,
             "goals_for": 3,
             "goals_against": 2,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0125,
@@ -1066,7 +1170,9 @@
             "played": 2,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0061,
@@ -1085,7 +1191,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 5,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0055,
@@ -1104,7 +1212,9 @@
             "played": 2,
             "goals_for": 3,
             "goals_against": 3,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0042,
@@ -1123,7 +1233,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 3,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0609,
@@ -1142,7 +1254,9 @@
             "played": 2,
             "goals_for": 1,
             "goals_against": 3,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.004,
@@ -1161,7 +1275,9 @@
             "played": 2,
             "goals_for": 0,
             "goals_against": 2,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0035,
@@ -1180,7 +1296,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 3,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0106,
@@ -1199,7 +1317,9 @@
             "played": 2,
             "goals_for": 1,
             "goals_against": 1,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0008,
@@ -1222,7 +1342,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 0,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.1049,
@@ -1241,7 +1363,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0829,
@@ -1260,7 +1384,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 1,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.077,
@@ -1279,7 +1405,9 @@
             "played": 2,
             "goals_for": 5,
             "goals_against": 3,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0703,
@@ -1298,7 +1426,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 4,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.1795,
@@ -1317,7 +1447,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 1,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0321,
@@ -1336,7 +1468,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 2,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1634,
@@ -1355,7 +1489,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 5,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0409,
@@ -1374,7 +1510,9 @@
             "played": 3,
             "goals_for": 6,
             "goals_against": 5,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.1479,
@@ -1393,7 +1531,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 4,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0183,
@@ -1412,7 +1552,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 4,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0209,
@@ -1431,7 +1573,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 3,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0113,
@@ -1450,7 +1594,9 @@
             "played": 3,
             "goals_for": 5,
             "goals_against": 4,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0099,
@@ -1469,7 +1615,9 @@
             "played": 3,
             "goals_for": 7,
             "goals_against": 3,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0075,
@@ -1488,7 +1636,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 6,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0078,
@@ -1507,7 +1657,9 @@
             "played": 3,
             "goals_for": 1,
             "goals_against": 4,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0061,
@@ -1526,7 +1678,9 @@
             "played": 3,
             "goals_for": 0,
             "goals_against": 2,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.004,
@@ -1545,7 +1699,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 2,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0035,
@@ -1564,7 +1720,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 5,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0031,
@@ -1583,7 +1741,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 4,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0087,
@@ -1606,7 +1766,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 0,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.1012,
@@ -1625,7 +1787,9 @@
             "played": 3,
             "goals_for": 6,
             "goals_against": 3,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.09,
@@ -1644,7 +1808,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0842,
@@ -1663,7 +1829,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 2,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0533,
@@ -1682,7 +1850,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 4,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.1801,
@@ -1701,7 +1871,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 1,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.035,
@@ -1720,7 +1892,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 5,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0425,
@@ -1739,7 +1913,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 2,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1616,
@@ -1758,7 +1934,9 @@
             "played": 3,
             "goals_for": 6,
             "goals_against": 5,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.1493,
@@ -1777,7 +1955,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 4,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.016,
@@ -1796,7 +1976,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 4,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0166,
@@ -1815,7 +1997,9 @@
             "played": 3,
             "goals_for": 5,
             "goals_against": 4,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0104,
@@ -1834,7 +2018,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 3,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0139,
@@ -1853,7 +2039,9 @@
             "played": 3,
             "goals_for": 7,
             "goals_against": 3,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0095,
@@ -1872,7 +2060,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 6,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.007,
@@ -1891,7 +2081,9 @@
             "played": 3,
             "goals_for": 1,
             "goals_against": 4,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0065,
@@ -1910,7 +2102,9 @@
             "played": 3,
             "goals_for": 0,
             "goals_against": 2,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0059,
@@ -1929,7 +2123,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 2,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0039,
@@ -1948,7 +2144,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 5,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0038,
@@ -1967,7 +2165,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 4,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0093,
@@ -1990,7 +2190,9 @@
             "played": 4,
             "goals_for": 5,
             "goals_against": 2,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.1459,
@@ -2009,7 +2211,9 @@
             "played": 4,
             "goals_for": 5,
             "goals_against": 2,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.1209,
@@ -2028,7 +2232,9 @@
             "played": 4,
             "goals_for": 3,
             "goals_against": 5,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.092,
@@ -2047,7 +2253,9 @@
             "played": 4,
             "goals_for": 3,
             "goals_against": 2,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.076,
@@ -2066,7 +2274,9 @@
             "played": 4,
             "goals_for": 6,
             "goals_against": 5,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0633,
@@ -2085,7 +2295,9 @@
             "played": 4,
             "goals_for": 5,
             "goals_against": 4,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0619,
@@ -2104,7 +2316,9 @@
             "played": 4,
             "goals_for": 3,
             "goals_against": 1,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0327,
@@ -2123,7 +2337,9 @@
             "played": 4,
             "goals_for": 7,
             "goals_against": 5,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0354,
@@ -2142,7 +2358,9 @@
             "played": 4,
             "goals_for": 3,
             "goals_against": 3,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.11,
@@ -2161,7 +2379,9 @@
             "played": 4,
             "goals_for": 7,
             "goals_against": 7,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.106,
@@ -2180,7 +2400,9 @@
             "played": 4,
             "goals_for": 6,
             "goals_against": 4,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.021,
@@ -2199,7 +2421,9 @@
             "played": 4,
             "goals_for": 3,
             "goals_against": 4,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0201,
@@ -2218,7 +2442,9 @@
             "played": 4,
             "goals_for": 4,
             "goals_against": 5,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0707,
@@ -2237,7 +2463,9 @@
             "played": 4,
             "goals_for": 5,
             "goals_against": 7,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0119,
@@ -2256,7 +2484,9 @@
             "played": 4,
             "goals_for": 7,
             "goals_against": 4,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.008,
@@ -2275,7 +2505,9 @@
             "played": 4,
             "goals_for": 4,
             "goals_against": 6,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0062,
@@ -2294,7 +2526,9 @@
             "played": 4,
             "goals_for": 0,
             "goals_against": 2,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0063,
@@ -2313,7 +2547,9 @@
             "played": 4,
             "goals_for": 5,
             "goals_against": 4,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0052,
@@ -2332,7 +2568,9 @@
             "played": 4,
             "goals_for": 3,
             "goals_against": 9,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0041,
@@ -2351,7 +2589,9 @@
             "played": 4,
             "goals_for": 2,
             "goals_against": 5,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0024,
@@ -2374,7 +2614,9 @@
             "played": 5,
             "goals_for": 6,
             "goals_against": 7,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.1695,
@@ -2393,7 +2635,9 @@
             "played": 5,
             "goals_for": 5,
             "goals_against": 2,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1232,
@@ -2412,7 +2656,9 @@
             "played": 5,
             "goals_for": 7,
             "goals_against": 5,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.2441,
@@ -2431,7 +2677,9 @@
             "played": 5,
             "goals_for": 7,
             "goals_against": 5,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0736,
@@ -2450,7 +2698,9 @@
             "played": 5,
             "goals_for": 6,
             "goals_against": 4,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.059,
@@ -2469,7 +2719,9 @@
             "played": 5,
             "goals_for": 5,
             "goals_against": 5,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0485,
@@ -2488,7 +2740,9 @@
             "played": 5,
             "goals_for": 4,
             "goals_against": 4,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0371,
@@ -2507,7 +2761,9 @@
             "played": 5,
             "goals_for": 8,
             "goals_against": 5,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0319,
@@ -2526,7 +2782,9 @@
             "played": 5,
             "goals_for": 6,
             "goals_against": 7,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0262,
@@ -2545,7 +2803,9 @@
             "played": 5,
             "goals_for": 4,
             "goals_against": 3,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0223,
@@ -2564,7 +2824,9 @@
             "played": 5,
             "goals_for": 8,
             "goals_against": 7,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0248,
@@ -2583,7 +2845,9 @@
             "played": 5,
             "goals_for": 2,
             "goals_against": 2,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0198,
@@ -2602,7 +2866,9 @@
             "played": 5,
             "goals_for": 7,
             "goals_against": 7,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0761,
@@ -2621,7 +2887,9 @@
             "played": 5,
             "goals_for": 8,
             "goals_against": 5,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0059,
@@ -2640,7 +2908,9 @@
             "played": 5,
             "goals_for": 5,
             "goals_against": 4,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0061,
@@ -2659,7 +2929,9 @@
             "played": 5,
             "goals_for": 5,
             "goals_against": 7,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0035,
@@ -2678,7 +2950,9 @@
             "played": 5,
             "goals_for": 5,
             "goals_against": 8,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0041,
@@ -2697,7 +2971,9 @@
             "played": 5,
             "goals_for": 4,
             "goals_against": 6,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0084,
@@ -2716,7 +2992,9 @@
             "played": 5,
             "goals_for": 3,
             "goals_against": 9,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0018,
@@ -2735,7 +3013,9 @@
             "played": 5,
             "goals_for": 3,
             "goals_against": 6,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0141,
@@ -2758,7 +3038,9 @@
             "played": 5,
             "goals_for": 6,
             "goals_against": 7,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.1596,
@@ -2777,7 +3059,9 @@
             "played": 5,
             "goals_for": 5,
             "goals_against": 2,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1285,
@@ -2796,7 +3080,9 @@
             "played": 5,
             "goals_for": 7,
             "goals_against": 5,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.2566,
@@ -2815,7 +3101,9 @@
             "played": 5,
             "goals_for": 7,
             "goals_against": 5,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0734,
@@ -2834,7 +3122,9 @@
             "played": 5,
             "goals_for": 6,
             "goals_against": 4,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0587,
@@ -2853,7 +3143,9 @@
             "played": 5,
             "goals_for": 5,
             "goals_against": 5,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0478,
@@ -2872,7 +3164,9 @@
             "played": 5,
             "goals_for": 4,
             "goals_against": 4,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.03,
@@ -2891,7 +3185,9 @@
             "played": 5,
             "goals_for": 8,
             "goals_against": 5,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0312,
@@ -2910,7 +3206,9 @@
             "played": 5,
             "goals_for": 6,
             "goals_against": 7,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0291,
@@ -2929,7 +3227,9 @@
             "played": 5,
             "goals_for": 4,
             "goals_against": 3,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0226,
@@ -2948,7 +3248,9 @@
             "played": 5,
             "goals_for": 8,
             "goals_against": 7,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0268,
@@ -2967,7 +3269,9 @@
             "played": 5,
             "goals_for": 7,
             "goals_against": 7,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0821,
@@ -2986,7 +3290,9 @@
             "played": 6,
             "goals_for": 3,
             "goals_against": 3,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0121,
@@ -3005,7 +3311,9 @@
             "played": 6,
             "goals_for": 9,
             "goals_against": 6,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0067,
@@ -3024,7 +3332,9 @@
             "played": 5,
             "goals_for": 5,
             "goals_against": 4,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0049,
@@ -3043,7 +3353,9 @@
             "played": 5,
             "goals_for": 5,
             "goals_against": 7,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0052,
@@ -3062,7 +3374,9 @@
             "played": 5,
             "goals_for": 5,
             "goals_against": 8,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0038,
@@ -3081,7 +3395,9 @@
             "played": 5,
             "goals_for": 4,
             "goals_against": 6,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.007,
@@ -3100,7 +3416,9 @@
             "played": 5,
             "goals_for": 3,
             "goals_against": 9,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0015,
@@ -3119,7 +3437,9 @@
             "played": 5,
             "goals_for": 3,
             "goals_against": 6,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0124,
@@ -3142,7 +3462,9 @@
             "played": 6,
             "goals_for": 6,
             "goals_against": 7,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.1574,
@@ -3161,7 +3483,9 @@
             "played": 6,
             "goals_for": 8,
             "goals_against": 5,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.2923,
@@ -3180,7 +3504,9 @@
             "played": 6,
             "goals_for": 8,
             "goals_against": 5,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.122,
@@ -3199,7 +3525,9 @@
             "played": 6,
             "goals_for": 8,
             "goals_against": 6,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0776,
@@ -3218,7 +3546,9 @@
             "played": 6,
             "goals_for": 7,
             "goals_against": 6,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0481,
@@ -3237,7 +3567,9 @@
             "played": 6,
             "goals_for": 5,
             "goals_against": 4,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0404,
@@ -3256,7 +3588,9 @@
             "played": 6,
             "goals_for": 7,
             "goals_against": 6,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0397,
@@ -3275,7 +3609,9 @@
             "played": 6,
             "goals_for": 11,
             "goals_against": 8,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0364,
@@ -3294,7 +3630,9 @@
             "played": 6,
             "goals_for": 4,
             "goals_against": 3,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0175,
@@ -3313,7 +3651,9 @@
             "played": 6,
             "goals_for": 6,
             "goals_against": 8,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0188,
@@ -3332,7 +3672,9 @@
             "played": 5,
             "goals_for": 8,
             "goals_against": 7,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0283,
@@ -3351,7 +3693,9 @@
             "played": 6,
             "goals_for": 3,
             "goals_against": 3,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0137,
@@ -3370,7 +3714,9 @@
             "played": 6,
             "goals_for": 7,
             "goals_against": 8,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0102,
@@ -3389,7 +3735,9 @@
             "played": 6,
             "goals_for": 6,
             "goals_against": 4,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0103,
@@ -3408,7 +3756,9 @@
             "played": 6,
             "goals_for": 9,
             "goals_against": 6,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0071,
@@ -3427,7 +3777,9 @@
             "played": 6,
             "goals_for": 7,
             "goals_against": 8,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.044,
@@ -3446,7 +3798,9 @@
             "played": 6,
             "goals_for": 5,
             "goals_against": 6,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0111,
@@ -3465,7 +3819,9 @@
             "played": 6,
             "goals_for": 6,
             "goals_against": 11,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0025,
@@ -3484,7 +3840,9 @@
             "played": 5,
             "goals_for": 3,
             "goals_against": 6,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0221,
@@ -3503,7 +3861,9 @@
             "played": 6,
             "goals_for": 3,
             "goals_against": 10,
-            "goal_diff": -7
+            "goal_diff": -7,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0005,
@@ -3526,7 +3886,9 @@
             "played": 7,
             "goals_for": 11,
             "goals_against": 5,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.4593,
@@ -3545,7 +3907,9 @@
             "played": 7,
             "goals_for": 10,
             "goals_against": 8,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.2267,
@@ -3564,7 +3928,9 @@
             "played": 7,
             "goals_for": 9,
             "goals_against": 7,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0526,
@@ -3583,7 +3949,9 @@
             "played": 7,
             "goals_for": 8,
             "goals_against": 7,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0501,
@@ -3602,7 +3970,9 @@
             "played": 7,
             "goals_for": 7,
             "goals_against": 3,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0257,
@@ -3621,7 +3991,9 @@
             "played": 7,
             "goals_for": 10,
             "goals_against": 9,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0308,
@@ -3640,7 +4012,9 @@
             "played": 6,
             "goals_for": 11,
             "goals_against": 8,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.029,
@@ -3659,7 +4033,9 @@
             "played": 7,
             "goals_for": 5,
             "goals_against": 4,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0214,
@@ -3678,7 +4054,9 @@
             "played": 7,
             "goals_for": 10,
             "goals_against": 9,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0225,
@@ -3697,7 +4075,9 @@
             "played": 7,
             "goals_for": 8,
             "goals_against": 4,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0147,
@@ -3716,7 +4096,9 @@
             "played": 7,
             "goals_for": 4,
             "goals_against": 4,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0068,
@@ -3735,7 +4117,9 @@
             "played": 7,
             "goals_for": 5,
             "goals_against": 7,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0242,
@@ -3754,7 +4138,9 @@
             "played": 7,
             "goals_for": 7,
             "goals_against": 12,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0061,
@@ -3773,7 +4159,9 @@
             "played": 6,
             "goals_for": 8,
             "goals_against": 8,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0083,
@@ -3792,7 +4180,9 @@
             "played": 7,
             "goals_for": 7,
             "goals_against": 8,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0042,
@@ -3811,7 +4201,9 @@
             "played": 7,
             "goals_for": 10,
             "goals_against": 7,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0032,
@@ -3830,7 +4222,9 @@
             "played": 7,
             "goals_for": 8,
             "goals_against": 12,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0027,
@@ -3849,7 +4243,9 @@
             "played": 7,
             "goals_for": 5,
             "goals_against": 9,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0037,
@@ -3868,7 +4264,9 @@
             "played": 7,
             "goals_for": 7,
             "goals_against": 11,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0078,
@@ -3887,7 +4285,9 @@
             "played": 7,
             "goals_for": 4,
             "goals_against": 12,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0002,
@@ -3910,7 +4310,9 @@
             "played": 7,
             "goals_for": 11,
             "goals_against": 5,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.4557,
@@ -3929,7 +4331,9 @@
             "played": 8,
             "goals_for": 10,
             "goals_against": 8,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.1971,
@@ -3948,7 +4352,9 @@
             "played": 8,
             "goals_for": 9,
             "goals_against": 7,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0587,
@@ -3967,7 +4373,9 @@
             "played": 8,
             "goals_for": 9,
             "goals_against": 7,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1054,
@@ -3986,7 +4394,9 @@
             "played": 8,
             "goals_for": 11,
             "goals_against": 9,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0365,
@@ -4005,7 +4415,9 @@
             "played": 8,
             "goals_for": 8,
             "goals_against": 8,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0256,
@@ -4024,7 +4436,9 @@
             "played": 8,
             "goals_for": 11,
             "goals_against": 5,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0257,
@@ -4043,7 +4457,9 @@
             "played": 8,
             "goals_for": 5,
             "goals_against": 4,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.015,
@@ -4062,7 +4478,9 @@
             "played": 8,
             "goals_for": 10,
             "goals_against": 9,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0147,
@@ -4081,7 +4499,9 @@
             "played": 8,
             "goals_for": 7,
             "goals_against": 6,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0112,
@@ -4100,7 +4520,9 @@
             "played": 8,
             "goals_for": 12,
             "goals_against": 10,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0104,
@@ -4119,7 +4541,9 @@
             "played": 8,
             "goals_for": 8,
             "goals_against": 8,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0104,
@@ -4138,7 +4562,9 @@
             "played": 8,
             "goals_for": 8,
             "goals_against": 12,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0082,
@@ -4157,7 +4583,9 @@
             "played": 8,
             "goals_for": 4,
             "goals_against": 4,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.006,
@@ -4176,7 +4604,9 @@
             "played": 8,
             "goals_for": 11,
             "goals_against": 12,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0054,
@@ -4195,7 +4625,9 @@
             "played": 8,
             "goals_for": 9,
             "goals_against": 9,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0035,
@@ -4214,7 +4646,9 @@
             "played": 8,
             "goals_for": 10,
             "goals_against": 8,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0033,
@@ -4233,7 +4667,9 @@
             "played": 7,
             "goals_for": 7,
             "goals_against": 11,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0067,
@@ -4252,7 +4688,9 @@
             "played": 8,
             "goals_for": 6,
             "goals_against": 12,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0004,
@@ -4271,7 +4709,9 @@
             "played": 8,
             "goals_for": 4,
             "goals_against": 16,
-            "goal_diff": -12
+            "goal_diff": -12,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -4294,7 +4734,9 @@
             "played": 8,
             "goals_for": 14,
             "goals_against": 6,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.5453,
@@ -4313,7 +4755,9 @@
             "played": 8,
             "goals_for": 10,
             "goals_against": 8,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1702,
@@ -4332,7 +4776,9 @@
             "played": 8,
             "goals_for": 9,
             "goals_against": 7,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0514,
@@ -4351,7 +4797,9 @@
             "played": 8,
             "goals_for": 9,
             "goals_against": 7,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0923,
@@ -4370,7 +4818,9 @@
             "played": 8,
             "goals_for": 11,
             "goals_against": 9,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0278,
@@ -4389,7 +4839,9 @@
             "played": 8,
             "goals_for": 8,
             "goals_against": 8,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0189,
@@ -4408,7 +4860,9 @@
             "played": 8,
             "goals_for": 11,
             "goals_against": 5,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0178,
@@ -4427,7 +4881,9 @@
             "played": 8,
             "goals_for": 5,
             "goals_against": 4,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0127,
@@ -4446,7 +4902,9 @@
             "played": 8,
             "goals_for": 10,
             "goals_against": 9,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0152,
@@ -4465,7 +4923,9 @@
             "played": 8,
             "goals_for": 7,
             "goals_against": 6,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0083,
@@ -4484,7 +4944,9 @@
             "played": 8,
             "goals_for": 12,
             "goals_against": 10,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.01,
@@ -4503,7 +4965,9 @@
             "played": 8,
             "goals_for": 8,
             "goals_against": 8,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0075,
@@ -4522,7 +4986,9 @@
             "played": 8,
             "goals_for": 8,
             "goals_against": 12,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.005,
@@ -4541,7 +5007,9 @@
             "played": 8,
             "goals_for": 4,
             "goals_against": 4,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0044,
@@ -4560,7 +5028,9 @@
             "played": 8,
             "goals_for": 11,
             "goals_against": 12,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0052,
@@ -4579,7 +5049,9 @@
             "played": 8,
             "goals_for": 9,
             "goals_against": 9,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.004,
@@ -4598,7 +5070,9 @@
             "played": 8,
             "goals_for": 10,
             "goals_against": 8,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0024,
@@ -4617,7 +5091,9 @@
             "played": 8,
             "goals_for": 8,
             "goals_against": 14,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0012,
@@ -4636,7 +5112,9 @@
             "played": 8,
             "goals_for": 6,
             "goals_against": 12,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0004,
@@ -4655,7 +5133,9 @@
             "played": 8,
             "goals_for": 4,
             "goals_against": 16,
-            "goal_diff": -12
+            "goal_diff": -12,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -4678,7 +5158,9 @@
             "played": 9,
             "goals_for": 15,
             "goals_against": 7,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.3417,
@@ -4697,7 +5179,9 @@
             "played": 9,
             "goals_for": 15,
             "goals_against": 9,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.358,
@@ -4716,7 +5200,9 @@
             "played": 9,
             "goals_for": 11,
             "goals_against": 10,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1223,
@@ -4735,7 +5221,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 8,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0454,
@@ -4754,7 +5242,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 9,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0268,
@@ -4773,7 +5263,9 @@
             "played": 9,
             "goals_for": 11,
             "goals_against": 9,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0264,
@@ -4792,7 +5284,9 @@
             "played": 9,
             "goals_for": 14,
             "goals_against": 10,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0163,
@@ -4811,7 +5305,9 @@
             "played": 9,
             "goals_for": 6,
             "goals_against": 5,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0115,
@@ -4830,7 +5326,9 @@
             "played": 9,
             "goals_for": 13,
             "goals_against": 13,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0089,
@@ -4849,7 +5347,9 @@
             "played": 9,
             "goals_for": 12,
             "goals_against": 7,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0075,
@@ -4868,7 +5368,9 @@
             "played": 9,
             "goals_for": 9,
             "goals_against": 12,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0081,
@@ -4887,7 +5389,9 @@
             "played": 9,
             "goals_for": 9,
             "goals_against": 9,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0089,
@@ -4906,7 +5410,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 11,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0063,
@@ -4925,7 +5431,9 @@
             "played": 9,
             "goals_for": 4,
             "goals_against": 4,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0031,
@@ -4944,7 +5452,9 @@
             "played": 9,
             "goals_for": 9,
             "goals_against": 12,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0017,
@@ -4963,7 +5473,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 10,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0034,
@@ -4982,7 +5494,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 9,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0015,
@@ -5001,7 +5515,9 @@
             "played": 8,
             "goals_for": 6,
             "goals_against": 12,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0009,
@@ -5020,7 +5536,9 @@
             "played": 8,
             "goals_for": 8,
             "goals_against": 14,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0013,
@@ -5039,7 +5557,9 @@
             "played": 9,
             "goals_for": 5,
             "goals_against": 17,
-            "goal_diff": -12
+            "goal_diff": -12,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -5062,7 +5582,9 @@
             "played": 9,
             "goals_for": 15,
             "goals_against": 7,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.3604,
@@ -5081,7 +5603,9 @@
             "played": 9,
             "goals_for": 15,
             "goals_against": 9,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.3189,
@@ -5100,7 +5624,9 @@
             "played": 9,
             "goals_for": 11,
             "goals_against": 10,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1292,
@@ -5119,7 +5645,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 8,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0448,
@@ -5138,7 +5666,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 9,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0299,
@@ -5157,7 +5687,9 @@
             "played": 9,
             "goals_for": 11,
             "goals_against": 9,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0274,
@@ -5176,7 +5708,9 @@
             "played": 9,
             "goals_for": 14,
             "goals_against": 10,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0169,
@@ -5195,7 +5729,9 @@
             "played": 9,
             "goals_for": 6,
             "goals_against": 5,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0127,
@@ -5214,7 +5750,9 @@
             "played": 9,
             "goals_for": 9,
             "goals_against": 12,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0085,
@@ -5233,7 +5771,9 @@
             "played": 9,
             "goals_for": 9,
             "goals_against": 9,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0094,
@@ -5252,7 +5792,9 @@
             "played": 9,
             "goals_for": 12,
             "goals_against": 7,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.009,
@@ -5271,7 +5813,9 @@
             "played": 9,
             "goals_for": 13,
             "goals_against": 13,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0106,
@@ -5290,7 +5834,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 11,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0066,
@@ -5309,7 +5855,9 @@
             "played": 9,
             "goals_for": 9,
             "goals_against": 12,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0026,
@@ -5328,7 +5876,9 @@
             "played": 9,
             "goals_for": 4,
             "goals_against": 4,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0029,
@@ -5347,7 +5897,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 10,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0029,
@@ -5366,7 +5918,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 9,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0008,
@@ -5385,7 +5939,9 @@
             "played": 9,
             "goals_for": 12,
             "goals_against": 15,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0064,
@@ -5404,7 +5960,9 @@
             "played": 9,
             "goals_for": 5,
             "goals_against": 17,
-            "goal_diff": -12
+            "goal_diff": -12,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -5423,7 +5981,9 @@
             "played": 9,
             "goals_for": 7,
             "goals_against": 16,
-            "goal_diff": -9
+            "goal_diff": -9,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -5446,7 +6006,9 @@
             "played": 10,
             "goals_for": 16,
             "goals_against": 7,
-            "goal_diff": 9
+            "goal_diff": 9,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.4136,
@@ -5465,7 +6027,9 @@
             "played": 10,
             "goals_for": 16,
             "goals_against": 9,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.3067,
@@ -5484,7 +6048,9 @@
             "played": 10,
             "goals_for": 14,
             "goals_against": 10,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1328,
@@ -5503,7 +6069,9 @@
             "played": 10,
             "goals_for": 11,
             "goals_against": 9,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0277,
@@ -5522,7 +6090,9 @@
             "played": 10,
             "goals_for": 13,
             "goals_against": 10,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0281,
@@ -5541,7 +6111,9 @@
             "played": 10,
             "goals_for": 16,
             "goals_against": 11,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0202,
@@ -5560,7 +6132,9 @@
             "played": 10,
             "goals_for": 11,
             "goals_against": 11,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0145,
@@ -5579,7 +6153,9 @@
             "played": 10,
             "goals_for": 11,
             "goals_against": 12,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0166,
@@ -5598,7 +6174,9 @@
             "played": 10,
             "goals_for": 13,
             "goals_against": 7,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0119,
@@ -5617,7 +6195,9 @@
             "played": 10,
             "goals_for": 17,
             "goals_against": 15,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.01,
@@ -5636,7 +6216,9 @@
             "played": 10,
             "goals_for": 9,
             "goals_against": 10,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0033,
@@ -5655,7 +6237,9 @@
             "played": 10,
             "goals_for": 6,
             "goals_against": 6,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0039,
@@ -5674,7 +6258,9 @@
             "played": 10,
             "goals_for": 10,
             "goals_against": 13,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0017,
@@ -5693,7 +6279,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 10,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0033,
@@ -5712,7 +6300,9 @@
             "played": 10,
             "goals_for": 4,
             "goals_against": 5,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0012,
@@ -5731,7 +6321,9 @@
             "played": 10,
             "goals_for": 10,
             "goals_against": 13,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.002,
@@ -5750,7 +6342,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 9,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0007,
@@ -5769,7 +6363,9 @@
             "played": 10,
             "goals_for": 12,
             "goals_against": 18,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0018,
@@ -5788,7 +6384,9 @@
             "played": 10,
             "goals_for": 6,
             "goals_against": 19,
-            "goal_diff": -13
+            "goal_diff": -13,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -5807,7 +6405,9 @@
             "played": 10,
             "goals_for": 9,
             "goals_against": 20,
-            "goal_diff": -11
+            "goal_diff": -11,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -5830,7 +6430,9 @@
             "played": 10,
             "goals_for": 16,
             "goals_against": 7,
-            "goal_diff": 9
+            "goal_diff": 9,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.4102,
@@ -5849,7 +6451,9 @@
             "played": 10,
             "goals_for": 16,
             "goals_against": 9,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.3079,
@@ -5868,7 +6472,9 @@
             "played": 10,
             "goals_for": 14,
             "goals_against": 10,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1324,
@@ -5887,7 +6493,9 @@
             "played": 10,
             "goals_for": 11,
             "goals_against": 9,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0265,
@@ -5906,7 +6514,9 @@
             "played": 10,
             "goals_for": 13,
             "goals_against": 10,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0338,
@@ -5925,7 +6535,9 @@
             "played": 10,
             "goals_for": 11,
             "goals_against": 11,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0153,
@@ -5944,7 +6556,9 @@
             "played": 10,
             "goals_for": 16,
             "goals_against": 11,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0209,
@@ -5963,7 +6577,9 @@
             "played": 10,
             "goals_for": 11,
             "goals_against": 12,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0168,
@@ -5982,7 +6598,9 @@
             "played": 10,
             "goals_for": 13,
             "goals_against": 7,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0109,
@@ -6001,7 +6619,9 @@
             "played": 10,
             "goals_for": 17,
             "goals_against": 15,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0096,
@@ -6020,7 +6640,9 @@
             "played": 10,
             "goals_for": 12,
             "goals_against": 11,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0036,
@@ -6039,7 +6661,9 @@
             "played": 10,
             "goals_for": 9,
             "goals_against": 10,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0029,
@@ -6058,7 +6682,9 @@
             "played": 10,
             "goals_for": 6,
             "goals_against": 6,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0026,
@@ -6077,7 +6703,9 @@
             "played": 10,
             "goals_for": 10,
             "goals_against": 13,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0014,
@@ -6096,7 +6724,9 @@
             "played": 10,
             "goals_for": 4,
             "goals_against": 5,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0009,
@@ -6115,7 +6745,9 @@
             "played": 10,
             "goals_for": 10,
             "goals_against": 13,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0017,
@@ -6134,7 +6766,9 @@
             "played": 10,
             "goals_for": 11,
             "goals_against": 11,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0004,
@@ -6153,7 +6787,9 @@
             "played": 10,
             "goals_for": 12,
             "goals_against": 18,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0022,
@@ -6172,7 +6808,9 @@
             "played": 10,
             "goals_for": 6,
             "goals_against": 19,
-            "goal_diff": -13
+            "goal_diff": -13,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -6191,7 +6829,9 @@
             "played": 10,
             "goals_for": 9,
             "goals_against": 20,
-            "goal_diff": -11
+            "goal_diff": -11,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -6214,7 +6854,9 @@
             "played": 11,
             "goals_for": 17,
             "goals_against": 8,
-            "goal_diff": 9
+            "goal_diff": 9,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.382,
@@ -6233,7 +6875,9 @@
             "played": 11,
             "goals_for": 14,
             "goals_against": 11,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1279,
@@ -6252,7 +6896,9 @@
             "played": 11,
             "goals_for": 16,
             "goals_against": 11,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.2007,
@@ -6271,7 +6917,9 @@
             "played": 11,
             "goals_for": 13,
             "goals_against": 10,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0742,
@@ -6290,7 +6938,9 @@
             "played": 11,
             "goals_for": 14,
             "goals_against": 11,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0499,
@@ -6309,7 +6959,9 @@
             "played": 11,
             "goals_for": 17,
             "goals_against": 11,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0453,
@@ -6328,7 +6980,9 @@
             "played": 11,
             "goals_for": 15,
             "goals_against": 7,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0373,
@@ -6347,7 +7001,9 @@
             "played": 11,
             "goals_for": 12,
             "goals_against": 13,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0232,
@@ -6366,7 +7022,9 @@
             "played": 11,
             "goals_for": 12,
             "goals_against": 13,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0104,
@@ -6385,7 +7043,9 @@
             "played": 11,
             "goals_for": 9,
             "goals_against": 6,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0124,
@@ -6404,7 +7064,9 @@
             "played": 11,
             "goals_for": 13,
             "goals_against": 11,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0134,
@@ -6423,7 +7085,9 @@
             "played": 11,
             "goals_for": 12,
             "goals_against": 14,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.006,
@@ -6442,7 +7106,9 @@
             "played": 11,
             "goals_for": 17,
             "goals_against": 17,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0072,
@@ -6461,7 +7127,9 @@
             "played": 11,
             "goals_for": 6,
             "goals_against": 5,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0044,
@@ -6480,7 +7148,9 @@
             "played": 11,
             "goals_for": 10,
             "goals_against": 11,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0036,
@@ -6499,7 +7169,9 @@
             "played": 11,
             "goals_for": 11,
             "goals_against": 15,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0009,
@@ -6518,7 +7190,9 @@
             "played": 10,
             "goals_for": 11,
             "goals_against": 11,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0005,
@@ -6537,7 +7211,9 @@
             "played": 11,
             "goals_for": 12,
             "goals_against": 19,
-            "goal_diff": -7
+            "goal_diff": -7,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0007,
@@ -6556,7 +7232,9 @@
             "played": 11,
             "goals_for": 6,
             "goals_against": 22,
-            "goal_diff": -16
+            "goal_diff": -16,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -6575,7 +7253,9 @@
             "played": 10,
             "goals_for": 9,
             "goals_against": 20,
-            "goal_diff": -11
+            "goal_diff": -11,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -6598,7 +7278,9 @@
             "played": 11,
             "goals_for": 17,
             "goals_against": 8,
-            "goal_diff": 9
+            "goal_diff": 9,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.3756,
@@ -6617,7 +7299,9 @@
             "played": 11,
             "goals_for": 16,
             "goals_against": 11,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.2049,
@@ -6636,7 +7320,9 @@
             "played": 11,
             "goals_for": 14,
             "goals_against": 11,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1337,
@@ -6655,7 +7341,9 @@
             "played": 11,
             "goals_for": 13,
             "goals_against": 10,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0729,
@@ -6674,7 +7362,9 @@
             "played": 11,
             "goals_for": 14,
             "goals_against": 11,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0482,
@@ -6693,7 +7383,9 @@
             "played": 11,
             "goals_for": 17,
             "goals_against": 11,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0466,
@@ -6712,7 +7404,9 @@
             "played": 11,
             "goals_for": 15,
             "goals_against": 7,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0345,
@@ -6731,7 +7425,9 @@
             "played": 11,
             "goals_for": 12,
             "goals_against": 13,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0245,
@@ -6750,7 +7446,9 @@
             "played": 11,
             "goals_for": 12,
             "goals_against": 13,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0104,
@@ -6769,7 +7467,9 @@
             "played": 11,
             "goals_for": 9,
             "goals_against": 6,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0118,
@@ -6788,7 +7488,9 @@
             "played": 11,
             "goals_for": 13,
             "goals_against": 11,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0113,
@@ -6807,7 +7509,9 @@
             "played": 11,
             "goals_for": 17,
             "goals_against": 17,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0084,
@@ -6826,7 +7530,9 @@
             "played": 11,
             "goals_for": 12,
             "goals_against": 14,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0068,
@@ -6845,7 +7551,9 @@
             "played": 11,
             "goals_for": 6,
             "goals_against": 5,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0054,
@@ -6864,7 +7572,9 @@
             "played": 11,
             "goals_for": 10,
             "goals_against": 11,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.003,
@@ -6883,7 +7593,9 @@
             "played": 11,
             "goals_for": 11,
             "goals_against": 15,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.001,
@@ -6902,7 +7614,9 @@
             "played": 11,
             "goals_for": 11,
             "goals_against": 11,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0006,
@@ -6921,7 +7635,9 @@
             "played": 11,
             "goals_for": 12,
             "goals_against": 19,
-            "goal_diff": -7
+            "goal_diff": -7,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0004,
@@ -6940,7 +7656,9 @@
             "played": 11,
             "goals_for": 6,
             "goals_against": 22,
-            "goal_diff": -16
+            "goal_diff": -16,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -6959,7 +7677,9 @@
             "played": 11,
             "goals_for": 9,
             "goals_against": 20,
-            "goal_diff": -11
+            "goal_diff": -11,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -6982,7 +7702,9 @@
             "played": 12,
             "goals_for": 20,
             "goals_against": 10,
-            "goal_diff": 10
+            "goal_diff": 10,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.4406,
@@ -7001,7 +7723,9 @@
             "played": 11,
             "goals_for": 16,
             "goals_against": 11,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1841,
@@ -7020,7 +7744,9 @@
             "played": 11,
             "goals_for": 14,
             "goals_against": 11,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.1165,
@@ -7039,7 +7765,9 @@
             "played": 12,
             "goals_for": 14,
             "goals_against": 10,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0697,
@@ -7058,7 +7786,9 @@
             "played": 11,
             "goals_for": 14,
             "goals_against": 11,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0448,
@@ -7077,7 +7807,9 @@
             "played": 11,
             "goals_for": 17,
             "goals_against": 11,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0409,
@@ -7096,7 +7828,9 @@
             "played": 11,
             "goals_for": 15,
             "goals_against": 7,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0294,
@@ -7115,7 +7849,9 @@
             "played": 11,
             "goals_for": 12,
             "goals_against": 13,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0229,
@@ -7134,7 +7870,9 @@
             "played": 12,
             "goals_for": 14,
             "goals_against": 15,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.01,
@@ -7153,7 +7891,9 @@
             "played": 11,
             "goals_for": 12,
             "goals_against": 13,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0096,
@@ -7172,7 +7912,9 @@
             "played": 11,
             "goals_for": 13,
             "goals_against": 11,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0117,
@@ -7191,7 +7933,9 @@
             "played": 12,
             "goals_for": 10,
             "goals_against": 8,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.007,
@@ -7210,7 +7954,9 @@
             "played": 11,
             "goals_for": 6,
             "goals_against": 5,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0042,
@@ -7229,7 +7975,9 @@
             "played": 12,
             "goals_for": 19,
             "goals_against": 20,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.004,
@@ -7248,7 +7996,9 @@
             "played": 11,
             "goals_for": 10,
             "goals_against": 11,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0026,
@@ -7267,7 +8017,9 @@
             "played": 11,
             "goals_for": 11,
             "goals_against": 15,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0009,
@@ -7286,7 +8038,9 @@
             "played": 11,
             "goals_for": 11,
             "goals_against": 11,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0003,
@@ -7305,7 +8059,9 @@
             "played": 12,
             "goals_for": 12,
             "goals_against": 20,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0007,
@@ -7324,7 +8080,9 @@
             "played": 11,
             "goals_for": 6,
             "goals_against": 22,
-            "goal_diff": -16
+            "goal_diff": -16,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -7343,7 +8101,9 @@
             "played": 11,
             "goals_for": 9,
             "goals_against": 20,
-            "goal_diff": -11
+            "goal_diff": -11,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -7366,7 +8126,9 @@
             "played": 12,
             "goals_for": 20,
             "goals_against": 10,
-            "goal_diff": 10
+            "goal_diff": 10,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.4443,
@@ -7385,7 +8147,9 @@
             "played": 12,
             "goals_for": 15,
             "goals_against": 11,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1702,
@@ -7404,7 +8168,9 @@
             "played": 12,
             "goals_for": 18,
             "goals_against": 11,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1026,
@@ -7423,7 +8189,9 @@
             "played": 12,
             "goals_for": 14,
             "goals_against": 10,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0661,
@@ -7442,7 +8210,9 @@
             "played": 12,
             "goals_for": 16,
             "goals_against": 12,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0854,
@@ -7461,7 +8231,9 @@
             "played": 12,
             "goals_for": 18,
             "goals_against": 11,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0491,
@@ -7480,7 +8252,9 @@
             "played": 12,
             "goals_for": 16,
             "goals_against": 8,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0216,
@@ -7499,7 +8273,9 @@
             "played": 12,
             "goals_for": 14,
             "goals_against": 14,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0132,
@@ -7518,7 +8294,9 @@
             "played": 12,
             "goals_for": 14,
             "goals_against": 15,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0109,
@@ -7537,7 +8315,9 @@
             "played": 12,
             "goals_for": 14,
             "goals_against": 12,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0098,
@@ -7556,7 +8336,9 @@
             "played": 12,
             "goals_for": 12,
             "goals_against": 17,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0057,
@@ -7575,7 +8357,9 @@
             "played": 12,
             "goals_for": 8,
             "goals_against": 6,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0053,
@@ -7594,7 +8378,9 @@
             "played": 12,
             "goals_for": 10,
             "goals_against": 8,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0053,
@@ -7613,7 +8399,9 @@
             "played": 12,
             "goals_for": 12,
             "goals_against": 12,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.005,
@@ -7632,7 +8420,9 @@
             "played": 12,
             "goals_for": 19,
             "goals_against": 20,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0049,
@@ -7651,7 +8441,9 @@
             "played": 12,
             "goals_for": 12,
             "goals_against": 17,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0004,
@@ -7670,7 +8462,9 @@
             "played": 12,
             "goals_for": 11,
             "goals_against": 12,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0002,
@@ -7689,7 +8483,9 @@
             "played": 12,
             "goals_for": 12,
             "goals_against": 20,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -7708,7 +8504,9 @@
             "played": 12,
             "goals_for": 7,
             "goals_against": 24,
-            "goal_diff": -17
+            "goal_diff": -17,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -7727,7 +8525,9 @@
             "played": 12,
             "goals_for": 10,
             "goals_against": 22,
-            "goal_diff": -12
+            "goal_diff": -12,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -7750,7 +8550,9 @@
             "played": 13,
             "goals_for": 20,
             "goals_against": 10,
-            "goal_diff": 10
+            "goal_diff": 10,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.3642,
@@ -7769,7 +8571,9 @@
             "played": 12,
             "goals_for": 15,
             "goals_against": 11,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.2221,
@@ -7788,7 +8592,9 @@
             "played": 13,
             "goals_for": 20,
             "goals_against": 13,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.094,
@@ -7807,7 +8613,9 @@
             "played": 12,
             "goals_for": 14,
             "goals_against": 10,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0856,
@@ -7826,7 +8634,9 @@
             "played": 13,
             "goals_for": 18,
             "goals_against": 14,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1039,
@@ -7845,7 +8655,9 @@
             "played": 13,
             "goals_for": 18,
             "goals_against": 12,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0363,
@@ -7864,7 +8676,9 @@
             "played": 13,
             "goals_for": 16,
             "goals_against": 8,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0251,
@@ -7883,7 +8697,9 @@
             "played": 12,
             "goals_for": 14,
             "goals_against": 14,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0176,
@@ -7902,7 +8718,9 @@
             "played": 13,
             "goals_for": 13,
             "goals_against": 8,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0108,
@@ -7921,7 +8739,9 @@
             "played": 13,
             "goals_for": 9,
             "goals_against": 6,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0104,
@@ -7940,7 +8760,9 @@
             "played": 13,
             "goals_for": 13,
             "goals_against": 18,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0082,
@@ -7959,7 +8781,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 17,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0061,
@@ -7978,7 +8802,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 13,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0075,
@@ -7997,7 +8823,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 15,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0043,
@@ -8016,7 +8844,9 @@
             "played": 13,
             "goals_for": 22,
             "goals_against": 23,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0033,
@@ -8035,7 +8865,9 @@
             "played": 12,
             "goals_for": 12,
             "goals_against": 17,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -8054,7 +8886,9 @@
             "played": 13,
             "goals_for": 13,
             "goals_against": 13,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -8073,7 +8907,9 @@
             "played": 12,
             "goals_for": 12,
             "goals_against": 20,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0004,
@@ -8092,7 +8928,9 @@
             "played": 12,
             "goals_for": 7,
             "goals_against": 24,
-            "goal_diff": -17
+            "goal_diff": -17,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -8111,7 +8949,9 @@
             "played": 13,
             "goals_for": 10,
             "goals_against": 25,
-            "goal_diff": -15
+            "goal_diff": -15,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -8134,7 +8974,9 @@
             "played": 13,
             "goals_for": 20,
             "goals_against": 10,
-            "goal_diff": 10
+            "goal_diff": 10,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.4173,
@@ -8153,7 +8995,9 @@
             "played": 13,
             "goals_for": 20,
             "goals_against": 13,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1225,
@@ -8172,7 +9016,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 14,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.09,
@@ -8191,7 +9037,9 @@
             "played": 13,
             "goals_for": 18,
             "goals_against": 14,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.1393,
@@ -8210,7 +9058,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 11,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0741,
@@ -8229,7 +9079,9 @@
             "played": 13,
             "goals_for": 18,
             "goals_against": 12,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.047,
@@ -8248,7 +9100,9 @@
             "played": 14,
             "goals_for": 17,
             "goals_against": 9,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0234,
@@ -8267,7 +9121,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 15,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0191,
@@ -8286,7 +9142,9 @@
             "played": 13,
             "goals_for": 9,
             "goals_against": 6,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0133,
@@ -8305,7 +9163,9 @@
             "played": 13,
             "goals_for": 13,
             "goals_against": 8,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0155,
@@ -8324,7 +9184,9 @@
             "played": 13,
             "goals_for": 13,
             "goals_against": 18,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0092,
@@ -8343,7 +9205,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 17,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.01,
@@ -8362,7 +9226,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 13,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0081,
@@ -8381,7 +9247,9 @@
             "played": 14,
             "goals_for": 16,
             "goals_against": 16,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0042,
@@ -8400,7 +9268,9 @@
             "played": 13,
             "goals_for": 22,
             "goals_against": 23,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0056,
@@ -8419,7 +9289,9 @@
             "played": 13,
             "goals_for": 13,
             "goals_against": 13,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0006,
@@ -8438,7 +9310,9 @@
             "played": 13,
             "goals_for": 14,
             "goals_against": 20,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0002,
@@ -8457,7 +9331,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 22,
-            "goal_diff": -7
+            "goal_diff": -7,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0005,
@@ -8476,7 +9352,9 @@
             "played": 13,
             "goals_for": 10,
             "goals_against": 24,
-            "goal_diff": -14
+            "goal_diff": -14,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -8495,7 +9373,9 @@
             "played": 13,
             "goals_for": 10,
             "goals_against": 25,
-            "goal_diff": -15
+            "goal_diff": -15,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -8518,7 +9398,9 @@
             "played": 14,
             "goals_for": 20,
             "goals_against": 11,
-            "goal_diff": 9
+            "goal_diff": 9,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.2935,
@@ -8537,7 +9419,9 @@
             "played": 13,
             "goals_for": 20,
             "goals_against": 13,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.1543,
@@ -8556,7 +9440,9 @@
             "played": 14,
             "goals_for": 16,
             "goals_against": 15,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0999,
@@ -8575,7 +9461,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 11,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.104,
@@ -8594,7 +9482,9 @@
             "played": 14,
             "goals_for": 22,
             "goals_against": 15,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0938,
@@ -8613,7 +9503,9 @@
             "played": 14,
             "goals_for": 21,
             "goals_against": 18,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.1014,
@@ -8632,7 +9524,9 @@
             "played": 14,
             "goals_for": 14,
             "goals_against": 8,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0381,
@@ -8651,7 +9545,9 @@
             "played": 14,
             "goals_for": 17,
             "goals_against": 9,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.034,
@@ -8670,7 +9566,9 @@
             "played": 14,
             "goals_for": 18,
             "goals_against": 17,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0341,
@@ -8689,7 +9587,9 @@
             "played": 14,
             "goals_for": 15,
             "goals_against": 16,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.01,
@@ -8708,7 +9608,9 @@
             "played": 14,
             "goals_for": 9,
             "goals_against": 7,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0086,
@@ -8727,7 +9629,9 @@
             "played": 14,
             "goals_for": 16,
             "goals_against": 16,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0076,
@@ -8746,7 +9650,9 @@
             "played": 14,
             "goals_for": 23,
             "goals_against": 24,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0069,
@@ -8765,7 +9671,9 @@
             "played": 14,
             "goals_for": 15,
             "goals_against": 15,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0061,
@@ -8784,7 +9692,9 @@
             "played": 14,
             "goals_for": 13,
             "goals_against": 21,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0045,
@@ -8803,7 +9713,9 @@
             "played": 14,
             "goals_for": 14,
             "goals_against": 13,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.001,
@@ -8822,7 +9734,9 @@
             "played": 14,
             "goals_for": 15,
             "goals_against": 20,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0004,
@@ -8841,7 +9755,9 @@
             "played": 14,
             "goals_for": 17,
             "goals_against": 22,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0018,
@@ -8860,7 +9776,9 @@
             "played": 13,
             "goals_for": 10,
             "goals_against": 24,
-            "goal_diff": -14
+            "goal_diff": -14,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -8879,7 +9797,9 @@
             "played": 13,
             "goals_for": 10,
             "goals_against": 25,
-            "goal_diff": -15
+            "goal_diff": -15,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -8902,7 +9822,9 @@
             "played": 14,
             "goals_for": 20,
             "goals_against": 11,
-            "goal_diff": 9
+            "goal_diff": 9,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.2664,
@@ -8921,7 +9843,9 @@
             "played": 14,
             "goals_for": 22,
             "goals_against": 13,
-            "goal_diff": 9
+            "goal_diff": 9,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1883,
@@ -8940,7 +9864,9 @@
             "played": 14,
             "goals_for": 16,
             "goals_against": 11,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1327,
@@ -8959,7 +9885,9 @@
             "played": 14,
             "goals_for": 16,
             "goals_against": 15,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0958,
@@ -8978,7 +9906,9 @@
             "played": 14,
             "goals_for": 22,
             "goals_against": 15,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.088,
@@ -8997,7 +9927,9 @@
             "played": 14,
             "goals_for": 21,
             "goals_against": 18,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0921,
@@ -9016,7 +9948,9 @@
             "played": 14,
             "goals_for": 14,
             "goals_against": 8,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0359,
@@ -9035,7 +9969,9 @@
             "played": 14,
             "goals_for": 17,
             "goals_against": 9,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0312,
@@ -9054,7 +9990,9 @@
             "played": 14,
             "goals_for": 18,
             "goals_against": 17,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0278,
@@ -9073,7 +10011,9 @@
             "played": 14,
             "goals_for": 15,
             "goals_against": 16,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0105,
@@ -9092,7 +10032,9 @@
             "played": 14,
             "goals_for": 16,
             "goals_against": 16,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0074,
@@ -9111,7 +10053,9 @@
             "played": 15,
             "goals_for": 11,
             "goals_against": 9,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0038,
@@ -9130,7 +10074,9 @@
             "played": 14,
             "goals_for": 23,
             "goals_against": 24,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0054,
@@ -9149,7 +10095,9 @@
             "played": 14,
             "goals_for": 15,
             "goals_against": 15,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.005,
@@ -9168,7 +10116,9 @@
             "played": 14,
             "goals_for": 13,
             "goals_against": 21,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0048,
@@ -9187,7 +10137,9 @@
             "played": 14,
             "goals_for": 14,
             "goals_against": 13,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0021,
@@ -9206,7 +10158,9 @@
             "played": 15,
             "goals_for": 19,
             "goals_against": 24,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.002,
@@ -9225,7 +10179,9 @@
             "played": 14,
             "goals_for": 15,
             "goals_against": 20,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0008,
@@ -9244,7 +10200,9 @@
             "played": 14,
             "goals_for": 10,
             "goals_against": 25,
-            "goal_diff": -15
+            "goal_diff": -15,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -9263,7 +10221,9 @@
             "played": 14,
             "goals_for": 10,
             "goals_against": 27,
-            "goal_diff": -17
+            "goal_diff": -17,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -9286,7 +10246,9 @@
             "played": 15,
             "goals_for": 24,
             "goals_against": 14,
-            "goal_diff": 10
+            "goal_diff": 10,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.2301,
@@ -9305,7 +10267,9 @@
             "played": 15,
             "goals_for": 17,
             "goals_against": 11,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1917,
@@ -9324,7 +10288,9 @@
             "played": 15,
             "goals_for": 20,
             "goals_against": 12,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1895,
@@ -9343,7 +10309,9 @@
             "played": 15,
             "goals_for": 18,
             "goals_against": 16,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.1206,
@@ -9362,7 +10330,9 @@
             "played": 15,
             "goals_for": 16,
             "goals_against": 8,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0669,
@@ -9381,7 +10351,9 @@
             "played": 15,
             "goals_for": 23,
             "goals_against": 17,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0689,
@@ -9400,7 +10372,9 @@
             "played": 15,
             "goals_for": 19,
             "goals_against": 17,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.042,
@@ -9419,7 +10393,9 @@
             "played": 15,
             "goals_for": 18,
             "goals_against": 11,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0188,
@@ -9438,7 +10414,9 @@
             "played": 15,
             "goals_for": 21,
             "goals_against": 19,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0366,
@@ -9457,7 +10435,9 @@
             "played": 15,
             "goals_for": 14,
             "goals_against": 21,
-            "goal_diff": -7
+            "goal_diff": -7,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0065,
@@ -9476,7 +10456,9 @@
             "played": 15,
             "goals_for": 18,
             "goals_against": 16,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0076,
@@ -9495,7 +10477,9 @@
             "played": 15,
             "goals_for": 16,
             "goals_against": 15,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0066,
@@ -9514,7 +10498,9 @@
             "played": 15,
             "goals_for": 11,
             "goals_against": 9,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0035,
@@ -9533,7 +10519,9 @@
             "played": 14,
             "goals_for": 23,
             "goals_against": 24,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0046,
@@ -9552,7 +10540,9 @@
             "played": 15,
             "goals_for": 15,
             "goals_against": 18,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0027,
@@ -9571,7 +10561,9 @@
             "played": 14,
             "goals_for": 14,
             "goals_against": 13,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0012,
@@ -9590,7 +10582,9 @@
             "played": 15,
             "goals_for": 19,
             "goals_against": 24,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0017,
@@ -9609,7 +10603,9 @@
             "played": 15,
             "goals_for": 15,
             "goals_against": 21,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0005,
@@ -9628,7 +10624,9 @@
             "played": 15,
             "goals_for": 10,
             "goals_against": 26,
-            "goal_diff": -16
+            "goal_diff": -16,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -9647,7 +10645,9 @@
             "played": 15,
             "goals_for": 10,
             "goals_against": 29,
-            "goal_diff": -19
+            "goal_diff": -19,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -9670,7 +10670,9 @@
             "played": 15,
             "goals_for": 24,
             "goals_against": 14,
-            "goal_diff": 10
+            "goal_diff": 10,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.2239,
@@ -9689,7 +10691,9 @@
             "played": 15,
             "goals_for": 17,
             "goals_against": 11,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1964,
@@ -9708,7 +10712,9 @@
             "played": 15,
             "goals_for": 20,
             "goals_against": 12,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1796,
@@ -9727,7 +10733,9 @@
             "played": 16,
             "goals_for": 20,
             "goals_against": 16,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.1245,
@@ -9746,7 +10754,9 @@
             "played": 15,
             "goals_for": 23,
             "goals_against": 17,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0731,
@@ -9765,7 +10775,9 @@
             "played": 15,
             "goals_for": 16,
             "goals_against": 8,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0609,
@@ -9784,7 +10796,9 @@
             "played": 15,
             "goals_for": 19,
             "goals_against": 17,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0421,
@@ -9803,7 +10817,9 @@
             "played": 15,
             "goals_for": 18,
             "goals_against": 11,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0174,
@@ -9822,7 +10838,9 @@
             "played": 15,
             "goals_for": 21,
             "goals_against": 19,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0359,
@@ -9841,7 +10859,9 @@
             "played": 15,
             "goals_for": 24,
             "goals_against": 24,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0098,
@@ -9860,7 +10880,9 @@
             "played": 15,
             "goals_for": 18,
             "goals_against": 16,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0083,
@@ -9879,7 +10901,9 @@
             "played": 16,
             "goals_for": 12,
             "goals_against": 9,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0066,
@@ -9898,7 +10922,9 @@
             "played": 15,
             "goals_for": 14,
             "goals_against": 21,
-            "goal_diff": -7
+            "goal_diff": -7,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0067,
@@ -9917,7 +10943,9 @@
             "played": 15,
             "goals_for": 16,
             "goals_against": 15,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.007,
@@ -9936,7 +10964,9 @@
             "played": 15,
             "goals_for": 15,
             "goals_against": 18,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0043,
@@ -9955,7 +10985,9 @@
             "played": 15,
             "goals_for": 19,
             "goals_against": 24,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0024,
@@ -9974,7 +11006,9 @@
             "played": 15,
             "goals_for": 14,
             "goals_against": 14,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0006,
@@ -9993,7 +11027,9 @@
             "played": 15,
             "goals_for": 15,
             "goals_against": 21,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0005,
@@ -10012,7 +11048,9 @@
             "played": 16,
             "goals_for": 10,
             "goals_against": 27,
-            "goal_diff": -17
+            "goal_diff": -17,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -10031,7 +11069,9 @@
             "played": 16,
             "goals_for": 10,
             "goals_against": 31,
-            "goal_diff": -21
+            "goal_diff": -21,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -10054,7 +11094,9 @@
             "played": 16,
             "goals_for": 27,
             "goals_against": 14,
-            "goal_diff": 13
+            "goal_diff": 13,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.3106,
@@ -10073,7 +11115,9 @@
             "played": 16,
             "goals_for": 18,
             "goals_against": 11,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.2042,
@@ -10092,7 +11136,9 @@
             "played": 15,
             "goals_for": 20,
             "goals_against": 12,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1675,
@@ -10111,7 +11157,9 @@
             "played": 16,
             "goals_for": 20,
             "goals_against": 16,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1083,
@@ -10130,7 +11178,9 @@
             "played": 15,
             "goals_for": 23,
             "goals_against": 17,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0635,
@@ -10149,7 +11199,9 @@
             "played": 16,
             "goals_for": 16,
             "goals_against": 8,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.047,
@@ -10168,7 +11220,9 @@
             "played": 15,
             "goals_for": 19,
             "goals_against": 17,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0314,
@@ -10187,7 +11241,9 @@
             "played": 16,
             "goals_for": 16,
             "goals_against": 21,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0139,
@@ -10206,7 +11262,9 @@
             "played": 16,
             "goals_for": 21,
             "goals_against": 19,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0192,
@@ -10225,7 +11283,9 @@
             "played": 16,
             "goals_for": 18,
             "goals_against": 12,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0106,
@@ -10244,7 +11304,9 @@
             "played": 16,
             "goals_for": 12,
             "goals_against": 9,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.005,
@@ -10263,7 +11325,9 @@
             "played": 15,
             "goals_for": 16,
             "goals_against": 15,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0059,
@@ -10282,7 +11346,9 @@
             "played": 16,
             "goals_for": 24,
             "goals_against": 24,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0075,
@@ -10301,7 +11367,9 @@
             "played": 16,
             "goals_for": 18,
             "goals_against": 19,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.002,
@@ -10320,7 +11388,9 @@
             "played": 16,
             "goals_for": 24,
             "goals_against": 29,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0018,
@@ -10339,7 +11409,9 @@
             "played": 16,
             "goals_for": 15,
             "goals_against": 20,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.001,
@@ -10358,7 +11430,9 @@
             "played": 15,
             "goals_for": 14,
             "goals_against": 14,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0005,
@@ -10377,7 +11451,9 @@
             "played": 15,
             "goals_for": 15,
             "goals_against": 21,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -10396,7 +11472,9 @@
             "played": 16,
             "goals_for": 10,
             "goals_against": 27,
-            "goal_diff": -17
+            "goal_diff": -17,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -10415,7 +11493,9 @@
             "played": 16,
             "goals_for": 10,
             "goals_against": 31,
-            "goal_diff": -21
+            "goal_diff": -21,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -10438,7 +11518,9 @@
             "played": 16,
             "goals_for": 27,
             "goals_against": 14,
-            "goal_diff": 13
+            "goal_diff": 13,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.2926,
@@ -10457,7 +11539,9 @@
             "played": 17,
             "goals_for": 20,
             "goals_against": 12,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.2333,
@@ -10476,7 +11560,9 @@
             "played": 16,
             "goals_for": 20,
             "goals_against": 16,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1109,
@@ -10495,7 +11581,9 @@
             "played": 16,
             "goals_for": 25,
             "goals_against": 18,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0967,
@@ -10514,7 +11602,9 @@
             "played": 16,
             "goals_for": 21,
             "goals_against": 14,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.1003,
@@ -10533,7 +11623,9 @@
             "played": 16,
             "goals_for": 20,
             "goals_against": 17,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0573,
@@ -10552,7 +11644,9 @@
             "played": 16,
             "goals_for": 16,
             "goals_against": 8,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0451,
@@ -10571,7 +11665,9 @@
             "played": 16,
             "goals_for": 16,
             "goals_against": 21,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.013,
@@ -10590,7 +11686,9 @@
             "played": 16,
             "goals_for": 21,
             "goals_against": 19,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0196,
@@ -10609,7 +11707,9 @@
             "played": 16,
             "goals_for": 18,
             "goals_against": 12,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0092,
@@ -10628,7 +11728,9 @@
             "played": 16,
             "goals_for": 12,
             "goals_against": 9,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0046,
@@ -10647,7 +11749,9 @@
             "played": 16,
             "goals_for": 24,
             "goals_against": 24,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.008,
@@ -10666,7 +11770,9 @@
             "played": 16,
             "goals_for": 18,
             "goals_against": 19,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0026,
@@ -10685,7 +11791,9 @@
             "played": 16,
             "goals_for": 16,
             "goals_against": 16,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0022,
@@ -10704,7 +11812,9 @@
             "played": 16,
             "goals_for": 24,
             "goals_against": 29,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0021,
@@ -10723,7 +11833,9 @@
             "played": 16,
             "goals_for": 15,
             "goals_against": 20,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0015,
@@ -10742,7 +11854,9 @@
             "played": 16,
             "goals_for": 17,
             "goals_against": 15,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0007,
@@ -10761,7 +11875,9 @@
             "played": 16,
             "goals_for": 16,
             "goals_against": 24,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0003,
@@ -10780,7 +11896,9 @@
             "played": 16,
             "goals_for": 10,
             "goals_against": 27,
-            "goal_diff": -17
+            "goal_diff": -17,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -10799,7 +11917,9 @@
             "played": 17,
             "goals_for": 11,
             "goals_against": 33,
-            "goal_diff": -22
+            "goal_diff": -22,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -10822,7 +11942,9 @@
             "played": 17,
             "goals_for": 20,
             "goals_against": 12,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 1,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.2848,
@@ -10841,7 +11963,9 @@
             "played": 17,
             "goals_for": 28,
             "goals_against": 16,
-            "goal_diff": 12
+            "goal_diff": 12,
+            "rank": 4,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.2485,
@@ -10860,7 +11984,9 @@
             "played": 17,
             "goals_for": 22,
             "goals_against": 18,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 3,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.1066,
@@ -10879,7 +12005,9 @@
             "played": 17,
             "goals_for": 25,
             "goals_against": 19,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 2,
+            "zone": "direct_promotion"
           },
           "probs": {
             "title": 0.0804,
@@ -10898,7 +12026,9 @@
             "played": 17,
             "goals_for": 20,
             "goals_against": 17,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 6,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0776,
@@ -10917,7 +12047,9 @@
             "played": 17,
             "goals_for": 17,
             "goals_against": 8,
-            "goal_diff": 9
+            "goal_diff": 9,
+            "rank": 5,
+            "zone": "playoff_promotion"
           },
           "probs": {
             "title": 0.0638,
@@ -10936,7 +12068,9 @@
             "played": 17,
             "goals_for": 23,
             "goals_against": 16,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 7,
+            "zone": null
           },
           "probs": {
             "title": 0.0815,
@@ -10955,7 +12089,9 @@
             "played": 17,
             "goals_for": 18,
             "goals_against": 23,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 9,
+            "zone": null
           },
           "probs": {
             "title": 0.0138,
@@ -10974,7 +12110,9 @@
             "played": 17,
             "goals_for": 21,
             "goals_against": 15,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 8,
+            "zone": null
           },
           "probs": {
             "title": 0.0077,
@@ -10993,7 +12131,9 @@
             "played": 17,
             "goals_for": 14,
             "goals_against": 11,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 11,
+            "zone": null
           },
           "probs": {
             "title": 0.0053,
@@ -11012,7 +12152,9 @@
             "played": 17,
             "goals_for": 19,
             "goals_against": 19,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": null
           },
           "probs": {
             "title": 0.0054,
@@ -11031,7 +12173,9 @@
             "played": 16,
             "goals_for": 24,
             "goals_against": 24,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0102,
@@ -11050,7 +12194,9 @@
             "played": 17,
             "goals_for": 21,
             "goals_against": 21,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0069,
@@ -11069,7 +12215,9 @@
             "played": 16,
             "goals_for": 16,
             "goals_against": 16,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0041,
@@ -11088,7 +12236,9 @@
             "played": 17,
             "goals_for": 26,
             "goals_against": 31,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0019,
@@ -11107,7 +12257,9 @@
             "played": 16,
             "goals_for": 15,
             "goals_against": 20,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.001,
@@ -11126,7 +12278,9 @@
             "played": 17,
             "goals_for": 20,
             "goals_against": 18,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0005,
@@ -11145,7 +12299,9 @@
             "played": 17,
             "goals_for": 18,
             "goals_against": 24,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -11164,7 +12320,9 @@
             "played": 16,
             "goals_for": 10,
             "goals_against": 27,
-            "goal_diff": -17
+            "goal_diff": -17,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -11183,7 +12341,9 @@
             "played": 17,
             "goals_for": 11,
             "goals_against": 33,
-            "goal_diff": -22
+            "goal_diff": -22,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
