@@ -44,6 +44,25 @@
   const tableHeadRowEl = document.getElementById("table-head-row");
   const tableBodyEl = document.getElementById("table-body");
   const statusMessageEl = document.getElementById("status-message");
+  const zoneLegendEl = document.getElementById("zone-legend");
+
+  // Every zone src.site.export_site_data's _real_classification can produce
+  // that actually gets a color (see style.css's tr.zone-* rules) -- best
+  // outcome first. "title"/aggregate-total columns are deliberately absent:
+  // they never surface as a team's own `zone` (title is always subsumed by
+  // the broader spot it's nested in) or aren't a real position-based zone at
+  // all (an aggregate's own "Geral" total). Labels are looked up from the
+  // season's own `columns` tree, so the legend only shows entries that
+  // actually apply to the competition currently on screen (e.g. Serie A
+  // never shows "Acesso" rows, Serie B never shows "Libertadores" ones).
+  const ZONE_LEGEND_ORDER = [
+    "libertadores_grupos",
+    "libertadores_pre",
+    "sulamericana",
+    "direct_promotion",
+    "playoff_promotion",
+    "rebaixamento",
+  ];
 
   async function fetchJSON(path) {
     const response = await fetch(path);
@@ -137,15 +156,11 @@
   }
 
   // Default sort when the user hasn't clicked any header yet: classificação
-  // order -- points, then goal difference, then goals for as tiebreakers.
+  // order -- team.standings.rank is already the official position (full CBF
+  // tiebreak, computed server-side by src.simulation.standings.rank_table),
+  // so no client-side tiebreak approximation is needed here.
   function defaultOrderedTeams(teams) {
-    return [...teams].sort((a, b) => {
-      const points = b.standings.points - a.standings.points;
-      if (points !== 0) return points;
-      const goalDiff = b.standings.goal_diff - a.standings.goal_diff;
-      if (goalDiff !== 0) return goalDiff;
-      return b.standings.goals_for - a.standings.goals_for;
-    });
+    return [...teams].sort((a, b) => a.standings.rank - b.standings.rank);
   }
 
   function getValue(team, column) {
@@ -277,9 +292,19 @@
 
     orderedTeams.forEach((team) => {
       const row = document.createElement("tr");
+      // Zone comes straight from the export (src.site.export_site_data's
+      // _real_classification) -- already accounts for guaranteed-slot cascades,
+      // so it's rendered as-is rather than re-derived from rank here.
+      if (team.standings.zone) {
+        row.classList.add(`zone-${team.standings.zone.replace(/_/g, "-")}`);
+      }
 
       const teamCell = document.createElement("td");
       teamCell.className = "team-cell";
+
+      const rank = document.createElement("span");
+      rank.className = "rank-number";
+      rank.textContent = String(team.standings.rank);
 
       const crest = document.createElement("img");
       crest.className = "crest";
@@ -291,6 +316,7 @@
       name.className = "team-name";
       name.textContent = displayTeamName(team.team);
 
+      teamCell.appendChild(rank);
       teamCell.appendChild(crest);
       teamCell.appendChild(name);
       row.appendChild(teamCell);
@@ -313,9 +339,54 @@
     });
   }
 
+  // {zone key -> display label}, prefixed with the group's own label for a
+  // spot nested under one (e.g. "Libertadores - Fase de grupos") -- on the
+  // table itself that context comes from the group header, but a legend
+  // entry has no such header above it. Skips a group's own aggregate-total
+  // child (key === the group's key, e.g. "libertadores" under "Libertadores"
+  // -- labeled "Geral" on the table): it's a combined probability column, not
+  // a real position-based zone, so it never appears as a team's own `zone`.
+  function zoneLabels(columns) {
+    const labels = {};
+    columns.forEach((column) => {
+      if (column.children) {
+        column.children.forEach((child) => {
+          if (child.key !== column.key) labels[child.key] = `${column.label} - ${child.label}`;
+        });
+      } else {
+        labels[column.key] = column.label;
+      }
+    });
+    return labels;
+  }
+
+  function renderZoneLegend(columns) {
+    const labels = zoneLabels(columns);
+    zoneLegendEl.innerHTML = "";
+    ZONE_LEGEND_ORDER.forEach((zoneKey) => {
+      const label = labels[zoneKey];
+      if (!label) return;
+
+      const item = document.createElement("li");
+      item.className = "zone-legend-item";
+
+      const swatch = document.createElement("span");
+      swatch.className = `zone-legend-swatch zone-${zoneKey.replace(/_/g, "-")}`;
+
+      const text = document.createElement("span");
+      text.textContent = label;
+
+      item.appendChild(swatch);
+      item.appendChild(text);
+      zoneLegendEl.appendChild(item);
+    });
+  }
+
   function renderSnapshot() {
     const snapshot = state.seasonData.snapshots[state.date];
-    renderTable([STANDINGS_GROUP, ...state.seasonData.columns], snapshot.teams);
+    const columns = [STANDINGS_GROUP, ...state.seasonData.columns];
+    renderTable(columns, snapshot.teams);
+    renderZoneLegend(columns);
   }
 
   async function loadSeason(slug, season) {
