@@ -13,6 +13,12 @@
   --seq-g: 106;
   --seq-b: 191;
   --head-row-h: 2.4rem;
+  --zone-libertadores-grupos: #2a78d6;
+  --zone-libertadores-pre: #eb6834;
+  --zone-sulamericana: #008300;
+  --zone-rebaixamento: #e34948;
+  --zone-direct-promotion: #2a78d6;
+  --zone-playoff-promotion: #eb6834;
 }
 
 /* Dark palette applies either from the OS preference (when the user hasn't
@@ -34,6 +40,12 @@
     --seq-r: 57;
     --seq-g: 135;
     --seq-b: 229;
+    --zone-libertadores-grupos: #3987e5;
+    --zone-libertadores-pre: #d95926;
+    --zone-sulamericana: #008300;
+    --zone-rebaixamento: #e66767;
+    --zone-direct-promotion: #3987e5;
+    --zone-playoff-promotion: #d95926;
   }
 }
 
@@ -51,6 +63,12 @@
   --seq-r: 57;
   --seq-g: 135;
   --seq-b: 229;
+  --zone-libertadores-grupos: #3987e5;
+  --zone-libertadores-pre: #d95926;
+  --zone-sulamericana: #008300;
+  --zone-rebaixamento: #e66767;
+  --zone-direct-promotion: #3987e5;
+  --zone-playoff-promotion: #d95926;
 }
 
 * {
@@ -485,6 +503,99 @@ tbody tr:last-child td {
   align-items: center;
   gap: 0.6rem;
   white-space: nowrap;
+  /* Transparent by default so every row reserves the same 4px, and only a
+     tr.zone-* class (set from the export's already-computed classification
+     zone, see app.js's renderTable) needs to override the color -- crests
+     stay aligned whether or not a given row has a zone. */
+  border-left: 4px solid transparent;
+}
+
+.rank-number {
+  min-width: 1.5rem;
+  text-align: right;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Classification-zone color bar, inspired by the colored left-border strip
+   sports tables commonly use to mark continental/access-playoff/relegation
+   cutoffs -- the zone itself is decided server-side
+   (src.site.export_site_data), this only maps a zone name to a color. Covers
+   both Serie A (libertadores_grupos, libertadores_pre, sulamericana,
+   rebaixamento) and Serie B (direct_promotion, playoff_promotion,
+   rebaixamento). */
+tbody tr.zone-libertadores-grupos td.team-cell {
+  border-left-color: var(--zone-libertadores-grupos);
+}
+
+tbody tr.zone-libertadores-pre td.team-cell {
+  border-left-color: var(--zone-libertadores-pre);
+}
+
+tbody tr.zone-sulamericana td.team-cell {
+  border-left-color: var(--zone-sulamericana);
+}
+
+tbody tr.zone-direct-promotion td.team-cell {
+  border-left-color: var(--zone-direct-promotion);
+}
+
+tbody tr.zone-playoff-promotion td.team-cell {
+  border-left-color: var(--zone-playoff-promotion);
+}
+
+tbody tr.zone-rebaixamento td.team-cell {
+  border-left-color: var(--zone-rebaixamento);
+}
+
+.zone-legend {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem 1.2rem;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.zone-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.zone-legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.zone-legend-swatch.zone-libertadores-grupos {
+  background: var(--zone-libertadores-grupos);
+}
+
+.zone-legend-swatch.zone-libertadores-pre {
+  background: var(--zone-libertadores-pre);
+}
+
+.zone-legend-swatch.zone-sulamericana {
+  background: var(--zone-sulamericana);
+}
+
+.zone-legend-swatch.zone-direct-promotion {
+  background: var(--zone-direct-promotion);
+}
+
+.zone-legend-swatch.zone-playoff-promotion {
+  background: var(--zone-playoff-promotion);
+}
+
+.zone-legend-swatch.zone-rebaixamento {
+  background: var(--zone-rebaixamento);
 }
 
 .crest {
