@@ -238,6 +238,7 @@ src/models/stan_models/poisson_home
 src/models/stan_models/poisson_strength
 src/models/stan_models/poisson_home_no_rho
 src/models/stan_models/negbin_home
+src/models/stan_models/negbin_home_shared_phi
 src/models/stan_models/*.hpp
 
 # Walk-forward backtest per-checkpoint cache (reproducible from matches.csv --

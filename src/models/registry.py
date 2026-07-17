@@ -8,6 +8,7 @@ Nothing else in src/simulation or src/site needs to change.
 
 from src.models.adapter import ModelAdapter
 from src.models.adapters.negbin_home import ADAPTER as _negbin_home
+from src.models.adapters.negbin_home_shared_phi import ADAPTER as _negbin_home_shared_phi
 from src.models.adapters.poisson_home import ADAPTER as _poisson_home
 from src.models.adapters.poisson_home_no_rho import ADAPTER as _poisson_home_no_rho
 from src.models.adapters.poisson_strength import ADAPTER as _poisson_strength
@@ -17,6 +18,7 @@ MODEL_REGISTRY: dict[str, ModelAdapter] = {
     "poisson_strength": _poisson_strength,
     "poisson_home_no_rho": _poisson_home_no_rho,
     "negbin_home": _negbin_home,
+    "negbin_home_shared_phi": _negbin_home_shared_phi,
 }
 
 DEFAULT_MODEL = "poisson_home"
