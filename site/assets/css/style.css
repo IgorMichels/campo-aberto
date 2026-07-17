@@ -13,10 +13,20 @@
   --seq-g: 106;
   --seq-b: 191;
   --head-row-h: 2.4rem;
+  --zone-libertadores-grupos: #2a78d6;
+  --zone-libertadores-pre: #eb6834;
+  --zone-sulamericana: #008300;
+  --zone-rebaixamento: #e34948;
+  --zone-direct-promotion: #2a78d6;
+  --zone-playoff-promotion: #eb6834;
 }
 
+/* Dark palette applies either from the OS preference (when the user hasn't
+   picked a theme via the toggle button, i.e. no data-theme attribute) or
+   from an explicit data-theme="dark" set by theme.js, which always wins
+   over the OS preference in either direction. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --surface-1: #1a1a19;
     --page-plane: #0d0d0d;
     --text-primary: #ffffff;
@@ -30,7 +40,35 @@
     --seq-r: 57;
     --seq-g: 135;
     --seq-b: 229;
+    --zone-libertadores-grupos: #3987e5;
+    --zone-libertadores-pre: #d95926;
+    --zone-sulamericana: #008300;
+    --zone-rebaixamento: #e66767;
+    --zone-direct-promotion: #3987e5;
+    --zone-playoff-promotion: #d95926;
   }
+}
+
+:root[data-theme="dark"] {
+  --surface-1: #1a1a19;
+  --page-plane: #0d0d0d;
+  --text-primary: #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted: #898781;
+  --gridline: #2c2c2a;
+  --baseline: #383835;
+  --border: rgba(255, 255, 255, 0.1);
+  --accent: #3987e5;
+  --accent-strong: #86b6ef;
+  --seq-r: 57;
+  --seq-g: 135;
+  --seq-b: 229;
+  --zone-libertadores-grupos: #3987e5;
+  --zone-libertadores-pre: #d95926;
+  --zone-sulamericana: #008300;
+  --zone-rebaixamento: #e66767;
+  --zone-direct-promotion: #3987e5;
+  --zone-playoff-promotion: #d95926;
 }
 
 * {
@@ -165,6 +203,29 @@ body {
 .nav-dropdown-menu a[aria-current="page"] {
   color: var(--accent-strong);
   background: var(--border);
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 20;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-1);
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent);
 }
 
 main {
@@ -442,6 +503,99 @@ tbody tr:last-child td {
   align-items: center;
   gap: 0.6rem;
   white-space: nowrap;
+  /* Transparent by default so every row reserves the same 4px, and only a
+     tr.zone-* class (set from the export's already-computed classification
+     zone, see app.js's renderTable) needs to override the color -- crests
+     stay aligned whether or not a given row has a zone. */
+  border-left: 4px solid transparent;
+}
+
+.rank-number {
+  min-width: 1.5rem;
+  text-align: right;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Classification-zone color bar, inspired by the colored left-border strip
+   sports tables commonly use to mark continental/access-playoff/relegation
+   cutoffs -- the zone itself is decided server-side
+   (src.site.export_site_data), this only maps a zone name to a color. Covers
+   both Serie A (libertadores_grupos, libertadores_pre, sulamericana,
+   rebaixamento) and Serie B (direct_promotion, playoff_promotion,
+   rebaixamento). */
+tbody tr.zone-libertadores-grupos td.team-cell {
+  border-left-color: var(--zone-libertadores-grupos);
+}
+
+tbody tr.zone-libertadores-pre td.team-cell {
+  border-left-color: var(--zone-libertadores-pre);
+}
+
+tbody tr.zone-sulamericana td.team-cell {
+  border-left-color: var(--zone-sulamericana);
+}
+
+tbody tr.zone-direct-promotion td.team-cell {
+  border-left-color: var(--zone-direct-promotion);
+}
+
+tbody tr.zone-playoff-promotion td.team-cell {
+  border-left-color: var(--zone-playoff-promotion);
+}
+
+tbody tr.zone-rebaixamento td.team-cell {
+  border-left-color: var(--zone-rebaixamento);
+}
+
+.zone-legend {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem 1.2rem;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.zone-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.zone-legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.zone-legend-swatch.zone-libertadores-grupos {
+  background: var(--zone-libertadores-grupos);
+}
+
+.zone-legend-swatch.zone-libertadores-pre {
+  background: var(--zone-libertadores-pre);
+}
+
+.zone-legend-swatch.zone-sulamericana {
+  background: var(--zone-sulamericana);
+}
+
+.zone-legend-swatch.zone-direct-promotion {
+  background: var(--zone-direct-promotion);
+}
+
+.zone-legend-swatch.zone-playoff-promotion {
+  background: var(--zone-playoff-promotion);
+}
+
+.zone-legend-swatch.zone-rebaixamento {
+  background: var(--zone-rebaixamento);
 }
 
 .crest {
