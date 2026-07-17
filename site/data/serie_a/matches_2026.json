@@ -1,26 +1,6 @@
 {
   "matches": [
     {
-      "home_team": "Botafogo / RJ",
-      "away_team": "Santos / SP",
-      "home_crest": "assets/crests/botafogorj_bra.png",
-      "away_crest": "assets/crests/santos.png",
-      "home_color": "#000000",
-      "away_color": "#000000",
-      "date": "2026-07-16T22:30:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Vitória / BA",
-      "away_team": "Vasco da Gama / RJ",
-      "home_crest": "assets/crests/vitoria.png",
-      "away_crest": "assets/crests/vasco.png",
-      "home_color": "#CC0000",
-      "away_color": "#000000",
-      "date": "2026-07-16T22:30:00Z",
-      "status": "scheduled"
-    },
-    {
       "home_team": "Bahia / BA",
       "away_team": "Chapecoense / SC",
       "home_crest": "assets/crests/bahia.png",
@@ -101,16 +81,6 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Corinthians / SP",
-      "away_team": "Remo / PA",
-      "home_crest": "assets/crests/corinthians_bra.png",
-      "away_crest": "assets/crests/remo.png",
-      "home_color": "#000000",
-      "away_color": "#001F5B",
-      "date": "2026-07-23T22:30:00Z",
-      "status": "scheduled"
-    },
-    {
       "home_team": "Botafogo / RJ",
       "away_team": "Vitória / BA",
       "home_crest": "assets/crests/botafogorj_bra.png",
@@ -121,13 +91,13 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Athletico Paranaense / PR",
-      "away_team": "Internacional / RS",
-      "home_crest": "assets/crests/atleticopr_bra.png",
-      "away_crest": "assets/crests/internacional_bra.png",
-      "home_color": "#CE181E",
-      "away_color": "#E5050F",
-      "date": "2026-07-25T21:30:00Z",
+      "home_team": "Corinthians / SP",
+      "away_team": "Remo / PA",
+      "home_crest": "assets/crests/corinthians_bra.png",
+      "away_crest": "assets/crests/remo.png",
+      "home_color": "#000000",
+      "away_color": "#001F5B",
+      "date": "2026-07-23T22:30:00Z",
       "status": "scheduled"
     },
     {
@@ -137,6 +107,16 @@
       "away_crest": "assets/crests/chapecoense_bra.png",
       "home_color": "#000000",
       "away_color": "#008000",
+      "date": "2026-07-25T21:30:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Athletico Paranaense / PR",
+      "away_team": "Internacional / RS",
+      "home_crest": "assets/crests/atleticopr_bra.png",
+      "away_crest": "assets/crests/internacional_bra.png",
+      "home_color": "#CE181E",
+      "away_color": "#E5050F",
       "date": "2026-07-25T21:30:00Z",
       "status": "scheduled"
     },
@@ -241,22 +221,22 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Vitória / BA",
-      "away_team": "Palmeiras / SP",
-      "home_crest": "assets/crests/vitoria.png",
-      "away_crest": "assets/crests/palmeiras.png",
-      "home_color": "#CC0000",
-      "away_color": "#006437",
-      "date": "2026-07-30T00:30:00Z",
-      "status": "scheduled"
-    },
-    {
       "home_team": "Fluminense / RJ",
       "away_team": "Bahia / BA",
       "home_crest": "assets/crests/flurj.png",
       "away_crest": "assets/crests/bahia.png",
       "home_color": "#870A28",
       "away_color": "#006CB5",
+      "date": "2026-07-30T00:30:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Vitória / BA",
+      "away_team": "Palmeiras / SP",
+      "home_crest": "assets/crests/vitoria.png",
+      "away_crest": "assets/crests/palmeiras.png",
+      "home_color": "#CC0000",
+      "away_color": "#006437",
       "date": "2026-07-30T00:30:00Z",
       "status": "scheduled"
     },
@@ -521,22 +501,22 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Palmeiras / SP",
-      "away_team": "Vasco da Gama / RJ",
-      "home_crest": "assets/crests/palmeiras.png",
-      "away_crest": "assets/crests/vasco.png",
-      "home_color": "#006437",
-      "away_color": "#000000",
-      "date": "2026-08-23T19:00:00Z",
-      "status": "scheduled"
-    },
-    {
       "home_team": "Red Bull Bragantino / SP",
       "away_team": "Grêmio / RS",
       "home_crest": "assets/crests/bragantino_bra.png",
       "away_crest": "assets/crests/gremio.png",
       "home_color": "#CC0000",
       "away_color": "#0D80BF",
+      "date": "2026-08-23T19:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Palmeiras / SP",
+      "away_team": "Vasco da Gama / RJ",
+      "home_crest": "assets/crests/palmeiras.png",
+      "away_crest": "assets/crests/vasco.png",
+      "home_color": "#006437",
+      "away_color": "#000000",
       "date": "2026-08-23T19:00:00Z",
       "status": "scheduled"
     },
@@ -581,82 +561,12 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Flamengo / RJ",
-      "away_team": "Botafogo / RJ",
-      "home_crest": "assets/crests/flarj.png",
-      "away_crest": "assets/crests/botafogorj_bra.png",
-      "home_color": "#C52613",
-      "away_color": "#000000",
-      "date": "2026-08-29T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Athletico Paranaense / PR",
-      "away_team": "Fluminense / RJ",
-      "home_crest": "assets/crests/atleticopr_bra.png",
-      "away_crest": "assets/crests/flurj.png",
-      "home_color": "#CE181E",
-      "away_color": "#870A28",
-      "date": "2026-08-29T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Atlético Mineiro / MG",
-      "away_team": "Vitória / BA",
-      "home_crest": "assets/crests/atleticomg_bra.png",
-      "away_crest": "assets/crests/vitoria.png",
+      "home_team": "Vasco da Gama / RJ",
+      "away_team": "Cruzeiro / MG",
+      "home_crest": "assets/crests/vasco.png",
+      "away_crest": "assets/crests/cruzeiro_bra.png",
       "home_color": "#000000",
-      "away_color": "#CC0000",
-      "date": "2026-08-29T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Bahia / BA",
-      "away_team": "Internacional / RS",
-      "home_crest": "assets/crests/bahia.png",
-      "away_crest": "assets/crests/internacional_bra.png",
-      "home_color": "#006CB5",
-      "away_color": "#E5050F",
-      "date": "2026-08-29T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Corinthians / SP",
-      "away_team": "Santos / SP",
-      "home_crest": "assets/crests/corinthians_bra.png",
-      "away_crest": "assets/crests/santos.png",
-      "home_color": "#000000",
-      "away_color": "#000000",
-      "date": "2026-08-29T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Grêmio / RS",
-      "away_team": "Chapecoense / SC",
-      "home_crest": "assets/crests/gremio.png",
-      "away_crest": "assets/crests/chapecoense_bra.png",
-      "home_color": "#0D80BF",
-      "away_color": "#008000",
-      "date": "2026-08-29T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Mirassol / SP",
-      "away_team": "Palmeiras / SP",
-      "home_crest": "assets/crests/mirassol.png",
-      "away_crest": "assets/crests/palmeiras.png",
-      "home_color": "#F3EC0A",
-      "away_color": "#006437",
-      "date": "2026-08-29T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Remo / PA",
-      "away_team": "Coritiba / PR",
-      "home_crest": "assets/crests/remo.png",
-      "away_crest": "assets/crests/coritiba_bra.png",
-      "home_color": "#001F5B",
-      "away_color": "#00544D",
+      "away_color": "#2F529E",
       "date": "2026-08-29T18:00:00Z",
       "status": "scheduled"
     },
@@ -671,12 +581,82 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Vasco da Gama / RJ",
-      "away_team": "Cruzeiro / MG",
-      "home_crest": "assets/crests/vasco.png",
-      "away_crest": "assets/crests/cruzeiro_bra.png",
+      "home_team": "Remo / PA",
+      "away_team": "Coritiba / PR",
+      "home_crest": "assets/crests/remo.png",
+      "away_crest": "assets/crests/coritiba_bra.png",
+      "home_color": "#001F5B",
+      "away_color": "#00544D",
+      "date": "2026-08-29T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Mirassol / SP",
+      "away_team": "Palmeiras / SP",
+      "home_crest": "assets/crests/mirassol.png",
+      "away_crest": "assets/crests/palmeiras.png",
+      "home_color": "#F3EC0A",
+      "away_color": "#006437",
+      "date": "2026-08-29T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Grêmio / RS",
+      "away_team": "Chapecoense / SC",
+      "home_crest": "assets/crests/gremio.png",
+      "away_crest": "assets/crests/chapecoense_bra.png",
+      "home_color": "#0D80BF",
+      "away_color": "#008000",
+      "date": "2026-08-29T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Flamengo / RJ",
+      "away_team": "Botafogo / RJ",
+      "home_crest": "assets/crests/flarj.png",
+      "away_crest": "assets/crests/botafogorj_bra.png",
+      "home_color": "#C52613",
+      "away_color": "#000000",
+      "date": "2026-08-29T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Corinthians / SP",
+      "away_team": "Santos / SP",
+      "home_crest": "assets/crests/corinthians_bra.png",
+      "away_crest": "assets/crests/santos.png",
       "home_color": "#000000",
-      "away_color": "#2F529E",
+      "away_color": "#000000",
+      "date": "2026-08-29T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Bahia / BA",
+      "away_team": "Internacional / RS",
+      "home_crest": "assets/crests/bahia.png",
+      "away_crest": "assets/crests/internacional_bra.png",
+      "home_color": "#006CB5",
+      "away_color": "#E5050F",
+      "date": "2026-08-29T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Atlético Mineiro / MG",
+      "away_team": "Vitória / BA",
+      "home_crest": "assets/crests/atleticomg_bra.png",
+      "away_crest": "assets/crests/vitoria.png",
+      "home_color": "#000000",
+      "away_color": "#CC0000",
+      "date": "2026-08-29T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Athletico Paranaense / PR",
+      "away_team": "Fluminense / RJ",
+      "home_crest": "assets/crests/atleticopr_bra.png",
+      "away_crest": "assets/crests/flurj.png",
+      "home_color": "#CE181E",
+      "away_color": "#870A28",
       "date": "2026-08-29T18:00:00Z",
       "status": "scheduled"
     },
@@ -691,12 +671,12 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Vitória / BA",
-      "away_team": "Grêmio / RS",
-      "home_crest": "assets/crests/vitoria.png",
-      "away_crest": "assets/crests/gremio.png",
-      "home_color": "#CC0000",
-      "away_color": "#0D80BF",
+      "home_team": "Remo / PA",
+      "away_team": "Flamengo / RJ",
+      "home_crest": "assets/crests/remo.png",
+      "away_crest": "assets/crests/flarj.png",
+      "home_color": "#001F5B",
+      "away_color": "#C52613",
       "date": "2026-09-05T18:00:00Z",
       "status": "scheduled"
     },
@@ -721,12 +701,12 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Remo / PA",
-      "away_team": "Flamengo / RJ",
-      "home_crest": "assets/crests/remo.png",
-      "away_crest": "assets/crests/flarj.png",
-      "home_color": "#001F5B",
-      "away_color": "#C52613",
+      "home_team": "Vitória / BA",
+      "away_team": "Grêmio / RS",
+      "home_crest": "assets/crests/vitoria.png",
+      "away_crest": "assets/crests/gremio.png",
+      "home_color": "#CC0000",
+      "away_color": "#0D80BF",
       "date": "2026-09-05T18:00:00Z",
       "status": "scheduled"
     },
@@ -781,22 +761,22 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Santos / SP",
-      "away_team": "Cruzeiro / MG",
-      "home_crest": "assets/crests/santos.png",
-      "away_crest": "assets/crests/cruzeiro_bra.png",
-      "home_color": "#000000",
-      "away_color": "#2F529E",
-      "date": "2026-09-12T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
       "home_team": "Palmeiras / SP",
       "away_team": "São Paulo / SP",
       "home_crest": "assets/crests/palmeiras.png",
       "away_crest": "assets/crests/saopaulo_bra.png",
       "home_color": "#006437",
       "away_color": "#FE0000",
+      "date": "2026-09-12T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Mirassol / SP",
+      "away_team": "Vitória / BA",
+      "home_crest": "assets/crests/mirassol.png",
+      "away_crest": "assets/crests/vitoria.png",
+      "home_color": "#F3EC0A",
+      "away_color": "#CC0000",
       "date": "2026-09-12T18:00:00Z",
       "status": "scheduled"
     },
@@ -821,12 +801,12 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Mirassol / SP",
-      "away_team": "Vitória / BA",
-      "home_crest": "assets/crests/mirassol.png",
-      "away_crest": "assets/crests/vitoria.png",
-      "home_color": "#F3EC0A",
-      "away_color": "#CC0000",
+      "home_team": "Santos / SP",
+      "away_team": "Cruzeiro / MG",
+      "home_crest": "assets/crests/santos.png",
+      "away_crest": "assets/crests/cruzeiro_bra.png",
+      "home_color": "#000000",
+      "away_color": "#2F529E",
       "date": "2026-09-12T18:00:00Z",
       "status": "scheduled"
     },
@@ -891,72 +871,12 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Athletico Paranaense / PR",
-      "away_team": "Bahia / BA",
-      "home_crest": "assets/crests/atleticopr_bra.png",
-      "away_crest": "assets/crests/bahia.png",
-      "home_color": "#CE181E",
-      "away_color": "#006CB5",
-      "date": "2026-09-19T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Atlético Mineiro / MG",
-      "away_team": "Chapecoense / SC",
-      "home_crest": "assets/crests/atleticomg_bra.png",
-      "away_crest": "assets/crests/chapecoense_bra.png",
+      "home_team": "Vasco da Gama / RJ",
+      "away_team": "Coritiba / PR",
+      "home_crest": "assets/crests/vasco.png",
+      "away_crest": "assets/crests/coritiba_bra.png",
       "home_color": "#000000",
-      "away_color": "#008000",
-      "date": "2026-09-19T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Corinthians / SP",
-      "away_team": "Fluminense / RJ",
-      "home_crest": "assets/crests/corinthians_bra.png",
-      "away_crest": "assets/crests/flurj.png",
-      "home_color": "#000000",
-      "away_color": "#870A28",
-      "date": "2026-09-19T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Flamengo / RJ",
-      "away_team": "Red Bull Bragantino / SP",
-      "home_crest": "assets/crests/flarj.png",
-      "away_crest": "assets/crests/bragantino_bra.png",
-      "home_color": "#C52613",
-      "away_color": "#CC0000",
-      "date": "2026-09-19T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Grêmio / RS",
-      "away_team": "Palmeiras / SP",
-      "home_crest": "assets/crests/gremio.png",
-      "away_crest": "assets/crests/palmeiras.png",
-      "home_color": "#0D80BF",
-      "away_color": "#006437",
-      "date": "2026-09-19T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Mirassol / SP",
-      "away_team": "Botafogo / RJ",
-      "home_crest": "assets/crests/mirassol.png",
-      "away_crest": "assets/crests/botafogorj_bra.png",
-      "home_color": "#F3EC0A",
-      "away_color": "#000000",
-      "date": "2026-09-19T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
-      "home_team": "Remo / PA",
-      "away_team": "Santos / SP",
-      "home_crest": "assets/crests/remo.png",
-      "away_crest": "assets/crests/santos.png",
-      "home_color": "#001F5B",
-      "away_color": "#000000",
+      "away_color": "#00544D",
       "date": "2026-09-19T18:00:00Z",
       "status": "scheduled"
     },
@@ -971,23 +891,73 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Vasco da Gama / RJ",
-      "away_team": "Coritiba / PR",
-      "home_crest": "assets/crests/vasco.png",
-      "away_crest": "assets/crests/coritiba_bra.png",
-      "home_color": "#000000",
-      "away_color": "#00544D",
+      "home_team": "Remo / PA",
+      "away_team": "Santos / SP",
+      "home_crest": "assets/crests/remo.png",
+      "away_crest": "assets/crests/santos.png",
+      "home_color": "#001F5B",
+      "away_color": "#000000",
       "date": "2026-09-19T18:00:00Z",
       "status": "scheduled"
     },
     {
-      "home_team": "Remo / PA",
-      "away_team": "Grêmio / RS",
-      "home_crest": "assets/crests/remo.png",
-      "away_crest": "assets/crests/gremio.png",
-      "home_color": "#001F5B",
-      "away_color": "#0D80BF",
-      "date": "2026-10-07T18:00:00Z",
+      "home_team": "Mirassol / SP",
+      "away_team": "Botafogo / RJ",
+      "home_crest": "assets/crests/mirassol.png",
+      "away_crest": "assets/crests/botafogorj_bra.png",
+      "home_color": "#F3EC0A",
+      "away_color": "#000000",
+      "date": "2026-09-19T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Grêmio / RS",
+      "away_team": "Palmeiras / SP",
+      "home_crest": "assets/crests/gremio.png",
+      "away_crest": "assets/crests/palmeiras.png",
+      "home_color": "#0D80BF",
+      "away_color": "#006437",
+      "date": "2026-09-19T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Corinthians / SP",
+      "away_team": "Fluminense / RJ",
+      "home_crest": "assets/crests/corinthians_bra.png",
+      "away_crest": "assets/crests/flurj.png",
+      "home_color": "#000000",
+      "away_color": "#870A28",
+      "date": "2026-09-19T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Atlético Mineiro / MG",
+      "away_team": "Chapecoense / SC",
+      "home_crest": "assets/crests/atleticomg_bra.png",
+      "away_crest": "assets/crests/chapecoense_bra.png",
+      "home_color": "#000000",
+      "away_color": "#008000",
+      "date": "2026-09-19T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Athletico Paranaense / PR",
+      "away_team": "Bahia / BA",
+      "home_crest": "assets/crests/atleticopr_bra.png",
+      "away_crest": "assets/crests/bahia.png",
+      "home_color": "#CE181E",
+      "away_color": "#006CB5",
+      "date": "2026-09-19T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Flamengo / RJ",
+      "away_team": "Red Bull Bragantino / SP",
+      "home_crest": "assets/crests/flarj.png",
+      "away_crest": "assets/crests/bragantino_bra.png",
+      "home_color": "#C52613",
+      "away_color": "#CC0000",
+      "date": "2026-09-19T18:00:00Z",
       "status": "scheduled"
     },
     {
@@ -1021,6 +991,16 @@
       "status": "scheduled"
     },
     {
+      "home_team": "Remo / PA",
+      "away_team": "Grêmio / RS",
+      "home_crest": "assets/crests/remo.png",
+      "away_crest": "assets/crests/gremio.png",
+      "home_color": "#001F5B",
+      "away_color": "#0D80BF",
+      "date": "2026-10-07T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
       "home_team": "Palmeiras / SP",
       "away_team": "Bahia / BA",
       "home_crest": "assets/crests/palmeiras.png",
@@ -1031,11 +1011,11 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Athletico Paranaense / PR",
-      "away_team": "Atlético Mineiro / MG",
-      "home_crest": "assets/crests/atleticopr_bra.png",
-      "away_crest": "assets/crests/atleticomg_bra.png",
-      "home_color": "#CE181E",
+      "home_team": "Botafogo / RJ",
+      "away_team": "Vasco da Gama / RJ",
+      "home_crest": "assets/crests/botafogorj_bra.png",
+      "away_crest": "assets/crests/vasco.png",
+      "home_color": "#000000",
       "away_color": "#000000",
       "date": "2026-10-07T18:00:00Z",
       "status": "scheduled"
@@ -1061,21 +1041,21 @@
       "status": "scheduled"
     },
     {
-      "home_team": "Botafogo / RJ",
-      "away_team": "Vasco da Gama / RJ",
-      "home_crest": "assets/crests/botafogorj_bra.png",
-      "away_crest": "assets/crests/vasco.png",
-      "home_color": "#000000",
-      "away_color": "#000000",
-      "date": "2026-10-07T18:00:00Z",
-      "status": "scheduled"
-    },
-    {
       "home_team": "Internacional / RS",
       "away_team": "Corinthians / SP",
       "home_crest": "assets/crests/internacional_bra.png",
       "away_crest": "assets/crests/corinthians_bra.png",
       "home_color": "#E5050F",
+      "away_color": "#000000",
+      "date": "2026-10-07T18:00:00Z",
+      "status": "scheduled"
+    },
+    {
+      "home_team": "Athletico Paranaense / PR",
+      "away_team": "Atlético Mineiro / MG",
+      "home_crest": "assets/crests/atleticopr_bra.png",
+      "away_crest": "assets/crests/atleticomg_bra.png",
+      "home_color": "#CE181E",
       "away_color": "#000000",
       "date": "2026-10-07T18:00:00Z",
       "status": "scheduled"

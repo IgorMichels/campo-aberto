@@ -52,7 +52,8 @@
     "2026-05-11",
     "2026-05-18",
     "2026-05-25",
-    "2026-06-01"
+    "2026-06-01",
+    "2026-07-16"
   ],
   "snapshots": {
     "2026-01-26": {
@@ -9375,6 +9376,450 @@
             "sulamericana": 0.0011,
             "rebaixamento": 0.9819,
             "libertadores": 0.0001
+          }
+        }
+      ]
+    },
+    "2026-07-16": {
+      "teams": [
+        {
+          "team": "Palmeiras / SP",
+          "crest": "assets/crests/palmeiras.png",
+          "color": "#006437",
+          "standings": {
+            "points": 41,
+            "played": 18,
+            "goals_for": 30,
+            "goals_against": 13,
+            "goal_diff": 17,
+            "rank": 1,
+            "zone": "libertadores_grupos"
+          },
+          "probs": {
+            "title": 0.6029,
+            "libertadores_grupos": 0.9941,
+            "libertadores_pre": 0.0044,
+            "sulamericana": 0.0015,
+            "rebaixamento": 0.0,
+            "libertadores": 0.9985
+          }
+        },
+        {
+          "team": "Flamengo / RJ",
+          "crest": "assets/crests/flarj.png",
+          "color": "#C52613",
+          "standings": {
+            "points": 34,
+            "played": 17,
+            "goals_for": 31,
+            "goals_against": 16,
+            "goal_diff": 15,
+            "rank": 2,
+            "zone": "libertadores_grupos"
+          },
+          "probs": {
+            "title": 0.3746,
+            "libertadores_grupos": 0.9834,
+            "libertadores_pre": 0.0071,
+            "sulamericana": 0.0093,
+            "rebaixamento": 0.0,
+            "libertadores": 0.9905
+          }
+        },
+        {
+          "team": "Fluminense / RJ",
+          "crest": "assets/crests/flurj.png",
+          "color": "#870A28",
+          "standings": {
+            "points": 31,
+            "played": 18,
+            "goals_for": 28,
+            "goals_against": 23,
+            "goal_diff": 5,
+            "rank": 3,
+            "zone": "libertadores_grupos"
+          },
+          "probs": {
+            "title": 0.0118,
+            "libertadores_grupos": 0.5385,
+            "libertadores_pre": 0.1245,
+            "sulamericana": 0.2919,
+            "rebaixamento": 0.0034,
+            "libertadores": 0.663
+          }
+        },
+        {
+          "team": "Athletico Paranaense / PR",
+          "crest": "assets/crests/atleticopr_bra.png",
+          "color": "#CE181E",
+          "standings": {
+            "points": 30,
+            "played": 18,
+            "goals_for": 24,
+            "goals_against": 18,
+            "goal_diff": 6,
+            "rank": 4,
+            "zone": "libertadores_grupos"
+          },
+          "probs": {
+            "title": 0.0029,
+            "libertadores_grupos": 0.267,
+            "libertadores_pre": 0.1195,
+            "sulamericana": 0.4625,
+            "rebaixamento": 0.0138,
+            "libertadores": 0.3865
+          }
+        },
+        {
+          "team": "Botafogo / RJ",
+          "crest": "assets/crests/botafogorj_bra.png",
+          "color": "#000000",
+          "standings": {
+            "points": 22,
+            "played": 17,
+            "goals_for": 31,
+            "goals_against": 31,
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0022,
+            "libertadores_grupos": 0.2603,
+            "libertadores_pre": 0.1204,
+            "sulamericana": 0.4646,
+            "rebaixamento": 0.0191,
+            "libertadores": 0.3807
+          }
+        },
+        {
+          "team": "Red Bull Bragantino / SP",
+          "crest": "assets/crests/bragantino_bra.png",
+          "color": "#CC0000",
+          "standings": {
+            "points": 29,
+            "played": 18,
+            "goals_for": 25,
+            "goals_against": 19,
+            "goal_diff": 6,
+            "rank": 5,
+            "zone": "libertadores_pre"
+          },
+          "probs": {
+            "title": 0.0026,
+            "libertadores_grupos": 0.2346,
+            "libertadores_pre": 0.1126,
+            "sulamericana": 0.4885,
+            "rebaixamento": 0.0165,
+            "libertadores": 0.3472
+          }
+        },
+        {
+          "team": "Bahia / BA",
+          "crest": "assets/crests/bahia.png",
+          "color": "#006CB5",
+          "standings": {
+            "points": 26,
+            "played": 17,
+            "goals_for": 25,
+            "goals_against": 23,
+            "goal_diff": 2,
+            "rank": 6,
+            "zone": "sulamericana"
+          },
+          "probs": {
+            "title": 0.0015,
+            "libertadores_grupos": 0.1847,
+            "libertadores_pre": 0.1017,
+            "sulamericana": 0.4688,
+            "rebaixamento": 0.0394,
+            "libertadores": 0.2864
+          }
+        },
+        {
+          "team": "São Paulo / SP",
+          "crest": "assets/crests/saopaulo_bra.png",
+          "color": "#FE0000",
+          "standings": {
+            "points": 25,
+            "played": 18,
+            "goals_for": 23,
+            "goals_against": 20,
+            "goal_diff": 3,
+            "rank": 8,
+            "zone": "sulamericana"
+          },
+          "probs": {
+            "title": 0.0002,
+            "libertadores_grupos": 0.1122,
+            "libertadores_pre": 0.0693,
+            "sulamericana": 0.4833,
+            "rebaixamento": 0.0617,
+            "libertadores": 0.1815
+          }
+        },
+        {
+          "team": "Cruzeiro / MG",
+          "crest": "assets/crests/cruzeiro_bra.png",
+          "color": "#2F529E",
+          "standings": {
+            "points": 24,
+            "played": 18,
+            "goals_for": 24,
+            "goals_against": 28,
+            "goal_diff": -4,
+            "rank": 11,
+            "zone": "sulamericana"
+          },
+          "probs": {
+            "title": 0.0003,
+            "libertadores_grupos": 0.095,
+            "libertadores_pre": 0.061,
+            "sulamericana": 0.4549,
+            "rebaixamento": 0.0824,
+            "libertadores": 0.156
+          }
+        },
+        {
+          "team": "Atlético Mineiro / MG",
+          "crest": "assets/crests/atleticomg_bra.png",
+          "color": "#000000",
+          "standings": {
+            "points": 24,
+            "played": 18,
+            "goals_for": 22,
+            "goals_against": 23,
+            "goal_diff": -1,
+            "rank": 9,
+            "zone": "sulamericana"
+          },
+          "probs": {
+            "title": 0.0001,
+            "libertadores_grupos": 0.0815,
+            "libertadores_pre": 0.061,
+            "sulamericana": 0.4453,
+            "rebaixamento": 0.0839,
+            "libertadores": 0.1425
+          }
+        },
+        {
+          "team": "Coritiba / PR",
+          "crest": "assets/crests/coritiba_bra.png",
+          "color": "#00544D",
+          "standings": {
+            "points": 26,
+            "played": 18,
+            "goals_for": 24,
+            "goals_against": 24,
+            "goal_diff": 0,
+            "rank": 7,
+            "zone": "sulamericana"
+          },
+          "probs": {
+            "title": 0.0004,
+            "libertadores_grupos": 0.0782,
+            "libertadores_pre": 0.0576,
+            "sulamericana": 0.4502,
+            "rebaixamento": 0.0853,
+            "libertadores": 0.1358
+          }
+        },
+        {
+          "team": "Corinthians / SP",
+          "crest": "assets/crests/corinthians_bra.png",
+          "color": "#000000",
+          "standings": {
+            "points": 24,
+            "played": 18,
+            "goals_for": 18,
+            "goals_against": 19,
+            "goal_diff": -1,
+            "rank": 10,
+            "zone": "sulamericana"
+          },
+          "probs": {
+            "title": 0.0002,
+            "libertadores_grupos": 0.064,
+            "libertadores_pre": 0.0551,
+            "sulamericana": 0.4382,
+            "rebaixamento": 0.0972,
+            "libertadores": 0.1191
+          }
+        },
+        {
+          "team": "Vitória / BA",
+          "crest": "assets/crests/vitoria.png",
+          "color": "#CC0000",
+          "standings": {
+            "points": 22,
+            "played": 17,
+            "goals_for": 21,
+            "goals_against": 25,
+            "goal_diff": -4,
+            "rank": 13,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0,
+            "libertadores_grupos": 0.04,
+            "libertadores_pre": 0.0325,
+            "sulamericana": 0.3613,
+            "rebaixamento": 0.1637,
+            "libertadores": 0.0725
+          }
+        },
+        {
+          "team": "Grêmio / RS",
+          "crest": "assets/crests/gremio.png",
+          "color": "#0D80BF",
+          "standings": {
+            "points": 21,
+            "played": 18,
+            "goals_for": 20,
+            "goals_against": 23,
+            "goal_diff": -3,
+            "rank": 16,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0001,
+            "libertadores_grupos": 0.0208,
+            "libertadores_pre": 0.0207,
+            "sulamericana": 0.2717,
+            "rebaixamento": 0.2644,
+            "libertadores": 0.0415
+          }
+        },
+        {
+          "team": "Internacional / RS",
+          "crest": "assets/crests/internacional_bra.png",
+          "color": "#E5050F",
+          "standings": {
+            "points": 21,
+            "played": 18,
+            "goals_for": 21,
+            "goals_against": 22,
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0001,
+            "libertadores_grupos": 0.0176,
+            "libertadores_pre": 0.0188,
+            "sulamericana": 0.2541,
+            "rebaixamento": 0.2786,
+            "libertadores": 0.0364
+          }
+        },
+        {
+          "team": "Santos / SP",
+          "crest": "assets/crests/santos.png",
+          "color": "#000000",
+          "standings": {
+            "points": 21,
+            "played": 18,
+            "goals_for": 26,
+            "goals_against": 29,
+            "goal_diff": -3,
+            "rank": 15,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0,
+            "libertadores_grupos": 0.0097,
+            "libertadores_pre": 0.0138,
+            "sulamericana": 0.2199,
+            "rebaixamento": 0.3279,
+            "libertadores": 0.0235
+          }
+        },
+        {
+          "team": "Mirassol / SP",
+          "crest": "assets/crests/mirassol.png",
+          "color": "#F3EC0A",
+          "standings": {
+            "points": 16,
+            "played": 17,
+            "goals_for": 18,
+            "goals_against": 24,
+            "goal_diff": -6,
+            "rank": 19,
+            "zone": "rebaixamento"
+          },
+          "probs": {
+            "title": 0.0001,
+            "libertadores_grupos": 0.0134,
+            "libertadores_pre": 0.0122,
+            "sulamericana": 0.2185,
+            "rebaixamento": 0.3643,
+            "libertadores": 0.0256
+          }
+        },
+        {
+          "team": "Vasco da Gama / RJ",
+          "crest": "assets/crests/vasco.png",
+          "color": "#000000",
+          "standings": {
+            "points": 20,
+            "played": 18,
+            "goals_for": 22,
+            "goals_against": 29,
+            "goal_diff": -7,
+            "rank": 17,
+            "zone": "rebaixamento"
+          },
+          "probs": {
+            "title": 0.0,
+            "libertadores_grupos": 0.0019,
+            "libertadores_pre": 0.0036,
+            "sulamericana": 0.1077,
+            "rebaixamento": 0.5384,
+            "libertadores": 0.0055
+          }
+        },
+        {
+          "team": "Remo / PA",
+          "crest": "assets/crests/remo.png",
+          "color": "#001F5B",
+          "standings": {
+            "points": 18,
+            "played": 18,
+            "goals_for": 21,
+            "goals_against": 29,
+            "goal_diff": -8,
+            "rank": 18,
+            "zone": "rebaixamento"
+          },
+          "probs": {
+            "title": 0.0,
+            "libertadores_grupos": 0.0031,
+            "libertadores_pre": 0.0042,
+            "sulamericana": 0.1056,
+            "rebaixamento": 0.5843,
+            "libertadores": 0.0073
+          }
+        },
+        {
+          "team": "Chapecoense / SC",
+          "crest": "assets/crests/chapecoense_bra.png",
+          "color": "#008000",
+          "standings": {
+            "points": 9,
+            "played": 17,
+            "goals_for": 17,
+            "goals_against": 33,
+            "goal_diff": -16,
+            "rank": 20,
+            "zone": "rebaixamento"
+          },
+          "probs": {
+            "title": 0.0,
+            "libertadores_grupos": 0.0,
+            "libertadores_pre": 0.0,
+            "sulamericana": 0.0022,
+            "rebaixamento": 0.9757,
+            "libertadores": 0.0
           }
         }
       ]
