@@ -1,6 +1,37 @@
 {
   "matches": [
     {
+      "home_team": "CRB / AL",
+      "away_team": "Náutico / PE",
+      "home_crest": "assets/crests/crb_bra.png",
+      "away_crest": "assets/crests/nautico.png",
+      "home_color": "#ED1C2A",
+      "away_color": "#ED1C24",
+      "date": "2026-07-16T23:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-07-13",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0603812184083494,
+          "beta_home": 0.321331369969,
+          "rho": 0.0203308328025994
+        },
+        "teams": {
+          "CRB / AL": {
+            "attack": 0.083007421345748,
+            "defense": -0.357085294877682
+          },
+          "Náutico / PE": {
+            "attack": -0.008746502166778,
+            "defense": -0.1861709974502208
+          }
+        }
+      }
+    },
+    {
       "home_team": "Ceará / CE",
       "away_team": "Athletic / MG",
       "home_crest": "assets/crests/ceara_bra.png",
@@ -466,6 +497,37 @@
       }
     },
     {
+      "home_team": "Novorizontino / SP",
+      "away_team": "Atlético Goianiense / GO",
+      "home_crest": "assets/crests/novorizontino.png",
+      "away_crest": "assets/crests/atleticogo_bra.png",
+      "home_color": "#F6E32F",
+      "away_color": "#CC0000",
+      "date": "2026-07-04T19:00:00Z",
+      "home_goals": 3,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-07-03",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0581230900888103,
+          "beta_home": 0.3010604578765,
+          "rho": 0.0154960281544646
+        },
+        "teams": {
+          "Novorizontino / SP": {
+            "attack": 0.0681959185922533,
+            "defense": 0.1544880677772414
+          },
+          "Atlético Goianiense / GO": {
+            "attack": -0.1613032164665453,
+            "defense": 0.0069593185779625
+          }
+        }
+      }
+    },
+    {
       "home_team": "Criciúma / SC",
       "away_team": "Sport / PE",
       "home_crest": "assets/crests/criciuma_bra.png",
@@ -523,37 +585,6 @@
           "CRB / AL": {
             "attack": 0.1246626075198867,
             "defense": -0.2785474894440494
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Novorizontino / SP",
-      "away_team": "Atlético Goianiense / GO",
-      "home_crest": "assets/crests/novorizontino.png",
-      "away_crest": "assets/crests/atleticogo_bra.png",
-      "home_color": "#F6E32F",
-      "away_color": "#CC0000",
-      "date": "2026-07-04T19:00:00Z",
-      "home_goals": 3,
-      "away_goals": 0,
-      "has_model": true,
-      "reference_date": "2026-07-03",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0581230900888103,
-          "beta_home": 0.3010604578765,
-          "rho": 0.0154960281544646
-        },
-        "teams": {
-          "Novorizontino / SP": {
-            "attack": 0.0681959185922533,
-            "defense": 0.1544880677772414
-          },
-          "Atlético Goianiense / GO": {
-            "attack": -0.1613032164665453,
-            "defense": 0.0069593185779625
           }
         }
       }
@@ -1117,37 +1148,6 @@
       }
     },
     {
-      "home_team": "Vila Nova / GO",
-      "away_team": "Náutico / PE",
-      "home_crest": "assets/crests/vilago.png",
-      "away_crest": "assets/crests/nautico.png",
-      "home_color": "#FDF40F",
-      "away_color": "#ED1C24",
-      "date": "2026-06-20T22:00:00Z",
-      "home_goals": 4,
-      "away_goals": 3,
-      "has_model": true,
-      "reference_date": "2026-06-19",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0562308075113584,
-          "beta_home": 0.3069656386471,
-          "rho": -0.010678773806964
-        },
-        "teams": {
-          "Vila Nova / GO": {
-            "attack": -0.0926558059953626,
-            "defense": -0.0820948001014713
-          },
-          "Náutico / PE": {
-            "attack": 0.1325086012374384,
-            "defense": -0.0331262955373756
-          }
-        }
-      }
-    },
-    {
       "home_team": "Ceará / CE",
       "away_team": "Botafogo / SP",
       "home_crest": "assets/crests/ceara_bra.png",
@@ -1174,6 +1174,37 @@
           "Botafogo / SP": {
             "attack": -0.3131886649917831,
             "defense": -0.1268622453906827
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Vila Nova / GO",
+      "away_team": "Náutico / PE",
+      "home_crest": "assets/crests/vilago.png",
+      "away_crest": "assets/crests/nautico.png",
+      "home_color": "#FDF40F",
+      "away_color": "#ED1C24",
+      "date": "2026-06-20T22:00:00Z",
+      "home_goals": 4,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-06-19",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0562308075113584,
+          "beta_home": 0.3069656386471,
+          "rho": -0.010678773806964
+        },
+        "teams": {
+          "Vila Nova / GO": {
+            "attack": -0.0926558059953626,
+            "defense": -0.0820948001014713
+          },
+          "Náutico / PE": {
+            "attack": 0.1325086012374384,
+            "defense": -0.0331262955373756
           }
         }
       }
@@ -1272,37 +1303,6 @@
       }
     },
     {
-      "home_team": "Londrina / PR",
-      "away_team": "Avaí / SC",
-      "home_crest": "assets/crests/londrina_pr.png",
-      "away_crest": "assets/crests/avai_bra.png",
-      "home_color": "#E5292E",
-      "away_color": "#005AB2",
-      "date": "2026-06-16T00:00:00Z",
-      "home_goals": 3,
-      "away_goals": 2,
-      "has_model": true,
-      "reference_date": "2026-06-12",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0652331357205818,
-          "beta_home": 0.313319380171,
-          "rho": -0.0036462194893627
-        },
-        "teams": {
-          "Londrina / PR": {
-            "attack": -0.2110256970050303,
-            "defense": -0.3913426591052558
-          },
-          "Avaí / SC": {
-            "attack": -0.1085873601207224,
-            "defense": -0.1667017900924761
-          }
-        }
-      }
-    },
-    {
       "home_team": "Criciúma / SC",
       "away_team": "Ceará / CE",
       "home_crest": "assets/crests/criciuma_bra.png",
@@ -1329,6 +1329,37 @@
           "Ceará / CE": {
             "attack": -0.097264027634749,
             "defense": 0.1000936338758192
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Londrina / PR",
+      "away_team": "Avaí / SC",
+      "home_crest": "assets/crests/londrina_pr.png",
+      "away_crest": "assets/crests/avai_bra.png",
+      "home_color": "#E5292E",
+      "away_color": "#005AB2",
+      "date": "2026-06-16T00:00:00Z",
+      "home_goals": 3,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-06-12",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0652331357205818,
+          "beta_home": 0.313319380171,
+          "rho": -0.0036462194893627
+        },
+        "teams": {
+          "Londrina / PR": {
+            "attack": -0.2110256970050303,
+            "defense": -0.3913426591052558
+          },
+          "Avaí / SC": {
+            "attack": -0.1085873601207224,
+            "defense": -0.1667017900924761
           }
         }
       }
@@ -1582,37 +1613,6 @@
       }
     },
     {
-      "home_team": "Ceará / CE",
-      "away_team": "Avaí / SC",
-      "home_crest": "assets/crests/ceara_bra.png",
-      "away_crest": "assets/crests/avai_bra.png",
-      "home_color": "#000000",
-      "away_color": "#005AB2",
-      "date": "2026-06-10T23:00:00Z",
-      "home_goals": 2,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-06-08",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0704957113028061,
-          "beta_home": 0.3237159214839,
-          "rho": -0.0067765012390505
-        },
-        "teams": {
-          "Ceará / CE": {
-            "attack": -0.1269389185481085,
-            "defense": 0.106230717303356
-          },
-          "Avaí / SC": {
-            "attack": -0.1102301441022871,
-            "defense": -0.1462645713561228
-          }
-        }
-      }
-    },
-    {
       "home_team": "Goiás / GO",
       "away_team": "Novorizontino / SP",
       "home_crest": "assets/crests/goias.png",
@@ -1639,6 +1639,37 @@
           "Novorizontino / SP": {
             "attack": -0.0740290409154614,
             "defense": 0.1557786936326789
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Ceará / CE",
+      "away_team": "Avaí / SC",
+      "home_crest": "assets/crests/ceara_bra.png",
+      "away_crest": "assets/crests/avai_bra.png",
+      "home_color": "#000000",
+      "away_color": "#005AB2",
+      "date": "2026-06-10T23:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-06-08",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0704957113028061,
+          "beta_home": 0.3237159214839,
+          "rho": -0.0067765012390505
+        },
+        "teams": {
+          "Ceará / CE": {
+            "attack": -0.1269389185481085,
+            "defense": 0.106230717303356
+          },
+          "Avaí / SC": {
+            "attack": -0.1102301441022871,
+            "defense": -0.1462645713561228
           }
         }
       }
