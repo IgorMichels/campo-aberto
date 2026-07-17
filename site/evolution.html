@@ -10,8 +10,27 @@
     />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+    <script>
+      // Applies any stored theme choice before first paint, so the page
+      // never flashes the wrong palette. theme.js (loaded later) owns the
+      // toggle button itself.
+      (() => {
+        const stored = localStorage.getItem("campo-aberto-theme");
+        if (stored === "light" || stored === "dark") {
+          document.documentElement.setAttribute("data-theme", stored);
+        }
+      })();
+    </script>
   </head>
   <body>
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-pressed="false"
+      aria-label="Mudar para tema escuro"
+    ></button>
+
     <header class="page-header">
       <h1>Campo Aberto</h1>
       <p class="subtitle">Evolução das probabilidades ao longo da temporada</p>
@@ -95,6 +114,7 @@
     </footer>
 
     <script src="assets/js/nav.js"></script>
+    <script src="assets/js/theme.js"></script>
     <script src="assets/js/team_display.js"></script>
     <script src="assets/js/evolution.js"></script>
   </body>

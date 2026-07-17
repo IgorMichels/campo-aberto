@@ -1,11 +1,11 @@
-"""Unit tests for _resolve_cascade, the Copa do Brasil guaranteed-slot
+"""Unit tests for resolve_cascade, the Copa do Brasil guaranteed-slot
 allocation used by Serie A's `league` phase (cascade: [libertadores_grupos,
 libertadores_pre, sulamericana], capacities 4/1/6 -- see configs/serie_a_2026.yaml
 and configs/README.md for the rules this implements).
 """
 
 from src.simulation.config import SpotConfig
-from src.simulation.simulate import _resolve_cascade
+from src.simulation.standings import resolve_cascade
 from tests.simulation.conftest import make_order
 
 GRUPOS = SpotConfig(name="libertadores_grupos", positions=(1, 4))
@@ -15,7 +15,7 @@ CASCADE = [GRUPOS, PRE, SULA]
 
 
 def test_no_guarantees_matches_plain_table_position(teams20):
-    result = _resolve_cascade(make_order(teams20), CASCADE, {})
+    result = resolve_cascade(make_order(teams20), CASCADE, {})
 
     assert result["libertadores_grupos"] == ["T1", "T2", "T3", "T4"]
     assert result["libertadores_pre"] == ["T5"]
@@ -28,7 +28,7 @@ def test_guarantee_better_than_table_position_bumps_team_up_and_backfills(teams2
     groups berth, and sulamericana backfills the vacated 8th seat from 12th."""
     order = make_order(teams20, {8: "Champion"})
 
-    result = _resolve_cascade(order, CASCADE, {"Champion": ["libertadores_grupos"]})
+    result = resolve_cascade(order, CASCADE, {"Champion": ["libertadores_grupos"]})
 
     assert result["libertadores_grupos"] == ["Champion", "T1", "T2", "T3", "T4"]
     assert result["libertadores_pre"] == ["T5"]
@@ -43,7 +43,7 @@ def test_guarantee_worse_than_table_position_is_unused_and_cascades(teams20):
     from 12th, same mechanic one level down."""
     order = make_order(teams20, {3: "RunnerUp"})
 
-    result = _resolve_cascade(order, CASCADE, {"RunnerUp": ["libertadores_pre"]})
+    result = resolve_cascade(order, CASCADE, {"RunnerUp": ["libertadores_pre"]})
 
     assert result["libertadores_grupos"] == ["RunnerUp", "T1", "T2", "T4"]
     assert result["libertadores_pre"] == ["T5", "T6"]
@@ -57,7 +57,7 @@ def test_two_independent_guarantees_of_the_same_tier_both_cascade(teams20):
     top of the first."""
     order = make_order(teams20, {9: "DoubleChampion"})
 
-    result = _resolve_cascade(
+    result = resolve_cascade(
         order, CASCADE, {"DoubleChampion": ["libertadores_grupos", "libertadores_grupos"]}
     )
 
@@ -72,7 +72,7 @@ def test_two_different_guarantees_use_the_better_and_cascade_the_other(teams20):
     as a lone pre guarantee would."""
     order = make_order(teams20, {9: "DoubleChampion"})
 
-    result = _resolve_cascade(
+    result = resolve_cascade(
         order, CASCADE, {"DoubleChampion": ["libertadores_grupos", "libertadores_pre"]}
     )
 
@@ -84,7 +84,7 @@ def test_two_different_guarantees_use_the_better_and_cascade_the_other(teams20):
 def test_guaranteed_team_absent_from_order_is_ignored(teams20):
     """A guarantee naming a team from a different competition/group (e.g. a
     Serie A guarantee passed in while simulating Serie B) has no effect."""
-    result = _resolve_cascade(
+    result = resolve_cascade(
         make_order(teams20), CASCADE, {"Not Playing / XX": ["libertadores_grupos"]}
     )
 
@@ -96,10 +96,10 @@ def test_guarantee_for_a_spot_outside_cascade_is_ignored(teams20):
     'title') is dropped -- the team falls back to its plain table position."""
     order = make_order(teams20, {8: "Z"})
 
-    result = _resolve_cascade(order, CASCADE, {"Z": ["title"]})
+    result = resolve_cascade(order, CASCADE, {"Z": ["title"]})
 
     assert result["sulamericana"] == ["T6", "T7", "Z", "T9", "T10", "T11"]
 
 
 def test_no_cascade_spots_returns_empty_result(teams20):
-    assert _resolve_cascade(make_order(teams20), [], {"T1": ["libertadores_grupos"]}) == {}
+    assert resolve_cascade(make_order(teams20), [], {"T1": ["libertadores_grupos"]}) == {}

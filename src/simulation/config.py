@@ -63,7 +63,7 @@ class SpotConfig:
 class RoundRobinPhaseConfig:
     """cascade, if set, names a subset of this phase's `positions`-based spots, best
     first, that compete for table-position slots subject to externally guaranteed
-    slots (e.g. a Copa do Brasil berth) -- see simulate.py's `_resolve_cascade` for
+    slots (e.g. a Copa do Brasil berth) -- see standings.py's `resolve_cascade` for
     the allocation rules and configs/README.md for the worked example.
 
     legs=2 (default) is a double round-robin: every team plays every other twice,
@@ -116,7 +116,7 @@ class GuaranteedSlotConfig:
     played. `known_from` gates it: simulate_competition only applies this
     guarantee when its `reference_date` is on or after `known_from`, same
     mechanism as the `guaranteed_slots` dict passed directly to
-    simulate_competition (see RoundRobinPhaseConfig.cascade / _resolve_cascade
+    simulate_competition (see RoundRobinPhaseConfig.cascade / standings.resolve_cascade
     for the allocation rules), just declared once in the config instead of at
     every call site.
     """
