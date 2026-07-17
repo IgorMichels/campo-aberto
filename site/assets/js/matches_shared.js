@@ -482,9 +482,34 @@
   const modalEl = document.getElementById("sticker-modal");
   const modalOverlayEl = document.getElementById("sticker-modal-overlay");
   const modalContentEl = document.getElementById("sticker-modal-content");
+  const modalInnerEl = document.querySelector(".sticker-modal-inner");
   const modalCloseEl = document.getElementById("sticker-modal-close");
   const modalDownloadEl = document.getElementById("sticker-modal-download");
   const modalShareEl = document.getElementById("sticker-modal-share");
+
+  // Default/max zoom applied to the sticker card in the modal (matches the
+  // old fixed `transform: scale(1.5)`) -- shrunk by updateModalScale below
+  // whenever the viewport is too small to fit it at that zoom.
+  const MODAL_MAX_SCALE = 1.5;
+  const MODAL_VIEWPORT_FIT_RATIO = 0.92;
+
+  // Sizes .sticker-modal-inner's zoom to fit the current viewport.
+  // offsetWidth/scrollHeight reflect the element's *unscaled* layout box
+  // (CSS transform doesn't affect layout size), so they're a stable base to
+  // scale from regardless of whatever --modal-scale was previously set to.
+  function updateModalScale() {
+    if (!modalInnerEl || !modalEl.classList.contains("active")) return;
+    modalInnerEl.style.setProperty("--modal-scale", "1");
+    const naturalWidth = modalInnerEl.offsetWidth;
+    const naturalHeight = modalInnerEl.scrollHeight;
+    if (!naturalWidth || !naturalHeight) return;
+    const fitScale = Math.min(
+      (window.innerWidth * MODAL_VIEWPORT_FIT_RATIO) / naturalWidth,
+      (window.innerHeight * MODAL_VIEWPORT_FIT_RATIO) / naturalHeight,
+    );
+    modalInnerEl.style.setProperty("--modal-scale", String(Math.min(MODAL_MAX_SCALE, fitScale)));
+  }
+  window.addEventListener("resize", updateModalScale);
 
   // Home/away *display* names of whichever sticker is currently open --
   // used only to build the downloaded PNG's filename.
@@ -512,6 +537,7 @@
       : null;
     modalContentEl.innerHTML = container.outerHTML;
     modalEl.classList.add("active");
+    updateModalScale();
   }
 
   // Same as openStickerModal, but for a card object with no DOM wrapper yet
