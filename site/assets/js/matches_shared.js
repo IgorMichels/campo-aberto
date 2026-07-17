@@ -574,6 +574,19 @@
     return css;
   }
 
+  // The site's body font-family is the "system-ui" generic keyword (native
+  // OS font, e.g. Segoe UI on Windows / San Francisco on macOS, no download
+  // needed). Browsers render an SVG referenced via <img src="data:..."> in a
+  // sandboxed "secure static mode" that -- at least in Chromium -- doesn't
+  // resolve system-ui/-apple-system to the OS UI font, silently falling
+  // back to the browser's generic default (visibly different text). Plain
+  // *named* fonts still resolve fine in that sandbox, so the snapshot swaps
+  // in the pre-system-ui "system font stack" convention (explicit names
+  // covering the same OSes system-ui targets) instead of the generic
+  // keywords, just for the exported PNG.
+  const EXPORT_FONT_STACK =
+    '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
+
   // Rasterizes a .sticker-container node to a PNG data URL via an SVG
   // <foreignObject> snapshot rather than html2canvas: html2canvas
   // re-implements text layout itself and badly mis-measures letter-spacing
@@ -601,7 +614,7 @@
     const xhtmlNS = "http://www.w3.org/1999/xhtml";
     const wrapper = document.createElementNS(xhtmlNS, "div");
     const style = document.createElementNS(xhtmlNS, "style");
-    style.textContent = collectStylesheetText();
+    style.textContent = `${collectStylesheetText()}\n.sticker-container, .sticker-container * { font-family: ${EXPORT_FONT_STACK} !important; }`;
     wrapper.appendChild(style);
     wrapper.appendChild(clone);
 
