@@ -557,15 +557,90 @@
     modalShareContext = null;
   }
 
+  // Collects every same-origin stylesheet rule already loaded on the page,
+  // as text -- used to re-apply the site's CSS inside the detached SVG
+  // snapshot that renderStickerToPNG rasterizes.
+  function collectStylesheetText() {
+    let css = "";
+    for (const sheet of document.styleSheets) {
+      try {
+        for (const rule of sheet.cssRules) {
+          css += `${rule.cssText}\n`;
+        }
+      } catch (error) {
+        // Cross-origin stylesheet (e.g. a CDN font) -- cssRules is unreadable, skip it.
+      }
+    }
+    return css;
+  }
+
+  // Rasterizes a .sticker-container node to a PNG data URL via an SVG
+  // <foreignObject> snapshot rather than html2canvas: html2canvas
+  // re-implements text layout itself and badly mis-measures letter-spacing
+  // and glyph advances (visible as stretched-out text, e.g. "R e m o"), and
+  // it drops the background's saturate() filter -- so the downloaded card
+  // looked visibly different from the on-screen one. Drawing an <img> of an
+  // SVG snapshot instead makes the browser's own renderer lay out the text
+  // and apply the filters, matching the on-screen card exactly.
+  async function renderStickerToPNG(container, scale = 2) {
+    const width = container.offsetWidth;
+    const height = container.offsetHeight;
+
+    const clone = container.cloneNode(true);
+    for (const img of clone.querySelectorAll("img")) {
+      const response = await fetch(img.src);
+      const blob = await response.blob();
+      img.src = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(blob);
+      });
+    }
+
+    const xhtmlNS = "http://www.w3.org/1999/xhtml";
+    const wrapper = document.createElementNS(xhtmlNS, "div");
+    const style = document.createElementNS(xhtmlNS, "style");
+    style.textContent = collectStylesheetText();
+    wrapper.appendChild(style);
+    wrapper.appendChild(clone);
+
+    const svgNS = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(svgNS, "svg");
+    svg.setAttribute("xmlns", svgNS);
+    svg.setAttribute("width", String(width));
+    svg.setAttribute("height", String(height));
+    const foreignObject = document.createElementNS(svgNS, "foreignObject");
+    foreignObject.setAttribute("width", "100%");
+    foreignObject.setAttribute("height", "100%");
+    foreignObject.appendChild(wrapper);
+    svg.appendChild(foreignObject);
+
+    const svgDataURL = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(
+      new XMLSerializer().serializeToString(svg),
+    )}`;
+    const image = new Image();
+    image.src = svgDataURL;
+    await image.decode();
+
+    const canvas = document.createElement("canvas");
+    canvas.width = width * scale;
+    canvas.height = height * scale;
+    const ctx = canvas.getContext("2d");
+    ctx.scale(scale, scale);
+    ctx.drawImage(image, 0, 0, width, height);
+    return canvas.toDataURL("image/png");
+  }
+
   async function downloadStickerAsPNG() {
     const container = modalContentEl.querySelector(".sticker-container");
     if (!container) return;
-    const canvas = await html2canvas(container, { backgroundColor: null, scale: 2 });
+    const dataURL = await renderStickerToPNG(container);
     const home = modalTeamNames ? modalTeamNames.home : "time-casa";
     const away = modalTeamNames ? modalTeamNames.away : "time-visitante";
     const link = document.createElement("a");
     link.download = `${slugify(home)}-x-${slugify(away)}.png`;
-    link.href = canvas.toDataURL("image/png");
+    link.href = dataURL;
     link.click();
   }
 
