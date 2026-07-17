@@ -66,7 +66,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.448,
@@ -86,7 +88,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.2429,
@@ -106,7 +110,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0777,
@@ -126,7 +132,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0794,
@@ -146,7 +154,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0564,
@@ -166,7 +176,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0338,
@@ -186,7 +198,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.007,
@@ -206,7 +220,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0078,
@@ -226,7 +242,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0057,
@@ -246,7 +264,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0051,
@@ -266,7 +286,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0036,
@@ -286,7 +308,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0049,
@@ -306,7 +330,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0031,
@@ -326,7 +352,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0047,
@@ -346,7 +374,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0021,
@@ -366,7 +396,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0082,
@@ -386,7 +418,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0037,
@@ -406,7 +440,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0049,
@@ -426,7 +462,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0008,
@@ -446,7 +484,9 @@
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0002,
@@ -470,7 +510,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 2,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.349,
@@ -490,7 +532,9 @@
             "played": 1,
             "goals_for": 2,
             "goals_against": 2,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.237,
@@ -510,7 +554,9 @@
             "played": 1,
             "goals_for": 4,
             "goals_against": 0,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.1647,
@@ -530,7 +576,9 @@
             "played": 1,
             "goals_for": 2,
             "goals_against": 1,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0979,
@@ -550,7 +598,9 @@
             "played": 1,
             "goals_for": 2,
             "goals_against": 1,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0494,
@@ -570,7 +620,9 @@
             "played": 1,
             "goals_for": 0,
             "goals_against": 4,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0307,
@@ -590,7 +642,9 @@
             "played": 1,
             "goals_for": 2,
             "goals_against": 1,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0138,
@@ -610,7 +664,9 @@
             "played": 1,
             "goals_for": 2,
             "goals_against": 1,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0098,
@@ -630,7 +686,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 2,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0052,
@@ -650,7 +708,9 @@
             "played": 1,
             "goals_for": 2,
             "goals_against": 2,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0053,
@@ -670,7 +730,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 0,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0073,
@@ -690,7 +752,9 @@
             "played": 1,
             "goals_for": 2,
             "goals_against": 4,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0041,
@@ -710,7 +774,9 @@
             "played": 1,
             "goals_for": 4,
             "goals_against": 2,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0078,
@@ -730,7 +796,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 2,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0034,
@@ -750,7 +818,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 2,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0031,
@@ -770,7 +840,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 0,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0024,
@@ -790,7 +862,9 @@
             "played": 1,
             "goals_for": 2,
             "goals_against": 0,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0021,
@@ -810,7 +884,9 @@
             "played": 1,
             "goals_for": 0,
             "goals_against": 1,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0024,
@@ -830,7 +906,9 @@
             "played": 1,
             "goals_for": 0,
             "goals_against": 2,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0037,
@@ -850,7 +928,9 @@
             "played": 1,
             "goals_for": 0,
             "goals_against": 1,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0009,
@@ -874,7 +954,9 @@
             "played": 2,
             "goals_for": 7,
             "goals_against": 3,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.3699,
@@ -894,7 +976,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 3,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.2635,
@@ -914,7 +998,9 @@
             "played": 2,
             "goals_for": 7,
             "goals_against": 5,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.1079,
@@ -934,7 +1020,9 @@
             "played": 2,
             "goals_for": 4,
             "goals_against": 3,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0947,
@@ -954,7 +1042,9 @@
             "played": 2,
             "goals_for": 3,
             "goals_against": 2,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0526,
@@ -974,7 +1064,9 @@
             "played": 2,
             "goals_for": 1,
             "goals_against": 6,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0192,
@@ -994,7 +1086,9 @@
             "played": 2,
             "goals_for": 6,
             "goals_against": 5,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0156,
@@ -1014,7 +1108,9 @@
             "played": 2,
             "goals_for": 3,
             "goals_against": 2,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0116,
@@ -1034,7 +1130,9 @@
             "played": 2,
             "goals_for": 3,
             "goals_against": 2,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0129,
@@ -1054,7 +1152,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 0,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0143,
@@ -1074,7 +1174,9 @@
             "played": 2,
             "goals_for": 5,
             "goals_against": 3,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0096,
@@ -1094,7 +1196,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 0,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0051,
@@ -1114,7 +1218,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 2,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.006,
@@ -1134,7 +1240,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 3,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0026,
@@ -1154,7 +1262,9 @@
             "played": 1,
             "goals_for": 1,
             "goals_against": 2,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0036,
@@ -1174,7 +1284,9 @@
             "played": 2,
             "goals_for": 3,
             "goals_against": 5,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0029,
@@ -1194,7 +1306,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 3,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0024,
@@ -1214,7 +1328,9 @@
             "played": 2,
             "goals_for": 1,
             "goals_against": 2,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0016,
@@ -1234,7 +1350,9 @@
             "played": 2,
             "goals_for": 2,
             "goals_against": 4,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0035,
@@ -1254,7 +1372,9 @@
             "played": 2,
             "goals_for": 3,
             "goals_against": 5,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0005,
@@ -1278,7 +1398,9 @@
             "played": 3,
             "goals_for": 10,
             "goals_against": 4,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.423,
@@ -1298,7 +1420,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 4,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.2834,
@@ -1318,7 +1442,9 @@
             "played": 3,
             "goals_for": 7,
             "goals_against": 6,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0637,
@@ -1338,7 +1464,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0639,
@@ -1358,7 +1486,9 @@
             "played": 3,
             "goals_for": 6,
             "goals_against": 5,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0582,
@@ -1378,7 +1508,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0235,
@@ -1398,7 +1530,9 @@
             "played": 3,
             "goals_for": 5,
             "goals_against": 2,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0159,
@@ -1418,7 +1552,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 8,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0177,
@@ -1438,7 +1574,9 @@
             "played": 2,
             "goals_for": 3,
             "goals_against": 1,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0148,
@@ -1458,7 +1596,9 @@
             "played": 3,
             "goals_for": 6,
             "goals_against": 7,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0051,
@@ -1478,7 +1618,9 @@
             "played": 2,
             "goals_for": 3,
             "goals_against": 2,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0057,
@@ -1498,7 +1640,9 @@
             "played": 3,
             "goals_for": 5,
             "goals_against": 5,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0062,
@@ -1518,7 +1662,9 @@
             "played": 3,
             "goals_for": 8,
             "goals_against": 6,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.007,
@@ -1538,7 +1684,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 2,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0021,
@@ -1558,7 +1706,9 @@
             "played": 3,
             "goals_for": 5,
             "goals_against": 6,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0023,
@@ -1578,7 +1728,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 7,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0015,
@@ -1598,7 +1750,9 @@
             "played": 3,
             "goals_for": 5,
             "goals_against": 7,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0043,
@@ -1618,7 +1772,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 5,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0005,
@@ -1638,7 +1794,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 4,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.001,
@@ -1658,7 +1816,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 7,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0002,
@@ -1682,7 +1842,9 @@
             "played": 3,
             "goals_for": 10,
             "goals_against": 4,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.4173,
@@ -1702,7 +1864,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 4,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.2912,
@@ -1722,7 +1886,9 @@
             "played": 3,
             "goals_for": 7,
             "goals_against": 6,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0711,
@@ -1742,7 +1908,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0629,
@@ -1762,7 +1930,9 @@
             "played": 3,
             "goals_for": 6,
             "goals_against": 5,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0609,
@@ -1782,7 +1952,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0199,
@@ -1802,7 +1974,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 8,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0164,
@@ -1822,7 +1996,9 @@
             "played": 3,
             "goals_for": 5,
             "goals_against": 2,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0139,
@@ -1842,7 +2018,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0105,
@@ -1862,7 +2040,9 @@
             "played": 3,
             "goals_for": 6,
             "goals_against": 7,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0066,
@@ -1882,7 +2062,9 @@
             "played": 3,
             "goals_for": 3,
             "goals_against": 2,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0072,
@@ -1902,7 +2084,9 @@
             "played": 3,
             "goals_for": 5,
             "goals_against": 5,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0052,
@@ -1922,7 +2106,9 @@
             "played": 3,
             "goals_for": 8,
             "goals_against": 6,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0059,
@@ -1942,7 +2128,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 2,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0023,
@@ -1962,7 +2150,9 @@
             "played": 3,
             "goals_for": 5,
             "goals_against": 6,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0012,
@@ -1982,7 +2172,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 7,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0026,
@@ -2002,7 +2194,9 @@
             "played": 3,
             "goals_for": 5,
             "goals_against": 7,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0034,
@@ -2022,7 +2216,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 5,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0003,
@@ -2042,7 +2238,9 @@
             "played": 3,
             "goals_for": 2,
             "goals_against": 4,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0007,
@@ -2062,7 +2260,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 7,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0005,
@@ -2086,7 +2286,9 @@
             "played": 4,
             "goals_for": 12,
             "goals_against": 5,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.458,
@@ -2106,7 +2308,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 4,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.2862,
@@ -2126,7 +2330,9 @@
             "played": 3,
             "goals_for": 7,
             "goals_against": 6,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0677,
@@ -2146,7 +2352,9 @@
             "played": 3,
             "goals_for": 6,
             "goals_against": 5,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0533,
@@ -2166,7 +2374,9 @@
             "played": 4,
             "goals_for": 5,
             "goals_against": 4,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0478,
@@ -2186,7 +2396,9 @@
             "played": 4,
             "goals_for": 6,
             "goals_against": 2,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0219,
@@ -2206,7 +2418,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0189,
@@ -2226,7 +2440,9 @@
             "played": 4,
             "goals_for": 5,
             "goals_against": 3,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0099,
@@ -2246,7 +2462,9 @@
             "played": 4,
             "goals_for": 4,
             "goals_against": 9,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0097,
@@ -2266,7 +2484,9 @@
             "played": 4,
             "goals_for": 8,
             "goals_against": 8,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0067,
@@ -2286,7 +2506,9 @@
             "played": 4,
             "goals_for": 4,
             "goals_against": 3,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0061,
@@ -2306,7 +2528,9 @@
             "played": 4,
             "goals_for": 6,
             "goals_against": 8,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0026,
@@ -2326,7 +2550,9 @@
             "played": 3,
             "goals_for": 8,
             "goals_against": 6,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0044,
@@ -2346,7 +2572,9 @@
             "played": 4,
             "goals_for": 3,
             "goals_against": 3,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0013,
@@ -2366,7 +2594,9 @@
             "played": 4,
             "goals_for": 6,
             "goals_against": 8,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0011,
@@ -2386,7 +2616,9 @@
             "played": 4,
             "goals_for": 5,
             "goals_against": 6,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0023,
@@ -2406,7 +2638,9 @@
             "played": 4,
             "goals_for": 3,
             "goals_against": 6,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0002,
@@ -2426,7 +2660,9 @@
             "played": 4,
             "goals_for": 6,
             "goals_against": 8,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0014,
@@ -2446,7 +2682,9 @@
             "played": 3,
             "goals_for": 4,
             "goals_against": 7,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0005,
@@ -2466,7 +2704,9 @@
             "played": 4,
             "goals_for": 3,
             "goals_against": 6,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -2490,7 +2730,9 @@
             "played": 4,
             "goals_for": 6,
             "goals_against": 4,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.3742,
@@ -2510,7 +2752,9 @@
             "played": 5,
             "goals_for": 13,
             "goals_against": 7,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.3304,
@@ -2530,7 +2774,9 @@
             "played": 5,
             "goals_for": 7,
             "goals_against": 4,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.09,
@@ -2550,7 +2796,9 @@
             "played": 3,
             "goals_for": 7,
             "goals_against": 6,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0736,
@@ -2570,7 +2818,9 @@
             "played": 5,
             "goals_for": 8,
             "goals_against": 2,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0397,
@@ -2590,7 +2840,9 @@
             "played": 4,
             "goals_for": 8,
             "goals_against": 7,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0412,
@@ -2610,7 +2862,9 @@
             "played": 4,
             "goals_for": 5,
             "goals_against": 3,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0129,
@@ -2630,7 +2884,9 @@
             "played": 5,
             "goals_for": 4,
             "goals_against": 11,
-            "goal_diff": -7
+            "goal_diff": -7,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0056,
@@ -2650,7 +2906,9 @@
             "played": 5,
             "goals_for": 9,
             "goals_against": 9,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0054,
@@ -2670,7 +2928,9 @@
             "played": 5,
             "goals_for": 5,
             "goals_against": 5,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0045,
@@ -2690,7 +2950,9 @@
             "played": 5,
             "goals_for": 7,
             "goals_against": 6,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0062,
@@ -2710,7 +2972,9 @@
             "played": 4,
             "goals_for": 4,
             "goals_against": 3,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0052,
@@ -2730,7 +2994,9 @@
             "played": 5,
             "goals_for": 8,
             "goals_against": 10,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0027,
@@ -2750,7 +3016,9 @@
             "played": 5,
             "goals_for": 7,
             "goals_against": 8,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0011,
@@ -2770,7 +3038,9 @@
             "played": 5,
             "goals_for": 4,
             "goals_against": 4,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.002,
@@ -2790,7 +3060,9 @@
             "played": 4,
             "goals_for": 8,
             "goals_against": 8,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.003,
@@ -2810,7 +3082,9 @@
             "played": 5,
             "goals_for": 5,
             "goals_against": 7,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0011,
@@ -2830,7 +3104,9 @@
             "played": 4,
             "goals_for": 5,
             "goals_against": 8,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0005,
@@ -2850,7 +3126,9 @@
             "played": 5,
             "goals_for": 3,
             "goals_against": 7,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -2870,7 +3148,9 @@
             "played": 5,
             "goals_for": 6,
             "goals_against": 10,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0007,
@@ -2894,7 +3174,9 @@
             "played": 5,
             "goals_for": 9,
             "goals_against": 4,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.4871,
@@ -2914,7 +3196,9 @@
             "played": 6,
             "goals_for": 14,
             "goals_against": 7,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.3116,
@@ -2934,7 +3218,9 @@
             "played": 6,
             "goals_for": 10,
             "goals_against": 6,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.072,
@@ -2954,7 +3240,9 @@
             "played": 6,
             "goals_for": 10,
             "goals_against": 3,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0448,
@@ -2974,7 +3262,9 @@
             "played": 5,
             "goals_for": 8,
             "goals_against": 8,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0205,
@@ -2994,7 +3284,9 @@
             "played": 4,
             "goals_for": 7,
             "goals_against": 9,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0268,
@@ -3014,7 +3306,9 @@
             "played": 5,
             "goals_for": 6,
             "goals_against": 3,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0183,
@@ -3034,7 +3328,9 @@
             "played": 5,
             "goals_for": 9,
             "goals_against": 9,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0032,
@@ -3054,7 +3350,9 @@
             "played": 6,
             "goals_for": 8,
             "goals_against": 6,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0043,
@@ -3074,7 +3372,9 @@
             "played": 6,
             "goals_for": 7,
             "goals_against": 14,
-            "goal_diff": -7
+            "goal_diff": -7,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0036,
@@ -3094,7 +3394,9 @@
             "played": 6,
             "goals_for": 6,
             "goals_against": 6,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0016,
@@ -3114,7 +3416,9 @@
             "played": 5,
             "goals_for": 6,
             "goals_against": 6,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0025,
@@ -3134,7 +3438,9 @@
             "played": 6,
             "goals_for": 9,
             "goals_against": 11,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0007,
@@ -3154,7 +3460,9 @@
             "played": 4,
             "goals_for": 8,
             "goals_against": 8,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0019,
@@ -3174,7 +3482,9 @@
             "played": 6,
             "goals_for": 8,
             "goals_against": 10,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0003,
@@ -3194,7 +3504,9 @@
             "played": 5,
             "goals_for": 7,
             "goals_against": 8,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0003,
@@ -3214,7 +3526,9 @@
             "played": 6,
             "goals_for": 5,
             "goals_against": 6,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0002,
@@ -3234,7 +3548,9 @@
             "played": 6,
             "goals_for": 7,
             "goals_against": 10,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -3254,7 +3570,9 @@
             "played": 6,
             "goals_for": 3,
             "goals_against": 8,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0002,
@@ -3274,7 +3592,9 @@
             "played": 6,
             "goals_for": 6,
             "goals_against": 11,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -3298,7 +3618,9 @@
             "played": 6,
             "goals_for": 12,
             "goals_against": 4,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.5323,
@@ -3318,7 +3640,9 @@
             "played": 7,
             "goals_for": 16,
             "goals_against": 8,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.3283,
@@ -3338,7 +3662,9 @@
             "played": 7,
             "goals_for": 12,
             "goals_against": 9,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0438,
@@ -3358,7 +3684,9 @@
             "played": 7,
             "goals_for": 10,
             "goals_against": 4,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0258,
@@ -3378,7 +3706,9 @@
             "played": 6,
             "goals_for": 8,
             "goals_against": 3,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0234,
@@ -3398,7 +3728,9 @@
             "played": 5,
             "goals_for": 8,
             "goals_against": 11,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0154,
@@ -3418,7 +3750,9 @@
             "played": 6,
             "goals_for": 8,
             "goals_against": 9,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0082,
@@ -3438,7 +3772,9 @@
             "played": 7,
             "goals_for": 9,
             "goals_against": 6,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0099,
@@ -3458,7 +3794,9 @@
             "played": 7,
             "goals_for": 12,
             "goals_against": 10,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0042,
@@ -3478,7 +3816,9 @@
             "played": 6,
             "goals_for": 8,
             "goals_against": 7,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0031,
@@ -3498,7 +3838,9 @@
             "played": 7,
             "goals_for": 6,
             "goals_against": 6,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0019,
@@ -3518,7 +3860,9 @@
             "played": 7,
             "goals_for": 8,
             "goals_against": 16,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0008,
@@ -3538,7 +3882,9 @@
             "played": 7,
             "goals_for": 11,
             "goals_against": 12,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0014,
@@ -3558,7 +3904,9 @@
             "played": 7,
             "goals_for": 8,
             "goals_against": 10,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0004,
@@ -3578,7 +3926,9 @@
             "played": 6,
             "goals_for": 9,
             "goals_against": 9,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0005,
@@ -3598,7 +3948,9 @@
             "played": 7,
             "goals_for": 10,
             "goals_against": 13,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0002,
@@ -3618,7 +3970,9 @@
             "played": 6,
             "goals_for": 7,
             "goals_against": 10,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -3638,7 +3992,9 @@
             "played": 7,
             "goals_for": 5,
             "goals_against": 9,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -3658,7 +4014,9 @@
             "played": 7,
             "goals_for": 5,
             "goals_against": 8,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0003,
@@ -3678,7 +4036,9 @@
             "played": 7,
             "goals_for": 6,
             "goals_against": 14,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -3702,7 +4062,9 @@
             "played": 7,
             "goals_for": 13,
             "goals_against": 5,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.4535,
@@ -3722,7 +4084,9 @@
             "played": 8,
             "goals_for": 17,
             "goals_against": 8,
-            "goal_diff": 9
+            "goal_diff": 9,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.421,
@@ -3742,7 +4106,9 @@
             "played": 8,
             "goals_for": 13,
             "goals_against": 9,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0549,
@@ -3762,7 +4128,9 @@
             "played": 6,
             "goals_for": 10,
             "goals_against": 12,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0235,
@@ -3782,7 +4150,9 @@
             "played": 8,
             "goals_for": 10,
             "goals_against": 5,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0148,
@@ -3802,7 +4172,9 @@
             "played": 7,
             "goals_for": 9,
             "goals_against": 7,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0077,
@@ -3822,7 +4194,9 @@
             "played": 7,
             "goals_for": 10,
             "goals_against": 7,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.008,
@@ -3842,7 +4216,9 @@
             "played": 7,
             "goals_for": 8,
             "goals_against": 10,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0036,
@@ -3862,7 +4238,9 @@
             "played": 8,
             "goals_for": 9,
             "goals_against": 8,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0074,
@@ -3882,7 +4260,9 @@
             "played": 8,
             "goals_for": 13,
             "goals_against": 12,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0015,
@@ -3902,7 +4282,9 @@
             "played": 8,
             "goals_for": 7,
             "goals_against": 7,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0011,
@@ -3922,7 +4304,9 @@
             "played": 8,
             "goals_for": 13,
             "goals_against": 13,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0007,
@@ -3942,7 +4326,9 @@
             "played": 8,
             "goals_for": 8,
             "goals_against": 16,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0008,
@@ -3962,7 +4348,9 @@
             "played": 7,
             "goals_for": 8,
             "goals_against": 10,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0002,
@@ -3982,7 +4370,9 @@
             "played": 8,
             "goals_for": 10,
             "goals_against": 13,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0004,
@@ -4002,7 +4392,9 @@
             "played": 8,
             "goals_for": 8,
             "goals_against": 11,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0004,
@@ -4022,7 +4414,9 @@
             "played": 8,
             "goals_for": 7,
             "goals_against": 9,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0003,
@@ -4042,7 +4436,9 @@
             "played": 7,
             "goals_for": 9,
             "goals_against": 11,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -4062,7 +4458,9 @@
             "played": 8,
             "goals_for": 10,
             "goals_against": 15,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -4082,7 +4480,9 @@
             "played": 8,
             "goals_for": 6,
             "goals_against": 10,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -4106,7 +4506,9 @@
             "played": 7,
             "goals_for": 13,
             "goals_against": 5,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.448,
@@ -4126,7 +4528,9 @@
             "played": 8,
             "goals_for": 17,
             "goals_against": 8,
-            "goal_diff": 9
+            "goal_diff": 9,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.4266,
@@ -4146,7 +4550,9 @@
             "played": 8,
             "goals_for": 13,
             "goals_against": 9,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0514,
@@ -4166,7 +4572,9 @@
             "played": 8,
             "goals_for": 10,
             "goals_against": 5,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0144,
@@ -4186,7 +4594,9 @@
             "played": 8,
             "goals_for": 14,
             "goals_against": 8,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0179,
@@ -4206,7 +4616,9 @@
             "played": 7,
             "goals_for": 11,
             "goals_against": 16,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0099,
@@ -4226,7 +4638,9 @@
             "played": 7,
             "goals_for": 9,
             "goals_against": 7,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0086,
@@ -4246,7 +4660,9 @@
             "played": 8,
             "goals_for": 9,
             "goals_against": 8,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0097,
@@ -4266,7 +4682,9 @@
             "played": 7,
             "goals_for": 8,
             "goals_against": 10,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0054,
@@ -4286,7 +4704,9 @@
             "played": 8,
             "goals_for": 13,
             "goals_against": 12,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0023,
@@ -4306,7 +4726,9 @@
             "played": 8,
             "goals_for": 7,
             "goals_against": 7,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.002,
@@ -4326,7 +4748,9 @@
             "played": 8,
             "goals_for": 13,
             "goals_against": 13,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0011,
@@ -4346,7 +4770,9 @@
             "played": 8,
             "goals_for": 8,
             "goals_against": 16,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0006,
@@ -4366,7 +4792,9 @@
             "played": 7,
             "goals_for": 8,
             "goals_against": 10,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0003,
@@ -4386,7 +4814,9 @@
             "played": 8,
             "goals_for": 10,
             "goals_against": 13,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0006,
@@ -4406,7 +4836,9 @@
             "played": 8,
             "goals_for": 8,
             "goals_against": 11,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -4426,7 +4858,9 @@
             "played": 8,
             "goals_for": 7,
             "goals_against": 9,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -4446,7 +4880,9 @@
             "played": 7,
             "goals_for": 9,
             "goals_against": 11,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0006,
@@ -4466,7 +4902,9 @@
             "played": 8,
             "goals_for": 10,
             "goals_against": 15,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -4486,7 +4924,9 @@
             "played": 8,
             "goals_for": 6,
             "goals_against": 10,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0003,
@@ -4510,7 +4950,9 @@
             "played": 9,
             "goals_for": 19,
             "goals_against": 9,
-            "goal_diff": 10
+            "goal_diff": 10,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.537,
@@ -4530,7 +4972,9 @@
             "played": 8,
             "goals_for": 13,
             "goals_against": 8,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.2946,
@@ -4550,7 +4994,9 @@
             "played": 9,
             "goals_for": 16,
             "goals_against": 10,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0861,
@@ -4570,7 +5016,9 @@
             "played": 8,
             "goals_for": 12,
             "goals_against": 7,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.023,
@@ -4590,7 +5038,9 @@
             "played": 9,
             "goals_for": 11,
             "goals_against": 6,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0155,
@@ -4610,7 +5060,9 @@
             "played": 8,
             "goals_for": 14,
             "goals_against": 18,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0158,
@@ -4630,7 +5082,9 @@
             "played": 9,
             "goals_for": 14,
             "goals_against": 11,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0109,
@@ -4650,7 +5104,9 @@
             "played": 8,
             "goals_for": 10,
             "goals_against": 13,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0036,
@@ -4670,7 +5126,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 9,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0046,
@@ -4690,7 +5148,9 @@
             "played": 9,
             "goals_for": 14,
             "goals_against": 14,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0022,
@@ -4710,7 +5170,9 @@
             "played": 9,
             "goals_for": 12,
             "goals_against": 11,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0015,
@@ -4730,7 +5192,9 @@
             "played": 9,
             "goals_for": 14,
             "goals_against": 14,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0018,
@@ -4750,7 +5214,9 @@
             "played": 9,
             "goals_for": 11,
             "goals_against": 16,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0012,
@@ -4770,7 +5236,9 @@
             "played": 9,
             "goals_for": 8,
             "goals_against": 10,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0007,
@@ -4790,7 +5258,9 @@
             "played": 9,
             "goals_for": 12,
             "goals_against": 13,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0005,
@@ -4810,7 +5280,9 @@
             "played": 9,
             "goals_for": 9,
             "goals_against": 10,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0006,
@@ -4830,7 +5302,9 @@
             "played": 8,
             "goals_for": 8,
             "goals_against": 13,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -4850,7 +5324,9 @@
             "played": 9,
             "goals_for": 8,
             "goals_against": 10,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0002,
@@ -4870,7 +5346,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 17,
-            "goal_diff": -7
+            "goal_diff": -7,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -4890,7 +5368,9 @@
             "played": 8,
             "goals_for": 9,
             "goals_against": 15,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -4914,7 +5394,9 @@
             "played": 10,
             "goals_for": 21,
             "goals_against": 10,
-            "goal_diff": 11
+            "goal_diff": 11,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.6032,
@@ -4934,7 +5416,9 @@
             "played": 9,
             "goals_for": 16,
             "goals_against": 9,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.2769,
@@ -4954,7 +5438,9 @@
             "played": 10,
             "goals_for": 17,
             "goals_against": 11,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.061,
@@ -4974,7 +5460,9 @@
             "played": 10,
             "goals_for": 15,
             "goals_against": 7,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0232,
@@ -4994,7 +5482,9 @@
             "played": 9,
             "goals_for": 16,
             "goals_against": 19,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0166,
@@ -5014,7 +5504,9 @@
             "played": 9,
             "goals_for": 13,
             "goals_against": 9,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0084,
@@ -5034,7 +5526,9 @@
             "played": 10,
             "goals_for": 15,
             "goals_against": 13,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0034,
@@ -5054,7 +5548,9 @@
             "played": 10,
             "goals_for": 14,
             "goals_against": 12,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0017,
@@ -5074,7 +5570,9 @@
             "played": 10,
             "goals_for": 11,
             "goals_against": 10,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0014,
@@ -5094,7 +5592,9 @@
             "played": 10,
             "goals_for": 14,
             "goals_against": 14,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0004,
@@ -5114,7 +5614,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 14,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0012,
@@ -5134,7 +5636,9 @@
             "played": 10,
             "goals_for": 10,
             "goals_against": 10,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0009,
@@ -5154,7 +5658,9 @@
             "played": 10,
             "goals_for": 15,
             "goals_against": 16,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0005,
@@ -5174,7 +5680,9 @@
             "played": 10,
             "goals_for": 9,
             "goals_against": 10,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0003,
@@ -5194,7 +5702,9 @@
             "played": 10,
             "goals_for": 12,
             "goals_against": 20,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0004,
@@ -5214,7 +5724,9 @@
             "played": 10,
             "goals_for": 13,
             "goals_against": 16,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -5234,7 +5746,9 @@
             "played": 10,
             "goals_for": 8,
             "goals_against": 11,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -5254,7 +5768,9 @@
             "played": 9,
             "goals_for": 9,
             "goals_against": 14,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -5274,7 +5790,9 @@
             "played": 10,
             "goals_for": 10,
             "goals_against": 17,
-            "goal_diff": -7
+            "goal_diff": -7,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0002,
@@ -5294,7 +5812,9 @@
             "played": 9,
             "goals_for": 10,
             "goals_against": 16,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -5318,7 +5838,9 @@
             "played": 11,
             "goals_for": 21,
             "goals_against": 10,
-            "goal_diff": 11
+            "goal_diff": 11,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.539,
@@ -5338,7 +5860,9 @@
             "played": 10,
             "goals_for": 18,
             "goals_against": 10,
-            "goal_diff": 8
+            "goal_diff": 8,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.3777,
@@ -5358,7 +5882,9 @@
             "played": 11,
             "goals_for": 18,
             "goals_against": 13,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0376,
@@ -5378,7 +5904,9 @@
             "played": 10,
             "goals_for": 15,
             "goals_against": 10,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0192,
@@ -5398,7 +5926,9 @@
             "played": 11,
             "goals_for": 15,
             "goals_against": 9,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0099,
@@ -5418,7 +5948,9 @@
             "played": 10,
             "goals_for": 18,
             "goals_against": 21,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0091,
@@ -5438,7 +5970,9 @@
             "played": 11,
             "goals_for": 17,
             "goals_against": 13,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0037,
@@ -5458,7 +5992,9 @@
             "played": 11,
             "goals_for": 13,
             "goals_against": 12,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0013,
@@ -5478,7 +6014,9 @@
             "played": 11,
             "goals_for": 14,
             "goals_against": 13,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0005,
@@ -5498,7 +6036,9 @@
             "played": 11,
             "goals_for": 14,
             "goals_against": 14,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0004,
@@ -5518,7 +6058,9 @@
             "played": 11,
             "goals_for": 14,
             "goals_against": 21,
-            "goal_diff": -7
+            "goal_diff": -7,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0002,
@@ -5538,7 +6080,9 @@
             "played": 11,
             "goals_for": 11,
             "goals_against": 12,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0,
@@ -5558,7 +6102,9 @@
             "played": 11,
             "goals_for": 16,
             "goals_against": 17,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0003,
@@ -5578,7 +6124,9 @@
             "played": 11,
             "goals_for": 14,
             "goals_against": 16,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -5598,7 +6146,9 @@
             "played": 10,
             "goals_for": 11,
             "goals_against": 14,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0002,
@@ -5618,7 +6168,9 @@
             "played": 10,
             "goals_for": 11,
             "goals_against": 16,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0004,
@@ -5638,7 +6190,9 @@
             "played": 11,
             "goals_for": 9,
             "goals_against": 10,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0003,
@@ -5658,7 +6212,9 @@
             "played": 11,
             "goals_for": 8,
             "goals_against": 11,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -5678,7 +6234,9 @@
             "played": 11,
             "goals_for": 11,
             "goals_against": 18,
-            "goal_diff": -7
+            "goal_diff": -7,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -5698,7 +6256,9 @@
             "played": 10,
             "goals_for": 10,
             "goals_against": 18,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -5722,7 +6282,9 @@
             "played": 12,
             "goals_for": 22,
             "goals_against": 10,
-            "goal_diff": 12
+            "goal_diff": 12,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.5174,
@@ -5742,7 +6304,9 @@
             "played": 11,
             "goals_for": 20,
             "goals_against": 10,
-            "goal_diff": 10
+            "goal_diff": 10,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.3958,
@@ -5762,7 +6326,9 @@
             "played": 12,
             "goals_for": 21,
             "goals_against": 15,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0501,
@@ -5782,7 +6348,9 @@
             "played": 11,
             "goals_for": 22,
             "goals_against": 22,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0169,
@@ -5802,7 +6370,9 @@
             "played": 11,
             "goals_for": 15,
             "goals_against": 12,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0098,
@@ -5822,7 +6392,9 @@
             "played": 12,
             "goals_for": 16,
             "goals_against": 11,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0048,
@@ -5842,7 +6414,9 @@
             "played": 12,
             "goals_for": 17,
             "goals_against": 14,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0021,
@@ -5862,7 +6436,9 @@
             "played": 12,
             "goals_for": 15,
             "goals_against": 12,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.001,
@@ -5882,7 +6458,9 @@
             "played": 12,
             "goals_for": 16,
             "goals_against": 21,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0005,
@@ -5902,7 +6480,9 @@
             "played": 12,
             "goals_for": 15,
             "goals_against": 14,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0005,
@@ -5922,7 +6502,9 @@
             "played": 12,
             "goals_for": 18,
             "goals_against": 18,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0002,
@@ -5942,7 +6524,9 @@
             "played": 11,
             "goals_for": 13,
             "goals_against": 17,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -5962,7 +6546,9 @@
             "played": 12,
             "goals_for": 14,
             "goals_against": 15,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0003,
@@ -5982,7 +6568,9 @@
             "played": 12,
             "goals_for": 14,
             "goals_against": 16,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -6002,7 +6590,9 @@
             "played": 11,
             "goals_for": 11,
             "goals_against": 14,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0003,
@@ -6022,7 +6612,9 @@
             "played": 12,
             "goals_for": 16,
             "goals_against": 19,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0002,
@@ -6042,7 +6634,9 @@
             "played": 12,
             "goals_for": 8,
             "goals_against": 11,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -6062,7 +6656,9 @@
             "played": 12,
             "goals_for": 10,
             "goals_against": 12,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -6082,7 +6678,9 @@
             "played": 12,
             "goals_for": 13,
             "goals_against": 22,
-            "goal_diff": -9
+            "goal_diff": -9,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -6102,7 +6700,9 @@
             "played": 11,
             "goals_for": 11,
             "goals_against": 22,
-            "goal_diff": -11
+            "goal_diff": -11,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -6126,7 +6726,9 @@
             "played": 13,
             "goals_for": 23,
             "goals_against": 10,
-            "goal_diff": 13
+            "goal_diff": 13,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.4891,
@@ -6146,7 +6748,9 @@
             "played": 12,
             "goals_for": 24,
             "goals_against": 10,
-            "goal_diff": 14
+            "goal_diff": 14,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.4682,
@@ -6166,7 +6770,9 @@
             "played": 13,
             "goals_for": 23,
             "goals_against": 16,
-            "goal_diff": 7
+            "goal_diff": 7,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0283,
@@ -6186,7 +6792,9 @@
             "played": 12,
             "goals_for": 24,
             "goals_against": 24,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0057,
@@ -6206,7 +6814,9 @@
             "played": 13,
             "goals_for": 17,
             "goals_against": 11,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0034,
@@ -6226,7 +6836,9 @@
             "played": 12,
             "goals_for": 17,
             "goals_against": 14,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.003,
@@ -6246,7 +6858,9 @@
             "played": 13,
             "goals_for": 20,
             "goals_against": 15,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0009,
@@ -6266,7 +6880,9 @@
             "played": 13,
             "goals_for": 17,
             "goals_against": 21,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0004,
@@ -6286,7 +6902,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 13,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0004,
@@ -6306,7 +6924,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 15,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0001,
@@ -6326,7 +6946,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 16,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0001,
@@ -6346,7 +6968,9 @@
             "played": 13,
             "goals_for": 18,
             "goals_against": 19,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0001,
@@ -6366,7 +6990,9 @@
             "played": 12,
             "goals_for": 13,
             "goals_against": 18,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -6386,7 +7012,9 @@
             "played": 13,
             "goals_for": 9,
             "goals_against": 11,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -6406,7 +7034,9 @@
             "played": 13,
             "goals_for": 18,
             "goals_against": 21,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -6426,7 +7056,9 @@
             "played": 13,
             "goals_for": 14,
             "goals_against": 19,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -6446,7 +7078,9 @@
             "played": 13,
             "goals_for": 12,
             "goals_against": 14,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -6466,7 +7100,9 @@
             "played": 12,
             "goals_for": 12,
             "goals_against": 17,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -6486,7 +7122,9 @@
             "played": 13,
             "goals_for": 13,
             "goals_against": 23,
-            "goal_diff": -10
+            "goal_diff": -10,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -6506,7 +7144,9 @@
             "played": 12,
             "goals_for": 12,
             "goals_against": 24,
-            "goal_diff": -12
+            "goal_diff": -12,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -6530,7 +7170,9 @@
             "played": 14,
             "goals_for": 24,
             "goals_against": 11,
-            "goal_diff": 13
+            "goal_diff": 13,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.5156,
@@ -6550,7 +7192,9 @@
             "played": 13,
             "goals_for": 26,
             "goals_against": 12,
-            "goal_diff": 14
+            "goal_diff": 14,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.4434,
@@ -6570,7 +7214,9 @@
             "played": 14,
             "goals_for": 23,
             "goals_against": 18,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0235,
@@ -6590,7 +7236,9 @@
             "played": 13,
             "goals_for": 19,
             "goals_against": 16,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.006,
@@ -6610,7 +7258,9 @@
             "played": 14,
             "goals_for": 19,
             "goals_against": 13,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0049,
@@ -6630,7 +7280,9 @@
             "played": 13,
             "goals_for": 25,
             "goals_against": 26,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0035,
@@ -6650,7 +7302,9 @@
             "played": 14,
             "goals_for": 20,
             "goals_against": 15,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0016,
@@ -6670,7 +7324,9 @@
             "played": 14,
             "goals_for": 17,
             "goals_against": 16,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0004,
@@ -6690,7 +7346,9 @@
             "played": 14,
             "goals_for": 20,
             "goals_against": 21,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0003,
@@ -6710,7 +7368,9 @@
             "played": 14,
             "goals_for": 18,
             "goals_against": 24,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -6730,7 +7390,9 @@
             "played": 14,
             "goals_for": 17,
             "goals_against": 20,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0001,
@@ -6750,7 +7412,9 @@
             "played": 14,
             "goals_for": 15,
             "goals_against": 16,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -6770,7 +7434,9 @@
             "played": 13,
             "goals_for": 15,
             "goals_against": 19,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -6790,7 +7456,9 @@
             "played": 13,
             "goals_for": 16,
             "goals_against": 18,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0,
@@ -6810,7 +7478,9 @@
             "played": 14,
             "goals_for": 14,
             "goals_against": 14,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -6830,7 +7500,9 @@
             "played": 14,
             "goals_for": 16,
             "goals_against": 17,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0003,
@@ -6850,7 +7522,9 @@
             "played": 14,
             "goals_for": 19,
             "goals_against": 22,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -6870,7 +7544,9 @@
             "played": 14,
             "goals_for": 10,
             "goals_against": 13,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -6890,7 +7566,9 @@
             "played": 14,
             "goals_for": 15,
             "goals_against": 24,
-            "goal_diff": -9
+            "goal_diff": -9,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -6910,7 +7588,9 @@
             "played": 13,
             "goals_for": 13,
             "goals_against": 26,
-            "goal_diff": -13
+            "goal_diff": -13,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -6934,7 +7614,9 @@
             "played": 14,
             "goals_for": 27,
             "goals_against": 12,
-            "goal_diff": 15
+            "goal_diff": 15,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.5636,
@@ -6954,7 +7636,9 @@
             "played": 15,
             "goals_for": 25,
             "goals_against": 12,
-            "goal_diff": 13
+            "goal_diff": 13,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.4112,
@@ -6974,7 +7658,9 @@
             "played": 15,
             "goals_for": 25,
             "goals_against": 20,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0169,
@@ -6994,7 +7680,9 @@
             "played": 15,
             "goals_for": 21,
             "goals_against": 16,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0021,
@@ -7014,7 +7702,9 @@
             "played": 14,
             "goals_for": 26,
             "goals_against": 27,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0022,
@@ -7034,7 +7724,9 @@
             "played": 14,
             "goals_for": 20,
             "goals_against": 18,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0026,
@@ -7054,7 +7746,9 @@
             "played": 15,
             "goals_for": 20,
             "goals_against": 16,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0004,
@@ -7074,7 +7768,9 @@
             "played": 15,
             "goals_for": 20,
             "goals_against": 25,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0004,
@@ -7094,7 +7790,9 @@
             "played": 15,
             "goals_for": 21,
             "goals_against": 21,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0001,
@@ -7114,7 +7812,9 @@
             "played": 15,
             "goals_for": 17,
             "goals_against": 18,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0001,
@@ -7134,7 +7834,9 @@
             "played": 15,
             "goals_for": 21,
             "goals_against": 22,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0002,
@@ -7154,7 +7856,9 @@
             "played": 14,
             "goals_for": 18,
             "goals_against": 20,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0,
@@ -7174,7 +7878,9 @@
             "played": 15,
             "goals_for": 18,
             "goals_against": 21,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -7194,7 +7900,9 @@
             "played": 15,
             "goals_for": 13,
             "goals_against": 15,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -7214,7 +7922,9 @@
             "played": 15,
             "goals_for": 15,
             "goals_against": 17,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -7234,7 +7944,9 @@
             "played": 15,
             "goals_for": 16,
             "goals_against": 16,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -7254,7 +7966,9 @@
             "played": 14,
             "goals_for": 16,
             "goals_against": 20,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -7274,7 +7988,9 @@
             "played": 15,
             "goals_for": 18,
             "goals_against": 19,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0,
@@ -7294,7 +8010,9 @@
             "played": 15,
             "goals_for": 16,
             "goals_against": 25,
-            "goal_diff": -9
+            "goal_diff": -9,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -7314,7 +8032,9 @@
             "played": 14,
             "goals_for": 14,
             "goals_against": 27,
-            "goal_diff": -13
+            "goal_diff": -13,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -7338,7 +8058,9 @@
             "played": 15,
             "goals_for": 28,
             "goals_against": 13,
-            "goal_diff": 15
+            "goal_diff": 15,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.5683,
@@ -7358,7 +8080,9 @@
             "played": 16,
             "goals_for": 26,
             "goals_against": 13,
-            "goal_diff": 13
+            "goal_diff": 13,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.3925,
@@ -7378,7 +8102,9 @@
             "played": 16,
             "goals_for": 27,
             "goals_against": 21,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0272,
@@ -7398,7 +8124,9 @@
             "played": 15,
             "goals_for": 29,
             "goals_against": 28,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0047,
@@ -7418,7 +8146,9 @@
             "played": 16,
             "goals_for": 22,
             "goals_against": 18,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0019,
@@ -7438,7 +8168,9 @@
             "played": 15,
             "goals_for": 21,
             "goals_against": 19,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0022,
@@ -7458,7 +8190,9 @@
             "played": 16,
             "goals_for": 21,
             "goals_against": 17,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0007,
@@ -7478,7 +8212,9 @@
             "played": 16,
             "goals_for": 21,
             "goals_against": 26,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0009,
@@ -7498,7 +8234,9 @@
             "played": 16,
             "goals_for": 19,
             "goals_against": 18,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0003,
@@ -7518,7 +8256,9 @@
             "played": 16,
             "goals_for": 21,
             "goals_against": 22,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0004,
@@ -7538,7 +8278,9 @@
             "played": 16,
             "goals_for": 21,
             "goals_against": 19,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0003,
@@ -7558,7 +8300,9 @@
             "played": 16,
             "goals_for": 20,
             "goals_against": 17,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0001,
@@ -7578,7 +8322,9 @@
             "played": 16,
             "goals_for": 22,
             "goals_against": 25,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -7598,7 +8344,9 @@
             "played": 16,
             "goals_for": 16,
             "goals_against": 18,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -7618,7 +8366,9 @@
             "played": 15,
             "goals_for": 18,
             "goals_against": 22,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0002,
@@ -7638,7 +8388,9 @@
             "played": 16,
             "goals_for": 14,
             "goals_against": 18,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -7658,7 +8410,9 @@
             "played": 16,
             "goals_for": 21,
             "goals_against": 25,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -7678,7 +8432,9 @@
             "played": 15,
             "goals_for": 17,
             "goals_against": 23,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0002,
@@ -7698,7 +8454,9 @@
             "played": 16,
             "goals_for": 19,
             "goals_against": 27,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -7718,7 +8476,9 @@
             "played": 15,
             "goals_for": 16,
             "goals_against": 30,
-            "goal_diff": -14
+            "goal_diff": -14,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -7742,7 +8502,9 @@
             "played": 17,
             "goals_for": 29,
             "goals_against": 13,
-            "goal_diff": 16
+            "goal_diff": 16,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.662,
@@ -7762,7 +8524,9 @@
             "played": 16,
             "goals_for": 28,
             "goals_against": 16,
-            "goal_diff": 12
+            "goal_diff": 12,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.3106,
@@ -7782,7 +8546,9 @@
             "played": 17,
             "goals_for": 27,
             "goals_against": 22,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0152,
@@ -7802,7 +8568,9 @@
             "played": 16,
             "goals_for": 30,
             "goals_against": 29,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0032,
@@ -7822,7 +8590,9 @@
             "played": 15,
             "goals_for": 21,
             "goals_against": 19,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0031,
@@ -7842,7 +8612,9 @@
             "played": 17,
             "goals_for": 23,
             "goals_against": 18,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0016,
@@ -7862,7 +8634,9 @@
             "played": 17,
             "goals_for": 23,
             "goals_against": 19,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0014,
@@ -7882,7 +8656,9 @@
             "played": 17,
             "goals_for": 22,
             "goals_against": 18,
-            "goal_diff": 4
+            "goal_diff": 4,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0012,
@@ -7902,7 +8678,9 @@
             "played": 17,
             "goals_for": 23,
             "goals_against": 27,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.001,
@@ -7922,7 +8700,9 @@
             "played": 16,
             "goals_for": 21,
             "goals_against": 19,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0002,
@@ -7942,7 +8722,9 @@
             "played": 17,
             "goals_for": 19,
             "goals_against": 20,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -7962,7 +8744,9 @@
             "played": 17,
             "goals_for": 21,
             "goals_against": 23,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0002,
@@ -7982,7 +8766,9 @@
             "played": 16,
             "goals_for": 20,
             "goals_against": 22,
-            "goal_diff": -2
+            "goal_diff": -2,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0,
@@ -8002,7 +8788,9 @@
             "played": 17,
             "goals_for": 20,
             "goals_against": 19,
-            "goal_diff": 1
+            "goal_diff": 1,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0001,
@@ -8022,7 +8810,9 @@
             "played": 17,
             "goals_for": 15,
             "goals_against": 18,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -8042,7 +8832,9 @@
             "played": 16,
             "goals_for": 18,
             "goals_against": 23,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0001,
@@ -8062,7 +8854,9 @@
             "played": 17,
             "goals_for": 22,
             "goals_against": 28,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -8082,7 +8876,9 @@
             "played": 17,
             "goals_for": 23,
             "goals_against": 28,
-            "goal_diff": -5
+            "goal_diff": -5,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -8102,7 +8898,9 @@
             "played": 17,
             "goals_for": 20,
             "goals_against": 29,
-            "goal_diff": -9
+            "goal_diff": -9,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -8122,7 +8920,9 @@
             "played": 16,
             "goals_for": 17,
             "goals_against": 32,
-            "goal_diff": -15
+            "goal_diff": -15,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -8146,7 +8946,9 @@
             "played": 18,
             "goals_for": 30,
             "goals_against": 13,
-            "goal_diff": 17
+            "goal_diff": 17,
+            "rank": 1,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.6142,
@@ -8166,7 +8968,9 @@
             "played": 17,
             "goals_for": 31,
             "goals_against": 16,
-            "goal_diff": 15
+            "goal_diff": 15,
+            "rank": 2,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.3644,
@@ -8186,7 +8990,9 @@
             "played": 18,
             "goals_for": 28,
             "goals_against": 23,
-            "goal_diff": 5
+            "goal_diff": 5,
+            "rank": 3,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.012,
@@ -8206,7 +9012,9 @@
             "played": 18,
             "goals_for": 25,
             "goals_against": 19,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 5,
+            "zone": "libertadores_pre"
           },
           "probs": {
             "title": 0.0017,
@@ -8226,7 +9034,9 @@
             "played": 18,
             "goals_for": 24,
             "goals_against": 18,
-            "goal_diff": 6
+            "goal_diff": 6,
+            "rank": 4,
+            "zone": "libertadores_grupos"
           },
           "probs": {
             "title": 0.0018,
@@ -8246,7 +9056,9 @@
             "played": 17,
             "goals_for": 31,
             "goals_against": 31,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 12,
+            "zone": null
           },
           "probs": {
             "title": 0.0027,
@@ -8266,7 +9078,9 @@
             "played": 17,
             "goals_for": 25,
             "goals_against": 23,
-            "goal_diff": 2
+            "goal_diff": 2,
+            "rank": 6,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0015,
@@ -8286,7 +9100,9 @@
             "played": 18,
             "goals_for": 23,
             "goals_against": 20,
-            "goal_diff": 3
+            "goal_diff": 3,
+            "rank": 8,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0011,
@@ -8306,7 +9122,9 @@
             "played": 18,
             "goals_for": 24,
             "goals_against": 28,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 11,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0001,
@@ -8326,7 +9144,9 @@
             "played": 18,
             "goals_for": 22,
             "goals_against": 23,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 9,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0001,
@@ -8346,7 +9166,9 @@
             "played": 18,
             "goals_for": 18,
             "goals_against": 19,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 10,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0001,
@@ -8366,7 +9188,9 @@
             "played": 18,
             "goals_for": 24,
             "goals_against": 24,
-            "goal_diff": 0
+            "goal_diff": 0,
+            "rank": 7,
+            "zone": "sulamericana"
           },
           "probs": {
             "title": 0.0003,
@@ -8386,7 +9210,9 @@
             "played": 17,
             "goals_for": 21,
             "goals_against": 25,
-            "goal_diff": -4
+            "goal_diff": -4,
+            "rank": 13,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -8406,7 +9232,9 @@
             "played": 18,
             "goals_for": 20,
             "goals_against": 23,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 16,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -8426,7 +9254,9 @@
             "played": 18,
             "goals_for": 21,
             "goals_against": 22,
-            "goal_diff": -1
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -8446,7 +9276,9 @@
             "played": 18,
             "goals_for": 26,
             "goals_against": 29,
-            "goal_diff": -3
+            "goal_diff": -3,
+            "rank": 15,
+            "zone": null
           },
           "probs": {
             "title": 0.0,
@@ -8466,7 +9298,9 @@
             "played": 17,
             "goals_for": 18,
             "goals_against": 24,
-            "goal_diff": -6
+            "goal_diff": -6,
+            "rank": 19,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -8486,7 +9320,9 @@
             "played": 18,
             "goals_for": 22,
             "goals_against": 29,
-            "goal_diff": -7
+            "goal_diff": -7,
+            "rank": 17,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -8506,7 +9342,9 @@
             "played": 18,
             "goals_for": 21,
             "goals_against": 29,
-            "goal_diff": -8
+            "goal_diff": -8,
+            "rank": 18,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,
@@ -8526,7 +9364,9 @@
             "played": 17,
             "goals_for": 17,
             "goals_against": 33,
-            "goal_diff": -16
+            "goal_diff": -16,
+            "rank": 20,
+            "zone": "rebaixamento"
           },
           "probs": {
             "title": 0.0,

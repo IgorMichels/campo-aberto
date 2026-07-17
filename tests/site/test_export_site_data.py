@@ -13,7 +13,13 @@ import json
 import pandas as pd
 import pytest
 
-from src.simulation.config import AggregateConfig
+from src.simulation.config import (
+    AggregateConfig,
+    CompetitionConfig,
+    PlayoffPhaseConfig,
+    RoundRobinPhaseConfig,
+    SpotConfig,
+)
 from src.site.export_site_data import (
     _all_results_csvs,
     _build_columns,
@@ -21,6 +27,7 @@ from src.site.export_site_data import (
     _copy_crest,
     _export_season,
     _export_snapshot,
+    _real_classification,
     _snapshot_csv_before,
     export_site_data,
 )
@@ -46,6 +53,24 @@ def _matches_df(rows: list[dict]) -> pd.DataFrame:
     df = pd.DataFrame(rows)
     df["match_datetime"] = pd.to_datetime(df["match_datetime"])
     return df
+
+
+# A minimal single-phase config (title + rebaixamento, no cascade) -- enough for
+# _real_classification to have something to compute rank/zone against without
+# pulling in a full configs/serie_*.yaml. `aggregates` is the only knob most
+# _export_snapshot/_export_season tests below actually care about.
+def _make_config(
+    name: str = "Serie A", aggregates: tuple[AggregateConfig, ...] = ()
+) -> CompetitionConfig:
+    league_phase = RoundRobinPhaseConfig(
+        id="league",
+        head_to_head_mode="points_then_goal_diff",
+        spots=(
+            SpotConfig(name="title", positions=(1, 1)),
+            SpotConfig(name="rebaixamento", positions=(17, 20)),
+        ),
+    )
+    return CompetitionConfig(name=name, n_teams=20, phases=(league_phase,), aggregates=aggregates)
 
 
 # Team A beats Team B 2-1 on 2024-12-15, then a 0-0 draw (B at home) on
@@ -171,9 +196,8 @@ def test_export_snapshot_drops_expected_position_renames_attaches_crest_and_stan
         crest_by_team,
         color_by_team,
         str(tmp_path / "crests"),
-        (),
+        _make_config(),
         matches_df,
-        "Serie A",
         2025,
     )
 
@@ -186,7 +210,15 @@ def test_export_snapshot_drops_expected_position_renames_attaches_crest_and_stan
         "team": "Team A",
         "crest": "assets/crests/team_a.png",
         "color": "#111111",
-        "standings": {"points": 3, "played": 1, "goals_for": 2, "goals_against": 1, "goal_diff": 1},
+        "standings": {
+            "points": 3,
+            "played": 1,
+            "goals_for": 2,
+            "goals_against": 1,
+            "goal_diff": 1,
+            "rank": 1,
+            "zone": "title",
+        },
         "probs": {"title": 0.4321, "rebaixamento": 0.0},
     }
     assert teams[1]["standings"] == {
@@ -195,6 +227,8 @@ def test_export_snapshot_drops_expected_position_renames_attaches_crest_and_stan
         "goals_for": 1,
         "goals_against": 2,
         "goal_diff": -1,
+        "rank": 2,
+        "zone": None,
     }
 
 
@@ -216,9 +250,8 @@ def test_export_snapshot_standings_only_count_matches_up_to_reference_date(tmp_p
         {"Team A": crest_src, "Team B": crest_src},
         {"Team A": "#111111", "Team B": "#222222"},
         str(tmp_path / "crests"),
-        (),
+        _make_config(),
         matches_df,
-        "Serie A",
         2025,
     )
 
@@ -229,6 +262,8 @@ def test_export_snapshot_standings_only_count_matches_up_to_reference_date(tmp_p
         "goals_for": 2,
         "goals_against": 1,
         "goal_diff": 1,
+        "rank": 1,
+        "zone": "title",
     }
     assert by_team["Team B"] == {
         "points": 1,
@@ -236,6 +271,8 @@ def test_export_snapshot_standings_only_count_matches_up_to_reference_date(tmp_p
         "goals_for": 1,
         "goals_against": 2,
         "goal_diff": -1,
+        "rank": 2,
+        "zone": None,
     }
 
 
@@ -251,9 +288,8 @@ def test_export_snapshot_raises_on_spot_with_no_portuguese_label(tmp_path):
             {"Team A": "x.png"},
             {},
             str(tmp_path / "crests"),
-            (),
+            _make_config(),
             _matches_df(TWO_MATCH_ROWS),
-            "Serie A",
             2025,
         )
 
@@ -268,11 +304,78 @@ def test_export_snapshot_raises_on_team_with_no_crest_path(tmp_path):
             {},
             {},
             str(tmp_path / "crests"),
-            (),
+            _make_config(),
             _matches_df(TWO_MATCH_ROWS),
-            "Serie A",
             2025,
         )
+
+
+def _strict_ranking_results(teams: list[str]) -> list[tuple]:
+    """Every team beats every team below it 1-0 -- points strictly decrease
+    T1 > T2 > ... > Tn, so rank_table's order is unambiguous (no tiebreak,
+    including its random-draw last resort, ever triggers)."""
+    return [(teams[i], teams[j], 1, 0) for i in range(len(teams)) for j in range(i + 1, len(teams))]
+
+
+def test_real_classification_direct_promotion_wins_over_nested_title():
+    """title (positions (1, 1)) is nested inside direct_promotion (positions
+    (1, 2)) but isn't itself a cascade spot for Serie B (no Copa do Brasil-style
+    guarantee applies to promotion) -- without picking the widest spot first,
+    whichever of the two comes first in league_phase.spots would incorrectly
+    claim position 1 regardless of which one actually contains the other."""
+    teams = [f"T{i}" for i in range(1, 8)]
+    league_phase = RoundRobinPhaseConfig(
+        id="league",
+        head_to_head_mode="points_then_goal_diff",
+        spots=(
+            SpotConfig(name="title", positions=(1, 1)),
+            SpotConfig(name="direct_promotion", positions=(1, 2)),
+            SpotConfig(name="rebaixamento", positions=(6, 7)),
+        ),
+    )
+
+    result = _real_classification(teams, _strict_ranking_results(teams), league_phase, [], {})
+
+    assert result["T1"] == {"rank": 1, "zone": "direct_promotion"}
+    assert result["T2"] == {"rank": 2, "zone": "direct_promotion"}
+
+
+def test_real_classification_marks_table_position_playoff_seeds():
+    """A table_position-paired playoff phase (e.g. Serie B's access playoff,
+    "cruzamento olímpico") isn't a `positions` spot on the league phase itself,
+    but the real table should still flag which teams currently occupy that
+    bracket -- from the playoff phase's own `pairs`, not a hardcoded range."""
+    teams = [f"T{i}" for i in range(1, 8)]
+    league_phase = RoundRobinPhaseConfig(
+        id="league",
+        head_to_head_mode="points_then_goal_diff",
+        spots=(
+            SpotConfig(name="title", positions=(1, 1)),
+            SpotConfig(name="direct_promotion", positions=(1, 2)),
+            SpotConfig(name="rebaixamento", positions=(7, 7)),
+        ),
+    )
+    acesso_phase = PlayoffPhaseConfig(
+        id="acesso",
+        pairing="table_position",
+        source_phase="league",
+        pairs=((3, 6), (4, 5)),
+        spots=(SpotConfig(name="playoff_promotion", result="winner"),),
+    )
+
+    result = _real_classification(
+        teams, _strict_ranking_results(teams), league_phase, [acesso_phase], {}
+    )
+
+    assert [result[f"T{i}"]["zone"] for i in range(1, 8)] == [
+        "direct_promotion",
+        "direct_promotion",
+        "playoff_promotion",
+        "playoff_promotion",
+        "playoff_promotion",
+        "playoff_promotion",
+        "rebaixamento",
+    ]
 
 
 def test_build_columns_nests_an_aggregates_children_and_total_under_one_group():
@@ -325,9 +428,8 @@ def test_export_snapshot_raises_on_aggregate_with_no_group_label(tmp_path):
                 {"Team A": "x.png"},
                 {},
                 str(tmp_path / "crests"),
-                aggregates,
+                _make_config(aggregates=aggregates),
                 _matches_df(TWO_MATCH_ROWS),
-                "Serie A",
                 2025,
             )
     finally:
@@ -352,9 +454,8 @@ def test_export_season_collects_every_date_keyed_by_snapshot(tmp_path):
         crest_by_team,
         color_by_team,
         str(tmp_path / "crests"),
-        (),
+        _make_config(),
         _matches_df(TWO_MATCH_ROWS),
-        "Serie A",
         2025,
     )
 

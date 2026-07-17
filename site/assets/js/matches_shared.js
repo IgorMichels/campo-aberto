@@ -482,9 +482,34 @@
   const modalEl = document.getElementById("sticker-modal");
   const modalOverlayEl = document.getElementById("sticker-modal-overlay");
   const modalContentEl = document.getElementById("sticker-modal-content");
+  const modalInnerEl = document.querySelector(".sticker-modal-inner");
   const modalCloseEl = document.getElementById("sticker-modal-close");
   const modalDownloadEl = document.getElementById("sticker-modal-download");
   const modalShareEl = document.getElementById("sticker-modal-share");
+
+  // Default/max zoom applied to the sticker card in the modal (matches the
+  // old fixed `transform: scale(1.5)`) -- shrunk by updateModalScale below
+  // whenever the viewport is too small to fit it at that zoom.
+  const MODAL_MAX_SCALE = 1.5;
+  const MODAL_VIEWPORT_FIT_RATIO = 0.92;
+
+  // Sizes .sticker-modal-inner's zoom to fit the current viewport.
+  // offsetWidth/scrollHeight reflect the element's *unscaled* layout box
+  // (CSS transform doesn't affect layout size), so they're a stable base to
+  // scale from regardless of whatever --modal-scale was previously set to.
+  function updateModalScale() {
+    if (!modalInnerEl || !modalEl.classList.contains("active")) return;
+    modalInnerEl.style.setProperty("--modal-scale", "1");
+    const naturalWidth = modalInnerEl.offsetWidth;
+    const naturalHeight = modalInnerEl.scrollHeight;
+    if (!naturalWidth || !naturalHeight) return;
+    const fitScale = Math.min(
+      (window.innerWidth * MODAL_VIEWPORT_FIT_RATIO) / naturalWidth,
+      (window.innerHeight * MODAL_VIEWPORT_FIT_RATIO) / naturalHeight,
+    );
+    modalInnerEl.style.setProperty("--modal-scale", String(Math.min(MODAL_MAX_SCALE, fitScale)));
+  }
+  window.addEventListener("resize", updateModalScale);
 
   // Home/away *display* names of whichever sticker is currently open --
   // used only to build the downloaded PNG's filename.
@@ -512,6 +537,7 @@
       : null;
     modalContentEl.innerHTML = container.outerHTML;
     modalEl.classList.add("active");
+    updateModalScale();
   }
 
   // Same as openStickerModal, but for a card object with no DOM wrapper yet
@@ -531,15 +557,103 @@
     modalShareContext = null;
   }
 
+  // Collects every same-origin stylesheet rule already loaded on the page,
+  // as text -- used to re-apply the site's CSS inside the detached SVG
+  // snapshot that renderStickerToPNG rasterizes.
+  function collectStylesheetText() {
+    let css = "";
+    for (const sheet of document.styleSheets) {
+      try {
+        for (const rule of sheet.cssRules) {
+          css += `${rule.cssText}\n`;
+        }
+      } catch (error) {
+        // Cross-origin stylesheet (e.g. a CDN font) -- cssRules is unreadable, skip it.
+      }
+    }
+    return css;
+  }
+
+  // The site's body font-family is the "system-ui" generic keyword (native
+  // OS font, e.g. Segoe UI on Windows / San Francisco on macOS, no download
+  // needed). Browsers render an SVG referenced via <img src="data:..."> in a
+  // sandboxed "secure static mode" that -- at least in Chromium -- doesn't
+  // resolve system-ui/-apple-system to the OS UI font, silently falling
+  // back to the browser's generic default (visibly different text). Plain
+  // *named* fonts still resolve fine in that sandbox, so the snapshot swaps
+  // in the pre-system-ui "system font stack" convention (explicit names
+  // covering the same OSes system-ui targets) instead of the generic
+  // keywords, just for the exported PNG.
+  const EXPORT_FONT_STACK =
+    '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
+
+  // Rasterizes a .sticker-container node to a PNG data URL via an SVG
+  // <foreignObject> snapshot rather than html2canvas: html2canvas
+  // re-implements text layout itself and badly mis-measures letter-spacing
+  // and glyph advances (visible as stretched-out text, e.g. "R e m o"), and
+  // it drops the background's saturate() filter -- so the downloaded card
+  // looked visibly different from the on-screen one. Drawing an <img> of an
+  // SVG snapshot instead makes the browser's own renderer lay out the text
+  // and apply the filters, matching the on-screen card exactly.
+  async function renderStickerToPNG(container, scale = 2) {
+    const width = container.offsetWidth;
+    const height = container.offsetHeight;
+
+    const clone = container.cloneNode(true);
+    for (const img of clone.querySelectorAll("img")) {
+      const response = await fetch(img.src);
+      const blob = await response.blob();
+      img.src = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(blob);
+      });
+    }
+
+    const xhtmlNS = "http://www.w3.org/1999/xhtml";
+    const wrapper = document.createElementNS(xhtmlNS, "div");
+    const style = document.createElementNS(xhtmlNS, "style");
+    style.textContent = `${collectStylesheetText()}\n.sticker-container, .sticker-container * { font-family: ${EXPORT_FONT_STACK} !important; }`;
+    wrapper.appendChild(style);
+    wrapper.appendChild(clone);
+
+    const svgNS = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(svgNS, "svg");
+    svg.setAttribute("xmlns", svgNS);
+    svg.setAttribute("width", String(width));
+    svg.setAttribute("height", String(height));
+    const foreignObject = document.createElementNS(svgNS, "foreignObject");
+    foreignObject.setAttribute("width", "100%");
+    foreignObject.setAttribute("height", "100%");
+    foreignObject.appendChild(wrapper);
+    svg.appendChild(foreignObject);
+
+    const svgDataURL = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(
+      new XMLSerializer().serializeToString(svg),
+    )}`;
+    const image = new Image();
+    image.src = svgDataURL;
+    await image.decode();
+
+    const canvas = document.createElement("canvas");
+    canvas.width = width * scale;
+    canvas.height = height * scale;
+    const ctx = canvas.getContext("2d");
+    ctx.scale(scale, scale);
+    ctx.drawImage(image, 0, 0, width, height);
+    return canvas.toDataURL("image/png");
+  }
+
   async function downloadStickerAsPNG() {
     const container = modalContentEl.querySelector(".sticker-container");
     if (!container) return;
-    const canvas = await html2canvas(container, { backgroundColor: null, scale: 2 });
+    const dataURL = await renderStickerToPNG(container);
     const home = modalTeamNames ? modalTeamNames.home : "time-casa";
     const away = modalTeamNames ? modalTeamNames.away : "time-visitante";
     const link = document.createElement("a");
     link.download = `${slugify(home)}-x-${slugify(away)}.png`;
-    link.href = canvas.toDataURL("image/png");
+    link.href = dataURL;
     link.click();
   }
 

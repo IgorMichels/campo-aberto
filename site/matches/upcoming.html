@@ -10,9 +10,27 @@
     />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/matches.css" />
-    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script>
+      // Applies any stored theme choice before first paint, so the page
+      // never flashes the wrong palette. theme.js (loaded later) owns the
+      // toggle button itself.
+      (() => {
+        const stored = localStorage.getItem("campo-aberto-theme");
+        if (stored === "light" || stored === "dark") {
+          document.documentElement.setAttribute("data-theme", stored);
+        }
+      })();
+    </script>
   </head>
   <body>
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-pressed="false"
+      aria-label="Mudar para tema escuro"
+    ></button>
+
     <header class="page-header">
       <h1>Campo Aberto</h1>
       <p class="subtitle">Probabilidades de placar por jogo</p>
@@ -120,6 +138,7 @@
     <script src="../assets/js/score_models.js"></script>
     <script src="../assets/js/poisson_home.js"></script>
     <script src="../assets/js/nav.js"></script>
+    <script src="../assets/js/theme.js"></script>
     <script src="../assets/js/team_display.js"></script>
     <script src="../assets/js/matches_shared.js"></script>
     <script src="../assets/js/matches_upcoming.js"></script>
