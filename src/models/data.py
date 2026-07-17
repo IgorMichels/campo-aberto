@@ -15,6 +15,70 @@ def _time_weight(weeks_ago: pd.Series, half_life_weeks: float) -> pd.Series:
     return 0.5 ** (weeks_ago / half_life_weeks)
 
 
+STAYED_TOP = 1  # ficou-A
+ELEVATOR = 2  # elevador-A-B (subiu ou desceu entre as 2 competições)
+STAYED_SECOND = 3  # ficou-B
+ARRIVED_FROM_BELOW = 4  # elevador-B-C (sem dado na temporada anterior)
+
+
+def _prior_groups(df: pd.DataFrame, teams: list[str]) -> list[int]:
+    """Classifies each team into 1 of 4 fixed hierarchical-prior groups
+    (see src/models/stan_models/hierarchical_home.stan), based on which of the two
+    tracked competitions it played in its own most recent season (within
+    df) versus the season immediately before that -- fixed for a whole
+    season (recomputed "at the turn of the year", not match by match):
+
+      1. STAYED_TOP: played the alphabetically-first competition (Serie A)
+         both last season and this one.
+      2. ELEVATOR: played one tracked competition last season and the
+         OTHER this season (promoted or relegated between them) -- one
+         group regardless of direction.
+      3. STAYED_SECOND: played the alphabetically-second competition
+         (Serie B) both last season and this one.
+      4. ARRIVED_FROM_BELOW: no data at all for the season before its most
+         recent one in df -- a proxy for "promoted from a division this
+         pipeline doesn't ingest" (e.g. Serie C, which has no rows in
+         matches.csv at all), inferred from the ABSENCE of prior-season
+         data, never from a literal competition name.
+
+    Assumes df has EXACTLY 2 distinct `competition` values (true for
+    today's Brazil pipeline: Serie A + Serie B) and that alphabetical order
+    matches tier order (holds for "Serie A" < "Serie B") -- raises
+    ValueError otherwise, rather than silently guessing an N-competition
+    scheme nobody has designed or tested.
+
+    Returns groups: groups[i] is teams[i]'s 1-based group (1-4).
+    """
+    competitions = sorted(df["competition"].unique())
+    if len(competitions) != 2:
+        raise ValueError(
+            f"_prior_groups assumes exactly 2 tracked competitions, got {competitions}"
+        )
+    top, _second = competitions
+
+    long = pd.concat(
+        [
+            df[["home_team", "season", "competition"]].rename(columns={"home_team": "team"}),
+            df[["away_team", "season", "competition"]].rename(columns={"away_team": "team"}),
+        ],
+        ignore_index=True,
+    ).drop_duplicates()
+    by_team_season = long.groupby(["team", "season"])["competition"].apply(set)
+
+    def _group_for(team: str) -> int:
+        seasons = by_team_season.loc[team]
+        latest_season = seasons.index.max()
+        this_year = seasons[latest_season]
+        last_year = seasons.get(latest_season - 1, set())
+        if not last_year:
+            return ARRIVED_FROM_BELOW
+        if this_year == last_year:
+            return STAYED_TOP if this_year == {top} else STAYED_SECOND
+        return ELEVATOR
+
+    return [_group_for(team) for team in teams]
+
+
 def build_stan_data(
     df: pd.DataFrame,
     reference_date: pd.Timestamp | None = None,
@@ -35,6 +99,9 @@ def build_stan_data(
 
     Returns:
         (stan_data, teams), where teams[i - 1] is the team name for Stan index i.
+        Also includes "group" (see _prior_groups), a fixed 4-way hierarchical-
+        prior classification only src.models.hierarchical_home.stan reads --
+        every other registered model's .stan file simply ignores it.
     """
     # matches.csv can now contain scheduled/postponed rows with no result
     # (see src/ingestion/brazil/build_treated_dataset.py) -- only played
@@ -64,6 +131,16 @@ def build_stan_data(
         "y_j": df["away_goals"].tolist(),
         "game_weight": _time_weight(weeks_ago, half_life_weeks).tolist(),
     }
+    try:
+        stan_data["group"] = _prior_groups(df, teams)
+    except ValueError:
+        # hierarchical_home's grouping isn't computable for this data (e.g.
+        # not exactly 2 tracked competitions) -- every other registered
+        # model ignores "group" entirely, so simply omitting it here keeps
+        # build_stan_data generic. Only fitting hierarchical_home on such
+        # data would fail, at Stan's own data validation -- the right place
+        # for that to surface, not here.
+        pass
     return stan_data, teams
 
 

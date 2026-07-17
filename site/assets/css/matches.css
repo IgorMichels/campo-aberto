@@ -527,7 +527,15 @@
   z-index: 999;
   display: none;
   justify-content: center;
-  align-items: center;
+  /* "safe center": centers when the (scaled) card fits the viewport, but
+     falls back to start-alignment instead of centering off-screen when it
+     doesn't -- without this, a card taller than the viewport (common with
+     the 1.5x zoom below on shorter windows) centers around its midpoint and
+     crops its top/bottom with no way to reach the cropped part, since a
+     position:fixed ancestor isn't scrollable by itself. */
+  align-items: safe center;
+  overflow-y: auto;
+  padding: 24px 0;
 }
 
 .sticker-modal.active {
@@ -535,7 +543,7 @@
 }
 
 .sticker-modal-overlay {
-  position: absolute;
+  position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(6px);
@@ -549,13 +557,12 @@
   flex-direction: column;
   align-items: center;
   gap: 14px;
-  transform: scale(1.5);
-}
-
-@media (max-width: 480px) {
-  .sticker-modal-inner {
-    transform: scale(1.1);
-  }
+  /* --modal-scale is computed in JS (updateModalScale in matches_shared.js)
+     to fit the viewport -- transform doesn't grow a scroll ancestor's
+     scrollable area, so an unconditional scale(1.5) could paint the card
+     partly outside the viewport with no way to reach the cropped part on
+     shorter windows. The 1.5 fallback only applies before JS runs. */
+  transform: scale(var(--modal-scale, 1.5));
 }
 
 .sticker-modal-toolbar {
