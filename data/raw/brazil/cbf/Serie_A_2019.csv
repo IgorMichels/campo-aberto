@@ -1,0 +1,381 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,28/04/2019,11:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Santos / SP,1 X 2
+002,27/04/2019,19:00,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Avaí / SC,2 X 1
+003,28/04/2019,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Csa / AL,4 X 0
+004,28/04/2019,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Fortaleza / CE,4 X 0
+005,27/04/2019,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Botafogo / RJ,2 X 0
+006,27/04/2019,21:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Cruzeiro / MG,3 X 1
+007,28/04/2019,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Goiás / GO,0 X 1
+008,27/04/2019,19:00,Índio Condá / Chapeco,Chapecoense / SC,Internacional / RS,2 X 0
+009,28/04/2019,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Corinthians / SP,3 X 2
+010,28/04/2019,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Vasco da Gama / RJ,4 X 1
+011,01/05/2019,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Flamengo / RJ,2 X 1
+012,01/05/2019,19:15,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Ceará / CE,1 X 0
+013,01/05/2019,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Athletico Paranaense / PR,2 X 1
+014,01/05/2019,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Chapecoense / SC,1 X 0
+015,02/05/2019,19:15,Urbano Caldeira / Santos,Santos / SP,Fluminense / RJ,2 X 1
+016,01/05/2019,21:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Atlético / MG,1 X 2
+017,02/05/2019,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Bahia / BA,3 X 2
+018,01/05/2019,19:15,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Grêmio / RS,1 X 1
+019,01/05/2019,21:30,Serra Dourada / Goiania,Goiás / GO,São Paulo / SP,1 X 2
+020,01/05/2019,16:00,Rei Pelé / Maceio,Csa / AL,Palmeiras / SP,1 X 1
+021,05/05/2019,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Fluminense / RJ,4 X 5
+022,05/05/2019,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Goiás / GO,2 X 1
+023,04/05/2019,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Atlético / MG,1 X 2
+024,04/05/2019,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Internacional / RS,1 X 0
+025,05/05/2019,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Flamengo / RJ,1 X 1
+026,04/05/2019,19:00,Arena da Amazônia / Manaus,Vasco da Gama / RJ,Corinthians / SP,1 X 1
+027,05/05/2019,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Fortaleza / CE,1 X 0
+028,05/05/2019,11:00,Índio Condá / Chapeco,Chapecoense / SC,Athletico Paranaense / PR,1 X 1
+029,05/05/2019,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Avaí / SC,1 X 0
+030,05/05/2019,16:00,Rei Pelé / Maceio,Csa / AL,Santos / SP,0 X 0
+031,12/05/2019,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Cruzeiro / MG,3 X 1
+032,12/05/2019,16:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,Palmeiras / SP,0 X 2
+033,12/05/2019,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,São Paulo / SP,0 X 1
+034,11/05/2019,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Grêmio / RS,0 X 0
+035,12/05/2019,16:00,Paulo Machado de Carvalho / Sao Paulo,Santos / SP,Vasco da Gama / RJ,3 X 0
+036,12/05/2019,11:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Chapecoense / SC,2 X 1
+037,11/05/2019,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Botafogo / RJ,0 X 1
+038,12/05/2019,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Csa / AL,0 X 0
+039,11/05/2019,21:00,Serra Dourada / Goiania,Goiás / GO,Ceará / CE,2 X 1
+040,12/05/2019,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Bahia / BA,1 X 0
+041,19/05/2019,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Csa / AL,2 X 0
+042,18/05/2019,19:00,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Flamengo / RJ,2 X 1
+043,19/05/2019,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Grêmio / RS,2 X 1
+044,18/05/2019,19:00,Paulo Machado de Carvalho / Sao Paulo,Palmeiras / SP,Santos / SP,4 X 0
+045,19/05/2019,11:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Bahia / BA,0 X 0
+046,19/05/2019,19:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Avaí / SC,1 X 1
+047,18/05/2019,18:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Cruzeiro / MG,4 X 1
+048,19/05/2019,16:00,Índio Condá / Chapeco,Chapecoense / SC,Fortaleza / CE,1 X 3
+049,19/05/2019,16:00,Serra Dourada / Goiania,Goiás / GO,Botafogo / RJ,1 X 0
+050,19/05/2019,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Corinthians / SP,0 X 2
+051,25/05/2019,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Atlético / MG,1 X 0
+052,26/05/2019,19:00,Raimundo Sampaio / Belo Horizonte,Cruzeiro / MG,Chapecoense / SC,1 X 2
+053,26/05/2019,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Vasco da Gama / RJ,1 X 1
+054,26/05/2019,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,São Paulo / SP,1 X 0
+055,26/05/2019,16:00,Urbano Caldeira / Santos,Santos / SP,Internacional / RS,0 X 0
+056,26/05/2019,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Athletico Paranaense / PR,3 X 2
+057,25/05/2019,16:00,Estádio Nacional Mané Garrincha / Brasilia,Botafogo / RJ,Palmeiras / SP,0 X 1
+058,27/05/2019,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Ceará / CE,1 X 2
+059,26/05/2019,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Fluminense / RJ,3 X 2
+060,27/05/2019,20:00,Rei Pelé / Maceio,Csa / AL,Goiás / GO,1 X 0
+061,02/06/2019,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Avaí / SC,2 X 0
+062,02/06/2019,19:00,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Csa / AL,4 X 0
+063,02/06/2019,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Santos / SP,0 X 1
+064,07/08/2019,19:15,Arena Corinthians / Sao Paulo,Corinthians / SP,Goiás / GO,2 X 0
+065,02/06/2019,16:00,Paulo Machado de Carvalho / Sao Paulo,São Paulo / SP,Cruzeiro / MG,1 X 1
+066,01/06/2019,16:00,Nilton Santos / Rio de Janeiro,Flamengo / RJ,Fortaleza / CE,2 X 0
+067,02/06/2019,11:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Vasco da Gama / RJ,1 X 0
+068,02/06/2019,19:00,Índio Condá / Chapeco,Chapecoense / SC,Palmeiras / SP,1 X 2
+069,01/06/2019,19:00,Roberto Santos / Salvador,Bahia / BA,Grêmio / RS,1 X 0
+070,02/06/2019,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Fluminense / RJ,3 X 0
+071,08/06/2019,19:00,Francisco Stédile / Caxias do Sul,Grêmio / RS,Fortaleza / CE,1 X 0
+072,08/06/2019,19:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Corinthians / SP,0 X 0
+073,08/06/2019,19:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Bahia / BA,0 X 0
+074,08/06/2019,16:30,Allianz Parque / Sao Paulo,Palmeiras / SP,Athletico Paranaense / PR,1 X 0
+075,09/06/2019,19:00,Urbano Caldeira / Santos,Santos / SP,Atlético / MG,3 X 1
+076,07/06/2019,20:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Internacional / RS,2 X 1
+077,09/06/2019,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Flamengo / RJ,0 X 0
+078,08/06/2019,21:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,São Paulo / SP,0 X 0
+079,10/06/2019,20:00,Serra Dourada / Goiania,Goiás / GO,Chapecoense / SC,3 X 1
+080,09/06/2019,19:00,Rei Pelé / Maceio,Csa / AL,Botafogo / RJ,1 X 2
+081,12/06/2019,21:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Bahia / BA,3 X 1
+082,13/06/2019,20:00,Raimundo Sampaio / Belo Horizonte,Atlético / MG,São Paulo / SP,1 X 1
+083,12/06/2019,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Cruzeiro / MG,2 X 1
+084,13/06/2019,20:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Avaí / SC,2 X 0
+085,12/06/2019,21:30,Urbano Caldeira / Santos,Santos / SP,Corinthians / SP,1 X 0
+086,13/06/2019,19:15,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Ceará / CE,1 X 0
+087,12/06/2019,19:15,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Grêmio / RS,0 X 1
+088,13/06/2019,20:00,Índio Condá / Chapeco,Chapecoense / SC,Fluminense / RJ,1 X 1
+089,13/06/2019,20:00,Serra Dourada / Goiania,Goiás / GO,Athletico Paranaense / PR,2 X 1
+090,12/06/2019,21:30,Estádio Nacional Mané Garrincha / Brasilia,Csa / AL,Flamengo / RJ,0 X 2
+091,13/07/2019,17:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Vasco da Gama / RJ,2 X 1
+092,14/07/2019,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Botafogo / RJ,0 X 0
+093,13/07/2019,17:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Avaí / SC,2 X 0
+094,14/07/2019,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Csa / AL,1 X 0
+095,13/07/2019,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Palmeiras / SP,1 X 1
+096,14/07/2019,11:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Goiás / GO,6 X 1
+097,15/07/2019,20:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Ceará / CE,1 X 1
+098,14/07/2019,19:00,Índio Condá / Chapeco,Chapecoense / SC,Atlético / MG,1 X 2
+099,13/07/2019,19:00,Roberto Santos / Salvador,Bahia / BA,Santos / SP,0 X 1
+100,14/07/2019,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Internacional / RS,1 X 0
+101,20/07/2019,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Grêmio / RS,1 X 1
+102,21/07/2019,16:00,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Fortaleza / CE,2 X 2
+103,20/07/2019,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Palmeiras / SP,2 X 0
+104,21/07/2019,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Flamengo / RJ,1 X 1
+105,22/07/2019,20:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Chapecoense / SC,4 X 0
+106,20/07/2019,11:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Fluminense / RJ,2 X 1
+107,21/07/2019,11:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Santos / SP,0 X 1
+108,21/07/2019,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Goiás / GO,0 X 0
+109,20/07/2019,17:00,Octávio Mangabeira / Salvador,Bahia / BA,Cruzeiro / MG,0 X 0
+110,20/07/2019,19:00,Rei Pelé / Maceio,Csa / AL,Athletico Paranaense / PR,0 X 4
+111,27/07/2019,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Ceará / CE,1 X 0
+112,27/07/2019,19:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Athletico Paranaense / PR,0 X 2
+113,28/07/2019,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Corinthians / SP,1 X 3
+114,27/07/2019,17:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Vasco da Gama / RJ,1 X 1
+115,28/07/2019,16:00,Urbano Caldeira / Santos,Santos / SP,Avaí / SC,3 X 1
+116,28/07/2019,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Botafogo / RJ,3 X 2
+117,27/07/2019,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,São Paulo / SP,1 X 2
+118,28/07/2019,11:00,Índio Condá / Chapeco,Chapecoense / SC,Bahia / BA,0 X 0
+119,28/07/2019,19:00,Serra Dourada / Goiania,Goiás / GO,Atlético / MG,0 X 0
+120,29/07/2019,20:00,Rei Pelé / Maceio,Csa / AL,Grêmio / RS,0 X 0
+121,05/08/2019,20:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Chapecoense / SC,3 X 3
+122,04/08/2019,19:00,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Cruzeiro / MG,2 X 0
+123,03/08/2019,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Fortaleza / CE,2 X 1
+124,04/08/2019,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Palmeiras / SP,1 X 1
+125,04/08/2019,11:00,Urbano Caldeira / Santos,Santos / SP,Goiás / GO,6 X 1
+126,04/08/2019,19:00,Kleber José de Andrade / Cariacica,Vasco da Gama / RJ,Csa / AL,0 X 0
+127,03/08/2019,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Internacional / RS,2 X 1
+128,04/08/2019,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Botafogo / RJ,0 X 2
+129,04/08/2019,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Flamengo / RJ,3 X 0
+130,21/08/2019,19:15,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,São Paulo / SP,0 X 1
+131,11/08/2019,11:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Corinthians / SP,0 X 0
+132,10/08/2019,21:00,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Fluminense / RJ,2 X 1
+133,10/08/2019,17:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Chapecoense / SC,4 X 1
+134,11/08/2019,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Bahia / BA,2 X 2
+135,10/08/2019,17:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Santos / SP,3 X 2
+136,10/08/2019,19:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Grêmio / RS,3 X 1
+137,11/08/2019,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Athletico Paranaense / PR,2 X 1
+138,11/08/2019,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Cruzeiro / MG,2 X 2
+139,11/08/2019,19:00,Serra Dourada / Goiania,Goiás / GO,Vasco da Gama / RJ,0 X 1
+140,12/08/2019,20:00,Rei Pelé / Maceio,Csa / AL,Fortaleza / CE,0 X 2
+141,17/08/2019,21:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Palmeiras / SP,1 X 1
+142,18/08/2019,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Santos / SP,2 X 0
+143,17/08/2019,17:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Internacional / RS,0 X 1
+144,17/08/2019,17:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Botafogo / RJ,2 X 0
+145,18/08/2019,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Ceará / CE,1 X 0
+146,17/08/2019,19:00,Estádio Nacional Mané Garrincha / Brasilia,Vasco da Gama / RJ,Flamengo / RJ,1 X 4
+147,18/08/2019,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Csa / AL,0 X 1
+148,18/08/2019,19:00,Índio Condá / Chapeco,Chapecoense / SC,Avaí / SC,1 X 0
+149,18/08/2019,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Goiás / GO,1 X 1
+150,17/08/2019,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Atlético / MG,1 X 0
+151,24/08/2019,17:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Athletico Paranaense / PR,2 X 1
+152,24/08/2019,11:00,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Bahia / BA,0 X 1
+153,25/08/2019,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Flamengo / RJ,0 X 3
+154,10/09/2019,21:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Fluminense / RJ,3 X 0
+155,25/08/2019,16:00,Urbano Caldeira / Santos,Santos / SP,Fortaleza / CE,3 X 3
+156,25/08/2019,16:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,São Paulo / SP,2 X 0
+157,26/08/2019,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Chapecoense / SC,0 X 0
+158,25/08/2019,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Corinthians / SP,1 X 1
+159,25/08/2019,16:00,Serra Dourada / Goiania,Goiás / GO,Internacional / RS,2 X 1
+160,25/08/2019,19:00,Rei Pelé / Maceio,Csa / AL,Cruzeiro / MG,1 X 1
+161,31/08/2019,21:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Botafogo / RJ,3 X 2
+162,01/09/2019,19:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Vasco da Gama / RJ,1 X 0
+163,01/09/2019,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Goiás / GO,2 X 0
+164,01/09/2019,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Atlético / MG,1 X 0
+165,31/08/2019,11:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Grêmio / RS,0 X 0
+166,01/09/2019,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Palmeiras / SP,3 X 0
+167,02/09/2019,20:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Avaí / SC,0 X 1
+168,31/08/2019,19:00,Índio Condá / Chapeco,Chapecoense / SC,Santos / SP,0 X 1
+169,31/08/2019,17:00,Octávio Mangabeira / Salvador,Bahia / BA,Csa / AL,1 X 0
+170,31/08/2019,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Ceará / CE,1 X 0
+171,07/09/2019,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,São Paulo / SP,1 X 0
+172,08/09/2019,11:00,Raimundo Sampaio / Belo Horizonte,Cruzeiro / MG,Grêmio / RS,1 X 4
+173,07/09/2019,17:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Fluminense / RJ,0 X 1
+174,07/09/2019,11:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Ceará / CE,2 X 2
+175,08/09/2019,16:00,Urbano Caldeira / Santos,Santos / SP,Athletico Paranaense / PR,1 X 1
+176,07/09/2019,11:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Bahia / BA,0 X 2
+177,08/09/2019,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Atlético / MG,2 X 1
+178,07/09/2019,17:00,Estádio Nacional Mané Garrincha / Brasilia,Avaí / SC,Flamengo / RJ,0 X 3
+179,07/09/2019,21:00,Serra Dourada / Goiania,Goiás / GO,Palmeiras / SP,1 X 2
+180,08/09/2019,19:00,Rei Pelé / Maceio,Csa / AL,Chapecoense / SC,2 X 0
+181,15/09/2019,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Goiás / GO,3 X 0
+182,15/09/2019,11:00,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Internacional / RS,1 X 3
+183,14/09/2019,21:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Botafogo / RJ,0 X 0
+184,14/09/2019,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Cruzeiro / MG,1 X 0
+185,15/09/2019,19:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Csa / AL,1 X 1
+186,14/09/2019,17:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Santos / SP,1 X 0
+187,15/09/2019,16:00,Estádio Nacional Mané Garrincha / Brasilia,Fluminense / RJ,Corinthians / SP,1 X 0
+188,14/09/2019,19:00,Índio Condá / Chapeco,Chapecoense / SC,Vasco da Gama / RJ,1 X 2
+189,15/09/2019,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Fortaleza / CE,1 X 1
+190,15/09/2019,11:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Avaí / SC,0 X 1
+191,22/09/2019,11:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Chapecoense / SC,1 X 0
+192,21/09/2019,17:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Flamengo / RJ,1 X 2
+193,22/09/2019,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Palmeiras / SP,0 X 1
+194,21/09/2019,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Bahia / BA,2 X 1
+195,21/09/2019,21:00,Urbano Caldeira / Santos,Santos / SP,Grêmio / RS,0 X 3
+196,22/09/2019,16:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Athletico Paranaense / PR,1 X 1
+197,21/09/2019,11:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,São Paulo / SP,1 X 2
+198,23/09/2019,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Atlético / MG,1 X 0
+199,22/09/2019,19:00,Serra Dourada / Goiania,Goiás / GO,Fluminense / RJ,3 X 0
+200,22/09/2019,16:00,Rei Pelé / Maceio,Csa / AL,Ceará / CE,1 X 0
+201,26/09/2019,20:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Avaí / SC,6 X 1
+202,02/10/2019,19:15,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Vasco da Gama / RJ,1 X 2
+203,25/09/2019,19:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Cruzeiro / MG,0 X 0
+204,26/09/2019,19:15,Paulo Machado de Carvalho / Sao Paulo,Palmeiras / SP,Csa / AL,6 X 2
+205,25/09/2019,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Goiás / GO,0 X 1
+206,25/09/2019,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Internacional / RS,3 X 1
+207,26/09/2019,20:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Santos / SP,1 X 1
+208,02/10/2019,19:15,Índio Condá / Chapeco,Chapecoense / SC,Corinthians / SP,0 X 1
+209,25/09/2019,21:30,Octávio Mangabeira / Salvador,Bahia / BA,Botafogo / RJ,2 X 0
+210,26/09/2019,21:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Fortaleza / CE,4 X 1
+211,29/09/2019,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Palmeiras / SP,1 X 1
+212,29/09/2019,19:00,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Ceará / CE,2 X 1
+213,30/09/2019,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Botafogo / RJ,1 X 0
+214,29/09/2019,11:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Vasco da Gama / RJ,1 X 0
+215,29/09/2019,16:00,Urbano Caldeira / Santos,Santos / SP,Csa / AL,2 X 0
+216,28/09/2019,19:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,São Paulo / SP,0 X 0
+217,29/09/2019,16:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Grêmio / RS,2 X 1
+218,30/09/2019,20:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Bahia / BA,0 X 2
+219,30/09/2019,20:00,Serra Dourada / Goiania,Goiás / GO,Cruzeiro / MG,1 X 0
+220,29/09/2019,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Chapecoense / SC,1 X 1
+221,05/10/2019,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Corinthians / SP,0 X 0
+222,05/10/2019,21:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Internacional / RS,1 X 1
+223,06/10/2019,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Goiás / GO,0 X 1
+224,06/10/2019,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Atlético / MG,1 X 1
+225,05/10/2019,17:00,Paulo Machado de Carvalho / Sao Paulo,São Paulo / SP,Fortaleza / CE,2 X 1
+226,05/10/2019,17:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Santos / SP,0 X 1
+227,06/10/2019,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Fluminense / RJ,0 X 1
+228,06/10/2019,11:00,Índio Condá / Chapeco,Chapecoense / SC,Flamengo / RJ,0 X 1
+229,05/10/2019,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Athletico Paranaense / PR,1 X 2
+230,06/10/2019,19:00,Rei Pelé / Maceio,Csa / AL,Avaí / SC,3 X 1
+231,09/10/2019,21:00,Francisco Stédile / Caxias do Sul,Grêmio / RS,Ceará / CE,2 X 1
+232,09/10/2019,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Fluminense / RJ,0 X 0
+233,09/10/2019,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Chapecoense / SC,2 X 0
+234,10/10/2019,19:15,Arena Corinthians / Sao Paulo,Corinthians / SP,Athletico Paranaense / PR,2 X 2
+235,09/10/2019,21:30,Urbano Caldeira / Santos,Santos / SP,Palmeiras / SP,2 X 0
+236,10/10/2019,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Atlético / MG,3 X 1
+237,09/10/2019,19:15,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Goiás / GO,3 X 1
+238,10/10/2019,19:15,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Vasco da Gama / RJ,0 X 0
+239,09/10/2019,21:00,Octávio Mangabeira / Salvador,Bahia / BA,São Paulo / SP,0 X 0
+240,09/10/2019,19:15,Rei Pelé / Maceio,Csa / AL,Internacional / RS,1 X 0
+241,13/10/2019,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Santos / SP,0 X 0
+242,13/10/2019,19:00,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Grêmio / RS,1 X 4
+243,13/10/2019,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Avaí / SC,1 X 0
+244,12/10/2019,21:00,Paulo Machado de Carvalho / Sao Paulo,Palmeiras / SP,Botafogo / RJ,1 X 0
+245,13/10/2019,18:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Corinthians / SP,1 X 0
+246,13/10/2019,16:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Fortaleza / CE,1 X 0
+247,12/10/2019,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Bahia / BA,2 X 0
+248,13/10/2019,19:00,Índio Condá / Chapeco,Chapecoense / SC,Cruzeiro / MG,1 X 1
+249,12/10/2019,17:00,Serra Dourada / Goiania,Goiás / GO,Csa / AL,1 X 0
+250,13/10/2019,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Flamengo / RJ,0 X 2
+251,16/10/2019,19:15,Arena do Grêmio / Porto Alegre,Grêmio / RS,Bahia / BA,0 X 1
+252,16/10/2019,21:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,São Paulo / SP,1 X 0
+253,16/10/2019,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Flamengo / RJ,1 X 2
+254,16/10/2019,21:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Chapecoense / SC,1 X 0
+255,17/10/2019,19:15,Urbano Caldeira / Santos,Santos / SP,Ceará / CE,2 X 1
+256,16/10/2019,21:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Botafogo / RJ,2 X 1
+257,17/10/2019,21:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Athletico Paranaense / PR,1 X 2
+258,17/10/2019,19:15,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Internacional / RS,0 X 2
+259,16/10/2019,21:30,Serra Dourada / Goiania,Goiás / GO,Corinthians / SP,2 X 2
+260,16/10/2019,19:15,Rei Pelé / Maceio,Csa / AL,Atlético / MG,2 X 2
+261,20/10/2019,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Vasco da Gama / RJ,0 X 1
+262,20/10/2019,16:00,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Santos / SP,2 X 0
+263,19/10/2019,17:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Grêmio / RS,2 X 1
+264,19/10/2019,19:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Cruzeiro / MG,1 X 2
+265,20/10/2019,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Avaí / SC,1 X 0
+266,20/10/2019,18:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Fluminense / RJ,2 X 0
+267,21/10/2019,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Csa / AL,2 X 1
+268,20/10/2019,19:00,Índio Condá / Chapeco,Chapecoense / SC,Goiás / GO,2 X 2
+269,21/10/2019,19:30,Roberto Santos / Salvador,Bahia / BA,Ceará / CE,1 X 2
+270,20/10/2019,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Palmeiras / SP,1 X 1
+271,27/10/2019,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Botafogo / RJ,3 X 0
+272,26/10/2019,21:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Fortaleza / CE,1 X 1
+273,26/10/2019,17:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Vasco da Gama / RJ,1 X 1
+274,26/10/2019,17:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Santos / SP,0 X 0
+275,27/10/2019,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Atlético / MG,2 X 0
+276,27/10/2019,19:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Csa / AL,1 X 0
+277,26/10/2019,19:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Chapecoense / SC,1 X 1
+278,27/10/2019,18:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Palmeiras / SP,1 X 2
+279,26/10/2019,19:00,Octávio Mangabeira / Salvador,Bahia / BA,Internacional / RS,2 X 3
+280,27/10/2019,16:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Goiás / GO,4 X 1
+281,31/10/2019,21:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Athletico Paranaense / PR,1 X 1
+282,30/10/2019,19:30,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Chapecoense / SC,0 X 2
+283,30/10/2019,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Fluminense / RJ,2 X 0
+284,30/10/2019,19:30,Allianz Parque / Sao Paulo,Palmeiras / SP,São Paulo / SP,3 X 0
+285,31/10/2019,19:15,Urbano Caldeira / Santos,Santos / SP,Bahia / BA,1 X 0
+286,30/10/2019,21:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Grêmio / RS,1 X 3
+287,31/10/2019,21:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Cruzeiro / MG,0 X 2
+288,30/10/2019,19:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Fortaleza / CE,1 X 3
+289,31/10/2019,20:00,Serra Dourada / Goiania,Goiás / GO,Flamengo / RJ,2 X 2
+290,30/10/2019,21:30,Rei Pelé / Maceio,Csa / AL,Corinthians / SP,2 X 1
+291,03/11/2019,18:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Internacional / RS,2 X 0
+292,03/11/2019,19:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Bahia / BA,1 X 1
+293,02/11/2019,17:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Atlético / MG,2 X 2
+294,02/11/2019,19:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Ceará / CE,1 X 0
+295,03/11/2019,19:00,Urbano Caldeira / Santos,Santos / SP,Botafogo / RJ,4 X 1
+296,03/11/2019,16:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Corinthians / SP,4 X 1
+297,02/11/2019,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Vasco da Gama / RJ,0 X 0
+298,02/11/2019,21:00,Índio Condá / Chapeco,Chapecoense / SC,São Paulo / SP,0 X 3
+299,03/11/2019,19:30,Serra Dourada / Goiania,Goiás / GO,Avaí / SC,2 X 0
+300,03/11/2019,18:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Csa / AL,1 X 0
+301,07/11/2019,21:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Csa / AL,2 X 1
+302,06/11/2019,20:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,Goiás / GO,2 X 0
+303,07/11/2019,19:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Internacional / RS,2 X 0
+304,06/11/2019,19:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Fortaleza / CE,3 X 2
+305,07/11/2019,19:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Fluminense / RJ,0 X 2
+306,06/11/2019,21:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Palmeiras / SP,1 X 2
+307,07/11/2019,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Flamengo / RJ,0 X 1
+308,06/11/2019,21:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Santos / SP,1 X 2
+309,06/11/2019,21:30,Octávio Mangabeira / Salvador,Bahia / BA,Chapecoense / SC,1 X 1
+310,06/11/2019,21:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Cruzeiro / MG,0 X 0
+311,10/11/2019,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fluminense / RJ,2 X 1
+312,10/11/2019,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Atlético / MG,0 X 0
+313,10/11/2019,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Ceará / CE,1 X 0
+314,09/11/2019,19:00,Paulo Machado de Carvalho / Sao Paulo,Palmeiras / SP,Corinthians / SP,1 X 1
+315,10/11/2019,16:00,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Athletico Paranaense / PR,0 X 1
+316,10/11/2019,18:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Bahia / BA,3 X 1
+317,11/11/2019,20:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Avaí / SC,2 X 0
+318,10/11/2019,19:00,Índio Condá / Chapeco,Chapecoense / SC,Grêmio / RS,0 X 1
+319,09/11/2019,17:00,Serra Dourada / Goiania,Goiás / GO,Santos / SP,0 X 3
+320,10/11/2019,19:00,Rei Pelé / Maceio,Csa / AL,Vasco da Gama / RJ,0 X 3
+321,17/11/2019,16:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,Flamengo / RJ,0 X 1
+322,18/11/2019,20:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Avaí / SC,0 X 0
+323,17/11/2019,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Csa / AL,3 X 0
+324,17/11/2019,18:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Internacional / RS,0 X 0
+325,16/11/2019,17:00,Urbano Caldeira / Santos,Santos / SP,São Paulo / SP,1 X 1
+326,18/11/2019,19:30,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Goiás / GO,1 X 1
+327,16/11/2019,19:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Atlético / MG,1 X 1
+328,17/11/2019,18:00,Índio Condá / Chapeco,Chapecoense / SC,Ceará / CE,1 X 0
+329,17/11/2019,16:00,Octávio Mangabeira / Salvador,Bahia / BA,Palmeiras / SP,1 X 1
+330,17/11/2019,18:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Botafogo / RJ,1 X 0
+331,24/11/2019,19:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Fortaleza / CE,2 X 2
+332,24/11/2019,16:00,Magalhães Pinto / Belo Horizonte,Atlético / MG,Athletico Paranaense / PR,0 X 1
+333,24/11/2019,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,São Paulo / SP,1 X 1
+334,24/11/2019,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Grêmio / RS,1 X 2
+335,23/11/2019,21:00,Urbano Caldeira / Santos,Santos / SP,Cruzeiro / MG,4 X 1
+336,13/11/2019,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Vasco da Gama / RJ,4 X 4
+337,24/11/2019,18:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Corinthians / SP,1 X 0
+338,24/11/2019,19:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Chapecoense / SC,0 X 1
+339,24/11/2019,16:00,Serra Dourada / Goiania,Goiás / GO,Bahia / BA,4 X 3
+340,25/11/2019,20:00,Rei Pelé / Maceio,Csa / AL,Fluminense / RJ,0 X 1
+341,27/11/2019,19:30,José Pinheiro Borda / Porto Alegre,Internacional / RS,Goiás / GO,1 X 2
+342,28/11/2019,21:30,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Csa / AL,0 X 1
+343,28/11/2019,20:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Santos / SP,2 X 1
+344,27/11/2019,21:30,Arena Corinthians / Sao Paulo,Corinthians / SP,Avaí / SC,3 X 0
+345,28/11/2019,20:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Vasco da Gama / RJ,1 X 0
+346,27/11/2019,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Ceará / CE,4 X 1
+347,28/11/2019,19:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Palmeiras / SP,1 X 0
+348,27/11/2019,19:30,Índio Condá / Chapeco,Chapecoense / SC,Botafogo / RJ,0 X 1
+349,27/11/2019,21:00,Octávio Mangabeira / Salvador,Bahia / BA,Atlético / MG,1 X 1
+350,27/11/2019,21:30,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Grêmio / RS,2 X 0
+351,01/12/2019,19:00,Arena do Grêmio / Porto Alegre,Grêmio / RS,São Paulo / SP,3 X 0
+352,01/12/2019,18:00,Raimundo Sampaio / Belo Horizonte,Atlético / MG,Corinthians / SP,2 X 1
+353,30/11/2019,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Athletico Paranaense / PR,1 X 1
+354,01/12/2019,16:00,Allianz Parque / Sao Paulo,Palmeiras / SP,Flamengo / RJ,1 X 3
+355,01/12/2019,19:00,Urbano Caldeira / Santos,Santos / SP,Chapecoense / SC,2 X 0
+356,02/12/2019,20:00,São Januário / Rio de Janeiro,Vasco da Gama / RJ,Cruzeiro / MG,1 X 0
+357,30/11/2019,19:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Internacional / RS,0 X 1
+358,01/12/2019,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Fluminense / RJ,1 X 1
+359,01/12/2019,16:00,Serra Dourada / Goiania,Goiás / GO,Fortaleza / CE,1 X 2
+360,01/12/2019,18:00,Rei Pelé / Maceio,Csa / AL,Bahia / BA,1 X 2
+361,05/12/2019,19:15,Arena do Grêmio / Porto Alegre,Grêmio / RS,Cruzeiro / MG,2 X 0
+362,04/12/2019,19:30,Magalhães Pinto / Belo Horizonte,Atlético / MG,Botafogo / RJ,2 X 0
+363,04/12/2019,19:30,Governador Plácido Aderaldo Castelo / Fortaleza,Ceará / CE,Corinthians / SP,0 X 1
+364,05/12/2019,19:15,Brinco de Ouro da Princesa / Campinas,Palmeiras / SP,Goiás / GO,5 X 1
+365,04/12/2019,21:30,Cícero Pompeu de Toledo / Sao Paulo,São Paulo / SP,Internacional / RS,2 X 1
+366,05/12/2019,20:00,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Avaí / SC,6 X 1
+367,04/12/2019,21:30,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Fortaleza / CE,0 X 0
+368,04/12/2019,21:00,Índio Condá / Chapeco,Chapecoense / SC,Csa / AL,3 X 0
+369,05/12/2019,19:15,Octávio Mangabeira / Salvador,Bahia / BA,Vasco da Gama / RJ,1 X 1
+370,04/12/2019,19:00,Joaquim Américo Guimarães / Curitiba,Athletico Paranaense / PR,Santos / SP,1 X 0
+371,08/12/2019,16:00,José Pinheiro Borda / Porto Alegre,Internacional / RS,Atlético / MG,0 X 0
+372,08/12/2019,16:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Palmeiras / SP,0 X 2
+373,08/12/2019,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Bahia / BA,2 X 1
+374,08/12/2019,16:00,Arena Corinthians / Sao Paulo,Corinthians / SP,Fluminense / RJ,1 X 2
+375,08/12/2019,16:00,Urbano Caldeira / Santos,Santos / SP,Flamengo / RJ,4 X 0
+376,08/12/2019,16:00,Jornalista Mário Filho / Rio de Janeiro,Vasco da Gama / RJ,Chapecoense / SC,1 X 1
+377,08/12/2019,16:00,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Ceará / CE,1 X 1
+378,08/12/2019,16:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Athletico Paranaense / PR,0 X 0
+379,08/12/2019,16:00,Serra Dourada / Goiania,Goiás / GO,Grêmio / RS,3 X 2
+380,08/12/2019,16:00,Rei Pelé / Maceio,Csa / AL,São Paulo / SP,1 X 2

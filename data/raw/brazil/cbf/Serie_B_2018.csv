@@ -1,0 +1,381 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,14/04/2018,21:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Paysandu / PA,0 X 1
+002,13/04/2018,20:30,Arena Barueri / Barueri,Oeste / SP,Crb / AL,2 X 0
+003,14/04/2018,16:30,Bento da Silva Freitas / Pelotas,Brasil / RS,São Bento / SP,1 X 1
+004,13/04/2018,21:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Juventude / RS,2 X 1
+005,13/04/2018,19:15,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Guarani / SP,2 X 1
+006,14/04/2018,16:30,Serra Dourada / Goiania,Vila Nova / GO,Avaí / SC,1 X 0
+007,13/04/2018,20:30,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Criciúma / SC,3 X 2
+008,14/04/2018,16:30,Rei Pelé / Maceio,Csa / AL,Goiás / GO,2 X 1
+009,14/04/2018,16:30,Jacy Scaff / Londrina,Londrina / PR,Boa / MG,1 X 0
+010,14/04/2018,19:00,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Coritiba / PR,2 X 0
+011,21/04/2018,16:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Sampaio Correa / MA,2 X 0
+012,20/04/2018,20:30,Walter Ribeiro / Sorocaba,São Bento / SP,Csa / AL,2 X 1
+013,20/04/2018,19:15,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Oeste / SP,1 X 1
+014,21/04/2018,16:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Brasil / RS,2 X 2
+015,21/04/2018,19:00,Heriberto Hulse / Criciuma,Criciúma / SC,Ponte Preta / SP,0 X 1
+016,21/04/2018,16:30,Serra Dourada / Goiania,Goiás / GO,Figueirense / SC,0 X 2
+017,17/04/2018,19:15,Dilzon Luís de Melo / Varginha,Boa / MG,Fortaleza / CE,0 X 2
+018,21/04/2018,16:30,Rei Pelé / Maceio,Crb / AL,Vila Nova / GO,0 X 1
+019,17/04/2018,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Atlético / GO,1 X 0
+020,20/04/2018,21:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Londrina / PR,1 X 0
+021,28/04/2018,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Londrina / PR,0 X 1
+022,28/04/2018,21:00,Walter Ribeiro / Sorocaba,São Bento / SP,Goiás / GO,1 X 1
+023,28/04/2018,16:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Avaí / SC,1 X 3
+024,27/04/2018,19:15,Orlando Scarpelli / Florianopolis,Figueirense / SC,Boa / MG,2 X 0
+025,24/04/2018,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Crb / AL,3 X 1
+026,28/04/2018,16:30,Serra Dourada / Goiania,Vila Nova / GO,Sampaio Correa / MA,3 X 1
+027,24/04/2018,19:15,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Guarani / SP,3 X 2
+028,27/04/2018,20:30,Rei Pelé / Maceio,Csa / AL,Oeste / SP,5 X 1
+029,27/04/2018,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Criciúma / SC,2 X 1
+030,28/04/2018,16:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Brasil / RS,2 X 1
+031,05/05/2018,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Ponte Preta / SP,2 X 3
+032,04/05/2018,21:30,Arena Barueri / Barueri,Oeste / SP,Coritiba / PR,1 X 1
+033,01/05/2018,16:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Figueirense / SC,1 X 0
+034,05/05/2018,16:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,São Bento / SP,1 X 1
+035,01/05/2018,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,Csa / AL,1 X 3
+036,05/05/2018,16:30,Serra Dourada / Goiania,Goiás / GO,Vila Nova / GO,1 X 3
+037,01/05/2018,16:00,Dilzon Luís de Melo / Varginha,Boa / MG,Juventude / RS,1 X 2
+038,04/05/2018,20:30,Rei Pelé / Maceio,Crb / AL,Atlético / GO,3 X 1
+039,01/05/2018,16:30,Jacy Scaff / Londrina,Londrina / PR,Fortaleza / CE,1 X 1
+040,04/05/2018,19:15,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Paysandu / PA,1 X 1
+041,08/05/2018,19:15,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Criciúma / SC,1 X 0
+042,12/05/2018,16:30,Walter Ribeiro / Sorocaba,São Bento / SP,Oeste / SP,1 X 0
+043,11/05/2018,19:15,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Paysandu / PA,1 X 1
+044,12/05/2018,16:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Avaí / SC,0 X 1
+045,12/05/2018,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Goiás / GO,3 X 0
+046,13/05/2018,16:00,Serra Dourada / Goiania,Vila Nova / GO,Ponte Preta / SP,0 X 0
+047,11/05/2018,21:30,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Londrina / PR,0 X 0
+048,12/05/2018,16:30,Rei Pelé / Maceio,Csa / AL,Boa / MG,1 X 0
+049,08/05/2018,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Brasil / RS,1 X 0
+050,07/05/2018,20:30,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Crb / AL,2 X 3
+051,19/05/2018,16:30,Nabi Abi Chedid / Braganca Paulista,Ponte Preta / SP,Atlético / GO,1 X 3
+052,19/05/2018,16:30,Arena Barueri / Barueri,Oeste / SP,Vila Nova / GO,2 X 0
+053,19/05/2018,21:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Sampaio Correa / MA,1 X 2
+054,18/05/2018,21:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Fortaleza / CE,1 X 3
+055,15/05/2018,21:30,Heriberto Hulse / Criciuma,Criciúma / SC,Juventude / RS,0 X 0
+056,18/05/2018,19:15,Serra Dourada / Goiania,Goiás / GO,Guarani / SP,1 X 1
+057,19/05/2018,19:00,Dilzon Luís de Melo / Varginha,Boa / MG,Coritiba / PR,1 X 1
+058,15/05/2018,19:15,Rei Pelé / Maceio,Crb / AL,Avaí / SC,0 X 4
+059,19/05/2018,16:30,Jacy Scaff / Londrina,Londrina / PR,Csa / AL,1 X 2
+060,19/05/2018,16:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,São Bento / SP,1 X 1
+061,26/05/2018,21:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Crb / AL,2 X 0
+062,26/05/2018,16:30,Walter Ribeiro / Sorocaba,São Bento / SP,Juventude / RS,2 X 2
+063,26/05/2018,16:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Londrina / PR,3 X 0
+064,25/05/2018,19:15,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Paysandu / PA,3 X 1
+065,22/05/2018,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Criciúma / SC,2 X 0
+066,26/05/2018,16:30,Serra Dourada / Goiania,Goiás / GO,Boa / MG,1 X 2
+067,25/05/2018,19:15,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Oeste / SP,2 X 2
+068,22/05/2018,19:15,Rei Pelé / Maceio,Csa / AL,Figueirense / SC,1 X 4
+069,25/05/2018,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Vila Nova / GO,2 X 0
+070,28/05/2018,20:00,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Ponte Preta / SP,1 X 0
+071,02/06/2018,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Oeste / SP,1 X 1
+072,29/05/2018,19:15,Walter Ribeiro / Sorocaba,São Bento / SP,Figueirense / SC,1 X 1
+073,01/06/2018,19:15,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Guarani / SP,1 X 0
+074,01/06/2018,21:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Criciúma / SC,0 X 1
+075,02/06/2018,16:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Sampaio Correa / MA,1 X 0
+076,01/06/2018,20:30,Serra Dourada / Goiania,Vila Nova / GO,Csa / AL,0 X 1
+077,02/06/2018,16:30,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Goiás / GO,1 X 3
+078,02/06/2018,16:30,Rei Pelé / Maceio,Crb / AL,Brasil / RS,1 X 1
+079,29/05/2018,21:30,Jacy Scaff / Londrina,Londrina / PR,Coritiba / PR,3 X 2
+080,01/06/2018,21:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Boa / MG,2 X 0
+081,05/06/2018,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Goiás / GO,2 X 1
+082,05/06/2018,21:30,Arena Barueri / Barueri,Oeste / SP,Brasil / RS,0 X 0
+083,05/06/2018,19:15,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Atlético / GO,2 X 2
+084,05/06/2018,19:15,Orlando Scarpelli / Florianopolis,Figueirense / SC,Londrina / PR,1 X 1
+085,05/06/2018,19:15,Heriberto Hulse / Criciuma,Criciúma / SC,Paysandu / PA,4 X 1
+086,05/06/2018,21:30,Serra Dourada / Goiania,Vila Nova / GO,Fortaleza / CE,0 X 0
+087,05/06/2018,20:30,Dilzon Luís de Melo / Varginha,Boa / MG,São Bento / SP,2 X 2
+088,05/06/2018,20:30,Rei Pelé / Maceio,Csa / AL,Guarani / SP,1 X 2
+089,05/06/2018,19:15,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Crb / AL,1 X 0
+090,05/06/2018,20:30,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Avaí / SC,1 X 1
+091,09/06/2018,16:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Vila Nova / GO,1 X 1
+092,09/06/2018,16:30,Walter Ribeiro / Sorocaba,São Bento / SP,Fortaleza / CE,2 X 1
+093,09/06/2018,21:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Ponte Preta / SP,0 X 2
+094,08/06/2018,21:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Coritiba / PR,2 X 0
+095,09/06/2018,16:30,Heriberto Hulse / Criciuma,Criciúma / SC,Boa / MG,1 X 1
+096,08/06/2018,20:30,Olímpico Pedro Ludovico / Goiania,Goiás / GO,Paysandu / PA,2 X 1
+097,09/06/2018,19:00,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Figueirense / SC,3 X 4
+098,09/06/2018,16:30,Rei Pelé / Maceio,Csa / AL,Crb / AL,0 X 0
+099,08/06/2018,19:15,Jacy Scaff / Londrina,Londrina / PR,Juventude / RS,0 X 1
+100,09/06/2018,16:30,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Oeste / SP,2 X 0
+101,14/06/2018,21:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,São Bento / SP,0 X 0
+102,16/06/2018,19:00,Arena Barueri / Barueri,Oeste / SP,Criciúma / SC,2 X 2
+103,11/06/2018,18:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Coritiba / PR,1 X 1
+104,12/06/2018,20:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Sampaio Correa / MA,1 X 0
+105,15/06/2018,19:15,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Brasil / RS,2 X 0
+106,16/06/2018,18:30,Serra Dourada / Goiania,Vila Nova / GO,Atlético / GO,0 X 0
+107,15/06/2018,20:30,Dilzon Luís de Melo / Varginha,Boa / MG,Avaí / SC,0 X 2
+108,15/06/2018,21:30,Rei Pelé / Maceio,Crb / AL,Ponte Preta / SP,2 X 0
+109,12/06/2018,18:00,Jacy Scaff / Londrina,Londrina / PR,Goiás / GO,1 X 3
+110,16/06/2018,21:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Csa / AL,0 X 0
+111,19/06/2018,19:15,Moisés Lucarelli / Campinas,Ponte Preta / SP,Csa / AL,1 X 1
+112,23/06/2018,19:00,Walter Ribeiro / Sorocaba,São Bento / SP,Londrina / PR,0 X 1
+113,21/06/2018,19:15,Bento da Silva Freitas / Pelotas,Brasil / RS,Criciúma / SC,1 X 0
+114,19/06/2018,21:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Guarani / SP,3 X 3
+115,23/06/2018,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Oeste / SP,1 X 2
+116,21/06/2018,21:30,Serra Dourada / Goiania,Goiás / GO,Juventude / RS,1 X 1
+117,23/06/2018,19:00,Dilzon Luís de Melo / Varginha,Boa / MG,Vila Nova / GO,0 X 2
+118,23/06/2018,21:00,Rei Pelé / Maceio,Crb / AL,Paysandu / PA,1 X 1
+119,23/06/2018,18:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Figueirense / SC,1 X 1
+120,23/06/2018,19:00,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Atlético / GO,2 X 3
+121,29/06/2018,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Boa / MG,1 X 1
+122,26/06/2018,20:30,Arena Barueri / Barueri,Oeste / SP,Avaí / SC,1 X 0
+123,26/06/2018,19:15,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Vila Nova / GO,0 X 1
+124,30/06/2018,18:00,Orlando Scarpelli / Florianopolis,Figueirense / SC,Ponte Preta / SP,0 X 2
+125,30/06/2018,18:00,Heriberto Hulse / Criciuma,Criciúma / SC,São Bento / SP,1 X 0
+126,26/06/2018,21:30,Olímpico Pedro Ludovico / Goiania,Goiás / GO,Crb / AL,2 X 1
+127,29/06/2018,19:15,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Brasil / RS,2 X 1
+128,29/06/2018,18:00,Rei Pelé / Maceio,Csa / AL,Coritiba / PR,2 X 2
+129,01/07/2018,18:00,Jacy Scaff / Londrina,Londrina / PR,Sampaio Correa / MA,1 X 1
+130,30/06/2018,20:30,Olímpico do Pará / Belem,Paysandu / PA,Fortaleza / CE,0 X 1
+131,08/07/2018,18:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Fortaleza / CE,2 X 0
+132,05/07/2018,18:00,Arena Barueri / Barueri,Oeste / SP,Guarani / SP,0 X 1
+133,05/07/2018,20:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Csa / AL,0 X 2
+134,04/07/2018,20:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Goiás / GO,0 X 1
+135,05/07/2018,21:00,Heriberto Hulse / Criciuma,Criciúma / SC,Figueirense / SC,1 X 1
+136,05/07/2018,20:30,Serra Dourada / Goiania,Vila Nova / GO,Londrina / PR,1 X 1
+137,04/07/2018,20:30,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Boa / MG,2 X 0
+138,04/07/2018,20:30,Rei Pelé / Maceio,Crb / AL,São Bento / SP,1 X 0
+139,04/07/2018,18:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Paysandu / PA,2 X 0
+140,17/07/2018,20:30,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Juventude / RS,0 X 0
+141,09/07/2018,18:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Coritiba / PR,2 X 1
+142,14/07/2018,18:00,Walter Ribeiro / Sorocaba,São Bento / SP,Ponte Preta / SP,0 X 2
+143,13/07/2018,18:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Juventude / RS,1 X 1
+144,09/07/2018,20:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Oeste / SP,1 X 2
+145,14/07/2018,16:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Atlético / GO,0 X 1
+146,13/07/2018,20:30,Olímpico Pedro Ludovico / Goiania,Goiás / GO,Criciúma / SC,2 X 1
+147,13/07/2018,20:30,Dilzon Luís de Melo / Varginha,Boa / MG,Crb / AL,0 X 1
+148,13/07/2018,21:30,Rei Pelé / Maceio,Csa / AL,Sampaio Correa / MA,1 X 0
+149,12/07/2018,18:00,Jacy Scaff / Londrina,Londrina / PR,Avaí / SC,1 X 2
+150,12/07/2018,20:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Vila Nova / GO,1 X 2
+151,17/07/2018,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Figueirense / SC,2 X 3
+152,21/07/2018,19:00,Arena Barueri / Barueri,Oeste / SP,Paysandu / PA,2 X 2
+153,21/07/2018,16:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Crb / AL,1 X 0
+154,17/07/2018,19:15,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Atlético / GO,0 X 0
+155,20/07/2018,19:15,Heriberto Hulse / Criciuma,Criciúma / SC,Londrina / PR,2 X 1
+156,17/07/2018,20:30,Serra Dourada / Goiania,Vila Nova / GO,Brasil / RS,0 X 0
+157,21/07/2018,19:00,Dilzon Luís de Melo / Varginha,Boa / MG,Ponte Preta / SP,2 X 1
+158,20/07/2018,21:30,Rei Pelé / Maceio,Csa / AL,Fortaleza / CE,0 X 0
+159,21/07/2018,16:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,São Bento / SP,2 X 2
+160,20/07/2018,20:30,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Goiás / GO,1 X 3
+161,24/07/2018,20:30,Ademar Pereira de Barros / Araraquara,Ponte Preta / SP,Juventude / RS,0 X 1
+162,24/07/2018,21:30,Walter Ribeiro / Sorocaba,São Bento / SP,Sampaio Correa / MA,2 X 1
+163,24/07/2018,19:15,Bento da Silva Freitas / Pelotas,Brasil / RS,Boa / MG,2 X 0
+164,24/07/2018,19:15,Orlando Scarpelli / Florianopolis,Figueirense / SC,Vila Nova / GO,2 X 1
+165,24/07/2018,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Avaí / SC,1 X 1
+166,24/07/2018,19:15,Olímpico Pedro Ludovico / Goiania,Goiás / GO,Coritiba / PR,0 X 1
+167,23/07/2018,20:00,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Csa / AL,2 X 2
+168,24/07/2018,20:30,Rei Pelé / Maceio,Crb / AL,Criciúma / SC,0 X 0
+169,24/07/2018,19:15,Jacy Scaff / Londrina,Londrina / PR,Oeste / SP,3 X 0
+170,24/07/2018,20:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Guarani / SP,1 X 0
+171,28/07/2018,16:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Brasil / RS,2 X 1
+172,28/07/2018,16:30,Walter Ribeiro / Sorocaba,São Bento / SP,Atlético / GO,2 X 1
+173,28/07/2018,16:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Fortaleza / CE,0 X 3
+174,27/07/2018,19:15,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Csa / AL,0 X 0
+175,28/07/2018,19:00,Heriberto Hulse / Criciuma,Criciúma / SC,Vila Nova / GO,1 X 0
+176,28/07/2018,16:30,Olímpico Pedro Ludovico / Goiania,Goiás / GO,Oeste / SP,1 X 0
+177,28/07/2018,21:00,Dilzon Luís de Melo / Varginha,Boa / MG,Sampaio Correa / MA,3 X 1
+178,28/07/2018,16:30,Rei Pelé / Maceio,Crb / AL,Londrina / PR,1 X 1
+179,28/07/2018,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Ponte Preta / SP,0 X 0
+180,27/07/2018,21:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Figueirense / SC,2 X 0
+181,04/08/2018,19:00,Ademar Pereira de Barros / Araraquara,Ponte Preta / SP,Avaí / SC,2 X 2
+182,03/08/2018,20:30,Arena Barueri / Barueri,Oeste / SP,Boa / MG,1 X 1
+183,04/08/2018,16:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Goiás / GO,1 X 0
+184,31/07/2018,19:15,Orlando Scarpelli / Florianopolis,Figueirense / SC,Crb / AL,0 X 0
+185,04/08/2018,16:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Coritiba / PR,2 X 1
+186,04/08/2018,16:30,Serra Dourada / Goiania,Vila Nova / GO,São Bento / SP,1 X 0
+187,31/07/2018,21:30,Olímpico Pedro Ludovico / Goiania,Atlético / GO,Paysandu / PA,1 X 0
+188,03/08/2018,21:30,Rei Pelé / Maceio,Csa / AL,Juventude / RS,1 X 0
+189,03/08/2018,19:15,Jacy Scaff / Londrina,Londrina / PR,Guarani / SP,1 X 2
+190,04/08/2018,21:00,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Criciúma / SC,0 X 1
+191,07/08/2018,19:15,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Vila Nova / GO,1 X 0
+192,07/08/2018,21:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Ponte Preta / SP,0 X 4
+193,10/08/2018,19:15,Olímpico Pedro Ludovico / Goiania,Goiás / GO,Csa / AL,3 X 0
+194,10/08/2018,20:30,Dilzon Luís de Melo / Varginha,Boa / MG,Londrina / PR,1 X 0
+195,10/08/2018,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Sampaio Correa / MA,0 X 0
+196,11/08/2018,16:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Fortaleza / CE,2 X 3
+197,11/08/2018,16:30,Heriberto Hulse / Criciuma,Criciúma / SC,Atlético / GO,1 X 1
+198,11/08/2018,16:30,Rei Pelé / Maceio,Crb / AL,Oeste / SP,0 X 1
+199,11/08/2018,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Figueirense / SC,0 X 0
+200,11/08/2018,16:30,Walter Ribeiro / Sorocaba,São Bento / SP,Brasil / RS,1 X 1
+201,14/08/2018,19:15,Bento da Silva Freitas / Pelotas,Brasil / RS,Avaí / SC,1 X 1
+202,14/08/2018,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Criciúma / SC,3 X 1
+203,17/08/2018,19:15,Jacy Scaff / Londrina,Londrina / PR,Paysandu / PA,2 X 1
+204,17/08/2018,20:30,Serra Dourada / Goiania,Vila Nova / GO,Crb / AL,0 X 0
+205,17/08/2018,21:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Goiás / GO,1 X 2
+206,18/08/2018,16:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Boa / MG,2 X 1
+207,18/08/2018,16:30,Antônio Accioly / Goiania,Atlético / GO,Coritiba / PR,1 X 0
+208,18/08/2018,16:30,Arena Barueri / Barueri,Oeste / SP,Juventude / RS,0 X 0
+209,18/08/2018,19:00,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Guarani / SP,0 X 2
+210,18/08/2018,21:00,Rei Pelé / Maceio,Csa / AL,São Bento / SP,1 X 0
+211,21/08/2018,19:15,Bento da Silva Freitas / Pelotas,Brasil / RS,Paysandu / PA,0 X 0
+212,21/08/2018,19:15,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Juventude / RS,1 X 0
+213,21/08/2018,19:15,Heriberto Hulse / Criciuma,Criciúma / SC,Coritiba / PR,2 X 2
+214,21/08/2018,19:15,Jacy Scaff / Londrina,Londrina / PR,Ponte Preta / SP,1 X 0
+215,21/08/2018,20:30,Rei Pelé / Maceio,Crb / AL,Fortaleza / CE,2 X 1
+216,21/08/2018,20:30,Olímpico Pedro Ludovico / Goiania,Goiás / GO,São Bento / SP,2 X 1
+217,21/08/2018,20:30,Dilzon Luís de Melo / Varginha,Boa / MG,Figueirense / SC,0 X 2
+218,21/08/2018,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Atlético / GO,2 X 0
+219,21/08/2018,21:30,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Vila Nova / GO,0 X 0
+220,21/08/2018,21:30,Arena Barueri / Barueri,Oeste / SP,Csa / AL,2 X 1
+221,24/08/2018,19:15,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Oeste / SP,0 X 2
+222,24/08/2018,19:15,Orlando Scarpelli / Florianopolis,Figueirense / SC,Brasil / RS,1 X 1
+223,24/08/2018,21:30,Antônio Accioly / Goiania,Atlético / GO,Crb / AL,1 X 0
+224,25/08/2018,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Londrina / PR,2 X 1
+225,25/08/2018,16:30,Walter Ribeiro / Sorocaba,São Bento / SP,Avaí / SC,0 X 1
+226,25/08/2018,16:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Sampaio Correa / MA,0 X 1
+227,25/08/2018,16:30,Serra Dourada / Goiania,Vila Nova / GO,Goiás / GO,3 X 0
+228,25/08/2018,16:30,Rei Pelé / Maceio,Csa / AL,Criciúma / SC,3 X 0
+229,25/08/2018,16:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Guarani / SP,0 X 0
+230,25/08/2018,21:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Boa / MG,0 X 0
+231,27/08/2018,20:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Coritiba / PR,0 X 1
+232,28/08/2018,19:15,Heriberto Hulse / Criciuma,Criciúma / SC,Guarani / SP,0 X 0
+233,28/08/2018,20:30,Arena Barueri / Barueri,Oeste / SP,São Bento / SP,0 X 1
+234,31/08/2018,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Vila Nova / GO,1 X 1
+235,31/08/2018,21:30,Rei Pelé / Maceio,Crb / AL,Sampaio Correa / MA,2 X 1
+236,01/09/2018,16:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Figueirense / SC,0 X 1
+237,01/09/2018,21:00,Dilzon Luís de Melo / Varginha,Boa / MG,Csa / AL,3 X 0
+238,31/08/2018,19:15,Jacy Scaff / Londrina,Londrina / PR,Atlético / GO,4 X 1
+239,01/09/2018,19:00,Olímpico Pedro Ludovico / Goiania,Goiás / GO,Fortaleza / CE,3 X 1
+240,31/08/2018,19:15,Leônidas Sobré de Castro / Belem,Paysandu / PA,Juventude / RS,3 X 3
+241,03/09/2018,20:00,Serra Dourada / Goiania,Vila Nova / GO,Oeste / SP,1 X 1
+242,04/09/2018,19:15,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Goiás / GO,0 X 2
+243,04/09/2018,19:15,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Crb / AL,1 X 0
+244,04/09/2018,19:15,Antônio Accioly / Goiania,Atlético / GO,Ponte Preta / SP,2 X 0
+245,04/09/2018,19:15,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Boa / MG,2 X 1
+246,04/09/2018,20:30,Walter Ribeiro / Sorocaba,São Bento / SP,Paysandu / PA,1 X 0
+247,04/09/2018,20:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Criciúma / SC,0 X 1
+248,04/09/2018,20:30,Rei Pelé / Maceio,Csa / AL,Londrina / PR,4 X 1
+249,04/09/2018,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Figueirense / SC,2 X 2
+250,04/09/2018,21:30,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Brasil / RS,1 X 2
+251,07/09/2018,16:00,Dilzon Luís de Melo / Varginha,Boa / MG,Goiás / GO,1 X 0
+252,07/09/2018,16:00,Rei Pelé / Maceio,Crb / AL,Guarani / SP,1 X 1
+253,08/09/2018,16:30,Heriberto Hulse / Criciuma,Criciúma / SC,Fortaleza / CE,2 X 0
+254,07/09/2018,18:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Avaí / SC,2 X 1
+255,07/09/2018,16:00,Arena Barueri / Barueri,Oeste / SP,Atlético / GO,1 X 2
+256,08/09/2018,16:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,São Bento / SP,0 X 2
+257,08/09/2018,16:30,Jacy Scaff / Londrina,Londrina / PR,Brasil / RS,1 X 0
+258,08/09/2018,16:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Csa / AL,1 X 2
+259,08/09/2018,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Sampaio Correa / MA,0 X 0
+260,08/09/2018,21:00,Serra Dourada / Goiania,Vila Nova / GO,Coritiba / PR,2 X 1
+261,11/09/2018,19:00,Rei Pelé / Maceio,Csa / AL,Vila Nova / GO,1 X 2
+262,13/09/2018,21:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Juventude / RS,1 X 0
+263,14/09/2018,19:15,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Londrina / PR,0 X 1
+264,14/09/2018,20:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,São Bento / SP,2 X 2
+265,14/09/2018,21:30,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Fortaleza / CE,1 X 0
+266,15/09/2018,16:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Crb / AL,1 X 0
+267,15/09/2018,16:30,Heriberto Hulse / Criciuma,Criciúma / SC,Avaí / SC,3 X 2
+268,15/09/2018,16:30,Dilzon Luís de Melo / Varginha,Boa / MG,Paysandu / PA,1 X 1
+269,15/09/2018,19:00,Olímpico Pedro Ludovico / Goiania,Goiás / GO,Atlético / GO,2 X 1
+270,15/09/2018,21:00,Arena Barueri / Barueri,Oeste / SP,Ponte Preta / SP,0 X 0
+271,18/09/2018,19:15,Antônio Accioly / Goiania,Atlético / GO,Juventude / RS,0 X 1
+272,18/09/2018,21:30,Jacy Scaff / Londrina,Londrina / PR,Figueirense / SC,2 X 0
+273,21/09/2018,19:15,Olímpico Pedro Ludovico / Goiania,Goiás / GO,Ponte Preta / SP,2 X 2
+274,21/09/2018,20:30,Rei Pelé / Maceio,Crb / AL,Coritiba / PR,1 X 1
+275,22/09/2018,16:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Criciúma / SC,1 X 1
+276,22/09/2018,16:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Oeste / SP,1 X 3
+277,21/09/2018,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Vila Nova / GO,2 X 0
+278,21/09/2018,20:30,Walter Ribeiro / Sorocaba,São Bento / SP,Boa / MG,0 X 0
+279,22/09/2018,19:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Csa / AL,1 X 0
+280,22/09/2018,21:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Sampaio Correa / MA,3 X 1
+281,25/09/2018,19:15,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,São Bento / SP,2 X 1
+282,25/09/2018,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Brasil / RS,0 X 1
+283,28/09/2018,19:15,Leônidas Sobré de Castro / Belem,Paysandu / PA,Goiás / GO,2 X 3
+284,27/09/2018,19:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Londrina / PR,0 X 0
+285,28/09/2018,21:30,Serra Dourada / Goiania,Vila Nova / GO,Guarani / SP,1 X 1
+286,29/09/2018,16:30,Arena Barueri / Barueri,Oeste / SP,Sampaio Correa / MA,0 X 0
+287,29/09/2018,16:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Atlético / GO,2 X 2
+288,29/09/2018,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Avaí / SC,1 X 0
+289,29/09/2018,16:30,Rei Pelé / Maceio,Crb / AL,Csa / AL,0 X 0
+290,29/09/2018,21:00,Dilzon Luís de Melo / Varginha,Boa / MG,Criciúma / SC,1 X 2
+291,02/10/2018,19:15,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Figueirense / SC,1 X 0
+292,02/10/2018,20:30,Heriberto Hulse / Criciuma,Criciúma / SC,Oeste / SP,0 X 0
+293,02/10/2018,20:30,Olímpico Pedro Ludovico / Goiania,Goiás / GO,Londrina / PR,0 X 0
+294,02/10/2018,21:30,Rei Pelé / Maceio,Csa / AL,Paysandu / PA,1 X 0
+295,05/10/2018,19:00,Walter Ribeiro / Sorocaba,São Bento / SP,Guarani / SP,1 X 0
+296,05/10/2018,20:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Fortaleza / CE,0 X 1
+297,05/10/2018,20:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Boa / MG,2 X 0
+298,06/10/2018,18:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Crb / AL,1 X 0
+299,06/10/2018,16:30,Antônio Accioly / Goiania,Atlético / GO,Vila Nova / GO,2 X 2
+300,05/10/2018,21:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Juventude / RS,2 X 1
+301,09/10/2018,19:15,Leônidas Sobré de Castro / Belem,Paysandu / PA,Crb / AL,1 X 1
+302,09/10/2018,21:30,Heriberto Hulse / Criciuma,Criciúma / SC,Brasil / RS,0 X 1
+303,12/10/2018,19:15,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Goiás / GO,3 X 5
+304,12/10/2018,20:30,Antônio Accioly / Goiania,Atlético / GO,Sampaio Correa / MA,1 X 2
+305,12/10/2018,21:30,Rei Pelé / Maceio,Csa / AL,Ponte Preta / SP,1 X 2
+306,13/10/2018,16:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Avaí / SC,1 X 2
+307,13/10/2018,16:30,Arena Barueri / Barueri,Oeste / SP,Fortaleza / CE,0 X 0
+308,13/10/2018,16:30,Serra Dourada / Goiania,Vila Nova / GO,Boa / MG,2 X 0
+309,13/10/2018,19:00,Orlando Scarpelli / Florianopolis,Figueirense / SC,Coritiba / PR,2 X 2
+310,13/10/2018,21:00,Jacy Scaff / Londrina,Londrina / PR,São Bento / SP,2 X 1
+311,20/10/2018,16:30,Serra Dourada / Goiania,Vila Nova / GO,Juventude / RS,1 X 0
+312,16/10/2018,21:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Atlético / GO,1 X 2
+313,19/10/2018,19:15,Rei Pelé / Maceio,Crb / AL,Goiás / GO,2 X 0
+314,19/10/2018,20:30,Walter Ribeiro / Sorocaba,São Bento / SP,Criciúma / SC,0 X 0
+315,19/10/2018,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Figueirense / SC,2 X 1
+316,20/10/2018,16:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Oeste / SP,1 X 1
+317,20/10/2018,16:30,Dilzon Luís de Melo / Varginha,Boa / MG,Guarani / SP,2 X 1
+318,16/10/2018,19:15,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Csa / AL,1 X 1
+319,20/10/2018,19:00,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Paysandu / PA,1 X 0
+320,20/10/2018,21:00,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Londrina / PR,1 X 2
+321,23/10/2018,19:15,Rei Pelé / Maceio,Csa / AL,Brasil / RS,2 X 0
+322,26/10/2018,20:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Ponte Preta / SP,1 X 1
+323,26/10/2018,21:30,Olímpico Pedro Ludovico / Goiania,Goiás / GO,Avaí / SC,0 X 3
+324,27/10/2018,16:30,Walter Ribeiro / Sorocaba,São Bento / SP,Crb / AL,1 X 0
+325,26/10/2018,19:15,Jacy Scaff / Londrina,Londrina / PR,Vila Nova / GO,3 X 2
+326,27/10/2018,16:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Oeste / SP,1 X 1
+327,27/10/2018,16:30,Dilzon Luís de Melo / Varginha,Boa / MG,Atlético / GO,0 X 2
+328,27/10/2018,16:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Criciúma / SC,3 X 2
+329,27/10/2018,18:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Coritiba / PR,1 X 1
+330,26/10/2018,20:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Sampaio Correa / MA,1 X 0
+331,01/11/2018,19:15,Heriberto Hulse / Criciuma,Criciúma / SC,Goiás / GO,2 X 2
+332,01/11/2018,21:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Brasil / RS,0 X 1
+333,02/11/2018,19:15,Serra Dourada / Goiania,Vila Nova / GO,Paysandu / PA,0 X 0
+334,02/11/2018,20:30,Arena Barueri / Barueri,Oeste / SP,Figueirense / SC,0 X 0
+335,02/11/2018,21:30,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Csa / AL,2 X 3
+336,03/11/2018,16:30,Aderbal Ramos da Silva / Florianópolis,Avaí / SC,Londrina / PR,1 X 1
+337,03/11/2018,16:30,Rei Pelé / Maceio,Crb / AL,Boa / MG,2 X 1
+338,03/11/2018,17:00,Antônio Accioly / Goiania,Atlético / GO,Fortaleza / CE,1 X 2
+339,03/11/2018,19:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Guarani / SP,0 X 2
+340,02/11/2018,17:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,São Bento / SP,2 X 1
+341,05/11/2018,20:00,Olímpico Pedro Ludovico / Goiania,Goiás / GO,Sampaio Correa / MA,1 X 0
+342,06/11/2018,19:15,Bento da Silva Freitas / Pelotas,Brasil / RS,Vila Nova / GO,5 X 0
+343,06/11/2018,19:15,Antônio Accioly / Goiania,Atlético / GO,Avaí / SC,2 X 2
+344,06/11/2018,19:15,Jacy Scaff / Londrina,Londrina / PR,Criciúma / SC,4 X 2
+345,06/11/2018,20:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Boa / MG,1 X 0
+346,06/11/2018,20:30,Walter Ribeiro / Sorocaba,São Bento / SP,Coritiba / PR,5 X 2
+347,06/11/2018,21:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Guarani / SP,0 X 0
+348,06/11/2018,21:30,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Csa / AL,1 X 1
+349,06/11/2018,21:30,Rei Pelé / Maceio,Crb / AL,Juventude / RS,2 X 0
+350,06/11/2018,21:30,Leônidas Sobré de Castro / Belem,Paysandu / PA,Oeste / SP,4 X 3
+351,09/11/2018,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Goiás / GO,1 X 0
+352,09/11/2018,20:30,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Ponte Preta / SP,0 X 1
+353,09/11/2018,20:30,Dilzon Luís de Melo / Varginha,Boa / MG,Brasil / RS,0 X 1
+354,10/11/2018,17:30,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Fortaleza / CE,0 X 1
+355,10/11/2018,17:00,Arena Barueri / Barueri,Oeste / SP,Londrina / PR,0 X 0
+356,10/11/2018,19:30,Governador João Castelo / Sao Luis,Sampaio Correa / MA,São Bento / SP,2 X 1
+357,09/11/2018,19:15,Serra Dourada / Goiania,Vila Nova / GO,Figueirense / SC,3 X 1
+358,10/11/2018,17:00,Heriberto Hulse / Criciuma,Criciúma / SC,Crb / AL,3 X 3
+359,10/11/2018,17:00,Rei Pelé / Maceio,Csa / AL,Atlético / GO,0 X 0
+360,10/11/2018,21:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Paysandu / PA,0 X 2
+361,13/11/2018,19:15,Orlando Scarpelli / Florianopolis,Figueirense / SC,Paysandu / PA,2 X 3
+362,13/11/2018,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Coritiba / PR,2 X 0
+363,15/11/2018,18:15,Governador Plácido Aderaldo Castelo / Fortaleza,Fortaleza / CE,Juventude / RS,4 X 1
+364,16/11/2018,20:30,Antônio Accioly / Goiania,Atlético / GO,São Bento / SP,1 X 0
+365,16/11/2018,21:30,Jacy Scaff / Londrina,Londrina / PR,Crb / AL,1 X 2
+366,17/11/2018,17:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Guarani / SP,1 X 1
+367,17/11/2018,17:00,Rei Pelé / Maceio,Csa / AL,Avaí / SC,0 X 1
+368,17/11/2018,17:00,Governador João Castelo / Sao Luis,Sampaio Correa / MA,Boa / MG,1 X 0
+369,17/11/2018,19:30,Serra Dourada / Goiania,Vila Nova / GO,Criciúma / SC,2 X 2
+370,17/11/2018,21:00,Arena Barueri / Barueri,Oeste / SP,Goiás / GO,1 X 3
+371,24/11/2018,17:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Londrina / PR,1 X 0
+372,24/11/2018,17:00,Walter Ribeiro / Sorocaba,São Bento / SP,Vila Nova / GO,2 X 2
+373,24/11/2018,17:00,Alfredo Jaconi / Caxias do Sul,Juventude / RS,Csa / AL,0 X 4
+374,24/11/2018,17:00,Aderbal Ramos da Silva / Florianopolis,Avaí / SC,Ponte Preta / SP,0 X 0
+375,24/11/2018,17:00,Heriberto Hulse / Criciuma,Criciúma / SC,Sampaio Correa / MA,2 X 0
+376,24/11/2018,17:00,Serra Dourada / Goiania,Goiás / GO,Brasil / RS,0 X 1
+377,24/11/2018,17:00,Dilzon Luís de Melo / Varginha,Boa / MG,Oeste / SP,0 X 0
+378,24/11/2018,17:00,Rei Pelé / Maceio,Crb / AL,Figueirense / SC,2 X 1
+379,23/11/2018,19:15,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Fortaleza / CE,1 X 0
+380,24/11/2018,17:00,Leônidas Sobré de Castro / Belem,Paysandu / PA,Atlético / GO,2 X 5
