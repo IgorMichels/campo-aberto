@@ -1,0 +1,381 @@
+game_id,date,time,stadium,home_team,away_team,result
+001,27/04/2019,16:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Figueirense / SC,0 X 0
+002,27/04/2019,11:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Vitória / BA,3 X 1
+003,26/04/2019,21:30,Walter Ribeiro / Sorocaba,São Bento / SP,Atlético / GO,1 X 3
+004,27/04/2019,21:00,Olímpico Pedro Ludovico / Goiania,Vila Nova / GO,Paraná / PR,1 X 1
+005,29/04/2019,20:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Ponte Preta / SP,2 X 0
+006,26/04/2019,19:15,Germano Kruger / Ponta Grossa,Operario / PR,América / MG,1 X 0
+007,27/04/2019,16:30,Heriberto Hulse / Criciuma,Criciúma / SC,Cuiabá / MT,0 X 1
+008,26/04/2019,19:15,Bento da Silva Freitas / Pelotas,Brasil / RS,Bragantino / SP,0 X 1
+009,26/04/2019,21:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Oeste / SP,1 X 1
+010,28/04/2019,16:00,Rei Pelé / Maceio,Crb / AL,Londrina / PR,1 X 2
+011,02/05/2019,21:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Criciúma / SC,1 X 1
+012,06/05/2019,20:00,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Sport / PE,1 X 1
+013,01/05/2019,16:00,Arena Barueri / Barueri,Oeste / SP,Guarani / SP,2 X 0
+014,03/05/2019,21:30,Antônio Accioly / Goiania,Atlético / GO,Coritiba / PR,1 X 1
+015,04/05/2019,19:00,Durival Britto e Silva / Curitiba,Paraná / PR,Crb / AL,1 X 0
+016,03/05/2019,19:15,Jacy Scaff / Londrina,Londrina / PR,Brasil / RS,1 X 0
+017,04/05/2019,11:00,Orlando Scarpelli / Florianopolis,Figueirense / SC,São Bento / SP,2 X 2
+018,30/04/2019,21:30,Raimundo Sampaio / Belo Horizonte,América / MG,Botafogo / SP,0 X 1
+019,04/05/2019,16:30,Manoel Barradas / Salvador,Vitória / BA,Vila Nova / GO,2 X 1
+020,04/05/2019,19:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Operario / PR,2 X 1
+021,13/05/2019,20:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Vitória / BA,3 X 2
+022,10/05/2019,19:15,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Atlético / GO,3 X 0
+023,09/05/2019,19:15,Walter Ribeiro / Sorocaba,São Bento / SP,Botafogo / SP,0 X 1
+024,10/05/2019,21:30,Serra Dourada / Goiania,Vila Nova / GO,Ponte Preta / SP,0 X 0
+025,09/05/2019,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Londrina / PR,0 X 0
+026,11/05/2019,19:00,Germano Kruger / Ponta Grossa,Operario / PR,Oeste / SP,0 X 0
+027,11/05/2019,11:00,Heriberto Hulse / Criciuma,Criciúma / SC,América / MG,0 X 0
+028,11/05/2019,19:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Crb / AL,0 X 2
+029,11/05/2019,16:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Figueirense / SC,0 X 0
+030,11/05/2019,19:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Paraná / PR,1 X 1
+031,17/05/2019,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Operario / PR,1 X 0
+032,18/05/2019,19:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Vila Nova / GO,0 X 1
+033,14/05/2019,19:15,Arena Barueri / Barueri,Oeste / SP,Cuiabá / MT,1 X 1
+034,17/05/2019,19:15,Antônio Accioly / Goiania,Atlético / GO,Criciúma / SC,3 X 1
+035,18/05/2019,16:30,Durival Britto e Silva / Curitiba,Paraná / PR,Guarani / SP,0 X 0
+036,18/05/2019,11:00,Jacy Scaff / Londrina,Londrina / PR,Bragantino / SP,1 X 0
+037,14/05/2019,21:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Brasil / RS,1 X 0
+038,19/05/2019,16:00,Raimundo Sampaio / Belo Horizonte,América / MG,Sport / PE,1 X 2
+039,18/05/2019,16:30,Manoel Barradas / Salvador,Vitória / BA,São Bento / SP,1 X 3
+040,20/05/2019,20:00,Rei Pelé / Maceio,Crb / AL,Coritiba / PR,1 X 0
+041,25/05/2019,16:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Paraná / PR,4 X 2
+042,21/05/2019,21:30,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Figueirense / SC,2 X 0
+043,25/05/2019,16:30,Walter Ribeiro / Sorocaba,São Bento / SP,Oeste / SP,1 X 0
+044,26/05/2019,16:00,Antônio Accioly / Goiania,Atlético / GO,Vitória / BA,1 X 1
+045,25/05/2019,11:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Cuiabá / MT,2 X 1
+046,25/05/2019,19:00,Germano Kruger / Ponta Grossa,Operario / PR,Botafogo / SP,0 X 2
+047,21/05/2019,19:15,Heriberto Hulse / Criciuma,Criciúma / SC,Guarani / SP,1 X 0
+048,25/05/2019,19:00,Bento da Silva Freitas / Pelotas,Brasil / RS,América / MG,2 X 1
+049,24/05/2019,21:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Londrina / PR,3 X 2
+050,24/05/2019,19:15,Rei Pelé / Maceio,Crb / AL,Vila Nova / GO,1 X 1
+051,28/05/2019,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Brasil / RS,1 X 2
+052,01/06/2019,16:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Criciúma / SC,1 X 0
+053,31/05/2019,20:30,Walter Ribeiro / Sorocaba,São Bento / SP,Crb / AL,1 X 2
+054,01/06/2019,16:30,Serra Dourada / Goiania,Vila Nova / GO,Londrina / PR,0 X 1
+055,01/06/2019,11:00,Durival Britto e Silva / Curitiba,Paraná / PR,Oeste / SP,0 X 0
+056,28/05/2019,19:15,Germano Kruger / Ponta Grossa,Operario / PR,Sport / PE,2 X 1
+057,31/05/2019,19:15,Orlando Scarpelli / Florianopolis,Figueirense / SC,Atlético / GO,1 X 0
+058,03/06/2019,20:00,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Coritiba / PR,1 X 1
+059,31/05/2019,21:30,Manoel Barradas / Salvador,Vitória / BA,Bragantino / SP,0 X 2
+060,01/06/2019,19:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Ponte Preta / SP,1 X 3
+061,07/06/2019,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Botafogo / SP,0 X 0
+062,04/06/2019,19:00,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,São Bento / SP,2 X 0
+063,08/06/2019,11:00,Arena Barueri / Barueri,Oeste / SP,Figueirense / SC,0 X 0
+064,06/06/2019,19:15,Antônio Accioly / Goiania,Atlético / GO,Guarani / SP,1 X 0
+065,08/06/2019,18:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Paraná / PR,2 X 3
+066,07/06/2019,19:15,Jacy Scaff / Londrina,Londrina / PR,Cuiabá / MT,1 X 0
+067,08/06/2019,16:30,Heriberto Hulse / Criciuma,Criciúma / SC,Vila Nova / GO,1 X 1
+068,08/06/2019,16:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Operario / PR,1 X 0
+069,08/06/2019,20:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Vitória / BA,3 X 1
+070,08/06/2019,20:30,Rei Pelé / Maceio,Crb / AL,America Fc / MG,1 X 3
+071,11/06/2019,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Coritiba / PR,0 X 1
+072,11/06/2019,20:30,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,America Fc / MG,2 X 0
+073,11/06/2019,20:30,Arena Barueri / Barueri,Oeste / SP,Vitória / BA,3 X 0
+074,11/06/2019,19:15,Olímpico Pedro Ludovico / Goiania,Vila Nova / GO,São Bento / SP,1 X 0
+075,11/06/2019,21:30,Durival Britto e Silva / Curitiba,Paraná / PR,Operario / PR,1 X 0
+076,10/06/2019,20:00,Jacy Scaff / Londrina,Londrina / PR,Ponte Preta / SP,1 X 3
+077,11/06/2019,19:15,Orlando Scarpelli / Florianopolis,Figueirense / SC,Botafogo / SP,2 X 1
+078,11/06/2019,19:15,Bento da Silva Freitas / Pelotas,Brasil / RS,Criciúma / SC,0 X 1
+079,11/06/2019,21:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Crb / AL,1 X 0
+080,11/06/2019,20:30,Arena Pantanal / Cuiaba,Cuiabá / MT,Atlético / GO,0 X 1
+081,12/07/2019,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Oeste / SP,3 X 2
+082,13/07/2019,18:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Brasil / RS,2 X 3
+083,08/07/2019,20:00,Walter Ribeiro / Sorocaba,São Bento / SP,Sport / PE,2 X 2
+084,13/07/2019,16:30,Antônio Accioly / Goiania,Atlético / GO,Vila Nova / GO,2 X 0
+085,13/07/2019,19:00,Durival Britto e Silva / Curitiba,Paraná / PR,Bragantino / SP,2 X 1
+086,13/07/2019,19:00,Germano Kruger / Ponta Grossa,Operario / PR,Londrina / PR,2 X 0
+087,09/07/2019,21:30,Heriberto Hulse / Criciuma,Criciúma / SC,Coritiba / PR,2 X 1
+088,13/07/2019,11:00,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Figueirense / SC,0 X 4
+089,09/07/2019,19:15,Manoel Barradas / Salvador,Vitória / BA,Cuiabá / MT,0 X 1
+090,12/07/2019,19:15,Rei Pelé / Maceio,Crb / AL,Guarani / SP,2 X 1
+091,16/07/2019,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Atlético / GO,0 X 0
+092,20/07/2019,19:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Guarani / SP,0 X 0
+093,20/07/2019,11:00,Novelli Junior / Itu,Oeste / SP,Bragantino / SP,0 X 0
+094,20/07/2019,16:30,Serra Dourada / Goiania,Vila Nova / GO,America Fc / MG,1 X 1
+095,16/07/2019,19:15,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,São Bento / SP,2 X 1
+096,20/07/2019,19:00,Germano Kruger / Ponta Grossa,Operario / PR,Crb / AL,2 X 1
+097,19/07/2019,19:15,Orlando Scarpelli / Florianopolis,Figueirense / SC,Londrina / PR,1 X 1
+098,18/07/2019,21:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Paraná / PR,0 X 1
+099,19/07/2019,21:30,Manoel Barradas / Salvador,Vitória / BA,Criciúma / SC,2 X 0
+100,15/07/2019,20:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Sport / PE,1 X 1
+101,23/07/2019,19:15,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Cuiabá / MT,0 X 1
+102,23/07/2019,20:30,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Ponte Preta / SP,2 X 1
+103,23/07/2019,19:15,Walter Ribeiro / Sorocaba,São Bento / SP,Operario / PR,1 X 1
+104,23/07/2019,20:30,Antônio Accioly / Goiania,Atlético / GO,Botafogo / SP,1 X 2
+105,23/07/2019,19:15,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Vila Nova / GO,2 X 0
+106,23/07/2019,21:30,Jacy Scaff / Londrina,Londrina / PR,Vitória / BA,3 X 1
+107,23/07/2019,19:15,Orlando Scarpelli / Florianopolis,Figueirense / SC,Paraná / PR,0 X 1
+108,23/07/2019,21:30,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Oeste / SP,0 X 0
+109,22/07/2019,20:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Brasil / RS,0 X 0
+110,23/07/2019,21:30,Rei Pelé / Maceio,Crb / AL,Criciúma / SC,2 X 0
+111,26/07/2019,20:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,São Bento / SP,2 X 1
+112,26/07/2019,20:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Crb / AL,0 X 2
+113,27/07/2019,16:30,Arena Barueri / Barueri,Oeste / SP,Londrina / PR,1 X 0
+114,27/07/2019,19:00,Serra Dourada / Goiania,Vila Nova / GO,Bragantino / SP,0 X 1
+115,26/07/2019,21:30,Durival Britto e Silva / Curitiba,Paraná / PR,Sport / PE,0 X 1
+116,26/07/2019,19:15,Germano Kruger / Ponta Grossa,Operario / PR,Coritiba / PR,1 X 1
+117,27/07/2019,11:00,Heriberto Hulse / Criciuma,Criciúma / SC,Figueirense / SC,1 X 1
+118,26/07/2019,19:15,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Atlético / GO,0 X 1
+119,27/07/2019,16:30,Manoel Barradas / Salvador,Vitória / BA,Ponte Preta / SP,2 X 1
+120,27/07/2019,19:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Brasil / RS,1 X 1
+121,30/07/2019,20:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,America Fc / MG,0 X 1
+122,30/07/2019,21:30,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Cuiabá / MT,2 X 2
+123,30/07/2019,20:30,Walter Ribeiro / Sorocaba,São Bento / SP,Criciúma / SC,1 X 0
+124,30/07/2019,20:30,Antônio Accioly / Goiania,Atlético / GO,Operario / PR,4 X 2
+125,29/07/2019,20:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Botafogo / SP,3 X 2
+126,30/07/2019,19:15,Jacy Scaff / Londrina,Londrina / PR,Paraná / PR,3 X 0
+127,30/07/2019,19:15,Orlando Scarpelli / Florianopolis,Figueirense / SC,Vitória / BA,1 X 1
+128,30/07/2019,19:15,Bento da Silva Freitas / Pelotas,Brasil / RS,Vila Nova / GO,0 X 2
+129,29/07/2019,20:00,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Guarani / SP,1 X 1
+130,30/07/2019,20:30,Rei Pelé / Maceio,Crb / AL,Oeste / SP,2 X 2
+131,02/08/2019,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Bragantino / SP,1 X 0
+132,02/08/2019,20:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Oeste / SP,3 X 2
+133,03/08/2019,16:30,Walter Ribeiro / Sorocaba,São Bento / SP,Ponte Preta / SP,0 X 0
+134,03/08/2019,19:15,Serra Dourada / Goiania,Vila Nova / GO,Figueirense / SC,0 X 0
+135,03/08/2019,17:00,Durival Britto e Silva / Curitiba,Paraná / PR,America Fc / MG,0 X 0
+136,02/08/2019,19:15,Jacy Scaff / Londrina,Londrina / PR,Atlético / GO,1 X 1
+137,03/08/2019,16:30,Heriberto Hulse / Criciuma,Criciúma / SC,Operario / PR,1 X 2
+138,03/08/2019,11:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Vitória / BA,1 X 0
+139,01/08/2019,21:30,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Coritiba / PR,1 X 1
+140,03/08/2019,19:00,Rei Pelé / Maceio,Crb / AL,Cuiabá / MT,0 X 1
+141,11/08/2019,11:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Guarani / SP,1 X 0
+142,09/08/2019,21:30,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Botafogo / SP,0 X 0
+143,08/08/2019,21:30,Arena Barueri / Barueri,Oeste / SP,Brasil / RS,1 X 1
+144,06/08/2019,19:15,Antônio Accioly / Goiania,Atlético / GO,Crb / AL,0 X 1
+145,10/08/2019,16:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Figueirense / SC,2 X 0
+146,09/08/2019,19:15,Germano Kruger / Ponta Grossa,Operario / PR,Vila Nova / GO,1 X 0
+147,11/08/2019,16:00,Heriberto Hulse / Criciuma,Criciúma / SC,Sport / PE,1 X 0
+148,06/08/2019,21:30,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Londrina / PR,4 X 3
+149,10/08/2019,19:00,Manoel Barradas / Salvador,Vitória / BA,Paraná / PR,2 X 0
+150,10/08/2019,19:00,Arena Pantanal / Cuiaba,Cuiabá / MT,São Bento / SP,3 X 2
+151,16/08/2019,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Vila Nova / GO,0 X 2
+152,12/08/2019,20:00,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Operario / PR,4 X 0
+153,17/08/2019,11:00,Walter Ribeiro / Sorocaba,São Bento / SP,Paraná / PR,2 X 1
+154,13/08/2019,19:15,Antônio Accioly / Goiania,Atlético / GO,Oeste / SP,2 X 0
+155,13/08/2019,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Brasil / RS,2 X 0
+156,16/08/2019,19:15,Jacy Scaff / Londrina,Londrina / PR,Criciúma / SC,1 X 1
+157,15/08/2019,21:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Ponte Preta / SP,0 X 1
+158,17/08/2019,19:00,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Cuiabá / MT,2 X 1
+159,17/08/2019,16:30,Arena Pernambuco Governador Carlos Wilson Campos / São Lourenço da Mata,Sport / PE,Botafogo / SP,3 X 0
+160,18/08/2019,16:00,Rei Pelé / Maceio,Crb / AL,Vitória / BA,0 X 1
+161,21/08/2019,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Crb / AL,0 X 1
+162,20/08/2019,19:15,Santa Cruz / Ribeirao Preto,Botafogo / SP,Londrina / PR,2 X 1
+163,19/08/2019,20:00,Arena Barueri / Barueri,Oeste / SP,Coritiba / PR,0 X 2
+164,20/08/2019,21:30,Olímpico Pedro Ludovico / Goiania,Vila Nova / GO,Sport / PE,0 X 2
+165,20/08/2019,20:30,Durival Britto e Silva / Curitiba,Paraná / PR,Atlético / GO,0 X 0
+166,20/08/2019,19:15,Germano Kruger / Ponta Grossa,Operario / PR,Guarani / SP,1 X 0
+167,19/08/2019,20:00,Heriberto Hulse / Criciuma,Criciúma / SC,Bragantino / SP,0 X 2
+168,20/08/2019,19:15,Bento da Silva Freitas / Pelotas,Brasil / RS,São Bento / SP,2 X 1
+169,21/08/2019,19:15,Manoel Barradas / Salvador,Vitória / BA,America Fc / MG,0 X 0
+170,20/08/2019,21:30,Arena Pantanal / Cuiabá,Cuiabá / MT,Figueirense / SC,3 X 0
+171,24/08/2019,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Sport / PE,2 X 2
+172,22/08/2019,21:30,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Coritiba / PR,1 X 1
+173,24/08/2019,16:30,Arena Barueri / Barueri,Oeste / SP,Vila Nova / GO,1 X 1
+174,23/08/2019,19:15,Antônio Accioly / Goiania,Atlético / GO,Brasil / RS,0 X 0
+175,24/08/2019,11:00,Durival Britto e Silva / Curitiba,Paraná / PR,Criciúma / SC,0 X 0
+176,24/08/2019,16:30,Jacy Scaff / Londrina,Londrina / PR,São Bento / SP,2 X 4
+177,24/08/2019,19:00,Orlando Scarpelli / Florianopolis,Figueirense / SC,Crb / AL,2 X 2
+178,25/08/2019,11:00,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Guarani / SP,3 X 2
+179,24/08/2019,16:30,Manoel Barradas / Salvador,Vitória / BA,Operario / PR,0 X 0
+180,23/08/2019,21:30,Arena Pantanal / Cuiaba,Cuiabá / MT,Botafogo / SP,2 X 0
+181,28/08/2019,19:15,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Londrina / PR,1 X 0
+182,27/08/2019,19:15,Santa Cruz / Ribeirao Preto,Botafogo / SP,Paraná / PR,0 X 1
+183,28/08/2019,19:15,Walter Ribeiro / Sorocaba,São Bento / SP,America Fc / MG,0 X 2
+184,27/08/2019,19:15,Olímpico Pedro Ludovico / Goiania,Vila Nova / GO,Cuiabá / MT,0 X 0
+185,27/08/2019,19:15,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Vitória / BA,1 X 1
+186,27/08/2019,20:30,Germano Kruger / Ponta Grossa,Operario / PR,Figueirense / SC,1 X 0
+187,27/08/2019,20:30,Heriberto Hulse / Criciuma,Criciúma / SC,Oeste / SP,3 X 1
+188,27/08/2019,19:15,Bento da Silva Freitas / Pelotas,Brasil / RS,Ponte Preta / SP,1 X 0
+189,27/08/2019,21:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Atlético / GO,1 X 1
+190,27/08/2019,16:30,Rei Pelé / Maceio,Crb / AL,Bragantino / SP,0 X 3
+191,31/08/2019,16:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Coritiba / PR,1 X 0
+192,31/08/2019,19:00,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Brasil / RS,2 X 1
+193,31/08/2019,11:00,Arena Barueri / Barueri,Oeste / SP,Sport / PE,0 X 0
+194,31/08/2019,16:30,Antônio Accioly / Goiania,Atlético / GO,São Bento / SP,1 X 0
+195,30/08/2019,19:15,Durival Britto e Silva / Curitiba,Paraná / PR,Vila Nova / GO,1 X 1
+196,31/08/2019,16:30,Jacy Scaff / Londrina,Londrina / PR,Crb / AL,0 X 1
+197,31/08/2019,16:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Guarani / SP,0 X 1
+198,31/08/2019,19:00,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Operario / PR,0 X 0
+199,30/08/2019,21:30,Manoel Barradas / Salvador,Vitória / BA,Botafogo / SP,0 X 0
+200,30/08/2019,21:30,Arena Pantanal / Cuiaba,Cuiabá / MT,Criciúma / SC,0 X 0
+201,07/09/2019,16:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Oeste / SP,2 X 3
+202,07/09/2019,11:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,America Fc / MG,0 X 0
+203,06/09/2019,18:45,Walter Ribeiro / Sorocaba,São Bento / SP,Figueirense / SC,0 X 0
+204,03/09/2019,19:15,Olímpico Pedro Ludovico / Goiania,Vila Nova / GO,Vitória / BA,0 X 2
+205,08/09/2019,11:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Atlético / GO,1 X 2
+206,07/09/2019,16:30,Germano Kruger / Ponta Grossa,Operario / PR,Cuiabá / MT,2 X 1
+207,03/09/2019,21:30,Heriberto Hulse / Criciuma,Criciúma / SC,Ponte Preta / SP,0 X 0
+208,03/09/2019,19:15,Bento da Silva Freitas / Pelotas,Brasil / RS,Londrina / PR,1 X 0
+209,07/09/2019,19:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Bragantino / SP,2 X 1
+210,05/09/2019,19:15,Rei Pelé / Maceio,Crb / AL,Paraná / PR,1 X 2
+211,12/09/2019,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Vila Nova / GO,0 X 1
+212,13/09/2019,19:15,Santa Cruz / Ribeirao Preto,Botafogo / SP,São Bento / SP,1 X 0
+213,13/09/2019,20:30,Arena Barueri / Barueri,Oeste / SP,Operario / PR,3 X 0
+214,13/09/2019,21:30,Antônio Accioly / Goiania,Atlético / GO,Bragantino / SP,1 X 1
+215,14/09/2019,19:00,Durival Britto e Silva / Curitiba,Paraná / PR,Cuiabá / MT,0 X 0
+216,14/09/2019,11:00,Jacy Scaff / Londrina,Londrina / PR,Coritiba / PR,2 X 1
+217,15/09/2019,16:00,Orlando Scarpelli / Florianopolis,Figueirense / SC,Sport / PE,1 X 2
+218,10/09/2019,21:00,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Criciúma / SC,2 X 1
+219,14/09/2019,16:30,Octávio Mangabeira / Salvador,Vitória / BA,Guarani / SP,0 X 1
+220,10/09/2019,18:45,Rei Pelé / Maceio,Crb / AL,Brasil / RS,3 X 1
+221,21/09/2019,11:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Paraná / PR,1 X 0
+222,21/09/2019,16:30,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Londrina / PR,4 X 1
+223,17/09/2019,21:30,Walter Ribeiro / Sorocaba,São Bento / SP,Vitória / BA,2 X 0
+224,17/09/2019,19:15,Serra Dourada / Goiania,Vila Nova / GO,Botafogo / SP,0 X 2
+225,21/09/2019,19:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Crb / AL,0 X 2
+226,16/09/2019,20:00,Germano Kruger / Ponta Grossa,Operario / PR,Ponte Preta / SP,2 X 1
+227,20/09/2019,19:15,Heriberto Hulse / Criciuma,Criciúma / SC,Atlético / GO,0 X 1
+228,19/09/2019,21:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Figueirense / SC,2 X 2
+229,20/09/2019,21:30,Adelmar da Costa Carvalho / Recife,Sport / PE,America Fc / MG,0 X 2
+230,21/09/2019,19:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Oeste / SP,2 X 0
+231,24/09/2019,19:15,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Criciúma / SC,1 X 0
+232,24/09/2019,19:15,Santa Cruz / Ribeirao Preto,Botafogo / SP,Operario / PR,1 X 1
+233,24/09/2019,20:30,Arena Barueri / Barueri,Oeste / SP,São Bento / SP,2 X 1
+234,24/09/2019,20:30,Serra Dourada / Goiania,Vila Nova / GO,Crb / AL,2 X 2
+235,25/09/2019,19:15,Durival Britto e Silva / Curitiba,Paraná / PR,Ponte Preta / SP,1 X 1
+236,24/09/2019,19:15,Jacy Scaff / Londrina,Londrina / PR,Sport / PE,1 X 2
+237,24/09/2019,21:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Bragantino / SP,0 X 3
+238,24/09/2019,20:30,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Brasil / RS,2 X 0
+239,24/09/2019,21:30,Octávio Mangabeira / Salvador,Vitória / BA,Atlético / GO,0 X 0
+240,29/10/2019,22:30,Arena Pantanal / Cuiaba,Cuiabá / MT,Coritiba / PR,3 X 3
+241,28/09/2019,16:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Cuiabá / MT,3 X 0
+242,29/09/2019,16:00,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Vitória / BA,2 X 0
+243,28/09/2019,19:00,Arena Barueri / Barueri,Oeste / SP,Paraná / PR,1 X 1
+244,27/09/2019,21:30,Antônio Accioly / Goiania,Atlético / GO,Figueirense / SC,2 X 0
+245,28/09/2019,16:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,America Fc / MG,2 X 1
+246,27/09/2019,19:15,Jacy Scaff / Londrina,Londrina / PR,Vila Nova / GO,0 X 1
+247,28/09/2019,11:00,Heriberto Hulse / Criciuma,Criciúma / SC,Botafogo / SP,2 X 0
+248,27/09/2019,20:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Guarani / SP,0 X 0
+249,28/09/2019,19:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Operario / PR,3 X 1
+250,28/09/2019,21:00,Rei Pelé / Maceio,Crb / AL,São Bento / SP,1 X 1
+251,30/09/2019,20:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Atlético / GO,2 X 0
+252,05/10/2019,11:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Ponte Preta / SP,4 X 1
+253,04/10/2019,21:30,Walter Ribeiro / Sorocaba,São Bento / SP,Bragantino / SP,0 X 3
+254,01/10/2019,19:15,Serra Dourada / Goiania,Vila Nova / GO,Criciúma / SC,1 X 1
+255,05/10/2019,16:30,Durival Britto e Silva / Curitiba,Paraná / PR,Coritiba / PR,2 X 0
+256,05/10/2019,19:00,Germano Kruger / Ponta Grossa,Operario / PR,Brasil / RS,1 X 2
+257,04/10/2019,19:15,Orlando Scarpelli / Florianopolis,Figueirense / SC,Oeste / SP,1 X 2
+258,03/10/2019,19:15,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Crb / AL,1 X 0
+259,03/10/2019,21:30,Octávio Mangabeira / Salvador,Vitória / BA,Sport / PE,2 X 2
+260,05/10/2019,19:00,Arena Pantanal / Cuiaba,Cuiabá / MT,Londrina / PR,0 X 1
+261,08/10/2019,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Londrina / PR,3 X 1
+262,08/10/2019,19:15,Santa Cruz / Ribeirao Preto,Botafogo / SP,Figueirense / SC,0 X 0
+263,07/10/2019,20:00,Walter Ribeiro / Sorocaba,São Bento / SP,Vila Nova / GO,3 X 1
+264,08/10/2019,20:30,Antônio Accioly / Goiania,Atlético / GO,Cuiabá / MT,1 X 1
+265,08/10/2019,19:15,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Guarani / SP,1 X 0
+266,08/10/2019,19:15,Germano Kruger / Ponta Grossa,Operario / PR,Paraná / PR,0 X 1
+267,08/10/2019,20:30,Heriberto Hulse / Criciuma,Criciúma / SC,Brasil / RS,2 X 2
+268,08/10/2019,21:30,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Bragantino / SP,2 X 0
+269,08/10/2019,20:30,Manoel Barradas / Salvador,Vitória / BA,Oeste / SP,3 X 1
+270,07/10/2019,20:00,Rei Pelé / Maceio,Crb / AL,Sport / PE,1 X 1
+271,11/10/2019,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Crb / AL,1 X 0
+272,12/10/2019,16:30,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Paraná / PR,2 X 0
+273,11/10/2019,21:30,Arena Barueri / Barueri,Oeste / SP,Ponte Preta / SP,1 X 1
+274,11/10/2019,19:15,Serra Dourada / Goiania,Vila Nova / GO,Atlético / GO,1 X 1
+275,12/10/2019,16:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Criciúma / SC,1 X 0
+276,12/10/2019,16:30,Jacy Scaff / Londrina,Londrina / PR,Operario / PR,1 X 2
+277,12/10/2019,19:00,Orlando Scarpelli / Florianopolis,Figueirense / SC,America Fc / MG,2 X 1
+278,11/10/2019,19:15,Bento da Silva Freitas / Pelotas,Brasil / RS,Botafogo / SP,1 X 0
+279,11/10/2019,19:15,Adelmar da Costa Carvalho / Recife,Sport / PE,São Bento / SP,2 X 0
+280,11/10/2019,21:30,Arena Pantanal / Cuiaba,Cuiabá / MT,Vitória / BA,1 X 3
+281,14/10/2019,20:00,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Botafogo / SP,0 X 2
+282,15/10/2019,21:30,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Oeste / SP,2 X 2
+283,15/10/2019,21:30,Walter Ribeiro / Sorocaba,São Bento / SP,Coritiba / PR,1 X 2
+284,14/10/2019,20:00,Antônio Accioly / Goiania,Atlético / GO,Ponte Preta / SP,0 X 0
+285,15/10/2019,19:15,Durival Britto e Silva / Curitiba,Paraná / PR,Brasil / RS,1 X 0
+286,15/10/2019,19:15,Jacy Scaff / Londrina,Londrina / PR,Figueirense / SC,0 X 0
+287,15/10/2019,19:15,Heriberto Hulse / Criciuma,Criciúma / SC,Vitória / BA,1 X 1
+288,15/10/2019,20:30,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Vila Nova / GO,2 X 0
+289,14/10/2019,20:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Cuiabá / MT,2 X 0
+290,15/10/2019,20:30,Rei Pelé / Maceio,Crb / AL,Operario / PR,0 X 0
+291,19/10/2019,16:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Bragantino / SP,1 X 1
+292,17/10/2019,19:15,Santa Cruz / Ribeirao Preto,Botafogo / SP,Atlético / GO,0 X 0
+293,19/10/2019,16:30,Arena Barueri / Barueri,Oeste / SP,America Fc / MG,0 X 1
+294,19/10/2019,16:30,Serra Dourada / Goiania,Vila Nova / GO,Coritiba / PR,2 X 2
+295,19/10/2019,19:00,Durival Britto e Silva / Curitiba,Paraná / PR,Figueirense / SC,0 X 1
+296,19/10/2019,19:00,Germano Kruger / Ponta Grossa,Operario / PR,São Bento / SP,2 X 1
+297,18/10/2019,19:15,Heriberto Hulse / Criciuma,Criciúma / SC,Crb / AL,0 X 1
+298,20/10/2019,16:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Sport / PE,0 X 0
+299,18/10/2019,21:30,Manoel Barradas / Salvador,Vitória / BA,Londrina / PR,0 X 1
+300,17/10/2019,21:30,Arena Pantanal / Cuiaba,Cuiabá / MT,Guarani / SP,2 X 1
+301,27/10/2019,16:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Vitória / BA,1 X 2
+302,25/10/2019,21:30,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Vila Nova / GO,3 X 1
+303,26/10/2019,16:30,Walter Ribeiro / Sorocaba,São Bento / SP,Guarani / SP,1 X 1
+304,25/10/2019,19:15,Antônio Accioly / Goiania,Atlético / GO,America Fc / MG,2 X 2
+305,24/10/2019,21:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Operario / PR,0 X 0
+306,25/10/2019,19:15,Jacy Scaff / Londrina,Londrina / PR,Oeste / SP,0 X 2
+307,26/10/2019,16:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Criciúma / SC,2 X 2
+308,26/10/2019,16:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Cuiabá / MT,0 X 0
+309,23/10/2019,19:15,Adelmar da Costa Carvalho / Recife,Sport / PE,Paraná / PR,2 X 1
+310,24/10/2019,19:15,Rei Pelé / Maceio,Crb / AL,Botafogo / SP,1 X 0
+311,31/10/2019,19:15,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Sport / PE,1 X 0
+312,01/11/2019,19:15,Santa Cruz / Ribeirao Preto,Botafogo / SP,Coritiba / PR,0 X 1
+313,02/11/2019,16:30,Arena Barueri / Barueri,Oeste / SP,Crb / AL,3 X 3
+314,29/10/2019,19:15,Serra Dourada / Goiania,Vila Nova / GO,Brasil / RS,0 X 2
+315,28/10/2019,20:00,Durival Britto e Silva / Curitiba,Paraná / PR,Londrina / PR,1 X 0
+316,01/11/2019,20:30,Germano Kruger / Ponta Grossa,Operario / PR,Atlético / GO,1 X 1
+317,02/11/2019,19:00,Heriberto Hulse / Criciuma,Criciúma / SC,São Bento / SP,1 X 1
+318,02/11/2019,19:00,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Ponte Preta / SP,0 X 0
+319,02/11/2019,16:30,Manoel Barradas / Salvador,Vitória / BA,Figueirense / SC,2 X 2
+320,01/11/2019,22:30,Arena Pantanal / Cuiaba,Cuiabá / MT,Bragantino / SP,2 X 0
+321,05/11/2019,21:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,São Bento / SP,1 X 1
+322,05/11/2019,21:30,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Guarani / SP,3 X 1
+323,05/11/2019,19:15,Arena Barueri / Barueri,Oeste / SP,Botafogo / SP,0 X 2
+324,05/11/2019,19:15,Antônio Accioly / Goiania,Atlético / GO,Londrina / PR,2 X 1
+325,04/11/2019,20:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Sport / PE,0 X 0
+326,05/11/2019,20:30,Germano Kruger / Ponta Grossa,Operario / PR,Criciúma / SC,1 X 0
+327,05/11/2019,20:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Vila Nova / GO,0 X 0
+328,05/11/2019,20:30,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Paraná / PR,0 X 2
+329,05/11/2019,20:30,Manoel Barradas / Salvador,Vitória / BA,Brasil / RS,3 X 0
+330,05/11/2019,21:30,Arena Pantanal / Cuiaba,Cuiabá / MT,Crb / AL,5 X 1
+331,09/11/2019,16:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Ponte Preta / SP,0 X 0
+332,08/11/2019,19:15,Santa Cruz / Ribeirao Preto,Botafogo / SP,Bragantino / SP,2 X 3
+333,08/11/2019,21:30,Walter Ribeiro / Sorocaba,São Bento / SP,Cuiabá / MT,1 X 2
+334,08/11/2019,20:30,Serra Dourada / Goiania,Vila Nova / GO,Operario / PR,0 X 0
+335,08/11/2019,19:15,Durival Britto e Silva / Curitiba,Paraná / PR,Vitória / BA,0 X 0
+336,08/11/2019,20:30,Jacy Scaff / Londrina,Londrina / PR,America Fc / MG,0 X 1
+337,08/11/2019,21:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Coritiba / PR,1 X 1
+338,09/11/2019,19:00,Bento da Silva Freitas / Pelotas,Brasil / RS,Oeste / SP,2 X 2
+339,09/11/2019,16:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Criciúma / SC,1 X 0
+340,09/11/2019,19:00,Rei Pelé / Maceio,Crb / AL,Atlético / GO,2 X 1
+341,12/11/2019,20:30,Moisés Lucarelli / Campinas,Ponte Preta / SP,Figueirense / SC,1 X 3
+342,13/11/2019,21:30,Santa Cruz / Ribeirao Preto,Botafogo / SP,Sport / PE,0 X 2
+343,12/11/2019,19:15,Arena Barueri / Barueri,Oeste / SP,Atlético / GO,0 X 4
+344,13/11/2019,19:15,Serra Dourada / Goiania,Vila Nova / GO,Guarani / SP,1 X 1
+345,12/11/2019,21:30,Durival Britto e Silva / Curitiba,Paraná / PR,São Bento / SP,2 X 1
+346,12/11/2019,21:30,Germano Kruger / Ponta Grossa,Operario / PR,Bragantino / SP,0 X 2
+347,12/11/2019,20:30,Heriberto Hulse / Criciuma,Criciúma / SC,Londrina / PR,2 X 0
+348,12/11/2019,19:15,Bento da Silva Freitas / Pelotas,Brasil / RS,Coritiba / PR,0 X 2
+349,12/11/2019,19:15,Manoel Barradas / Salvador,Vitória / BA,Crb / AL,2 X 2
+350,11/11/2019,22:00,Arena Pantanal / Cuiaba,Cuiabá / MT,America Fc / MG,0 X 2
+351,16/11/2019,16:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,Operario / PR,1 X 0
+352,15/11/2019,19:15,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Criciúma / SC,1 X 1
+353,17/11/2019,16:00,Walter Ribeiro / Sorocaba,São Bento / SP,Brasil / RS,3 X 1
+354,15/11/2019,21:30,Antônio Accioly / Goiania,Atlético / GO,Paraná / PR,1 X 0
+355,16/11/2019,16:30,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Oeste / SP,1 X 0
+356,16/11/2019,19:00,Jacy Scaff / Londrina,Londrina / PR,Botafogo / SP,1 X 1
+357,17/11/2019,18:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Cuiabá / MT,0 X 0
+358,15/11/2019,17:00,Raimundo Sampaio / Belo Horizonte,America Fc / MG,Vitória / BA,2 X 1
+359,17/11/2019,16:00,Adelmar da Costa Carvalho / Recife,Sport / PE,Vila Nova / GO,0 X 0
+360,16/11/2019,16:30,Rei Pelé / Maceio,Crb / AL,Ponte Preta / SP,2 X 0
+361,22/11/2019,21:30,Brinco de Ouro da Princesa / Campinas,Guarani / SP,America Fc / MG,0 X 1
+362,23/11/2019,17:00,Santa Cruz / Ribeirao Preto,Botafogo / SP,Cuiabá / MT,0 X 0
+363,21/11/2019,19:15,Walter Ribeiro / Sorocaba,São Bento / SP,Londrina / PR,4 X 1
+364,20/11/2019,19:15,Serra Dourada / Goiania,Vila Nova / GO,Oeste / SP,1 X 1
+365,24/11/2019,16:00,Major Antônio Couto Pereira / Curitiba,Coritiba / PR,Bragantino / SP,1 X 0
+366,19/11/2019,21:30,Germano Kruger / Ponta Grossa,Operario / PR,Vitória / BA,1 X 2
+367,19/11/2019,19:15,Heriberto Hulse / Criciuma,Criciúma / SC,Paraná / PR,1 X 1
+368,21/11/2019,21:30,Bento da Silva Freitas / Pelotas,Brasil / RS,Atlético / GO,2 X 2
+369,20/11/2019,21:30,Adelmar da Costa Carvalho / Recife,Sport / PE,Ponte Preta / SP,2 X 1
+370,22/11/2019,19:15,Rei Pelé / Maceio,Crb / AL,Figueirense / SC,0 X 0
+371,26/11/2019,19:00,Moisés Lucarelli / Campinas,Ponte Preta / SP,Brasil / RS,4 X 0
+372,30/11/2019,16:30,Nabi Abi Chedid / Braganca Paulista,Bragantino / SP,Crb / AL,2 X 0
+373,29/11/2019,21:30,Arena Barueri / Barueri,Oeste / SP,Criciúma / SC,1 X 2
+374,30/11/2019,16:30,Antônio Accioly / Goiania,Atlético / GO,Sport / PE,0 X 0
+375,29/11/2019,19:15,Durival Britto e Silva / Curitiba,Paraná / PR,Botafogo / SP,3 X 3
+376,30/11/2019,16:30,Jacy Scaff / Londrina,Londrina / PR,Guarani / SP,2 X 0
+377,30/11/2019,16:30,Orlando Scarpelli / Florianopolis,Figueirense / SC,Operario / PR,1 X 1
+378,30/11/2019,16:30,Raimundo Sampaio / Belo Horizonte,America Fc / MG,São Bento / SP,1 X 2
+379,30/11/2019,16:30,Manoel Barradas / Salvador,Vitória / BA,Coritiba / PR,1 X 2
+380,30/11/2019,16:30,Arena Pantanal / Cuiaba,Cuiabá / MT,Vila Nova / GO,1 X 2
