@@ -1,4 +1,4 @@
-"""Scrapes Brazilian Serie A / Serie B match dockets directly from CBF since 2020.
+"""Scrapes Brazilian Serie A / Serie B match dockets directly from CBF since 2018.
 
 Only fetches and parses the raw dockets, exactly as they come from CBF -- no
 team-name treatment happens here (see team_name_mapping.py and
