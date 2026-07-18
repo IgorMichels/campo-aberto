@@ -3,6 +3,7 @@ Abc / RN,ABC / RN
 Amazonas Fc / AM,Amazonas / AM
 Amazonas Saf / AM,Amazonas / AM
 America / MG,América / MG
+America Fc / MG,América / MG
 America Fc S.a.f. / MG,América / MG
 America Saf / MG,América / MG
 América / MG,América / MG
@@ -17,6 +18,7 @@ Athletico Paranaense / PR,Athletico Paranaense / PR
 Athletico-PR,Athletico Paranaense / PR
 Atlético / GO,Atlético Goianiense / GO
 Atlético / MG,Atlético Mineiro / MG
+Atlético / PR,Athletico Paranaense / PR
 Atlético Goianiense,Atlético Goianiense / GO
 Atlético Goianiense Saf / GO,Atlético Goianiense / GO
 Atlético Mineiro / MG,Atlético Mineiro / MG
@@ -28,10 +30,12 @@ Avaí,Avaí / SC
 Avaí / SC,Avaí / SC
 Bahia,Bahia / BA
 Bahia / BA,Bahia / BA
+Boa / MG,Boa / MG
 Botafogo,Botafogo / RJ
 Botafogo / RJ,Botafogo / RJ
 Botafogo / SP,Botafogo / SP
 Botafogo-SP,Botafogo / SP
+Bragantino / SP,Red Bull Bragantino / SP
 Brasil / RS,Brasil / RS
 Brusque / SC,Brusque / SC
 CORINTHIANS / SP,Corinthians / SP
@@ -90,6 +94,7 @@ Novorizontino / SP,Novorizontino / SP
 Náutico,Náutico / PE
 Náutico / PE,Náutico / PE
 Oeste / SP,Oeste / SP
+Operario / PR,Operário / PR
 Operário / PR,Operário / PR
 Operário PR,Operário / PR
 Palmeiras,Palmeiras / SP
@@ -107,6 +112,7 @@ Sampaio Corrêa / MA,Sampaio Corrêa / MA
 Santos,Santos / SP
 Santos / SP,Santos / SP
 Santos Fc / SP,Santos / SP
+São Bento / SP,São Bento / SP
 Sao Bernardo / SP,São Bernardo / SP
 Sport,Sport / PE
 Sport / PE,Sport / PE
