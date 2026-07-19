@@ -86,10 +86,17 @@
   // cells, last row/column of each marginal being the ">= outcomeCap" tail),
   // renormalizes it by its own sum (the tau correction and the tail
   // truncation both nudge the raw total away from exactly 1), derives
-  // home_win/draw/away_win from that full, unbucketed grid, then buckets it
-  // down to a (maxGoals+1) x (maxGoals+1) grid for display (each of the last
-  // row/column/corner is the sum of every fine cell with that many goals or
-  // more, matching the fine grid's own tail convention).
+  // home_win/draw/away_win from that full, unbucketed grid, then slices out
+  // its own top-left (maxGoals+1) x (maxGoals+1) corner for display -- each
+  // display cell is the EXACT probability of that single scoreline (since
+  // maxGoals=4 is well inside outcomeCap=10, no tail-bucketing touches it),
+  // not a summed "N or more" bucket, so it doesn't sum to 1: the remaining
+  // mass (5+ goals on either side) simply isn't shown on the grid.
+  //
+  // `best` (the single most-likely EXACT scoreline) is picked from this same
+  // fine grid -- not by scanning `grid`, since a scoreline outside the
+  // displayed 0..maxGoals corner (rare, but possible for a very lopsided
+  // matchup) could still be the true most-likely one.
   function scorelineProbabilities(muHome, muAway, sharedParams, maxGoals = 4, outcomeCap = 10) {
     const { rho } = sharedParams;
     const pHome = poissonPmfWithTail(muHome, outcomeCap);
@@ -114,33 +121,27 @@
     let homeWin = 0;
     let draw = 0;
     let awayWin = 0;
+    let best = { home: 0, away: 0, prob: -1 };
     for (let x = 0; x <= outcomeCap; x++) {
       for (let y = 0; y <= outcomeCap; y++) {
         const p = fine[x][y] / total;
         if (x > y) homeWin += p;
         else if (x === y) draw += p;
         else awayWin += p;
+        if (p > best.prob) best = { home: x, away: y, prob: p };
       }
     }
 
     const grid = [];
     for (let x = 0; x <= maxGoals; x++) {
-      const row = new Array(maxGoals + 1).fill(0);
-      const xs = x === maxGoals ? range(x, outcomeCap) : [x];
+      const row = new Array(maxGoals + 1);
       for (let y = 0; y <= maxGoals; y++) {
-        const ys = y === maxGoals ? range(y, outcomeCap) : [y];
-        let cell = 0;
-        for (const xi of xs) {
-          for (const yi of ys) {
-            cell += fine[xi][yi];
-          }
-        }
-        row[y] = cell / total;
+        row[y] = fine[x][y] / total;
       }
       grid.push(row);
     }
 
-    return { grid, home_win: homeWin, draw, away_win: awayWin };
+    return { grid, home_win: homeWin, draw, away_win: awayWin, best };
   }
 
   // Exact probability of one specific scoreline, for any (home, away) --
@@ -167,13 +168,6 @@
 
     const raw = dixonColesTau(home, away, muHome, muAway, rho) * pHome[home] * pAway[away];
     return raw / total;
-  }
-
-  // Inclusive integer range [start, end].
-  function range(start, end) {
-    const values = [];
-    for (let i = start; i <= end; i++) values.push(i);
-    return values;
   }
 
   // Symmetric "how strong is this team" scalar, used only to derive the

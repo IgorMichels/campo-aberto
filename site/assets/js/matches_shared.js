@@ -154,18 +154,6 @@
     });
   }
 
-  // Finds the single highest-probability scoreline in a match's 5x5 grid.
-  function bestScore(scores) {
-    let best = { home: 0, away: 0, prob: -1 };
-    Object.entries(scores).forEach(([key, prob]) => {
-      if (prob > best.prob) {
-        const [home, away] = key.split("_").map(Number);
-        best = { home, away, prob };
-      }
-    });
-    return best;
-  }
-
   // `actual` (optional {home, away}, both <= 4) marks the real final score's
   // cell with a distinct "actual" class alongside "best" -- used only by
   // matches/played.html's cards. A real score outside the displayed 0-4
@@ -222,7 +210,13 @@
   // matches/played.html, additionally shows the real result next to the
   // most-likely score.
   function renderStickerCard(match, tiers) {
-    const best = bestScore(match.scores);
+    // match.best (see computeCard) is the single most-likely EXACT scoreline
+    // anywhere in the model's full distribution -- NOT derived by scanning
+    // match.scores, which only covers the displayed 0-4 corner: a lopsided
+    // enough matchup can have its true most-likely scoreline outside that
+    // corner (e.g. best = 5-0, in which case no heatmap cell gets the "best"
+    // highlight, but the most-likely badge above the heatmap still shows it).
+    const best = match.best;
     const actual =
       match.final_score && match.final_score.home <= 4 && match.final_score.away <= 4
         ? match.final_score
@@ -333,7 +327,7 @@
 
     const model = window.ScoreModels[params.model];
     const { muHome, muAway } = model.matchRates(homeParams, awayParams, params.shared);
-    const { grid, home_win, draw, away_win } = model.scorelineProbabilities(
+    const { grid, home_win, draw, away_win, best } = model.scorelineProbabilities(
       muHome,
       muAway,
       params.shared,
@@ -353,8 +347,9 @@
 
     // Only a played card (matches_played.js) carries final_score -- exact
     // probability of that one scoreline, via scorelineProbabilityAt rather
-    // than a `scores` lookup, since `scores` buckets anything at 4+ goals
-    // into a single ">= 4" cell (see renderStickerCard's real-score-prob).
+    // than a `scores` lookup, since `scores` only covers the displayed 0-4
+    // corner and a real result can be a blowout past it (see
+    // renderStickerCard's real-score-prob).
     const final_score_prob = base.final_score
       ? model.scorelineProbabilityAt(
           muHome,
@@ -365,7 +360,7 @@
         )
       : undefined;
 
-    return { ...base, scores, home_win, draw, away_win, total_strength, final_score_prob };
+    return { ...base, scores, home_win, draw, away_win, total_strength, final_score_prob, best };
   }
 
   // Rarity-tier cutoffs for the card border, derived from the *current*
@@ -806,7 +801,6 @@
     buildTabs,
     updateTabSelection,
     buildSeasonSelect,
-    bestScore,
     renderHeatmap,
     renderStickerCard,
     computeCard,
