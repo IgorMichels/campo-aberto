@@ -62,6 +62,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 0,
             "played": 0,
@@ -84,6 +85,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 0,
             "played": 0,
@@ -106,6 +108,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 0,
             "played": 0,
@@ -128,6 +131,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 0,
             "played": 0,
@@ -150,6 +154,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 0,
             "played": 0,
@@ -172,6 +177,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 0,
             "played": 0,
@@ -194,6 +200,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 0,
             "played": 0,
@@ -216,6 +223,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 0,
             "played": 0,
@@ -238,6 +246,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 0,
             "played": 0,
@@ -260,6 +269,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 0,
             "played": 0,
@@ -282,6 +292,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 0,
             "played": 0,
@@ -304,6 +315,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 0,
             "played": 0,
@@ -326,6 +338,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 0,
             "played": 0,
@@ -348,6 +361,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 0,
             "played": 0,
@@ -370,6 +384,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 0,
             "played": 0,
@@ -392,6 +407,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 0,
             "played": 0,
@@ -414,6 +430,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 0,
             "played": 0,
@@ -436,6 +453,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 0,
             "played": 0,
@@ -458,6 +476,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 0,
             "played": 0,
@@ -480,6 +499,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 0,
             "played": 0,
@@ -506,6 +526,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 0,
             "played": 1,
@@ -528,6 +549,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 1,
             "played": 1,
@@ -550,6 +572,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 3,
             "played": 1,
@@ -572,6 +595,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 3,
             "played": 1,
@@ -594,6 +618,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 3,
             "played": 1,
@@ -616,6 +641,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 0,
             "played": 1,
@@ -638,6 +664,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 3,
             "played": 1,
@@ -660,6 +687,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 3,
             "played": 1,
@@ -682,6 +710,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 0,
             "played": 1,
@@ -704,6 +733,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 1,
             "played": 1,
@@ -726,6 +756,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 3,
             "played": 1,
@@ -748,6 +779,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 0,
             "played": 1,
@@ -770,6 +802,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 3,
             "played": 1,
@@ -792,6 +825,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 0,
             "played": 1,
@@ -814,6 +848,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 0,
             "played": 1,
@@ -836,6 +871,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 3,
             "played": 1,
@@ -858,6 +894,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 3,
             "played": 1,
@@ -880,6 +917,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 0,
             "played": 1,
@@ -902,6 +940,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 0,
             "played": 1,
@@ -924,6 +963,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 0,
             "played": 1,
@@ -950,6 +990,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 4,
             "played": 2,
@@ -972,6 +1013,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 1,
             "played": 2,
@@ -994,6 +1036,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 3,
             "played": 2,
@@ -1016,6 +1059,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 4,
             "played": 2,
@@ -1038,6 +1082,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 4,
             "played": 2,
@@ -1060,6 +1105,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 0,
             "played": 2,
@@ -1082,6 +1128,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 3,
             "played": 2,
@@ -1104,6 +1151,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 4,
             "played": 2,
@@ -1126,6 +1174,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 4,
             "played": 2,
@@ -1148,6 +1197,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 3,
             "played": 1,
@@ -1170,6 +1220,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 4,
             "played": 2,
@@ -1192,6 +1243,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 6,
             "played": 2,
@@ -1214,6 +1266,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 3,
             "played": 2,
@@ -1236,6 +1289,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 1,
             "played": 2,
@@ -1258,6 +1312,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 0,
             "played": 1,
@@ -1280,6 +1335,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 1,
             "played": 2,
@@ -1302,6 +1358,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 1,
             "played": 2,
@@ -1324,6 +1381,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 1,
             "played": 2,
@@ -1346,6 +1404,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 1,
             "played": 2,
@@ -1368,6 +1427,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 3,
             "played": 2,
@@ -1394,6 +1454,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 7,
             "played": 3,
@@ -1416,6 +1477,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 4,
             "played": 3,
@@ -1438,6 +1500,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 3,
             "played": 3,
@@ -1460,6 +1523,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 7,
             "played": 3,
@@ -1482,6 +1546,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 5,
             "played": 3,
@@ -1504,6 +1569,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 7,
             "played": 3,
@@ -1526,6 +1592,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 7,
             "played": 3,
@@ -1548,6 +1615,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 1,
             "played": 3,
@@ -1570,6 +1638,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 6,
             "played": 2,
@@ -1592,6 +1661,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 3,
             "played": 3,
@@ -1614,6 +1684,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 3,
             "played": 2,
@@ -1636,6 +1707,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 4,
             "played": 3,
@@ -1658,6 +1730,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 5,
             "played": 3,
@@ -1680,6 +1753,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 6,
             "played": 3,
@@ -1702,6 +1776,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 2,
             "played": 3,
@@ -1724,6 +1799,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 1,
             "played": 3,
@@ -1746,6 +1822,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 2,
             "played": 3,
@@ -1768,6 +1845,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 1,
             "played": 3,
@@ -1790,6 +1868,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 1,
             "played": 3,
@@ -1812,6 +1891,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 3,
             "played": 3,
@@ -1838,6 +1918,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 7,
             "played": 3,
@@ -1860,6 +1941,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 4,
             "played": 3,
@@ -1882,6 +1964,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 3,
             "played": 3,
@@ -1904,6 +1987,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 7,
             "played": 3,
@@ -1926,6 +2010,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 5,
             "played": 3,
@@ -1948,6 +2033,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 7,
             "played": 3,
@@ -1970,6 +2056,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 1,
             "played": 3,
@@ -1992,6 +2079,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 7,
             "played": 3,
@@ -2014,6 +2102,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 6,
             "played": 3,
@@ -2036,6 +2125,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 3,
             "played": 3,
@@ -2058,6 +2148,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 6,
             "played": 3,
@@ -2080,6 +2171,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 4,
             "played": 3,
@@ -2102,6 +2194,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 5,
             "played": 3,
@@ -2124,6 +2217,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 6,
             "played": 3,
@@ -2146,6 +2240,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 2,
             "played": 3,
@@ -2168,6 +2263,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 1,
             "played": 3,
@@ -2190,6 +2286,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 2,
             "played": 3,
@@ -2212,6 +2309,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 1,
             "played": 3,
@@ -2234,6 +2332,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 1,
             "played": 3,
@@ -2256,6 +2355,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 3,
             "played": 3,
@@ -2282,6 +2382,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 10,
             "played": 4,
@@ -2304,6 +2405,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 4,
             "played": 3,
@@ -2326,6 +2428,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 3,
             "played": 3,
@@ -2348,6 +2451,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 5,
             "played": 3,
@@ -2370,6 +2474,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 7,
             "played": 4,
@@ -2392,6 +2497,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 10,
             "played": 4,
@@ -2414,6 +2520,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 7,
             "played": 3,
@@ -2436,6 +2543,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 7,
             "played": 4,
@@ -2458,6 +2566,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 2,
             "played": 4,
@@ -2480,6 +2589,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 6,
             "played": 4,
@@ -2502,6 +2612,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 7,
             "played": 4,
@@ -2524,6 +2635,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 4,
             "played": 4,
@@ -2546,6 +2658,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 5,
             "played": 3,
@@ -2568,6 +2681,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 7,
             "played": 4,
@@ -2590,6 +2704,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 2,
             "played": 4,
@@ -2612,6 +2727,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 4,
             "played": 4,
@@ -2634,6 +2750,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 2,
             "played": 4,
@@ -2656,6 +2773,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 3,
             "played": 4,
@@ -2678,6 +2796,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 3,
             "played": 3,
@@ -2700,6 +2819,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 1,
             "played": 4,
@@ -2726,6 +2846,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 7,
             "played": 4,
@@ -2748,6 +2869,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 10,
             "played": 5,
@@ -2770,6 +2892,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 10,
             "played": 5,
@@ -2792,6 +2915,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 3,
             "played": 3,
@@ -2814,6 +2938,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 13,
             "played": 5,
@@ -2836,6 +2961,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 6,
             "played": 4,
@@ -2858,6 +2984,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 8,
             "played": 4,
@@ -2880,6 +3007,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 2,
             "played": 5,
@@ -2902,6 +3030,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 7,
             "played": 5,
@@ -2924,6 +3053,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 7,
             "played": 5,
@@ -2946,6 +3076,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 7,
             "played": 5,
@@ -2968,6 +3099,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 7,
             "played": 4,
@@ -2990,6 +3122,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 5,
             "played": 5,
@@ -3012,6 +3145,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 5,
             "played": 5,
@@ -3034,6 +3168,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 8,
             "played": 5,
@@ -3056,6 +3191,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 5,
             "played": 4,
@@ -3078,6 +3214,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 4,
             "played": 5,
@@ -3100,6 +3237,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 4,
             "played": 4,
@@ -3122,6 +3260,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 2,
             "played": 5,
@@ -3144,6 +3283,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 3,
             "played": 5,
@@ -3170,6 +3310,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 10,
             "played": 5,
@@ -3192,6 +3333,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 13,
             "played": 6,
@@ -3214,6 +3356,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 13,
             "played": 6,
@@ -3236,6 +3379,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 16,
             "played": 6,
@@ -3258,6 +3402,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 6,
             "played": 5,
@@ -3280,6 +3425,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 3,
             "played": 4,
@@ -3302,6 +3448,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 11,
             "played": 5,
@@ -3324,6 +3471,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 7,
             "played": 5,
@@ -3346,6 +3494,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 10,
             "played": 6,
@@ -3368,6 +3517,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 3,
             "played": 6,
@@ -3390,6 +3540,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 8,
             "played": 6,
@@ -3412,6 +3563,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 7,
             "played": 5,
@@ -3434,6 +3586,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 6,
             "played": 6,
@@ -3456,6 +3609,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 5,
             "played": 4,
@@ -3478,6 +3632,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 5,
             "played": 6,
@@ -3500,6 +3655,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 7,
             "played": 5,
@@ -3522,6 +3678,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 8,
             "played": 6,
@@ -3544,6 +3701,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 5,
             "played": 6,
@@ -3566,6 +3724,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 2,
             "played": 6,
@@ -3588,6 +3747,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 3,
             "played": 6,
@@ -3614,6 +3774,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 13,
             "played": 6,
@@ -3636,6 +3797,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 16,
             "played": 7,
@@ -3658,6 +3820,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 13,
             "played": 7,
@@ -3680,6 +3843,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 16,
             "played": 7,
@@ -3702,6 +3866,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 14,
             "played": 6,
@@ -3724,6 +3889,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 3,
             "played": 5,
@@ -3746,6 +3912,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 6,
             "played": 6,
@@ -3768,6 +3935,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 13,
             "played": 7,
@@ -3790,6 +3958,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 11,
             "played": 7,
@@ -3812,6 +3981,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 10,
             "played": 6,
@@ -3834,6 +4004,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 9,
             "played": 7,
@@ -3856,6 +4027,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 3,
             "played": 7,
@@ -3878,6 +4050,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 8,
             "played": 7,
@@ -3900,6 +4073,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 8,
             "played": 7,
@@ -3922,6 +4096,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 7,
             "played": 6,
@@ -3944,6 +4119,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 6,
             "played": 7,
@@ -3966,6 +4142,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 7,
             "played": 6,
@@ -3988,6 +4165,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 5,
             "played": 7,
@@ -4010,6 +4188,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 8,
             "played": 7,
@@ -4032,6 +4211,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 3,
             "played": 7,
@@ -4058,6 +4238,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 14,
             "played": 7,
@@ -4080,6 +4261,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 19,
             "played": 8,
@@ -4102,6 +4284,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 16,
             "played": 8,
@@ -4124,6 +4307,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 6,
             "played": 6,
@@ -4146,6 +4330,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 16,
             "played": 8,
@@ -4168,6 +4353,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 14,
             "played": 7,
@@ -4190,6 +4376,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 13,
             "played": 7,
@@ -4212,6 +4399,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 6,
             "played": 7,
@@ -4234,6 +4422,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 13,
             "played": 8,
@@ -4256,6 +4445,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 11,
             "played": 8,
@@ -4278,6 +4468,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 10,
             "played": 8,
@@ -4300,6 +4491,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 11,
             "played": 8,
@@ -4322,6 +4514,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 4,
             "played": 8,
@@ -4344,6 +4537,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 10,
             "played": 7,
@@ -4366,6 +4560,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 7,
             "played": 8,
@@ -4388,6 +4583,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 8,
             "played": 8,
@@ -4410,6 +4606,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 8,
             "played": 8,
@@ -4432,6 +4629,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 7,
             "played": 7,
@@ -4454,6 +4652,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 6,
             "played": 8,
@@ -4476,6 +4675,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 8,
             "played": 8,
@@ -4502,6 +4702,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 14,
             "played": 7,
@@ -4524,6 +4725,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 19,
             "played": 8,
@@ -4546,6 +4748,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 16,
             "played": 8,
@@ -4568,6 +4771,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 16,
             "played": 8,
@@ -4590,6 +4794,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 16,
             "played": 8,
@@ -4612,6 +4817,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 6,
             "played": 7,
@@ -4634,6 +4840,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 14,
             "played": 7,
@@ -4656,6 +4863,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 13,
             "played": 8,
@@ -4678,6 +4886,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 6,
             "played": 7,
@@ -4700,6 +4909,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 11,
             "played": 8,
@@ -4722,6 +4932,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 10,
             "played": 8,
@@ -4744,6 +4955,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 11,
             "played": 8,
@@ -4766,6 +4978,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 4,
             "played": 8,
@@ -4788,6 +5001,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 10,
             "played": 7,
@@ -4810,6 +5024,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 7,
             "played": 8,
@@ -4832,6 +5047,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 8,
             "played": 8,
@@ -4854,6 +5070,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 8,
             "played": 8,
@@ -4876,6 +5093,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 7,
             "played": 7,
@@ -4898,6 +5116,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 6,
             "played": 8,
@@ -4920,6 +5139,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 8,
             "played": 8,
@@ -4946,6 +5166,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 22,
             "played": 9,
@@ -4968,6 +5189,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 14,
             "played": 8,
@@ -4990,6 +5212,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 19,
             "played": 9,
@@ -5012,6 +5235,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 17,
             "played": 8,
@@ -5034,6 +5258,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 17,
             "played": 9,
@@ -5056,6 +5281,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 9,
             "played": 8,
@@ -5078,6 +5304,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 16,
             "played": 9,
@@ -5100,6 +5327,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 6,
             "played": 8,
@@ -5122,6 +5350,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 14,
             "played": 9,
@@ -5144,6 +5373,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 11,
             "played": 9,
@@ -5166,6 +5396,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 11,
             "played": 9,
@@ -5188,6 +5419,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 12,
             "played": 9,
@@ -5210,6 +5442,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 7,
             "played": 9,
@@ -5232,6 +5465,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 10,
             "played": 9,
@@ -5254,6 +5488,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 10,
             "played": 9,
@@ -5276,6 +5511,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 11,
             "played": 9,
@@ -5298,6 +5534,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 10,
             "played": 8,
@@ -5320,6 +5557,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 9,
             "played": 9,
@@ -5342,6 +5580,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 6,
             "played": 9,
@@ -5364,6 +5603,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 7,
             "played": 8,
@@ -5390,6 +5630,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 25,
             "played": 10,
@@ -5412,6 +5653,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 17,
             "played": 9,
@@ -5434,6 +5676,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 20,
             "played": 10,
@@ -5456,6 +5699,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 20,
             "played": 10,
@@ -5478,6 +5722,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 12,
             "played": 9,
@@ -5500,6 +5745,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 17,
             "played": 9,
@@ -5522,6 +5768,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 16,
             "played": 10,
@@ -5544,6 +5791,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 14,
             "played": 10,
@@ -5566,6 +5814,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 15,
             "played": 10,
@@ -5588,6 +5837,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 12,
             "played": 10,
@@ -5610,6 +5860,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 6,
             "played": 9,
@@ -5632,6 +5883,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 14,
             "played": 10,
@@ -5654,6 +5906,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 12,
             "played": 10,
@@ -5676,6 +5929,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 12,
             "played": 10,
@@ -5698,6 +5952,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 7,
             "played": 10,
@@ -5720,6 +5975,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 10,
             "played": 10,
@@ -5742,6 +5998,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 10,
             "played": 10,
@@ -5764,6 +6021,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 11,
             "played": 9,
@@ -5786,6 +6044,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 7,
             "played": 10,
@@ -5808,6 +6067,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 8,
             "played": 9,
@@ -5834,6 +6094,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 26,
             "played": 11,
@@ -5856,6 +6117,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 20,
             "played": 10,
@@ -5878,6 +6140,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 20,
             "played": 11,
@@ -5900,6 +6163,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 20,
             "played": 10,
@@ -5922,6 +6186,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 20,
             "played": 11,
@@ -5944,6 +6209,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 13,
             "played": 10,
@@ -5966,6 +6232,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 19,
             "played": 11,
@@ -5988,6 +6255,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 16,
             "played": 11,
@@ -6010,6 +6278,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 14,
             "played": 11,
@@ -6032,6 +6301,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 13,
             "played": 11,
@@ -6054,6 +6324,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 10,
             "played": 11,
@@ -6076,6 +6347,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 14,
             "played": 11,
@@ -6098,6 +6370,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 13,
             "played": 11,
@@ -6120,6 +6393,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 13,
             "played": 11,
@@ -6142,6 +6416,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 14,
             "played": 10,
@@ -6164,6 +6439,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 6,
             "played": 10,
@@ -6186,6 +6462,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 13,
             "played": 11,
@@ -6208,6 +6485,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 11,
             "played": 11,
@@ -6230,6 +6508,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 8,
             "played": 11,
@@ -6252,6 +6531,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 8,
             "played": 10,
@@ -6278,6 +6558,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 29,
             "played": 12,
@@ -6300,6 +6581,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 23,
             "played": 11,
@@ -6322,6 +6604,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 23,
             "played": 12,
@@ -6344,6 +6627,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 16,
             "played": 11,
@@ -6366,6 +6650,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 20,
             "played": 11,
@@ -6388,6 +6673,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 20,
             "played": 12,
@@ -6410,6 +6696,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 19,
             "played": 12,
@@ -6432,6 +6719,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 19,
             "played": 12,
@@ -6454,6 +6742,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 13,
             "played": 12,
@@ -6476,6 +6765,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 17,
             "played": 12,
@@ -6498,6 +6788,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 16,
             "played": 12,
@@ -6520,6 +6811,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 9,
             "played": 11,
@@ -6542,6 +6834,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 14,
             "played": 12,
@@ -6564,6 +6857,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 13,
             "played": 12,
@@ -6586,6 +6880,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 15,
             "played": 11,
@@ -6608,6 +6903,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 13,
             "played": 12,
@@ -6630,6 +6926,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 12,
             "played": 12,
@@ -6652,6 +6949,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 13,
             "played": 12,
@@ -6674,6 +6972,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 8,
             "played": 12,
@@ -6696,6 +6995,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 8,
             "played": 11,
@@ -6722,6 +7022,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 32,
             "played": 13,
@@ -6744,6 +7045,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 26,
             "played": 12,
@@ -6766,6 +7068,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 26,
             "played": 13,
@@ -6788,6 +7091,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 17,
             "played": 12,
@@ -6810,6 +7114,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 23,
             "played": 13,
@@ -6832,6 +7137,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 21,
             "played": 12,
@@ -6854,6 +7160,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 22,
             "played": 13,
@@ -6876,6 +7183,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 16,
             "played": 13,
@@ -6898,6 +7206,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 19,
             "played": 13,
@@ -6920,6 +7229,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 17,
             "played": 13,
@@ -6942,6 +7252,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 16,
             "played": 13,
@@ -6964,6 +7275,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 16,
             "played": 13,
@@ -6986,6 +7298,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 9,
             "played": 12,
@@ -7008,6 +7321,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 15,
             "played": 13,
@@ -7030,6 +7344,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 14,
             "played": 13,
@@ -7052,6 +7367,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 14,
             "played": 13,
@@ -7074,6 +7390,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 14,
             "played": 13,
@@ -7096,6 +7413,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 15,
             "played": 12,
@@ -7118,6 +7436,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 8,
             "played": 13,
@@ -7140,6 +7459,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 8,
             "played": 12,
@@ -7166,6 +7486,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 33,
             "played": 14,
@@ -7188,6 +7509,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 27,
             "played": 13,
@@ -7210,6 +7532,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 26,
             "played": 14,
@@ -7232,6 +7555,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 22,
             "played": 13,
@@ -7254,6 +7578,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 24,
             "played": 14,
@@ -7276,6 +7601,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 17,
             "played": 13,
@@ -7298,6 +7624,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 23,
             "played": 14,
@@ -7320,6 +7647,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 20,
             "played": 14,
@@ -7342,6 +7670,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 17,
             "played": 14,
@@ -7364,6 +7693,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 16,
             "played": 14,
@@ -7386,6 +7716,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 17,
             "played": 14,
@@ -7408,6 +7739,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 17,
             "played": 14,
@@ -7430,6 +7762,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 12,
             "played": 13,
@@ -7452,6 +7785,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 18,
             "played": 13,
@@ -7474,6 +7808,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 17,
             "played": 14,
@@ -7496,6 +7831,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 19,
             "played": 14,
@@ -7518,6 +7854,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 15,
             "played": 14,
@@ -7540,6 +7877,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 15,
             "played": 14,
@@ -7562,6 +7900,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 11,
             "played": 14,
@@ -7584,6 +7923,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 8,
             "played": 13,
@@ -7610,6 +7950,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 30,
             "played": 14,
@@ -7632,6 +7973,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 34,
             "played": 15,
@@ -7654,6 +7996,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 27,
             "played": 15,
@@ -7676,6 +8019,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 24,
             "played": 15,
@@ -7698,6 +8042,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 18,
             "played": 14,
@@ -7720,6 +8065,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 22,
             "played": 14,
@@ -7742,6 +8088,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 23,
             "played": 15,
@@ -7764,6 +8111,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 19,
             "played": 15,
@@ -7786,6 +8134,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 20,
             "played": 15,
@@ -7808,6 +8157,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 20,
             "played": 15,
@@ -7830,6 +8180,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 18,
             "played": 15,
@@ -7852,6 +8203,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 19,
             "played": 14,
@@ -7874,6 +8226,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 18,
             "played": 15,
@@ -7896,6 +8249,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 18,
             "played": 15,
@@ -7918,6 +8272,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 17,
             "played": 15,
@@ -7940,6 +8295,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 18,
             "played": 15,
@@ -7962,6 +8318,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 13,
             "played": 14,
@@ -7984,6 +8341,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 20,
             "played": 15,
@@ -8006,6 +8364,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 12,
             "played": 15,
@@ -8028,6 +8387,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 9,
             "played": 14,
@@ -8054,6 +8414,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 31,
             "played": 15,
@@ -8076,6 +8437,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 35,
             "played": 16,
@@ -8098,6 +8460,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 30,
             "played": 16,
@@ -8120,6 +8483,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 21,
             "played": 15,
@@ -8142,6 +8506,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 24,
             "played": 16,
@@ -8164,6 +8529,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 23,
             "played": 15,
@@ -8186,6 +8552,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 24,
             "played": 16,
@@ -8208,6 +8575,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 20,
             "played": 16,
@@ -8230,6 +8598,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 23,
             "played": 16,
@@ -8252,6 +8621,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 21,
             "played": 16,
@@ -8274,6 +8644,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 23,
             "played": 16,
@@ -8296,6 +8667,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 21,
             "played": 16,
@@ -8318,6 +8690,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 20,
             "played": 16,
@@ -8340,6 +8713,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 18,
             "played": 16,
@@ -8362,6 +8736,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 19,
             "played": 15,
@@ -8384,6 +8759,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 18,
             "played": 16,
@@ -8406,6 +8782,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 18,
             "played": 16,
@@ -8428,6 +8805,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 13,
             "played": 15,
@@ -8450,6 +8828,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 15,
             "played": 16,
@@ -8472,6 +8851,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 9,
             "played": 15,
@@ -8498,6 +8878,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 38,
             "played": 17,
@@ -8520,6 +8901,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 31,
             "played": 16,
@@ -8542,6 +8924,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 30,
             "played": 17,
@@ -8564,6 +8947,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 22,
             "played": 16,
@@ -8586,6 +8970,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 23,
             "played": 15,
@@ -8608,6 +8993,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 27,
             "played": 17,
@@ -8630,6 +9016,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 25,
             "played": 17,
@@ -8652,6 +9039,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 26,
             "played": 17,
@@ -8674,6 +9062,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 23,
             "played": 17,
@@ -8696,6 +9085,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 23,
             "played": 16,
@@ -8718,6 +9108,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 21,
             "played": 17,
@@ -8740,6 +9131,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 21,
             "played": 17,
@@ -8762,6 +9154,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 22,
             "played": 16,
@@ -8784,6 +9177,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 21,
             "played": 17,
@@ -8806,6 +9200,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 21,
             "played": 17,
@@ -8828,6 +9223,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 16,
             "played": 16,
@@ -8850,6 +9246,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 20,
             "played": 17,
@@ -8872,6 +9269,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 18,
             "played": 17,
@@ -8894,6 +9292,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 15,
             "played": 17,
@@ -8916,6 +9315,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 9,
             "played": 16,
@@ -8942,6 +9342,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 41,
             "played": 18,
@@ -8964,6 +9365,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 34,
             "played": 17,
@@ -8986,6 +9388,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 31,
             "played": 18,
@@ -9008,6 +9411,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 29,
             "played": 18,
@@ -9030,6 +9434,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 30,
             "played": 18,
@@ -9052,6 +9457,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 22,
             "played": 17,
@@ -9074,6 +9480,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 26,
             "played": 17,
@@ -9096,6 +9503,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 25,
             "played": 18,
@@ -9118,6 +9526,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 24,
             "played": 18,
@@ -9140,6 +9549,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 24,
             "played": 18,
@@ -9162,6 +9572,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 24,
             "played": 18,
@@ -9184,6 +9595,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 26,
             "played": 18,
@@ -9206,6 +9618,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 22,
             "played": 17,
@@ -9228,6 +9641,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 21,
             "played": 18,
@@ -9250,6 +9664,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 21,
             "played": 18,
@@ -9272,6 +9687,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 21,
             "played": 18,
@@ -9294,6 +9710,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 16,
             "played": 17,
@@ -9316,6 +9733,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 20,
             "played": 18,
@@ -9338,6 +9756,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 18,
             "played": 18,
@@ -9360,6 +9779,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 9,
             "played": 17,
@@ -9386,6 +9806,7 @@
           "team": "Palmeiras / SP",
           "crest": "assets/crests/palmeiras.png",
           "color": "#006437",
+          "acronym": "PAL",
           "standings": {
             "points": 41,
             "played": 18,
@@ -9408,6 +9829,7 @@
           "team": "Flamengo / RJ",
           "crest": "assets/crests/flarj.png",
           "color": "#C52613",
+          "acronym": "FLA",
           "standings": {
             "points": 34,
             "played": 17,
@@ -9430,6 +9852,7 @@
           "team": "Fluminense / RJ",
           "crest": "assets/crests/flurj.png",
           "color": "#870A28",
+          "acronym": "FLU",
           "standings": {
             "points": 31,
             "played": 18,
@@ -9452,6 +9875,7 @@
           "team": "Athletico Paranaense / PR",
           "crest": "assets/crests/atleticopr_bra.png",
           "color": "#CE181E",
+          "acronym": "CAP",
           "standings": {
             "points": 30,
             "played": 18,
@@ -9474,6 +9898,7 @@
           "team": "Botafogo / RJ",
           "crest": "assets/crests/botafogorj_bra.png",
           "color": "#000000",
+          "acronym": "BOT",
           "standings": {
             "points": 22,
             "played": 17,
@@ -9496,6 +9921,7 @@
           "team": "Red Bull Bragantino / SP",
           "crest": "assets/crests/bragantino_bra.png",
           "color": "#CC0000",
+          "acronym": "RBB",
           "standings": {
             "points": 29,
             "played": 18,
@@ -9518,6 +9944,7 @@
           "team": "Bahia / BA",
           "crest": "assets/crests/bahia.png",
           "color": "#006CB5",
+          "acronym": "BAH",
           "standings": {
             "points": 26,
             "played": 17,
@@ -9540,6 +9967,7 @@
           "team": "São Paulo / SP",
           "crest": "assets/crests/saopaulo_bra.png",
           "color": "#FE0000",
+          "acronym": "SAO",
           "standings": {
             "points": 25,
             "played": 18,
@@ -9562,6 +9990,7 @@
           "team": "Cruzeiro / MG",
           "crest": "assets/crests/cruzeiro_bra.png",
           "color": "#2F529E",
+          "acronym": "CRU",
           "standings": {
             "points": 24,
             "played": 18,
@@ -9584,6 +10013,7 @@
           "team": "Atlético Mineiro / MG",
           "crest": "assets/crests/atleticomg_bra.png",
           "color": "#000000",
+          "acronym": "CAM",
           "standings": {
             "points": 24,
             "played": 18,
@@ -9606,6 +10036,7 @@
           "team": "Coritiba / PR",
           "crest": "assets/crests/coritiba_bra.png",
           "color": "#00544D",
+          "acronym": "CFC",
           "standings": {
             "points": 26,
             "played": 18,
@@ -9628,6 +10059,7 @@
           "team": "Corinthians / SP",
           "crest": "assets/crests/corinthians_bra.png",
           "color": "#000000",
+          "acronym": "COR",
           "standings": {
             "points": 24,
             "played": 18,
@@ -9650,6 +10082,7 @@
           "team": "Vitória / BA",
           "crest": "assets/crests/vitoria.png",
           "color": "#CC0000",
+          "acronym": "VIT",
           "standings": {
             "points": 22,
             "played": 17,
@@ -9672,6 +10105,7 @@
           "team": "Grêmio / RS",
           "crest": "assets/crests/gremio.png",
           "color": "#0D80BF",
+          "acronym": "GRE",
           "standings": {
             "points": 21,
             "played": 18,
@@ -9694,6 +10128,7 @@
           "team": "Internacional / RS",
           "crest": "assets/crests/internacional_bra.png",
           "color": "#E5050F",
+          "acronym": "INT",
           "standings": {
             "points": 21,
             "played": 18,
@@ -9716,6 +10151,7 @@
           "team": "Santos / SP",
           "crest": "assets/crests/santos.png",
           "color": "#000000",
+          "acronym": "SAN",
           "standings": {
             "points": 21,
             "played": 18,
@@ -9738,6 +10174,7 @@
           "team": "Mirassol / SP",
           "crest": "assets/crests/mirassol.png",
           "color": "#F3EC0A",
+          "acronym": "MIR",
           "standings": {
             "points": 16,
             "played": 17,
@@ -9760,6 +10197,7 @@
           "team": "Vasco da Gama / RJ",
           "crest": "assets/crests/vasco.png",
           "color": "#000000",
+          "acronym": "VAS",
           "standings": {
             "points": 20,
             "played": 18,
@@ -9782,6 +10220,7 @@
           "team": "Remo / PA",
           "crest": "assets/crests/remo.png",
           "color": "#001F5B",
+          "acronym": "REM",
           "standings": {
             "points": 18,
             "played": 18,
@@ -9804,6 +10243,7 @@
           "team": "Chapecoense / SC",
           "crest": "assets/crests/chapecoense_bra.png",
           "color": "#008000",
+          "acronym": "CHA",
           "standings": {
             "points": 9,
             "played": 17,
