@@ -189,12 +189,14 @@ def test_export_snapshot_drops_expected_position_renames_attaches_crest_and_stan
     crest_src = _write_crest(tmp_path / "crests_src" / "team_a.png")
     crest_by_team = {"Team A": crest_src, "Team B": crest_src}
     color_by_team = {"Team A": "#111111", "Team B": "#222222"}
+    acronym_by_team = {"Team A": "TMA", "Team B": "TMB"}
     matches_df = _matches_df(TWO_MATCH_ROWS)
 
     date, columns, teams = _export_snapshot(
         str(csv_path),
         crest_by_team,
         color_by_team,
+        acronym_by_team,
         str(tmp_path / "crests"),
         _make_config(),
         matches_df,
@@ -210,6 +212,7 @@ def test_export_snapshot_drops_expected_position_renames_attaches_crest_and_stan
         "team": "Team A",
         "crest": "assets/crests/team_a.png",
         "color": "#111111",
+        "acronym": "TMA",
         "standings": {
             "points": 3,
             "played": 1,
@@ -249,6 +252,7 @@ def test_export_snapshot_standings_only_count_matches_up_to_reference_date(tmp_p
         str(csv_path),
         {"Team A": crest_src, "Team B": crest_src},
         {"Team A": "#111111", "Team B": "#222222"},
+        {"Team A": "TMA", "Team B": "TMB"},
         str(tmp_path / "crests"),
         _make_config(),
         matches_df,
@@ -287,6 +291,7 @@ def test_export_snapshot_raises_on_spot_with_no_portuguese_label(tmp_path):
             str(csv_path),
             {"Team A": "x.png"},
             {},
+            {"Team A": "TMA"},
             str(tmp_path / "crests"),
             _make_config(),
             _matches_df(TWO_MATCH_ROWS),
@@ -301,6 +306,25 @@ def test_export_snapshot_raises_on_team_with_no_crest_path(tmp_path):
     with pytest.raises(ValueError, match="Team A"):
         _export_snapshot(
             str(csv_path),
+            {},
+            {},
+            {"Team A": "TMA"},
+            str(tmp_path / "crests"),
+            _make_config(),
+            _matches_df(TWO_MATCH_ROWS),
+            2025,
+        )
+
+
+def test_export_snapshot_raises_on_team_with_no_acronym(tmp_path):
+    csv_path = tmp_path / "2025_01_01.csv"
+    _write_results_csv(csv_path, [{"team": "Team A", "expected_position": 1.0, "prob_title": 0.5}])
+    crest_src = _write_crest(tmp_path / "crests_src" / "team.png")
+
+    with pytest.raises(ValueError, match="Team A"):
+        _export_snapshot(
+            str(csv_path),
+            {"Team A": crest_src},
             {},
             {},
             str(tmp_path / "crests"),
@@ -427,6 +451,7 @@ def test_export_snapshot_raises_on_aggregate_with_no_group_label(tmp_path):
                 str(csv_path),
                 {"Team A": "x.png"},
                 {},
+                {"Team A": "TMA"},
                 str(tmp_path / "crests"),
                 _make_config(aggregates=aggregates),
                 _matches_df(TWO_MATCH_ROWS),
@@ -448,11 +473,13 @@ def test_export_season_collects_every_date_keyed_by_snapshot(tmp_path):
     )
     crest_by_team = {"Team A": _write_crest(tmp_path / "crests_src" / "a.png")}
     color_by_team = {"Team A": "#111111"}
+    acronym_by_team = {"Team A": "TMA"}
 
     data = _export_season(
         [str(csv_2025_01), str(csv_2025_06)],
         crest_by_team,
         color_by_team,
+        acronym_by_team,
         str(tmp_path / "crests"),
         _make_config(),
         _matches_df(TWO_MATCH_ROWS),
@@ -482,8 +509,18 @@ def test_export_site_data_writes_manifest_and_skips_missing_seasons(tmp_path):
     club_infos = tmp_path / "club_infos.csv"
     pd.DataFrame(
         [
-            {"club": "Team A", "crest_path": crest_src, "primary_color": "#111111"},
-            {"club": "Team B", "crest_path": crest_src, "primary_color": "#222222"},
+            {
+                "club": "Team A",
+                "crest_path": crest_src,
+                "primary_color": "#111111",
+                "acronym": "TMA",
+            },
+            {
+                "club": "Team B",
+                "crest_path": crest_src,
+                "primary_color": "#222222",
+                "acronym": "TMB",
+            },
         ]
     ).to_csv(club_infos, index=False)
     matches_path = tmp_path / "matches.csv"
@@ -527,9 +564,16 @@ def test_export_site_data_keeps_going_after_a_missing_crest(tmp_path, capsys):
     crest_src = _write_crest(tmp_path / "crests_src" / "team.png")
     club_infos = tmp_path / "club_infos.csv"
     # no "No Crest FC" row
-    pd.DataFrame([{"club": "Team A", "crest_path": crest_src, "primary_color": "#111111"}]).to_csv(
-        club_infos, index=False
-    )
+    pd.DataFrame(
+        [
+            {
+                "club": "Team A",
+                "crest_path": crest_src,
+                "primary_color": "#111111",
+                "acronym": "TMA",
+            }
+        ]
+    ).to_csv(club_infos, index=False)
     matches_path = tmp_path / "matches.csv"
     _write_matches_csv(matches_path, TWO_MATCH_ROWS)
 
