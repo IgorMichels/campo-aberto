@@ -69,6 +69,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -91,6 +92,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -113,6 +115,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -135,6 +138,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -157,6 +161,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -179,6 +184,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -201,6 +207,7 @@
           "acronym": "AME",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -223,6 +230,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -245,6 +253,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -267,6 +276,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -289,6 +299,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -311,6 +322,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -333,6 +345,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -355,6 +368,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -377,6 +391,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -399,6 +414,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -421,6 +437,7 @@
           "acronym": "LON",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -443,6 +460,7 @@
           "acronym": "PON",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -465,6 +483,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -487,6 +506,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -513,6 +533,7 @@
           "acronym": "LON",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 3,
             "goals_against": 1,
@@ -535,6 +556,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 1,
             "goals_against": 0,
@@ -557,6 +579,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 3,
             "goals_against": 1,
@@ -579,6 +602,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 2,
             "goals_against": 0,
@@ -601,6 +625,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 1,
             "goals_for": 1,
             "goals_against": 1,
@@ -623,6 +648,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 1,
             "goals_against": 3,
@@ -645,6 +671,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 1,
             "goals_for": 1,
             "goals_against": 1,
@@ -667,6 +694,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 1,
             "goals_for": 2,
             "goals_against": 2,
@@ -689,6 +717,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 0,
             "goals_against": 4,
@@ -711,6 +740,7 @@
           "acronym": "AME",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 1,
             "goals_against": 3,
@@ -733,6 +763,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 1,
             "goals_against": 0,
@@ -755,6 +786,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 2,
             "goals_against": 1,
@@ -777,6 +809,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 1,
             "goals_for": 0,
             "goals_against": 0,
@@ -799,6 +832,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 0,
             "goals_against": 1,
@@ -821,6 +855,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 4,
             "goals_against": 0,
@@ -843,6 +878,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 1,
             "goals_for": 2,
             "goals_against": 2,
@@ -865,6 +901,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 0,
             "goals_against": 2,
@@ -887,6 +924,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 0,
             "goals_against": 1,
@@ -909,6 +947,7 @@
           "acronym": "PON",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 1,
             "goals_against": 2,
@@ -931,6 +970,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 1,
             "goals_for": 0,
             "goals_against": 0,
@@ -957,6 +997,7 @@
           "acronym": "LON",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 2,
             "goals_for": 5,
             "goals_against": 3,
@@ -979,6 +1020,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 2,
             "goals_for": 3,
             "goals_against": 0,
@@ -1001,6 +1043,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 2,
             "goals_for": 5,
             "goals_against": 3,
@@ -1023,6 +1066,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 2,
             "goals_for": 2,
             "goals_against": 1,
@@ -1045,6 +1089,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 2,
             "goals_for": 2,
             "goals_against": 2,
@@ -1067,6 +1112,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 2,
             "goals_for": 1,
             "goals_against": 3,
@@ -1089,6 +1135,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 2,
             "goals_for": 3,
             "goals_against": 1,
@@ -1111,6 +1158,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 2,
             "goals_for": 2,
             "goals_against": 2,
@@ -1133,6 +1181,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 2,
             "goals_for": 0,
             "goals_against": 4,
@@ -1155,6 +1204,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 2,
             "goals_for": 6,
             "goals_against": 1,
@@ -1177,6 +1227,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 2,
             "goals_for": 2,
             "goals_against": 3,
@@ -1199,6 +1250,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 2,
             "goals_for": 3,
             "goals_against": 2,
@@ -1221,6 +1273,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 2,
             "goals_for": 0,
             "goals_against": 0,
@@ -1243,6 +1296,7 @@
           "acronym": "AME",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 2,
             "goals_for": 2,
             "goals_against": 5,
@@ -1265,6 +1319,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 2,
             "goals_for": 3,
             "goals_against": 3,
@@ -1287,6 +1342,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 2,
             "goals_for": 2,
             "goals_against": 3,
@@ -1309,6 +1365,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 2,
             "goals_for": 1,
             "goals_against": 3,
@@ -1331,6 +1388,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 2,
             "goals_for": 0,
             "goals_against": 2,
@@ -1353,6 +1411,7 @@
           "acronym": "PON",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 2,
             "goals_for": 2,
             "goals_against": 3,
@@ -1375,6 +1434,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 2,
             "goals_for": 1,
             "goals_against": 1,
@@ -1401,6 +1461,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 3,
             "goals_against": 0,
@@ -1423,6 +1484,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
@@ -1445,6 +1507,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 2,
             "goals_for": 2,
             "goals_against": 1,
@@ -1467,6 +1530,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 2,
             "goals_for": 5,
             "goals_against": 3,
@@ -1489,6 +1553,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 3,
             "goals_for": 4,
             "goals_against": 4,
@@ -1511,6 +1576,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 3,
             "goals_against": 1,
@@ -1533,6 +1599,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 3,
             "goals_for": 3,
             "goals_against": 2,
@@ -1555,6 +1622,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 3,
             "goals_for": 2,
             "goals_against": 5,
@@ -1577,6 +1645,7 @@
           "acronym": "LON",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 3,
             "goals_for": 6,
             "goals_against": 5,
@@ -1599,6 +1668,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 3,
             "goals_for": 2,
             "goals_against": 4,
@@ -1621,6 +1691,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 3,
             "goals_for": 3,
             "goals_against": 4,
@@ -1643,6 +1714,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 4,
             "goals_against": 3,
@@ -1665,6 +1737,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 5,
             "goals_against": 4,
@@ -1687,6 +1760,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 3,
             "goals_for": 7,
             "goals_against": 3,
@@ -1709,6 +1783,7 @@
           "acronym": "AME",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 3,
             "goals_against": 6,
@@ -1731,6 +1806,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 1,
             "goals_against": 4,
@@ -1753,6 +1829,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 3,
             "goals_for": 0,
             "goals_against": 2,
@@ -1775,6 +1852,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 3,
             "goals_against": 2,
@@ -1797,6 +1875,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 3,
             "goals_for": 2,
             "goals_against": 5,
@@ -1819,6 +1898,7 @@
           "acronym": "PON",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 2,
             "goals_against": 4,
@@ -1845,6 +1925,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 3,
             "goals_against": 0,
@@ -1867,6 +1948,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 6,
             "goals_against": 3,
@@ -1889,6 +1971,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
@@ -1911,6 +1994,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 3,
             "goals_for": 2,
             "goals_against": 2,
@@ -1933,6 +2017,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 3,
             "goals_for": 4,
             "goals_against": 4,
@@ -1955,6 +2040,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 3,
             "goals_against": 1,
@@ -1977,6 +2063,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 3,
             "goals_for": 2,
             "goals_against": 5,
@@ -1999,6 +2086,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 3,
             "goals_for": 3,
             "goals_against": 2,
@@ -2021,6 +2109,7 @@
           "acronym": "LON",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 3,
             "goals_for": 6,
             "goals_against": 5,
@@ -2043,6 +2132,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 3,
             "goals_for": 2,
             "goals_against": 4,
@@ -2065,6 +2155,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 3,
             "goals_for": 3,
             "goals_against": 4,
@@ -2087,6 +2178,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 5,
             "goals_against": 4,
@@ -2109,6 +2201,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 4,
             "goals_against": 3,
@@ -2131,6 +2224,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 3,
             "goals_for": 7,
             "goals_against": 3,
@@ -2153,6 +2247,7 @@
           "acronym": "AME",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 3,
             "goals_against": 6,
@@ -2175,6 +2270,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 1,
             "goals_against": 4,
@@ -2197,6 +2293,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 3,
             "goals_for": 0,
             "goals_against": 2,
@@ -2219,6 +2316,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 3,
             "goals_against": 2,
@@ -2241,6 +2339,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 3,
             "goals_for": 2,
             "goals_against": 5,
@@ -2263,6 +2362,7 @@
           "acronym": "PON",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 2,
             "goals_against": 4,
@@ -2289,6 +2389,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 4,
             "goals_for": 5,
             "goals_against": 2,
@@ -2311,6 +2412,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 4,
             "goals_for": 5,
             "goals_against": 2,
@@ -2333,6 +2435,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 4,
             "goals_for": 3,
             "goals_against": 5,
@@ -2355,6 +2458,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 4,
             "goals_for": 3,
             "goals_against": 2,
@@ -2377,6 +2481,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 4,
             "goals_for": 6,
             "goals_against": 5,
@@ -2399,6 +2504,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 4,
             "goals_for": 5,
             "goals_against": 4,
@@ -2421,6 +2527,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 4,
             "goals_for": 3,
             "goals_against": 1,
@@ -2443,6 +2550,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 4,
             "goals_for": 7,
             "goals_against": 5,
@@ -2465,6 +2573,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 4,
             "goals_for": 3,
             "goals_against": 3,
@@ -2487,6 +2596,7 @@
           "acronym": "LON",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 4,
             "goals_for": 7,
             "goals_against": 7,
@@ -2509,6 +2619,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 4,
             "goals_for": 6,
             "goals_against": 4,
@@ -2531,6 +2642,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 4,
             "goals_for": 3,
             "goals_against": 4,
@@ -2553,6 +2665,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 4,
             "goals_for": 4,
             "goals_against": 5,
@@ -2575,6 +2688,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 4,
             "goals_for": 5,
             "goals_against": 7,
@@ -2597,6 +2711,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 4,
             "goals_for": 7,
             "goals_against": 4,
@@ -2619,6 +2734,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 4,
             "goals_for": 4,
             "goals_against": 6,
@@ -2641,6 +2757,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 4,
             "goals_for": 0,
             "goals_against": 2,
@@ -2663,6 +2780,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 4,
             "goals_for": 5,
             "goals_against": 4,
@@ -2685,6 +2803,7 @@
           "acronym": "AME",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 4,
             "goals_for": 3,
             "goals_against": 9,
@@ -2707,6 +2826,7 @@
           "acronym": "PON",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 4,
             "goals_for": 2,
             "goals_against": 5,
@@ -2733,6 +2853,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 5,
             "goals_for": 6,
             "goals_against": 7,
@@ -2755,6 +2876,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 5,
             "goals_for": 5,
             "goals_against": 2,
@@ -2777,6 +2899,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 7,
             "goals_against": 5,
@@ -2799,6 +2922,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 5,
             "goals_for": 7,
             "goals_against": 5,
@@ -2821,6 +2945,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 5,
             "goals_for": 6,
             "goals_against": 4,
@@ -2843,6 +2968,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 5,
             "goals_against": 5,
@@ -2865,6 +2991,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 4,
             "goals_against": 4,
@@ -2887,6 +3014,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 5,
             "goals_for": 8,
             "goals_against": 5,
@@ -2909,6 +3037,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 6,
             "goals_against": 7,
@@ -2931,6 +3060,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 5,
             "goals_for": 4,
             "goals_against": 3,
@@ -2953,6 +3083,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 5,
             "goals_for": 8,
             "goals_against": 7,
@@ -2975,6 +3106,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 5,
             "goals_for": 2,
             "goals_against": 2,
@@ -2997,6 +3129,7 @@
           "acronym": "LON",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 5,
             "goals_for": 7,
             "goals_against": 7,
@@ -3019,6 +3152,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 8,
             "goals_against": 5,
@@ -3041,6 +3175,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 5,
             "goals_for": 5,
             "goals_against": 4,
@@ -3063,6 +3198,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 5,
             "goals_for": 5,
             "goals_against": 7,
@@ -3085,6 +3221,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 5,
             "goals_for": 5,
             "goals_against": 8,
@@ -3107,6 +3244,7 @@
           "acronym": "PON",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 5,
             "goals_for": 4,
             "goals_against": 6,
@@ -3129,6 +3267,7 @@
           "acronym": "AME",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 5,
             "goals_for": 3,
             "goals_against": 9,
@@ -3151,6 +3290,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 5,
             "goals_for": 3,
             "goals_against": 6,
@@ -3177,6 +3317,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 5,
             "goals_for": 6,
             "goals_against": 7,
@@ -3199,6 +3340,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 5,
             "goals_for": 5,
             "goals_against": 2,
@@ -3221,6 +3363,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 7,
             "goals_against": 5,
@@ -3243,6 +3386,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 5,
             "goals_for": 7,
             "goals_against": 5,
@@ -3265,6 +3409,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 5,
             "goals_for": 6,
             "goals_against": 4,
@@ -3287,6 +3432,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 5,
             "goals_against": 5,
@@ -3309,6 +3455,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 4,
             "goals_against": 4,
@@ -3331,6 +3478,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 5,
             "goals_for": 8,
             "goals_against": 5,
@@ -3353,6 +3501,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 6,
             "goals_against": 7,
@@ -3375,6 +3524,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 5,
             "goals_for": 4,
             "goals_against": 3,
@@ -3397,6 +3547,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 5,
             "goals_for": 8,
             "goals_against": 7,
@@ -3419,6 +3570,7 @@
           "acronym": "LON",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 5,
             "goals_for": 7,
             "goals_against": 7,
@@ -3441,6 +3593,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 6,
             "goals_for": 3,
             "goals_against": 3,
@@ -3463,6 +3616,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 6,
             "goals_for": 9,
             "goals_against": 6,
@@ -3485,6 +3639,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 5,
             "goals_for": 5,
             "goals_against": 4,
@@ -3507,6 +3662,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 5,
             "goals_for": 5,
             "goals_against": 7,
@@ -3529,6 +3685,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 5,
             "goals_for": 5,
             "goals_against": 8,
@@ -3551,6 +3708,7 @@
           "acronym": "PON",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 5,
             "goals_for": 4,
             "goals_against": 6,
@@ -3573,6 +3731,7 @@
           "acronym": "AME",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 5,
             "goals_for": 3,
             "goals_against": 9,
@@ -3595,6 +3754,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 5,
             "goals_for": 3,
             "goals_against": 6,
@@ -3621,6 +3781,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 6,
             "goals_for": 6,
             "goals_against": 7,
@@ -3643,6 +3804,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 6,
             "goals_for": 8,
             "goals_against": 5,
@@ -3665,6 +3827,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 6,
             "goals_for": 8,
             "goals_against": 5,
@@ -3687,6 +3850,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 6,
             "goals_for": 8,
             "goals_against": 6,
@@ -3709,6 +3873,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 6,
             "goals_for": 7,
             "goals_against": 6,
@@ -3731,6 +3896,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 6,
             "goals_for": 5,
             "goals_against": 4,
@@ -3753,6 +3919,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 6,
             "goals_for": 7,
             "goals_against": 6,
@@ -3775,6 +3942,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 6,
             "goals_for": 11,
             "goals_against": 8,
@@ -3797,6 +3965,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 6,
             "goals_for": 4,
             "goals_against": 3,
@@ -3819,6 +3988,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 6,
             "goals_for": 6,
             "goals_against": 8,
@@ -3841,6 +4011,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 5,
             "goals_for": 8,
             "goals_against": 7,
@@ -3863,6 +4034,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 6,
             "goals_for": 3,
             "goals_against": 3,
@@ -3885,6 +4057,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 6,
             "goals_for": 7,
             "goals_against": 8,
@@ -3907,6 +4080,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 6,
             "goals_for": 6,
             "goals_against": 4,
@@ -3929,6 +4103,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 6,
             "goals_for": 9,
             "goals_against": 6,
@@ -3951,6 +4126,7 @@
           "acronym": "LON",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 6,
             "goals_for": 7,
             "goals_against": 8,
@@ -3973,6 +4149,7 @@
           "acronym": "PON",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 6,
             "goals_for": 5,
             "goals_against": 6,
@@ -3995,6 +4172,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 6,
             "goals_for": 6,
             "goals_against": 11,
@@ -4017,6 +4195,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 5,
             "goals_for": 3,
             "goals_against": 6,
@@ -4039,6 +4218,7 @@
           "acronym": "AME",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 6,
             "goals_for": 3,
             "goals_against": 10,
@@ -4065,6 +4245,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 7,
             "goals_for": 11,
             "goals_against": 5,
@@ -4087,6 +4268,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 7,
             "goals_for": 10,
             "goals_against": 8,
@@ -4109,6 +4291,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 7,
             "goals_for": 9,
             "goals_against": 7,
@@ -4131,6 +4314,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 7,
             "goals_for": 8,
             "goals_against": 7,
@@ -4153,6 +4337,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 7,
             "goals_for": 7,
             "goals_against": 3,
@@ -4175,6 +4360,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 7,
             "goals_for": 10,
             "goals_against": 9,
@@ -4197,6 +4383,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 6,
             "goals_for": 11,
             "goals_against": 8,
@@ -4219,6 +4406,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 7,
             "goals_for": 5,
             "goals_against": 4,
@@ -4241,6 +4429,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 7,
             "goals_for": 10,
             "goals_against": 9,
@@ -4263,6 +4452,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 7,
             "goals_for": 8,
             "goals_against": 4,
@@ -4285,6 +4475,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 8,
+            "wins": 1,
             "played": 7,
             "goals_for": 4,
             "goals_against": 4,
@@ -4307,6 +4498,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 7,
             "goals_for": 5,
             "goals_against": 7,
@@ -4329,6 +4521,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 7,
             "goals_for": 7,
             "goals_against": 12,
@@ -4351,6 +4544,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 6,
             "goals_for": 8,
             "goals_against": 8,
@@ -4373,6 +4567,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 7,
             "goals_for": 7,
             "goals_against": 8,
@@ -4395,6 +4590,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 7,
             "goals_for": 10,
             "goals_against": 7,
@@ -4417,6 +4613,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 7,
             "goals_for": 8,
             "goals_against": 12,
@@ -4439,6 +4636,7 @@
           "acronym": "PON",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 7,
             "goals_for": 5,
             "goals_against": 9,
@@ -4461,6 +4659,7 @@
           "acronym": "LON",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 7,
             "goals_for": 7,
             "goals_against": 11,
@@ -4483,6 +4682,7 @@
           "acronym": "AME",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 7,
             "goals_for": 4,
             "goals_against": 12,
@@ -4509,6 +4709,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 7,
             "goals_for": 11,
             "goals_against": 5,
@@ -4531,6 +4732,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 15,
+            "wins": 4,
             "played": 8,
             "goals_for": 10,
             "goals_against": 8,
@@ -4553,6 +4755,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 8,
             "goals_for": 9,
             "goals_against": 7,
@@ -4575,6 +4778,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 8,
             "goals_for": 9,
             "goals_against": 7,
@@ -4597,6 +4801,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 8,
             "goals_for": 11,
             "goals_against": 9,
@@ -4619,6 +4824,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 8,
             "goals_for": 8,
             "goals_against": 8,
@@ -4641,6 +4847,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 8,
             "goals_for": 11,
             "goals_against": 5,
@@ -4663,6 +4870,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 8,
             "goals_for": 5,
             "goals_against": 4,
@@ -4685,6 +4893,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 8,
             "goals_for": 10,
             "goals_against": 9,
@@ -4707,6 +4916,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 8,
             "goals_for": 7,
             "goals_against": 6,
@@ -4729,6 +4939,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 8,
             "goals_for": 12,
             "goals_against": 10,
@@ -4751,6 +4962,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 8,
             "goals_for": 8,
             "goals_against": 8,
@@ -4773,6 +4985,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 8,
             "goals_for": 8,
             "goals_against": 12,
@@ -4795,6 +5008,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 9,
+            "wins": 1,
             "played": 8,
             "goals_for": 4,
             "goals_against": 4,
@@ -4817,6 +5031,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 8,
             "goals_for": 11,
             "goals_against": 12,
@@ -4839,6 +5054,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 8,
             "goals_for": 9,
             "goals_against": 9,
@@ -4861,6 +5077,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 8,
             "goals_for": 10,
             "goals_against": 8,
@@ -4883,6 +5100,7 @@
           "acronym": "LON",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 7,
             "goals_for": 7,
             "goals_against": 11,
@@ -4905,6 +5123,7 @@
           "acronym": "PON",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 8,
             "goals_for": 6,
             "goals_against": 12,
@@ -4927,6 +5146,7 @@
           "acronym": "AME",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 8,
             "goals_for": 4,
             "goals_against": 16,
@@ -4953,6 +5173,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 8,
             "goals_for": 14,
             "goals_against": 6,
@@ -4975,6 +5196,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 15,
+            "wins": 4,
             "played": 8,
             "goals_for": 10,
             "goals_against": 8,
@@ -4997,6 +5219,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 8,
             "goals_for": 9,
             "goals_against": 7,
@@ -5019,6 +5242,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 8,
             "goals_for": 9,
             "goals_against": 7,
@@ -5041,6 +5265,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 8,
             "goals_for": 11,
             "goals_against": 9,
@@ -5063,6 +5288,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 8,
             "goals_for": 8,
             "goals_against": 8,
@@ -5085,6 +5311,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 8,
             "goals_for": 11,
             "goals_against": 5,
@@ -5107,6 +5334,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 8,
             "goals_for": 5,
             "goals_against": 4,
@@ -5129,6 +5357,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 8,
             "goals_for": 10,
             "goals_against": 9,
@@ -5151,6 +5380,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 8,
             "goals_for": 7,
             "goals_against": 6,
@@ -5173,6 +5403,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 8,
             "goals_for": 12,
             "goals_against": 10,
@@ -5195,6 +5426,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 8,
             "goals_for": 8,
             "goals_against": 8,
@@ -5217,6 +5449,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 8,
             "goals_for": 8,
             "goals_against": 12,
@@ -5239,6 +5472,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 9,
+            "wins": 1,
             "played": 8,
             "goals_for": 4,
             "goals_against": 4,
@@ -5261,6 +5495,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 8,
             "goals_for": 11,
             "goals_against": 12,
@@ -5283,6 +5518,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 8,
             "goals_for": 9,
             "goals_against": 9,
@@ -5305,6 +5541,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 8,
             "goals_for": 10,
             "goals_against": 8,
@@ -5327,6 +5564,7 @@
           "acronym": "LON",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 8,
             "goals_for": 8,
             "goals_against": 14,
@@ -5349,6 +5587,7 @@
           "acronym": "PON",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 8,
             "goals_for": 6,
             "goals_against": 12,
@@ -5371,6 +5610,7 @@
           "acronym": "AME",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 8,
             "goals_for": 4,
             "goals_against": 16,
@@ -5397,6 +5637,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 9,
             "goals_for": 15,
             "goals_against": 7,
@@ -5419,6 +5660,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 9,
             "goals_for": 15,
             "goals_against": 9,
@@ -5441,6 +5683,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 15,
+            "wins": 4,
             "played": 9,
             "goals_for": 11,
             "goals_against": 10,
@@ -5463,6 +5706,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 9,
             "goals_for": 10,
             "goals_against": 8,
@@ -5485,6 +5729,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 9,
             "goals_for": 10,
             "goals_against": 9,
@@ -5507,6 +5752,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 9,
             "goals_for": 11,
             "goals_against": 9,
@@ -5529,6 +5775,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 9,
             "goals_for": 14,
             "goals_against": 10,
@@ -5551,6 +5798,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 9,
             "goals_for": 6,
             "goals_against": 5,
@@ -5573,6 +5821,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 9,
             "goals_for": 13,
             "goals_against": 13,
@@ -5595,6 +5844,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 9,
             "goals_for": 12,
             "goals_against": 7,
@@ -5617,6 +5867,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 9,
             "goals_for": 9,
             "goals_against": 12,
@@ -5639,6 +5890,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 9,
             "goals_for": 9,
             "goals_against": 9,
@@ -5661,6 +5913,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 9,
             "goals_for": 10,
             "goals_against": 11,
@@ -5683,6 +5936,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 10,
+            "wins": 1,
             "played": 9,
             "goals_for": 4,
             "goals_against": 4,
@@ -5705,6 +5959,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 9,
             "goals_for": 9,
             "goals_against": 12,
@@ -5727,6 +5982,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 11,
+            "wins": 2,
             "played": 9,
             "goals_for": 10,
             "goals_against": 10,
@@ -5749,6 +6005,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 9,
             "goals_for": 10,
             "goals_against": 9,
@@ -5771,6 +6028,7 @@
           "acronym": "PON",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 8,
             "goals_for": 6,
             "goals_against": 12,
@@ -5793,6 +6051,7 @@
           "acronym": "LON",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 8,
             "goals_for": 8,
             "goals_against": 14,
@@ -5815,6 +6074,7 @@
           "acronym": "AME",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 9,
             "goals_for": 5,
             "goals_against": 17,
@@ -5841,6 +6101,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 9,
             "goals_for": 15,
             "goals_against": 7,
@@ -5863,6 +6124,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 9,
             "goals_for": 15,
             "goals_against": 9,
@@ -5885,6 +6147,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 15,
+            "wins": 4,
             "played": 9,
             "goals_for": 11,
             "goals_against": 10,
@@ -5907,6 +6170,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 9,
             "goals_for": 10,
             "goals_against": 8,
@@ -5929,6 +6193,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 9,
             "goals_for": 10,
             "goals_against": 9,
@@ -5951,6 +6216,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 9,
             "goals_for": 11,
             "goals_against": 9,
@@ -5973,6 +6239,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 9,
             "goals_for": 14,
             "goals_against": 10,
@@ -5995,6 +6262,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 9,
             "goals_for": 6,
             "goals_against": 5,
@@ -6017,6 +6285,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 9,
             "goals_for": 9,
             "goals_against": 12,
@@ -6039,6 +6308,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 9,
             "goals_for": 9,
             "goals_against": 9,
@@ -6061,6 +6331,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 9,
             "goals_for": 12,
             "goals_against": 7,
@@ -6083,6 +6354,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 9,
             "goals_for": 13,
             "goals_against": 13,
@@ -6105,6 +6377,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 9,
             "goals_for": 10,
             "goals_against": 11,
@@ -6127,6 +6400,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 9,
             "goals_for": 9,
             "goals_against": 12,
@@ -6149,6 +6423,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 10,
+            "wins": 1,
             "played": 9,
             "goals_for": 4,
             "goals_against": 4,
@@ -6171,6 +6446,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 11,
+            "wins": 2,
             "played": 9,
             "goals_for": 10,
             "goals_against": 10,
@@ -6193,6 +6469,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 9,
             "goals_for": 10,
             "goals_against": 9,
@@ -6215,6 +6492,7 @@
           "acronym": "LON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 9,
             "goals_for": 12,
             "goals_against": 15,
@@ -6237,6 +6515,7 @@
           "acronym": "AME",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 9,
             "goals_for": 5,
             "goals_against": 17,
@@ -6259,6 +6538,7 @@
           "acronym": "PON",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 9,
             "goals_for": 7,
             "goals_against": 16,
@@ -6285,6 +6565,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 10,
             "goals_for": 16,
             "goals_against": 7,
@@ -6307,6 +6588,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 19,
+            "wins": 6,
             "played": 10,
             "goals_for": 16,
             "goals_against": 9,
@@ -6329,6 +6611,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 10,
             "goals_for": 14,
             "goals_against": 10,
@@ -6351,6 +6634,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 14,
+            "wins": 3,
             "played": 10,
             "goals_for": 11,
             "goals_against": 9,
@@ -6373,6 +6657,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 10,
             "goals_for": 13,
             "goals_against": 10,
@@ -6395,6 +6680,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 10,
             "goals_for": 16,
             "goals_against": 11,
@@ -6417,6 +6703,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 10,
             "goals_for": 11,
             "goals_against": 11,
@@ -6439,6 +6726,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 10,
             "goals_for": 11,
             "goals_against": 12,
@@ -6461,6 +6749,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 10,
             "goals_for": 13,
             "goals_against": 7,
@@ -6483,6 +6772,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 10,
             "goals_for": 17,
             "goals_against": 15,
@@ -6505,6 +6795,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 10,
             "goals_for": 9,
             "goals_against": 10,
@@ -6527,6 +6818,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 10,
             "goals_for": 6,
             "goals_against": 6,
@@ -6549,6 +6841,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 10,
             "goals_for": 10,
             "goals_against": 13,
@@ -6571,6 +6864,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 11,
+            "wins": 2,
             "played": 9,
             "goals_for": 10,
             "goals_against": 10,
@@ -6593,6 +6887,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 10,
+            "wins": 1,
             "played": 10,
             "goals_for": 4,
             "goals_against": 5,
@@ -6615,6 +6910,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 10,
             "goals_for": 10,
             "goals_against": 13,
@@ -6637,6 +6933,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 9,
             "goals_for": 10,
             "goals_against": 9,
@@ -6659,6 +6956,7 @@
           "acronym": "LON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 10,
             "goals_for": 12,
             "goals_against": 18,
@@ -6681,6 +6979,7 @@
           "acronym": "AME",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 10,
             "goals_for": 6,
             "goals_against": 19,
@@ -6703,6 +7002,7 @@
           "acronym": "PON",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 10,
             "goals_for": 9,
             "goals_against": 20,
@@ -6729,6 +7029,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 10,
             "goals_for": 16,
             "goals_against": 7,
@@ -6751,6 +7052,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 19,
+            "wins": 6,
             "played": 10,
             "goals_for": 16,
             "goals_against": 9,
@@ -6773,6 +7075,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 10,
             "goals_for": 14,
             "goals_against": 10,
@@ -6795,6 +7098,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 14,
+            "wins": 3,
             "played": 10,
             "goals_for": 11,
             "goals_against": 9,
@@ -6817,6 +7121,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 10,
             "goals_for": 13,
             "goals_against": 10,
@@ -6839,6 +7144,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 10,
             "goals_for": 11,
             "goals_against": 11,
@@ -6861,6 +7167,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 10,
             "goals_for": 16,
             "goals_against": 11,
@@ -6883,6 +7190,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 10,
             "goals_for": 11,
             "goals_against": 12,
@@ -6905,6 +7213,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 10,
             "goals_for": 13,
             "goals_against": 7,
@@ -6927,6 +7236,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 10,
             "goals_for": 17,
             "goals_against": 15,
@@ -6949,6 +7259,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 14,
+            "wins": 3,
             "played": 10,
             "goals_for": 12,
             "goals_against": 11,
@@ -6971,6 +7282,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 10,
             "goals_for": 9,
             "goals_against": 10,
@@ -6993,6 +7305,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 10,
             "goals_for": 6,
             "goals_against": 6,
@@ -7015,6 +7328,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 10,
             "goals_for": 10,
             "goals_against": 13,
@@ -7037,6 +7351,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 10,
+            "wins": 1,
             "played": 10,
             "goals_for": 4,
             "goals_against": 5,
@@ -7059,6 +7374,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 10,
             "goals_for": 10,
             "goals_against": 13,
@@ -7081,6 +7397,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 10,
             "goals_for": 11,
             "goals_against": 11,
@@ -7103,6 +7420,7 @@
           "acronym": "LON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 10,
             "goals_for": 12,
             "goals_against": 18,
@@ -7125,6 +7443,7 @@
           "acronym": "AME",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 10,
             "goals_for": 6,
             "goals_against": 19,
@@ -7147,6 +7466,7 @@
           "acronym": "PON",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 10,
             "goals_for": 9,
             "goals_against": 20,
@@ -7173,6 +7493,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 11,
             "goals_for": 17,
             "goals_against": 8,
@@ -7195,6 +7516,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 11,
             "goals_for": 14,
             "goals_against": 11,
@@ -7217,6 +7539,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 19,
+            "wins": 6,
             "played": 11,
             "goals_for": 16,
             "goals_against": 11,
@@ -7239,6 +7562,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 11,
             "goals_for": 13,
             "goals_against": 10,
@@ -7261,6 +7585,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 11,
             "goals_for": 14,
             "goals_against": 11,
@@ -7283,6 +7608,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 11,
             "goals_for": 17,
             "goals_against": 11,
@@ -7305,6 +7631,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 11,
             "goals_for": 15,
             "goals_against": 7,
@@ -7327,6 +7654,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 11,
             "goals_for": 12,
             "goals_against": 13,
@@ -7349,6 +7677,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 11,
             "goals_for": 12,
             "goals_against": 13,
@@ -7371,6 +7700,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 11,
             "goals_for": 9,
             "goals_against": 6,
@@ -7393,6 +7723,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 11,
             "goals_for": 13,
             "goals_against": 11,
@@ -7415,6 +7746,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 11,
             "goals_for": 12,
             "goals_against": 14,
@@ -7437,6 +7769,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 11,
             "goals_for": 17,
             "goals_against": 17,
@@ -7459,6 +7792,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 13,
+            "wins": 2,
             "played": 11,
             "goals_for": 6,
             "goals_against": 5,
@@ -7481,6 +7815,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 11,
             "goals_for": 10,
             "goals_against": 11,
@@ -7503,6 +7838,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 11,
             "goals_for": 11,
             "goals_against": 15,
@@ -7525,6 +7861,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 10,
             "goals_for": 11,
             "goals_against": 11,
@@ -7547,6 +7884,7 @@
           "acronym": "LON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 11,
             "goals_for": 12,
             "goals_against": 19,
@@ -7569,6 +7907,7 @@
           "acronym": "AME",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 11,
             "goals_for": 6,
             "goals_against": 22,
@@ -7591,6 +7930,7 @@
           "acronym": "PON",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 10,
             "goals_for": 9,
             "goals_against": 20,
@@ -7617,6 +7957,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 11,
             "goals_for": 17,
             "goals_against": 8,
@@ -7639,6 +7980,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 19,
+            "wins": 6,
             "played": 11,
             "goals_for": 16,
             "goals_against": 11,
@@ -7661,6 +8003,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 11,
             "goals_for": 14,
             "goals_against": 11,
@@ -7683,6 +8026,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 11,
             "goals_for": 13,
             "goals_against": 10,
@@ -7705,6 +8049,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 11,
             "goals_for": 14,
             "goals_against": 11,
@@ -7727,6 +8072,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 11,
             "goals_for": 17,
             "goals_against": 11,
@@ -7749,6 +8095,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 11,
             "goals_for": 15,
             "goals_against": 7,
@@ -7771,6 +8118,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 11,
             "goals_for": 12,
             "goals_against": 13,
@@ -7793,6 +8141,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 11,
             "goals_for": 12,
             "goals_against": 13,
@@ -7815,6 +8164,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 11,
             "goals_for": 9,
             "goals_against": 6,
@@ -7837,6 +8187,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 11,
             "goals_for": 13,
             "goals_against": 11,
@@ -7859,6 +8210,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 11,
             "goals_for": 17,
             "goals_against": 17,
@@ -7881,6 +8233,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 11,
             "goals_for": 12,
             "goals_against": 14,
@@ -7903,6 +8256,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 13,
+            "wins": 2,
             "played": 11,
             "goals_for": 6,
             "goals_against": 5,
@@ -7925,6 +8279,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 11,
             "goals_for": 10,
             "goals_against": 11,
@@ -7947,6 +8302,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 11,
             "goals_for": 11,
             "goals_against": 15,
@@ -7969,6 +8325,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 11,
             "goals_for": 11,
             "goals_against": 11,
@@ -7991,6 +8348,7 @@
           "acronym": "LON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 11,
             "goals_for": 12,
             "goals_against": 19,
@@ -8013,6 +8371,7 @@
           "acronym": "AME",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 11,
             "goals_for": 6,
             "goals_against": 22,
@@ -8035,6 +8394,7 @@
           "acronym": "PON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 11,
             "goals_for": 9,
             "goals_against": 20,
@@ -8061,6 +8421,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 24,
+            "wins": 7,
             "played": 12,
             "goals_for": 20,
             "goals_against": 10,
@@ -8083,6 +8444,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 19,
+            "wins": 6,
             "played": 11,
             "goals_for": 16,
             "goals_against": 11,
@@ -8105,6 +8467,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 11,
             "goals_for": 14,
             "goals_against": 11,
@@ -8127,6 +8490,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 12,
             "goals_for": 14,
             "goals_against": 10,
@@ -8149,6 +8513,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 11,
             "goals_for": 14,
             "goals_against": 11,
@@ -8171,6 +8536,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 11,
             "goals_for": 17,
             "goals_against": 11,
@@ -8193,6 +8559,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 11,
             "goals_for": 15,
             "goals_against": 7,
@@ -8215,6 +8582,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 11,
             "goals_for": 12,
             "goals_against": 13,
@@ -8237,6 +8605,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 12,
             "goals_for": 14,
             "goals_against": 15,
@@ -8259,6 +8628,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 11,
             "goals_for": 12,
             "goals_against": 13,
@@ -8281,6 +8651,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 11,
             "goals_for": 13,
             "goals_against": 11,
@@ -8303,6 +8674,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 12,
             "goals_for": 10,
             "goals_against": 8,
@@ -8325,6 +8697,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 13,
+            "wins": 2,
             "played": 11,
             "goals_for": 6,
             "goals_against": 5,
@@ -8347,6 +8720,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 12,
             "goals_for": 19,
             "goals_against": 20,
@@ -8369,6 +8743,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 11,
             "goals_for": 10,
             "goals_against": 11,
@@ -8391,6 +8766,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 11,
             "goals_for": 11,
             "goals_against": 15,
@@ -8413,6 +8789,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 11,
             "goals_for": 11,
             "goals_against": 11,
@@ -8435,6 +8812,7 @@
           "acronym": "LON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 12,
             "goals_for": 12,
             "goals_against": 20,
@@ -8457,6 +8835,7 @@
           "acronym": "AME",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 11,
             "goals_for": 6,
             "goals_against": 22,
@@ -8479,6 +8858,7 @@
           "acronym": "PON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 11,
             "goals_for": 9,
             "goals_against": 20,
@@ -8505,6 +8885,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 24,
+            "wins": 7,
             "played": 12,
             "goals_for": 20,
             "goals_against": 10,
@@ -8527,6 +8908,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 12,
             "goals_for": 15,
             "goals_against": 11,
@@ -8549,6 +8931,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 12,
             "goals_for": 18,
             "goals_against": 11,
@@ -8571,6 +8954,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 12,
             "goals_for": 14,
             "goals_against": 10,
@@ -8593,6 +8977,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 19,
+            "wins": 6,
             "played": 12,
             "goals_for": 16,
             "goals_against": 12,
@@ -8615,6 +9000,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 12,
             "goals_for": 18,
             "goals_against": 11,
@@ -8637,6 +9023,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 23,
+            "wins": 6,
             "played": 12,
             "goals_for": 16,
             "goals_against": 8,
@@ -8659,6 +9046,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 12,
             "goals_for": 14,
             "goals_against": 14,
@@ -8681,6 +9069,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 12,
             "goals_for": 14,
             "goals_against": 15,
@@ -8703,6 +9092,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 12,
             "goals_for": 14,
             "goals_against": 12,
@@ -8725,6 +9115,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 12,
             "goals_for": 12,
             "goals_against": 17,
@@ -8747,6 +9138,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 16,
+            "wins": 3,
             "played": 12,
             "goals_for": 8,
             "goals_against": 6,
@@ -8769,6 +9161,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 12,
             "goals_for": 10,
             "goals_against": 8,
@@ -8791,6 +9184,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 12,
             "goals_for": 12,
             "goals_against": 12,
@@ -8813,6 +9207,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 12,
             "goals_for": 19,
             "goals_against": 20,
@@ -8835,6 +9230,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 12,
             "goals_for": 12,
             "goals_against": 17,
@@ -8857,6 +9253,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 12,
             "goals_for": 11,
             "goals_against": 12,
@@ -8879,6 +9276,7 @@
           "acronym": "LON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 12,
             "goals_for": 12,
             "goals_against": 20,
@@ -8901,6 +9299,7 @@
           "acronym": "AME",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 12,
             "goals_for": 7,
             "goals_against": 24,
@@ -8923,6 +9322,7 @@
           "acronym": "PON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 12,
             "goals_for": 10,
             "goals_against": 22,
@@ -8949,6 +9349,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 13,
             "goals_for": 20,
             "goals_against": 10,
@@ -8971,6 +9372,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 12,
             "goals_for": 15,
             "goals_against": 11,
@@ -8993,6 +9395,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 13,
             "goals_for": 20,
             "goals_against": 13,
@@ -9015,6 +9418,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 12,
             "goals_for": 14,
             "goals_against": 10,
@@ -9037,6 +9441,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 13,
             "goals_for": 18,
             "goals_against": 14,
@@ -9059,6 +9464,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 13,
             "goals_for": 18,
             "goals_against": 12,
@@ -9081,6 +9487,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 24,
+            "wins": 6,
             "played": 13,
             "goals_for": 16,
             "goals_against": 8,
@@ -9103,6 +9510,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 12,
             "goals_for": 14,
             "goals_against": 14,
@@ -9125,6 +9533,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 13,
             "goals_for": 13,
             "goals_against": 8,
@@ -9147,6 +9556,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 19,
+            "wins": 4,
             "played": 13,
             "goals_for": 9,
             "goals_against": 6,
@@ -9169,6 +9579,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 13,
             "goals_for": 13,
             "goals_against": 18,
@@ -9191,6 +9602,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 13,
             "goals_for": 15,
             "goals_against": 17,
@@ -9213,6 +9625,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 19,
+            "wins": 4,
             "played": 13,
             "goals_for": 15,
             "goals_against": 13,
@@ -9235,6 +9648,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 13,
             "goals_for": 15,
             "goals_against": 15,
@@ -9257,6 +9671,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 15,
+            "wins": 4,
             "played": 13,
             "goals_for": 22,
             "goals_against": 23,
@@ -9279,6 +9694,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 12,
             "goals_for": 12,
             "goals_against": 17,
@@ -9301,6 +9717,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 13,
             "goals_for": 13,
             "goals_against": 13,
@@ -9323,6 +9740,7 @@
           "acronym": "LON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 12,
             "goals_for": 12,
             "goals_against": 20,
@@ -9345,6 +9763,7 @@
           "acronym": "AME",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 12,
             "goals_for": 7,
             "goals_against": 24,
@@ -9367,6 +9786,7 @@
           "acronym": "PON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 13,
             "goals_for": 10,
             "goals_against": 25,
@@ -9393,6 +9813,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 13,
             "goals_for": 20,
             "goals_against": 10,
@@ -9415,6 +9836,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 13,
             "goals_for": 20,
             "goals_against": 13,
@@ -9437,6 +9859,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 13,
             "goals_for": 15,
             "goals_against": 14,
@@ -9459,6 +9882,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 13,
             "goals_for": 18,
             "goals_against": 14,
@@ -9481,6 +9905,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 13,
             "goals_for": 15,
             "goals_against": 11,
@@ -9503,6 +9928,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 13,
             "goals_for": 18,
             "goals_against": 12,
@@ -9525,6 +9951,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 25,
+            "wins": 6,
             "played": 14,
             "goals_for": 17,
             "goals_against": 9,
@@ -9547,6 +9974,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 13,
             "goals_for": 15,
             "goals_against": 15,
@@ -9569,6 +9997,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 19,
+            "wins": 4,
             "played": 13,
             "goals_for": 9,
             "goals_against": 6,
@@ -9591,6 +10020,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 13,
             "goals_for": 13,
             "goals_against": 8,
@@ -9613,6 +10043,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 13,
             "goals_for": 13,
             "goals_against": 18,
@@ -9635,6 +10066,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 13,
             "goals_for": 15,
             "goals_against": 17,
@@ -9657,6 +10089,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 19,
+            "wins": 4,
             "played": 13,
             "goals_for": 15,
             "goals_against": 13,
@@ -9679,6 +10112,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 14,
             "goals_for": 16,
             "goals_against": 16,
@@ -9701,6 +10135,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 15,
+            "wins": 4,
             "played": 13,
             "goals_for": 22,
             "goals_against": 23,
@@ -9723,6 +10158,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 13,
             "goals_for": 13,
             "goals_against": 13,
@@ -9745,6 +10181,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 13,
             "goals_for": 14,
             "goals_against": 20,
@@ -9767,6 +10204,7 @@
           "acronym": "LON",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 13,
             "goals_for": 15,
             "goals_against": 22,
@@ -9789,6 +10227,7 @@
           "acronym": "AME",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 13,
             "goals_for": 10,
             "goals_against": 24,
@@ -9811,6 +10250,7 @@
           "acronym": "PON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 13,
             "goals_for": 10,
             "goals_against": 25,
@@ -9837,6 +10277,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 14,
             "goals_for": 20,
             "goals_against": 11,
@@ -9859,6 +10300,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 13,
             "goals_for": 20,
             "goals_against": 13,
@@ -9881,6 +10323,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 14,
             "goals_for": 16,
             "goals_against": 15,
@@ -9903,6 +10346,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 13,
             "goals_for": 15,
             "goals_against": 11,
@@ -9925,6 +10369,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 28,
+            "wins": 8,
             "played": 14,
             "goals_for": 22,
             "goals_against": 15,
@@ -9947,6 +10392,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 14,
             "goals_for": 21,
             "goals_against": 18,
@@ -9969,6 +10415,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 14,
             "goals_for": 14,
             "goals_against": 8,
@@ -9991,6 +10438,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 25,
+            "wins": 6,
             "played": 14,
             "goals_for": 17,
             "goals_against": 9,
@@ -10013,6 +10461,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 14,
             "goals_for": 18,
             "goals_against": 17,
@@ -10035,6 +10484,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 14,
             "goals_for": 15,
             "goals_against": 16,
@@ -10057,6 +10507,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 19,
+            "wins": 4,
             "played": 14,
             "goals_for": 9,
             "goals_against": 7,
@@ -10079,6 +10530,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 14,
             "goals_for": 16,
             "goals_against": 16,
@@ -10101,6 +10553,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 14,
             "goals_for": 23,
             "goals_against": 24,
@@ -10123,6 +10576,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 19,
+            "wins": 4,
             "played": 14,
             "goals_for": 15,
             "goals_against": 15,
@@ -10145,6 +10599,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 14,
             "goals_for": 13,
             "goals_against": 21,
@@ -10167,6 +10622,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 14,
             "goals_for": 14,
             "goals_against": 13,
@@ -10189,6 +10645,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 14,
             "goals_for": 15,
             "goals_against": 20,
@@ -10211,6 +10668,7 @@
           "acronym": "LON",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 14,
             "goals_for": 17,
             "goals_against": 22,
@@ -10233,6 +10691,7 @@
           "acronym": "AME",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 13,
             "goals_for": 10,
             "goals_against": 24,
@@ -10255,6 +10714,7 @@
           "acronym": "PON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 13,
             "goals_for": 10,
             "goals_against": 25,
@@ -10281,6 +10741,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 14,
             "goals_for": 20,
             "goals_against": 11,
@@ -10303,6 +10764,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 24,
+            "wins": 6,
             "played": 14,
             "goals_for": 22,
             "goals_against": 13,
@@ -10325,6 +10787,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 24,
+            "wins": 6,
             "played": 14,
             "goals_for": 16,
             "goals_against": 11,
@@ -10347,6 +10810,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 14,
             "goals_for": 16,
             "goals_against": 15,
@@ -10369,6 +10833,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 28,
+            "wins": 8,
             "played": 14,
             "goals_for": 22,
             "goals_against": 15,
@@ -10391,6 +10856,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 14,
             "goals_for": 21,
             "goals_against": 18,
@@ -10413,6 +10879,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 14,
             "goals_for": 14,
             "goals_against": 8,
@@ -10435,6 +10902,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 25,
+            "wins": 6,
             "played": 14,
             "goals_for": 17,
             "goals_against": 9,
@@ -10457,6 +10925,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 14,
             "goals_for": 18,
             "goals_against": 17,
@@ -10479,6 +10948,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 14,
             "goals_for": 15,
             "goals_against": 16,
@@ -10501,6 +10971,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 14,
             "goals_for": 16,
             "goals_against": 16,
@@ -10523,6 +10994,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 20,
+            "wins": 4,
             "played": 15,
             "goals_for": 11,
             "goals_against": 9,
@@ -10545,6 +11017,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 14,
             "goals_for": 23,
             "goals_against": 24,
@@ -10567,6 +11040,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 19,
+            "wins": 4,
             "played": 14,
             "goals_for": 15,
             "goals_against": 15,
@@ -10589,6 +11063,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 14,
             "goals_for": 13,
             "goals_against": 21,
@@ -10611,6 +11086,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 14,
             "goals_for": 14,
             "goals_against": 13,
@@ -10633,6 +11109,7 @@
           "acronym": "LON",
           "standings": {
             "points": 15,
+            "wins": 4,
             "played": 15,
             "goals_for": 19,
             "goals_against": 24,
@@ -10655,6 +11132,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 14,
             "goals_for": 15,
             "goals_against": 20,
@@ -10677,6 +11155,7 @@
           "acronym": "AME",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 14,
             "goals_for": 10,
             "goals_against": 25,
@@ -10699,6 +11178,7 @@
           "acronym": "PON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 14,
             "goals_for": 10,
             "goals_against": 27,
@@ -10725,6 +11205,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 27,
+            "wins": 7,
             "played": 15,
             "goals_for": 24,
             "goals_against": 14,
@@ -10747,6 +11228,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 27,
+            "wins": 7,
             "played": 15,
             "goals_for": 17,
             "goals_against": 11,
@@ -10769,6 +11251,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 15,
             "goals_for": 20,
             "goals_against": 12,
@@ -10791,6 +11274,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 15,
             "goals_for": 18,
             "goals_against": 16,
@@ -10813,6 +11297,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 15,
             "goals_for": 16,
             "goals_against": 8,
@@ -10835,6 +11320,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 28,
+            "wins": 8,
             "played": 15,
             "goals_for": 23,
             "goals_against": 17,
@@ -10857,6 +11343,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 15,
             "goals_for": 19,
             "goals_against": 17,
@@ -10879,6 +11366,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 25,
+            "wins": 6,
             "played": 15,
             "goals_for": 18,
             "goals_against": 11,
@@ -10901,6 +11389,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 15,
             "goals_for": 21,
             "goals_against": 19,
@@ -10923,6 +11412,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 15,
             "goals_for": 14,
             "goals_against": 21,
@@ -10945,6 +11435,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 15,
             "goals_for": 18,
             "goals_against": 16,
@@ -10967,6 +11458,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 22,
+            "wins": 5,
             "played": 15,
             "goals_for": 16,
             "goals_against": 15,
@@ -10989,6 +11481,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 20,
+            "wins": 4,
             "played": 15,
             "goals_for": 11,
             "goals_against": 9,
@@ -11011,6 +11504,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 14,
             "goals_for": 23,
             "goals_against": 24,
@@ -11033,6 +11527,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 15,
             "goals_for": 15,
             "goals_against": 18,
@@ -11055,6 +11550,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 14,
             "goals_for": 14,
             "goals_against": 13,
@@ -11077,6 +11573,7 @@
           "acronym": "LON",
           "standings": {
             "points": 15,
+            "wins": 4,
             "played": 15,
             "goals_for": 19,
             "goals_against": 24,
@@ -11099,6 +11596,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 15,
             "goals_for": 15,
             "goals_against": 21,
@@ -11121,6 +11619,7 @@
           "acronym": "AME",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 15,
             "goals_for": 10,
             "goals_against": 26,
@@ -11143,6 +11642,7 @@
           "acronym": "PON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 15,
             "goals_for": 10,
             "goals_against": 29,
@@ -11169,6 +11669,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 27,
+            "wins": 7,
             "played": 15,
             "goals_for": 24,
             "goals_against": 14,
@@ -11191,6 +11692,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 27,
+            "wins": 7,
             "played": 15,
             "goals_for": 17,
             "goals_against": 11,
@@ -11213,6 +11715,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 15,
             "goals_for": 20,
             "goals_against": 12,
@@ -11235,6 +11738,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 28,
+            "wins": 8,
             "played": 16,
             "goals_for": 20,
             "goals_against": 16,
@@ -11257,6 +11761,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 28,
+            "wins": 8,
             "played": 15,
             "goals_for": 23,
             "goals_against": 17,
@@ -11279,6 +11784,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 15,
             "goals_for": 16,
             "goals_against": 8,
@@ -11301,6 +11807,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 15,
             "goals_for": 19,
             "goals_against": 17,
@@ -11323,6 +11830,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 25,
+            "wins": 6,
             "played": 15,
             "goals_for": 18,
             "goals_against": 11,
@@ -11345,6 +11853,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 15,
             "goals_for": 21,
             "goals_against": 19,
@@ -11367,6 +11876,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 15,
             "goals_for": 24,
             "goals_against": 24,
@@ -11389,6 +11899,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 15,
             "goals_for": 18,
             "goals_against": 16,
@@ -11411,6 +11922,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 23,
+            "wins": 5,
             "played": 16,
             "goals_for": 12,
             "goals_against": 9,
@@ -11433,6 +11945,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 15,
             "goals_for": 14,
             "goals_against": 21,
@@ -11455,6 +11968,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 22,
+            "wins": 5,
             "played": 15,
             "goals_for": 16,
             "goals_against": 15,
@@ -11477,6 +11991,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 15,
             "goals_for": 15,
             "goals_against": 18,
@@ -11499,6 +12014,7 @@
           "acronym": "LON",
           "standings": {
             "points": 15,
+            "wins": 4,
             "played": 15,
             "goals_for": 19,
             "goals_against": 24,
@@ -11521,6 +12037,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 15,
             "goals_for": 14,
             "goals_against": 14,
@@ -11543,6 +12060,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 15,
             "goals_for": 15,
             "goals_against": 21,
@@ -11565,6 +12083,7 @@
           "acronym": "AME",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 16,
             "goals_for": 10,
             "goals_against": 27,
@@ -11587,6 +12106,7 @@
           "acronym": "PON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 16,
             "goals_for": 10,
             "goals_against": 31,
@@ -11613,6 +12133,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 30,
+            "wins": 8,
             "played": 16,
             "goals_for": 27,
             "goals_against": 14,
@@ -11635,6 +12156,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 30,
+            "wins": 8,
             "played": 16,
             "goals_for": 18,
             "goals_against": 11,
@@ -11657,6 +12179,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 15,
             "goals_for": 20,
             "goals_against": 12,
@@ -11679,6 +12202,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 28,
+            "wins": 8,
             "played": 16,
             "goals_for": 20,
             "goals_against": 16,
@@ -11701,6 +12225,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 28,
+            "wins": 8,
             "played": 15,
             "goals_for": 23,
             "goals_against": 17,
@@ -11723,6 +12248,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 26,
+            "wins": 7,
             "played": 16,
             "goals_for": 16,
             "goals_against": 8,
@@ -11745,6 +12271,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 15,
             "goals_for": 19,
             "goals_against": 17,
@@ -11767,6 +12294,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 24,
+            "wins": 7,
             "played": 16,
             "goals_for": 16,
             "goals_against": 21,
@@ -11789,6 +12317,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 16,
             "goals_for": 21,
             "goals_against": 19,
@@ -11811,6 +12340,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 25,
+            "wins": 6,
             "played": 16,
             "goals_for": 18,
             "goals_against": 12,
@@ -11833,6 +12363,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 23,
+            "wins": 5,
             "played": 16,
             "goals_for": 12,
             "goals_against": 9,
@@ -11855,6 +12386,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 22,
+            "wins": 5,
             "played": 15,
             "goals_for": 16,
             "goals_against": 15,
@@ -11877,6 +12409,7 @@
           "acronym": "LON",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 16,
             "goals_for": 24,
             "goals_against": 24,
@@ -11899,6 +12432,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 16,
             "goals_for": 18,
             "goals_against": 19,
@@ -11921,6 +12455,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 16,
             "goals_for": 24,
             "goals_against": 29,
@@ -11943,6 +12478,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 16,
             "goals_for": 15,
             "goals_against": 20,
@@ -11965,6 +12501,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 15,
             "goals_for": 14,
             "goals_against": 14,
@@ -11987,6 +12524,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 15,
             "goals_for": 15,
             "goals_against": 21,
@@ -12009,6 +12547,7 @@
           "acronym": "AME",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 16,
             "goals_for": 10,
             "goals_against": 27,
@@ -12031,6 +12570,7 @@
           "acronym": "PON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 16,
             "goals_for": 10,
             "goals_against": 31,
@@ -12057,6 +12597,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 30,
+            "wins": 8,
             "played": 16,
             "goals_for": 27,
             "goals_against": 14,
@@ -12079,6 +12620,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 33,
+            "wins": 9,
             "played": 17,
             "goals_for": 20,
             "goals_against": 12,
@@ -12101,6 +12643,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 28,
+            "wins": 8,
             "played": 16,
             "goals_for": 20,
             "goals_against": 16,
@@ -12123,6 +12666,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 31,
+            "wins": 9,
             "played": 16,
             "goals_for": 25,
             "goals_against": 18,
@@ -12145,6 +12689,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 16,
             "goals_for": 21,
             "goals_against": 14,
@@ -12167,6 +12712,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 28,
+            "wins": 8,
             "played": 16,
             "goals_for": 20,
             "goals_against": 17,
@@ -12189,6 +12735,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 26,
+            "wins": 7,
             "played": 16,
             "goals_for": 16,
             "goals_against": 8,
@@ -12211,6 +12758,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 24,
+            "wins": 7,
             "played": 16,
             "goals_for": 16,
             "goals_against": 21,
@@ -12233,6 +12781,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 16,
             "goals_for": 21,
             "goals_against": 19,
@@ -12255,6 +12804,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 25,
+            "wins": 6,
             "played": 16,
             "goals_for": 18,
             "goals_against": 12,
@@ -12277,6 +12827,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 23,
+            "wins": 5,
             "played": 16,
             "goals_for": 12,
             "goals_against": 9,
@@ -12299,6 +12850,7 @@
           "acronym": "LON",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 16,
             "goals_for": 24,
             "goals_against": 24,
@@ -12321,6 +12873,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 16,
             "goals_for": 18,
             "goals_against": 19,
@@ -12343,6 +12896,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 22,
+            "wins": 5,
             "played": 16,
             "goals_for": 16,
             "goals_against": 16,
@@ -12365,6 +12919,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 16,
             "goals_for": 24,
             "goals_against": 29,
@@ -12387,6 +12942,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 16,
             "goals_for": 15,
             "goals_against": 20,
@@ -12409,6 +12965,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 16,
             "goals_for": 17,
             "goals_against": 15,
@@ -12431,6 +12988,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 16,
             "goals_for": 16,
             "goals_against": 24,
@@ -12453,6 +13011,7 @@
           "acronym": "AME",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 16,
             "goals_for": 10,
             "goals_against": 27,
@@ -12475,6 +13034,7 @@
           "acronym": "PON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 17,
             "goals_for": 11,
             "goals_against": 33,
@@ -12501,6 +13061,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 33,
+            "wins": 9,
             "played": 17,
             "goals_for": 20,
             "goals_against": 12,
@@ -12523,6 +13084,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 30,
+            "wins": 8,
             "played": 17,
             "goals_for": 28,
             "goals_against": 16,
@@ -12545,6 +13107,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 31,
+            "wins": 9,
             "played": 17,
             "goals_for": 22,
             "goals_against": 18,
@@ -12567,6 +13130,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 31,
+            "wins": 9,
             "played": 17,
             "goals_for": 25,
             "goals_against": 19,
@@ -12589,6 +13153,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 28,
+            "wins": 8,
             "played": 17,
             "goals_for": 20,
             "goals_against": 17,
@@ -12611,6 +13176,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 29,
+            "wins": 8,
             "played": 17,
             "goals_for": 17,
             "goals_against": 8,
@@ -12633,6 +13199,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 26,
+            "wins": 7,
             "played": 17,
             "goals_for": 23,
             "goals_against": 16,
@@ -12655,6 +13222,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 17,
             "goals_for": 18,
             "goals_against": 23,
@@ -12677,6 +13245,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 26,
+            "wins": 6,
             "played": 17,
             "goals_for": 21,
             "goals_against": 15,
@@ -12699,6 +13268,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 24,
+            "wins": 5,
             "played": 17,
             "goals_for": 14,
             "goals_against": 11,
@@ -12721,6 +13291,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 24,
+            "wins": 6,
             "played": 17,
             "goals_for": 19,
             "goals_against": 19,
@@ -12743,6 +13314,7 @@
           "acronym": "LON",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 16,
             "goals_for": 24,
             "goals_against": 24,
@@ -12765,6 +13337,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 17,
             "goals_for": 21,
             "goals_against": 21,
@@ -12787,6 +13360,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 22,
+            "wins": 5,
             "played": 16,
             "goals_for": 16,
             "goals_against": 16,
@@ -12809,6 +13383,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 17,
             "goals_for": 26,
             "goals_against": 31,
@@ -12831,6 +13406,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 16,
             "goals_for": 15,
             "goals_against": 20,
@@ -12853,6 +13429,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 17,
             "goals_for": 20,
             "goals_against": 18,
@@ -12875,6 +13452,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 17,
             "goals_for": 18,
             "goals_against": 24,
@@ -12897,6 +13475,7 @@
           "acronym": "AME",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 16,
             "goals_for": 10,
             "goals_against": 27,
@@ -12919,6 +13498,7 @@
           "acronym": "PON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 17,
             "goals_for": 11,
             "goals_against": 33,
@@ -12945,6 +13525,7 @@
           "acronym": "CRI",
           "standings": {
             "points": 33,
+            "wins": 9,
             "played": 17,
             "goals_for": 20,
             "goals_against": 12,
@@ -12967,6 +13548,7 @@
           "acronym": "NOV",
           "standings": {
             "points": 30,
+            "wins": 8,
             "played": 17,
             "goals_for": 28,
             "goals_against": 16,
@@ -12989,6 +13571,7 @@
           "acronym": "OPE",
           "standings": {
             "points": 31,
+            "wins": 9,
             "played": 17,
             "goals_for": 22,
             "goals_against": 18,
@@ -13011,6 +13594,7 @@
           "acronym": "VIL",
           "standings": {
             "points": 31,
+            "wins": 9,
             "played": 17,
             "goals_for": 25,
             "goals_against": 19,
@@ -13033,6 +13617,7 @@
           "acronym": "FOR",
           "standings": {
             "points": 28,
+            "wins": 8,
             "played": 17,
             "goals_for": 20,
             "goals_against": 17,
@@ -13055,6 +13640,7 @@
           "acronym": "JUV",
           "standings": {
             "points": 29,
+            "wins": 8,
             "played": 17,
             "goals_for": 17,
             "goals_against": 8,
@@ -13077,6 +13663,7 @@
           "acronym": "SBE",
           "standings": {
             "points": 26,
+            "wins": 7,
             "played": 17,
             "goals_for": 23,
             "goals_against": 16,
@@ -13099,6 +13686,7 @@
           "acronym": "GOI",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 17,
             "goals_for": 18,
             "goals_against": 23,
@@ -13121,6 +13709,7 @@
           "acronym": "SPT",
           "standings": {
             "points": 26,
+            "wins": 6,
             "played": 17,
             "goals_for": 21,
             "goals_against": 15,
@@ -13143,6 +13732,7 @@
           "acronym": "CUI",
           "standings": {
             "points": 24,
+            "wins": 5,
             "played": 17,
             "goals_for": 14,
             "goals_against": 11,
@@ -13165,6 +13755,7 @@
           "acronym": "ACG",
           "standings": {
             "points": 24,
+            "wins": 6,
             "played": 17,
             "goals_for": 19,
             "goals_against": 19,
@@ -13187,6 +13778,7 @@
           "acronym": "LON",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 17,
             "goals_for": 25,
             "goals_against": 25,
@@ -13209,6 +13801,7 @@
           "acronym": "CRB",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 17,
             "goals_for": 26,
             "goals_against": 31,
@@ -13231,6 +13824,7 @@
           "acronym": "ATH",
           "standings": {
             "points": 23,
+            "wins": 5,
             "played": 17,
             "goals_for": 16,
             "goals_against": 16,
@@ -13253,6 +13847,7 @@
           "acronym": "NAU",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 17,
             "goals_for": 21,
             "goals_against": 21,
@@ -13275,6 +13870,7 @@
           "acronym": "BSP",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 17,
             "goals_for": 20,
             "goals_against": 18,
@@ -13297,6 +13893,7 @@
           "acronym": "CEA",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 17,
             "goals_for": 15,
             "goals_against": 20,
@@ -13319,6 +13916,7 @@
           "acronym": "AVA",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 17,
             "goals_for": 18,
             "goals_against": 24,
@@ -13341,6 +13939,7 @@
           "acronym": "AME",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 17,
             "goals_for": 11,
             "goals_against": 28,
@@ -13363,6 +13962,7 @@
           "acronym": "PON",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 17,
             "goals_for": 11,
             "goals_against": 33,
