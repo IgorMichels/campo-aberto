@@ -41,6 +41,20 @@
     return probs;
   }
 
+  // Exact Poisson pmf for k = 0..maxK, no tail bucketing -- unlike
+  // poissonPmfWithTail, every entry is the literal P(X = k) term (used where
+  // an individual scoreline's exact probability is needed, e.g. a played
+  // match's real result, rather than a bucketed display grid).
+  function poissonPmfArray(mu, maxK) {
+    const probs = new Array(maxK + 1);
+    let p = Math.exp(-mu);
+    for (let k = 0; k <= maxK; k++) {
+      probs[k] = p;
+      p = (p * mu) / (k + 1);
+    }
+    return probs;
+  }
+
   // The Dixon-Coles low-score correction: only the four (x, y) in {0, 1}^2
   // cells are reweighted; every other cell keeps its independent-Poisson mass.
   function dixonColesTau(x, y, muHome, muAway, rho) {
@@ -129,6 +143,32 @@
     return { grid, home_win: homeWin, draw, away_win: awayWin };
   }
 
+  // Exact probability of one specific scoreline, for any (home, away) --
+  // unlike scorelineProbabilities' `grid`, which buckets everything at
+  // maxGoals=4 or more into a single ">= 4" cell (needed there so the
+  // heatmap stays a fixed 5x5), this is used for a played match's real
+  // result (matches_shared.js::computeCard's final_score_prob), which can
+  // legitimately be any scoreline, including blowouts past 4 goals.
+  // `outcomeCap` is widened to cover (home, away) if either exceeds the
+  // default -- the joint grid it renormalizes against must include the
+  // queried cell itself.
+  function scorelineProbabilityAt(muHome, muAway, sharedParams, home, away, outcomeCap = 10) {
+    const { rho } = sharedParams;
+    const cap = Math.max(outcomeCap, home, away);
+    const pHome = poissonPmfArray(muHome, cap);
+    const pAway = poissonPmfArray(muAway, cap);
+
+    let total = 0;
+    for (let x = 0; x <= cap; x++) {
+      for (let y = 0; y <= cap; y++) {
+        total += dixonColesTau(x, y, muHome, muAway, rho) * pHome[x] * pAway[y];
+      }
+    }
+
+    const raw = dixonColesTau(home, away, muHome, muAway, rho) * pHome[home] * pAway[away];
+    return raw / total;
+  }
+
   // Inclusive integer range [start, end].
   function range(start, end) {
     const values = [];
@@ -144,5 +184,10 @@
   }
 
   window.ScoreModels = window.ScoreModels || {};
-  window.ScoreModels.poisson_home = { matchRates, scorelineProbabilities, teamStrength };
+  window.ScoreModels.poisson_home = {
+    matchRates,
+    scorelineProbabilities,
+    scorelineProbabilityAt,
+    teamStrength,
+  };
 })();
