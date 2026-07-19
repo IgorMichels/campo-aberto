@@ -65,6 +65,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -88,6 +89,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -111,6 +113,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -134,6 +137,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -157,6 +161,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -180,6 +185,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -203,6 +209,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -226,6 +233,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -249,6 +257,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -272,6 +281,7 @@
           "acronym": "COR",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -295,6 +305,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -318,6 +329,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -341,6 +353,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -364,6 +377,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -387,6 +401,7 @@
           "acronym": "INT",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -410,6 +425,7 @@
           "acronym": "REM",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -433,6 +449,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -456,6 +473,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -479,6 +497,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -502,6 +521,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 0,
             "goals_for": 0,
             "goals_against": 0,
@@ -529,6 +549,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 1,
             "goals_against": 2,
@@ -552,6 +573,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 1,
             "goals_for": 2,
             "goals_against": 2,
@@ -575,6 +597,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 4,
             "goals_against": 0,
@@ -598,6 +621,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 2,
             "goals_against": 1,
@@ -621,6 +645,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 2,
             "goals_against": 1,
@@ -644,6 +669,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 0,
             "goals_against": 4,
@@ -667,6 +693,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 2,
             "goals_against": 1,
@@ -690,6 +717,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 2,
             "goals_against": 1,
@@ -713,6 +741,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 1,
             "goals_against": 2,
@@ -736,6 +765,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 1,
             "goals_for": 2,
             "goals_against": 2,
@@ -759,6 +789,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 1,
             "goals_against": 0,
@@ -782,6 +813,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 2,
             "goals_against": 4,
@@ -805,6 +837,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 4,
             "goals_against": 2,
@@ -828,6 +861,7 @@
           "acronym": "COR",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 1,
             "goals_against": 2,
@@ -851,6 +885,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 1,
             "goals_against": 2,
@@ -874,6 +909,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 1,
             "goals_against": 0,
@@ -897,6 +933,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 2,
             "goals_against": 0,
@@ -920,6 +957,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 0,
             "goals_against": 1,
@@ -943,6 +981,7 @@
           "acronym": "REM",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 0,
             "goals_against": 2,
@@ -966,6 +1005,7 @@
           "acronym": "INT",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 0,
             "goals_against": 1,
@@ -993,6 +1033,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 2,
             "goals_for": 7,
             "goals_against": 3,
@@ -1016,6 +1057,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 2,
             "goals_for": 2,
             "goals_against": 3,
@@ -1039,6 +1081,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 2,
             "goals_for": 7,
             "goals_against": 5,
@@ -1062,6 +1105,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 2,
             "goals_for": 4,
             "goals_against": 3,
@@ -1085,6 +1129,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 2,
             "goals_for": 3,
             "goals_against": 2,
@@ -1108,6 +1153,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 2,
             "goals_for": 1,
             "goals_against": 6,
@@ -1131,6 +1177,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 2,
             "goals_for": 6,
             "goals_against": 5,
@@ -1154,6 +1201,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 2,
             "goals_for": 3,
             "goals_against": 2,
@@ -1177,6 +1225,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 2,
             "goals_for": 3,
             "goals_against": 2,
@@ -1200,6 +1249,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 1,
             "goals_against": 0,
@@ -1223,6 +1273,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 2,
             "goals_for": 5,
             "goals_against": 3,
@@ -1246,6 +1297,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 2,
             "goals_for": 2,
             "goals_against": 0,
@@ -1269,6 +1321,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 2,
             "goals_for": 2,
             "goals_against": 2,
@@ -1292,6 +1345,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 2,
             "goals_for": 2,
             "goals_against": 3,
@@ -1315,6 +1369,7 @@
           "acronym": "COR",
           "standings": {
             "points": 0,
+            "wins": 0,
             "played": 1,
             "goals_for": 1,
             "goals_against": 2,
@@ -1338,6 +1393,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 2,
             "goals_for": 3,
             "goals_against": 5,
@@ -1361,6 +1417,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 2,
             "goals_for": 2,
             "goals_against": 3,
@@ -1384,6 +1441,7 @@
           "acronym": "INT",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 2,
             "goals_for": 1,
             "goals_against": 2,
@@ -1407,6 +1465,7 @@
           "acronym": "REM",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 2,
             "goals_for": 2,
             "goals_against": 4,
@@ -1430,6 +1489,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 2,
             "goals_for": 3,
             "goals_against": 5,
@@ -1457,6 +1517,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 10,
             "goals_against": 4,
@@ -1480,6 +1541,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 3,
             "goals_for": 4,
             "goals_against": 4,
@@ -1503,6 +1565,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 3,
             "goals_for": 7,
             "goals_against": 6,
@@ -1526,6 +1589,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
@@ -1549,6 +1613,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 6,
             "goals_against": 5,
@@ -1572,6 +1637,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
@@ -1595,6 +1661,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 5,
             "goals_against": 2,
@@ -1618,6 +1685,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 3,
             "goals_against": 8,
@@ -1641,6 +1709,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 2,
             "goals_for": 3,
             "goals_against": 1,
@@ -1664,6 +1733,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 3,
             "goals_for": 6,
             "goals_against": 7,
@@ -1687,6 +1757,7 @@
           "acronym": "COR",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 2,
             "goals_for": 3,
             "goals_against": 2,
@@ -1710,6 +1781,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 3,
             "goals_for": 5,
             "goals_against": 5,
@@ -1733,6 +1805,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 8,
             "goals_against": 6,
@@ -1756,6 +1829,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 3,
             "goals_for": 2,
             "goals_against": 2,
@@ -1779,6 +1853,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 3,
             "goals_for": 5,
             "goals_against": 6,
@@ -1802,6 +1877,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 4,
             "goals_against": 7,
@@ -1825,6 +1901,7 @@
           "acronym": "REM",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 3,
             "goals_for": 5,
             "goals_against": 7,
@@ -1848,6 +1925,7 @@
           "acronym": "INT",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 2,
             "goals_against": 5,
@@ -1871,6 +1949,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 2,
             "goals_against": 4,
@@ -1894,6 +1973,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 3,
             "goals_for": 4,
             "goals_against": 7,
@@ -1921,6 +2001,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 10,
             "goals_against": 4,
@@ -1944,6 +2025,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 3,
             "goals_for": 4,
             "goals_against": 4,
@@ -1967,6 +2049,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 3,
             "goals_for": 7,
             "goals_against": 6,
@@ -1990,6 +2073,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
@@ -2013,6 +2097,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 6,
             "goals_against": 5,
@@ -2036,6 +2121,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
@@ -2059,6 +2145,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 3,
             "goals_against": 8,
@@ -2082,6 +2169,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 5,
             "goals_against": 2,
@@ -2105,6 +2193,7 @@
           "acronym": "COR",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
@@ -2128,6 +2217,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 3,
             "goals_for": 6,
             "goals_against": 7,
@@ -2151,6 +2241,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 3,
             "goals_for": 3,
             "goals_against": 2,
@@ -2174,6 +2265,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 3,
             "goals_for": 5,
             "goals_against": 5,
@@ -2197,6 +2289,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 8,
             "goals_against": 6,
@@ -2220,6 +2313,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 3,
             "goals_for": 2,
             "goals_against": 2,
@@ -2243,6 +2337,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 3,
             "goals_for": 5,
             "goals_against": 6,
@@ -2266,6 +2361,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 4,
             "goals_against": 7,
@@ -2289,6 +2385,7 @@
           "acronym": "REM",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 3,
             "goals_for": 5,
             "goals_against": 7,
@@ -2312,6 +2409,7 @@
           "acronym": "INT",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 2,
             "goals_against": 5,
@@ -2335,6 +2433,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 3,
             "goals_for": 2,
             "goals_against": 4,
@@ -2358,6 +2457,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 3,
             "goals_for": 4,
             "goals_against": 7,
@@ -2385,6 +2485,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 4,
             "goals_for": 12,
             "goals_against": 5,
@@ -2408,6 +2509,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 3,
             "goals_for": 4,
             "goals_against": 4,
@@ -2431,6 +2533,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 3,
             "goals_for": 7,
             "goals_against": 6,
@@ -2454,6 +2557,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 6,
             "goals_against": 5,
@@ -2477,6 +2581,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 4,
             "goals_for": 5,
             "goals_against": 4,
@@ -2500,6 +2605,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 4,
             "goals_for": 6,
             "goals_against": 2,
@@ -2523,6 +2629,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 3,
             "goals_for": 4,
             "goals_against": 2,
@@ -2546,6 +2653,7 @@
           "acronym": "COR",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 4,
             "goals_for": 5,
             "goals_against": 3,
@@ -2569,6 +2677,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 4,
             "goals_for": 4,
             "goals_against": 9,
@@ -2592,6 +2701,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 4,
             "goals_for": 8,
             "goals_against": 8,
@@ -2615,6 +2725,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 4,
             "goals_for": 4,
             "goals_against": 3,
@@ -2638,6 +2749,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 4,
             "goals_for": 6,
             "goals_against": 8,
@@ -2661,6 +2773,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 3,
             "goals_for": 8,
             "goals_against": 6,
@@ -2684,6 +2797,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 4,
             "goals_for": 3,
             "goals_against": 3,
@@ -2707,6 +2821,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 4,
             "goals_for": 6,
             "goals_against": 8,
@@ -2730,6 +2845,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 4,
             "goals_for": 5,
             "goals_against": 6,
@@ -2753,6 +2869,7 @@
           "acronym": "INT",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 4,
             "goals_for": 3,
             "goals_against": 6,
@@ -2776,6 +2893,7 @@
           "acronym": "REM",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 4,
             "goals_for": 6,
             "goals_against": 8,
@@ -2799,6 +2917,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 3,
             "goals_for": 4,
             "goals_against": 7,
@@ -2822,6 +2941,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 1,
+            "wins": 0,
             "played": 4,
             "goals_for": 3,
             "goals_against": 6,
@@ -2849,6 +2969,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 4,
             "goals_for": 6,
             "goals_against": 4,
@@ -2872,6 +2993,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 5,
             "goals_for": 13,
             "goals_against": 7,
@@ -2895,6 +3017,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 5,
             "goals_for": 7,
             "goals_against": 4,
@@ -2918,6 +3041,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 3,
             "goals_for": 7,
             "goals_against": 6,
@@ -2941,6 +3065,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 5,
             "goals_for": 8,
             "goals_against": 2,
@@ -2964,6 +3089,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 4,
             "goals_for": 8,
             "goals_against": 7,
@@ -2987,6 +3113,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 4,
             "goals_for": 5,
             "goals_against": 3,
@@ -3010,6 +3137,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 5,
             "goals_for": 4,
             "goals_against": 11,
@@ -3033,6 +3161,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 9,
             "goals_against": 9,
@@ -3056,6 +3185,7 @@
           "acronym": "COR",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 5,
             "goals_against": 5,
@@ -3079,6 +3209,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 7,
             "goals_against": 6,
@@ -3102,6 +3233,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 4,
             "goals_for": 4,
             "goals_against": 3,
@@ -3125,6 +3257,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 5,
             "goals_for": 8,
             "goals_against": 10,
@@ -3148,6 +3281,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 5,
             "goals_for": 7,
             "goals_against": 8,
@@ -3171,6 +3305,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 5,
             "goals_for": 4,
             "goals_against": 4,
@@ -3194,6 +3329,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 4,
             "goals_for": 8,
             "goals_against": 8,
@@ -3217,6 +3353,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 5,
             "goals_for": 5,
             "goals_against": 7,
@@ -3240,6 +3377,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 4,
+            "wins": 1,
             "played": 4,
             "goals_for": 5,
             "goals_against": 8,
@@ -3263,6 +3401,7 @@
           "acronym": "INT",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 5,
             "goals_for": 3,
             "goals_against": 7,
@@ -3286,6 +3425,7 @@
           "acronym": "REM",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 5,
             "goals_for": 6,
             "goals_against": 10,
@@ -3313,6 +3453,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 5,
             "goals_for": 9,
             "goals_against": 4,
@@ -3336,6 +3477,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 6,
             "goals_for": 14,
             "goals_against": 7,
@@ -3359,6 +3501,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 6,
             "goals_for": 10,
             "goals_against": 6,
@@ -3382,6 +3525,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 6,
             "goals_for": 10,
             "goals_against": 3,
@@ -3405,6 +3549,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 5,
             "goals_for": 8,
             "goals_against": 8,
@@ -3428,6 +3573,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 4,
             "goals_for": 7,
             "goals_against": 9,
@@ -3451,6 +3597,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 5,
             "goals_for": 6,
             "goals_against": 3,
@@ -3474,6 +3621,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 9,
             "goals_against": 9,
@@ -3497,6 +3645,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 6,
             "goals_for": 8,
             "goals_against": 6,
@@ -3520,6 +3669,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 6,
             "goals_for": 7,
             "goals_against": 14,
@@ -3543,6 +3693,7 @@
           "acronym": "COR",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 6,
             "goals_for": 6,
             "goals_against": 6,
@@ -3566,6 +3717,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 6,
             "goals_against": 6,
@@ -3589,6 +3741,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 6,
             "goals_for": 9,
             "goals_against": 11,
@@ -3612,6 +3765,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 4,
             "goals_for": 8,
             "goals_against": 8,
@@ -3635,6 +3789,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 6,
             "goals_for": 8,
             "goals_against": 10,
@@ -3658,6 +3813,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 5,
             "goals_for": 7,
             "goals_against": 8,
@@ -3681,6 +3837,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 6,
             "goals_for": 5,
             "goals_against": 6,
@@ -3704,6 +3861,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 6,
             "goals_for": 7,
             "goals_against": 10,
@@ -3727,6 +3885,7 @@
           "acronym": "INT",
           "standings": {
             "points": 2,
+            "wins": 0,
             "played": 6,
             "goals_for": 3,
             "goals_against": 8,
@@ -3750,6 +3909,7 @@
           "acronym": "REM",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 6,
             "goals_for": 6,
             "goals_against": 11,
@@ -3777,6 +3937,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 6,
             "goals_for": 12,
             "goals_against": 4,
@@ -3800,6 +3961,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 7,
             "goals_for": 16,
             "goals_against": 8,
@@ -3823,6 +3985,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 7,
             "goals_for": 12,
             "goals_against": 9,
@@ -3846,6 +4009,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 7,
             "goals_for": 10,
             "goals_against": 4,
@@ -3869,6 +4033,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 6,
             "goals_for": 8,
             "goals_against": 3,
@@ -3892,6 +4057,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 3,
+            "wins": 1,
             "played": 5,
             "goals_for": 8,
             "goals_against": 11,
@@ -3915,6 +4081,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 6,
             "goals_for": 8,
             "goals_against": 9,
@@ -3938,6 +4105,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 7,
             "goals_for": 9,
             "goals_against": 6,
@@ -3961,6 +4129,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 7,
             "goals_for": 12,
             "goals_against": 10,
@@ -3984,6 +4153,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 6,
             "goals_for": 8,
             "goals_against": 7,
@@ -4007,6 +4177,7 @@
           "acronym": "COR",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 7,
             "goals_for": 6,
             "goals_against": 6,
@@ -4030,6 +4201,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 7,
             "goals_for": 8,
             "goals_against": 16,
@@ -4053,6 +4225,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 7,
             "goals_for": 11,
             "goals_against": 12,
@@ -4076,6 +4249,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 7,
             "goals_for": 8,
             "goals_against": 10,
@@ -4099,6 +4273,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 6,
             "goals_for": 9,
             "goals_against": 9,
@@ -4122,6 +4297,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 7,
             "goals_for": 10,
             "goals_against": 13,
@@ -4145,6 +4321,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 7,
+            "wins": 2,
             "played": 6,
             "goals_for": 7,
             "goals_against": 10,
@@ -4168,6 +4345,7 @@
           "acronym": "INT",
           "standings": {
             "points": 5,
+            "wins": 1,
             "played": 7,
             "goals_for": 5,
             "goals_against": 9,
@@ -4191,6 +4369,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 7,
             "goals_for": 5,
             "goals_against": 8,
@@ -4214,6 +4393,7 @@
           "acronym": "REM",
           "standings": {
             "points": 3,
+            "wins": 0,
             "played": 7,
             "goals_for": 6,
             "goals_against": 14,
@@ -4241,6 +4421,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 7,
             "goals_for": 13,
             "goals_against": 5,
@@ -4264,6 +4445,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 19,
+            "wins": 6,
             "played": 8,
             "goals_for": 17,
             "goals_against": 8,
@@ -4287,6 +4469,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 8,
             "goals_for": 13,
             "goals_against": 9,
@@ -4310,6 +4493,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 6,
             "goals_for": 10,
             "goals_against": 12,
@@ -4333,6 +4517,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 8,
             "goals_for": 10,
             "goals_against": 5,
@@ -4356,6 +4541,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 7,
             "goals_for": 9,
             "goals_against": 7,
@@ -4379,6 +4565,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 7,
             "goals_for": 10,
             "goals_against": 7,
@@ -4402,6 +4589,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 7,
             "goals_for": 8,
             "goals_against": 10,
@@ -4425,6 +4613,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 8,
             "goals_for": 9,
             "goals_against": 8,
@@ -4448,6 +4637,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 8,
             "goals_for": 13,
             "goals_against": 12,
@@ -4471,6 +4661,7 @@
           "acronym": "COR",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 8,
             "goals_for": 7,
             "goals_against": 7,
@@ -4494,6 +4685,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 8,
             "goals_for": 13,
             "goals_against": 13,
@@ -4517,6 +4709,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 4,
+            "wins": 0,
             "played": 8,
             "goals_for": 8,
             "goals_against": 16,
@@ -4540,6 +4733,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 7,
             "goals_for": 8,
             "goals_against": 10,
@@ -4563,6 +4757,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 8,
             "goals_for": 10,
             "goals_against": 13,
@@ -4586,6 +4781,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 8,
             "goals_for": 8,
             "goals_against": 11,
@@ -4609,6 +4805,7 @@
           "acronym": "INT",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 8,
             "goals_for": 7,
             "goals_against": 9,
@@ -4632,6 +4829,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 7,
             "goals_for": 9,
             "goals_against": 11,
@@ -4655,6 +4853,7 @@
           "acronym": "REM",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 8,
             "goals_for": 10,
             "goals_against": 15,
@@ -4678,6 +4877,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 8,
             "goals_for": 6,
             "goals_against": 10,
@@ -4705,6 +4905,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 7,
             "goals_for": 13,
             "goals_against": 5,
@@ -4728,6 +4929,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 19,
+            "wins": 6,
             "played": 8,
             "goals_for": 17,
             "goals_against": 8,
@@ -4751,6 +4953,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 8,
             "goals_for": 13,
             "goals_against": 9,
@@ -4774,6 +4977,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 8,
             "goals_for": 10,
             "goals_against": 5,
@@ -4797,6 +5001,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 8,
             "goals_for": 14,
             "goals_against": 8,
@@ -4820,6 +5025,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 6,
+            "wins": 2,
             "played": 7,
             "goals_for": 11,
             "goals_against": 16,
@@ -4843,6 +5049,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 7,
             "goals_for": 9,
             "goals_against": 7,
@@ -4866,6 +5073,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 8,
             "goals_for": 9,
             "goals_against": 8,
@@ -4889,6 +5097,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 7,
             "goals_for": 8,
             "goals_against": 10,
@@ -4912,6 +5121,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 8,
             "goals_for": 13,
             "goals_against": 12,
@@ -4935,6 +5145,7 @@
           "acronym": "COR",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 8,
             "goals_for": 7,
             "goals_against": 7,
@@ -4958,6 +5169,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 8,
             "goals_for": 13,
             "goals_against": 13,
@@ -4981,6 +5193,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 4,
+            "wins": 0,
             "played": 8,
             "goals_for": 8,
             "goals_against": 16,
@@ -5004,6 +5217,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 7,
             "goals_for": 8,
             "goals_against": 10,
@@ -5027,6 +5241,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 8,
             "goals_for": 10,
             "goals_against": 13,
@@ -5050,6 +5265,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 8,
             "goals_for": 8,
             "goals_against": 11,
@@ -5073,6 +5289,7 @@
           "acronym": "INT",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 8,
             "goals_for": 7,
             "goals_against": 9,
@@ -5096,6 +5313,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 7,
             "goals_for": 9,
             "goals_against": 11,
@@ -5119,6 +5337,7 @@
           "acronym": "REM",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 8,
             "goals_for": 10,
             "goals_against": 15,
@@ -5142,6 +5361,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 8,
+            "wins": 2,
             "played": 8,
             "goals_for": 6,
             "goals_against": 10,
@@ -5169,6 +5389,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 22,
+            "wins": 7,
             "played": 9,
             "goals_for": 19,
             "goals_against": 9,
@@ -5192,6 +5413,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 8,
             "goals_for": 13,
             "goals_against": 8,
@@ -5215,6 +5437,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 19,
+            "wins": 6,
             "played": 9,
             "goals_for": 16,
             "goals_against": 10,
@@ -5238,6 +5461,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 8,
             "goals_for": 12,
             "goals_against": 7,
@@ -5261,6 +5485,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 9,
             "goals_for": 11,
             "goals_against": 6,
@@ -5284,6 +5509,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 9,
+            "wins": 3,
             "played": 8,
             "goals_for": 14,
             "goals_against": 18,
@@ -5307,6 +5533,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 9,
             "goals_for": 14,
             "goals_against": 11,
@@ -5330,6 +5557,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 8,
             "goals_for": 10,
             "goals_against": 13,
@@ -5353,6 +5581,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 9,
             "goals_for": 10,
             "goals_against": 9,
@@ -5376,6 +5605,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 9,
             "goals_for": 14,
             "goals_against": 14,
@@ -5399,6 +5629,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 9,
             "goals_for": 12,
             "goals_against": 11,
@@ -5422,6 +5653,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 9,
             "goals_for": 14,
             "goals_against": 14,
@@ -5445,6 +5677,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 9,
             "goals_for": 11,
             "goals_against": 16,
@@ -5468,6 +5701,7 @@
           "acronym": "COR",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 9,
             "goals_for": 8,
             "goals_against": 10,
@@ -5491,6 +5725,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 9,
             "goals_for": 12,
             "goals_against": 13,
@@ -5514,6 +5749,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 9,
             "goals_for": 9,
             "goals_against": 10,
@@ -5537,6 +5773,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 10,
+            "wins": 3,
             "played": 8,
             "goals_for": 8,
             "goals_against": 13,
@@ -5560,6 +5797,7 @@
           "acronym": "INT",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 9,
             "goals_for": 8,
             "goals_against": 10,
@@ -5583,6 +5821,7 @@
           "acronym": "REM",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 9,
             "goals_for": 10,
             "goals_against": 17,
@@ -5606,6 +5845,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 8,
             "goals_for": 9,
             "goals_against": 15,
@@ -5633,6 +5873,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 25,
+            "wins": 8,
             "played": 10,
             "goals_for": 21,
             "goals_against": 10,
@@ -5656,6 +5897,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 9,
             "goals_for": 16,
             "goals_against": 9,
@@ -5679,6 +5921,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 10,
             "goals_for": 17,
             "goals_against": 11,
@@ -5702,6 +5945,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 10,
             "goals_for": 15,
             "goals_against": 7,
@@ -5725,6 +5969,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 12,
+            "wins": 4,
             "played": 9,
             "goals_for": 16,
             "goals_against": 19,
@@ -5748,6 +5993,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 9,
             "goals_for": 13,
             "goals_against": 9,
@@ -5771,6 +6017,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 10,
             "goals_for": 15,
             "goals_against": 13,
@@ -5794,6 +6041,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 10,
             "goals_for": 14,
             "goals_against": 12,
@@ -5817,6 +6065,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 15,
+            "wins": 4,
             "played": 10,
             "goals_for": 11,
             "goals_against": 10,
@@ -5840,6 +6089,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 10,
             "goals_for": 14,
             "goals_against": 14,
@@ -5863,6 +6113,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 9,
             "goals_for": 10,
             "goals_against": 14,
@@ -5886,6 +6137,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 10,
             "goals_for": 10,
             "goals_against": 10,
@@ -5909,6 +6161,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 10,
             "goals_for": 15,
             "goals_against": 16,
@@ -5932,6 +6185,7 @@
           "acronym": "INT",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 10,
             "goals_for": 9,
             "goals_against": 10,
@@ -5955,6 +6209,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 10,
             "goals_for": 12,
             "goals_against": 20,
@@ -5978,6 +6233,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 10,
             "goals_for": 13,
             "goals_against": 16,
@@ -6001,6 +6257,7 @@
           "acronym": "COR",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 10,
             "goals_for": 8,
             "goals_against": 11,
@@ -6024,6 +6281,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 11,
+            "wins": 3,
             "played": 9,
             "goals_for": 9,
             "goals_against": 14,
@@ -6047,6 +6305,7 @@
           "acronym": "REM",
           "standings": {
             "points": 7,
+            "wins": 1,
             "played": 10,
             "goals_for": 10,
             "goals_against": 17,
@@ -6070,6 +6329,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 8,
+            "wins": 1,
             "played": 9,
             "goals_for": 10,
             "goals_against": 16,
@@ -6097,6 +6357,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 26,
+            "wins": 8,
             "played": 11,
             "goals_for": 21,
             "goals_against": 10,
@@ -6120,6 +6381,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 10,
             "goals_for": 18,
             "goals_against": 10,
@@ -6143,6 +6405,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 11,
             "goals_for": 18,
             "goals_against": 13,
@@ -6166,6 +6429,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 10,
             "goals_for": 15,
             "goals_against": 10,
@@ -6189,6 +6453,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 11,
             "goals_for": 15,
             "goals_against": 9,
@@ -6212,6 +6477,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 13,
+            "wins": 4,
             "played": 10,
             "goals_for": 18,
             "goals_against": 21,
@@ -6235,6 +6501,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 19,
+            "wins": 6,
             "played": 11,
             "goals_for": 17,
             "goals_against": 13,
@@ -6258,6 +6525,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 11,
             "goals_for": 13,
             "goals_against": 12,
@@ -6281,6 +6549,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 11,
             "goals_for": 14,
             "goals_against": 13,
@@ -6304,6 +6573,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 11,
             "goals_for": 14,
             "goals_against": 14,
@@ -6327,6 +6597,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 10,
+            "wins": 2,
             "played": 11,
             "goals_for": 14,
             "goals_against": 21,
@@ -6350,6 +6621,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 11,
             "goals_for": 11,
             "goals_against": 12,
@@ -6373,6 +6645,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 11,
             "goals_for": 16,
             "goals_against": 17,
@@ -6396,6 +6669,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 11,
             "goals_for": 14,
             "goals_against": 16,
@@ -6419,6 +6693,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 10,
             "goals_for": 11,
             "goals_against": 14,
@@ -6442,6 +6717,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 6,
+            "wins": 1,
             "played": 10,
             "goals_for": 11,
             "goals_against": 16,
@@ -6465,6 +6741,7 @@
           "acronym": "INT",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 11,
             "goals_for": 9,
             "goals_against": 10,
@@ -6488,6 +6765,7 @@
           "acronym": "COR",
           "standings": {
             "points": 11,
+            "wins": 2,
             "played": 11,
             "goals_for": 8,
             "goals_against": 11,
@@ -6511,6 +6789,7 @@
           "acronym": "REM",
           "standings": {
             "points": 8,
+            "wins": 1,
             "played": 11,
             "goals_for": 11,
             "goals_against": 18,
@@ -6534,6 +6813,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 8,
+            "wins": 1,
             "played": 10,
             "goals_for": 10,
             "goals_against": 18,
@@ -6561,6 +6841,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 29,
+            "wins": 9,
             "played": 12,
             "goals_for": 22,
             "goals_against": 10,
@@ -6584,6 +6865,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 23,
+            "wins": 7,
             "played": 11,
             "goals_for": 20,
             "goals_against": 10,
@@ -6607,6 +6889,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 23,
+            "wins": 7,
             "played": 12,
             "goals_for": 21,
             "goals_against": 15,
@@ -6630,6 +6913,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 16,
+            "wins": 5,
             "played": 11,
             "goals_for": 22,
             "goals_against": 22,
@@ -6653,6 +6937,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 11,
             "goals_for": 15,
             "goals_against": 12,
@@ -6676,6 +6961,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 12,
             "goals_for": 16,
             "goals_against": 11,
@@ -6699,6 +6985,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 19,
+            "wins": 6,
             "played": 12,
             "goals_for": 17,
             "goals_against": 14,
@@ -6722,6 +7009,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 12,
             "goals_for": 15,
             "goals_against": 12,
@@ -6745,6 +7033,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 12,
             "goals_for": 16,
             "goals_against": 21,
@@ -6768,6 +7057,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 12,
             "goals_for": 15,
             "goals_against": 14,
@@ -6791,6 +7081,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 12,
             "goals_for": 18,
             "goals_against": 18,
@@ -6814,6 +7105,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 11,
             "goals_for": 13,
             "goals_against": 17,
@@ -6837,6 +7129,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 12,
             "goals_for": 14,
             "goals_against": 15,
@@ -6860,6 +7153,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 12,
             "goals_for": 14,
             "goals_against": 16,
@@ -6883,6 +7177,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 15,
+            "wins": 4,
             "played": 11,
             "goals_for": 11,
             "goals_against": 14,
@@ -6906,6 +7201,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 12,
             "goals_for": 16,
             "goals_against": 19,
@@ -6929,6 +7225,7 @@
           "acronym": "COR",
           "standings": {
             "points": 12,
+            "wins": 2,
             "played": 12,
             "goals_for": 8,
             "goals_against": 11,
@@ -6952,6 +7249,7 @@
           "acronym": "INT",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 12,
             "goals_for": 10,
             "goals_against": 12,
@@ -6975,6 +7273,7 @@
           "acronym": "REM",
           "standings": {
             "points": 8,
+            "wins": 1,
             "played": 12,
             "goals_for": 13,
             "goals_against": 22,
@@ -6998,6 +7297,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 8,
+            "wins": 1,
             "played": 11,
             "goals_for": 11,
             "goals_against": 22,
@@ -7025,6 +7325,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 32,
+            "wins": 10,
             "played": 13,
             "goals_for": 23,
             "goals_against": 10,
@@ -7048,6 +7349,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 26,
+            "wins": 8,
             "played": 12,
             "goals_for": 24,
             "goals_against": 10,
@@ -7071,6 +7373,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 26,
+            "wins": 8,
             "played": 13,
             "goals_for": 23,
             "goals_against": 16,
@@ -7094,6 +7397,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 12,
             "goals_for": 24,
             "goals_against": 24,
@@ -7117,6 +7421,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 23,
+            "wins": 7,
             "played": 13,
             "goals_for": 17,
             "goals_against": 11,
@@ -7140,6 +7445,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 12,
             "goals_for": 17,
             "goals_against": 14,
@@ -7163,6 +7469,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 22,
+            "wins": 7,
             "played": 13,
             "goals_for": 20,
             "goals_against": 15,
@@ -7186,6 +7493,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 13,
             "goals_for": 17,
             "goals_against": 21,
@@ -7209,6 +7517,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 13,
             "goals_for": 15,
             "goals_against": 13,
@@ -7232,6 +7541,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 13,
             "goals_for": 15,
             "goals_against": 15,
@@ -7255,6 +7565,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 13,
             "goals_for": 15,
             "goals_against": 16,
@@ -7278,6 +7589,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 13,
             "goals_for": 18,
             "goals_against": 19,
@@ -7301,6 +7613,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 9,
+            "wins": 2,
             "played": 12,
             "goals_for": 13,
             "goals_against": 18,
@@ -7324,6 +7637,7 @@
           "acronym": "COR",
           "standings": {
             "points": 15,
+            "wins": 3,
             "played": 13,
             "goals_for": 9,
             "goals_against": 11,
@@ -7347,6 +7661,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 14,
+            "wins": 3,
             "played": 13,
             "goals_for": 18,
             "goals_against": 21,
@@ -7370,6 +7685,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 14,
+            "wins": 4,
             "played": 13,
             "goals_for": 14,
             "goals_against": 19,
@@ -7393,6 +7709,7 @@
           "acronym": "INT",
           "standings": {
             "points": 14,
+            "wins": 3,
             "played": 13,
             "goals_for": 12,
             "goals_against": 14,
@@ -7416,6 +7733,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 15,
+            "wins": 4,
             "played": 12,
             "goals_for": 12,
             "goals_against": 17,
@@ -7439,6 +7757,7 @@
           "acronym": "REM",
           "standings": {
             "points": 8,
+            "wins": 1,
             "played": 13,
             "goals_for": 13,
             "goals_against": 23,
@@ -7462,6 +7781,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 8,
+            "wins": 1,
             "played": 12,
             "goals_for": 12,
             "goals_against": 24,
@@ -7489,6 +7809,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 33,
+            "wins": 10,
             "played": 14,
             "goals_for": 24,
             "goals_against": 11,
@@ -7512,6 +7833,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 27,
+            "wins": 8,
             "played": 13,
             "goals_for": 26,
             "goals_against": 12,
@@ -7535,6 +7857,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 26,
+            "wins": 8,
             "played": 14,
             "goals_for": 23,
             "goals_against": 18,
@@ -7558,6 +7881,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 13,
             "goals_for": 19,
             "goals_against": 16,
@@ -7581,6 +7905,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 24,
+            "wins": 7,
             "played": 14,
             "goals_for": 19,
             "goals_against": 13,
@@ -7604,6 +7929,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 13,
             "goals_for": 25,
             "goals_against": 26,
@@ -7627,6 +7953,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 23,
+            "wins": 7,
             "played": 14,
             "goals_for": 20,
             "goals_against": 15,
@@ -7650,6 +7977,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 14,
             "goals_for": 17,
             "goals_against": 16,
@@ -7673,6 +8001,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 14,
             "goals_for": 20,
             "goals_against": 21,
@@ -7696,6 +8025,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 14,
             "goals_for": 18,
             "goals_against": 24,
@@ -7719,6 +8049,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 17,
+            "wins": 5,
             "played": 14,
             "goals_for": 17,
             "goals_against": 20,
@@ -7742,6 +8073,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 14,
             "goals_for": 15,
             "goals_against": 16,
@@ -7765,6 +8097,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 12,
+            "wins": 3,
             "played": 13,
             "goals_for": 15,
             "goals_against": 19,
@@ -7788,6 +8121,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 13,
             "goals_for": 16,
             "goals_against": 18,
@@ -7811,6 +8145,7 @@
           "acronym": "INT",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 14,
             "goals_for": 14,
             "goals_against": 14,
@@ -7834,6 +8169,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 14,
             "goals_for": 16,
             "goals_against": 17,
@@ -7857,6 +8193,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 15,
+            "wins": 3,
             "played": 14,
             "goals_for": 19,
             "goals_against": 22,
@@ -7880,6 +8217,7 @@
           "acronym": "COR",
           "standings": {
             "points": 15,
+            "wins": 3,
             "played": 14,
             "goals_for": 10,
             "goals_against": 13,
@@ -7903,6 +8241,7 @@
           "acronym": "REM",
           "standings": {
             "points": 11,
+            "wins": 2,
             "played": 14,
             "goals_for": 15,
             "goals_against": 24,
@@ -7926,6 +8265,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 8,
+            "wins": 1,
             "played": 13,
             "goals_for": 13,
             "goals_against": 26,
@@ -7953,6 +8293,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 30,
+            "wins": 9,
             "played": 14,
             "goals_for": 27,
             "goals_against": 12,
@@ -7976,6 +8317,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 34,
+            "wins": 10,
             "played": 15,
             "goals_for": 25,
             "goals_against": 12,
@@ -7999,6 +8341,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 27,
+            "wins": 8,
             "played": 15,
             "goals_for": 25,
             "goals_against": 20,
@@ -8022,6 +8365,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 24,
+            "wins": 7,
             "played": 15,
             "goals_for": 21,
             "goals_against": 16,
@@ -8045,6 +8389,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 14,
             "goals_for": 26,
             "goals_against": 27,
@@ -8068,6 +8413,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 14,
             "goals_for": 20,
             "goals_against": 18,
@@ -8091,6 +8437,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 23,
+            "wins": 7,
             "played": 15,
             "goals_for": 20,
             "goals_against": 16,
@@ -8114,6 +8461,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 15,
             "goals_for": 20,
             "goals_against": 25,
@@ -8137,6 +8485,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 15,
             "goals_for": 21,
             "goals_against": 21,
@@ -8160,6 +8509,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 20,
+            "wins": 6,
             "played": 15,
             "goals_for": 17,
             "goals_against": 18,
@@ -8183,6 +8533,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 15,
             "goals_for": 21,
             "goals_against": 22,
@@ -8206,6 +8557,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 14,
             "goals_for": 18,
             "goals_against": 20,
@@ -8229,6 +8581,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 18,
+            "wins": 5,
             "played": 15,
             "goals_for": 18,
             "goals_against": 21,
@@ -8252,6 +8605,7 @@
           "acronym": "COR",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 15,
             "goals_for": 13,
             "goals_against": 15,
@@ -8275,6 +8629,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 17,
+            "wins": 4,
             "played": 15,
             "goals_for": 15,
             "goals_against": 17,
@@ -8298,6 +8653,7 @@
           "acronym": "INT",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 15,
             "goals_for": 16,
             "goals_against": 16,
@@ -8321,6 +8677,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 14,
             "goals_for": 16,
             "goals_against": 20,
@@ -8344,6 +8701,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 15,
             "goals_for": 18,
             "goals_against": 19,
@@ -8367,6 +8725,7 @@
           "acronym": "REM",
           "standings": {
             "points": 12,
+            "wins": 2,
             "played": 15,
             "goals_for": 16,
             "goals_against": 25,
@@ -8390,6 +8749,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 9,
+            "wins": 1,
             "played": 14,
             "goals_for": 14,
             "goals_against": 27,
@@ -8417,6 +8777,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 31,
+            "wins": 9,
             "played": 15,
             "goals_for": 28,
             "goals_against": 13,
@@ -8440,6 +8801,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 35,
+            "wins": 10,
             "played": 16,
             "goals_for": 26,
             "goals_against": 13,
@@ -8463,6 +8825,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 30,
+            "wins": 9,
             "played": 16,
             "goals_for": 27,
             "goals_against": 21,
@@ -8486,6 +8849,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 15,
             "goals_for": 29,
             "goals_against": 28,
@@ -8509,6 +8873,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 24,
+            "wins": 7,
             "played": 16,
             "goals_for": 22,
             "goals_against": 18,
@@ -8532,6 +8897,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 23,
+            "wins": 6,
             "played": 15,
             "goals_for": 21,
             "goals_against": 19,
@@ -8555,6 +8921,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 24,
+            "wins": 7,
             "played": 16,
             "goals_for": 21,
             "goals_against": 17,
@@ -8578,6 +8945,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 16,
             "goals_for": 21,
             "goals_against": 26,
@@ -8601,6 +8969,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 23,
+            "wins": 7,
             "played": 16,
             "goals_for": 19,
             "goals_against": 18,
@@ -8624,6 +8993,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 16,
             "goals_for": 21,
             "goals_against": 22,
@@ -8647,6 +9017,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 23,
+            "wins": 6,
             "played": 16,
             "goals_for": 21,
             "goals_against": 19,
@@ -8670,6 +9041,7 @@
           "acronym": "INT",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 16,
             "goals_for": 20,
             "goals_against": 17,
@@ -8693,6 +9065,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 16,
             "goals_for": 22,
             "goals_against": 25,
@@ -8716,6 +9089,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 16,
             "goals_for": 16,
             "goals_against": 18,
@@ -8739,6 +9113,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 19,
+            "wins": 5,
             "played": 15,
             "goals_for": 18,
             "goals_against": 22,
@@ -8762,6 +9137,7 @@
           "acronym": "COR",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 16,
             "goals_for": 14,
             "goals_against": 18,
@@ -8785,6 +9161,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 16,
             "goals_for": 21,
             "goals_against": 25,
@@ -8808,6 +9185,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 13,
+            "wins": 3,
             "played": 15,
             "goals_for": 17,
             "goals_against": 23,
@@ -8831,6 +9209,7 @@
           "acronym": "REM",
           "standings": {
             "points": 15,
+            "wins": 3,
             "played": 16,
             "goals_for": 19,
             "goals_against": 27,
@@ -8854,6 +9233,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 9,
+            "wins": 1,
             "played": 15,
             "goals_for": 16,
             "goals_against": 30,
@@ -8881,6 +9261,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 38,
+            "wins": 11,
             "played": 17,
             "goals_for": 29,
             "goals_against": 13,
@@ -8904,6 +9285,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 31,
+            "wins": 9,
             "played": 16,
             "goals_for": 28,
             "goals_against": 16,
@@ -8927,6 +9309,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 30,
+            "wins": 9,
             "played": 17,
             "goals_for": 27,
             "goals_against": 22,
@@ -8950,6 +9333,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 16,
             "goals_for": 30,
             "goals_against": 29,
@@ -8973,6 +9357,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 23,
+            "wins": 6,
             "played": 15,
             "goals_for": 21,
             "goals_against": 19,
@@ -8996,6 +9381,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 27,
+            "wins": 8,
             "played": 17,
             "goals_for": 23,
             "goals_against": 18,
@@ -9019,6 +9405,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 17,
             "goals_for": 23,
             "goals_against": 19,
@@ -9042,6 +9429,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 26,
+            "wins": 8,
             "played": 17,
             "goals_for": 22,
             "goals_against": 18,
@@ -9065,6 +9453,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 23,
+            "wins": 6,
             "played": 17,
             "goals_for": 23,
             "goals_against": 27,
@@ -9088,6 +9477,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 23,
+            "wins": 6,
             "played": 16,
             "goals_for": 21,
             "goals_against": 19,
@@ -9111,6 +9501,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 17,
             "goals_for": 19,
             "goals_against": 20,
@@ -9134,6 +9525,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 21,
+            "wins": 6,
             "played": 17,
             "goals_for": 21,
             "goals_against": 23,
@@ -9157,6 +9549,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 16,
             "goals_for": 20,
             "goals_against": 22,
@@ -9180,6 +9573,7 @@
           "acronym": "INT",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 17,
             "goals_for": 20,
             "goals_against": 19,
@@ -9203,6 +9597,7 @@
           "acronym": "COR",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 17,
             "goals_for": 15,
             "goals_against": 18,
@@ -9226,6 +9621,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 16,
             "goals_for": 18,
             "goals_against": 23,
@@ -9249,6 +9645,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 17,
             "goals_for": 22,
             "goals_against": 28,
@@ -9272,6 +9669,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 17,
             "goals_for": 23,
             "goals_against": 28,
@@ -9295,6 +9693,7 @@
           "acronym": "REM",
           "standings": {
             "points": 15,
+            "wins": 3,
             "played": 17,
             "goals_for": 20,
             "goals_against": 29,
@@ -9318,6 +9717,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 9,
+            "wins": 1,
             "played": 16,
             "goals_for": 17,
             "goals_against": 32,
@@ -9345,6 +9745,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 41,
+            "wins": 12,
             "played": 18,
             "goals_for": 30,
             "goals_against": 13,
@@ -9368,6 +9769,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 34,
+            "wins": 10,
             "played": 17,
             "goals_for": 31,
             "goals_against": 16,
@@ -9391,6 +9793,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 31,
+            "wins": 9,
             "played": 18,
             "goals_for": 28,
             "goals_against": 23,
@@ -9414,6 +9817,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 29,
+            "wins": 9,
             "played": 18,
             "goals_for": 25,
             "goals_against": 19,
@@ -9437,6 +9841,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 30,
+            "wins": 9,
             "played": 18,
             "goals_for": 24,
             "goals_against": 18,
@@ -9460,6 +9865,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 17,
             "goals_for": 31,
             "goals_against": 31,
@@ -9483,6 +9889,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 26,
+            "wins": 7,
             "played": 17,
             "goals_for": 25,
             "goals_against": 23,
@@ -9506,6 +9913,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 18,
             "goals_for": 23,
             "goals_against": 20,
@@ -9529,6 +9937,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 24,
+            "wins": 6,
             "played": 18,
             "goals_for": 24,
             "goals_against": 28,
@@ -9552,6 +9961,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 24,
+            "wins": 7,
             "played": 18,
             "goals_for": 22,
             "goals_against": 23,
@@ -9575,6 +9985,7 @@
           "acronym": "COR",
           "standings": {
             "points": 24,
+            "wins": 6,
             "played": 18,
             "goals_for": 18,
             "goals_against": 19,
@@ -9598,6 +10009,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 26,
+            "wins": 7,
             "played": 18,
             "goals_for": 24,
             "goals_against": 24,
@@ -9621,6 +10033,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 17,
             "goals_for": 21,
             "goals_against": 25,
@@ -9644,6 +10057,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 18,
             "goals_for": 20,
             "goals_against": 23,
@@ -9667,6 +10081,7 @@
           "acronym": "INT",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 18,
             "goals_for": 21,
             "goals_against": 22,
@@ -9690,6 +10105,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 18,
             "goals_for": 26,
             "goals_against": 29,
@@ -9713,6 +10129,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 17,
             "goals_for": 18,
             "goals_against": 24,
@@ -9736,6 +10153,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 18,
             "goals_for": 22,
             "goals_against": 29,
@@ -9759,6 +10177,7 @@
           "acronym": "REM",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 18,
             "goals_for": 21,
             "goals_against": 29,
@@ -9782,6 +10201,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 9,
+            "wins": 1,
             "played": 17,
             "goals_for": 17,
             "goals_against": 33,
@@ -9809,6 +10229,7 @@
           "acronym": "PAL",
           "standings": {
             "points": 41,
+            "wins": 12,
             "played": 18,
             "goals_for": 30,
             "goals_against": 13,
@@ -9832,6 +10253,7 @@
           "acronym": "FLA",
           "standings": {
             "points": 34,
+            "wins": 10,
             "played": 17,
             "goals_for": 31,
             "goals_against": 16,
@@ -9855,6 +10277,7 @@
           "acronym": "FLU",
           "standings": {
             "points": 31,
+            "wins": 9,
             "played": 18,
             "goals_for": 28,
             "goals_against": 23,
@@ -9878,6 +10301,7 @@
           "acronym": "CAP",
           "standings": {
             "points": 30,
+            "wins": 9,
             "played": 18,
             "goals_for": 24,
             "goals_against": 18,
@@ -9901,6 +10325,7 @@
           "acronym": "BOT",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 17,
             "goals_for": 31,
             "goals_against": 31,
@@ -9924,6 +10349,7 @@
           "acronym": "RBB",
           "standings": {
             "points": 29,
+            "wins": 9,
             "played": 18,
             "goals_for": 25,
             "goals_against": 19,
@@ -9947,6 +10373,7 @@
           "acronym": "BAH",
           "standings": {
             "points": 26,
+            "wins": 7,
             "played": 17,
             "goals_for": 25,
             "goals_against": 23,
@@ -9970,6 +10397,7 @@
           "acronym": "SAO",
           "standings": {
             "points": 25,
+            "wins": 7,
             "played": 18,
             "goals_for": 23,
             "goals_against": 20,
@@ -9993,6 +10421,7 @@
           "acronym": "CRU",
           "standings": {
             "points": 24,
+            "wins": 6,
             "played": 18,
             "goals_for": 24,
             "goals_against": 28,
@@ -10016,6 +10445,7 @@
           "acronym": "CAM",
           "standings": {
             "points": 24,
+            "wins": 7,
             "played": 18,
             "goals_for": 22,
             "goals_against": 23,
@@ -10039,6 +10469,7 @@
           "acronym": "CFC",
           "standings": {
             "points": 26,
+            "wins": 7,
             "played": 18,
             "goals_for": 24,
             "goals_against": 24,
@@ -10062,6 +10493,7 @@
           "acronym": "COR",
           "standings": {
             "points": 24,
+            "wins": 6,
             "played": 18,
             "goals_for": 18,
             "goals_against": 19,
@@ -10085,6 +10517,7 @@
           "acronym": "VIT",
           "standings": {
             "points": 22,
+            "wins": 6,
             "played": 17,
             "goals_for": 21,
             "goals_against": 25,
@@ -10108,6 +10541,7 @@
           "acronym": "GRE",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 18,
             "goals_for": 20,
             "goals_against": 23,
@@ -10131,6 +10565,7 @@
           "acronym": "INT",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 18,
             "goals_for": 21,
             "goals_against": 22,
@@ -10154,6 +10589,7 @@
           "acronym": "SAN",
           "standings": {
             "points": 21,
+            "wins": 5,
             "played": 18,
             "goals_for": 26,
             "goals_against": 29,
@@ -10177,6 +10613,7 @@
           "acronym": "MIR",
           "standings": {
             "points": 16,
+            "wins": 4,
             "played": 17,
             "goals_for": 18,
             "goals_against": 24,
@@ -10200,6 +10637,7 @@
           "acronym": "VAS",
           "standings": {
             "points": 20,
+            "wins": 5,
             "played": 18,
             "goals_for": 22,
             "goals_against": 29,
@@ -10223,6 +10661,7 @@
           "acronym": "REM",
           "standings": {
             "points": 18,
+            "wins": 4,
             "played": 18,
             "goals_for": 21,
             "goals_against": 29,
@@ -10246,6 +10685,7 @@
           "acronym": "CHA",
           "standings": {
             "points": 9,
+            "wins": 1,
             "played": 17,
             "goals_for": 17,
             "goals_against": 33,
