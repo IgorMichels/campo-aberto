@@ -181,14 +181,29 @@
   // default if nothing's been clicked yet, or the clicked column doesn't
   // exist in the currently displayed competition (e.g. "Playoff" doesn't
   // exist for Serie A).
+  //
+  // Always computed as one "best value first" (descending) order, tied
+  // teams (e.g. several on the same points total) broken by the real
+  // official rank ascending -- so it reproduces the exact classificação
+  // sub-order among ties instead of an arbitrary one -- then reversed
+  // in-place for an ascending click. Reversing the whole array (rather than
+  // negating the tiebreak's sign too) is what keeps a tie group's *internal*
+  // order consistent with the rest of the list in both directions: negating
+  // just the tiebreak made ascending clicks interleave tied teams out of
+  // order with their non-tied neighbors (e.g. "...17,14,15,16,12,13..."
+  // instead of a clean mirror of the descending view).
   function sortedTeams(teams, columns) {
     if (!state.sort) return defaultOrderedTeams(teams);
     const column = [TEAM_COLUMN, ...leafColumns(columns)].find(
       (c) => c.key === state.sort.key && (c.kind || "percent") === state.sort.kind,
     );
     if (!column) return defaultOrderedTeams(teams);
-    const sign = state.sort.direction === "asc" ? 1 : -1;
-    return [...teams].sort((a, b) => sign * compareByColumn(column, a, b));
+    const descending = [...teams].sort((a, b) => {
+      const primary = compareByColumn(column, a, b);
+      if (primary !== 0) return -primary;
+      return a.standings.rank - b.standings.rank;
+    });
+    return state.sort.direction === "asc" ? descending.reverse() : descending;
   }
 
   function isColumnActive(column) {
