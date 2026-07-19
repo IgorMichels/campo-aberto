@@ -28,6 +28,7 @@
     children: [
       { key: "points", label: "P", kind: "int" },
       { key: "played", label: "J", kind: "int" },
+      { key: "wins", label: "V", kind: "int" },
       { key: "goals_for", label: "GP", kind: "int" },
       { key: "goals_against", label: "GC", kind: "int" },
       { key: "goal_diff", label: "SG", kind: "int" },
@@ -340,7 +341,10 @@
         const cell = document.createElement("td");
         if (column.kind === "int") {
           cell.className = "stat-cell";
-          cell.textContent = String(team.standings[column.key]);
+          // "–" placeholder for a field not yet in site/data/*.json (e.g.
+          // "wins" right after this code deploys, before the next data
+          // regen) instead of the literal string "undefined".
+          cell.textContent = String(team.standings[column.key] ?? "–");
         } else {
           const value = team.probs[column.key];
           cell.className = "prob-cell";

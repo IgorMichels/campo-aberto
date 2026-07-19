@@ -244,11 +244,11 @@ def _real_standings(
     playoff_phases: list[PlayoffPhaseConfig],
     guaranteed_slots: dict[str, list[str]],
 ) -> dict[str, dict]:
-    """Points/played/goals_for/goals_against/goal_diff/rank/zone per team from
-    actually-played matches up to reference_date -- the real table as of that
-    date, not a simulated one, so a reader can see what the probabilities are
-    reacting to. `rank`/`zone` come from _real_classification (see there for
-    the guaranteed-slot cascade this reuses from the simulation itself)."""
+    """Points/wins/played/goals_for/goals_against/goal_diff/rank/zone per team
+    from actually-played matches up to reference_date -- the real table as of
+    that date, not a simulated one, so a reader can see what the probabilities
+    are reacting to. `rank`/`zone` come from _real_classification (see there
+    for the guaranteed-slot cascade this reuses from the simulation itself)."""
     played_results, _, _ = fixtures.split_fixtures(
         matches_df, competition, season, reference_date, teams=teams
     )
@@ -259,6 +259,7 @@ def _real_standings(
     return {
         team: {
             "points": rec["points"],
+            "wins": rec["wins"],
             "played": rec["played"],
             "goals_for": rec["goals_for"],
             "goals_against": rec["goals_against"],

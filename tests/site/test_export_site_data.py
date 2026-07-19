@@ -215,6 +215,7 @@ def test_export_snapshot_drops_expected_position_renames_attaches_crest_and_stan
         "acronym": "TMA",
         "standings": {
             "points": 3,
+            "wins": 1,
             "played": 1,
             "goals_for": 2,
             "goals_against": 1,
@@ -226,6 +227,7 @@ def test_export_snapshot_drops_expected_position_renames_attaches_crest_and_stan
     }
     assert teams[1]["standings"] == {
         "points": 0,
+        "wins": 0,
         "played": 1,
         "goals_for": 1,
         "goals_against": 2,
@@ -262,6 +264,7 @@ def test_export_snapshot_standings_only_count_matches_up_to_reference_date(tmp_p
     by_team = {t["team"]: t["standings"] for t in teams}
     assert by_team["Team A"] == {
         "points": 4,
+        "wins": 1,
         "played": 2,
         "goals_for": 2,
         "goals_against": 1,
@@ -271,6 +274,7 @@ def test_export_snapshot_standings_only_count_matches_up_to_reference_date(tmp_p
     }
     assert by_team["Team B"] == {
         "points": 1,
+        "wins": 0,
         "played": 2,
         "goals_for": 1,
         "goals_against": 2,
