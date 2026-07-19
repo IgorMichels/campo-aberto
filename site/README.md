@@ -70,8 +70,8 @@ historical params slice, see below -- are built from).
       "teams": [
         {"team": "Flamengo / RJ", "crest": "assets/crests/flarj.png", "color": "#C1121F",
          "acronym": "FLA",
-         "standings": {"points": 79, "played": 38, "goals_for": 78, "goals_against": 27, "goal_diff": 51,
-                       "rank": 1, "zone": "libertadores_grupos"},
+         "standings": {"points": 79, "wins": 24, "played": 38, "goals_for": 78, "goals_against": 27,
+                       "goal_diff": 51, "rank": 1, "zone": "libertadores_grupos"},
          "probs": {"title": 1.0, "libertadores_grupos": 1.0, "libertadores_pre": 0.0,
                    "libertadores": 1.0, "rebaixamento": 0.0}},
         ...
@@ -94,7 +94,7 @@ historical params slice, see below -- are built from).
   produced (best expected position first) -- render as-is, don't re-sort.
 - `probs` is keyed by raw spot/aggregate name (not the Portuguese label) -- a leaf
   column's own `key` is exactly what to look up.
-- `standings` is real (not simulated) points/played/goals_for/goals_against/goal_diff
+- `standings` is real (not simulated) points/wins/played/goals_for/goals_against/goal_diff
   as of that snapshot's date, computed from `data/processed/brazil/matches.csv`.
   `rank` is that date's official classification position (the full CBF tiebreak,
   via `src.simulation.standings.rank_table` -- not just points). `zone` is the

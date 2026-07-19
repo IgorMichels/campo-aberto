@@ -732,7 +732,7 @@ tbody tr.zone-rebaixamento td.team-cell {
    (meant for #results-table) a <table> here would otherwise inherit. */
 .preview-standings-row {
   display: grid;
-  grid-template-columns: 1rem minmax(0, 1fr) 1.4rem 1.2rem 1.4rem 1.6rem 1.8rem 1.8rem 2rem;
+  grid-template-columns: 1rem minmax(0, 1fr) 1.4rem 1.2rem 1.2rem 1.4rem 1.6rem 1.8rem 1.8rem 2rem;
   align-items: center;
   gap: 0.25rem;
   padding: 0.15rem 0;
@@ -782,11 +782,6 @@ tbody tr.zone-rebaixamento td.team-cell {
   text-align: right;
   color: var(--text-secondary);
   font-variant-numeric: tabular-nums;
-}
-
-.preview-value {
-  color: var(--accent-strong);
-  font-weight: 700;
 }
 
 .sparkline {

@@ -78,15 +78,13 @@
   const STANDINGS_PREVIEW_COUNT = 6;
 
   // Mini table (Classificação preview): rank, crest, acronym, points, games
-  // played, goals for, goal diff, título/Libertadores/Sul-Americana
+  // played, wins, goals for, goal diff, título/Libertadores/Sul-Americana
   // probabilities -- same default competition/season/date as app.js (first
-  // manifest entry, latest season, latest snapshot). "P"/"J"/"GP"/"SG" match
-  // the labels the full Classificação table already uses (app.js); wins
-  // isn't shown since it isn't in the exported standings object (only
-  // points, played, goals_for, goals_against, goal_diff) and can't be
-  // derived from points+played alone. Returns the loaded {dates, snapshots}
-  // plus the top-2 teams so renderEvolutionPreview can reuse this same fetch
-  // instead of loading data/<slug>/<season>.json twice.
+  // manifest entry, latest season, latest snapshot). "P"/"J"/"V"/"GP"/"SG"
+  // match the labels the full Classificação table already uses (app.js).
+  // Returns the loaded {dates, snapshots} plus the top-2 teams so
+  // renderEvolutionPreview can reuse this same fetch instead of loading
+  // data/<slug>/<season>.json twice.
   async function renderStandingsPreview(containerEl) {
     const manifest = await fetchJSON("data/manifest.json");
     const competition = manifest.competitions[0];
@@ -108,15 +106,12 @@
             </span>
             <span class="preview-num">${team.standings.points}</span>
             <span class="preview-num">${team.standings.played}</span>
+            <span class="preview-num">${team.standings.wins ?? "–"}</span>
             <span class="preview-num">${team.standings.goals_for}</span>
             <span class="preview-num">${team.standings.goal_diff}</span>
-            <span class="preview-num preview-value">${formatPercentInt(team.probs.title)}</span>
-            <span class="preview-num preview-value">${formatPercentInt(
-              team.probs.libertadores,
-            )}</span>
-            <span class="preview-num preview-value">${formatPercentInt(
-              team.probs.sulamericana,
-            )}</span>
+            <span class="preview-num">${formatPercentInt(team.probs.title)}</span>
+            <span class="preview-num">${formatPercentInt(team.probs.libertadores)}</span>
+            <span class="preview-num">${formatPercentInt(team.probs.sulamericana)}</span>
           </div>`,
       )
       .join("");
@@ -128,6 +123,7 @@
           <span></span>
           <span class="preview-num-label" title="Pontos">P</span>
           <span class="preview-num-label" title="Jogos">J</span>
+          <span class="preview-num-label" title="Vitórias">V</span>
           <span class="preview-num-label" title="Gols pró">GP</span>
           <span class="preview-num-label" title="Saldo de gols">SG</span>
           <span class="preview-num-label" title="Probabilidade de título">Tít</span>
