@@ -91,7 +91,18 @@
     const season = competition.seasons[competition.seasons.length - 1];
     const data = await fetchJSON(`data/${competition.slug}/${season}.json`);
     const lastDate = data.dates[data.dates.length - 1];
-    const topTeams = data.snapshots[lastDate].teams.slice(0, STANDINGS_PREVIEW_COUNT);
+    // data.snapshots[date].teams is ordered by the *simulation's* own best
+    // expected-position guess (see site/README.md), not the real official
+    // table -- app.js's own default view re-sorts by team.standings.rank for
+    // exactly this reason (defaultOrderedTeams). Without the same re-sort
+    // here, this preview could show (and did: a team with strong underlying
+    // params but fewer real points so far ranked above a team actually ahead
+    // of it in the real table) a materially different top N than the
+    // Classificação page it's supposed to be a spoiler of.
+    const realOrder = [...data.snapshots[lastDate].teams].sort(
+      (a, b) => a.standings.rank - b.standings.rank,
+    );
+    const topTeams = realOrder.slice(0, STANDINGS_PREVIEW_COUNT);
 
     const rows = topTeams
       .map(
