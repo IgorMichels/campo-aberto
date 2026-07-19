@@ -84,7 +84,7 @@
 
   function formatPercent(value) {
     const pct = (value || 0) * 100;
-    return `${pct.toFixed(1)}%`;
+    return `${pct.toFixed(2)}%`;
   }
 
   function formatDateLabel(isoDate) {
