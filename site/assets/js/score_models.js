@@ -6,6 +6,9 @@
   //   matchRates(homeTeamParams, awayTeamParams, sharedParams) -> {muHome, muAway}
   //   scorelineProbabilities(muHome, muAway, sharedParams, maxGoals, outcomeCap)
   //     -> {grid, home_win, draw, away_win}
+  //   scorelineProbabilityAt(muHome, muAway, sharedParams, home, away, outcomeCap)
+  //     -> probability (exact, for any single (home, away) scoreline, not just
+  //        ones inside the bucketed grid's 0..maxGoals range)
   //   teamStrength(teamParams) -> number (drives the sticker card's rarity border)
   //
   // matches_shared.js::computeCard/computeStrengthTiers dispatch through
