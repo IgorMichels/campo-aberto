@@ -3,13 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Campo Aberto - Evolução</title>
+    <title>Campo Aberto - Classificação</title>
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%E2%9A%BD</text></svg>"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
     <script>
       // Applies any stored theme choice before first paint, so the page
       // never flashes the wrong palette. theme.js (loaded later) owns the
@@ -33,13 +32,13 @@
 
     <header class="page-header">
       <h1>Campo Aberto</h1>
-      <p class="subtitle">Evolução das probabilidades ao longo do tempo</p>
+      <p class="subtitle">Probabilidades para o Brasileirão</p>
     </header>
 
     <nav class="page-nav" aria-label="Páginas">
       <a href="index.html">Início</a>
-      <a href="probabilities.html">Classificação</a>
-      <a href="evolution.html" aria-current="page">Evolução</a>
+      <a href="probabilities.html" aria-current="page">Classificação</a>
+      <a href="evolution.html">Evolução</a>
       <div class="nav-dropdown">
         <a
           href="matches/upcoming.html"
@@ -65,42 +64,26 @@
           <select id="season-select"></select>
         </div>
 
-        <div class="season-picker">
-          <label for="spot-select">Probabilidade</label>
-          <select id="spot-select"></select>
-        </div>
-
-        <div class="team-picker" id="team-picker">
-          <button
-            type="button"
-            id="team-picker-toggle"
-            class="team-picker-toggle"
-            aria-haspopup="listbox"
-            aria-expanded="false"
-          >
-            Times <span id="team-picker-count">(0/6)</span>
-          </button>
-          <div id="team-picker-panel" class="team-picker-panel" hidden></div>
+        <div class="date-picker">
+          <label for="date-select">Data de referência</label>
+          <select id="date-select"></select>
         </div>
       </div>
 
-      <div class="chart-toolbar">
-        <button type="button" id="table-toggle" class="table-toggle-button" aria-pressed="false">
-          Ver como tabela
-        </button>
+      <div class="table-scroll">
+        <table id="results-table">
+          <thead>
+            <tr id="table-head-row"></tr>
+          </thead>
+          <tbody id="table-body">
+            <tr>
+              <td class="status-cell">Carregando...</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
-      <div class="chart-card">
-        <div id="evolution-chart"></div>
-        <div class="table-scroll" id="evolution-table-wrap" hidden>
-          <table id="evolution-table">
-            <thead>
-              <tr id="evolution-table-head"></tr>
-            </thead>
-            <tbody id="evolution-table-body"></tbody>
-          </table>
-        </div>
-      </div>
+      <ul class="zone-legend" id="zone-legend"></ul>
 
       <p class="status-message" id="status-message" hidden></p>
     </main>
@@ -117,6 +100,6 @@
     <script src="assets/js/nav.js"></script>
     <script src="assets/js/theme.js"></script>
     <script src="assets/js/team_display.js"></script>
-    <script src="assets/js/evolution.js"></script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>

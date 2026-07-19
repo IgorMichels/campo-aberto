@@ -9,6 +9,10 @@ A push to `main` that touches this directory triggers
 `.github/workflows/deploy-site.yml`, which deploys it to GitHub Pages
 (`actions/deploy-pages`, no `gh-pages` branch).
 
+`index.html` is a static landing page (no data fetch of its own yet, just
+navigation cards) -- the classification table that used to live at
+`index.html` is now `probabilities.html`.
+
 ## Regenerating
 
 `python -m src.pipeline` regenerates this directory's data as its last step,
