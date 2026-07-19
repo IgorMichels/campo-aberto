@@ -69,6 +69,7 @@ historical params slice, see below -- are built from).
     "2025-12-07": {
       "teams": [
         {"team": "Flamengo / RJ", "crest": "assets/crests/flarj.png", "color": "#C1121F",
+         "acronym": "FLA",
          "standings": {"points": 79, "played": 38, "goals_for": 78, "goals_against": 27, "goal_diff": 51,
                        "rank": 1, "zone": "libertadores_grupos"},
          "probs": {"title": 1.0, "libertadores_grupos": 1.0, "libertadores_pre": 0.0,
@@ -110,7 +111,11 @@ historical params slice, see below -- are built from).
   that phase's own spot only resolves once the playoff is actually played.
   Meant to be rendered as-is (a rank number + a zone-based row color), not
   recomputed client-side.
-- `crest`/`color` are `site`-root-relative image path / hex color, used as-is.
+- `crest`/`color`/`acronym` come straight from `data/assets/club_infos.csv`
+  (`crest_path`/`primary_color`/`acronym` columns) -- `crest` is already
+  rewritten to a `site`-root-relative path, `color` a hex string, `acronym`
+  the hand-maintained broadcast-style 3-letter code (e.g. "FLA"), all used
+  as-is.
 
 ## Jogos
 

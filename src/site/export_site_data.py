@@ -274,6 +274,7 @@ def _export_snapshot(
     csv_path: str,
     crest_by_team: dict,
     color_by_team: dict,
+    acronym_by_team: dict,
     crests_dir: str,
     config: CompetitionConfig,
     matches_df: pd.DataFrame,
@@ -326,11 +327,17 @@ def _export_snapshot(
             raise ValueError(
                 f"{csv_path}: team {team!r} has no crest_path in {CLUB_INFOS_PATH} -- add one before exporting"
             )
+        acronym = acronym_by_team.get(team)
+        if not acronym or pd.isna(acronym):
+            raise ValueError(
+                f"{csv_path}: team {team!r} has no acronym in {CLUB_INFOS_PATH} -- add one before exporting"
+            )
         teams.append(
             {
                 "team": team,
                 "crest": _copy_crest(crest_path, crests_dir),
                 "color": color_by_team.get(team, "#4A5568"),
+                "acronym": acronym,
                 "standings": standings_by_team[team],
                 "probs": {
                     raw: round(float(row[col]), 4) for col, raw in zip(prob_columns, raw_names)
@@ -345,6 +352,7 @@ def _export_season(
     csv_paths: list[str],
     crest_by_team: dict,
     color_by_team: dict,
+    acronym_by_team: dict,
     crests_dir: str,
     config: CompetitionConfig,
     matches_df: pd.DataFrame,
@@ -358,6 +366,7 @@ def _export_season(
             csv_path,
             crest_by_team,
             color_by_team,
+            acronym_by_team,
             crests_dir,
             config,
             matches_df,
@@ -379,6 +388,7 @@ def export_site_data(
     club_infos = pd.read_csv(club_infos_path)
     crest_by_team = dict(zip(club_infos["club"], club_infos["crest_path"]))
     color_by_team = dict(zip(club_infos["club"], club_infos["primary_color"]))
+    acronym_by_team = dict(zip(club_infos["club"], club_infos["acronym"]))
     crests_dir = os.path.join(site_dir, "assets", "crests")
     data_dir = os.path.join(site_dir, "data")
 
@@ -402,6 +412,7 @@ def export_site_data(
                     csv_paths,
                     crest_by_team,
                     color_by_team,
+                    acronym_by_team,
                     crests_dir,
                     config,
                     matches_df,

@@ -63,31 +63,35 @@
       </p>
 
       <div class="home-cards">
-        <a class="home-card" href="probabilities.html">
-          <h2>Classificação</h2>
+        <div class="home-card">
+          <h2><a class="home-card-title" href="probabilities.html">Classificação</a></h2>
           <p>
             Probabilidades de título, Libertadores, Sul-Americana e rebaixamento por time, temporada
             e data de referência.
           </p>
-        </a>
-        <a class="home-card" href="evolution.html">
-          <h2>Evolução</h2>
+          <div class="home-preview" id="preview-standings">Carregando...</div>
+          <a class="home-card-more" href="probabilities.html">Ver mais</a>
+        </div>
+        <div class="home-card">
+          <h2><a class="home-card-title" href="evolution.html">Evolução</a></h2>
           <p>
             Acompanhamento de como essas probabilidades mudaram rodada a rodada ao longo da
             temporada.
           </p>
-        </a>
-        <a class="home-card" href="matches/upcoming.html">
-          <h2>Jogos</h2>
+          <div class="home-preview" id="preview-evolution">Carregando...</div>
+          <a class="home-card-more" href="evolution.html">Ver mais</a>
+        </div>
+        <div class="home-card">
+          <h2><a class="home-card-title" href="matches/upcoming.html">Jogos</a></h2>
           <p>
             Probabilidades dos próximos confrontos, jogos já disputados e simulador de confrontos.
           </p>
-        </a>
+          <div class="home-preview" id="preview-matches">Carregando...</div>
+          <a class="home-card-more" href="matches/upcoming.html" id="preview-matches-more"
+            >Ver mais</a
+          >
+        </div>
       </div>
-
-      <section class="home-highlights" id="home-highlights" aria-label="Destaques">
-        <p class="home-highlights-placeholder">Destaques da rodada em breve.</p>
-      </section>
     </main>
 
     <footer class="page-footer">
@@ -99,7 +103,11 @@
       </p>
     </footer>
 
+    <script src="assets/js/score_models.js"></script>
+    <script src="assets/js/poisson_home.js"></script>
     <script src="assets/js/nav.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="assets/js/team_display.js"></script>
+    <script src="assets/js/home.js"></script>
   </body>
 </html>
