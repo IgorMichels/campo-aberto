@@ -57,7 +57,8 @@
     "2026-07-06",
     "2026-07-10",
     "2026-07-13",
-    "2026-07-16"
+    "2026-07-16",
+    "2026-07-18"
   ],
   "snapshots": {
     "2026-03-20": {
@@ -13974,6 +13975,470 @@
             "title": 0.0,
             "direct_promotion": 0.0,
             "rebaixamento": 0.9976,
+            "playoff_promotion": 0.0,
+            "promotion": 0.0
+          }
+        }
+      ]
+    },
+    "2026-07-18": {
+      "teams": [
+        {
+          "team": "Criciúma / SC",
+          "crest": "assets/crests/criciuma_bra.png",
+          "color": "#FFCC00",
+          "acronym": "CRI",
+          "standings": {
+            "points": 33,
+            "wins": 9,
+            "played": 17,
+            "goals_for": 20,
+            "goals_against": 12,
+            "goal_diff": 8,
+            "rank": 1,
+            "zone": "direct_promotion"
+          },
+          "probs": {
+            "title": 0.3863,
+            "direct_promotion": 0.586,
+            "rebaixamento": 0.0,
+            "playoff_promotion": 0.1862,
+            "promotion": 0.7722
+          }
+        },
+        {
+          "team": "Novorizontino / SP",
+          "crest": "assets/crests/novorizontino.png",
+          "color": "#F6E32F",
+          "acronym": "NOV",
+          "standings": {
+            "points": 30,
+            "wins": 8,
+            "played": 18,
+            "goals_for": 28,
+            "goals_against": 17,
+            "goal_diff": 11,
+            "rank": 6,
+            "zone": "playoff_promotion"
+          },
+          "probs": {
+            "title": 0.1571,
+            "direct_promotion": 0.3231,
+            "rebaixamento": 0.0009,
+            "playoff_promotion": 0.2772,
+            "promotion": 0.6003
+          }
+        },
+        {
+          "team": "Juventude / RS",
+          "crest": "assets/crests/juventude.png",
+          "color": "#008000",
+          "acronym": "JUV",
+          "standings": {
+            "points": 32,
+            "wins": 9,
+            "played": 18,
+            "goals_for": 19,
+            "goals_against": 8,
+            "goal_diff": 11,
+            "rank": 2,
+            "zone": "direct_promotion"
+          },
+          "probs": {
+            "title": 0.1103,
+            "direct_promotion": 0.2469,
+            "rebaixamento": 0.0019,
+            "playoff_promotion": 0.246,
+            "promotion": 0.4929
+          }
+        },
+        {
+          "team": "Fortaleza / CE",
+          "crest": "assets/crests/fortaleza.png",
+          "color": "#006CB5",
+          "acronym": "FOR",
+          "standings": {
+            "points": 31,
+            "wins": 9,
+            "played": 18,
+            "goals_for": 21,
+            "goals_against": 17,
+            "goal_diff": 4,
+            "rank": 5,
+            "zone": "playoff_promotion"
+          },
+          "probs": {
+            "title": 0.1104,
+            "direct_promotion": 0.245,
+            "rebaixamento": 0.002,
+            "playoff_promotion": 0.2423,
+            "promotion": 0.4873
+          }
+        },
+        {
+          "team": "Operário / PR",
+          "crest": "assets/crests/operario_pr.png",
+          "color": "#000000",
+          "acronym": "OPE",
+          "standings": {
+            "points": 31,
+            "wins": 9,
+            "played": 17,
+            "goals_for": 22,
+            "goals_against": 18,
+            "goal_diff": 4,
+            "rank": 4,
+            "zone": "playoff_promotion"
+          },
+          "probs": {
+            "title": 0.1038,
+            "direct_promotion": 0.2254,
+            "rebaixamento": 0.0024,
+            "playoff_promotion": 0.2068,
+            "promotion": 0.4322
+          }
+        },
+        {
+          "team": "Vila Nova / GO",
+          "crest": "assets/crests/vilago.png",
+          "color": "#FDF40F",
+          "acronym": "VIL",
+          "standings": {
+            "points": 31,
+            "wins": 9,
+            "played": 17,
+            "goals_for": 25,
+            "goals_against": 19,
+            "goal_diff": 6,
+            "rank": 3,
+            "zone": "playoff_promotion"
+          },
+          "probs": {
+            "title": 0.0487,
+            "direct_promotion": 0.1267,
+            "rebaixamento": 0.006,
+            "playoff_promotion": 0.1736,
+            "promotion": 0.3003
+          }
+        },
+        {
+          "team": "São Bernardo / SP",
+          "crest": "assets/crests/saobernardosp.png",
+          "color": "#FFD100",
+          "acronym": "SBE",
+          "standings": {
+            "points": 27,
+            "wins": 7,
+            "played": 18,
+            "goals_for": 24,
+            "goals_against": 17,
+            "goal_diff": 7,
+            "rank": 7,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0448,
+            "direct_promotion": 0.1109,
+            "rebaixamento": 0.0219,
+            "playoff_promotion": 0.1841,
+            "promotion": 0.295
+          }
+        },
+        {
+          "team": "Goiás / GO",
+          "crest": "assets/crests/goias.png",
+          "color": "#006633",
+          "acronym": "GOI",
+          "standings": {
+            "points": 25,
+            "wins": 7,
+            "played": 17,
+            "goals_for": 18,
+            "goals_against": 23,
+            "goal_diff": -5,
+            "rank": 9,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.017,
+            "direct_promotion": 0.0525,
+            "rebaixamento": 0.0224,
+            "playoff_promotion": 0.1251,
+            "promotion": 0.1776
+          }
+        },
+        {
+          "team": "Sport / PE",
+          "crest": "assets/crests/sport.png",
+          "color": "#CC001A",
+          "acronym": "SPT",
+          "standings": {
+            "points": 26,
+            "wins": 6,
+            "played": 17,
+            "goals_for": 21,
+            "goals_against": 15,
+            "goal_diff": 6,
+            "rank": 8,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0055,
+            "direct_promotion": 0.0194,
+            "rebaixamento": 0.0685,
+            "playoff_promotion": 0.0652,
+            "promotion": 0.0846
+          }
+        },
+        {
+          "team": "Atlético Goianiense / GO",
+          "crest": "assets/crests/atleticogo_bra.png",
+          "color": "#CC0000",
+          "acronym": "ACG",
+          "standings": {
+            "points": 24,
+            "wins": 6,
+            "played": 17,
+            "goals_for": 19,
+            "goals_against": 19,
+            "goal_diff": 0,
+            "rank": 10,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0025,
+            "direct_promotion": 0.0115,
+            "rebaixamento": 0.1009,
+            "playoff_promotion": 0.055,
+            "promotion": 0.0665
+          }
+        },
+        {
+          "team": "Cuiabá / MT",
+          "crest": "assets/crests/cuiaba_bra.png",
+          "color": "#006633",
+          "acronym": "CUI",
+          "standings": {
+            "points": 24,
+            "wins": 5,
+            "played": 18,
+            "goals_for": 14,
+            "goals_against": 13,
+            "goal_diff": 1,
+            "rank": 11,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0028,
+            "direct_promotion": 0.0089,
+            "rebaixamento": 0.1078,
+            "playoff_promotion": 0.0474,
+            "promotion": 0.0563
+          }
+        },
+        {
+          "team": "CRB / AL",
+          "crest": "assets/crests/crb_bra.png",
+          "color": "#ED1C2A",
+          "acronym": "CRB",
+          "standings": {
+            "points": 23,
+            "wins": 6,
+            "played": 18,
+            "goals_for": 28,
+            "goals_against": 32,
+            "goal_diff": -4,
+            "rank": 12,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0025,
+            "direct_promotion": 0.0085,
+            "rebaixamento": 0.1407,
+            "playoff_promotion": 0.0363,
+            "promotion": 0.0448
+          }
+        },
+        {
+          "team": "Athletic / MG",
+          "crest": "assets/crests/athletic_mg.png",
+          "color": "#000000",
+          "acronym": "ATH",
+          "standings": {
+            "points": 23,
+            "wins": 5,
+            "played": 17,
+            "goals_for": 16,
+            "goals_against": 16,
+            "goal_diff": 0,
+            "rank": 13,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0015,
+            "direct_promotion": 0.009,
+            "rebaixamento": 0.1462,
+            "playoff_promotion": 0.0343,
+            "promotion": 0.0433
+          }
+        },
+        {
+          "team": "Náutico / PE",
+          "crest": "assets/crests/nautico.png",
+          "color": "#ED1C24",
+          "acronym": "NAU",
+          "standings": {
+            "points": 21,
+            "wins": 6,
+            "played": 18,
+            "goals_for": 22,
+            "goals_against": 23,
+            "goal_diff": -1,
+            "rank": 14,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0032,
+            "direct_promotion": 0.012,
+            "rebaixamento": 0.2,
+            "playoff_promotion": 0.0413,
+            "promotion": 0.0533
+          }
+        },
+        {
+          "team": "Londrina / PR",
+          "crest": "assets/crests/londrina_pr.png",
+          "color": "#E5292E",
+          "acronym": "LON",
+          "standings": {
+            "points": 20,
+            "wins": 5,
+            "played": 18,
+            "goals_for": 25,
+            "goals_against": 25,
+            "goal_diff": 0,
+            "rank": 16,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0025,
+            "direct_promotion": 0.0095,
+            "rebaixamento": 0.2405,
+            "playoff_promotion": 0.0414,
+            "promotion": 0.0509
+          }
+        },
+        {
+          "team": "Botafogo / SP",
+          "crest": "assets/crests/botafogosp_bra.png",
+          "color": "#E52D2D",
+          "acronym": "BSP",
+          "standings": {
+            "points": 21,
+            "wins": 5,
+            "played": 18,
+            "goals_for": 20,
+            "goals_against": 18,
+            "goal_diff": 2,
+            "rank": 15,
+            "zone": null
+          },
+          "probs": {
+            "title": 0.0004,
+            "direct_promotion": 0.0024,
+            "rebaixamento": 0.2647,
+            "playoff_promotion": 0.0158,
+            "promotion": 0.0182
+          }
+        },
+        {
+          "team": "Ceará / CE",
+          "crest": "assets/crests/ceara_bra.png",
+          "color": "#000000",
+          "acronym": "CEA",
+          "standings": {
+            "points": 19,
+            "wins": 4,
+            "played": 18,
+            "goals_for": 16,
+            "goals_against": 21,
+            "goal_diff": -5,
+            "rank": 17,
+            "zone": "rebaixamento"
+          },
+          "probs": {
+            "title": 0.0006,
+            "direct_promotion": 0.0018,
+            "rebaixamento": 0.3019,
+            "playoff_promotion": 0.014,
+            "promotion": 0.0158
+          }
+        },
+        {
+          "team": "Avaí / SC",
+          "crest": "assets/crests/avai_bra.png",
+          "color": "#005AB2",
+          "acronym": "AVA",
+          "standings": {
+            "points": 17,
+            "wins": 4,
+            "played": 18,
+            "goals_for": 19,
+            "goals_against": 25,
+            "goal_diff": -6,
+            "rank": 18,
+            "zone": "rebaixamento"
+          },
+          "probs": {
+            "title": 0.0001,
+            "direct_promotion": 0.0005,
+            "rebaixamento": 0.4009,
+            "playoff_promotion": 0.008,
+            "promotion": 0.0085
+          }
+        },
+        {
+          "team": "América / MG",
+          "crest": "assets/crests/americamg_bra.png",
+          "color": "#006140",
+          "acronym": "AME",
+          "standings": {
+            "points": 8,
+            "wins": 1,
+            "played": 18,
+            "goals_for": 12,
+            "goals_against": 29,
+            "goal_diff": -17,
+            "rank": 20,
+            "zone": "rebaixamento"
+          },
+          "probs": {
+            "title": 0.0,
+            "direct_promotion": 0.0,
+            "rebaixamento": 0.971,
+            "playoff_promotion": 0.0,
+            "promotion": 0.0
+          }
+        },
+        {
+          "team": "Ponte Preta / SP",
+          "crest": "assets/crests/pontepreta_bra.png",
+          "color": "#000000",
+          "acronym": "PON",
+          "standings": {
+            "points": 8,
+            "wins": 2,
+            "played": 17,
+            "goals_for": 11,
+            "goals_against": 33,
+            "goal_diff": -22,
+            "rank": 19,
+            "zone": "rebaixamento"
+          },
+          "probs": {
+            "title": 0.0,
+            "direct_promotion": 0.0,
+            "rebaixamento": 0.9994,
             "playoff_promotion": 0.0,
             "promotion": 0.0
           }

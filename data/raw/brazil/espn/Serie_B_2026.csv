@@ -170,15 +170,15 @@ date,venue,home_team_raw,away_team_raw,home_goals,away_goals,status
 2026-07-13T22:00Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Londrina,1,1,played
 2026-07-13T23:30Z,Estádio Presidente Vargas,Ceará,Athletic,0,0,played
 2026-07-16T23:00Z,Estádio Rei Pelé,CRB,Náutico,2,1,played
-2026-07-17T22:00Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Ceará,,,scheduled
-2026-07-17T22:00Z,Alfredo Jaconi,Juventude,Cuiabá,,,scheduled
-2026-07-17T22:00Z,Estádio Primeiro de Maio,São Bernardo,Avaí,,,scheduled
-2026-07-18T00:00Z,Arena Castelão,Fortaleza,Novorizontino,,,scheduled
-2026-07-18T00:00Z,Estadio VGD,Londrina,Botafogo-SP,,,scheduled
-2026-07-18T19:00Z,Heriberto Hülse,Criciúma,Vila Nova,,,scheduled
-2026-07-18T19:00Z,Moisés Lucarelli,Ponte Preta,Goiás,,,scheduled
-2026-07-18T19:00Z,Ilha do Retiro,Sport,Operário PR,,,scheduled
-2026-07-18T21:00Z,Estádio Antônio Accioly,Atlético Goianiense,Athletic,,,scheduled
+2026-07-17T22:00Z,Estádio Raimundo Sampaio (Independência),América Mineiro,Ceará,1,1,played
+2026-07-17T22:00Z,Alfredo Jaconi,Juventude,Cuiabá,2,0,played
+2026-07-17T22:00Z,Estádio Primeiro de Maio,São Bernardo,Avaí,1,1,played
+2026-07-18T00:00Z,Arena Castelão,Fortaleza,Novorizontino,1,0,played
+2026-07-18T00:00Z,Estadio VGD,Londrina,Botafogo-SP,0,0,played
+2026-07-18T19:00Z,Heriberto Hülse,Criciúma,Vila Nova,2,0,played
+2026-07-18T19:00Z,Moisés Lucarelli,Ponte Preta,Goiás,1,2,played
+2026-07-18T19:00Z,Ilha do Retiro,Sport,Operário PR,2,2,played
+2026-07-18T21:00Z,Estádio Antônio Accioly,Atlético Goianiense,Athletic,0,0,played
 2026-07-21T22:30Z,Estádio da Ressacada,Avaí,América Mineiro,,,scheduled
 2026-07-21T22:30Z,Estádio Dr. Jorge Ismael de Biasi,Novorizontino,Criciúma,,,scheduled
 2026-07-22T00:35Z,Estádio Onésio Brasileiro Alvarenga,Vila Nova,Fortaleza,,,scheduled
