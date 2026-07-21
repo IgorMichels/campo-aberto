@@ -62,6 +62,15 @@
     return `${((value || 0) * 100).toFixed(1)}%`;
   }
 
+  // Same as formatPercent, but floors anything that would round to "0.0%"
+  // to a legible "< 0.1%" instead -- used for the real-score model
+  // probability on played cards, where a value this small is common (most
+  // real results aren't the model's most-likely scoreline) and "0.0%" would
+  // misleadingly read as "impossible".
+  function formatPercentFloored(value) {
+    return (value || 0) < 0.001 ? "< 0.1%" : formatPercent(value);
+  }
+
   // A handful of real club colors are literally #000000 -- a legitimate real
   // color identity, not a data bug. readableTextColor keeps the real color
   // for text whenever it's legible and substitutes white only when it would
@@ -145,18 +154,6 @@
     });
   }
 
-  // Finds the single highest-probability scoreline in a match's 5x5 grid.
-  function bestScore(scores) {
-    let best = { home: 0, away: 0, prob: -1 };
-    Object.entries(scores).forEach(([key, prob]) => {
-      if (prob > best.prob) {
-        const [home, away] = key.split("_").map(Number);
-        best = { home, away, prob };
-      }
-    });
-    return best;
-  }
-
   // `actual` (optional {home, away}, both <= 4) marks the real final score's
   // cell with a distinct "actual" class alongside "best" -- used only by
   // matches/played.html's cards. A real score outside the displayed 0-4
@@ -178,7 +175,7 @@
           : prob === 0
             ? "rgba(255, 255, 255, 0.04)"
             : `rgba(255, 255, 255, ${alpha})`;
-        const probText = prob < 0.001 ? "0%" : formatPercent(prob);
+        const probText = formatPercentFloored(prob);
         const cellClasses = ["heatmap-cell", isBest ? "best" : "", isActual ? "actual" : ""]
           .filter(Boolean)
           .join(" ");
@@ -213,7 +210,13 @@
   // matches/played.html, additionally shows the real result next to the
   // most-likely score.
   function renderStickerCard(match, tiers) {
-    const best = bestScore(match.scores);
+    // match.best (see computeCard) is the single most-likely EXACT scoreline
+    // anywhere in the model's full distribution -- NOT derived by scanning
+    // match.scores, which only covers the displayed 0-4 corner: a lopsided
+    // enough matchup can have its true most-likely scoreline outside that
+    // corner (e.g. best = 5-0, in which case no heatmap cell gets the "best"
+    // highlight, but the most-likely badge above the heatmap still shows it).
+    const best = match.best;
     const actual =
       match.final_score && match.final_score.home <= 4 && match.final_score.away <= 4
         ? match.final_score
@@ -225,8 +228,16 @@
     const searchText = normalizeName(`${match.home_team} ${match.away_team}`);
     const topInfo = topInfoText(match);
 
+    // match.final_score_prob (see computeCard) is the EXACT probability of
+    // the real scoreline, independent of `actual`'s 0-4 clamp above (that
+    // clamp only governs which heatmap cell gets the "actual" highlight) --
+    // so this shows a real value for every played match, blowouts included.
+    const realScoreProbHTML = match.final_score
+      ? `<div class="real-score-prob">${formatPercentFloored(match.final_score_prob)}</div>`
+      : "";
+
     const realScoreHTML = match.final_score
-      ? `<div class="real-score">Real: ${match.final_score.home} - ${match.final_score.away}</div>`
+      ? `<div class="real-score">Real: ${match.final_score.home} - ${match.final_score.away}</div>${realScoreProbHTML}`
       : "";
 
     return `
@@ -316,7 +327,7 @@
 
     const model = window.ScoreModels[params.model];
     const { muHome, muAway } = model.matchRates(homeParams, awayParams, params.shared);
-    const { grid, home_win, draw, away_win } = model.scorelineProbabilities(
+    const { grid, home_win, draw, away_win, best } = model.scorelineProbabilities(
       muHome,
       muAway,
       params.shared,
@@ -334,7 +345,22 @@
     // (see computeStrengthTiers/strengthTierClass).
     const total_strength = model.teamStrength(homeParams) + model.teamStrength(awayParams);
 
-    return { ...base, scores, home_win, draw, away_win, total_strength };
+    // Only a played card (matches_played.js) carries final_score -- exact
+    // probability of that one scoreline, via scorelineProbabilityAt rather
+    // than a `scores` lookup, since `scores` only covers the displayed 0-4
+    // corner and a real result can be a blowout past it (see
+    // renderStickerCard's real-score-prob).
+    const final_score_prob = base.final_score
+      ? model.scorelineProbabilityAt(
+          muHome,
+          muAway,
+          params.shared,
+          base.final_score.home,
+          base.final_score.away,
+        )
+      : undefined;
+
+    return { ...base, scores, home_win, draw, away_win, total_strength, final_score_prob, best };
   }
 
   // Rarity-tier cutoffs for the card border, derived from the *current*
@@ -768,13 +794,13 @@
     normalizeName,
     slugify,
     formatPercent,
+    formatPercentFloored,
     readableTextColor,
     formatDateLabel,
     formatDateTimeLabel,
     buildTabs,
     updateTabSelection,
     buildSeasonSelect,
-    bestScore,
     renderHeatmap,
     renderStickerCard,
     computeCard,
