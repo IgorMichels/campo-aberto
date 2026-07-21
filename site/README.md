@@ -314,3 +314,39 @@ uses its own embedded `params` above instead). `model` selects which
 The free-pick builder's team rosters (names/crests/colors, not strengths)
 are read from the already-existing `data/<slug>/<season>.json` files above,
 filtered to teams present in `params.json`'s `teams` dict.
+
+## SEO
+
+`robots.txt` allows crawling everything, and `sitemap.xml` hand-lists every
+top-level page (both point at the GitHub Pages default canonical URL,
+`https://igormichels.github.io/campo-aberto/` -- update both, plus the
+`Sitemap:` line in `robots.txt`, if a custom domain is ever set up via a
+`CNAME` file here). Neither is generated -- if a new top-level page is added,
+add it to `sitemap.xml` by hand. Every page's `<head>` also carries a short
+Portuguese `<meta name="description">` matching what that page actually
+shows.
+
+Submitting the site to Google Search Console / Bing Webmaster Tools (domain
+verification, requesting indexing) is a manual, one-time account step for
+the repo owner -- not something committed here.
+
+## Analytics
+
+No analytics provider is wired up. `assets/js/analytics.js` is a deliberately
+inert placeholder loaded by every page (next to `theme.js`) so there's a
+single place to add a real snippet later instead of duplicating vendor
+boilerplate across pages. Candidates, roughly in order of fit for a small
+static site with no existing account:
+
+- **GoatCounter** -- free, open source, no cookie banner needed, minimal
+  setup (one script tag + a account name).
+- **Plausible** -- similar privacy profile, paid (or self-hosted), nicer
+  dashboard.
+- **Cloudflare Web Analytics** -- free, no cookies, easiest if the domain
+  ever moves behind Cloudflare.
+- **Google Analytics (GA4)** -- richest feature set, but heavier
+  (cookie/consent implications, needs a Google account + Measurement ID).
+
+Picking one, creating the account, and dropping the resulting snippet into
+`assets/js/analytics.js` (see the comments in that file) is a manual step
+for the repo owner.
