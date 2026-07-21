@@ -396,6 +396,7 @@ def test_report_progress_prints_cumulative_brier_and_apples_to_apples_comparison
     monkeypatch.setattr(
         sweep, "_load_original_tournament_records", _make_fake_original_tournament_records
     )
+    monkeypatch.setattr(sweep, "_load_best_model_records", lambda: [])
 
     records = [_fake_scored_record(2022), _fake_scored_record(2022)]
     sweep._report_progress("poisson_home", 2022, records)
@@ -413,6 +414,7 @@ def test_report_progress_restricts_other_models_to_the_same_seasons_only(capsys,
     monkeypatch.setattr(
         sweep, "_load_original_tournament_records", _make_fake_original_tournament_records
     )
+    monkeypatch.setattr(sweep, "_load_best_model_records", lambda: [])
 
     # This run has only reached season 2022 -- hierarchical_home's fake data
     # includes a 2023 record too, but it must NOT be counted here (n=1, not
@@ -436,6 +438,7 @@ def test_report_progress_sorts_rows_by_brier_ascending(capsys, monkeypatch):
             "negbin_home": [_fake_scored_record(2022, home=0.1)],  # high Brier (confident+wrong)
         },
     )
+    monkeypatch.setattr(sweep, "_load_best_model_records", lambda: [])
 
     records = [_fake_scored_record(2022, home=0.5)]
     sweep._report_progress("poisson_home", 2022, records)
