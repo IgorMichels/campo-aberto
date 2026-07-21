@@ -244,11 +244,11 @@ def _real_standings(
     playoff_phases: list[PlayoffPhaseConfig],
     guaranteed_slots: dict[str, list[str]],
 ) -> dict[str, dict]:
-    """Points/played/goals_for/goals_against/goal_diff/rank/zone per team from
-    actually-played matches up to reference_date -- the real table as of that
-    date, not a simulated one, so a reader can see what the probabilities are
-    reacting to. `rank`/`zone` come from _real_classification (see there for
-    the guaranteed-slot cascade this reuses from the simulation itself)."""
+    """Points/wins/played/goals_for/goals_against/goal_diff/rank/zone per team
+    from actually-played matches up to reference_date -- the real table as of
+    that date, not a simulated one, so a reader can see what the probabilities
+    are reacting to. `rank`/`zone` come from _real_classification (see there
+    for the guaranteed-slot cascade this reuses from the simulation itself)."""
     played_results, _, _ = fixtures.split_fixtures(
         matches_df, competition, season, reference_date, teams=teams
     )
@@ -259,6 +259,7 @@ def _real_standings(
     return {
         team: {
             "points": rec["points"],
+            "wins": rec["wins"],
             "played": rec["played"],
             "goals_for": rec["goals_for"],
             "goals_against": rec["goals_against"],
@@ -274,6 +275,7 @@ def _export_snapshot(
     csv_path: str,
     crest_by_team: dict,
     color_by_team: dict,
+    acronym_by_team: dict,
     crests_dir: str,
     config: CompetitionConfig,
     matches_df: pd.DataFrame,
@@ -326,11 +328,17 @@ def _export_snapshot(
             raise ValueError(
                 f"{csv_path}: team {team!r} has no crest_path in {CLUB_INFOS_PATH} -- add one before exporting"
             )
+        acronym = acronym_by_team.get(team)
+        if not acronym or pd.isna(acronym):
+            raise ValueError(
+                f"{csv_path}: team {team!r} has no acronym in {CLUB_INFOS_PATH} -- add one before exporting"
+            )
         teams.append(
             {
                 "team": team,
                 "crest": _copy_crest(crest_path, crests_dir),
                 "color": color_by_team.get(team, "#4A5568"),
+                "acronym": acronym,
                 "standings": standings_by_team[team],
                 "probs": {
                     raw: round(float(row[col]), 4) for col, raw in zip(prob_columns, raw_names)
@@ -345,6 +353,7 @@ def _export_season(
     csv_paths: list[str],
     crest_by_team: dict,
     color_by_team: dict,
+    acronym_by_team: dict,
     crests_dir: str,
     config: CompetitionConfig,
     matches_df: pd.DataFrame,
@@ -358,6 +367,7 @@ def _export_season(
             csv_path,
             crest_by_team,
             color_by_team,
+            acronym_by_team,
             crests_dir,
             config,
             matches_df,
@@ -379,6 +389,7 @@ def export_site_data(
     club_infos = pd.read_csv(club_infos_path)
     crest_by_team = dict(zip(club_infos["club"], club_infos["crest_path"]))
     color_by_team = dict(zip(club_infos["club"], club_infos["primary_color"]))
+    acronym_by_team = dict(zip(club_infos["club"], club_infos["acronym"]))
     crests_dir = os.path.join(site_dir, "assets", "crests")
     data_dir = os.path.join(site_dir, "data")
 
@@ -402,6 +413,7 @@ def export_site_data(
                     csv_paths,
                     crest_by_team,
                     color_by_team,
+                    acronym_by_team,
                     crests_dir,
                     config,
                     matches_df,

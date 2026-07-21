@@ -9,6 +9,10 @@ A push to `main` that touches this directory triggers
 `.github/workflows/deploy-site.yml`, which deploys it to GitHub Pages
 (`actions/deploy-pages`, no `gh-pages` branch).
 
+`index.html` is a static landing page (no data fetch of its own yet, just
+navigation cards) -- the classification table that used to live at
+`index.html` is now `probabilities.html`.
+
 ## Regenerating
 
 `python -m src.pipeline` regenerates this directory's data as its last step,
@@ -65,8 +69,9 @@ historical params slice, see below -- are built from).
     "2025-12-07": {
       "teams": [
         {"team": "Flamengo / RJ", "crest": "assets/crests/flarj.png", "color": "#C1121F",
-         "standings": {"points": 79, "played": 38, "goals_for": 78, "goals_against": 27, "goal_diff": 51,
-                       "rank": 1, "zone": "libertadores_grupos"},
+         "acronym": "FLA",
+         "standings": {"points": 79, "wins": 24, "played": 38, "goals_for": 78, "goals_against": 27,
+                       "goal_diff": 51, "rank": 1, "zone": "libertadores_grupos"},
          "probs": {"title": 1.0, "libertadores_grupos": 1.0, "libertadores_pre": 0.0,
                    "libertadores": 1.0, "rebaixamento": 0.0}},
         ...
@@ -89,7 +94,7 @@ historical params slice, see below -- are built from).
   produced (best expected position first) -- render as-is, don't re-sort.
 - `probs` is keyed by raw spot/aggregate name (not the Portuguese label) -- a leaf
   column's own `key` is exactly what to look up.
-- `standings` is real (not simulated) points/played/goals_for/goals_against/goal_diff
+- `standings` is real (not simulated) points/wins/played/goals_for/goals_against/goal_diff
   as of that snapshot's date, computed from `data/processed/brazil/matches.csv`.
   `rank` is that date's official classification position (the full CBF tiebreak,
   via `src.simulation.standings.rank_table` -- not just points). `zone` is the
@@ -106,7 +111,11 @@ historical params slice, see below -- are built from).
   that phase's own spot only resolves once the playoff is actually played.
   Meant to be rendered as-is (a rank number + a zone-based row color), not
   recomputed client-side.
-- `crest`/`color` are `site`-root-relative image path / hex color, used as-is.
+- `crest`/`color`/`acronym` come straight from `data/assets/club_infos.csv`
+  (`crest_path`/`primary_color`/`acronym` columns) -- `crest` is already
+  rewritten to a `site`-root-relative path, `color` a hex string, `acronym`
+  the hand-maintained broadcast-style 3-letter code (e.g. "FLA"), all used
+  as-is.
 
 ## Jogos
 
@@ -305,3 +314,31 @@ uses its own embedded `params` above instead). `model` selects which
 The free-pick builder's team rosters (names/crests/colors, not strengths)
 are read from the already-existing `data/<slug>/<season>.json` files above,
 filtered to teams present in `params.json`'s `teams` dict.
+
+## SEO
+
+`robots.txt` allows crawling everything, and `sitemap.xml` hand-lists every
+top-level page (both point at the GitHub Pages default canonical URL,
+`https://igormichels.github.io/campo-aberto/` -- update both, plus the
+`Sitemap:` line in `robots.txt`, if a custom domain is ever set up via a
+`CNAME` file here). Neither is generated -- if a new top-level page is added,
+add it to `sitemap.xml` by hand. Every page's `<head>` also carries a short
+Portuguese `<meta name="description">` matching what that page actually
+shows.
+
+Submitting the site to Google Search Console / Bing Webmaster Tools (domain
+verification, requesting indexing) is a manual, one-time account step for
+the repo owner -- not something committed here.
+
+## Analytics
+
+Page-view tracking is done with [GoatCounter](https://www.goatcounter.com/)
+(free, open source, no cookie banner needed), dashboard at
+`https://campo-aberto.goatcounter.com`. `assets/js/analytics.js` injects
+GoatCounter's `<script>` tag at load time rather than duplicating it in every
+page's `<head>`, since every page already loads this file (next to
+`theme.js`). To switch providers later, replace this file's contents --
+candidates considered: Plausible (similar privacy profile, paid/self-hosted,
+nicer dashboard), Cloudflare Web Analytics (free, only worth it if the domain
+ever moves behind Cloudflare), Google Analytics/GA4 (richest feature set, but
+heavier on cookies/consent for comparatively little benefit here).

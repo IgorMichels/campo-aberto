@@ -35,6 +35,7 @@ game_id,date,time,stadium,home_team,away_team,result
 036,25/02/2026,20:00,Magalhães Pinto / Belo Horizonte,Cruzeiro / MG,Corinthians / SP,1 X 1
 037,25/02/2026,21:30,Arena do Grêmio / Porto Alegre,Grêmio / RS,Atlético Mineiro / MG,2 X 1
 038,25/02/2026,19:30,Major Antônio Couto Pereira / Curitiba,Coritiba SAF / PR,São Paulo / SP,0 X 1
+039,17/07/2026,19:30,Octávio Mangabeira / Salvador,Bahia / BA,Chapecoense / SC,2 X 0
 040,25/02/2026,19:00,Olímpico do Pará / Belem,Remo / PA,Internacional / RS,1 X 1
 041,11/03/2026,21:30,Jornalista Mário Filho / Rio de Janeiro,Flamengo / RJ,Cruzeiro / MG,2 X 0
 042,12/03/2026,19:30,São Januário / Rio de Janeiro,Vasco da Gama Saf / RJ,Palmeiras / SP,2 X 1
@@ -176,5 +177,7 @@ game_id,date,time,stadium,home_team,away_team,result
 178,30/05/2026,16:00,Estádio Mario Celso Petraglia / Curitiba,Athletico Paranaense / PR,Mirassol / SP,1 X 0
 179,30/05/2026,17:30,Octávio Mangabeira / Salvador,Bahia / BA,Botafogo / RJ,2 X 1
 180,31/05/2026,20:30,Olímpico do Pará / Belem,Remo / PA,São Paulo / SP,1 X 0
+181,17/07/2026,20:00,Jornalista Mário Filho / Rio de Janeiro,Fluminense / RJ,Red Bull Bragantino / SP,1 X 1
 182,16/07/2026,19:30,Nilton Santos / Rio de Janeiro,Botafogo / RJ,Santos FC / SP,2 X 1
+185,17/07/2026,20:00,José Maria de Campos Maia / Mirassol,Mirassol / SP,Grêmio / RS,2 X 1
 189,16/07/2026,19:30,Manoel Barradas / Salvador,Vitória / BA,Vasco da Gama Saf / RJ,1 X 0

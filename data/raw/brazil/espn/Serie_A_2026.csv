@@ -181,9 +181,9 @@ date,venue,home_team_raw,away_team_raw,home_goals,away_goals,status
 2026-05-31T23:30Z,Mangueirão,Remo,São Paulo,1,0,played
 2026-07-16T22:30Z,Joao Havelange Stadium,Botafogo,Santos,2,1,played
 2026-07-16T22:30Z,Estadio Manoel Barradas,Vitória,Vasco da Gama,1,0,played
-2026-07-17T22:30Z,Arena Fonte Nova,Bahia,Chapecoense,,,scheduled
-2026-07-17T23:00Z,Estadio do Maracana,Fluminense,Red Bull Bragantino,,,scheduled
-2026-07-17T23:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Grêmio,,,scheduled
+2026-07-17T22:30Z,Arena Fonte Nova,Bahia,Chapecoense,2,0,played
+2026-07-17T23:00Z,Estadio do Maracana,Fluminense,Red Bull Bragantino,1,1,played
+2026-07-17T23:00Z,Estadio Municipal José Maria de Campos Maia,Mirassol,Grêmio,2,1,played
 2026-07-21T22:30Z,Arena MRV,Atlético-MG,Bahia,,,scheduled
 2026-07-22T22:30Z,Couto Pereira,Coritiba,Palmeiras,,,scheduled
 2026-07-23T00:30Z,Arena Condá,Chapecoense,Flamengo,,,scheduled
