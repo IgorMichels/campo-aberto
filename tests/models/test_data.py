@@ -54,6 +54,69 @@ def test_team_index_is_alphabetically_sorted_and_one_indexed():
     assert stan_data["y_j"] == [0, 2]
 
 
+# --- rho_prior_sd / group_prior_mean / group_prior_sd (Stan data, not literals) ---
+
+
+def test_prior_params_are_always_present_with_todays_production_defaults():
+    """poisson_home.stan/hierarchical_home.stan/negbin_home.stan/
+    negbin_home_shared_phi.stan all read their prior widths from Stan `data`
+    now instead of a compiled-in literal (see those files' `data` blocks) --
+    build_stan_data must always include these keys, regardless of which
+    model will actually read them, and their defaults must equal the values
+    that used to be hardcoded, so every existing caller that doesn't pass
+    these kwargs keeps fitting an identical distribution."""
+    df = pd.DataFrame([_match("Generic League", 2026, "2026-01-01", "Alpha FC", "Beta FC", 1, 0)])
+
+    stan_data, _ = build_stan_data(df, reference_date=pd.Timestamp("2026-01-01"))
+
+    assert stan_data["rho_prior_sd"] == pytest.approx(0.1)
+    assert stan_data["group_prior_mean"] == pytest.approx([0.3, 0.1, -0.1, -0.3])
+    assert stan_data["group_prior_sd"] == pytest.approx(1.0)
+    assert stan_data["phi_prior_shape"] == pytest.approx(2.0)
+    assert stan_data["phi_prior_rate"] == pytest.approx(0.1)
+
+
+def test_phi_prior_is_overridable():
+    df = pd.DataFrame([_match("Generic League", 2026, "2026-01-01", "Alpha FC", "Beta FC", 1, 0)])
+
+    stan_data, _ = build_stan_data(
+        df, reference_date=pd.Timestamp("2026-01-01"), phi_prior=(4.0, 0.05)
+    )
+
+    assert stan_data["phi_prior_shape"] == pytest.approx(4.0)
+    assert stan_data["phi_prior_rate"] == pytest.approx(0.05)
+
+
+def test_rho_prior_sd_is_overridable():
+    df = pd.DataFrame([_match("Generic League", 2026, "2026-01-01", "Alpha FC", "Beta FC", 1, 0)])
+
+    stan_data, _ = build_stan_data(df, reference_date=pd.Timestamp("2026-01-01"), rho_prior_sd=0.2)
+
+    assert stan_data["rho_prior_sd"] == pytest.approx(0.2)
+
+
+def test_group_prior_mean_is_overridable():
+    df = pd.DataFrame([_match("Generic League", 2026, "2026-01-01", "Alpha FC", "Beta FC", 1, 0)])
+
+    stan_data, _ = build_stan_data(
+        df,
+        reference_date=pd.Timestamp("2026-01-01"),
+        group_prior_mean=(0.15, 0.05, -0.05, -0.15),
+    )
+
+    assert stan_data["group_prior_mean"] == pytest.approx([0.15, 0.05, -0.05, -0.15])
+
+
+def test_group_prior_sd_is_overridable():
+    df = pd.DataFrame([_match("Generic League", 2026, "2026-01-01", "Alpha FC", "Beta FC", 1, 0)])
+
+    stan_data, _ = build_stan_data(
+        df, reference_date=pd.Timestamp("2026-01-01"), group_prior_sd=0.5
+    )
+
+    assert stan_data["group_prior_sd"] == pytest.approx(0.5)
+
+
 def test_build_stan_data_drops_rows_with_no_result_yet():
     """matches.csv can now carry scheduled/postponed rows with no result yet
     (see src/ingestion/brazil/build_treated_dataset.py) -- only played

@@ -24,6 +24,7 @@ data {
   array[N] int<lower=0> y_i; // home goals
   array[N] int<lower=0> y_j; // away goals
   vector[N] game_weight;
+  real<lower=0> rho_prior_sd;
 }
 
 parameters {
@@ -46,7 +47,7 @@ model {
   defense_raw_std ~ normal(0, 1);
   eta ~ normal(0, 1);
   beta_home ~ normal(0, 0.5);
-  rho ~ normal(0, 0.1);
+  rho ~ normal(0, rho_prior_sd);
 
   for (n in 1:N) {
     real mu = exp(attack[team_i[n]] - defense[team_j[n]] + eta + beta_home);
