@@ -7,13 +7,11 @@ data {
   array[N] int<lower=0> y_j; // away goals
   vector[N] game_weight;
   array[T] int<lower=1, upper=4> group; // 1=ficou-A 2=elevador-A-B 3=ficou-B 4=elevador-B-C
-}
-
-transformed data {
-  // Weak informative prior (sd=1, wide) reflecting the a priori strength
-  // order ficou-A > elevador-A-B > ficou-B > elevador-B-C -- only shifts
-  // each group's MEAN; the data is free to invert this order.
-  vector[4] prior_mean = [0.3, 0.1, -0.1, -0.3]';
+  // Weak informative prior (default sd=1, wide) reflecting the a priori
+  // strength order ficou-A > elevador-A-B > ficou-B > elevador-B-C -- only
+  // shifts each group's MEAN; the data is free to invert this order.
+  vector[4] group_prior_mean;
+  real<lower=0> group_prior_sd;
 }
 
 parameters {
@@ -44,8 +42,8 @@ transformed parameters {
 model {
   attack_raw_std ~ normal(0, 1);
   defense_raw_std ~ normal(0, 1);
-  mu_attack ~ normal(prior_mean, 1);
-  mu_defense ~ normal(prior_mean, 1);
+  mu_attack ~ normal(group_prior_mean, group_prior_sd);
+  mu_defense ~ normal(group_prior_mean, group_prior_sd);
   eta ~ normal(0, 1);
   beta_home ~ normal(0, 0.5);
 

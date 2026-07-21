@@ -84,6 +84,10 @@ def build_stan_data(
     reference_date: pd.Timestamp | None = None,
     half_life_weeks: float = DEFAULT_HALF_LIFE_WEEKS,
     max_weeks_ago: int = DEFAULT_MAX_WEEKS_AGO,
+    rho_prior_sd: float = 0.1,
+    group_prior_mean: tuple[float, float, float, float] = (0.3, 0.1, -0.1, -0.3),
+    group_prior_sd: float = 1.0,
+    phi_prior: tuple[float, float] = (2.0, 0.1),
 ) -> tuple[dict, list[str]]:
     """Builds the data dict expected by poisson_home.stan from an in-memory matches DataFrame.
 
@@ -96,12 +100,34 @@ def build_stan_data(
             home_team, away_team, home_goals, away_goals.
         reference_date: the date weeks_ago is measured from. Defaults to df's
             latest match_datetime.
+        rho_prior_sd: sd of poisson_home.stan's `rho ~ normal(0, rho_prior_sd)`
+            prior. Only poisson_home.stan declares/reads this; every other
+            model's .stan file ignores the key. Default matches that model's
+            previously-hardcoded literal.
+        group_prior_mean: mean vector of hierarchical_home.stan's
+            `mu_attack/mu_defense ~ normal(group_prior_mean, group_prior_sd)`
+            prior (one value per _prior_groups group, in STAYED_TOP,
+            ELEVATOR, STAYED_SECOND, ARRIVED_FROM_BELOW order). Only
+            hierarchical_home.stan declares/reads this. Default matches that
+            model's previously-hardcoded literal.
+        group_prior_sd: sd of the same hierarchical_home.stan prior. Default
+            matches that model's previously-hardcoded literal.
+        phi_prior: (shape, rate) of negbin_home.stan's/negbin_home_shared_phi.stan's
+            `phi[_home/_away] ~ gamma(shape, rate)` prior. Only those two
+            .stan files declare/read phi_prior_shape/phi_prior_rate. Default
+            matches both models' previously-hardcoded gamma(2, 0.1) literal.
 
     Returns:
         (stan_data, teams), where teams[i - 1] is the team name for Stan index i.
         Also includes "group" (see _prior_groups), a fixed 4-way hierarchical-
         prior classification only src.models.hierarchical_home.stan reads --
-        every other registered model's .stan file simply ignores it.
+        every other registered model's .stan file simply ignores it. Always
+        includes rho_prior_sd/group_prior_mean/group_prior_sd/phi_prior_shape/
+        phi_prior_rate too -- harmless for any .stan file that doesn't declare
+        them (cmdstanpy just serializes the dict to JSON; an undeclared key is
+        simply never read), whereas omitting a key a .stan file DOES declare
+        is a hard Stan error, which is why these are always present
+        regardless of `model`.
     """
     # matches.csv can now contain scheduled/postponed rows with no result
     # (see src/ingestion/brazil/build_treated_dataset.py) -- only played
@@ -130,6 +156,11 @@ def build_stan_data(
         "y_i": df["home_goals"].tolist(),
         "y_j": df["away_goals"].tolist(),
         "game_weight": _time_weight(weeks_ago, half_life_weeks).tolist(),
+        "rho_prior_sd": rho_prior_sd,
+        "group_prior_mean": list(group_prior_mean),
+        "group_prior_sd": group_prior_sd,
+        "phi_prior_shape": phi_prior[0],
+        "phi_prior_rate": phi_prior[1],
     }
     try:
         stan_data["group"] = _prior_groups(df, teams)
