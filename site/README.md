@@ -332,21 +332,13 @@ the repo owner -- not something committed here.
 
 ## Analytics
 
-No analytics provider is wired up. `assets/js/analytics.js` is a deliberately
-inert placeholder loaded by every page (next to `theme.js`) so there's a
-single place to add a real snippet later instead of duplicating vendor
-boilerplate across pages. Candidates, roughly in order of fit for a small
-static site with no existing account:
-
-- **GoatCounter** -- free, open source, no cookie banner needed, minimal
-  setup (one script tag + a account name).
-- **Plausible** -- similar privacy profile, paid (or self-hosted), nicer
-  dashboard.
-- **Cloudflare Web Analytics** -- free, no cookies, easiest if the domain
-  ever moves behind Cloudflare.
-- **Google Analytics (GA4)** -- richest feature set, but heavier
-  (cookie/consent implications, needs a Google account + Measurement ID).
-
-Picking one, creating the account, and dropping the resulting snippet into
-`assets/js/analytics.js` (see the comments in that file) is a manual step
-for the repo owner.
+Page-view tracking is done with [GoatCounter](https://www.goatcounter.com/)
+(free, open source, no cookie banner needed), dashboard at
+`https://campo-aberto.goatcounter.com`. `assets/js/analytics.js` injects
+GoatCounter's `<script>` tag at load time rather than duplicating it in every
+page's `<head>`, since every page already loads this file (next to
+`theme.js`). To switch providers later, replace this file's contents --
+candidates considered: Plausible (similar privacy profile, paid/self-hosted,
+nicer dashboard), Cloudflare Web Analytics (free, only worth it if the domain
+ever moves behind Cloudflare), Google Analytics/GA4 (richest feature set, but
+heavier on cookies/consent for comparatively little benefit here).
