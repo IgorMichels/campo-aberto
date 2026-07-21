@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Campo Aberto</title>
+    <title>Campo Aberto - Classificação</title>
     <meta
       name="description"
-      content="Probabilidades do Campeonato Brasileiro (Série A e Série B) geradas por simulação bayesiana: título, Libertadores, Sul-Americana, acesso e rebaixamento."
+      content="Tabela de classificação simulada da Série A e da Série B, com probabilidades de título, Libertadores, Sul-Americana e rebaixamento por time e data de referência."
     />
     <link
       rel="icon"
@@ -36,12 +36,12 @@
 
     <header class="page-header">
       <h1>Campo Aberto</h1>
-      <p class="subtitle">Probabilidades do Campeonato Brasileiro</p>
+      <p class="subtitle">Probabilidades para o Brasileirão</p>
     </header>
 
     <nav class="page-nav" aria-label="Páginas">
-      <a href="index.html" aria-current="page">Início</a>
-      <a href="probabilities.html">Classificação</a>
+      <a href="index.html">Início</a>
+      <a href="probabilities.html" aria-current="page">Classificação</a>
       <a href="evolution.html">Evolução</a>
       <div class="nav-dropdown">
         <a
@@ -60,42 +60,36 @@
     </nav>
 
     <main>
-      <p class="home-intro">
-        A cada rodada um modelo bayesiano refaz o fit sobre os resultados mais recentes e simula o
-        restante da temporada milhares de vezes, gerando probabilidades de título, acesso,
-        classificação a torneios continentais e rebaixamento da Série A e da Série B.
-      </p>
+      <div class="controls">
+        <div class="tabs" id="competition-tabs" role="tablist" aria-label="Competição"></div>
 
-      <div class="home-cards">
-        <div class="home-card">
-          <h2><a class="home-card-title" href="probabilities.html">Classificação</a></h2>
-          <p>
-            Probabilidades de título, Libertadores, Sul-Americana e rebaixamento por time, temporada
-            e data de referência.
-          </p>
-          <div class="home-preview" id="preview-standings">Carregando...</div>
-          <a class="home-card-more" href="probabilities.html">Ver mais</a>
+        <div class="season-picker">
+          <label for="season-select">Temporada</label>
+          <select id="season-select"></select>
         </div>
-        <div class="home-card">
-          <h2><a class="home-card-title" href="evolution.html">Evolução</a></h2>
-          <p>
-            Acompanhamento de como essas probabilidades mudaram rodada a rodada ao longo da
-            temporada.
-          </p>
-          <div class="home-preview" id="preview-evolution">Carregando...</div>
-          <a class="home-card-more" href="evolution.html">Ver mais</a>
-        </div>
-        <div class="home-card">
-          <h2><a class="home-card-title" href="matches/upcoming.html">Jogos</a></h2>
-          <p>
-            Probabilidades dos próximos confrontos, jogos já disputados e simulador de confrontos.
-          </p>
-          <div class="home-preview" id="preview-matches">Carregando...</div>
-          <a class="home-card-more" href="matches/upcoming.html" id="preview-matches-more"
-            >Ver mais</a
-          >
+
+        <div class="date-picker">
+          <label for="date-select">Data de referência</label>
+          <select id="date-select"></select>
         </div>
       </div>
+
+      <div class="table-scroll">
+        <table id="results-table">
+          <thead>
+            <tr id="table-head-row"></tr>
+          </thead>
+          <tbody id="table-body">
+            <tr>
+              <td class="status-cell">Carregando...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <ul class="zone-legend" id="zone-legend"></ul>
+
+      <p class="status-message" id="status-message" hidden></p>
     </main>
 
     <footer class="page-footer">
@@ -108,14 +102,12 @@
       <p class="last-updated" id="last-updated"></p>
     </footer>
 
-    <script src="assets/js/score_models.js"></script>
-    <script src="assets/js/poisson_home.js"></script>
     <script src="assets/js/nav.js"></script>
     <script src="assets/js/theme.js"></script>
     <!-- Placeholder analytics hook -- inert until a provider is picked, see assets/js/analytics.js -->
     <script src="assets/js/analytics.js"></script>
     <script src="assets/js/last_updated.js"></script>
     <script src="assets/js/team_display.js"></script>
-    <script src="assets/js/home.js"></script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>

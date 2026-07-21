@@ -2,8 +2,8 @@
   "use strict";
 
   // Wires up every .nav-dropdown in the top nav (currently just "Jogos") --
-  // shared across all 5 pages (index/evolution/matches/*.html) since the
-  // nav itself is site-wide chrome, not page-specific logic. Hovering
+  // shared across all 6 pages (index/probabilities/evolution/matches/*.html)
+  // since the nav itself is site-wide chrome, not page-specific logic. Hovering
   // already reveals the menu via pure CSS (:hover); this only adds the
   // click/tap path (mouse click toggles it open/closed, a second click
   // outside or Escape closes it) for touch devices, which can't hover.
