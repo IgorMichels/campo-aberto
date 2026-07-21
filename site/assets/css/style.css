@@ -862,6 +862,11 @@ tbody tr.zone-rebaixamento td.team-cell {
   color: var(--accent);
 }
 
+.last-updated {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+}
+
 @media (max-width: 480px) {
   .controls {
     flex-direction: column;
