@@ -62,14 +62,17 @@ def test_prior_params_are_always_present_with_todays_production_defaults():
     negbin_home_shared_phi.stan all read their prior widths from Stan `data`
     now instead of a compiled-in literal (see those files' `data` blocks) --
     build_stan_data must always include these keys, regardless of which
-    model will actually read them, and their defaults must equal the values
-    that used to be hardcoded, so every existing caller that doesn't pass
-    these kwargs keeps fitting an identical distribution."""
+    model will actually read them. rho_prior_sd's default is poisson_home's
+    hyperparameter-sweep-tuned value (0.05, promoted from the pre-sweep
+    hardcoded 0.1 -- see src.constants.DEFAULT_HALF_LIFE_WEEKS's docstring
+    comment); every other prior default still equals the value that used to
+    be hardcoded for its (untuned) model, so those existing callers keep
+    fitting an identical distribution."""
     df = pd.DataFrame([_match("Generic League", 2026, "2026-01-01", "Alpha FC", "Beta FC", 1, 0)])
 
     stan_data, _ = build_stan_data(df, reference_date=pd.Timestamp("2026-01-01"))
 
-    assert stan_data["rho_prior_sd"] == pytest.approx(0.1)
+    assert stan_data["rho_prior_sd"] == pytest.approx(0.05)
     assert stan_data["group_prior_mean"] == pytest.approx([0.3, 0.1, -0.1, -0.3])
     assert stan_data["group_prior_sd"] == pytest.approx(1.0)
     assert stan_data["phi_prior_shape"] == pytest.approx(2.0)
@@ -169,7 +172,7 @@ def test_reference_date_defaults_to_the_played_rows_latest_match():
 
     # Same as the all-played case: latest played match (2026-01-08) is 0
     # weeks ago, not the unplayed 2026-12-01 fixture.
-    assert stan_data["game_weight"] == pytest.approx([0.5 ** (1 / 25), 1.0])
+    assert stan_data["game_weight"] == pytest.approx([0.5 ** (1 / 52), 1.0])
 
 
 def test_reference_date_defaults_to_the_dataframes_latest_match():
@@ -184,7 +187,7 @@ def test_reference_date_defaults_to_the_dataframes_latest_match():
 
     # Same as passing reference_date=2026-01-08 explicitly: the later match is
     # 0 weeks ago (weight 1.0), the earlier one exactly 1 week ago.
-    assert stan_data["game_weight"] == pytest.approx([0.5 ** (1 / 25), 1.0])
+    assert stan_data["game_weight"] == pytest.approx([0.5 ** (1 / 52), 1.0])
 
 
 def test_decay_formula_is_pure_exponential_half_life():

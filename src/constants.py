@@ -31,8 +31,13 @@ DEFAULT_SEED = 0
 # between the match and the fit's reference date: weight = 0.5 ** (weeks_ago /
 # DEFAULT_HALF_LIFE_WEEKS). Matches older than DEFAULT_MAX_WEEKS_AGO are dropped
 # from the Stan data entirely.
-DEFAULT_HALF_LIFE_WEEKS = 25
-DEFAULT_MAX_WEEKS_AGO = 100
+#
+# Tuned via src.models.hyperparameter_sweep's poisson_home coordinate sweep
+# (plans/hyperparameter_quality_sweep.md, 2026-07-19/20): half_life=52,
+# window=182 was the winning combination pooled over 2022-2026, Brier 0.6171
+# vs. 0.6200 at the previous defaults (25/100).
+DEFAULT_HALF_LIFE_WEEKS = 52
+DEFAULT_MAX_WEEKS_AGO = 182
 
 SAMPLES_DIR = "data/samples"  # posterior attack/defense draws, saved by src.models.fit
 RESULTS_DIR = "data/results"  # per-competition spot probabilities, saved by src.simulation.run
