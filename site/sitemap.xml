@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Hand-maintained: this site has no build step, so this file is not
+  generated. If a new top-level page is added under site/, add its <url>
+  entry here too (and to robots.txt's Allow rule, if it ever needs one).
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://igormichels.github.io/campo-aberto/index.html</loc>
+  </url>
+  <url>
+    <loc>https://igormichels.github.io/campo-aberto/probabilities.html</loc>
+  </url>
+  <url>
+    <loc>https://igormichels.github.io/campo-aberto/evolution.html</loc>
+  </url>
+  <url>
+    <loc>https://igormichels.github.io/campo-aberto/matches/upcoming.html</loc>
+  </url>
+  <url>
+    <loc>https://igormichels.github.io/campo-aberto/matches/played.html</loc>
+  </url>
+  <url>
+    <loc>https://igormichels.github.io/campo-aberto/matches/simulate.html</loc>
+  </url>
+</urlset>

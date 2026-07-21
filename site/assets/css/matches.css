@@ -338,6 +338,16 @@
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* The model's probability for the real final score, shown right below
+   .real-score -- same color and weight as .real-score so the pair reads as
+   one unit, just no text-shadow to stay visually secondary to it. */
+.score-center .real-score-prob {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffd60a;
+  margin-top: 2px;
+}
+
 /* A played match with no prior model snapshot (has_model: false, see
    src.site.export_matches_data._played_cards) -- same footprint as a real
    sticker so the grid doesn't jump between card types, but visually

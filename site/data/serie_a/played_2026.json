@@ -1,6 +1,99 @@
 {
   "matches": [
     {
+      "home_team": "Mirassol / SP",
+      "away_team": "Grêmio / RS",
+      "home_crest": "assets/crests/mirassol.png",
+      "away_crest": "assets/crests/gremio.png",
+      "home_color": "#F3EC0A",
+      "away_color": "#0D80BF",
+      "date": "2026-07-17T23:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-07-16",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0667428055091036,
+          "beta_home": 0.3254313758415,
+          "rho": 0.0170482203576128
+        },
+        "teams": {
+          "Mirassol / SP": {
+            "attack": 0.2078049191658591,
+            "defense": 0.1682681495495349
+          },
+          "Grêmio / RS": {
+            "attack": 0.1473312387600543,
+            "defense": 0.0976385324908198
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Fluminense / RJ",
+      "away_team": "Red Bull Bragantino / SP",
+      "home_crest": "assets/crests/flurj.png",
+      "away_crest": "assets/crests/bragantino_bra.png",
+      "home_color": "#870A28",
+      "away_color": "#CC0000",
+      "date": "2026-07-17T23:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-07-16",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0667428055091036,
+          "beta_home": 0.3254313758415,
+          "rho": 0.0170482203576128
+        },
+        "teams": {
+          "Fluminense / RJ": {
+            "attack": 0.315656559204628,
+            "defense": 0.2369938017406399
+          },
+          "Red Bull Bragantino / SP": {
+            "attack": 0.2425175208807828,
+            "defense": 0.0891640703678686
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Bahia / BA",
+      "away_team": "Chapecoense / SC",
+      "home_crest": "assets/crests/bahia.png",
+      "away_crest": "assets/crests/chapecoense_bra.png",
+      "home_color": "#006CB5",
+      "away_color": "#008000",
+      "date": "2026-07-17T22:30:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-07-16",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0667428055091036,
+          "beta_home": 0.3254313758415,
+          "rho": 0.0170482203576128
+        },
+        "teams": {
+          "Bahia / BA": {
+            "attack": 0.2937500037024489,
+            "defense": 0.047146357172937
+          },
+          "Chapecoense / SC": {
+            "attack": -0.0105635920385716,
+            "defense": -0.156837143798299
+          }
+        }
+      }
+    },
+    {
       "home_team": "Vitória / BA",
       "away_team": "Vasco da Gama / RJ",
       "home_crest": "assets/crests/vitoria.png",
@@ -559,37 +652,6 @@
       }
     },
     {
-      "home_team": "Grêmio / RS",
-      "away_team": "Santos / SP",
-      "home_crest": "assets/crests/gremio.png",
-      "away_crest": "assets/crests/santos.png",
-      "home_color": "#0D80BF",
-      "away_color": "#000000",
-      "date": "2026-05-23T22:00:00Z",
-      "home_goals": 3,
-      "away_goals": 2,
-      "has_model": true,
-      "reference_date": "2026-05-18",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0745165080111086,
-          "beta_home": 0.338110865906,
-          "rho": -0.0218720675522194
-        },
-        "teams": {
-          "Grêmio / RS": {
-            "attack": 0.1068777993186834,
-            "defense": 0.1843499619790168
-          },
-          "Santos / SP": {
-            "attack": 0.2014951646231491,
-            "defense": 0.027391807106942
-          }
-        }
-      }
-    },
-    {
       "home_team": "Mirassol / SP",
       "away_team": "Fluminense / RJ",
       "home_crest": "assets/crests/mirassol.png",
@@ -616,6 +678,37 @@
           "Fluminense / RJ": {
             "attack": 0.3334514817093442,
             "defense": 0.2334336446745219
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Grêmio / RS",
+      "away_team": "Santos / SP",
+      "home_crest": "assets/crests/gremio.png",
+      "away_crest": "assets/crests/santos.png",
+      "home_color": "#0D80BF",
+      "away_color": "#000000",
+      "date": "2026-05-23T22:00:00Z",
+      "home_goals": 3,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-05-18",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0745165080111086,
+          "beta_home": 0.338110865906,
+          "rho": -0.0218720675522194
+        },
+        "teams": {
+          "Grêmio / RS": {
+            "attack": 0.1068777993186834,
+            "defense": 0.1843499619790168
+          },
+          "Santos / SP": {
+            "attack": 0.2014951646231491,
+            "defense": 0.027391807106942
           }
         }
       }
@@ -931,37 +1024,6 @@
       }
     },
     {
-      "home_team": "Atlético Mineiro / MG",
-      "away_team": "Mirassol / SP",
-      "home_crest": "assets/crests/atleticomg_bra.png",
-      "away_crest": "assets/crests/mirassol.png",
-      "home_color": "#000000",
-      "away_color": "#F3EC0A",
-      "date": "2026-05-16T21:30:00Z",
-      "home_goals": 3,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-05-11",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0940104018192488,
-          "beta_home": 0.3455077712732,
-          "rho": -0.0098043744245666
-        },
-        "teams": {
-          "Atlético Mineiro / MG": {
-            "attack": 0.1595006952310764,
-            "defense": 0.0998185588395541
-          },
-          "Mirassol / SP": {
-            "attack": 0.2592662353065499,
-            "defense": 0.1870118770343942
-          }
-        }
-      }
-    },
-    {
       "home_team": "Internacional / RS",
       "away_team": "Vasco da Gama / RJ",
       "home_crest": "assets/crests/internacional_bra.png",
@@ -988,6 +1050,37 @@
           "Vasco da Gama / RJ": {
             "attack": 0.342246533715632,
             "defense": -0.0434564430143528
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Atlético Mineiro / MG",
+      "away_team": "Mirassol / SP",
+      "home_crest": "assets/crests/atleticomg_bra.png",
+      "away_crest": "assets/crests/mirassol.png",
+      "home_color": "#000000",
+      "away_color": "#F3EC0A",
+      "date": "2026-05-16T21:30:00Z",
+      "home_goals": 3,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-11",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0940104018192488,
+          "beta_home": 0.3455077712732,
+          "rho": -0.0098043744245666
+        },
+        "teams": {
+          "Atlético Mineiro / MG": {
+            "attack": 0.1595006952310764,
+            "defense": 0.0998185588395541
+          },
+          "Mirassol / SP": {
+            "attack": 0.2592662353065499,
+            "defense": 0.1870118770343942
           }
         }
       }
@@ -1148,37 +1241,6 @@
       }
     },
     {
-      "home_team": "Remo / PA",
-      "away_team": "Palmeiras / SP",
-      "home_crest": "assets/crests/remo.png",
-      "away_crest": "assets/crests/palmeiras.png",
-      "home_color": "#001F5B",
-      "away_color": "#006437",
-      "date": "2026-05-10T19:00:00Z",
-      "home_goals": 1,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-05-04",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0936605368870129,
-          "beta_home": 0.3415612997271,
-          "rho": -0.0029819785830801
-        },
-        "teams": {
-          "Remo / PA": {
-            "attack": 0.098134161417721,
-            "defense": -0.0815384641740481
-          },
-          "Palmeiras / SP": {
-            "attack": 0.52779507133342,
-            "defense": 0.5009770210995899
-          }
-        }
-      }
-    },
-    {
       "home_team": "Atlético Mineiro / MG",
       "away_team": "Botafogo / RJ",
       "home_crest": "assets/crests/atleticomg_bra.png",
@@ -1205,6 +1267,37 @@
           "Botafogo / RJ": {
             "attack": 0.53459387575076,
             "defense": 0.0026583681041139
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Remo / PA",
+      "away_team": "Palmeiras / SP",
+      "home_crest": "assets/crests/remo.png",
+      "away_crest": "assets/crests/palmeiras.png",
+      "home_color": "#001F5B",
+      "away_color": "#006437",
+      "date": "2026-05-10T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-04",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0936605368870129,
+          "beta_home": 0.3415612997271,
+          "rho": -0.0029819785830801
+        },
+        "teams": {
+          "Remo / PA": {
+            "attack": 0.098134161417721,
+            "defense": -0.0815384641740481
+          },
+          "Palmeiras / SP": {
+            "attack": 0.52779507133342,
+            "defense": 0.5009770210995899
           }
         }
       }
@@ -1334,37 +1427,6 @@
       }
     },
     {
-      "home_team": "Internacional / RS",
-      "away_team": "Fluminense / RJ",
-      "home_crest": "assets/crests/internacional_bra.png",
-      "away_crest": "assets/crests/flurj.png",
-      "home_color": "#E5050F",
-      "away_color": "#870A28",
-      "date": "2026-05-03T21:30:00Z",
-      "home_goals": 2,
-      "away_goals": 0,
-      "has_model": true,
-      "reference_date": "2026-04-27",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.1027924254478794,
-          "beta_home": 0.345236547228,
-          "rho": 0.0091522516372568
-        },
-        "teams": {
-          "Internacional / RS": {
-            "attack": 0.0897448777612307,
-            "defense": 0.0925492827893591
-          },
-          "Fluminense / RJ": {
-            "attack": 0.365248596301132,
-            "defense": 0.2910889431277689
-          }
-        }
-      }
-    },
-    {
       "home_team": "Chapecoense / SC",
       "away_team": "Red Bull Bragantino / SP",
       "home_crest": "assets/crests/chapecoense_bra.png",
@@ -1391,6 +1453,37 @@
           "Red Bull Bragantino / SP": {
             "attack": 0.1735598497269032,
             "defense": 0.0218935652415394
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Internacional / RS",
+      "away_team": "Fluminense / RJ",
+      "home_crest": "assets/crests/internacional_bra.png",
+      "away_crest": "assets/crests/flurj.png",
+      "home_color": "#E5050F",
+      "away_color": "#870A28",
+      "date": "2026-05-03T21:30:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-27",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1027924254478794,
+          "beta_home": 0.345236547228,
+          "rho": 0.0091522516372568
+        },
+        "teams": {
+          "Internacional / RS": {
+            "attack": 0.0897448777612307,
+            "defense": 0.0925492827893591
+          },
+          "Fluminense / RJ": {
+            "attack": 0.365248596301132,
+            "defense": 0.2910889431277689
           }
         }
       }
@@ -1675,37 +1768,6 @@
       }
     },
     {
-      "home_team": "Red Bull Bragantino / SP",
-      "away_team": "Palmeiras / SP",
-      "home_crest": "assets/crests/bragantino_bra.png",
-      "away_crest": "assets/crests/palmeiras.png",
-      "home_color": "#CC0000",
-      "away_color": "#006437",
-      "date": "2026-04-26T21:30:00Z",
-      "home_goals": 0,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-04-20",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0938723347926756,
-          "beta_home": 0.346263439317,
-          "rho": -0.0125501610357235
-        },
-        "teams": {
-          "Red Bull Bragantino / SP": {
-            "attack": 0.1962993367430667,
-            "defense": 0.0187898975786683
-          },
-          "Palmeiras / SP": {
-            "attack": 0.5566313127589,
-            "defense": 0.4687173690520873
-          }
-        }
-      }
-    },
-    {
       "home_team": "Athletico Paranaense / PR",
       "away_team": "Vitória / BA",
       "home_crest": "assets/crests/atleticopr_bra.png",
@@ -1732,6 +1794,37 @@
           "Vitória / BA": {
             "attack": -0.0226413655959139,
             "defense": 0.1014890980278968
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Red Bull Bragantino / SP",
+      "away_team": "Palmeiras / SP",
+      "home_crest": "assets/crests/bragantino_bra.png",
+      "away_crest": "assets/crests/palmeiras.png",
+      "home_color": "#CC0000",
+      "away_color": "#006437",
+      "date": "2026-04-26T21:30:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-20",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0938723347926756,
+          "beta_home": 0.346263439317,
+          "rho": -0.0125501610357235
+        },
+        "teams": {
+          "Red Bull Bragantino / SP": {
+            "attack": 0.1962993367430667,
+            "defense": 0.0187898975786683
+          },
+          "Palmeiras / SP": {
+            "attack": 0.5566313127589,
+            "defense": 0.4687173690520873
           }
         }
       }
@@ -1830,6 +1923,37 @@
       }
     },
     {
+      "home_team": "Botafogo / RJ",
+      "away_team": "Internacional / RS",
+      "home_crest": "assets/crests/botafogorj_bra.png",
+      "away_crest": "assets/crests/internacional_bra.png",
+      "home_color": "#000000",
+      "away_color": "#E5050F",
+      "date": "2026-04-25T21:30:00Z",
+      "home_goals": 2,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-04-20",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0938723347926756,
+          "beta_home": 0.346263439317,
+          "rho": -0.0125501610357235
+        },
+        "teams": {
+          "Botafogo / RJ": {
+            "attack": 0.5581143679181301,
+            "defense": 0.0538831202853536
+          },
+          "Internacional / RS": {
+            "attack": 0.054609896904895,
+            "defense": 0.09878632982475
+          }
+        }
+      }
+    },
+    {
       "home_team": "Remo / PA",
       "away_team": "Cruzeiro / MG",
       "home_crest": "assets/crests/remo.png",
@@ -1892,37 +2016,6 @@
       }
     },
     {
-      "home_team": "Botafogo / RJ",
-      "away_team": "Internacional / RS",
-      "home_crest": "assets/crests/botafogorj_bra.png",
-      "away_crest": "assets/crests/internacional_bra.png",
-      "home_color": "#000000",
-      "away_color": "#E5050F",
-      "date": "2026-04-25T21:30:00Z",
-      "home_goals": 2,
-      "away_goals": 2,
-      "has_model": true,
-      "reference_date": "2026-04-20",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0938723347926756,
-          "beta_home": 0.346263439317,
-          "rho": -0.0125501610357235
-        },
-        "teams": {
-          "Botafogo / RJ": {
-            "attack": 0.5581143679181301,
-            "defense": 0.0538831202853536
-          },
-          "Internacional / RS": {
-            "attack": 0.054609896904895,
-            "defense": 0.09878632982475
-          }
-        }
-      }
-    },
-    {
       "home_team": "Flamengo / RJ",
       "away_team": "Bahia / BA",
       "home_crest": "assets/crests/flarj.png",
@@ -1949,37 +2042,6 @@
           "Bahia / BA": {
             "attack": 0.276667912525947,
             "defense": 0.143033164432057
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Red Bull Bragantino / SP",
-      "away_team": "Remo / PA",
-      "home_crest": "assets/crests/bragantino_bra.png",
-      "away_crest": "assets/crests/remo.png",
-      "home_color": "#CC0000",
-      "away_color": "#001F5B",
-      "date": "2026-04-19T21:30:00Z",
-      "home_goals": 4,
-      "away_goals": 2,
-      "has_model": true,
-      "reference_date": "2026-04-13",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.1035665568726615,
-          "beta_home": 0.359064711274,
-          "rho": -0.0077329677009375
-        },
-        "teams": {
-          "Red Bull Bragantino / SP": {
-            "attack": 0.1128443167939683,
-            "defense": 0.0322856351467546
-          },
-          "Remo / PA": {
-            "attack": 0.1002252651737254,
-            "defense": -0.0733280237695868
           }
         }
       }
@@ -2016,15 +2078,15 @@
       }
     },
     {
-      "home_team": "Santos / SP",
-      "away_team": "Fluminense / RJ",
-      "home_crest": "assets/crests/santos.png",
-      "away_crest": "assets/crests/flurj.png",
-      "home_color": "#000000",
-      "away_color": "#870A28",
-      "date": "2026-04-19T19:00:00Z",
-      "home_goals": 2,
-      "away_goals": 3,
+      "home_team": "Red Bull Bragantino / SP",
+      "away_team": "Remo / PA",
+      "home_crest": "assets/crests/bragantino_bra.png",
+      "away_crest": "assets/crests/remo.png",
+      "home_color": "#CC0000",
+      "away_color": "#001F5B",
+      "date": "2026-04-19T21:30:00Z",
+      "home_goals": 4,
+      "away_goals": 2,
       "has_model": true,
       "reference_date": "2026-04-13",
       "params": {
@@ -2035,13 +2097,13 @@
           "rho": -0.0077329677009375
         },
         "teams": {
-          "Santos / SP": {
-            "attack": 0.1883912905257391,
-            "defense": 0.0640506531074949
+          "Red Bull Bragantino / SP": {
+            "attack": 0.1128443167939683,
+            "defense": 0.0322856351467546
           },
-          "Fluminense / RJ": {
-            "attack": 0.3090553658636851,
-            "defense": 0.3255075619709511
+          "Remo / PA": {
+            "attack": 0.1002252651737254,
+            "defense": -0.0733280237695868
           }
         }
       }
@@ -2073,6 +2135,37 @@
           "Atlético Mineiro / MG": {
             "attack": 0.1481163031891667,
             "defense": 0.1425686353821038
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Santos / SP",
+      "away_team": "Fluminense / RJ",
+      "home_crest": "assets/crests/santos.png",
+      "away_crest": "assets/crests/flurj.png",
+      "home_color": "#000000",
+      "away_color": "#870A28",
+      "date": "2026-04-19T19:00:00Z",
+      "home_goals": 2,
+      "away_goals": 3,
+      "has_model": true,
+      "reference_date": "2026-04-13",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1035665568726615,
+          "beta_home": 0.359064711274,
+          "rho": -0.0077329677009375
+        },
+        "teams": {
+          "Santos / SP": {
+            "attack": 0.1883912905257391,
+            "defense": 0.0640506531074949
+          },
+          "Fluminense / RJ": {
+            "attack": 0.3090553658636851,
+            "defense": 0.3255075619709511
           }
         }
       }
@@ -2233,37 +2326,6 @@
       }
     },
     {
-      "home_team": "Cruzeiro / MG",
-      "away_team": "Red Bull Bragantino / SP",
-      "home_crest": "assets/crests/cruzeiro_bra.png",
-      "away_crest": "assets/crests/bragantino_bra.png",
-      "home_color": "#2F529E",
-      "away_color": "#CC0000",
-      "date": "2026-04-12T21:30:00Z",
-      "home_goals": 2,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-04-06",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0883958385747135,
-          "beta_home": 0.361383841576,
-          "rho": -0.0083289287529813
-        },
-        "teams": {
-          "Cruzeiro / MG": {
-            "attack": 0.2138454884907026,
-            "defense": 0.1250357394975993
-          },
-          "Red Bull Bragantino / SP": {
-            "attack": 0.0830605756663869,
-            "defense": 0.040975506520694
-          }
-        }
-      }
-    },
-    {
       "home_team": "Corinthians / SP",
       "away_team": "Palmeiras / SP",
       "home_crest": "assets/crests/corinthians_bra.png",
@@ -2290,6 +2352,37 @@
           "Palmeiras / SP": {
             "attack": 0.56353361141534,
             "defense": 0.387041402508437
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Cruzeiro / MG",
+      "away_team": "Red Bull Bragantino / SP",
+      "home_crest": "assets/crests/cruzeiro_bra.png",
+      "away_crest": "assets/crests/bragantino_bra.png",
+      "home_color": "#2F529E",
+      "away_color": "#CC0000",
+      "date": "2026-04-12T21:30:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-06",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0883958385747135,
+          "beta_home": 0.361383841576,
+          "rho": -0.0083289287529813
+        },
+        "teams": {
+          "Cruzeiro / MG": {
+            "attack": 0.2138454884907026,
+            "defense": 0.1250357394975993
+          },
+          "Red Bull Bragantino / SP": {
+            "attack": 0.0830605756663869,
+            "defense": 0.040975506520694
           }
         }
       }
@@ -3287,14 +3380,14 @@
       }
     },
     {
-      "home_team": "Athletico Paranaense / PR",
-      "away_team": "Coritiba / PR",
-      "home_crest": "assets/crests/atleticopr_bra.png",
-      "away_crest": "assets/crests/coritiba_bra.png",
-      "home_color": "#CE181E",
-      "away_color": "#00544D",
+      "home_team": "Cruzeiro / MG",
+      "away_team": "Santos / SP",
+      "home_crest": "assets/crests/cruzeiro_bra.png",
+      "away_crest": "assets/crests/santos.png",
+      "home_color": "#2F529E",
+      "away_color": "#000000",
       "date": "2026-03-22T19:00:00Z",
-      "home_goals": 2,
+      "home_goals": 0,
       "away_goals": 0,
       "has_model": true,
       "reference_date": "2026-03-20",
@@ -3306,13 +3399,13 @@
           "rho": 0.0170662898741093
         },
         "teams": {
-          "Athletico Paranaense / PR": {
-            "attack": 0.1353827963570854,
-            "defense": 0.0311634104271005
+          "Cruzeiro / MG": {
+            "attack": 0.2239968341326373,
+            "defense": 0.1514798154580801
           },
-          "Coritiba / PR": {
-            "attack": -0.0895975804836502,
-            "defense": 0.3885793490951009
+          "Santos / SP": {
+            "attack": 0.1908950556196851,
+            "defense": -0.0160665144830948
           }
         }
       }
@@ -3349,6 +3442,37 @@
       }
     },
     {
+      "home_team": "Athletico Paranaense / PR",
+      "away_team": "Coritiba / PR",
+      "home_crest": "assets/crests/atleticopr_bra.png",
+      "away_crest": "assets/crests/coritiba_bra.png",
+      "home_color": "#CE181E",
+      "away_color": "#00544D",
+      "date": "2026-03-22T19:00:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-03-20",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0921236425140879,
+          "beta_home": 0.358099401985,
+          "rho": 0.0170662898741093
+        },
+        "teams": {
+          "Athletico Paranaense / PR": {
+            "attack": 0.1353827963570854,
+            "defense": 0.0311634104271005
+          },
+          "Coritiba / PR": {
+            "attack": -0.0895975804836502,
+            "defense": 0.3885793490951009
+          }
+        }
+      }
+    },
+    {
       "home_team": "Remo / PA",
       "away_team": "Bahia / BA",
       "home_crest": "assets/crests/remo.png",
@@ -3375,37 +3499,6 @@
           "Bahia / BA": {
             "attack": 0.1844684146084295,
             "defense": 0.192748712508508
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Cruzeiro / MG",
-      "away_team": "Santos / SP",
-      "home_crest": "assets/crests/cruzeiro_bra.png",
-      "away_crest": "assets/crests/santos.png",
-      "home_color": "#2F529E",
-      "away_color": "#000000",
-      "date": "2026-03-22T19:00:00Z",
-      "home_goals": 0,
-      "away_goals": 0,
-      "has_model": true,
-      "reference_date": "2026-03-20",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0921236425140879,
-          "beta_home": 0.358099401985,
-          "rho": 0.0170662898741093
-        },
-        "teams": {
-          "Cruzeiro / MG": {
-            "attack": 0.2239968341326373,
-            "defense": 0.1514798154580801
-          },
-          "Santos / SP": {
-            "attack": 0.1908950556196851,
-            "defense": -0.0160665144830948
           }
         }
       }
@@ -3597,37 +3690,6 @@
       }
     },
     {
-      "home_team": "Santos / SP",
-      "away_team": "Internacional / RS",
-      "home_crest": "assets/crests/santos.png",
-      "away_crest": "assets/crests/internacional_bra.png",
-      "home_color": "#000000",
-      "away_color": "#E5050F",
-      "date": "2026-03-19T00:30:00Z",
-      "home_goals": 1,
-      "away_goals": 2,
-      "has_model": true,
-      "reference_date": "2026-03-16",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0866848253435291,
-          "beta_home": 0.353590881085,
-          "rho": 0.0173496838558497
-        },
-        "teams": {
-          "Santos / SP": {
-            "attack": 0.2055465784161786,
-            "defense": 0.0201644627302618
-          },
-          "Internacional / RS": {
-            "attack": 0.0157554026000664,
-            "defense": 0.0028120411046236
-          }
-        }
-      }
-    },
-    {
       "home_team": "Vasco da Gama / RJ",
       "away_team": "Fluminense / RJ",
       "home_crest": "assets/crests/vasco.png",
@@ -3654,6 +3716,37 @@
           "Fluminense / RJ": {
             "attack": 0.2358859388232282,
             "defense": 0.3915962208044173
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Santos / SP",
+      "away_team": "Internacional / RS",
+      "home_crest": "assets/crests/santos.png",
+      "away_crest": "assets/crests/internacional_bra.png",
+      "home_color": "#000000",
+      "away_color": "#E5050F",
+      "date": "2026-03-19T00:30:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-03-16",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0866848253435291,
+          "beta_home": 0.353590881085,
+          "rho": 0.0173496838558497
+        },
+        "teams": {
+          "Santos / SP": {
+            "attack": 0.2055465784161786,
+            "defense": 0.0201644627302618
+          },
+          "Internacional / RS": {
+            "attack": 0.0157554026000664,
+            "defense": 0.0028120411046236
           }
         }
       }
@@ -3969,14 +4062,14 @@
       }
     },
     {
-      "home_team": "Internacional / RS",
-      "away_team": "Bahia / BA",
-      "home_crest": "assets/crests/internacional_bra.png",
-      "away_crest": "assets/crests/bahia.png",
-      "home_color": "#E5050F",
-      "away_color": "#006CB5",
+      "home_team": "Santos / SP",
+      "away_team": "Corinthians / SP",
+      "home_crest": "assets/crests/santos.png",
+      "away_crest": "assets/crests/corinthians_bra.png",
+      "home_color": "#000000",
+      "away_color": "#000000",
       "date": "2026-03-15T19:00:00Z",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 1,
       "has_model": true,
       "reference_date": "2026-03-13",
@@ -3988,13 +4081,13 @@
           "rho": 0.0119128522794736
         },
         "teams": {
-          "Internacional / RS": {
-            "attack": 0.0636422793011524,
-            "defense": -0.0042570949520906
+          "Santos / SP": {
+            "attack": 0.2195515169307555,
+            "defense": 0.0149264855951787
           },
-          "Bahia / BA": {
-            "attack": 0.1849521736270998,
-            "defense": 0.1244649395877453
+          "Corinthians / SP": {
+            "attack": 0.1067171179885935,
+            "defense": 0.1254692413288339
           }
         }
       }
@@ -4031,14 +4124,14 @@
       }
     },
     {
-      "home_team": "Santos / SP",
-      "away_team": "Corinthians / SP",
-      "home_crest": "assets/crests/santos.png",
-      "away_crest": "assets/crests/corinthians_bra.png",
-      "home_color": "#000000",
-      "away_color": "#000000",
+      "home_team": "Internacional / RS",
+      "away_team": "Bahia / BA",
+      "home_crest": "assets/crests/internacional_bra.png",
+      "away_crest": "assets/crests/bahia.png",
+      "home_color": "#E5050F",
+      "away_color": "#006CB5",
       "date": "2026-03-15T19:00:00Z",
-      "home_goals": 1,
+      "home_goals": 0,
       "away_goals": 1,
       "has_model": true,
       "reference_date": "2026-03-13",
@@ -4050,13 +4143,13 @@
           "rho": 0.0119128522794736
         },
         "teams": {
-          "Santos / SP": {
-            "attack": 0.2195515169307555,
-            "defense": 0.0149264855951787
+          "Internacional / RS": {
+            "attack": 0.0636422793011524,
+            "defense": -0.0042570949520906
           },
-          "Corinthians / SP": {
-            "attack": 0.1067171179885935,
-            "defense": 0.1254692413288339
+          "Bahia / BA": {
+            "attack": 0.1849521736270998,
+            "defense": 0.1244649395877453
           }
         }
       }
@@ -4434,37 +4527,6 @@
       }
     },
     {
-      "home_team": "Palmeiras / SP",
-      "away_team": "Fluminense / RJ",
-      "home_crest": "assets/crests/palmeiras.png",
-      "away_crest": "assets/crests/flurj.png",
-      "home_color": "#006437",
-      "away_color": "#870A28",
-      "date": "2026-02-26T00:30:00Z",
-      "home_goals": 2,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-02-20",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0903013431251441,
-          "beta_home": 0.368106618988,
-          "rho": 0.0222012555366193
-        },
-        "teams": {
-          "Palmeiras / SP": {
-            "attack": 0.5812195059830999,
-            "defense": 0.3508177237852622
-          },
-          "Fluminense / RJ": {
-            "attack": 0.1612302750043596,
-            "defense": 0.4195875180150933
-          }
-        }
-      }
-    },
-    {
       "home_team": "Grêmio / RS",
       "away_team": "Atlético Mineiro / MG",
       "home_crest": "assets/crests/gremio.png",
@@ -4491,6 +4553,37 @@
           "Atlético Mineiro / MG": {
             "attack": 0.1137830757672019,
             "defense": 0.0601145762579374
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Palmeiras / SP",
+      "away_team": "Fluminense / RJ",
+      "home_crest": "assets/crests/palmeiras.png",
+      "away_crest": "assets/crests/flurj.png",
+      "home_color": "#006437",
+      "away_color": "#870A28",
+      "date": "2026-02-26T00:30:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-02-20",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0903013431251441,
+          "beta_home": 0.368106618988,
+          "rho": 0.0222012555366193
+        },
+        "teams": {
+          "Palmeiras / SP": {
+            "attack": 0.5812195059830999,
+            "defense": 0.3508177237852622
+          },
+          "Fluminense / RJ": {
+            "attack": 0.1612302750043596,
+            "defense": 0.4195875180150933
           }
         }
       }
@@ -4775,37 +4868,6 @@
       }
     },
     {
-      "home_team": "Vasco da Gama / RJ",
-      "away_team": "Bahia / BA",
-      "home_crest": "assets/crests/vasco.png",
-      "away_crest": "assets/crests/bahia.png",
-      "home_color": "#000000",
-      "away_color": "#006CB5",
-      "date": "2026-02-12T00:30:00Z",
-      "home_goals": 0,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-02-06",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0946917320499094,
-          "beta_home": 0.372601697213,
-          "rho": 0.0136687020852531
-        },
-        "teams": {
-          "Vasco da Gama / RJ": {
-            "attack": 0.2627021346158651,
-            "defense": -0.1409834473711279
-          },
-          "Bahia / BA": {
-            "attack": 0.2028683245574274,
-            "defense": 0.0847508641794484
-          }
-        }
-      }
-    },
-    {
       "home_team": "São Paulo / SP",
       "away_team": "Grêmio / RS",
       "home_crest": "assets/crests/saopaulo_bra.png",
@@ -4832,6 +4894,37 @@
           "Grêmio / RS": {
             "attack": 0.3085326746951535,
             "defense": -0.0118415540974125
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Vasco da Gama / RJ",
+      "away_team": "Bahia / BA",
+      "home_crest": "assets/crests/vasco.png",
+      "away_crest": "assets/crests/bahia.png",
+      "home_color": "#000000",
+      "away_color": "#006CB5",
+      "date": "2026-02-12T00:30:00Z",
+      "home_goals": 0,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-02-06",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.0946917320499094,
+          "beta_home": 0.372601697213,
+          "rho": 0.0136687020852531
+        },
+        "teams": {
+          "Vasco da Gama / RJ": {
+            "attack": 0.2627021346158651,
+            "defense": -0.1409834473711279
+          },
+          "Bahia / BA": {
+            "attack": 0.2028683245574274,
+            "defense": 0.0847508641794484
           }
         }
       }
