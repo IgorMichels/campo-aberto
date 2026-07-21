@@ -84,7 +84,7 @@ def build_stan_data(
     reference_date: pd.Timestamp | None = None,
     half_life_weeks: float = DEFAULT_HALF_LIFE_WEEKS,
     max_weeks_ago: int = DEFAULT_MAX_WEEKS_AGO,
-    rho_prior_sd: float = 0.1,
+    rho_prior_sd: float = 0.05,
     group_prior_mean: tuple[float, float, float, float] = (0.3, 0.1, -0.1, -0.3),
     group_prior_sd: float = 1.0,
     phi_prior: tuple[float, float] = (2.0, 0.1),
@@ -102,8 +102,11 @@ def build_stan_data(
             latest match_datetime.
         rho_prior_sd: sd of poisson_home.stan's `rho ~ normal(0, rho_prior_sd)`
             prior. Only poisson_home.stan declares/reads this; every other
-            model's .stan file ignores the key. Default matches that model's
-            previously-hardcoded literal.
+            model's .stan file ignores the key. Default is poisson_home's
+            tuned value (src.models.hyperparameter_sweep, see
+            src.constants.DEFAULT_HALF_LIFE_WEEKS's docstring comment for the
+            paired half_life/window tuning), not the pre-sweep hardcoded
+            literal (0.1).
         group_prior_mean: mean vector of hierarchical_home.stan's
             `mu_attack/mu_defense ~ normal(group_prior_mean, group_prior_sd)`
             prior (one value per _prior_groups group, in STAYED_TOP,
