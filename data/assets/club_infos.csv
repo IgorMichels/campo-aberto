@@ -1,57 +1,57 @@
 club,acronym,primary_color,secondary_color,tertiary_color,crest_path
-ABC / RN,ABC,#000000,#FFFFFF,#FFF200,data/assets/crests/abcrn_bra.png
-Amazonas / AM,AMA,#FFCC00,#000000,,data/assets/crests/amazonas.png
-América / MG,AME,#006140,#FFFFFF,#000000,data/assets/crests/americamg_bra.png
+ABC / RN,ABC,#000000,#FFFFFF,#FFF200,data/assets/crests/abc_rn.png
+Amazonas / AM,AMA,#FFCC00,#000000,,data/assets/crests/amazonas_am.png
+América / MG,AME,#006140,#FFFFFF,#000000,data/assets/crests/america_mg.png
 Athletic / MG,ATH,#000000,#FFFFFF,,data/assets/crests/athletic_mg.png
-Athletico Paranaense / PR,CAP,#CE181E,#000000,,data/assets/crests/atleticopr_bra.png
-Atlético Goianiense / GO,ACG,#CC0000,#000000,,data/assets/crests/atleticogo_bra.png
-Atlético Mineiro / MG,CAM,#000000,#FFFFFF,,data/assets/crests/atleticomg_bra.png
-Avaí / SC,AVA,#005AB2,#FFFFFF,,data/assets/crests/avai_bra.png
-Bahia / BA,BAH,#006CB5,#FFFFFF,#ED3237,data/assets/crests/bahia.png
-Botafogo / RJ,BOT,#000000,#FFFFFF,,data/assets/crests/botafogorj_bra.png
-Botafogo / SP,BSP,#E52D2D,#000000,#FFFFFF,data/assets/crests/botafogosp_bra.png
-Brasil / RS,BRA,#DE303C,#000000,#FFFFFF,data/assets/crests/brasilpelotas_bra.png
-Brusque / SC,BRU,#ED1C24,#009B3A,#FFFFFF,data/assets/crests/brusque.png
-CRB / AL,CRB,#ED1C2A,#FFFFFF,,data/assets/crests/crb_bra.png
-CSA / AL,CSA,#002864,#FFFFFF,,data/assets/crests/csa_bra.png
-Ceará / CE,CEA,#000000,#FFFFFF,,data/assets/crests/ceara_bra.png
-Chapecoense / SC,CHA,#008000,#FFFFFF,,data/assets/crests/chapecoense_bra.png
+Athletico Paranaense / PR,CAP,#CE181E,#000000,,data/assets/crests/athletico_paranaense_pr.png
+Atlético Goianiense / GO,ACG,#CC0000,#000000,,data/assets/crests/atletico_goianiense_go.png
+Atlético Mineiro / MG,CAM,#000000,#FFFFFF,,data/assets/crests/atletico_mineiro_mg.png
+Avaí / SC,AVA,#005AB2,#FFFFFF,,data/assets/crests/avai_sc.png
+Bahia / BA,BAH,#006CB5,#FFFFFF,#ED3237,data/assets/crests/bahia_ba.png
+Botafogo / RJ,BOT,#000000,#FFFFFF,,data/assets/crests/botafogo_rj.png
+Botafogo / SP,BSP,#E52D2D,#000000,#FFFFFF,data/assets/crests/botafogo_sp.png
+Brasil / RS,BRA,#DE303C,#000000,#FFFFFF,data/assets/crests/brasil_rs.png
+Brusque / SC,BRU,#ED1C24,#009B3A,#FFFFFF,data/assets/crests/brusque_sc.png
+CRB / AL,CRB,#ED1C2A,#FFFFFF,,data/assets/crests/crb_al.png
+CSA / AL,CSA,#002864,#FFFFFF,,data/assets/crests/csa_al.png
+Ceará / CE,CEA,#000000,#FFFFFF,,data/assets/crests/ceara_ce.png
+Chapecoense / SC,CHA,#008000,#FFFFFF,,data/assets/crests/chapecoense_sc.png
 Confiança / SE,CON,#005BB1,#FFFFFF,#D3A620,data/assets/crests/confianca_se.png
-Corinthians / SP,COR,#000000,#FFFFFF,,data/assets/crests/corinthians_bra.png
-Coritiba / PR,CFC,#00544D,#FFFFFF,,data/assets/crests/coritiba_bra.png
-Criciúma / SC,CRI,#FFCC00,#000000,#FFFFFF,data/assets/crests/criciuma_bra.png
-Cruzeiro / MG,CRU,#2F529E,#FFFFFF,,data/assets/crests/cruzeiro_bra.png
-Cuiabá / MT,CUI,#006633,#FFEE00,,data/assets/crests/cuiaba_bra.png
-Ferroviária / SP,FER,#800020,#FFFFFF,,data/assets/crests/ferroviariasp.png
-Figueirense / SC,FIG,#000000,#FFFFFF,#009E4F,data/assets/crests/figueirense.png
-Flamengo / RJ,FLA,#C52613,#000000,#FFFFFF,data/assets/crests/flarj.png
-Fluminense / RJ,FLU,#870A28,#00613C,#FFFFFF,data/assets/crests/flurj.png
-Fortaleza / CE,FOR,#006CB5,#F32B09,#FFFFFF,data/assets/crests/fortaleza.png
-Goiás / GO,GOI,#006633,#FFFFFF,,data/assets/crests/goias.png
-Grêmio / RS,GRE,#0D80BF,#000000,#FFFFFF,data/assets/crests/gremio.png
-Guarani / SP,GUA,#006C51,#FFFFFF,#B48C3E,data/assets/crests/guaranisp_bra.png
-Internacional / RS,INT,#E5050F,#FFFFFF,,data/assets/crests/internacional_bra.png
-Ituano / SP,ITU,#ED1C24,#FFFFFF,#000000,data/assets/crests/ituanofc.png
-Juventude / RS,JUV,#008000,#FFFFFF,,data/assets/crests/juventude.png
+Corinthians / SP,COR,#000000,#FFFFFF,,data/assets/crests/corinthians_sp.png
+Coritiba / PR,CFC,#00544D,#FFFFFF,,data/assets/crests/coritiba_pr.png
+Criciúma / SC,CRI,#FFCC00,#000000,#FFFFFF,data/assets/crests/criciuma_sc.png
+Cruzeiro / MG,CRU,#2F529E,#FFFFFF,,data/assets/crests/cruzeiro_mg.png
+Cuiabá / MT,CUI,#006633,#FFEE00,,data/assets/crests/cuiaba_mt.png
+Ferroviária / SP,FER,#800020,#FFFFFF,,data/assets/crests/ferroviaria_sp.png
+Figueirense / SC,FIG,#000000,#FFFFFF,#009E4F,data/assets/crests/figueirense_sc.png
+Flamengo / RJ,FLA,#C52613,#000000,#FFFFFF,data/assets/crests/flamengo_rj.png
+Fluminense / RJ,FLU,#870A28,#00613C,#FFFFFF,data/assets/crests/fluminense_rj.png
+Fortaleza / CE,FOR,#006CB5,#F32B09,#FFFFFF,data/assets/crests/fortaleza_ce.png
+Goiás / GO,GOI,#006633,#FFFFFF,,data/assets/crests/goias_go.png
+Grêmio / RS,GRE,#0D80BF,#000000,#FFFFFF,data/assets/crests/gremio_rs.png
+Guarani / SP,GUA,#006C51,#FFFFFF,#B48C3E,data/assets/crests/guarani_sp.png
+Internacional / RS,INT,#E5050F,#FFFFFF,,data/assets/crests/internacional_rs.png
+Ituano / SP,ITU,#ED1C24,#FFFFFF,#000000,data/assets/crests/ituano_sp.png
+Juventude / RS,JUV,#008000,#FFFFFF,,data/assets/crests/juventude_rs.png
 Londrina / PR,LON,#E5292E,#FFFFFF,#000000,data/assets/crests/londrina_pr.png
-Mirassol / SP,MIR,#F3EC0A,#126F3D,#FFFFFF,data/assets/crests/mirassol.png
-Novorizontino / SP,NOV,#F6E32F,#FFFFFF,#000000,data/assets/crests/novorizontino.png
-Náutico / PE,NAU,#ED1C24,#FFFFFF,,data/assets/crests/nautico.png
-Oeste / SP,OES,#000000,#FFFFFF,#FF0016,data/assets/crests/oestesp_bra.png
+Mirassol / SP,MIR,#F3EC0A,#126F3D,#FFFFFF,data/assets/crests/mirassol_sp.png
+Novorizontino / SP,NOV,#F6E32F,#FFFFFF,#000000,data/assets/crests/novorizontino_sp.png
+Náutico / PE,NAU,#ED1C24,#FFFFFF,,data/assets/crests/nautico_pe.png
+Oeste / SP,OES,#000000,#FFFFFF,#FF0016,data/assets/crests/oeste_sp.png
 Operário / PR,OPE,#000000,#FFFFFF,,data/assets/crests/operario_pr.png
-Palmeiras / SP,PAL,#006437,#FFFFFF,,data/assets/crests/palmeiras.png
-Paraná / PR,PAR,#FF1035,#FFFFFF,#00428E,data/assets/crests/parana.png
-Paysandu / PA,PAY,#0055A4,#FFFFFF,,data/assets/crests/paysandu.png
-Ponte Preta / SP,PON,#000000,#FFFFFF,,data/assets/crests/pontepreta_bra.png
-Red Bull Bragantino / SP,RBB,#CC0000,#FFFFFF,#000000,data/assets/crests/bragantino_bra.png
-Remo / PA,REM,#001F5B,#FFFFFF,,data/assets/crests/remo.png
-Sampaio Corrêa / MA,SAM,#009846,#FFFFFF,#FFED00,data/assets/crests/samapaiocorrea_ma.png
-Santos / SP,SAN,#000000,#FFFFFF,,data/assets/crests/santos.png
-Sport / PE,SPT,#CC001A,#000000,,data/assets/crests/sport.png
-São Bernardo / SP,SBE,#FFD100,#000000,,data/assets/crests/saobernardosp.png
-São Paulo / SP,SAO,#FE0000,#FFFFFF,#000000,data/assets/crests/saopaulo_bra.png
+Palmeiras / SP,PAL,#006437,#FFFFFF,,data/assets/crests/palmeiras_sp.png
+Paraná / PR,PAR,#FF1035,#FFFFFF,#00428E,data/assets/crests/parana_pr.png
+Paysandu / PA,PAY,#0055A4,#FFFFFF,,data/assets/crests/paysandu_pa.png
+Ponte Preta / SP,PON,#000000,#FFFFFF,,data/assets/crests/ponte_preta_sp.png
+Red Bull Bragantino / SP,RBB,#CC0000,#FFFFFF,#000000,data/assets/crests/red_bull_bragantino_sp.png
+Remo / PA,REM,#001F5B,#FFFFFF,,data/assets/crests/remo_pa.png
+Sampaio Corrêa / MA,SAM,#009846,#FFFFFF,#FFED00,data/assets/crests/sampaio_correa_ma.png
+Santos / SP,SAN,#000000,#FFFFFF,,data/assets/crests/santos_sp.png
+Sport / PE,SPT,#CC001A,#000000,,data/assets/crests/sport_pe.png
+São Bernardo / SP,SBE,#FFD100,#000000,,data/assets/crests/sao_bernardo_sp.png
+São Paulo / SP,SAO,#FE0000,#FFFFFF,#000000,data/assets/crests/sao_paulo_sp.png
 Tombense / MG,TOM,#EB4436,#FFFFFF,,data/assets/crests/tombense_mg.png
-Vasco da Gama / RJ,VAS,#000000,#FFFFFF,,data/assets/crests/vasco.png
-Vila Nova / GO,VIL,#FDF40F,#ED3237,#FFFFFF,data/assets/crests/vilago.png
-Vitória / BA,VIT,#CC0000,#000000,,data/assets/crests/vitoria.png
-Volta Redonda / RJ,VOL,#FFD100,#000000,#FFFFFF,data/assets/crests/volta.png
+Vasco da Gama / RJ,VAS,#000000,#FFFFFF,,data/assets/crests/vasco_da_gama_rj.png
+Vila Nova / GO,VIL,#FDF40F,#ED3237,#FFFFFF,data/assets/crests/vila_nova_go.png
+Vitória / BA,VIT,#CC0000,#000000,,data/assets/crests/vitoria_ba.png
+Volta Redonda / RJ,VOL,#FFD100,#000000,#FFFFFF,data/assets/crests/volta_redonda_rj.png
