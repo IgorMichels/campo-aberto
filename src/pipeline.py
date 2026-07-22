@@ -18,8 +18,13 @@
    export (src.site.export_matches_data, matches.csv + the same results ->
    site/data/matches_manifest.json + <slug>/matches_<season>.json +
    params.json), both as of the same reference_date so they agree on
-   "as of". The site/ output still needs to be reviewed and committed for a
-   deploy to actually go out -- see site/README.md.
+   "as of".
+5. Recomputes the model-statistics page's aggregate metrics
+   (src.site.model_stats, exact-scoreline/direction accuracy, Brier,
+   calibration -- site/data/model_stats.json) from the played-match data
+   stage 4 just wrote, since it depends on played_<season>.json already
+   being on disk. The site/ output still needs to be reviewed and committed
+   for a deploy to actually go out -- see site/README.md.
 """
 
 import argparse
@@ -45,6 +50,7 @@ from src.simulation.run_rounds import latest_checkpoint_date
 from src.simulation.simulate import simulate_competition
 from src.site.export_matches_data import export_matches_data
 from src.site.export_site_data import export_site_data
+from src.site.model_stats import export_model_stats
 
 
 def _parse_guaranteed_slots(entries: list[str]) -> dict[str, list[str]]:
@@ -80,7 +86,7 @@ def main() -> None:
     args = parser.parse_args()
     guaranteed_slots = _parse_guaranteed_slots(args.guaranteed_slot)
 
-    print("=== 1/4: scraping + building treated dataset ===")
+    print("=== 1/5: scraping + building treated dataset ===")
     scrape_raw_matches.main()
     espn_fixtures.main()
     build_treated_dataset.main()
@@ -94,7 +100,7 @@ def main() -> None:
     # schedule can never recompute or line up with later.
     reference_date = latest_checkpoint_date()
 
-    print(f"=== 2/4: fitting {args.model} ===")
+    print(f"=== 2/5: fitting {args.model} ===")
     # at least one posterior draw per requested Monte Carlo replicate
     iter_sampling = -(-args.n_draws // args.chains)
     mcmc_fit, teams = fit(
@@ -108,7 +114,7 @@ def main() -> None:
     samples_path = save_samples(mcmc_fit, teams, args.matches, model=args.model)
     print(f"Saved samples to {samples_path}")
 
-    print("=== 3/4: simulating the rest of the season ===")
+    print("=== 3/5: simulating the rest of the season ===")
     for config_path in args.configs:
         config = load_competition_config(config_path)
         result = simulate_competition(
@@ -129,9 +135,13 @@ def main() -> None:
         results_path = save_results(result, config.name, args.season, reference_date)
         print(f"Saved results to {results_path}")
 
-    print("=== 4/4: exporting site data ===")
+    print("=== 4/5: exporting site data ===")
     export_site_data()
     export_matches_data(now=reference_date)
+
+    print("=== 5/5: recomputing model-statistics page metrics ===")
+    export_model_stats()
+
     print(
         f"Site data refreshed under {SITE_DIR}/data -- review and commit that directory to deploy."
     )
