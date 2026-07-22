@@ -201,8 +201,58 @@ def _resolve_manual_side(
     return np.full(n_draws, team_index[side])
 
 
+def _apply_real_leg_results(
+    g_home: np.ndarray,
+    g_away: np.ndarray,
+    idx_home: np.ndarray,
+    idx_away: np.ndarray,
+    teams,
+    matches_df: pd.DataFrame,
+    competition: str,
+    season: int,
+    reference_date: pd.Timestamp,
+) -> tuple[np.ndarray, np.ndarray]:
+    """Overrides sampled (g_home, g_away), per draw, with a leg's real score
+    wherever that exact ordered (home, away) pair has already been played for
+    real as of reference_date -- draws with no real result keep their sampled
+    score untouched.
+
+    idx_home/idx_away (and so g_home/g_away) are (n_draws,) arrays: for
+    table_position/bracket_adjacent pairings, which two teams occupy this
+    pair can in principle vary per draw (e.g. a tiebreak coin flip inside
+    standings.rank_table varying the source phase's seed) even though in the
+    common real-backtest case it's the same two teams every draw. Handling
+    that in general -- rather than assuming a single shared pair -- means one
+    fixtures.real_result lookup per *unique* (home_name, away_name) pair
+    across all draws (typically 1-2, not n_draws), broadcast to every draw
+    matching that pair.
+    """
+    home_names = np.asarray(teams)[idx_home]
+    away_names = np.asarray(teams)[idx_away]
+    g_home = np.array(g_home, copy=True)
+    g_away = np.array(g_away, copy=True)
+    for home_name, away_name in {(h, a) for h, a in zip(home_names, away_names)}:
+        real = fixtures.real_result(
+            matches_df, competition, season, reference_date, home_name, away_name
+        )
+        if real is None:
+            continue
+        mask = (home_names == home_name) & (away_names == away_name)
+        g_home[mask], g_away[mask] = real
+    return g_home, g_away
+
+
 def _simulate_playoff_pair(
-    idx_a, idx_b, draw_params: DrawParams, teams, phase_cfg: PlayoffPhaseConfig, rng
+    idx_a,
+    idx_b,
+    draw_params: DrawParams,
+    teams,
+    phase_cfg: PlayoffPhaseConfig,
+    rng,
+    matches_df: pd.DataFrame,
+    competition: str,
+    season: int,
+    reference_date: pd.Timestamp,
 ):
     """idx_a, idx_b: (n_draws,) team indices for the two seeds of one pair -- 'a' is
     the better-seeded team (e.g. higher table position, or the pair listed first in
@@ -210,7 +260,11 @@ def _simulate_playoff_pair(
     shape (n_draws,).
 
     `leg_order` decides who hosts leg 1; the other team hosts leg 2 (the only leg,
-    when `legs == 1`).
+    when `legs == 1`). Both legs are still sampled unconditionally for every draw
+    (cheap, already vectorized) -- _apply_real_leg_results then overrides whichever
+    draws have a real, already-played result for that specific leg's ordered
+    (home, away) pair, independently per leg, so a leg already played for real is
+    used as-is instead of thrown away for a fabricated score (see fixtures.real_result).
     """
     if phase_cfg.leg_order == "worse_seed_home_first":
         home1, away1 = idx_b, idx_a
@@ -219,6 +273,9 @@ def _simulate_playoff_pair(
 
     g_home1, g_away1 = draw_params.adapter.sample_scores_single(
         draw_params.team_params, draw_params.shared_params, home1, away1, rng
+    )
+    g_home1, g_away1 = _apply_real_leg_results(
+        g_home1, g_away1, home1, away1, teams, matches_df, competition, season, reference_date
     )
 
     if phase_cfg.legs == 1:
@@ -237,6 +294,9 @@ def _simulate_playoff_pair(
     home2, away2 = away1, home1
     g_home2, g_away2 = draw_params.adapter.sample_scores_single(
         draw_params.team_params, draw_params.shared_params, home2, away2, rng
+    )
+    g_home2, g_away2 = _apply_real_leg_results(
+        g_home2, g_away2, home2, away2, teams, matches_df, competition, season, reference_date
     )
 
     if phase_cfg.leg_order == "worse_seed_home_first":
@@ -267,6 +327,10 @@ def _run_playoff_phase(
     draw_params: DrawParams,
     teams: list[str],
     rng: np.random.Generator,
+    competition: str,
+    season: int,
+    reference_date: pd.Timestamp,
+    matches_df: pd.DataFrame,
 ) -> PlayoffResult:
     team_index = draw_params.team_index
     n_draws = draw_params.n_draws
@@ -313,7 +377,18 @@ def _run_playoff_phase(
         ]
 
     winners = {
-        pair_index: _simulate_playoff_pair(idx_a, idx_b, draw_params, teams, phase_cfg, rng)
+        pair_index: _simulate_playoff_pair(
+            idx_a,
+            idx_b,
+            draw_params,
+            teams,
+            phase_cfg,
+            rng,
+            matches_df,
+            competition,
+            season,
+            reference_date,
+        )
         for pair_index, (idx_a, idx_b) in enumerate(pair_sides)
     }
     return PlayoffResult(winners=winners)
@@ -538,7 +613,15 @@ def simulate_competition(
             )
         else:
             phase_results[phase_cfg.id] = _run_playoff_phase(
-                phase_cfg, phase_results, draw_params, sim_teams, rng
+                phase_cfg,
+                phase_results,
+                draw_params,
+                sim_teams,
+                rng,
+                config.name,
+                season,
+                reference_date,
+                matches_df,
             )
 
     result = _tabulate(config, phase_results, n_draws, rng, guaranteed_slots)
