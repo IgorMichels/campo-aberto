@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campo Aberto - Estatísticas do modelo</title>
+    <meta
+      name="description"
+      content="Acerto de placar exato, direção (1X2), Brier e calibração do modelo bayesiano do Campo Aberto contra todos os jogos já disputados."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%E2%9A%BD</text></svg>"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/model_stats.css" />
+    <script>
+      // Applies any stored theme choice before first paint, so the page
+      // never flashes the wrong palette. theme.js (loaded later) owns the
+      // toggle button itself.
+      (() => {
+        const stored = localStorage.getItem("campo-aberto-theme");
+        if (stored === "light" || stored === "dark") {
+          document.documentElement.setAttribute("data-theme", stored);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-pressed="false"
+      aria-label="Mudar para tema escuro"
+    ></button>
+
+    <header class="page-header">
+      <h1>Campo Aberto</h1>
+      <p class="subtitle">Quão bom é o modelo, contra todos os jogos já disputados</p>
+    </header>
+
+    <nav class="page-nav" aria-label="Páginas">
+      <a href="../index.html">Início</a>
+      <a href="../probabilities.html">Classificação</a>
+      <a href="../evolution.html">Evolução</a>
+      <div class="nav-dropdown">
+        <a
+          href="../matches/upcoming.html"
+          class="nav-dropdown-trigger"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Jogos</a
+        >
+        <div class="nav-dropdown-menu">
+          <a href="../matches/upcoming.html">Próximos</a>
+          <a href="../matches/played.html">Passados</a>
+          <a href="../matches/simulate.html">Simule</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <a
+          href="docs.html"
+          class="nav-dropdown-trigger"
+          aria-haspopup="true"
+          aria-expanded="false"
+          aria-current="page"
+          >Modelo</a
+        >
+        <div class="nav-dropdown-menu">
+          <a href="docs.html">Documentação</a>
+          <a href="stats.html" aria-current="page">Estatísticas</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <p class="stats-lede">
+        Toda vez que o modelo já fez uma previsão para um jogo que aconteceu de verdade, dá pra
+        conferir se ele acertou. Esta página compara as probabilidades que o modelo calculou
+        <em>antes</em> de cada partida contra o resultado real dela, para todos os jogos já
+        disputados da Série A e da Série B com um ajuste do modelo disponível.
+      </p>
+
+      <div id="kpi-row" class="kpi-row"></div>
+
+      <section class="breakdown-section">
+        <h2>Por competição e temporada</h2>
+        <div id="breakdown-table" class="breakdown-table"></div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <p>
+        Gerado a partir de simulações do
+        <a href="https://github.com/IgorMichels/campo-aberto" target="_blank" rel="noopener"
+          >campo-aberto</a
+        >.
+      </p>
+      <p class="last-updated" id="last-updated"></p>
+    </footer>
+
+    <script src="../assets/js/nav.js"></script>
+    <script src="../assets/js/theme.js"></script>
+    <!-- Placeholder analytics hook -- inert until a provider is picked, see assets/js/analytics.js -->
+    <script src="../assets/js/analytics.js"></script>
+    <script src="../assets/js/last_updated.js"></script>
+    <script src="../assets/js/model_stats.js"></script>
+    <script>
+      (async () => {
+        try {
+          const data = await window.ModelStats.fetchJSON("data/model_stats.json");
+          window.ModelStats.renderKPITiles("kpi-row", data.breakdown.all);
+          window.ModelStats.renderBreakdownTable("breakdown-table", data.breakdown);
+        } catch (error) {
+          console.error(error);
+        }
+      })();
+    </script>
+  </body>
+</html>

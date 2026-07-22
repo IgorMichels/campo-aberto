@@ -1,0 +1,65 @@
+/* site/model/stats.html -- KPI-tile row + breakdown table, doesn't fit
+   model.css's prose-article layout (that file is for docs.html's long-form
+   text) or matches.css's sticker-card rules -- same "new CSS file per page
+   family" precedent as matches.css/model.css themselves. */
+
+.stats-lede {
+  max-width: 720px;
+  margin: 0 auto 1.5rem;
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  max-width: 960px;
+  margin: 0 auto 2rem;
+}
+
+.kpi-tile {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface-1);
+  padding: 1.1rem 1rem;
+  text-align: center;
+}
+
+.kpi-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.kpi-label {
+  margin-top: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.breakdown-section {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.breakdown-section h2 {
+  font-size: 1.2rem;
+  margin: 0 0 0.75rem;
+  color: var(--text-primary);
+}
+
+.breakdown-table {
+  overflow-x: auto;
+}
+
+.breakdown-table table {
+  min-width: 0;
+}
+
+.breakdown-table td {
+  padding: 0.5rem;
+  text-align: center;
+  border-bottom: 1px solid var(--gridline);
+}
