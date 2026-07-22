@@ -18,6 +18,7 @@ from src.simulation.run_rounds import (
     _debut_team_aliases,
     _relegated_teams_previous_season,
     _write_log,
+    latest_checkpoint_date,
     load_configs_by_season,
     reference_dates,
 )
@@ -64,6 +65,38 @@ def _config_with_relegation(positions: tuple[int, int] = (3, 4)) -> CompetitionC
         ),
     )
     return CompetitionConfig(name="Serie B", n_teams=4, phases=(phase,))
+
+
+def test_latest_checkpoint_date_returns_the_same_day_when_already_a_monday():
+    assert latest_checkpoint_date(pd.Timestamp("2026-07-20")) == pd.Timestamp("2026-07-20")
+
+
+def test_latest_checkpoint_date_returns_the_same_day_when_already_a_friday():
+    assert latest_checkpoint_date(pd.Timestamp("2026-07-17")) == pd.Timestamp("2026-07-17")
+
+
+def test_latest_checkpoint_date_walks_back_from_saturday_to_friday():
+    assert latest_checkpoint_date(pd.Timestamp("2026-07-18")) == pd.Timestamp("2026-07-17")
+
+
+def test_latest_checkpoint_date_walks_back_from_sunday_to_friday():
+    assert latest_checkpoint_date(pd.Timestamp("2026-07-19")) == pd.Timestamp("2026-07-17")
+
+
+def test_latest_checkpoint_date_walks_back_from_midweek_to_monday():
+    # Tuesday, Wednesday, Thursday all fall back to the same preceding Monday.
+    for day in ("2026-07-21", "2026-07-22", "2026-07-23"):
+        assert latest_checkpoint_date(pd.Timestamp(day)) == pd.Timestamp("2026-07-20")
+
+
+def test_latest_checkpoint_date_normalizes_away_the_time_of_day():
+    assert latest_checkpoint_date(pd.Timestamp("2026-07-20 18:45:00")) == pd.Timestamp("2026-07-20")
+
+
+def test_latest_checkpoint_date_defaults_to_a_checkpoint_on_or_before_now():
+    result = latest_checkpoint_date()
+    assert result.weekday() in (0, 4)
+    assert result <= pd.Timestamp.now().normalize()
 
 
 def test_reference_dates_lands_on_the_next_monday_or_friday_on_or_after_a_match():

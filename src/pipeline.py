@@ -5,9 +5,13 @@
    stages -- see that module's docstring).
 2. Fits poisson_home.stan on the full match history and saves posterior
    samples for historical tracking (src.models.fit).
-3. Simulates the rest of the season as of the latest known match and reports
-   title / continental / promotion / relegation probabilities
-   (src.simulation.simulate).
+3. Simulates the rest of the season as of the most recent Monday or Friday
+   (src.simulation.run_rounds.latest_checkpoint_date) and reports title /
+   continental / promotion / relegation probabilities (src.simulation.simulate)
+   -- the same twice-weekly cadence src.simulation.run_rounds backtests on,
+   so this command's single ad-hoc "run for today" checkpoint always lands
+   where a walk-forward backtest would too, instead of drifting onto
+   whatever day of the week the latest match happened to be played.
 4. Exports the fresh data into the static site's committed data: both the
    standings/odds export (src.site.export_site_data, data/results/ snapshots
    -> site/data/manifest.json + <slug>/<season>.json) and the Confrontos
@@ -37,6 +41,7 @@ from src.models.fit import fit, save_samples
 from src.models.registry import DEFAULT_MODEL, MODEL_REGISTRY
 from src.simulation.config import load_competition_config
 from src.simulation.results import save_results
+from src.simulation.run_rounds import latest_checkpoint_date
 from src.simulation.simulate import simulate_competition
 from src.site.export_matches_data import export_matches_data
 from src.site.export_site_data import export_site_data
@@ -82,10 +87,12 @@ def main() -> None:
 
     df = pd.read_csv(args.matches)
     df["match_datetime"] = pd.to_datetime(df["match_datetime"])
-    # matches.csv can now contain scheduled/postponed rows with no result
-    # (see build_treated_dataset.py) -- reference_date must still land on the
-    # latest *played* match, not a future fixture's date.
-    reference_date = df[df["home_goals"].notna()]["match_datetime"].max()
+    # Same fixed Monday/Friday cadence src.simulation.run_rounds backtests on
+    # -- this is meant to be the standard "update the site" command, so a
+    # single ad-hoc run must land on a checkpoint the walk-forward backtest
+    # would also produce, not an arbitrary result day (e.g. a Saturday) that
+    # schedule can never recompute or line up with later.
+    reference_date = latest_checkpoint_date()
 
     print(f"=== 2/4: fitting {args.model} ===")
     # at least one posterior draw per requested Monte Carlo replicate
