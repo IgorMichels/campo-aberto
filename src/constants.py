@@ -39,6 +39,13 @@ DEFAULT_SEED = 0
 DEFAULT_HALF_LIFE_WEEKS = 52
 DEFAULT_MAX_WEEKS_AGO = 182
 
+# Seasons the site treats as real, browsable history (Confrontos "jogos
+# passados", the evolution chart, standings, and the model-stats page) --
+# not just current + previous year. 2022 is the floor because it's the
+# first season with a genuine 2-year training window available (data back
+# to 2020), matching src.models.backtest's walk-forward evaluation start.
+SITE_SEASONS = [*range(2022, DEFAULT_SEASON + 1)]
+
 SAMPLES_DIR = "data/samples"  # posterior attack/defense draws, saved by src.models.fit
 RESULTS_DIR = "data/results"  # per-competition spot probabilities, saved by src.simulation.run
 BACKTEST_CACHE_DIR = (
