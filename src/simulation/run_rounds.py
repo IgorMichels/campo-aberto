@@ -107,6 +107,20 @@ def load_configs_by_season(seasons: list[int]) -> dict[int, list[CompetitionConf
     return configs_by_season
 
 
+def latest_checkpoint_date(today: pd.Timestamp | None = None) -> pd.Timestamp:
+    """The most recent Monday or Friday on or before `today` (default: now),
+    normalized to midnight -- the same fixed twice-weekly cadence
+    reference_dates() backtests on. src.pipeline's single ad-hoc "run for
+    today" fit uses this instead of the latest played match's own date, so an
+    off-schedule result day (e.g. a Saturday) doesn't produce a checkpoint the
+    walk-forward backtest would never land on and can't ever recompute later.
+    """
+    day = (today or pd.Timestamp.now()).normalize()
+    while day.weekday() not in (0, 4):  # Monday, Friday
+        day -= pd.Timedelta(days=1)
+    return day
+
+
 def reference_dates(
     df: pd.DataFrame, competition: str, season: int, config: CompetitionConfig
 ) -> list[pd.Timestamp]:
@@ -174,9 +188,7 @@ def reference_dates(
     match_days = [pd.Timestamp(day) for day in match_days]
     known_froms = sorted(slot.known_from.normalize() for slot in config.guaranteed_slots)
 
-    pre_season = first_day - pd.Timedelta(days=1)
-    while pre_season.weekday() not in (0, 4):
-        pre_season -= pd.Timedelta(days=1)
+    pre_season = latest_checkpoint_date(first_day - pd.Timedelta(days=1))
 
     included: list[pd.Timestamp] = [pre_season]
     last_included = pre_season
