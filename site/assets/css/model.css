@@ -1,0 +1,74 @@
+/* site/model/docs.html -- a long-form prose page, unlike every other page
+   family here (tables/grids/pickers). style.css's own typography stops at
+   headings inside .page-header and .home-card, so this file only adds what
+   a multi-section article needs: a readable measure, spaced-out <section>s,
+   and a boxed callout for the one plain-language "formula" on the page. */
+
+.docs-article {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.docs-lede {
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  margin: 0 0 0.5rem;
+  line-height: 1.6;
+}
+
+.docs-article section {
+  margin-top: 2rem;
+}
+
+.docs-article h2 {
+  font-size: 1.3rem;
+  margin: 0 0 0.7rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.docs-article h3 {
+  font-size: 1.05rem;
+  margin: 1.1rem 0 0.4rem;
+  color: var(--text-primary);
+}
+
+.docs-article p {
+  margin: 0 0 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+.docs-article p:last-child {
+  margin-bottom: 0;
+}
+
+/* The one boxed aside on the page -- the plain-language stand-in for the
+   Stan model's mu/lambda formula (see poisson_home.stan), spelled out in
+   words instead of Greek letters. */
+.docs-callout {
+  margin: 1rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface-1);
+}
+
+.docs-callout-label {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.docs-callout p {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+}
+
+.docs-callout p:last-child {
+  margin-bottom: 0;
+}

@@ -315,6 +315,20 @@ The free-pick builder's team rosters (names/crests/colors, not strengths)
 are read from the already-existing `data/<slug>/<season>.json` files above,
 filtered to teams present in `params.json`'s `teams` dict.
 
+## Modelo
+
+`model/docs.html` ("Documentação", under the "Modelo" nav dropdown) is a
+static, hand-written prose explainer of how the model works in plain
+Portuguese -- what a scoreline probability grid is, why the fit is
+Bayesian (posterior uncertainty, not a point estimate like Elo), what
+attack/defense/home-advantage represent, the Dixon-Coles low-score
+correction, and time-decay weighting of older matches. It reads no data
+files and needs no page-specific JS beyond the shared
+nav/theme/analytics/last-updated scripts every page already loads. The
+"Modelo" dropdown deliberately has room for one more entry (a future,
+not-yet-built model-statistics page covering calibration/accuracy) without
+any nav markup rework.
+
 ## SEO
 
 `robots.txt` allows crawling everything, and `sitemap.xml` hand-lists every
