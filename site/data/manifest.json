@@ -3,12 +3,12 @@
     {
       "competition": "Serie A",
       "slug": "serie_a",
-      "seasons": [2025, 2026]
+      "seasons": [2022, 2023, 2024, 2025, 2026]
     },
     {
       "competition": "Serie B",
       "slug": "serie_b",
-      "seasons": [2025, 2026]
+      "seasons": [2022, 2023, 2024, 2025, 2026]
     }
   ]
 }
