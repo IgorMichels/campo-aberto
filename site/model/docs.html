@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campo Aberto - Documentação do modelo</title>
+    <meta
+      name="description"
+      content="Como o modelo bayesiano do Campo Aberto funciona: ataque, defesa, vantagem de jogar em casa, a correção para placares baixos e o peso decrescente do tempo."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%E2%9A%BD</text></svg>"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/model.css" />
+    <script>
+      // Applies any stored theme choice before first paint, so the page
+      // never flashes the wrong palette. theme.js (loaded later) owns the
+      // toggle button itself.
+      (() => {
+        const stored = localStorage.getItem("campo-aberto-theme");
+        if (stored === "light" || stored === "dark") {
+          document.documentElement.setAttribute("data-theme", stored);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-pressed="false"
+      aria-label="Mudar para tema escuro"
+    ></button>
+
+    <header class="page-header">
+      <h1>Campo Aberto</h1>
+      <p class="subtitle">Como o modelo funciona</p>
+    </header>
+
+    <nav class="page-nav" aria-label="Páginas">
+      <a href="../index.html">Início</a>
+      <a href="../probabilities.html">Classificação</a>
+      <a href="../evolution.html">Evolução</a>
+      <div class="nav-dropdown">
+        <a
+          href="../matches/upcoming.html"
+          class="nav-dropdown-trigger"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Jogos</a
+        >
+        <div class="nav-dropdown-menu">
+          <a href="../matches/upcoming.html">Próximos</a>
+          <a href="../matches/played.html">Passados</a>
+          <a href="../matches/simulate.html">Simule</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <a
+          href="docs.html"
+          class="nav-dropdown-trigger"
+          aria-haspopup="true"
+          aria-expanded="false"
+          aria-current="page"
+          >Modelo</a
+        >
+        <div class="nav-dropdown-menu">
+          <a href="docs.html" aria-current="page">Documentação</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="docs-article">
+        <p class="docs-lede">
+          Todo número que aparece no Campo Aberto — probabilidade de título, de rebaixamento, de um
+          placar específico — vem do mesmo modelo estatístico, ajustado toda rodada com os
+          resultados mais recentes do Brasileirão. Esta página explica o que esse modelo faz e por
+          quê, sem entrar em métricas de acerto (isso fica para uma página futura, dedicada a
+          estatísticas do modelo).
+        </p>
+
+        <section>
+          <h2>O que o modelo realmente prevê</h2>
+          <p>
+            O modelo não tenta adivinhar "vai terminar 2 a 1". Para cada confronto, ele calcula uma
+            probabilidade para cada placar possível — 0 a 0, 1 a 0, 0 a 1, 2 a 1, e assim por diante
+            — formando uma distribuição inteira de resultados prováveis. É esse conjunto de
+            probabilidades, montado a partir de duas médias de gols esperados (uma para o mandante,
+            outra para o visitante), que alimenta tudo o que o site mostra: da grade de placares de
+            um jogo específico até a simulação de uma temporada inteira, rodada milhares de vezes,
+            para chegar às chances de título, acesso, classificação a torneios continentais e
+            rebaixamento.
+          </p>
+        </section>
+
+        <section>
+          <h2>Por que bayesiano, e não um número só por time</h2>
+          <p>
+            Um modelo mais simples, como o Elo, resume cada time a um único número de "força",
+            atualizado partida a partida. É um número só — não existe um jeito nativo de dizer o
+            quanto se deve confiar nele, e times com poucos jogos disputados acabam com uma força
+            tão "definida" quanto times com um histórico longo, mesmo havendo muito mais incerteza
+            sobre os primeiros.
+          </p>
+          <p>
+            O Campo Aberto usa outra abordagem: em vez de estimar um único valor de ataque e defesa
+            por time, o ajuste do modelo (feito em Stan, com amostragem via cadeias de Markov) gera
+            milhares de conjuntos de valores igualmente plausíveis para essas forças — a
+            distribuição posterior. Times com poucos jogos no recorte considerado têm uma posterior
+            mais espalhada (mais incerteza genuína sobre sua força real); times com histórico longo
+            e consistente têm uma posterior mais concentrada. Quando o site simula uma temporada
+            milhares de vezes, cada simulação parte de uma amostra diferente dessa distribuição —
+            então a incerteza sobre "quão bom cada time realmente é" é carregada adiante, e não
+            apagada logo na primeira etapa do cálculo.
+          </p>
+        </section>
+
+        <section>
+          <h2>Ataque, defesa e vantagem de jogar em casa</h2>
+          <p>
+            Cada time tem dois parâmetros aprendidos a partir do seu histórico de gols marcados e
+            sofridos, já descontando a força de quem ele enfrentou (marcar 3 gols num time fraco
+            pesa menos do que marcar 3 num time forte): uma força de <strong>ataque</strong> — o
+            quanto o time tende a marcar acima da média contra um adversário médio — e uma força de
+            <strong>defesa</strong> — o quanto ele tende a conceder abaixo (ou acima) dessa mesma
+            média. Some-se a isso um nível médio de gols do campeonato como um todo e uma vantagem
+            extra por jogar em casa, esta última compartilhada por todos os times (o modelo não
+            aprende um "efeito mandante" diferente para cada clube, só um valor único que se aplica
+            a quem estiver jogando em seus domínios naquela partida).
+          </p>
+          <div class="docs-callout">
+            <p class="docs-callout-label">Em palavras, não em símbolos</p>
+            <p>
+              Gols esperados do mandante = ataque do mandante − defesa do visitante + nível médio de
+              gols do campeonato + vantagem de jogar em casa.
+            </p>
+            <p>
+              Gols esperados do visitante = ataque do visitante − defesa do mandante + nível médio
+              de gols do campeonato.
+            </p>
+          </div>
+          <p>
+            Esses dois números — gols esperados do mandante e do visitante — são as médias de duas
+            distribuições de Poisson independentes, o processo aleatório padrão para "quantos
+            eventos raros acontecem num intervalo", aqui aplicado a gols numa partida. Cada uma
+            delas já embute toda a incerteza da posterior descrita acima: como ataque, defesa e
+            vantagem de casa vêm de uma distribuição de valores plausíveis, e não de um número fixo,
+            o gol esperado final também varia de simulação para simulação.
+          </p>
+        </section>
+
+        <section>
+          <h2>A correção de Dixon-Coles para placares baixos</h2>
+          <p>
+            Duas distribuições de Poisson tratadas como totalmente independentes uma da outra
+            funcionam bem para a maioria dos placares, mas erram sistematicamente nos mais baixos:
+            no futebol real, 0 a 0 e 1 a 1 acontecem com uma frequência um pouco diferente da que
+            duas Poissons independentes preveriam, e o mesmo vale para 1 a 0 e 0 a 1. Uma explicação
+            intuitiva é que gols marcados na mesma partida não são de fato independentes — o placar
+            parcial muda como as equipes jogam o resto do jogo (um time à frente por 1 a 0 tende a
+            se fechar mais, por exemplo), algo que duas distribuições separadas, cada uma ignorando
+            a outra, não capturam.
+          </p>
+          <p>
+            Para corrigir isso, o modelo ajusta um único parâmetro extra (chamado de
+            <em>rho</em> na literatura que o descreve, a técnica de Dixon-Coles) que reforça ou
+            reduz especificamente as probabilidades de 0 a 0, 1 a 0, 0 a 1 e 1 a 1, deixando todos
+            os outros placares exatamente como as duas Poissons independentes já previam. É uma
+            correção pequena e localizada, não uma reformulação do modelo inteiro — mas é o que faz
+            a grade de placares do site soar mais realista justamente nos resultados mais comuns do
+            futebol.
+          </p>
+        </section>
+
+        <section>
+          <h2>Jogos recentes pesam mais, jogos muito antigos são descartados</h2>
+          <p>
+            Elencos mudam, técnicos mudam, e a forma de um time num determinado momento da temporada
+            muitas vezes conta mais do que sua média histórica desde sempre. Por isso, ao reajustar
+            o modelo, cada partida do histórico entra com um peso diferente: partidas mais recentes
+            pesam mais, e esse peso vai caindo à medida que a partida fica mais distante no tempo —
+            reduzindo-se pela metade a cada ano completo, aproximadamente. Partidas antigas demais
+            (mais de umas três temporadas e meia atrás) deixam de entrar no ajuste de vez, em vez de
+            continuar contribuindo com um peso residual cada vez menor.
+          </p>
+          <p>
+            Na prática, isso significa que as forças de ataque e defesa de um time refletem
+            principalmente o que ele tem feito recentemente, com o histórico mais distante servindo
+            como pano de fundo cada vez mais tênue, em vez de uma âncora fixa.
+          </p>
+        </section>
+
+        <section>
+          <h2>Do ajuste do modelo ao placar que você vê no site</h2>
+          <p>
+            O ajuste do modelo em si — encontrar a posterior de ataque, defesa, nível médio de gols,
+            vantagem de casa e a correção de placares baixos — acontece uma vez por rodada, em Stan.
+            A partir daí, esses poucos números por time (e os poucos valores compartilhados por todo
+            o campeonato) já são suficientes para reconstruir a distribuição completa de placares de
+            qualquer confronto entre dois times do mesmo recorte: é exatamente essa reconstrução,
+            com a mesma fórmula descrita acima, que roda direto no seu navegador sempre que uma
+            grade de placares é exibida — seja num jogo real já agendado, seja num confronto
+            hipotético montado no simulador.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <p>
+        Gerado a partir de simulações do
+        <a href="https://github.com/IgorMichels/campo-aberto" target="_blank" rel="noopener"
+          >campo-aberto</a
+        >.
+      </p>
+      <p class="last-updated" id="last-updated"></p>
+    </footer>
+
+    <script src="../assets/js/nav.js"></script>
+    <script src="../assets/js/theme.js"></script>
+    <!-- Placeholder analytics hook -- inert until a provider is picked, see assets/js/analytics.js -->
+    <script src="../assets/js/analytics.js"></script>
+    <script src="../assets/js/last_updated.js"></script>
+  </body>
+</html>
