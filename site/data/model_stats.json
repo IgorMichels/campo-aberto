@@ -1,0 +1,197 @@
+{
+  "breakdown": {
+    "all": {
+      "n": 3390,
+      "exact_pct": 0.14778761061946902,
+      "direction_pct": 0.47581120943952804,
+      "brier": 0.6174051636263118,
+      "baseline_uniform_brier": 0.6666666666666798,
+      "baseline_climatology_brier": 0.6354429564657251,
+      "baseline_favorite_direction_pct": 0.4761061946902655
+    },
+    "by_competition": {
+      "Serie A": {
+        "n": 1699,
+        "exact_pct": 0.1318422601530312,
+        "direction_pct": 0.4861683343143025,
+        "brier": 0.6100669820615412,
+        "baseline_uniform_brier": 0.6666666666666602,
+        "baseline_climatology_brier": 0.6367890816915802,
+        "baseline_favorite_direction_pct": 0.4743967039434962
+      },
+      "Serie B": {
+        "n": 1691,
+        "exact_pct": 0.16380839739798936,
+        "direction_pct": 0.46540508574807804,
+        "brier": 0.624778061602981,
+        "baseline_uniform_brier": 0.6666666666666597,
+        "baseline_climatology_brier": 0.6332729610723158,
+        "baseline_favorite_direction_pct": 0.47782377291543465
+      }
+    },
+    "by_competition_season": {
+      "Serie A 2022": {
+        "n": 380,
+        "exact_pct": 0.1368421052631579,
+        "direction_pct": 0.46578947368421053,
+        "brier": 0.6157504307209295,
+        "baseline_uniform_brier": 0.6666666666666629,
+        "baseline_climatology_brier": 0.6488642659279746,
+        "baseline_favorite_direction_pct": 0.4421052631578947
+      },
+      "Serie A 2023": {
+        "n": 380,
+        "exact_pct": 0.11315789473684211,
+        "direction_pct": 0.4710526315789474,
+        "brier": 0.6181652833183438,
+        "baseline_uniform_brier": 0.6666666666666629,
+        "baseline_climatology_brier": 0.6391689750692513,
+        "baseline_favorite_direction_pct": 0.46842105263157896
+      },
+      "Serie A 2024": {
+        "n": 380,
+        "exact_pct": 0.14473684210526316,
+        "direction_pct": 0.4789473684210526,
+        "brier": 0.6141066173331774,
+        "baseline_uniform_brier": 0.6666666666666629,
+        "baseline_climatology_brier": 0.6371052631578926,
+        "baseline_favorite_direction_pct": 0.47368421052631576
+      },
+      "Serie A 2025": {
+        "n": 380,
+        "exact_pct": 0.1394736842105263,
+        "direction_pct": 0.5105263157894737,
+        "brier": 0.593350623881214,
+        "baseline_uniform_brier": 0.6666666666666629,
+        "baseline_climatology_brier": 0.6233933518005513,
+        "baseline_favorite_direction_pct": 0.5026315789473684
+      },
+      "Serie A 2026": {
+        "n": 179,
+        "exact_pct": 0.11731843575418995,
+        "direction_pct": 0.5251396648044693,
+        "brier": 0.6077211146713157,
+        "baseline_uniform_brier": 0.6666666666666683,
+        "baseline_climatology_brier": 0.6261352641927524,
+        "baseline_favorite_direction_pct": 0.4972067039106145
+      },
+      "Serie B 2022": {
+        "n": 380,
+        "exact_pct": 0.1763157894736842,
+        "direction_pct": 0.4605263157894737,
+        "brier": 0.6120764561915484,
+        "baseline_uniform_brier": 0.6666666666666629,
+        "baseline_climatology_brier": 0.6172991689750681,
+        "baseline_favorite_direction_pct": 0.49736842105263157
+      },
+      "Serie B 2023": {
+        "n": 380,
+        "exact_pct": 0.13421052631578947,
+        "direction_pct": 0.45526315789473687,
+        "brier": 0.6353364387082292,
+        "baseline_uniform_brier": 0.6666666666666629,
+        "baseline_climatology_brier": 0.6422714681440453,
+        "baseline_favorite_direction_pct": 0.45789473684210524
+      },
+      "Serie B 2024": {
+        "n": 380,
+        "exact_pct": 0.1736842105263158,
+        "direction_pct": 0.5078947368421053,
+        "brier": 0.6088182814496162,
+        "baseline_uniform_brier": 0.6666666666666629,
+        "baseline_climatology_brier": 0.61189750692521,
+        "baseline_favorite_direction_pct": 0.5236842105263158
+      },
+      "Serie B 2025": {
+        "n": 380,
+        "exact_pct": 0.16578947368421051,
+        "direction_pct": 0.45526315789473687,
+        "brier": 0.6316232244444854,
+        "baseline_uniform_brier": 0.6666666666666629,
+        "baseline_climatology_brier": 0.6410526315789458,
+        "baseline_favorite_direction_pct": 0.45789473684210524
+      },
+      "Serie B 2026": {
+        "n": 171,
+        "exact_pct": 0.17543859649122806,
+        "direction_pct": 0.4269005847953216,
+        "brier": 0.6497954963097514,
+        "baseline_uniform_brier": 0.6666666666666682,
+        "baseline_climatology_brier": 0.6549707602339171,
+        "baseline_favorite_direction_pct": 0.42105263157894735
+      }
+    }
+  },
+  "calibration": [
+    {
+      "bin_lo": 0.0,
+      "bin_hi": 0.1,
+      "n": 57,
+      "mean_predicted": 0.08067408339359397,
+      "observed_freq": 0.12280701754385964
+    },
+    {
+      "bin_lo": 0.1,
+      "bin_hi": 0.2,
+      "n": 939,
+      "mean_predicted": 0.16344949800544167,
+      "observed_freq": 0.14696485623003194
+    },
+    {
+      "bin_lo": 0.2,
+      "bin_hi": 0.3,
+      "n": 3940,
+      "mean_predicted": 0.26119284371092333,
+      "observed_freq": 0.2583756345177665
+    },
+    {
+      "bin_lo": 0.3,
+      "bin_hi": 0.4,
+      "n": 2677,
+      "mean_predicted": 0.3385108394367059,
+      "observed_freq": 0.33358236832274935
+    },
+    {
+      "bin_lo": 0.4,
+      "bin_hi": 0.5,
+      "n": 1405,
+      "mean_predicted": 0.44780025703039317,
+      "observed_freq": 0.45409252669039146
+    },
+    {
+      "bin_lo": 0.5,
+      "bin_hi": 0.6,
+      "n": 796,
+      "mean_predicted": 0.5444604623680076,
+      "observed_freq": 0.5816582914572864
+    },
+    {
+      "bin_lo": 0.6,
+      "bin_hi": 0.7,
+      "n": 287,
+      "mean_predicted": 0.6367647242411039,
+      "observed_freq": 0.6515679442508711
+    },
+    {
+      "bin_lo": 0.7,
+      "bin_hi": 0.8,
+      "n": 62,
+      "mean_predicted": 0.7364144288613663,
+      "observed_freq": 0.6612903225806451
+    },
+    {
+      "bin_lo": 0.8,
+      "bin_hi": 0.9,
+      "n": 7,
+      "mean_predicted": 0.8100168010168541,
+      "observed_freq": 0.7142857142857143
+    },
+    {
+      "bin_lo": 0.9,
+      "bin_hi": 1.0,
+      "n": 0,
+      "mean_predicted": null,
+      "observed_freq": null
+    }
+  ]
+}
