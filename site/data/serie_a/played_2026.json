@@ -1,99 +1,6 @@
 {
   "matches": [
     {
-      "home_team": "Mirassol / SP",
-      "away_team": "Grêmio / RS",
-      "home_crest": "assets/crests/mirassol_sp.png",
-      "away_crest": "assets/crests/gremio_rs.png",
-      "home_color": "#F3EC0A",
-      "away_color": "#0D80BF",
-      "date": "2026-07-17T23:00:00Z",
-      "home_goals": 2,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-07-16",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0667428055091036,
-          "beta_home": 0.3254313758415,
-          "rho": 0.0170482203576128
-        },
-        "teams": {
-          "Mirassol / SP": {
-            "attack": 0.2078049191658591,
-            "defense": 0.1682681495495349
-          },
-          "Grêmio / RS": {
-            "attack": 0.1473312387600543,
-            "defense": 0.0976385324908198
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Fluminense / RJ",
-      "away_team": "Red Bull Bragantino / SP",
-      "home_crest": "assets/crests/fluminense_rj.png",
-      "away_crest": "assets/crests/red_bull_bragantino_sp.png",
-      "home_color": "#870A28",
-      "away_color": "#CC0000",
-      "date": "2026-07-17T23:00:00Z",
-      "home_goals": 1,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-07-16",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0667428055091036,
-          "beta_home": 0.3254313758415,
-          "rho": 0.0170482203576128
-        },
-        "teams": {
-          "Fluminense / RJ": {
-            "attack": 0.315656559204628,
-            "defense": 0.2369938017406399
-          },
-          "Red Bull Bragantino / SP": {
-            "attack": 0.2425175208807828,
-            "defense": 0.0891640703678686
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Bahia / BA",
-      "away_team": "Chapecoense / SC",
-      "home_crest": "assets/crests/bahia_ba.png",
-      "away_crest": "assets/crests/chapecoense_sc.png",
-      "home_color": "#006CB5",
-      "away_color": "#008000",
-      "date": "2026-07-17T22:30:00Z",
-      "home_goals": 2,
-      "away_goals": 0,
-      "has_model": true,
-      "reference_date": "2026-07-16",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0667428055091036,
-          "beta_home": 0.3254313758415,
-          "rho": 0.0170482203576128
-        },
-        "teams": {
-          "Bahia / BA": {
-            "attack": 0.2937500037024489,
-            "defense": 0.047146357172937
-          },
-          "Chapecoense / SC": {
-            "attack": -0.0105635920385716,
-            "defense": -0.156837143798299
-          }
-        }
-      }
-    },
-    {
       "home_team": "Vitória / BA",
       "away_team": "Vasco da Gama / RJ",
       "home_crest": "assets/crests/vitoria_ba.png",
@@ -108,18 +15,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0687009275640389,
-          "beta_home": 0.325770280122,
-          "rho": -0.0066283134512093
+          "eta": -0.0852446263232371,
+          "beta_home": 0.34230384776,
+          "rho": -0.0003162112333794
         },
         "teams": {
           "Vitória / BA": {
-            "attack": 0.0958950235414653,
-            "defense": 0.0343591531190003
+            "attack": 0.0941429219388189,
+            "defense": 0.0421871389533331
           },
           "Vasco da Gama / RJ": {
-            "attack": 0.2427878850603698,
-            "defense": -0.1214171251525945
+            "attack": 0.2642808577978583,
+            "defense": -0.0930396323107243
           }
         }
       }
@@ -139,18 +46,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0687009275640389,
-          "beta_home": 0.325770280122,
-          "rho": -0.0066283134512093
+          "eta": -0.0852446263232371,
+          "beta_home": 0.34230384776,
+          "rho": -0.0003162112333794
         },
         "teams": {
           "Botafogo / RJ": {
-            "attack": 0.5161756243123701,
-            "defense": 0.0188227679118416
+            "attack": 0.4951336931035999,
+            "defense": 0.1600208395507442
           },
           "Santos / SP": {
-            "attack": 0.269834621257301,
-            "defense": -0.0100752827260249
+            "attack": 0.234164498551954,
+            "defense": -0.0045575679411673
           }
         }
       }
@@ -170,18 +77,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0627650982542029,
-          "beta_home": 0.318271982381,
-          "rho": -0.015180060187028
+          "eta": -0.0830665182541519,
+          "beta_home": 0.339228703002,
+          "rho": -0.003390978397315
         },
         "teams": {
           "Remo / PA": {
-            "attack": 0.1319427721506827,
-            "defense": -0.1044813644206054
+            "attack": 0.1414604753009864,
+            "defense": -0.0931340605096353
           },
           "São Paulo / SP": {
-            "attack": 0.2098811219484107,
-            "defense": 0.1395399328950413
+            "attack": 0.223617552911736,
+            "defense": 0.1813591292918925
           }
         }
       }
@@ -201,18 +108,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0627650982542029,
-          "beta_home": 0.318271982381,
-          "rho": -0.015180060187028
+          "eta": -0.0830665182541519,
+          "beta_home": 0.339228703002,
+          "rho": -0.003390978397315
         },
         "teams": {
           "Cruzeiro / MG": {
-            "attack": 0.267362464307692,
-            "defense": 0.1759732653053229
+            "attack": 0.2432375526176534,
+            "defense": 0.2601799971192219
           },
           "Fluminense / RJ": {
-            "attack": 0.304839518602949,
-            "defense": 0.243085498908741
+            "attack": 0.264404130984664,
+            "defense": 0.2449656111817655
           }
         }
       }
@@ -232,18 +139,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0627650982542029,
-          "beta_home": 0.318271982381,
-          "rho": -0.015180060187028
+          "eta": -0.0830665182541519,
+          "beta_home": 0.339228703002,
+          "rho": -0.003390978397315
         },
         "teams": {
           "Palmeiras / SP": {
-            "attack": 0.509987179241041,
-            "defense": 0.53377794420917
+            "attack": 0.52721069411,
+            "defense": 0.5035032555271
           },
           "Chapecoense / SC": {
-            "attack": -0.0069938154271867,
-            "defense": -0.209354121932284
+            "attack": -0.0294722040233382,
+            "defense": -0.1541106287358314
           }
         }
       }
@@ -263,18 +170,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0627650982542029,
-          "beta_home": 0.318271982381,
-          "rho": -0.015180060187028
+          "eta": -0.0830665182541519,
+          "beta_home": 0.339228703002,
+          "rho": -0.003390978397315
         },
         "teams": {
           "Vasco da Gama / RJ": {
-            "attack": 0.2802774844910698,
-            "defense": -0.1341188491582126
+            "attack": 0.280995887961578,
+            "defense": -0.1029353917241256
           },
           "Atlético Mineiro / MG": {
-            "attack": 0.1569627790469202,
-            "defense": 0.1061933511500684
+            "attack": 0.2014468261298736,
+            "defense": 0.1326606174963138
           }
         }
       }
@@ -294,18 +201,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0627650982542029,
-          "beta_home": 0.318271982381,
-          "rho": -0.015180060187028
+          "eta": -0.0830665182541519,
+          "beta_home": 0.339228703002,
+          "rho": -0.003390978397315
         },
         "teams": {
           "Red Bull Bragantino / SP": {
-            "attack": 0.1966399990935942,
-            "defense": 0.1002157107526115
+            "attack": 0.2104534928953598,
+            "defense": 0.1010871477747419
           },
           "Internacional / RS": {
-            "attack": 0.1635037798972467,
-            "defense": 0.0893139846413195
+            "attack": 0.2094623339113239,
+            "defense": 0.1157954059235099
           }
         }
       }
@@ -325,18 +232,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0627650982542029,
-          "beta_home": 0.318271982381,
-          "rho": -0.015180060187028
+          "eta": -0.0830665182541519,
+          "beta_home": 0.339228703002,
+          "rho": -0.003390978397315
         },
         "teams": {
           "Santos / SP": {
-            "attack": 0.2341277650056385,
-            "defense": -0.0103233681600185
+            "attack": 0.211288136670165,
+            "defense": -0.0091260367185805
           },
           "Vitória / BA": {
-            "attack": 0.1000902060604401,
-            "defense": 0.0635133463998198
+            "attack": 0.0907868233696368,
+            "defense": 0.0587817728332858
           }
         }
       }
@@ -356,18 +263,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0627650982542029,
-          "beta_home": 0.318271982381,
-          "rho": -0.015180060187028
+          "eta": -0.0830665182541519,
+          "beta_home": 0.339228703002,
+          "rho": -0.003390978397315
         },
         "teams": {
           "Bahia / BA": {
-            "attack": 0.2670700531335997,
-            "defense": 0.0918681770372431
+            "attack": 0.291250859531269,
+            "defense": 0.0943509268160618
           },
           "Botafogo / RJ": {
-            "attack": 0.5177992862957259,
-            "defense": 0.0211334973044965
+            "attack": 0.4965080288483399,
+            "defense": 0.165252501399988
           }
         }
       }
@@ -387,18 +294,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0627650982542029,
-          "beta_home": 0.318271982381,
-          "rho": -0.015180060187028
+          "eta": -0.0830665182541519,
+          "beta_home": 0.339228703002,
+          "rho": -0.003390978397315
         },
         "teams": {
           "Grêmio / RS": {
-            "attack": 0.15292610914794,
-            "defense": 0.1561303952968126
+            "attack": 0.2275821777951639,
+            "defense": 0.0973907242608856
           },
           "Corinthians / SP": {
-            "attack": 0.0394181587644065,
-            "defense": 0.2102748636400817
+            "attack": 0.1423099722407591,
+            "defense": 0.1807360832986236
           }
         }
       }
@@ -418,18 +325,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0627650982542029,
-          "beta_home": 0.318271982381,
-          "rho": -0.015180060187028
+          "eta": -0.0830665182541519,
+          "beta_home": 0.339228703002,
+          "rho": -0.003390978397315
         },
         "teams": {
           "Athletico Paranaense / PR": {
-            "attack": 0.1470014976795462,
-            "defense": 0.1545147815478718
+            "attack": 0.1704134581862206,
+            "defense": 0.1169464146311351
           },
           "Mirassol / SP": {
-            "attack": 0.2218059652331351,
-            "defense": 0.1684459925179071
+            "attack": 0.2006688015701404,
+            "defense": 0.2138593990115188
           }
         }
       }
@@ -449,18 +356,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0627650982542029,
-          "beta_home": 0.318271982381,
-          "rho": -0.015180060187028
+          "eta": -0.0830665182541519,
+          "beta_home": 0.339228703002,
+          "rho": -0.003390978397315
         },
         "teams": {
           "Flamengo / RJ": {
-            "attack": 0.5898278110145999,
-            "defense": 0.411703017107515
+            "attack": 0.59304144122,
+            "defense": 0.405426014699136
           },
           "Coritiba / PR": {
-            "attack": -0.0076428625071061,
-            "defense": 0.2367482528852978
+            "attack": -0.0245787156884405,
+            "defense": 0.125732293876182
           }
         }
       }
@@ -480,18 +387,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0745165080111086,
-          "beta_home": 0.338110865906,
-          "rho": -0.0218720675522194
+          "eta": -0.088053785395801,
+          "beta_home": 0.349112311649,
+          "rho": -0.0068623534068021
         },
         "teams": {
           "Coritiba / PR": {
-            "attack": -0.0008639164284387,
-            "defense": 0.238938593017929
+            "attack": -0.0182606391465506,
+            "defense": 0.1273137747780674
           },
           "Bahia / BA": {
-            "attack": 0.263146466509098,
-            "defense": 0.09329492208095
+            "attack": 0.289673212746275,
+            "defense": 0.0970900047560636
           }
         }
       }
@@ -511,18 +418,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0745165080111086,
-          "beta_home": 0.338110865906,
-          "rho": -0.0218720675522194
+          "eta": -0.088053785395801,
+          "beta_home": 0.349112311649,
+          "rho": -0.0068623534068021
         },
         "teams": {
           "Vasco da Gama / RJ": {
-            "attack": 0.313471168628824,
-            "defense": -0.0981701465006119
+            "attack": 0.3013009726828727,
+            "defense": -0.0791882257846966
           },
           "Red Bull Bragantino / SP": {
-            "attack": 0.1475180847097351,
-            "defense": 0.0515405194673884
+            "attack": 0.1841727154078961,
+            "defense": 0.0826831569253389
           }
         }
       }
@@ -542,18 +449,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0745165080111086,
-          "beta_home": 0.338110865906,
-          "rho": -0.0218720675522194
+          "eta": -0.088053785395801,
+          "beta_home": 0.349112311649,
+          "rho": -0.0068623534068021
         },
         "teams": {
           "Corinthians / SP": {
-            "attack": 0.0470905557383622,
-            "defense": 0.1804766319313296
+            "attack": 0.1464890531981836,
+            "defense": 0.1680332489511363
           },
           "Atlético Mineiro / MG": {
-            "attack": 0.1823474992831205,
-            "defense": 0.0984648544680713
+            "attack": 0.2166708329765174,
+            "defense": 0.1319323110639085
           }
         }
       }
@@ -573,18 +480,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0745165080111086,
-          "beta_home": 0.338110865906,
-          "rho": -0.0218720675522194
+          "eta": -0.088053785395801,
+          "beta_home": 0.349112311649,
+          "rho": -0.0068623534068021
         },
         "teams": {
           "Remo / PA": {
-            "attack": 0.1450694178065739,
-            "defense": -0.0829286207543887
+            "attack": 0.1514126523961446,
+            "defense": -0.07590598202674
           },
           "Athletico Paranaense / PR": {
-            "attack": 0.1305774818966278,
-            "defense": 0.1469907177770924
+            "attack": 0.1584200920353227,
+            "defense": 0.11505571100013
           }
         }
       }
@@ -604,18 +511,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0745165080111086,
-          "beta_home": 0.338110865906,
-          "rho": -0.0218720675522194
+          "eta": -0.088053785395801,
+          "beta_home": 0.349112311649,
+          "rho": -0.0068623534068021
         },
         "teams": {
           "Cruzeiro / MG": {
-            "attack": 0.2670480625784049,
-            "defense": 0.1804348575804666
+            "attack": 0.2434473590967113,
+            "defense": 0.2678385740517308
           },
           "Chapecoense / SC": {
-            "attack": -0.0108806735480129,
-            "defense": -0.2078295748329381
+            "attack": -0.0323277676747315,
+            "defense": -0.153093537465289
           }
         }
       }
@@ -635,49 +542,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0745165080111086,
-          "beta_home": 0.338110865906,
-          "rho": -0.0218720675522194
+          "eta": -0.088053785395801,
+          "beta_home": 0.349112311649,
+          "rho": -0.0068623534068021
         },
         "teams": {
           "Flamengo / RJ": {
-            "attack": 0.6148013729734001,
-            "defense": 0.487467704945728
+            "attack": 0.607150717936,
+            "defense": 0.44775840304375
           },
           "Palmeiras / SP": {
-            "attack": 0.468575221554621,
-            "defense": 0.485277374004856
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Mirassol / SP",
-      "away_team": "Fluminense / RJ",
-      "home_crest": "assets/crests/mirassol_sp.png",
-      "away_crest": "assets/crests/fluminense_rj.png",
-      "home_color": "#F3EC0A",
-      "away_color": "#870A28",
-      "date": "2026-05-23T22:00:00Z",
-      "home_goals": 1,
-      "away_goals": 0,
-      "has_model": true,
-      "reference_date": "2026-05-18",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0745165080111086,
-          "beta_home": 0.338110865906,
-          "rho": -0.0218720675522194
-        },
-        "teams": {
-          "Mirassol / SP": {
-            "attack": 0.2284230195331507,
-            "defense": 0.1349115177311619
-          },
-          "Fluminense / RJ": {
-            "attack": 0.3334514817093442,
-            "defense": 0.2334336446745219
+            "attack": 0.5055101368281001,
+            "defense": 0.4768585082222
           }
         }
       }
@@ -697,18 +573,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0745165080111086,
-          "beta_home": 0.338110865906,
-          "rho": -0.0218720675522194
+          "eta": -0.088053785395801,
+          "beta_home": 0.349112311649,
+          "rho": -0.0068623534068021
         },
         "teams": {
           "Grêmio / RS": {
-            "attack": 0.1068777993186834,
-            "defense": 0.1843499619790168
+            "attack": 0.2054461349461729,
+            "defense": 0.1123215293061836
           },
           "Santos / SP": {
-            "attack": 0.2014951646231491,
-            "defense": 0.027391807106942
+            "attack": 0.1997722507899109,
+            "defense": 0.0134458242874852
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Mirassol / SP",
+      "away_team": "Fluminense / RJ",
+      "home_crest": "assets/crests/mirassol_sp.png",
+      "away_crest": "assets/crests/fluminense_rj.png",
+      "home_color": "#F3EC0A",
+      "away_color": "#870A28",
+      "date": "2026-05-23T22:00:00Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-05-18",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.088053785395801,
+          "beta_home": 0.349112311649,
+          "rho": -0.0068623534068021
+        },
+        "teams": {
+          "Mirassol / SP": {
+            "attack": 0.2082345179555334,
+            "defense": 0.1961555803542291
+          },
+          "Fluminense / RJ": {
+            "attack": 0.279881379832795,
+            "defense": 0.2402956781215992
           }
         }
       }
@@ -728,18 +635,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0745165080111086,
-          "beta_home": 0.338110865906,
-          "rho": -0.0218720675522194
+          "eta": -0.088053785395801,
+          "beta_home": 0.349112311649,
+          "rho": -0.0068623534068021
         },
         "teams": {
           "Vitória / BA": {
-            "attack": 0.0755746919392943,
-            "defense": 0.0322299857347925
+            "attack": 0.0775149017013823,
+            "defense": 0.0443191550395633
           },
           "Internacional / RS": {
-            "attack": 0.1884887382680555,
-            "defense": 0.1086500990272706
+            "attack": 0.2243638413598519,
+            "defense": 0.1270063719645791
           }
         }
       }
@@ -759,18 +666,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0745165080111086,
-          "beta_home": 0.338110865906,
-          "rho": -0.0218720675522194
+          "eta": -0.088053785395801,
+          "beta_home": 0.349112311649,
+          "rho": -0.0068623534068021
         },
         "teams": {
           "São Paulo / SP": {
-            "attack": 0.2240366916868135,
-            "defense": 0.13415997698076
+            "attack": 0.2301339977844866,
+            "defense": 0.1784572875660137
           },
           "Botafogo / RJ": {
-            "attack": 0.5247001927386,
-            "defense": 0.008313658828786
+            "attack": 0.5010932114914001,
+            "defense": 0.1633953661854283
           }
         }
       }
@@ -790,18 +697,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0940104018192488,
-          "beta_home": 0.3455077712732,
-          "rho": -0.0098043744245666
+          "eta": -0.1054831039661137,
+          "beta_home": 0.35398806354,
+          "rho": -0.0016909822586369
         },
         "teams": {
           "Athletico Paranaense / PR": {
-            "attack": 0.1398692318821403,
-            "defense": 0.1231997352669526
+            "attack": 0.1691373832915107,
+            "defense": 0.0991929614398888
           },
           "Flamengo / RJ": {
-            "attack": 0.65195338719583,
-            "defense": 0.493579840310601
+            "attack": 0.6260123954229999,
+            "defense": 0.43696988053507
           }
         }
       }
@@ -821,18 +728,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0940104018192488,
-          "beta_home": 0.3455077712732,
-          "rho": -0.0098043744245666
+          "eta": -0.1054831039661137,
+          "beta_home": 0.35398806354,
+          "rho": -0.0016909822586369
         },
         "teams": {
           "Chapecoense / SC": {
-            "attack": -0.0245848427697472,
-            "defense": -0.173964483537708
+            "attack": -0.0340828257807333,
+            "defense": -0.1330912773777912
           },
           "Remo / PA": {
-            "attack": 0.1042603284994937,
-            "defense": -0.0682741956142032
+            "attack": 0.1219775014261419,
+            "defense": -0.0675008499518335
           }
         }
       }
@@ -852,18 +759,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0940104018192488,
-          "beta_home": 0.3455077712732,
-          "rho": -0.0098043744245666
+          "eta": -0.1054831039661137,
+          "beta_home": 0.35398806354,
+          "rho": -0.0016909822586369
         },
         "teams": {
           "Red Bull Bragantino / SP": {
-            "attack": 0.1602449001531899,
-            "defense": 0.0323117102234549
+            "attack": 0.1853435951899588,
+            "defense": 0.0618035265941915
           },
           "Vitória / BA": {
-            "attack": 0.127566550108117,
-            "defense": 0.0490888427774173
+            "attack": 0.1090654800087504,
+            "defense": 0.0487406636732068
           }
         }
       }
@@ -883,18 +790,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0940104018192488,
-          "beta_home": 0.3455077712732,
-          "rho": -0.0098043744245666
+          "eta": -0.1054831039661137,
+          "beta_home": 0.35398806354,
+          "rho": -0.0016909822586369
         },
         "teams": {
           "Bahia / BA": {
-            "attack": 0.2990261385282037,
-            "defense": 0.095307604672493
+            "attack": 0.313884488329675,
+            "defense": 0.0910730970103421
           },
           "Grêmio / RS": {
-            "attack": 0.1286362581249179,
-            "defense": 0.1728449345068613
+            "attack": 0.2202785553898779,
+            "defense": 0.1026491955288121
           }
         }
       }
@@ -914,18 +821,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0940104018192488,
-          "beta_home": 0.3455077712732,
-          "rho": -0.0098043744245666
+          "eta": -0.1054831039661137,
+          "beta_home": 0.35398806354,
+          "rho": -0.0016909822586369
         },
         "teams": {
           "Botafogo / RJ": {
-            "attack": 0.5233569711262,
-            "defense": 0.0107255491967012
+            "attack": 0.5012036169303999,
+            "defense": 0.158780507432685
           },
           "Corinthians / SP": {
-            "attack": 0.0708258999500875,
-            "defense": 0.2199923891011172
+            "attack": 0.158424947914944,
+            "defense": 0.1823584241650728
           }
         }
       }
@@ -945,18 +852,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0940104018192488,
-          "beta_home": 0.3455077712732,
-          "rho": -0.0098043744245666
+          "eta": -0.1054831039661137,
+          "beta_home": 0.35398806354,
+          "rho": -0.0016909822586369
         },
         "teams": {
           "Santos / SP": {
-            "attack": 0.2576479007192957,
-            "defense": 0.0764789748608787
+            "attack": 0.2288324445235447,
+            "defense": 0.035795937704445
           },
           "Coritiba / PR": {
-            "attack": -0.0531051018668016,
-            "defense": 0.1808749359139141
+            "attack": -0.0450677379572898,
+            "defense": 0.0911502200315213
           }
         }
       }
@@ -976,18 +883,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0940104018192488,
-          "beta_home": 0.3455077712732,
-          "rho": -0.0098043744245666
+          "eta": -0.1054831039661137,
+          "beta_home": 0.35398806354,
+          "rho": -0.0016909822586369
         },
         "teams": {
           "Palmeiras / SP": {
-            "attack": 0.511919925945234,
-            "defense": 0.495354846229337
+            "attack": 0.5253378239865,
+            "defense": 0.4736935693981601
           },
           "Cruzeiro / MG": {
-            "attack": 0.2840628833861911,
-            "defense": 0.1628064358828974
+            "attack": 0.252182098853963,
+            "defense": 0.2542743309898245
           }
         }
       }
@@ -1007,49 +914,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0940104018192488,
-          "beta_home": 0.3455077712732,
-          "rho": -0.0098043744245666
+          "eta": -0.1054831039661137,
+          "beta_home": 0.35398806354,
+          "rho": -0.0016909822586369
         },
         "teams": {
           "Fluminense / RJ": {
-            "attack": 0.342919995290975,
-            "defense": 0.2369290620421328
+            "attack": 0.2880626995262569,
+            "defense": 0.2416063013658349
           },
           "São Paulo / SP": {
-            "attack": 0.252753044987282,
-            "defense": 0.146827563779018
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Internacional / RS",
-      "away_team": "Vasco da Gama / RJ",
-      "home_crest": "assets/crests/internacional_rs.png",
-      "away_crest": "assets/crests/vasco_da_gama_rj.png",
-      "home_color": "#E5050F",
-      "away_color": "#000000",
-      "date": "2026-05-16T21:30:00Z",
-      "home_goals": 4,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-05-11",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0940104018192488,
-          "beta_home": 0.3455077712732,
-          "rho": -0.0098043744245666
-        },
-        "teams": {
-          "Internacional / RS": {
-            "attack": 0.1483949625152494,
-            "defense": 0.1052617320581855
-          },
-          "Vasco da Gama / RJ": {
-            "attack": 0.342246533715632,
-            "defense": -0.0434564430143528
+            "attack": 0.2442614225199126,
+            "defense": 0.1866825530024409
           }
         }
       }
@@ -1069,18 +945,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0940104018192488,
-          "beta_home": 0.3455077712732,
-          "rho": -0.0098043744245666
+          "eta": -0.1054831039661137,
+          "beta_home": 0.35398806354,
+          "rho": -0.0016909822586369
         },
         "teams": {
           "Atlético Mineiro / MG": {
-            "attack": 0.1595006952310764,
-            "defense": 0.0998185588395541
+            "attack": 0.2037989855051956,
+            "defense": 0.1302875228903641
           },
           "Mirassol / SP": {
-            "attack": 0.2592662353065499,
-            "defense": 0.1870118770343942
+            "attack": 0.2235393325863759,
+            "defense": 0.2212123093908681
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Internacional / RS",
+      "away_team": "Vasco da Gama / RJ",
+      "home_crest": "assets/crests/internacional_rs.png",
+      "away_crest": "assets/crests/vasco_da_gama_rj.png",
+      "home_color": "#E5050F",
+      "away_color": "#000000",
+      "date": "2026-05-16T21:30:00Z",
+      "home_goals": 4,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-11",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1054831039661137,
+          "beta_home": 0.35398806354,
+          "rho": -0.0016909822586369
+        },
+        "teams": {
+          "Internacional / RS": {
+            "attack": 0.2096417647120131,
+            "defense": 0.1265886246075535
+          },
+          "Vasco da Gama / RJ": {
+            "attack": 0.317542431966411,
+            "defense": -0.0547480572072407
           }
         }
       }
@@ -1100,18 +1007,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0936605368870129,
-          "beta_home": 0.3415612997271,
-          "rho": -0.0029819785830801
+          "eta": -0.1030364876530708,
+          "beta_home": 0.3501724194289999,
+          "rho": 0.0018253306078301
         },
         "teams": {
           "Vasco da Gama / RJ": {
-            "attack": 0.3633719104152497,
-            "defense": -0.0755039960977981
+            "attack": 0.33054314910759,
+            "defense": -0.0630733124557531
           },
           "Athletico Paranaense / PR": {
-            "attack": 0.175318990361647,
-            "defense": 0.1064819941753199
+            "attack": 0.189499576215966,
+            "defense": 0.0931205415436466
           }
         }
       }
@@ -1131,18 +1038,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0936605368870129,
-          "beta_home": 0.3415612997271,
-          "rho": -0.0029819785830801
+          "eta": -0.1030364876530708,
+          "beta_home": 0.3501724194289999,
+          "rho": 0.0018253306078301
         },
         "teams": {
           "Grêmio / RS": {
-            "attack": 0.1606783971282832,
-            "defense": 0.1549899205815153
+            "attack": 0.2423857114152702,
+            "defense": 0.0995415674895142
           },
           "Flamengo / RJ": {
-            "attack": 0.6681863922217001,
-            "defense": 0.4548126253800479
+            "attack": 0.633048392253,
+            "defense": 0.41725311078398
           }
         }
       }
@@ -1162,18 +1069,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0936605368870129,
-          "beta_home": 0.3415612997271,
-          "rho": -0.0029819785830801
+          "eta": -0.1030364876530708,
+          "beta_home": 0.3501724194289999,
+          "rho": 0.0018253306078301
         },
         "teams": {
           "Mirassol / SP": {
-            "attack": 0.2930265803878062,
-            "defense": 0.1898368537978663
+            "attack": 0.2412724157733519,
+            "defense": 0.2282116664479594
           },
           "Chapecoense / SC": {
-            "attack": -0.0258759765974302,
-            "defense": -0.1937345563831981
+            "attack": -0.0361827941508237,
+            "defense": -0.1392798863405989
           }
         }
       }
@@ -1193,18 +1100,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0936605368870129,
-          "beta_home": 0.3415612997271,
-          "rho": -0.0029819785830801
+          "eta": -0.1030364876530708,
+          "beta_home": 0.3501724194289999,
+          "rho": 0.0018253306078301
         },
         "teams": {
           "Corinthians / SP": {
-            "attack": 0.0075598803808887,
-            "defense": 0.2587802739913455
+            "attack": 0.1343302464494759,
+            "defense": 0.2061143582464715
           },
           "São Paulo / SP": {
-            "attack": 0.2234044601840421,
-            "defense": 0.2027947911755527
+            "attack": 0.2329225010559464,
+            "defense": 0.2154433723201345
           }
         }
       }
@@ -1224,49 +1131,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0936605368870129,
-          "beta_home": 0.3415612997271,
-          "rho": -0.0029819785830801
+          "eta": -0.1030364876530708,
+          "beta_home": 0.3501724194289999,
+          "rho": 0.0018253306078301
         },
         "teams": {
           "Santos / SP": {
-            "attack": 0.253060827057785,
-            "defense": 0.0515234522022807
+            "attack": 0.2286309992558127,
+            "defense": 0.0228135943842715
           },
           "Red Bull Bragantino / SP": {
-            "attack": 0.1936614428974609,
-            "defense": 0.0434176453230386
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Atlético Mineiro / MG",
-      "away_team": "Botafogo / RJ",
-      "home_crest": "assets/crests/atletico_mineiro_mg.png",
-      "away_crest": "assets/crests/botafogo_rj.png",
-      "home_color": "#000000",
-      "away_color": "#000000",
-      "date": "2026-05-10T19:00:00Z",
-      "home_goals": 1,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-05-04",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0936605368870129,
-          "beta_home": 0.3415612997271,
-          "rho": -0.0029819785830801
-        },
-        "teams": {
-          "Atlético Mineiro / MG": {
-            "attack": 0.1783574213744742,
-            "defense": 0.0860366957137634
-          },
-          "Botafogo / RJ": {
-            "attack": 0.53459387575076,
-            "defense": 0.0026583681041139
+            "attack": 0.2058669017795969,
+            "defense": 0.0670709090424697
           }
         }
       }
@@ -1286,18 +1162,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0936605368870129,
-          "beta_home": 0.3415612997271,
-          "rho": -0.0029819785830801
+          "eta": -0.1030364876530708,
+          "beta_home": 0.3501724194289999,
+          "rho": 0.0018253306078301
         },
         "teams": {
           "Remo / PA": {
-            "attack": 0.098134161417721,
-            "defense": -0.0815384641740481
+            "attack": 0.1176504888894946,
+            "defense": -0.0734666705506097
           },
           "Palmeiras / SP": {
-            "attack": 0.52779507133342,
-            "defense": 0.5009770210995899
+            "attack": 0.538320556844,
+            "defense": 0.481347941025892
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Atlético Mineiro / MG",
+      "away_team": "Botafogo / RJ",
+      "home_crest": "assets/crests/atletico_mineiro_mg.png",
+      "away_crest": "assets/crests/botafogo_rj.png",
+      "home_color": "#000000",
+      "away_color": "#000000",
+      "date": "2026-05-10T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-05-04",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1030364876530708,
+          "beta_home": 0.3501724194289999,
+          "rho": 0.0018253306078301
+        },
+        "teams": {
+          "Atlético Mineiro / MG": {
+            "attack": 0.2145117435259353,
+            "defense": 0.1286363872275185
+          },
+          "Botafogo / RJ": {
+            "attack": 0.5052454842765001,
+            "defense": 0.1582370029234855
           }
         }
       }
@@ -1317,18 +1224,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0936605368870129,
-          "beta_home": 0.3415612997271,
-          "rho": -0.0029819785830801
+          "eta": -0.1030364876530708,
+          "beta_home": 0.3501724194289999,
+          "rho": 0.0018253306078301
         },
         "teams": {
           "Bahia / BA": {
-            "attack": 0.315279969122852,
-            "defense": 0.1192036101839025
+            "attack": 0.321242759033102,
+            "defense": 0.1100894216546283
           },
           "Cruzeiro / MG": {
-            "attack": 0.2587388076707169,
-            "defense": 0.1488697556620919
+            "attack": 0.2400610102607107,
+            "defense": 0.2529014495177533
           }
         }
       }
@@ -1348,18 +1255,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0936605368870129,
-          "beta_home": 0.3415612997271,
-          "rho": -0.0029819785830801
+          "eta": -0.1030364876530708,
+          "beta_home": 0.3501724194289999,
+          "rho": 0.0018253306078301
         },
         "teams": {
           "Fluminense / RJ": {
-            "attack": 0.3385152763778494,
-            "defense": 0.273909525697362
+            "attack": 0.2842433919041562,
+            "defense": 0.2674815185318689
           },
           "Vitória / BA": {
-            "attack": 0.0931439801071267,
-            "defense": 0.0548160735892272
+            "attack": 0.0903790575448355,
+            "defense": 0.0578711876975492
           }
         }
       }
@@ -1379,18 +1286,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0936605368870129,
-          "beta_home": 0.3415612997271,
-          "rho": -0.0029819785830801
+          "eta": -0.1030364876530708,
+          "beta_home": 0.3501724194289999,
+          "rho": 0.0018253306078301
         },
         "teams": {
           "Coritiba / PR": {
-            "attack": -0.0783987817652868,
-            "defense": 0.2252851842681087
+            "attack": -0.0579737831884916,
+            "defense": 0.1199433176509757
           },
           "Internacional / RS": {
-            "attack": 0.1220157627179317,
-            "defense": 0.1359780653499899
+            "attack": 0.1976900751946171,
+            "defense": 0.1460624911592225
           }
         }
       }
@@ -1410,49 +1317,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1027924254478794,
-          "beta_home": 0.345236547228,
-          "rho": 0.0091522516372568
+          "eta": -0.1107769011714689,
+          "beta_home": 0.352377673635,
+          "rho": 0.0065839099721982
         },
         "teams": {
           "Mirassol / SP": {
-            "attack": 0.279732719215214,
-            "defense": 0.1820392747860476
+            "attack": 0.239532332860938,
+            "defense": 0.2287547754576813
           },
           "Corinthians / SP": {
-            "attack": -0.0005538341209097,
-            "defense": 0.2617223423656745
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Chapecoense / SC",
-      "away_team": "Red Bull Bragantino / SP",
-      "home_crest": "assets/crests/chapecoense_sc.png",
-      "away_crest": "assets/crests/red_bull_bragantino_sp.png",
-      "home_color": "#008000",
-      "away_color": "#CC0000",
-      "date": "2026-05-03T21:30:00Z",
-      "home_goals": 1,
-      "away_goals": 2,
-      "has_model": true,
-      "reference_date": "2026-04-27",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.1027924254478794,
-          "beta_home": 0.345236547228,
-          "rho": 0.0091522516372568
-        },
-        "teams": {
-          "Chapecoense / SC": {
-            "attack": -0.0109113829460511,
-            "defense": -0.1848487384112058
-          },
-          "Red Bull Bragantino / SP": {
-            "attack": 0.1735598497269032,
-            "defense": 0.0218935652415394
+            "attack": 0.1319391297094262,
+            "defense": 0.212203984746371
           }
         }
       }
@@ -1472,18 +1348,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1027924254478794,
-          "beta_home": 0.345236547228,
-          "rho": 0.0091522516372568
+          "eta": -0.1107769011714689,
+          "beta_home": 0.352377673635,
+          "rho": 0.0065839099721982
         },
         "teams": {
           "Internacional / RS": {
-            "attack": 0.0897448777612307,
-            "defense": 0.0925492827893591
+            "attack": 0.190686715983249,
+            "defense": 0.1269408295905208
           },
           "Fluminense / RJ": {
-            "attack": 0.365248596301132,
-            "defense": 0.2910889431277689
+            "attack": 0.3051264233018099,
+            "defense": 0.279200177682288
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Chapecoense / SC",
+      "away_team": "Red Bull Bragantino / SP",
+      "home_crest": "assets/crests/chapecoense_sc.png",
+      "away_crest": "assets/crests/red_bull_bragantino_sp.png",
+      "home_color": "#008000",
+      "away_color": "#CC0000",
+      "date": "2026-05-03T21:30:00Z",
+      "home_goals": 1,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-04-27",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1107769011714689,
+          "beta_home": 0.352377673635,
+          "rho": 0.0065839099721982
+        },
+        "teams": {
+          "Chapecoense / SC": {
+            "attack": -0.0231023457606488,
+            "defense": -0.1298999324729367
+          },
+          "Red Bull Bragantino / SP": {
+            "attack": 0.2011808950260448,
+            "defense": 0.0597596655712514
           }
         }
       }
@@ -1503,18 +1410,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1027924254478794,
-          "beta_home": 0.345236547228,
-          "rho": 0.0091522516372568
+          "eta": -0.1107769011714689,
+          "beta_home": 0.352377673635,
+          "rho": 0.0065839099721982
         },
         "teams": {
           "São Paulo / SP": {
-            "attack": 0.2046322598013516,
-            "defense": 0.2130701524163274
+            "attack": 0.2284407455604742,
+            "defense": 0.226020417740896
           },
           "Bahia / BA": {
-            "attack": 0.2821114236704546,
-            "defense": 0.1227229321161974
+            "attack": 0.307426430916964,
+            "defense": 0.1129968665606531
           }
         }
       }
@@ -1534,18 +1441,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1027924254478794,
-          "beta_home": 0.345236547228,
-          "rho": 0.0091522516372568
+          "eta": -0.1107769011714689,
+          "beta_home": 0.352377673635,
+          "rho": 0.0065839099721982
         },
         "teams": {
           "Flamengo / RJ": {
-            "attack": 0.6768627000648999,
-            "defense": 0.4847217089253759
+            "attack": 0.6428929158,
+            "defense": 0.43327955109268
           },
           "Vasco da Gama / RJ": {
-            "attack": 0.339085064690742,
-            "defense": -0.1038780191037106
+            "attack": 0.3206572824579372,
+            "defense": -0.0772657350206023
           }
         }
       }
@@ -1565,18 +1472,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1027924254478794,
-          "beta_home": 0.345236547228,
-          "rho": 0.0091522516372568
+          "eta": -0.1107769011714689,
+          "beta_home": 0.352377673635,
+          "rho": 0.0065839099721982
         },
         "teams": {
           "Cruzeiro / MG": {
-            "attack": 0.267748406031483,
-            "defense": 0.2024138148553339
+            "attack": 0.2554986463090425,
+            "defense": 0.2857961022284839
           },
           "Atlético Mineiro / MG": {
-            "attack": 0.1152707969709406,
-            "defense": 0.0592981007782568
+            "attack": 0.1826857498174394,
+            "defense": 0.1200431972651877
           }
         }
       }
@@ -1596,18 +1503,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1027924254478794,
-          "beta_home": 0.345236547228,
-          "rho": 0.0091522516372568
+          "eta": -0.1107769011714689,
+          "beta_home": 0.352377673635,
+          "rho": 0.0065839099721982
         },
         "teams": {
           "Athletico Paranaense / PR": {
-            "attack": 0.222802333436694,
-            "defense": 0.0631354396685851
+            "attack": 0.2197552136307556,
+            "defense": 0.0691675514848066
           },
           "Grêmio / RS": {
-            "attack": 0.1885572598858837,
-            "defense": 0.102775445323749
+            "attack": 0.2649329754613082,
+            "defense": 0.0714306707100097
           }
         }
       }
@@ -1627,18 +1534,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1027924254478794,
-          "beta_home": 0.345236547228,
-          "rho": 0.0091522516372568
+          "eta": -0.1107769011714689,
+          "beta_home": 0.352377673635,
+          "rho": 0.0065839099721982
         },
         "teams": {
           "Vitória / BA": {
-            "attack": -0.0107211529172548,
-            "defense": 0.0529280483873751
+            "attack": 0.0450203199694725,
+            "defense": 0.058178233088632
           },
           "Coritiba / PR": {
-            "attack": -0.0782764955189964,
-            "defense": 0.3434779933027272
+            "attack": -0.053306932038261,
+            "defense": 0.1688003648172049
           }
         }
       }
@@ -1658,18 +1565,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1027924254478794,
-          "beta_home": 0.345236547228,
-          "rho": 0.0091522516372568
+          "eta": -0.1107769011714689,
+          "beta_home": 0.352377673635,
+          "rho": 0.0065839099721982
         },
         "teams": {
           "Palmeiras / SP": {
-            "attack": 0.543112145479567,
-            "defense": 0.497149258337476
+            "attack": 0.5559055821710001,
+            "defense": 0.48171963193999
           },
           "Santos / SP": {
-            "attack": 0.2457898943118059,
-            "defense": 0.0088586271203637
+            "attack": 0.2345441062955,
+            "defense": 0.0024670934869912
           }
         }
       }
@@ -1689,18 +1596,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1027924254478794,
-          "beta_home": 0.345236547228,
-          "rho": 0.0091522516372568
+          "eta": -0.1107769011714689,
+          "beta_home": 0.352377673635,
+          "rho": 0.0065839099721982
         },
         "teams": {
           "Botafogo / RJ": {
-            "attack": 0.5630314695237999,
-            "defense": 0.0178224760357169
+            "attack": 0.5261484578906,
+            "defense": 0.1720981872825745
           },
           "Remo / PA": {
-            "attack": 0.0816292225364327,
-            "defense": -0.1335462909005308
+            "attack": 0.1060540261267009,
+            "defense": -0.1046716760361541
           }
         }
       }
@@ -1720,18 +1627,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0938723347926756,
-          "beta_home": 0.346263439317,
-          "rho": -0.0125501610357235
+          "eta": -0.104129176003993,
+          "beta_home": 0.353715481798,
+          "rho": -0.0007037064030766
         },
         "teams": {
           "Fluminense / RJ": {
-            "attack": 0.3692465720568286,
-            "defense": 0.3065713832643549
+            "attack": 0.302246604607393,
+            "defense": 0.288756591986194
           },
           "Chapecoense / SC": {
-            "attack": -0.0234450480151347,
-            "defense": -0.1802046903404003
+            "attack": -0.0292817422957921,
+            "defense": -0.125129330087797
           }
         }
       }
@@ -1751,49 +1658,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0938723347926756,
-          "beta_home": 0.346263439317,
-          "rho": -0.0125501610357235
+          "eta": -0.104129176003993,
+          "beta_home": 0.353715481798,
+          "rho": -0.0007037064030766
         },
         "teams": {
           "Atlético Mineiro / MG": {
-            "attack": 0.1335433504310989,
-            "defense": 0.132442817054513
+            "attack": 0.1928505651178173,
+            "defense": 0.1629014577570894
           },
           "Flamengo / RJ": {
-            "attack": 0.6343970926172999,
-            "defense": 0.457850401798729
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Athletico Paranaense / PR",
-      "away_team": "Vitória / BA",
-      "home_crest": "assets/crests/athletico_paranaense_pr.png",
-      "away_crest": "assets/crests/vitoria_ba.png",
-      "home_color": "#CE181E",
-      "away_color": "#CC0000",
-      "date": "2026-04-26T21:30:00Z",
-      "home_goals": 3,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-04-20",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0938723347926756,
-          "beta_home": 0.346263439317,
-          "rho": -0.0125501610357235
-        },
-        "teams": {
-          "Athletico Paranaense / PR": {
-            "attack": 0.1849275933131716,
-            "defense": 0.0756309704036871
-          },
-          "Vitória / BA": {
-            "attack": -0.0226413655959139,
-            "defense": 0.1014890980278968
+            "attack": 0.616245915878,
+            "defense": 0.4177283346459801
           }
         }
       }
@@ -1813,18 +1689,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0938723347926756,
-          "beta_home": 0.346263439317,
-          "rho": -0.0125501610357235
+          "eta": -0.104129176003993,
+          "beta_home": 0.353715481798,
+          "rho": -0.0007037064030766
         },
         "teams": {
           "Red Bull Bragantino / SP": {
-            "attack": 0.1962993367430667,
-            "defense": 0.0187898975786683
+            "attack": 0.2124527920837642,
+            "defense": 0.056546716597831
           },
           "Palmeiras / SP": {
-            "attack": 0.5566313127589,
-            "defense": 0.4687173690520873
+            "attack": 0.559535930624,
+            "defense": 0.467290617711536
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Athletico Paranaense / PR",
+      "away_team": "Vitória / BA",
+      "home_crest": "assets/crests/athletico_paranaense_pr.png",
+      "away_crest": "assets/crests/vitoria_ba.png",
+      "home_color": "#CE181E",
+      "away_color": "#CC0000",
+      "date": "2026-04-26T21:30:00Z",
+      "home_goals": 3,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-04-20",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.104129176003993,
+          "beta_home": 0.353715481798,
+          "rho": -0.0007037064030766
+        },
+        "teams": {
+          "Athletico Paranaense / PR": {
+            "attack": 0.1982421932826229,
+            "defense": 0.0712204775031947
+          },
+          "Vitória / BA": {
+            "attack": 0.0385444680363277,
+            "defense": 0.0876843008628832
           }
         }
       }
@@ -1844,18 +1751,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0938723347926756,
-          "beta_home": 0.346263439317,
-          "rho": -0.0125501610357235
+          "eta": -0.104129176003993,
+          "beta_home": 0.353715481798,
+          "rho": -0.0007037064030766
         },
         "teams": {
           "Grêmio / RS": {
-            "attack": 0.1913187749044554,
-            "defense": 0.0951620502969852
+            "attack": 0.2704346302708855,
+            "defense": 0.0660744909905298
           },
           "Coritiba / PR": {
-            "attack": -0.0557695570759245,
-            "defense": 0.3489532763087591
+            "attack": -0.0410943812369353,
+            "defense": 0.164727590644431
           }
         }
       }
@@ -1875,18 +1782,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0938723347926756,
-          "beta_home": 0.346263439317,
-          "rho": -0.0125501610357235
+          "eta": -0.104129176003993,
+          "beta_home": 0.353715481798,
+          "rho": -0.0007037064030766
         },
         "teams": {
           "Corinthians / SP": {
-            "attack": 0.013239423470197,
-            "defense": 0.233816954306582
+            "attack": 0.1397827906463296,
+            "defense": 0.2017090221742467
           },
           "Vasco da Gama / RJ": {
-            "attack": 0.359467459624207,
-            "defense": -0.1033076177661634
+            "attack": 0.329695092825418,
+            "defense": -0.0776568300095573
           }
         }
       }
@@ -1906,49 +1813,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0938723347926756,
-          "beta_home": 0.346263439317,
-          "rho": -0.0125501610357235
+          "eta": -0.104129176003993,
+          "beta_home": 0.353715481798,
+          "rho": -0.0007037064030766
         },
         "teams": {
           "São Paulo / SP": {
-            "attack": 0.2119745049534513,
-            "defense": 0.192922069849122
+            "attack": 0.2314641089991346,
+            "defense": 0.2154306622699808
           },
           "Mirassol / SP": {
-            "attack": 0.2989478012977131,
-            "defense": 0.1809199771007404
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Botafogo / RJ",
-      "away_team": "Internacional / RS",
-      "home_crest": "assets/crests/botafogo_rj.png",
-      "away_crest": "assets/crests/internacional_rs.png",
-      "home_color": "#000000",
-      "away_color": "#E5050F",
-      "date": "2026-04-25T21:30:00Z",
-      "home_goals": 2,
-      "away_goals": 2,
-      "has_model": true,
-      "reference_date": "2026-04-20",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0938723347926756,
-          "beta_home": 0.346263439317,
-          "rho": -0.0125501610357235
-        },
-        "teams": {
-          "Botafogo / RJ": {
-            "attack": 0.5581143679181301,
-            "defense": 0.0538831202853536
-          },
-          "Internacional / RS": {
-            "attack": 0.054609896904895,
-            "defense": 0.09878632982475
+            "attack": 0.2505168356957359,
+            "defense": 0.2282421235923095
           }
         }
       }
@@ -1968,18 +1844,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0938723347926756,
-          "beta_home": 0.346263439317,
-          "rho": -0.0125501610357235
+          "eta": -0.104129176003993,
+          "beta_home": 0.353715481798,
+          "rho": -0.0007037064030766
         },
         "teams": {
           "Remo / PA": {
-            "attack": 0.1222014708484509,
-            "defense": -0.141248753738567
+            "attack": 0.1307295609917906,
+            "defense": -0.1106769224940419
           },
           "Cruzeiro / MG": {
-            "attack": 0.27918771941979,
-            "defense": 0.1704333481095647
+            "attack": 0.2536008556081624,
+            "defense": 0.2674477040236805
           }
         }
       }
@@ -1999,18 +1875,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0938723347926756,
-          "beta_home": 0.346263439317,
-          "rho": -0.0125501610357235
+          "eta": -0.104129176003993,
+          "beta_home": 0.353715481798,
+          "rho": -0.0007037064030766
         },
         "teams": {
           "Bahia / BA": {
-            "attack": 0.2692320867282428,
-            "defense": 0.1597305220275683
+            "attack": 0.2981506124157699,
+            "defense": 0.1320576220579968
           },
           "Santos / SP": {
-            "attack": 0.2197180607807736,
-            "defense": 0.0254807718391498
+            "attack": 0.2154672832449678,
+            "defense": 0.0128904778966773
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Botafogo / RJ",
+      "away_team": "Internacional / RS",
+      "home_crest": "assets/crests/botafogo_rj.png",
+      "away_crest": "assets/crests/internacional_rs.png",
+      "home_color": "#000000",
+      "away_color": "#E5050F",
+      "date": "2026-04-25T21:30:00Z",
+      "home_goals": 2,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-04-20",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.104129176003993,
+          "beta_home": 0.353715481798,
+          "rho": -0.0007037064030766
+        },
+        "teams": {
+          "Botafogo / RJ": {
+            "attack": 0.520478534643,
+            "defense": 0.1921329050685843
+          },
+          "Internacional / RS": {
+            "attack": 0.1680051192607947,
+            "defense": 0.1338758223764545
           }
         }
       }
@@ -2030,49 +1937,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1035665568726615,
-          "beta_home": 0.359064711274,
-          "rho": -0.0077329677009375
+          "eta": -0.1161505914085969,
+          "beta_home": 0.359572200772,
+          "rho": 0.0018710426040311
         },
         "teams": {
           "Flamengo / RJ": {
-            "attack": 0.6302734385102,
-            "defense": 0.408114319457558
+            "attack": 0.618561824324,
+            "defense": 0.39527149921598
           },
           "Bahia / BA": {
-            "attack": 0.276667912525947,
-            "defense": 0.143033164432057
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Palmeiras / SP",
-      "away_team": "Athletico Paranaense / PR",
-      "home_crest": "assets/crests/palmeiras_sp.png",
-      "away_crest": "assets/crests/athletico_paranaense_pr.png",
-      "home_color": "#006437",
-      "away_color": "#CE181E",
-      "date": "2026-04-19T21:30:00Z",
-      "home_goals": 1,
-      "away_goals": 0,
-      "has_model": true,
-      "reference_date": "2026-04-13",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.1035665568726615,
-          "beta_home": 0.359064711274,
-          "rho": -0.0077329677009375
-        },
-        "teams": {
-          "Palmeiras / SP": {
-            "attack": 0.56816155526029,
-            "defense": 0.4230087527571407
-          },
-          "Athletico Paranaense / PR": {
-            "attack": 0.2186946859010339,
-            "defense": 0.036518377691871
+            "attack": 0.3117016068417098,
+            "defense": 0.1243118321148213
           }
         }
       }
@@ -2092,49 +1968,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1035665568726615,
-          "beta_home": 0.359064711274,
-          "rho": -0.0077329677009375
+          "eta": -0.1161505914085969,
+          "beta_home": 0.359572200772,
+          "rho": 0.0018710426040311
         },
         "teams": {
           "Red Bull Bragantino / SP": {
-            "attack": 0.1128443167939683,
-            "defense": 0.0322856351467546
+            "attack": 0.177357158829475,
+            "defense": 0.0643871253834109
           },
           "Remo / PA": {
-            "attack": 0.1002252651737254,
-            "defense": -0.0733280237695868
+            "attack": 0.1172236344815764,
+            "defense": -0.0569490837497768
           }
         }
       }
     },
     {
-      "home_team": "Coritiba / PR",
-      "away_team": "Atlético Mineiro / MG",
-      "home_crest": "assets/crests/coritiba_pr.png",
-      "away_crest": "assets/crests/atletico_mineiro_mg.png",
-      "home_color": "#00544D",
-      "away_color": "#000000",
-      "date": "2026-04-19T19:00:00Z",
-      "home_goals": 2,
+      "home_team": "Palmeiras / SP",
+      "away_team": "Athletico Paranaense / PR",
+      "home_crest": "assets/crests/palmeiras_sp.png",
+      "away_crest": "assets/crests/athletico_paranaense_pr.png",
+      "home_color": "#006437",
+      "away_color": "#CE181E",
+      "date": "2026-04-19T21:30:00Z",
+      "home_goals": 1,
       "away_goals": 0,
       "has_model": true,
       "reference_date": "2026-04-13",
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1035665568726615,
-          "beta_home": 0.359064711274,
-          "rho": -0.0077329677009375
+          "eta": -0.1161505914085969,
+          "beta_home": 0.359572200772,
+          "rho": 0.0018710426040311
         },
         "teams": {
-          "Coritiba / PR": {
-            "attack": -0.074951206936297,
-            "defense": 0.3116459805546662
+          "Palmeiras / SP": {
+            "attack": 0.5706269365309999,
+            "defense": 0.4423190164626299
           },
-          "Atlético Mineiro / MG": {
-            "attack": 0.1481163031891667,
-            "defense": 0.1425686353821038
+          "Athletico Paranaense / PR": {
+            "attack": 0.2176186020327311,
+            "defense": 0.0490731353491684
           }
         }
       }
@@ -2154,18 +2030,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1035665568726615,
-          "beta_home": 0.359064711274,
-          "rho": -0.0077329677009375
+          "eta": -0.1161505914085969,
+          "beta_home": 0.359572200772,
+          "rho": 0.0018710426040311
         },
         "teams": {
           "Santos / SP": {
-            "attack": 0.1883912905257391,
-            "defense": 0.0640506531074949
+            "attack": 0.2112218699846059,
+            "defense": 0.033206944206121
           },
           "Fluminense / RJ": {
-            "attack": 0.3090553658636851,
-            "defense": 0.3255075619709511
+            "attack": 0.279194447812969,
+            "defense": 0.297940844178969
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Coritiba / PR",
+      "away_team": "Atlético Mineiro / MG",
+      "home_crest": "assets/crests/coritiba_pr.png",
+      "away_crest": "assets/crests/atletico_mineiro_mg.png",
+      "home_color": "#00544D",
+      "away_color": "#000000",
+      "date": "2026-04-19T19:00:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-13",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1161505914085969,
+          "beta_home": 0.359572200772,
+          "rho": 0.0018710426040311
+        },
+        "teams": {
+          "Coritiba / PR": {
+            "attack": -0.0479313998149566,
+            "defense": 0.1423749247446513
+          },
+          "Atlético Mineiro / MG": {
+            "attack": 0.2094848803725719,
+            "defense": 0.1709602187744057
           }
         }
       }
@@ -2185,18 +2092,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1035665568726615,
-          "beta_home": 0.359064711274,
-          "rho": -0.0077329677009375
+          "eta": -0.1161505914085969,
+          "beta_home": 0.359572200772,
+          "rho": 0.0018710426040311
         },
         "teams": {
           "Internacional / RS": {
-            "attack": 0.0514647971574211,
-            "defense": 0.1108621233866693
+            "attack": 0.1743913096159119,
+            "defense": 0.143133482646476
           },
           "Mirassol / SP": {
-            "attack": 0.2666603413013569,
-            "defense": 0.1622614873925419
+            "attack": 0.2409229255712954,
+            "defense": 0.2176951419508996
           }
         }
       }
@@ -2216,18 +2123,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1035665568726615,
-          "beta_home": 0.359064711274,
-          "rho": -0.0077329677009375
+          "eta": -0.1161505914085969,
+          "beta_home": 0.359572200772,
+          "rho": 0.0018710426040311
         },
         "teams": {
           "Cruzeiro / MG": {
-            "attack": 0.2520301668982843,
-            "defense": 0.1268279926116525
+            "attack": 0.2461068416012919,
+            "defense": 0.2452707817930045
           },
           "Grêmio / RS": {
-            "attack": 0.2134500599514158,
-            "defense": 0.0861910916313384
+            "attack": 0.286101729809925,
+            "defense": 0.0657064945010581
           }
         }
       }
@@ -2247,18 +2154,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1035665568726615,
-          "beta_home": 0.359064711274,
-          "rho": -0.0077329677009375
+          "eta": -0.1161505914085969,
+          "beta_home": 0.359572200772,
+          "rho": 0.0018710426040311
         },
         "teams": {
           "Vitória / BA": {
-            "attack": 0.0081846015786576,
-            "defense": 0.065432307495888
+            "attack": 0.0628018351825781,
+            "defense": 0.0653476481501976
           },
           "Corinthians / SP": {
-            "attack": 0.0334326851248706,
-            "defense": 0.1856846543349213
+            "attack": 0.1569155543435143,
+            "defense": 0.1772061731649687
           }
         }
       }
@@ -2278,18 +2185,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1035665568726615,
-          "beta_home": 0.359064711274,
-          "rho": -0.0077329677009375
+          "eta": -0.1161505914085969,
+          "beta_home": 0.359572200772,
+          "rho": 0.0018710426040311
         },
         "teams": {
           "Chapecoense / SC": {
-            "attack": -0.0114882848657662,
-            "defense": -0.1170740540712475
+            "attack": -0.0206132025098098,
+            "defense": -0.0903370751550801
           },
           "Botafogo / RJ": {
-            "attack": 0.49560444897103,
-            "defense": 0.0307914378034982
+            "attack": 0.4905898826843,
+            "defense": 0.1871204191351947
           }
         }
       }
@@ -2309,49 +2216,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1035665568726615,
-          "beta_home": 0.359064711274,
-          "rho": -0.0077329677009375
+          "eta": -0.1161505914085969,
+          "beta_home": 0.359572200772,
+          "rho": 0.0018710426040311
         },
         "teams": {
           "Vasco da Gama / RJ": {
-            "attack": 0.341306497454007,
-            "defense": -0.1292085011817998
+            "attack": 0.325287390122745,
+            "defense": -0.091989581352829
           },
           "São Paulo / SP": {
-            "attack": 0.210921243277601,
-            "defense": 0.1934381945115363
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Corinthians / SP",
-      "away_team": "Palmeiras / SP",
-      "home_crest": "assets/crests/corinthians_sp.png",
-      "away_crest": "assets/crests/palmeiras_sp.png",
-      "home_color": "#000000",
-      "away_color": "#006437",
-      "date": "2026-04-12T21:30:00Z",
-      "home_goals": 0,
-      "away_goals": 0,
-      "has_model": true,
-      "reference_date": "2026-04-06",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0883958385747135,
-          "beta_home": 0.361383841576,
-          "rho": -0.0083289287529813
-        },
-        "teams": {
-          "Corinthians / SP": {
-            "attack": 0.0343625430071462,
-            "defense": 0.1424211451558926
-          },
-          "Palmeiras / SP": {
-            "attack": 0.56353361141534,
-            "defense": 0.387041402508437
+            "attack": 0.2366085963501524,
+            "defense": 0.2185043945181493
           }
         }
       }
@@ -2371,18 +2247,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0883958385747135,
-          "beta_home": 0.361383841576,
-          "rho": -0.0083289287529813
+          "eta": -0.10527371932153,
+          "beta_home": 0.361421988419,
+          "rho": 0.0016776264331104
         },
         "teams": {
           "Cruzeiro / MG": {
-            "attack": 0.2138454884907026,
-            "defense": 0.1250357394975993
+            "attack": 0.2234798713106763,
+            "defense": 0.2470163306181226
           },
           "Red Bull Bragantino / SP": {
-            "attack": 0.0830605756663869,
-            "defense": 0.040975506520694
+            "attack": 0.1620788683242681,
+            "defense": 0.0708905051081251
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Corinthians / SP",
+      "away_team": "Palmeiras / SP",
+      "home_crest": "assets/crests/corinthians_sp.png",
+      "away_crest": "assets/crests/palmeiras_sp.png",
+      "home_color": "#000000",
+      "away_color": "#006437",
+      "date": "2026-04-12T21:30:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-04-06",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.10527371932153,
+          "beta_home": 0.361421988419,
+          "rho": 0.0016776264331104
+        },
+        "teams": {
+          "Corinthians / SP": {
+            "attack": 0.162767640683897,
+            "defense": 0.1544898623473964
+          },
+          "Palmeiras / SP": {
+            "attack": 0.576244120915,
+            "defense": 0.4277832549846589
           }
         }
       }
@@ -2402,18 +2309,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0883958385747135,
-          "beta_home": 0.361383841576,
-          "rho": -0.0083289287529813
+          "eta": -0.10527371932153,
+          "beta_home": 0.361421988419,
+          "rho": 0.0016776264331104
         },
         "teams": {
           "Fluminense / RJ": {
-            "attack": 0.2841962678921856,
-            "defense": 0.3473152728914242
+            "attack": 0.264011911363301,
+            "defense": 0.308680331077678
           },
           "Flamengo / RJ": {
-            "attack": 0.5878936669758,
-            "defense": 0.3972410676133145
+            "attack": 0.595609746689,
+            "defense": 0.394809909984107
           }
         }
       }
@@ -2433,18 +2340,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0883958385747135,
-          "beta_home": 0.361383841576,
-          "rho": -0.0083289287529813
+          "eta": -0.10527371932153,
+          "beta_home": 0.361421988419,
+          "rho": 0.0016776264331104
         },
         "teams": {
           "Botafogo / RJ": {
-            "attack": 0.457509904571079,
-            "defense": 0.0608798743993428
+            "attack": 0.4732641866837809,
+            "defense": 0.2094705433656497
           },
           "Coritiba / PR": {
-            "attack": -0.1230904449586954,
-            "defense": 0.3399035955209831
+            "attack": -0.0747429208768476,
+            "defense": 0.1487590803917879
           }
         }
       }
@@ -2464,18 +2371,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0883958385747135,
-          "beta_home": 0.361383841576,
-          "rho": -0.0083289287529813
+          "eta": -0.10527371932153,
+          "beta_home": 0.361421988419,
+          "rho": 0.0016776264331104
         },
         "teams": {
           "Athletico Paranaense / PR": {
-            "attack": 0.2033394398901398,
-            "defense": 0.0122480998290123
+            "attack": 0.204229171264341,
+            "defense": 0.0391074928997745
           },
           "Chapecoense / SC": {
-            "attack": 0.0035166203577837,
-            "defense": -0.105105080282687
+            "attack": -0.0131350524713626,
+            "defense": -0.0805713233666995
           }
         }
       }
@@ -2495,18 +2402,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0883958385747135,
-          "beta_home": 0.361383841576,
-          "rho": -0.0083289287529813
+          "eta": -0.10527371932153,
+          "beta_home": 0.361421988419,
+          "rho": 0.0016776264331104
         },
         "teams": {
           "Internacional / RS": {
-            "attack": 0.0667497866083818,
-            "defense": 0.0804737580314261
+            "attack": 0.1856656124615465,
+            "defense": 0.1307774285854048
           },
           "Grêmio / RS": {
-            "attack": 0.215430320432801,
-            "defense": 0.0497076953072723
+            "attack": 0.288570843837497,
+            "defense": 0.0462273866438176
           }
         }
       }
@@ -2526,18 +2433,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0883958385747135,
-          "beta_home": 0.361383841576,
-          "rho": -0.0083289287529813
+          "eta": -0.10527371932153,
+          "beta_home": 0.361421988419,
+          "rho": 0.0016776264331104
         },
         "teams": {
           "Santos / SP": {
-            "attack": 0.1745230797562151,
-            "defense": 0.0303326073715202
+            "attack": 0.2034656378299925,
+            "defense": 0.0211496607139756
           },
           "Atlético Mineiro / MG": {
-            "attack": 0.1534496845571741,
-            "defense": 0.1249483507644678
+            "attack": 0.2103668584595682,
+            "defense": 0.1689109374292253
           }
         }
       }
@@ -2557,18 +2464,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0883958385747135,
-          "beta_home": 0.361383841576,
-          "rho": -0.0083289287529813
+          "eta": -0.10527371932153,
+          "beta_home": 0.361421988419,
+          "rho": 0.0016776264331104
         },
         "teams": {
           "Mirassol / SP": {
-            "attack": 0.2589258778771499,
-            "defense": 0.1861467507172554
+            "attack": 0.237581112980553,
+            "defense": 0.2413768567890734
           },
           "Bahia / BA": {
-            "attack": 0.2220056076307619,
-            "defense": 0.1293236223963079
+            "attack": 0.280046579104199,
+            "defense": 0.1208697221917346
           }
         }
       }
@@ -2588,18 +2495,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0883958385747135,
-          "beta_home": 0.361383841576,
-          "rho": -0.0083289287529813
+          "eta": -0.10527371932153,
+          "beta_home": 0.361421988419,
+          "rho": 0.0016776264331104
         },
         "teams": {
           "Remo / PA": {
-            "attack": 0.1088644982917287,
-            "defense": -0.0825237374054579
+            "attack": 0.1224048035669309,
+            "defense": -0.0646088274446529
           },
           "Vasco da Gama / RJ": {
-            "attack": 0.323924921198869,
-            "defense": -0.1483268653137469
+            "attack": 0.319675403745944,
+            "defense": -0.0965556800019134
           }
         }
       }
@@ -2619,18 +2526,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0883958385747135,
-          "beta_home": 0.361383841576,
-          "rho": -0.0083289287529813
+          "eta": -0.10527371932153,
+          "beta_home": 0.361421988419,
+          "rho": 0.0016776264331104
         },
         "teams": {
           "Vitória / BA": {
-            "attack": -0.047342046929724,
-            "defense": 0.0318383671039649
+            "attack": 0.0332360285956947,
+            "defense": 0.0530461155638109
           },
           "São Paulo / SP": {
-            "attack": 0.2135898704390662,
-            "defense": 0.2201692502771249
+            "attack": 0.2366454720885797,
+            "defense": 0.2356575912246622
           }
         }
       }
@@ -2650,18 +2557,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0863090410015907,
-          "beta_home": 0.374342254278,
-          "rho": 0.0012347329382213
+          "eta": -0.1049848526581554,
+          "beta_home": 0.366803153097,
+          "rho": 0.0056579977485793
         },
         "teams": {
           "Grêmio / RS": {
-            "attack": 0.2455628678450024,
-            "defense": 0.009195904252014
+            "attack": 0.3142262357182608,
+            "defense": 0.0315814298740946
           },
           "Remo / PA": {
-            "attack": 0.1513555385154331,
-            "defense": -0.1350181713609147
+            "attack": 0.148980643021308,
+            "defense": -0.1015856400426063
           }
         }
       }
@@ -2681,18 +2588,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0863090410015907,
-          "beta_home": 0.374342254278,
-          "rho": 0.0012347329382213
+          "eta": -0.1049848526581554,
+          "beta_home": 0.366803153097,
+          "rho": 0.0056579977485793
         },
         "teams": {
           "Mirassol / SP": {
-            "attack": 0.2860708074411174,
-            "defense": 0.1802369371088458
+            "attack": 0.259201756719009,
+            "defense": 0.2462744834632163
           },
           "Red Bull Bragantino / SP": {
-            "attack": 0.0636265727873622,
-            "defense": -0.0132964414390078
+            "attack": 0.1602112146491354,
+            "defense": 0.0487930192562253
           }
         }
       }
@@ -2712,18 +2619,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0863090410015907,
-          "beta_home": 0.374342254278,
-          "rho": 0.0012347329382213
+          "eta": -0.1049848526581554,
+          "beta_home": 0.366803153097,
+          "rho": 0.0056579977485793
         },
         "teams": {
           "Bahia / BA": {
-            "attack": 0.2009666110927656,
-            "defense": 0.1419959914979902
+            "attack": 0.280251107195216,
+            "defense": 0.1302938252686584
           },
           "Palmeiras / SP": {
-            "attack": 0.533185717245767,
-            "defense": 0.3761346029006851
+            "attack": 0.567908814972,
+            "defense": 0.42657044793088
           }
         }
       }
@@ -2743,18 +2650,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0863090410015907,
-          "beta_home": 0.374342254278,
-          "rho": 0.0012347329382213
+          "eta": -0.1049848526581554,
+          "beta_home": 0.366803153097,
+          "rho": 0.0056579977485793
         },
         "teams": {
           "Corinthians / SP": {
-            "attack": 0.0664165303610687,
-            "defense": 0.135304328743804
+            "attack": 0.183236987376368,
+            "defense": 0.15754975098961
           },
           "Internacional / RS": {
-            "attack": 0.0474552195390946,
-            "defense": 0.0317887306476218
+            "attack": 0.1848236731517532,
+            "defense": 0.1141995541547263
           }
         }
       }
@@ -2774,18 +2681,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0863090410015907,
-          "beta_home": 0.374342254278,
-          "rho": 0.0012347329382213
+          "eta": -0.1049848526581554,
+          "beta_home": 0.366803153097,
+          "rho": 0.0056579977485793
         },
         "teams": {
           "Atlético Mineiro / MG": {
-            "attack": 0.1210200410120239,
-            "defense": 0.1186730403248746
+            "attack": 0.203117626004822,
+            "defense": 0.1748808813367472
           },
           "Athletico Paranaense / PR": {
-            "attack": 0.2031778110216646,
-            "defense": 0.031811667594173
+            "attack": 0.2059851109631821,
+            "defense": 0.0533728590814653
           }
         }
       }
@@ -2805,18 +2712,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0863090410015907,
-          "beta_home": 0.374342254278,
-          "rho": 0.0012347329382213
+          "eta": -0.1049848526581554,
+          "beta_home": 0.366803153097,
+          "rho": 0.0056579977485793
         },
         "teams": {
           "Flamengo / RJ": {
-            "attack": 0.5524256301328,
-            "defense": 0.3984877806276163
+            "attack": 0.586979674695,
+            "defense": 0.40331852683817
           },
           "Santos / SP": {
-            "attack": 0.1504185744300753,
-            "defense": 0.0495319908727195
+            "attack": 0.1964853782381825,
+            "defense": 0.0356962798248449
           }
         }
       }
@@ -2836,18 +2743,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0863090410015907,
-          "beta_home": 0.374342254278,
-          "rho": 0.0012347329382213
+          "eta": -0.1049848526581554,
+          "beta_home": 0.366803153097,
+          "rho": 0.0056579977485793
         },
         "teams": {
           "Chapecoense / SC": {
-            "attack": 0.0090382920410408,
-            "defense": -0.0913059634732145
+            "attack": -0.0084615216769944,
+            "defense": -0.0709969973704536
           },
           "Vitória / BA": {
-            "attack": -0.0647872599736337,
-            "defense": 0.0148328253319083
+            "attack": 0.0346999535511675,
+            "defense": 0.0547018862075477
           }
         }
       }
@@ -2867,18 +2774,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0863090410015907,
-          "beta_home": 0.374342254278,
-          "rho": 0.0012347329382213
+          "eta": -0.1049848526581554,
+          "beta_home": 0.366803153097,
+          "rho": 0.0056579977485793
         },
         "teams": {
           "Vasco da Gama / RJ": {
-            "attack": 0.3257590478464512,
-            "defense": -0.1539982523763385
+            "attack": 0.328148360629815,
+            "defense": -0.088409392147841
           },
           "Botafogo / RJ": {
-            "attack": 0.434692689654885,
-            "defense": 0.0412680861994399
+            "attack": 0.4684023084164,
+            "defense": 0.2048079378300587
           }
         }
       }
@@ -2898,18 +2805,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0863090410015907,
-          "beta_home": 0.374342254278,
-          "rho": 0.0012347329382213
+          "eta": -0.1049848526581554,
+          "beta_home": 0.366803153097,
+          "rho": 0.0056579977485793
         },
         "teams": {
           "Coritiba / PR": {
-            "attack": -0.1339262683598112,
-            "defense": 0.3603041904074081
+            "attack": -0.0777228843721465,
+            "defense": 0.1567664563774078
           },
           "Fluminense / RJ": {
-            "attack": 0.2596332576284509,
-            "defense": 0.3402319608864692
+            "attack": 0.2618419603512249,
+            "defense": 0.3115206308242271
           }
         }
       }
@@ -2929,18 +2836,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0863090410015907,
-          "beta_home": 0.374342254278,
-          "rho": 0.0012347329382213
+          "eta": -0.1049848526581554,
+          "beta_home": 0.366803153097,
+          "rho": 0.0056579977485793
         },
         "teams": {
           "São Paulo / SP": {
-            "attack": 0.1163943691711723,
-            "defense": 0.218894524918037
+            "attack": 0.1946881441515212,
+            "defense": 0.2427289428223028
           },
           "Cruzeiro / MG": {
-            "attack": 0.1918195772528936,
-            "defense": 0.199615041422338
+            "attack": 0.2200274202714869,
+            "defense": 0.2960644753637196
           }
         }
       }
@@ -2960,18 +2867,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1116550073623637,
-          "beta_home": 0.3807407403289999,
-          "rho": 0.0184333331751382
+          "eta": -0.1229460409093814,
+          "beta_home": 0.370272837769,
+          "rho": 0.0125973255644191
         },
         "teams": {
           "Red Bull Bragantino / SP": {
-            "attack": -0.0142897465887219,
-            "defense": -0.0944574958568553
+            "attack": 0.1304210495997704,
+            "defense": 0.0164389856580488
           },
           "Flamengo / RJ": {
-            "attack": 0.5706419085845,
-            "defense": 0.4468817010882431
+            "attack": 0.607368241869,
+            "defense": 0.42565437803756
           }
         }
       }
@@ -2991,18 +2898,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1116550073623637,
-          "beta_home": 0.3807407403289999,
-          "rho": 0.0184333331751382
+          "eta": -0.1229460409093814,
+          "beta_home": 0.370272837769,
+          "rho": 0.0125973255644191
         },
         "teams": {
           "Palmeiras / SP": {
-            "attack": 0.5246110556014101,
-            "defense": 0.339060661025447
+            "attack": 0.575646980346,
+            "defense": 0.41833663274717
           },
           "Grêmio / RS": {
-            "attack": 0.2271590890211156,
-            "defense": -0.0372061028409309
+            "attack": 0.315467313870892,
+            "defense": 0.0125030528061486
           }
         }
       }
@@ -3022,18 +2929,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1116550073623637,
-          "beta_home": 0.3807407403289999,
-          "rho": 0.0184333331751382
+          "eta": -0.1229460409093814,
+          "beta_home": 0.370272837769,
+          "rho": 0.0125973255644191
         },
         "teams": {
           "Chapecoense / SC": {
-            "attack": 0.0584183658706308,
-            "defense": -0.0037560952540606
+            "attack": 0.0194026933368772,
+            "defense": -0.0276212462792038
           },
           "Atlético Mineiro / MG": {
-            "attack": 0.0172115887469223,
-            "defense": 0.0496917781289685
+            "attack": 0.1594689424655336,
+            "defense": 0.1442339884417883
           }
         }
       }
@@ -3053,18 +2960,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1116550073623637,
-          "beta_home": 0.3807407403289999,
-          "rho": 0.0184333331751382
+          "eta": -0.1229460409093814,
+          "beta_home": 0.370272837769,
+          "rho": 0.0125973255644191
         },
         "teams": {
           "Santos / SP": {
-            "attack": 0.1397463270907501,
-            "defense": -0.012092806739203
+            "attack": 0.2017359246454051,
+            "defense": 0.0075695631364262
           },
           "Remo / PA": {
-            "attack": 0.1981093541915067,
-            "defense": -0.1420089954368042
+            "attack": 0.1844191933773913,
+            "defense": -0.1034485457961725
           }
         }
       }
@@ -3084,18 +2991,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1116550073623637,
-          "beta_home": 0.3807407403289999,
-          "rho": 0.0184333331751382
+          "eta": -0.1229460409093814,
+          "beta_home": 0.370272837769,
+          "rho": 0.0125973255644191
         },
         "teams": {
           "Fluminense / RJ": {
-            "attack": 0.208807639237999,
-            "defense": 0.317423336986598
+            "attack": 0.243668819919617,
+            "defense": 0.303032060242339
           },
           "Corinthians / SP": {
-            "attack": 0.0463516566676568,
-            "defense": 0.1497301646722603
+            "attack": 0.1845663899339931,
+            "defense": 0.1685069415246767
           }
         }
       }
@@ -3115,18 +3022,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1116550073623637,
-          "beta_home": 0.3807407403289999,
-          "rho": 0.0184333331751382
+          "eta": -0.1229460409093814,
+          "beta_home": 0.370272837769,
+          "rho": 0.0125973255644191
         },
         "teams": {
           "Coritiba / PR": {
-            "attack": -0.1038338173034735,
-            "defense": 0.3593824368069282
+            "attack": -0.0604701922116664,
+            "defense": 0.1493578218521423
           },
           "Vasco da Gama / RJ": {
-            "attack": 0.311321099130731,
-            "defense": -0.2020914872698957
+            "attack": 0.3312113568579179,
+            "defense": -0.1073327947497237
           }
         }
       }
@@ -3146,18 +3053,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1116550073623637,
-          "beta_home": 0.3807407403289999,
-          "rho": 0.0184333331751382
+          "eta": -0.1229460409093814,
+          "beta_home": 0.370272837769,
+          "rho": 0.0125973255644191
         },
         "teams": {
           "Bahia / BA": {
-            "attack": 0.143884299946864,
-            "defense": 0.0699320774756192
+            "attack": 0.2646747357450869,
+            "defense": 0.1001887039510072
           },
           "Athletico Paranaense / PR": {
-            "attack": 0.2355461506954712,
-            "defense": 0.0590787717914162
+            "attack": 0.225230206766288,
+            "defense": 0.062298086470925
           }
         }
       }
@@ -3177,18 +3084,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1116550073623637,
-          "beta_home": 0.3807407403289999,
-          "rho": 0.0184333331751382
+          "eta": -0.1229460409093814,
+          "beta_home": 0.370272837769,
+          "rho": 0.0125973255644191
         },
         "teams": {
           "Cruzeiro / MG": {
-            "attack": 0.1414467765663545,
-            "defense": 0.1475313196947678
+            "attack": 0.205289595926412,
+            "defense": 0.272794494143976
           },
           "Vitória / BA": {
-            "attack": -0.0562892757463492,
-            "defense": 0.0114485744584497
+            "attack": 0.0510821552124885,
+            "defense": 0.059439614244405
           }
         }
       }
@@ -3208,18 +3115,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1116550073623637,
-          "beta_home": 0.3807407403289999,
-          "rho": 0.0184333331751382
+          "eta": -0.1229460409093814,
+          "beta_home": 0.370272837769,
+          "rho": 0.0125973255644191
         },
         "teams": {
           "Internacional / RS": {
-            "attack": 0.0404426391571774,
-            "defense": -0.0024467619212289
+            "attack": 0.191723973986727,
+            "defense": 0.1043457861969228
           },
           "São Paulo / SP": {
-            "attack": 0.1117305814917802,
-            "defense": 0.1736640913217391
+            "attack": 0.199571077493849,
+            "defense": 0.2247542910702323
           }
         }
       }
@@ -3239,18 +3146,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1116550073623637,
-          "beta_home": 0.3807407403289999,
-          "rho": 0.0184333331751382
+          "eta": -0.1229460409093814,
+          "beta_home": 0.370272837769,
+          "rho": 0.0125973255644191
         },
         "teams": {
           "Botafogo / RJ": {
-            "attack": 0.388603855836097,
-            "defense": 0.0268619133973854
+            "attack": 0.4545534326073001,
+            "defense": 0.2116284553274898
           },
           "Mirassol / SP": {
-            "attack": 0.2546341925420711,
-            "defense": 0.189686921029313
+            "attack": 0.2491705108601149,
+            "defense": 0.2625130704453429
           }
         }
       }
@@ -3270,18 +3177,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1099954183184848,
-          "beta_home": 0.378298330645,
-          "rho": 0.0186240137293492
+          "eta": -0.1198384861989459,
+          "beta_home": 0.367853835571,
+          "rho": 0.0127803466570719
         },
         "teams": {
           "Athletico Paranaense / PR": {
-            "attack": 0.1642629082331363,
-            "defense": 0.0500829934032545
+            "attack": 0.1837068688105978,
+            "defense": 0.0599207599342443
           },
           "Botafogo / RJ": {
-            "attack": 0.40789519316463,
-            "defense": 0.107185815211713
+            "attack": 0.4605577154435001,
+            "defense": 0.263017529335161
           }
         }
       }
@@ -3301,18 +3208,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0921236425140879,
-          "beta_home": 0.358099401985,
-          "rho": 0.0170662898741093
+          "eta": -0.1033828128256209,
+          "beta_home": 0.3584070944309999,
+          "rho": 0.0124993685438915
         },
         "teams": {
           "Corinthians / SP": {
-            "attack": 0.0671428413630142,
-            "defense": 0.1806722269196406
+            "attack": 0.195548771386517,
+            "defense": 0.187335613788241
           },
           "Flamengo / RJ": {
-            "attack": 0.6063792158665,
-            "defense": 0.499576724728115
+            "attack": 0.620254898334,
+            "defense": 0.44897187854906
           }
         }
       }
@@ -3332,18 +3239,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0921236425140879,
-          "beta_home": 0.358099401985,
-          "rho": 0.0170662898741093
+          "eta": -0.1033828128256209,
+          "beta_home": 0.3584070944309999,
+          "rho": 0.0124993685438915
         },
         "teams": {
           "Vitória / BA": {
-            "attack": -0.0191713824494822,
-            "defense": 0.0230886903698601
+            "attack": 0.0603335334521228,
+            "defense": 0.0663158682201713
           },
           "Mirassol / SP": {
-            "attack": 0.307011726521956,
-            "defense": 0.2275799843737986
+            "attack": 0.2663549040087354,
+            "defense": 0.2791862254354316
           }
         }
       }
@@ -3363,80 +3270,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0921236425140879,
-          "beta_home": 0.358099401985,
-          "rho": 0.0170662898741093
+          "eta": -0.1033828128256209,
+          "beta_home": 0.3584070944309999,
+          "rho": 0.0124993685438915
         },
         "teams": {
           "Internacional / RS": {
-            "attack": 0.0592454103812262,
-            "defense": 0.0150879736034672
+            "attack": 0.1967391715141387,
+            "defense": 0.1130239504736668
           },
           "Chapecoense / SC": {
-            "attack": 0.0762003221049674,
-            "defense": 0.0101663067175381
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Cruzeiro / MG",
-      "away_team": "Santos / SP",
-      "home_crest": "assets/crests/cruzeiro_mg.png",
-      "away_crest": "assets/crests/santos_sp.png",
-      "home_color": "#2F529E",
-      "away_color": "#000000",
-      "date": "2026-03-22T19:00:00Z",
-      "home_goals": 0,
-      "away_goals": 0,
-      "has_model": true,
-      "reference_date": "2026-03-20",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0921236425140879,
-          "beta_home": 0.358099401985,
-          "rho": 0.0170662898741093
-        },
-        "teams": {
-          "Cruzeiro / MG": {
-            "attack": 0.2239968341326373,
-            "defense": 0.1514798154580801
-          },
-          "Santos / SP": {
-            "attack": 0.1908950556196851,
-            "defense": -0.0160665144830948
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Vasco da Gama / RJ",
-      "away_team": "Grêmio / RS",
-      "home_crest": "assets/crests/vasco_da_gama_rj.png",
-      "away_crest": "assets/crests/gremio_rs.png",
-      "home_color": "#000000",
-      "away_color": "#0D80BF",
-      "date": "2026-03-22T19:00:00Z",
-      "home_goals": 2,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-03-20",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0921236425140879,
-          "beta_home": 0.358099401985,
-          "rho": 0.0170662898741093
-        },
-        "teams": {
-          "Vasco da Gama / RJ": {
-            "attack": 0.3476702109296965,
-            "defense": -0.1639830236940945
-          },
-          "Grêmio / RS": {
-            "attack": 0.2727168783666711,
-            "defense": 0.0144505855585857
+            "attack": 0.0216836864366226,
+            "defense": -0.0183275429095856
           }
         }
       }
@@ -3456,18 +3301,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0921236425140879,
-          "beta_home": 0.358099401985,
-          "rho": 0.0170662898741093
+          "eta": -0.1033828128256209,
+          "beta_home": 0.3584070944309999,
+          "rho": 0.0124993685438915
         },
         "teams": {
           "Athletico Paranaense / PR": {
-            "attack": 0.1353827963570854,
-            "defense": 0.0311634104271005
+            "attack": 0.1750038241694712,
+            "defense": 0.0577747068861023
           },
           "Coritiba / PR": {
-            "attack": -0.0895975804836502,
-            "defense": 0.3885793490951009
+            "attack": -0.0529160146649633,
+            "defense": 0.167026374743564
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Vasco da Gama / RJ",
+      "away_team": "Grêmio / RS",
+      "home_crest": "assets/crests/vasco_da_gama_rj.png",
+      "away_crest": "assets/crests/gremio_rs.png",
+      "home_color": "#000000",
+      "away_color": "#0D80BF",
+      "date": "2026-03-22T19:00:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-03-20",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1033828128256209,
+          "beta_home": 0.3584070944309999,
+          "rho": 0.0124993685438915
+        },
+        "teams": {
+          "Vasco da Gama / RJ": {
+            "attack": 0.3395821119246699,
+            "defense": -0.088571519304714
+          },
+          "Grêmio / RS": {
+            "attack": 0.33056134150952,
+            "defense": 0.0428136575541963
           }
         }
       }
@@ -3487,18 +3363,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0921236425140879,
-          "beta_home": 0.358099401985,
-          "rho": 0.0170662898741093
+          "eta": -0.1033828128256209,
+          "beta_home": 0.3584070944309999,
+          "rho": 0.0124993685438915
         },
         "teams": {
           "Remo / PA": {
-            "attack": 0.0948817291571934,
-            "defense": -0.1484024075510489
+            "attack": 0.1128733406472815,
+            "defense": -0.1051483226265529
           },
           "Bahia / BA": {
-            "attack": 0.1844684146084295,
-            "defense": 0.192748712508508
+            "attack": 0.2771552980551349,
+            "defense": 0.1667485754230925
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Cruzeiro / MG",
+      "away_team": "Santos / SP",
+      "home_crest": "assets/crests/cruzeiro_mg.png",
+      "away_crest": "assets/crests/santos_sp.png",
+      "home_color": "#2F529E",
+      "away_color": "#000000",
+      "date": "2026-03-22T19:00:00Z",
+      "home_goals": 0,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-03-20",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1033828128256209,
+          "beta_home": 0.3584070944309999,
+          "rho": 0.0124993685438915
+        },
+        "teams": {
+          "Cruzeiro / MG": {
+            "attack": 0.2437999196841843,
+            "defense": 0.2828374050301702
+          },
+          "Santos / SP": {
+            "attack": 0.2206198622121204,
+            "defense": 0.0059278611412569
           }
         }
       }
@@ -3518,18 +3425,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0921236425140879,
-          "beta_home": 0.358099401985,
-          "rho": 0.0170662898741093
+          "eta": -0.1033828128256209,
+          "beta_home": 0.3584070944309999,
+          "rho": 0.0124993685438915
         },
         "teams": {
           "São Paulo / SP": {
-            "attack": 0.1750218915046637,
-            "defense": 0.211109073292848
+            "attack": 0.2287071897534566,
+            "defense": 0.2466670684768049
           },
           "Palmeiras / SP": {
-            "attack": 0.5585076751160899,
-            "defense": 0.3496570140616744
+            "attack": 0.586706713365,
+            "defense": 0.4232540334276
           }
         }
       }
@@ -3549,18 +3456,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0921236425140879,
-          "beta_home": 0.358099401985,
-          "rho": 0.0170662898741093
+          "eta": -0.1033828128256209,
+          "beta_home": 0.3584070944309999,
+          "rho": 0.0124993685438915
         },
         "teams": {
           "Fluminense / RJ": {
-            "attack": 0.256855045437746,
-            "defense": 0.3243732308589144
+            "attack": 0.2626230547487835,
+            "defense": 0.310947439208476
           },
           "Atlético Mineiro / MG": {
-            "attack": 0.0695372750491409,
-            "defense": 0.0803412595636272
+            "attack": 0.1801044965308856,
+            "defense": 0.1633195376133577
           }
         }
       }
@@ -3580,18 +3487,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0921236425140879,
-          "beta_home": 0.358099401985,
-          "rho": 0.0170662898741093
+          "eta": -0.1033828128256209,
+          "beta_home": 0.3584070944309999,
+          "rho": 0.0124993685438915
         },
         "teams": {
           "Red Bull Bragantino / SP": {
-            "attack": 0.0287868295432853,
-            "defense": -0.0371037668149508
+            "attack": 0.1434155984820166,
+            "defense": 0.0483617234888296
           },
           "Botafogo / RJ": {
-            "attack": 0.4163696891468409,
-            "defense": 0.1423929779132926
+            "attack": 0.4578900766934001,
+            "defense": 0.2860015490973602
           }
         }
       }
@@ -3611,18 +3518,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0866848253435291,
-          "beta_home": 0.353590881085,
-          "rho": 0.0173496838558497
+          "eta": -0.1014131948429335,
+          "beta_home": 0.3554900929569999,
+          "rho": 0.012536336085283
         },
         "teams": {
           "Chapecoense / SC": {
-            "attack": 0.1309435385244327,
-            "defense": -0.0360502277505798
+            "attack": 0.0458278184881045,
+            "defense": -0.0467991350144958
           },
           "Corinthians / SP": {
-            "attack": 0.1019474684676682,
-            "defense": 0.1397273375150023
+            "attack": 0.2126307537500546,
+            "defense": 0.1667858856680923
           }
         }
       }
@@ -3642,18 +3549,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0866848253435291,
-          "beta_home": 0.353590881085,
-          "rho": 0.0173496838558497
+          "eta": -0.1014131948429335,
+          "beta_home": 0.3554900929569999,
+          "rho": 0.012536336085283
         },
         "teams": {
           "Flamengo / RJ": {
-            "attack": 0.6042899380606699,
-            "defense": 0.4759422526347722
+            "attack": 0.616725864593,
+            "defense": 0.43372322901513
           },
           "Remo / PA": {
-            "attack": 0.1148997882661533,
-            "defense": -0.1414579694946492
+            "attack": 0.1286566984144081,
+            "defense": -0.0964268920223821
           }
         }
       }
@@ -3673,49 +3580,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0866848253435291,
-          "beta_home": 0.353590881085,
-          "rho": 0.0173496838558497
+          "eta": -0.1014131948429335,
+          "beta_home": 0.3554900929569999,
+          "rho": 0.012536336085283
         },
         "teams": {
           "Grêmio / RS": {
-            "attack": 0.2712161336035384,
-            "defense": -0.0153674482671676
+            "attack": 0.330211852704695,
+            "defense": 0.0268872952081823
           },
           "Vitória / BA": {
-            "attack": 0.0086904806281812,
-            "defense": 0.0351444666369096
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Vasco da Gama / RJ",
-      "away_team": "Fluminense / RJ",
-      "home_crest": "assets/crests/vasco_da_gama_rj.png",
-      "away_crest": "assets/crests/fluminense_rj.png",
-      "home_color": "#000000",
-      "away_color": "#870A28",
-      "date": "2026-03-19T00:30:00Z",
-      "home_goals": 3,
-      "away_goals": 2,
-      "has_model": true,
-      "reference_date": "2026-03-16",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0866848253435291,
-          "beta_home": 0.353590881085,
-          "rho": 0.0173496838558497
-        },
-        "teams": {
-          "Vasco da Gama / RJ": {
-            "attack": 0.2943568740648033,
-            "defense": -0.1394767221437056
-          },
-          "Fluminense / RJ": {
-            "attack": 0.2358859388232282,
-            "defense": 0.3915962208044173
+            "attack": 0.0776074077413751,
+            "defense": 0.0698911583456163
           }
         }
       }
@@ -3735,18 +3611,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0866848253435291,
-          "beta_home": 0.353590881085,
-          "rho": 0.0173496838558497
+          "eta": -0.1014131948429335,
+          "beta_home": 0.3554900929569999,
+          "rho": 0.012536336085283
         },
         "teams": {
           "Santos / SP": {
-            "attack": 0.2055465784161786,
-            "defense": 0.0201644627302618
+            "attack": 0.2236250068002222,
+            "defense": 0.0214471166203411
           },
           "Internacional / RS": {
-            "attack": 0.0157554026000664,
-            "defense": 0.0028120411046236
+            "attack": 0.1809882981667201,
+            "defense": 0.1071196298020804
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Vasco da Gama / RJ",
+      "away_team": "Fluminense / RJ",
+      "home_crest": "assets/crests/vasco_da_gama_rj.png",
+      "away_crest": "assets/crests/fluminense_rj.png",
+      "home_color": "#000000",
+      "away_color": "#870A28",
+      "date": "2026-03-19T00:30:00Z",
+      "home_goals": 3,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-03-16",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1014131948429335,
+          "beta_home": 0.3554900929569999,
+          "rho": 0.012536336085283
+        },
+        "teams": {
+          "Vasco da Gama / RJ": {
+            "attack": 0.313656286164833,
+            "defense": -0.0774366451146524
+          },
+          "Fluminense / RJ": {
+            "attack": 0.2509266246556626,
+            "defense": 0.344824770097595
           }
         }
       }
@@ -3766,18 +3673,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0866848253435291,
-          "beta_home": 0.353590881085,
-          "rho": 0.0173496838558497
+          "eta": -0.1014131948429335,
+          "beta_home": 0.3554900929569999,
+          "rho": 0.012536336085283
         },
         "teams": {
           "Mirassol / SP": {
-            "attack": 0.3409388665220704,
-            "defense": 0.2411331883799304
+            "attack": 0.287654583538144,
+            "defense": 0.2889054646602139
           },
           "Coritiba / PR": {
-            "attack": -0.1044860378500346,
-            "defense": 0.336054328974321
+            "attack": -0.0623294733371113,
+            "defense": 0.1410166766750012
           }
         }
       }
@@ -3797,18 +3704,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0866848253435291,
-          "beta_home": 0.353590881085,
-          "rho": 0.0173496838558497
+          "eta": -0.1014131948429335,
+          "beta_home": 0.3554900929569999,
+          "rho": 0.012536336085283
         },
         "teams": {
           "Atlético Mineiro / MG": {
-            "attack": 0.076042039267549,
-            "defense": 0.053503412788331
+            "attack": 0.1857711250368073,
+            "defense": 0.1469974731425808
           },
           "São Paulo / SP": {
-            "attack": 0.2011229473258406,
-            "defense": 0.2064541200153939
+            "attack": 0.2434868777522222,
+            "defense": 0.2429539401282927
           }
         }
       }
@@ -3828,18 +3735,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0866848253435291,
-          "beta_home": 0.353590881085,
-          "rho": 0.0173496838558497
+          "eta": -0.1014131948429335,
+          "beta_home": 0.3554900929569999,
+          "rho": 0.012536336085283
         },
         "teams": {
           "Athletico Paranaense / PR": {
-            "attack": 0.1138939709434494,
-            "defense": 0.0261120997133914
+            "attack": 0.1615143099977718,
+            "defense": 0.0545582353630401
           },
           "Cruzeiro / MG": {
-            "attack": 0.2190953306736955,
-            "defense": 0.1697273180169298
+            "attack": 0.242915264246775,
+            "defense": 0.298094424746213
           }
         }
       }
@@ -3859,18 +3766,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0866848253435291,
-          "beta_home": 0.353590881085,
-          "rho": 0.0173496838558497
+          "eta": -0.1014131948429335,
+          "beta_home": 0.3554900929569999,
+          "rho": 0.012536336085283
         },
         "teams": {
           "Bahia / BA": {
-            "attack": 0.1773356043946711,
-            "defense": 0.1662483180382052
+            "attack": 0.270115185575567,
+            "defense": 0.1513446846977598
           },
           "Red Bull Bragantino / SP": {
-            "attack": 0.0498813962963363,
-            "defense": -0.0223548099427553
+            "attack": 0.1563161945481345,
+            "defense": 0.0523079121176102
           }
         }
       }
@@ -3890,18 +3797,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0866848253435291,
-          "beta_home": 0.353590881085,
-          "rho": 0.0173496838558497
+          "eta": -0.1014131948429335,
+          "beta_home": 0.3554900929569999,
+          "rho": 0.012536336085283
         },
         "teams": {
           "Palmeiras / SP": {
-            "attack": 0.56159265851394,
-            "defense": 0.351892524942283
+            "attack": 0.58424394874,
+            "defense": 0.4224253929065489
           },
           "Botafogo / RJ": {
-            "attack": 0.415486111093046,
-            "defense": 0.1395775287764611
+            "attack": 0.4577085917675,
+            "defense": 0.288165908951741
           }
         }
       }
@@ -3921,18 +3828,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0925477028533083,
-          "beta_home": 0.362068593746,
-          "rho": 0.0119128522794736
+          "eta": -0.1057043453345259,
+          "beta_home": 0.3609607080599999,
+          "rho": 0.0093657395137686
         },
         "teams": {
           "Chapecoense / SC": {
-            "attack": 0.1264188011739846,
-            "defense": -0.042095185611005
+            "attack": 0.0459632316692725,
+            "defense": -0.0477674686518934
           },
           "Grêmio / RS": {
-            "attack": 0.2818605931062995,
-            "defense": -0.0158681906905147
+            "attack": 0.333292938630974,
+            "defense": 0.0225952091283404
           }
         }
       }
@@ -3952,18 +3859,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0925477028533083,
-          "beta_home": 0.362068593746,
-          "rho": 0.0119128522794736
+          "eta": -0.1057043453345259,
+          "beta_home": 0.3609607080599999,
+          "rho": 0.0093657395137686
         },
         "teams": {
           "Cruzeiro / MG": {
-            "attack": 0.1896282916086643,
-            "defense": 0.2451317494251001
+            "attack": 0.2239448816927028,
+            "defense": 0.334884084507755
           },
           "Vasco da Gama / RJ": {
-            "attack": 0.2366508952406147,
-            "defense": -0.109957632773248
+            "attack": 0.278007810273691,
+            "defense": -0.0635669657161307
           }
         }
       }
@@ -3983,18 +3890,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0925477028533083,
-          "beta_home": 0.362068593746,
-          "rho": 0.0119128522794736
+          "eta": -0.1057043453345259,
+          "beta_home": 0.3609607080599999,
+          "rho": 0.0093657395137686
         },
         "teams": {
           "Red Bull Bragantino / SP": {
-            "attack": 0.0570856568570252,
-            "defense": -8.776351643470015e-5
+            "attack": 0.1620078867673919,
+            "defense": 0.0632125409800238
           },
           "São Paulo / SP": {
-            "attack": 0.1735347052776384,
-            "defense": 0.2017895747558706
+            "attack": 0.227862323757172,
+            "defense": 0.235270307139473
           }
         }
       }
@@ -4014,18 +3921,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0925477028533083,
-          "beta_home": 0.362068593746,
-          "rho": 0.0119128522794736
+          "eta": -0.1057043453345259,
+          "beta_home": 0.3609607080599999,
+          "rho": 0.0093657395137686
         },
         "teams": {
           "Coritiba / PR": {
-            "attack": -0.0908966612636656,
-            "defense": 0.295645846672552
+            "attack": -0.0499959607347371,
+            "defense": 0.1211499541362874
           },
           "Remo / PA": {
-            "attack": 0.1395364042926777,
-            "defense": -0.1549575559047439
+            "attack": 0.1523754457553566,
+            "defense": -0.1049447790678061
           }
         }
       }
@@ -4045,80 +3952,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0925477028533083,
-          "beta_home": 0.362068593746,
-          "rho": 0.0119128522794736
+          "eta": -0.1057043453345259,
+          "beta_home": 0.3609607080599999,
+          "rho": 0.0093657395137686
         },
         "teams": {
           "Palmeiras / SP": {
-            "attack": 0.5868136260761299,
-            "defense": 0.313598198947407
+            "attack": 0.596282579023,
+            "defense": 0.4045163092751569
           },
           "Mirassol / SP": {
-            "attack": 0.369897126304591,
-            "defense": 0.2056979411353255
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Santos / SP",
-      "away_team": "Corinthians / SP",
-      "home_crest": "assets/crests/santos_sp.png",
-      "away_crest": "assets/crests/corinthians_sp.png",
-      "home_color": "#000000",
-      "away_color": "#000000",
-      "date": "2026-03-15T19:00:00Z",
-      "home_goals": 1,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-03-13",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0925477028533083,
-          "beta_home": 0.362068593746,
-          "rho": 0.0119128522794736
-        },
-        "teams": {
-          "Santos / SP": {
-            "attack": 0.2195515169307555,
-            "defense": 0.0149264855951787
-          },
-          "Corinthians / SP": {
-            "attack": 0.1067171179885935,
-            "defense": 0.1254692413288339
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Fluminense / RJ",
-      "away_team": "Athletico Paranaense / PR",
-      "home_crest": "assets/crests/fluminense_rj.png",
-      "away_crest": "assets/crests/athletico_paranaense_pr.png",
-      "home_color": "#870A28",
-      "away_color": "#CE181E",
-      "date": "2026-03-15T19:00:00Z",
-      "home_goals": 3,
-      "away_goals": 2,
-      "has_model": true,
-      "reference_date": "2026-03-13",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0925477028533083,
-          "beta_home": 0.362068593746,
-          "rho": 0.0119128522794736
-        },
-        "teams": {
-          "Fluminense / RJ": {
-            "attack": 0.1929927253457392,
-            "defense": 0.4464598067042414
-          },
-          "Athletico Paranaense / PR": {
-            "attack": 0.0712182804968547,
-            "defense": 0.0854519876341223
+            "attack": 0.2993652622687931,
+            "defense": 0.2699882113802507
           }
         }
       }
@@ -4138,18 +3983,80 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0925477028533083,
-          "beta_home": 0.362068593746,
-          "rho": 0.0119128522794736
+          "eta": -0.1057043453345259,
+          "beta_home": 0.3609607080599999,
+          "rho": 0.0093657395137686
         },
         "teams": {
           "Internacional / RS": {
-            "attack": 0.0636422793011524,
-            "defense": -0.0042570949520906
+            "attack": 0.2022368999403271,
+            "defense": 0.1038683025765388
           },
           "Bahia / BA": {
-            "attack": 0.1849521736270998,
-            "defense": 0.1244649395877453
+            "attack": 0.271520388820344,
+            "defense": 0.1277765388222606
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Fluminense / RJ",
+      "away_team": "Athletico Paranaense / PR",
+      "home_crest": "assets/crests/fluminense_rj.png",
+      "away_crest": "assets/crests/athletico_paranaense_pr.png",
+      "home_color": "#870A28",
+      "away_color": "#CE181E",
+      "date": "2026-03-15T19:00:00Z",
+      "home_goals": 3,
+      "away_goals": 2,
+      "has_model": true,
+      "reference_date": "2026-03-13",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1057043453345259,
+          "beta_home": 0.3609607080599999,
+          "rho": 0.0093657395137686
+        },
+        "teams": {
+          "Fluminense / RJ": {
+            "attack": 0.2277824335930413,
+            "defense": 0.36507076481565
+          },
+          "Athletico Paranaense / PR": {
+            "attack": 0.1394895590418609,
+            "defense": 0.0806807543675918
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Santos / SP",
+      "away_team": "Corinthians / SP",
+      "home_crest": "assets/crests/santos_sp.png",
+      "away_crest": "assets/crests/corinthians_sp.png",
+      "home_color": "#000000",
+      "away_color": "#000000",
+      "date": "2026-03-15T19:00:00Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-03-13",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1057043453345259,
+          "beta_home": 0.3609607080599999,
+          "rho": 0.0093657395137686
+        },
+        "teams": {
+          "Santos / SP": {
+            "attack": 0.2305667509400359,
+            "defense": 0.014889772806835
+          },
+          "Corinthians / SP": {
+            "attack": 0.2167051263415075,
+            "defense": 0.1591453182137506
           }
         }
       }
@@ -4169,18 +4076,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0925477028533083,
-          "beta_home": 0.362068593746,
-          "rho": 0.0119128522794736
+          "eta": -0.1057043453345259,
+          "beta_home": 0.3609607080599999,
+          "rho": 0.0093657395137686
         },
         "teams": {
           "Botafogo / RJ": {
-            "attack": 0.45296580991326,
-            "defense": 0.1921903471601977
+            "attack": 0.471719732353,
+            "defense": 0.319664761641082
           },
           "Flamengo / RJ": {
-            "attack": 0.5780770932707999,
-            "defense": 0.4180750409597507
+            "attack": 0.5999328768409999,
+            "defense": 0.4052948079781799
           }
         }
       }
@@ -4200,18 +4107,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0925477028533083,
-          "beta_home": 0.362068593746,
-          "rho": 0.0119128522794736
+          "eta": -0.1057043453345259,
+          "beta_home": 0.3609607080599999,
+          "rho": 0.0093657395137686
         },
         "teams": {
           "Vitória / BA": {
-            "attack": -0.016401543450057,
-            "defense": 0.0069488953955237
+            "attack": 0.0641364949339052,
+            "defense": 0.0546081890492973
           },
           "Atlético Mineiro / MG": {
-            "attack": 0.1080725432003461,
-            "defense": 0.0777042833996713
+            "attack": 0.1999371554284738,
+            "defense": 0.1589477604660734
           }
         }
       }
@@ -4231,18 +4138,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0908125999827882,
-          "beta_home": 0.366132280794,
-          "rho": 0.0146288440910767
+          "eta": -0.1095825099317405,
+          "beta_home": 0.36401335618,
+          "rho": 0.0104888016575376
         },
         "teams": {
           "Grêmio / RS": {
-            "attack": 0.293968132261538,
-            "defense": -0.0189753648467674
+            "attack": 0.337558841720059,
+            "defense": 0.0164726063605232
           },
           "Red Bull Bragantino / SP": {
-            "attack": 0.0530676533822048,
-            "defense": -0.0235290822327613
+            "attack": 0.160287226075159,
+            "defense": 0.0532258220496274
           }
         }
       }
@@ -4262,18 +4169,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0908125999827882,
-          "beta_home": 0.366132280794,
-          "rho": 0.0146288440910767
+          "eta": -0.1095825099317405,
+          "beta_home": 0.36401335618,
+          "rho": 0.0104888016575376
         },
         "teams": {
           "São Paulo / SP": {
-            "attack": 0.1592901000549879,
-            "defense": 0.1755009744300193
+            "attack": 0.2200136577810548,
+            "defense": 0.2207394197503074
           },
           "Chapecoense / SC": {
-            "attack": 0.1498817947578645,
-            "defense": -0.0282115556982598
+            "attack": 0.0594835946309142,
+            "defense": -0.0468562054441702
           }
         }
       }
@@ -4293,18 +4200,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0908125999827882,
-          "beta_home": 0.366132280794,
-          "rho": 0.0146288440910767
+          "eta": -0.1095825099317405,
+          "beta_home": 0.36401335618,
+          "rho": 0.0104888016575376
         },
         "teams": {
           "Vasco da Gama / RJ": {
-            "attack": 0.2155724501456716,
-            "defense": -0.1286405382204629
+            "attack": 0.264742004788437,
+            "defense": -0.0756940882025597
           },
           "Palmeiras / SP": {
-            "attack": 0.5946792011655,
-            "defense": 0.3501867088781314
+            "attack": 0.6020119034510001,
+            "defense": 0.4163662479714399
           }
         }
       }
@@ -4324,18 +4231,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0908125999827882,
-          "beta_home": 0.366132280794,
-          "rho": 0.0146288440910767
+          "eta": -0.1095825099317405,
+          "beta_home": 0.36401335618,
+          "rho": 0.0104888016575376
         },
         "teams": {
           "Remo / PA": {
-            "attack": 0.1743143650572202,
-            "defense": -0.1300823721296509
+            "attack": 0.1780294898861392,
+            "defense": -0.0871684508403026
           },
           "Fluminense / RJ": {
-            "attack": 0.1712786890634016,
-            "defense": 0.408624262265684
+            "attack": 0.21628569089049,
+            "defense": 0.345353539887806
           }
         }
       }
@@ -4355,18 +4262,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0908125999827882,
-          "beta_home": 0.366132280794,
-          "rho": 0.0146288440910767
+          "eta": -0.1095825099317405,
+          "beta_home": 0.36401335618,
+          "rho": 0.0104888016575376
         },
         "teams": {
           "Corinthians / SP": {
-            "attack": 0.1373285404551765,
-            "defense": 0.1704384602222291
+            "attack": 0.2371854838964425,
+            "defense": 0.1771857666247427
           },
           "Coritiba / PR": {
-            "attack": -0.1412473529340904,
-            "defense": 0.2505802200062971
+            "attack": -0.073614532718533,
+            "defense": 0.094516901272815
           }
         }
       }
@@ -4386,18 +4293,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0908125999827882,
-          "beta_home": 0.366132280794,
-          "rho": 0.0146288440910767
+          "eta": -0.1095825099317405,
+          "beta_home": 0.36401335618,
+          "rho": 0.0104888016575376
         },
         "teams": {
           "Flamengo / RJ": {
-            "attack": 0.5711808275403,
-            "defense": 0.389489676494197
+            "attack": 0.5927121975809999,
+            "defense": 0.3881978118447899
           },
           "Cruzeiro / MG": {
-            "attack": 0.2105406048702313,
-            "defense": 0.2471876031891166
+            "attack": 0.2342715283586589,
+            "defense": 0.338158109529935
           }
         }
       }
@@ -4417,18 +4324,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0908125999827882,
-          "beta_home": 0.366132280794,
-          "rho": 0.0146288440910767
+          "eta": -0.1095825099317405,
+          "beta_home": 0.36401335618,
+          "rho": 0.0104888016575376
         },
         "teams": {
           "Bahia / BA": {
-            "attack": 0.197289865986789,
-            "defense": 0.1322083332256851
+            "attack": 0.2779523066692499,
+            "defense": 0.1277960395384875
           },
           "Vitória / BA": {
-            "attack": -0.0274547874147812,
-            "defense": -0.0021719370407529
+            "attack": 0.0616766849011981,
+            "defense": 0.0442624406426871
           }
         }
       }
@@ -4448,18 +4355,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0908125999827882,
-          "beta_home": 0.366132280794,
-          "rho": 0.0146288440910767
+          "eta": -0.1095825099317405,
+          "beta_home": 0.36401335618,
+          "rho": 0.0104888016575376
         },
         "teams": {
           "Atlético Mineiro / MG": {
-            "attack": 0.1210507345093027,
-            "defense": 0.0556266097181853
+            "attack": 0.2071026964674359,
+            "defense": 0.143364211454941
           },
           "Internacional / RS": {
-            "attack": 0.0919174927993197,
-            "defense": -0.0135967928905501
+            "attack": 0.2226656086607473,
+            "defense": 0.0925622205405927
           }
         }
       }
@@ -4479,18 +4386,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0908125999827882,
-          "beta_home": 0.366132280794,
-          "rho": 0.0146288440910767
+          "eta": -0.1095825099317405,
+          "beta_home": 0.36401335618,
+          "rho": 0.0104888016575376
         },
         "teams": {
           "Mirassol / SP": {
-            "attack": 0.362529277561858,
-            "defense": 0.246222205530775
+            "attack": 0.296490130495884,
+            "defense": 0.2901176408677718
           },
           "Santos / SP": {
-            "attack": 0.1857769861409491,
-            "defense": 0.0253127047694588
+            "attack": 0.211219214347292,
+            "defense": 0.0197409360720489
           }
         }
       }
@@ -4510,49 +4417,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0903013431251441,
-          "beta_home": 0.368106618988,
-          "rho": 0.0222012555366193
+          "eta": -0.109373959474397,
+          "beta_home": 0.364659622389,
+          "rho": 0.0131427533547455
         },
         "teams": {
           "Santos / SP": {
-            "attack": 0.1733402908634518,
-            "defense": 0.0145182455236252
+            "attack": 0.2068814780999255,
+            "defense": 0.0183410426948881
           },
           "Vasco da Gama / RJ": {
-            "attack": 0.211519001525478,
-            "defense": -0.1278209760705312
-          }
-        }
-      }
-    },
-    {
-      "home_team": "Grêmio / RS",
-      "away_team": "Atlético Mineiro / MG",
-      "home_crest": "assets/crests/gremio_rs.png",
-      "away_crest": "assets/crests/atletico_mineiro_mg.png",
-      "home_color": "#0D80BF",
-      "away_color": "#000000",
-      "date": "2026-02-26T00:30:00Z",
-      "home_goals": 2,
-      "away_goals": 1,
-      "has_model": true,
-      "reference_date": "2026-02-20",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0903013431251441,
-          "beta_home": 0.368106618988,
-          "rho": 0.0222012555366193
-        },
-        "teams": {
-          "Grêmio / RS": {
-            "attack": 0.2796380956397136,
-            "defense": -0.0231817766399708
-          },
-          "Atlético Mineiro / MG": {
-            "attack": 0.1137830757672019,
-            "defense": 0.0601145762579374
+            "attack": 0.266855086511968,
+            "defense": -0.0717727147423326
           }
         }
       }
@@ -4572,18 +4448,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0903013431251441,
-          "beta_home": 0.368106618988,
-          "rho": 0.0222012555366193
+          "eta": -0.109373959474397,
+          "beta_home": 0.364659622389,
+          "rho": 0.0131427533547455
         },
         "teams": {
           "Palmeiras / SP": {
-            "attack": 0.5812195059830999,
-            "defense": 0.3508177237852622
+            "attack": 0.597374333602,
+            "defense": 0.42470388593233
           },
           "Fluminense / RJ": {
-            "attack": 0.1612302750043596,
-            "defense": 0.4195875180150933
+            "attack": 0.2163091844167027,
+            "defense": 0.34932819314234
+          }
+        }
+      }
+    },
+    {
+      "home_team": "Grêmio / RS",
+      "away_team": "Atlético Mineiro / MG",
+      "home_crest": "assets/crests/gremio_rs.png",
+      "away_crest": "assets/crests/atletico_mineiro_mg.png",
+      "home_color": "#0D80BF",
+      "away_color": "#000000",
+      "date": "2026-02-26T00:30:00Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "has_model": true,
+      "reference_date": "2026-02-20",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.109373959474397,
+          "beta_home": 0.364659622389,
+          "rho": 0.0131427533547455
+        },
+        "teams": {
+          "Grêmio / RS": {
+            "attack": 0.331502773230218,
+            "defense": 0.0150311617659889
+          },
+          "Atlético Mineiro / MG": {
+            "attack": 0.2070178502754684,
+            "defense": 0.1485859129539287
           }
         }
       }
@@ -4603,18 +4510,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0903013431251441,
-          "beta_home": 0.368106618988,
-          "rho": 0.0222012555366193
+          "eta": -0.109373959474397,
+          "beta_home": 0.364659622389,
+          "rho": 0.0131427533547455
         },
         "teams": {
           "Cruzeiro / MG": {
-            "attack": 0.2127852816004717,
-            "defense": 0.2514966717272585
+            "attack": 0.2394636377038489,
+            "defense": 0.340551494140388
           },
           "Corinthians / SP": {
-            "attack": 0.1223600607895446,
-            "defense": 0.1506384539807062
+            "attack": 0.2311087150064399,
+            "defense": 0.1723283893627638
           }
         }
       }
@@ -4634,18 +4541,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0903013431251441,
-          "beta_home": 0.368106618988,
-          "rho": 0.0222012555366193
+          "eta": -0.109373959474397,
+          "beta_home": 0.364659622389,
+          "rho": 0.0131427533547455
         },
         "teams": {
           "Coritiba / PR": {
-            "attack": -0.0983443190135762,
-            "defense": 0.2662927080450948
+            "attack": -0.0538461369300996,
+            "defense": 0.0877470802759482
           },
           "São Paulo / SP": {
-            "attack": 0.1471524788626862,
-            "defense": 0.1382321512936936
+            "attack": 0.220031203460327,
+            "defense": 0.2046939470775868
           }
         }
       }
@@ -4665,18 +4572,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0903013431251441,
-          "beta_home": 0.368106618988,
-          "rho": 0.0222012555366193
+          "eta": -0.109373959474397,
+          "beta_home": 0.364659622389,
+          "rho": 0.0131427533547455
         },
         "teams": {
           "Remo / PA": {
-            "attack": 0.2004814540719197,
-            "defense": -0.1279056120249033
+            "attack": 0.1892447046602253,
+            "defense": -0.0918932201350819
           },
           "Internacional / RS": {
-            "attack": 0.0904681237509543,
-            "defense": -0.0334767042875574
+            "attack": 0.2268080009331731,
+            "defense": 0.089091998508469
           }
         }
       }
@@ -4696,18 +4603,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0903013431251441,
-          "beta_home": 0.368106618988,
-          "rho": 0.0222012555366193
+          "eta": -0.109373959474397,
+          "beta_home": 0.364659622389,
+          "rho": 0.0131427533547455
         },
         "teams": {
           "Red Bull Bragantino / SP": {
-            "attack": 0.0593339695459925,
-            "defense": -0.0281735980741943
+            "attack": 0.1644091499291701,
+            "defense": 0.0525722385313911
           },
           "Athletico Paranaense / PR": {
-            "attack": 0.0726435057200216,
-            "defense": 0.0799732023274747
+            "attack": 0.1391459074225047,
+            "defense": 0.0774008001124048
           }
         }
       }
@@ -4727,18 +4634,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0891616893833939,
-          "beta_home": 0.369767085742,
-          "rho": 0.0187470083077625
+          "eta": -0.1096920746223831,
+          "beta_home": 0.367279709883,
+          "rho": 0.0121499324919244
         },
         "teams": {
           "Athletico Paranaense / PR": {
-            "attack": 0.1153156397595755,
-            "defense": 0.0800869412232976
+            "attack": 0.1581794410425412,
+            "defense": 0.073529999714158
           },
           "Corinthians / SP": {
-            "attack": 0.1215409142029297,
-            "defense": 0.105121853420304
+            "attack": 0.229329790100362,
+            "defense": 0.1509920472133962
           }
         }
       }
@@ -4758,18 +4665,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0946917320499094,
-          "beta_home": 0.372601697213,
-          "rho": 0.0136687020852531
+          "eta": -0.1155579631851361,
+          "beta_home": 0.368755862756,
+          "rho": 0.0096621356864495
         },
         "teams": {
           "Internacional / RS": {
-            "attack": 0.0940249695575465,
-            "defense": -0.0013776877613259
+            "attack": 0.228171645123096,
+            "defense": 0.1096679036220923
           },
           "Palmeiras / SP": {
-            "attack": 0.5644461517393,
-            "defense": 0.3535406803249774
+            "attack": 0.580160263209,
+            "defense": 0.42278253853856
           }
         }
       }
@@ -4789,18 +4696,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0946917320499094,
-          "beta_home": 0.372601697213,
-          "rho": 0.0136687020852531
+          "eta": -0.1155579631851361,
+          "beta_home": 0.368755862756,
+          "rho": 0.0096621356864495
         },
         "teams": {
           "Corinthians / SP": {
-            "attack": 0.115057505202196,
-            "defense": 0.0836813765064779
+            "attack": 0.2273010787785266,
+            "defense": 0.1336128652947843
           },
           "Red Bull Bragantino / SP": {
-            "attack": 0.0913282970480613,
-            "defense": -0.0202628332818412
+            "attack": 0.1819678011639152,
+            "defense": 0.0517247409665807
           }
         }
       }
@@ -4820,18 +4727,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0946917320499094,
-          "beta_home": 0.372601697213,
-          "rho": 0.0136687020852531
+          "eta": -0.1155579631851361,
+          "beta_home": 0.368755862756,
+          "rho": 0.0096621356864495
         },
         "teams": {
           "Fluminense / RJ": {
-            "attack": 0.1738638102377808,
-            "defense": 0.386387567684602
+            "attack": 0.2181621133251541,
+            "defense": 0.328696041739024
           },
           "Botafogo / RJ": {
-            "attack": 0.467042332085034,
-            "defense": 0.1797088756599819
+            "attack": 0.4829183467015,
+            "defense": 0.3117469439382463
           }
         }
       }
@@ -4851,49 +4758,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0946917320499094,
-          "beta_home": 0.372601697213,
-          "rho": 0.0136687020852531
+          "eta": -0.1155579631851361,
+          "beta_home": 0.368755862756,
+          "rho": 0.0096621356864495
         },
         "teams": {
           "Athletico Paranaense / PR": {
-            "attack": 0.0991684733321931,
-            "defense": 0.070658016176441
+            "attack": 0.1560539491030631,
+            "defense": 0.0669466678125777
           },
           "Santos / SP": {
-            "attack": 0.182231108100567,
-            "defense": 0.0228801344284553
-          }
-        }
-      }
-    },
-    {
-      "home_team": "São Paulo / SP",
-      "away_team": "Grêmio / RS",
-      "home_crest": "assets/crests/sao_paulo_sp.png",
-      "away_crest": "assets/crests/gremio_rs.png",
-      "home_color": "#FE0000",
-      "away_color": "#0D80BF",
-      "date": "2026-02-12T00:30:00Z",
-      "home_goals": 2,
-      "away_goals": 0,
-      "has_model": true,
-      "reference_date": "2026-02-06",
-      "params": {
-        "model": "poisson_home",
-        "shared": {
-          "eta": -0.0946917320499094,
-          "beta_home": 0.372601697213,
-          "rho": 0.0136687020852531
-        },
-        "teams": {
-          "São Paulo / SP": {
-            "attack": 0.1402475582548444,
-            "defense": 0.1100865477187862
-          },
-          "Grêmio / RS": {
-            "attack": 0.3085326746951535,
-            "defense": -0.0118415540974125
+            "attack": 0.2093784449542312,
+            "defense": 0.0214890696818856
           }
         }
       }
@@ -4913,18 +4789,49 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0946917320499094,
-          "beta_home": 0.372601697213,
-          "rho": 0.0136687020852531
+          "eta": -0.1155579631851361,
+          "beta_home": 0.368755862756,
+          "rho": 0.0096621356864495
         },
         "teams": {
           "Vasco da Gama / RJ": {
-            "attack": 0.2627021346158651,
-            "defense": -0.1409834473711279
+            "attack": 0.291089989104479,
+            "defense": -0.0833930774839135
           },
           "Bahia / BA": {
-            "attack": 0.2028683245574274,
-            "defense": 0.0847508641794484
+            "attack": 0.2797531676758512,
+            "defense": 0.1015905925561643
+          }
+        }
+      }
+    },
+    {
+      "home_team": "São Paulo / SP",
+      "away_team": "Grêmio / RS",
+      "home_crest": "assets/crests/sao_paulo_sp.png",
+      "away_crest": "assets/crests/gremio_rs.png",
+      "home_color": "#FE0000",
+      "away_color": "#0D80BF",
+      "date": "2026-02-12T00:30:00Z",
+      "home_goals": 2,
+      "away_goals": 0,
+      "has_model": true,
+      "reference_date": "2026-02-06",
+      "params": {
+        "model": "poisson_home",
+        "shared": {
+          "eta": -0.1155579631851361,
+          "beta_home": 0.368755862756,
+          "rho": 0.0096621356864495
+        },
+        "teams": {
+          "São Paulo / SP": {
+            "attack": 0.2139780207049701,
+            "defense": 0.18414588936003
+          },
+          "Grêmio / RS": {
+            "attack": 0.351554859351599,
+            "defense": 0.014956556952518
           }
         }
       }
@@ -4944,18 +4851,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0946917320499094,
-          "beta_home": 0.372601697213,
-          "rho": 0.0136687020852531
+          "eta": -0.1155579631851361,
+          "beta_home": 0.368755862756,
+          "rho": 0.0096621356864495
         },
         "teams": {
           "Atlético Mineiro / MG": {
-            "attack": 0.0755489492077964,
-            "defense": 0.119249117075317
+            "attack": 0.1862292186718907,
+            "defense": 0.180841519007442
           },
           "Remo / PA": {
-            "attack": 0.136457923171352,
-            "defense": -0.0818792173297333
+            "attack": 0.139388793420376,
+            "defense": -0.0561980715123595
           }
         }
       }
@@ -4975,18 +4882,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0946917320499094,
-          "beta_home": 0.372601697213,
-          "rho": 0.0136687020852531
+          "eta": -0.1155579631851361,
+          "beta_home": 0.368755862756,
+          "rho": 0.0096621356864495
         },
         "teams": {
           "Chapecoense / SC": {
-            "attack": 0.1053128455474036,
-            "defense": 0.0566315280721793
+            "attack": 0.0358869741430128,
+            "defense": -0.0069658507241347
           },
           "Coritiba / PR": {
-            "attack": -0.1740206026052785,
-            "defense": 0.345519699217369
+            "attack": -0.0898022400368941,
+            "defense": 0.1156164709884789
           }
         }
       }
@@ -5006,18 +4913,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0946917320499094,
-          "beta_home": 0.372601697213,
-          "rho": 0.0136687020852531
+          "eta": -0.1155579631851361,
+          "beta_home": 0.368755862756,
+          "rho": 0.0096621356864495
         },
         "teams": {
           "Mirassol / SP": {
-            "attack": 0.34848577169557,
-            "defense": 0.2866116776885573
+            "attack": 0.287813625907131,
+            "defense": 0.313829566567646
           },
           "Cruzeiro / MG": {
-            "attack": 0.1865143679079982,
-            "defense": 0.2670005492129877
+            "attack": 0.22409683292795,
+            "defense": 0.353524959891493
           }
         }
       }
@@ -5037,18 +4944,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.0946917320499094,
-          "beta_home": 0.372601697213,
-          "rho": 0.0136687020852531
+          "eta": -0.1155579631851361,
+          "beta_home": 0.368755862756,
+          "rho": 0.0096621356864495
         },
         "teams": {
           "Vitória / BA": {
-            "attack": -0.0345505534872704,
-            "defense": 0.0015833455073615
+            "attack": 0.0618792157615549,
+            "defense": 0.0473471597507458
           },
           "Flamengo / RJ": {
-            "attack": 0.562122098155,
-            "defense": 0.3879156079997308
+            "attack": 0.592975113718,
+            "defense": 0.39066460745644
           }
         }
       }
@@ -5068,18 +4975,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1010087943538562,
-          "beta_home": 0.373344214168,
-          "rho": 0.022523165431871
+          "eta": -0.1168109131653219,
+          "beta_home": 0.370057463755,
+          "rho": 0.0128706752104371
         },
         "teams": {
           "Cruzeiro / MG": {
-            "attack": 0.211060364729943,
-            "defense": 0.3250699972028446
+            "attack": 0.2378352574029369,
+            "defense": 0.382745444198465
           },
           "Coritiba / PR": {
-            "attack": -0.2371469361516673,
-            "defense": 0.329248460707038
+            "attack": -0.1209742597938949,
+            "defense": 0.1074259943185969
           }
         }
       }
@@ -5099,18 +5006,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1010087943538562,
-          "beta_home": 0.373344214168,
-          "rho": 0.022523165431871
+          "eta": -0.1168109131653219,
+          "beta_home": 0.370057463755,
+          "rho": 0.0128706752104371
         },
         "teams": {
           "Vasco da Gama / RJ": {
-            "attack": 0.3006105866472269,
-            "defense": -0.1404038674696997
+            "attack": 0.309091680871081,
+            "defense": -0.0794788392083708
           },
           "Chapecoense / SC": {
-            "attack": 0.1066111644541621,
-            "defense": 0.0160430007895023
+            "attack": 0.0317829188108322,
+            "defense": -0.0222048219423531
           }
         }
       }
@@ -5130,18 +5037,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1010087943538562,
-          "beta_home": 0.373344214168,
-          "rho": 0.022523165431871
+          "eta": -0.1168109131653219,
+          "beta_home": 0.370057463755,
+          "rho": 0.0128706752104371
         },
         "teams": {
           "Bahia / BA": {
-            "attack": 0.2239072288142437,
-            "defense": 0.0869229899537484
+            "attack": 0.2933134750803003,
+            "defense": 0.1034269026901096
           },
           "Fluminense / RJ": {
-            "attack": 0.1938911216445495,
-            "defense": 0.3814905063117073
+            "attack": 0.227053181263534,
+            "defense": 0.3216527501925983
           }
         }
       }
@@ -5161,18 +5068,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1010087943538562,
-          "beta_home": 0.373344214168,
-          "rho": 0.022523165431871
+          "eta": -0.1168109131653219,
+          "beta_home": 0.370057463755,
+          "rho": 0.0128706752104371
         },
         "teams": {
           "Palmeiras / SP": {
-            "attack": 0.52609179409386,
-            "defense": 0.3745368205107374
+            "attack": 0.559126183494,
+            "defense": 0.43496576141848
           },
           "Vitória / BA": {
-            "attack": -0.0327852710537469,
-            "defense": 0.08076171799535
+            "attack": 0.0613803466550546,
+            "defense": 0.0920518859088914
           }
         }
       }
@@ -5192,18 +5099,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1010087943538562,
-          "beta_home": 0.373344214168,
-          "rho": 0.022523165431871
+          "eta": -0.1168109131653219,
+          "beta_home": 0.370057463755,
+          "rho": 0.0128706752104371
         },
         "teams": {
           "Grêmio / RS": {
-            "attack": 0.232520544317467,
-            "defense": 0.039511988100869
+            "attack": 0.3036661953645155,
+            "defense": 0.0446816443972821
           },
           "Botafogo / RJ": {
-            "attack": 0.4499313937340259,
-            "defense": 0.3088502818627937
+            "attack": 0.46803839777771,
+            "defense": 0.388128043770007
           }
         }
       }
@@ -5223,18 +5130,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1010087943538562,
-          "beta_home": 0.373344214168,
-          "rho": 0.022523165431871
+          "eta": -0.1168109131653219,
+          "beta_home": 0.370057463755,
+          "rho": 0.0128706752104371
         },
         "teams": {
           "Remo / PA": {
-            "attack": 0.1043406019992839,
-            "defense": -0.0723954632175704
+            "attack": 0.1152777504720667,
+            "defense": -0.0386237604867436
           },
           "Mirassol / SP": {
-            "attack": 0.347954777532571,
-            "defense": 0.3227838875267174
+            "attack": 0.2839862755217082,
+            "defense": 0.335960573033561
           }
         }
       }
@@ -5254,18 +5161,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1010087943538562,
-          "beta_home": 0.373344214168,
-          "rho": 0.022523165431871
+          "eta": -0.1168109131653219,
+          "beta_home": 0.370057463755,
+          "rho": 0.0128706752104371
         },
         "teams": {
           "Santos / SP": {
-            "attack": 0.2077453079936701,
-            "defense": 0.0261126409774881
+            "attack": 0.2217409957236107,
+            "defense": 0.0204941235789845
           },
           "São Paulo / SP": {
-            "attack": 0.1632899438046535,
-            "defense": 0.0982656396204267
+            "attack": 0.2243521965291084,
+            "defense": 0.1840414450656451
           }
         }
       }
@@ -5285,18 +5192,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1010087943538562,
-          "beta_home": 0.373344214168,
-          "rho": 0.022523165431871
+          "eta": -0.1168109131653219,
+          "beta_home": 0.370057463755,
+          "rho": 0.0128706752104371
         },
         "teams": {
           "Red Bull Bragantino / SP": {
-            "attack": 0.1207324342382677,
-            "defense": -0.044487255891092
+            "attack": 0.193993116931811,
+            "defense": 0.0388263766823448
           },
           "Atlético Mineiro / MG": {
-            "attack": 0.129724134802555,
-            "defense": 0.1116582757364854
+            "attack": 0.2116840495584233,
+            "defense": 0.1736174757457607
           }
         }
       }
@@ -5316,18 +5223,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1010087943538562,
-          "beta_home": 0.373344214168,
-          "rho": 0.022523165431871
+          "eta": -0.1168109131653219,
+          "beta_home": 0.370057463755,
+          "rho": 0.0128706752104371
         },
         "teams": {
           "Flamengo / RJ": {
-            "attack": 0.6034969354072,
-            "defense": 0.406744333984897
+            "attack": 0.6161876347243,
+            "defense": 0.396896578617729
           },
           "Internacional / RS": {
-            "attack": 0.10092196751041,
-            "defense": -0.0307216213250298
+            "attack": 0.2359949848191649,
+            "defense": 0.096133549176894
           }
         }
       }
@@ -5347,18 +5254,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1019623821898329,
-          "beta_home": 0.368349319238,
-          "rho": 0.0163597140969881
+          "eta": -0.117304406586564,
+          "beta_home": 0.367664081533,
+          "rho": 0.010869193870062
         },
         "teams": {
           "Botafogo / RJ": {
-            "attack": 0.3985469581367651,
-            "defense": 0.2704554753703541
+            "attack": 0.4377784762806,
+            "defense": 0.369935286721831
           },
           "Cruzeiro / MG": {
-            "attack": 0.2391015145012205,
-            "defense": 0.4113361784284965
+            "attack": 0.2495775371955156,
+            "defense": 0.43304462946867
           }
         }
       }
@@ -5378,18 +5285,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1019623821898329,
-          "beta_home": 0.368349319238,
-          "rho": 0.0163597140969881
+          "eta": -0.117304406586564,
+          "beta_home": 0.367664081533,
+          "rho": 0.010869193870062
         },
         "teams": {
           "Mirassol / SP": {
-            "attack": 0.358630226016314,
-            "defense": 0.321332464873689
+            "attack": 0.2825662973807268,
+            "defense": 0.334548028112049
           },
           "Vasco da Gama / RJ": {
-            "attack": 0.2992098993149714,
-            "defense": -0.1524771382668228
+            "attack": 0.3110983548991143,
+            "defense": -0.079922348826421
           }
         }
       }
@@ -5409,18 +5316,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1019623821898329,
-          "beta_home": 0.368349319238,
-          "rho": 0.0163597140969881
+          "eta": -0.117304406586564,
+          "beta_home": 0.367664081533,
+          "rho": 0.010869193870062
         },
         "teams": {
           "São Paulo / SP": {
-            "attack": 0.1358617537709366,
-            "defense": 0.0707388141968239
+            "attack": 0.211606022464156,
+            "defense": 0.175191529062113
           },
           "Flamengo / RJ": {
-            "attack": 0.6181096540695,
-            "defense": 0.43959043766802
+            "attack": 0.619943527176,
+            "defense": 0.4124867817731699
           }
         }
       }
@@ -5440,18 +5347,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1019623821898329,
-          "beta_home": 0.368349319238,
-          "rho": 0.0163597140969881
+          "eta": -0.117304406586564,
+          "beta_home": 0.367664081533,
+          "rho": 0.010869193870062
         },
         "teams": {
           "Corinthians / SP": {
-            "attack": 0.1467075522338003,
-            "defense": 0.1104394518078883
+            "attack": 0.245782092791184,
+            "defense": 0.1493268450132502
           },
           "Bahia / BA": {
-            "attack": 0.1970332787701673,
-            "defense": 0.0660414778398845
+            "attack": 0.277209369764634,
+            "defense": 0.0918372236286688
           }
         }
       }
@@ -5471,18 +5378,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1019623821898329,
-          "beta_home": 0.368349319238,
-          "rho": 0.0163597140969881
+          "eta": -0.117304406586564,
+          "beta_home": 0.367664081533,
+          "rho": 0.010869193870062
         },
         "teams": {
           "Chapecoense / SC": {
-            "attack": 0.0298303146636485,
-            "defense": 0.051234641105912
+            "attack": -0.0116415243411827,
+            "defense": -0.0050795364706867
           },
           "Santos / SP": {
-            "attack": 0.1863191468463817,
-            "defense": 0.1011191481130431
+            "attack": 0.2100270242810263,
+            "defense": 0.0599689581731683
           }
         }
       }
@@ -5502,18 +5409,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1019623821898329,
-          "beta_home": 0.368349319238,
-          "rho": 0.0163597140969881
+          "eta": -0.117304406586564,
+          "beta_home": 0.367664081533,
+          "rho": 0.010869193870062
         },
         "teams": {
           "Fluminense / RJ": {
-            "attack": 0.183275711747257,
-            "defense": 0.385737301098164
+            "attack": 0.224763585595236,
+            "defense": 0.319682115133329
           },
           "Grêmio / RS": {
-            "attack": 0.2276153334689404,
-            "defense": 0.0443477687226788
+            "attack": 0.3045996761181457,
+            "defense": 0.0478840057047066
           }
         }
       }
@@ -5533,18 +5440,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1019623821898329,
-          "beta_home": 0.368349319238,
-          "rho": 0.0163597140969881
+          "eta": -0.117304406586564,
+          "beta_home": 0.367664081533,
+          "rho": 0.010869193870062
         },
         "teams": {
           "Coritiba / PR": {
-            "attack": -0.1906604364817035,
-            "defense": 0.3404309394563063
+            "attack": -0.0978918728348272,
+            "defense": 0.1048964438610219
           },
           "Red Bull Bragantino / SP": {
-            "attack": 0.117022768543998,
-            "defense": -0.0768654082670459
+            "attack": 0.1980542424333811,
+            "defense": 0.0208878583452488
           }
         }
       }
@@ -5564,18 +5471,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1019623821898329,
-          "beta_home": 0.368349319238,
-          "rho": 0.0163597140969881
+          "eta": -0.117304406586564,
+          "beta_home": 0.367664081533,
+          "rho": 0.010869193870062
         },
         "teams": {
           "Internacional / RS": {
-            "attack": 0.146304741214586,
-            "defense": -0.038820246022015
+            "attack": 0.2620118225275759,
+            "defense": 0.0904601908432629
           },
           "Athletico Paranaense / PR": {
-            "attack": 0.1004732824119865,
-            "defense": -0.0013305258138083
+            "attack": 0.15828645676074,
+            "defense": 0.0366440093247616
           }
         }
       }
@@ -5595,18 +5502,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1019623821898329,
-          "beta_home": 0.368349319238,
-          "rho": 0.0163597140969881
+          "eta": -0.117304406586564,
+          "beta_home": 0.367664081533,
+          "rho": 0.010869193870062
         },
         "teams": {
           "Vitória / BA": {
-            "attack": -0.0513333091532839,
-            "defense": 0.0440040689321671
+            "attack": 0.0508806971348577,
+            "defense": 0.0752126340849933
           },
           "Remo / PA": {
-            "attack": 0.1384258811672079,
-            "defense": -0.0495548992286129
+            "attack": 0.1410129166300419,
+            "defense": -0.0202782254163863
           }
         }
       }
@@ -5626,18 +5533,18 @@
       "params": {
         "model": "poisson_home",
         "shared": {
-          "eta": -0.1019623821898329,
-          "beta_home": 0.368349319238,
-          "rho": 0.0163597140969881
+          "eta": -0.117304406586564,
+          "beta_home": 0.367664081533,
+          "rho": 0.010869193870062
         },
         "teams": {
           "Atlético Mineiro / MG": {
-            "attack": 0.0980647626116016,
-            "defense": 0.1225139385963753
+            "attack": 0.1962585723355996,
+            "defense": 0.1803972615138922
           },
           "Palmeiras / SP": {
-            "attack": 0.5189018058893,
-            "defense": 0.406628681086808
+            "attack": 0.5548126320433999,
+            "defense": 0.4527664549543299
           }
         }
       }
