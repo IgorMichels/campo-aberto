@@ -69,3 +69,48 @@ def split_fixtures(
     remaining_fixtures = sorted(all_fixtures - played_pairs)
 
     return played_results, remaining_fixtures, teams
+
+
+def real_result(
+    df: pd.DataFrame,
+    competition: str,
+    season: int,
+    reference_date: pd.Timestamp,
+    home: str,
+    away: str,
+) -> tuple[int, int] | None:
+    """Looks up one exact already-played ordered (home, away) match's real
+    score, as of reference_date, or None if it hasn't been played (or
+    recorded) yet.
+
+    Unlike split_fixtures, a playoff leg's (home, away) pair isn't derivable
+    combinatorially -- who meets whom depends on standings/bracket results
+    only known per Monte Carlo draw (see simulate.py's _simulate_playoff_pair)
+    -- so this is a direct single-pair lookup instead of a whole-season split.
+
+    Known limitation: matches.csv has no round/stage column, so a playoff leg
+    that reuses an ordered pair its own round-robin source phase already
+    played (true for every pair configs/serie_b_2026.yaml's access playoff can
+    produce -- a double round-robin plays both directions of every pair once,
+    before the playoff reuses one of those same directions) is only
+    distinguishable from that earlier round-robin match by requiring at
+    least *two* played rows for the pair and taking the latest: a single
+    played row is treated as still the round-robin's own fixture, not yet
+    this leg, which is the correct (if conservative) call while a real access
+    playoff leg is still pending -- it just also means a genuinely
+    first-ever-this-season meeting between two teams (a manual/bracket_adjacent
+    playoff outside a shared round-robin, not used by any current config)
+    would need a second data point before it's recognized as played. No
+    current config needs that case; revisit if one ever does.
+    """
+    season_df = df[(df["competition"] == competition) & (df["season"] == season)]
+    match_df = season_df[
+        (season_df["home_team"] == home)
+        & (season_df["away_team"] == away)
+        & (season_df["match_datetime"] <= reference_date)
+        & season_df["home_goals"].notna()
+    ]
+    if len(match_df) < 2:
+        return None
+    row = match_df.sort_values("match_datetime").iloc[-1]
+    return int(row["home_goals"]), int(row["away_goals"])
