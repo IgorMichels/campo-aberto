@@ -42,11 +42,10 @@ from zoneinfo import ZoneInfo
 
 import pandas as pd
 
-from src.constants import CLUB_INFOS_PATH, DEFAULT_MATCHES_PATH, RESULTS_DIR, SITE_DIR
+from src.constants import CLUB_INFOS_PATH, DEFAULT_MATCHES_PATH, RESULTS_DIR, SITE_DIR, SITE_SEASONS
 from src.models.registry import MODEL_REGISTRY
 from src.simulation.run_rounds import load_configs_by_season
 from src.site.export_site_data import (
-    DEFAULT_SEASONS,
     _competition_slug,
     _copy_crest,
     _snapshot_csv_before,
@@ -321,7 +320,7 @@ def _played_cards(
 
 
 def export_matches_data(
-    seasons: list[int] = DEFAULT_SEASONS,
+    seasons: list[int] = SITE_SEASONS,
     results_dir: str = RESULTS_DIR,
     matches_path: str = DEFAULT_MATCHES_PATH,
     club_infos_path: str = CLUB_INFOS_PATH,
@@ -454,7 +453,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
-    parser.add_argument("--seasons", type=int, nargs="+", default=DEFAULT_SEASONS)
+    parser.add_argument("--seasons", type=int, nargs="+", default=SITE_SEASONS)
     parser.add_argument("--results-dir", default=RESULTS_DIR)
     parser.add_argument("--matches", default=DEFAULT_MATCHES_PATH)
     parser.add_argument("--club-infos", default=CLUB_INFOS_PATH)
