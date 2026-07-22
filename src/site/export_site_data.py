@@ -34,9 +34,9 @@ import pandas as pd
 from src.constants import (
     CLUB_INFOS_PATH,
     DEFAULT_MATCHES_PATH,
-    DEFAULT_SEASON,
     RESULTS_DIR,
     SITE_DIR,
+    SITE_SEASONS,
 )
 from src.simulation import fixtures, standings
 from src.simulation.config import (
@@ -73,8 +73,6 @@ AGGREGATE_GROUP_LABELS = {
 AGGREGATE_TOTAL_LABEL = (
     "Geral"  # the aggregate's own combined probability, nested as a group's last child
 )
-
-DEFAULT_SEASONS = [DEFAULT_SEASON - 1, DEFAULT_SEASON]  # current season + previous season
 
 
 def _competition_slug(name: str) -> str:
@@ -380,7 +378,7 @@ def _export_season(
 
 
 def export_site_data(
-    seasons: list[int] = DEFAULT_SEASONS,
+    seasons: list[int] = SITE_SEASONS,
     results_dir: str = RESULTS_DIR,
     club_infos_path: str = CLUB_INFOS_PATH,
     matches_path: str = DEFAULT_MATCHES_PATH,
@@ -453,7 +451,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
-    parser.add_argument("--seasons", type=int, nargs="+", default=DEFAULT_SEASONS)
+    parser.add_argument("--seasons", type=int, nargs="+", default=SITE_SEASONS)
     parser.add_argument("--results-dir", default=RESULTS_DIR)
     parser.add_argument("--club-infos", default=CLUB_INFOS_PATH)
     parser.add_argument("--matches", default=DEFAULT_MATCHES_PATH)
