@@ -14,6 +14,7 @@
     />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/model_stats.css" />
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
     <script>
       // Applies any stored theme choice before first paint, so the page
       // never flashes the wrong palette. theme.js (loaded later) owns the
@@ -84,6 +85,20 @@
 
       <div id="kpi-row" class="kpi-row"></div>
 
+      <div id="baselines-panel" class="baselines-panel"></div>
+
+      <section class="breakdown-section">
+        <h2>Calibração</h2>
+        <div class="calibration-layout">
+          <p class="section-intro">
+            Se o modelo deu 60% de chance para um resultado, ele deveria acertar perto de 60% das
+            vezes. A linha pontilhada marca esse acerto perfeito; o tamanho de cada ponto reflete
+            quantas previsões caíram naquela faixa de probabilidade.
+          </p>
+          <div id="calibration-chart" class="calibration-chart"></div>
+        </div>
+      </section>
+
       <section class="breakdown-section">
         <h2>Por competição e temporada</h2>
         <div id="breakdown-table" class="breakdown-table"></div>
@@ -111,6 +126,8 @@
         try {
           const data = await window.ModelStats.fetchJSON("data/model_stats.json");
           window.ModelStats.renderKPITiles("kpi-row", data.breakdown.all);
+          window.ModelStats.renderBaselinesPanel("baselines-panel", data.breakdown.all);
+          window.ModelStats.renderCalibrationChart("calibration-chart", data.calibration);
           window.ModelStats.renderBreakdownTable("breakdown-table", data.breakdown);
         } catch (error) {
           console.error(error);
