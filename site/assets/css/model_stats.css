@@ -4,7 +4,7 @@
    family" precedent as matches.css/model.css themselves. */
 
 .stats-lede {
-  max-width: 720px;
+  max-width: 960px;
   margin: 0 auto 1.5rem;
   font-size: 1.05rem;
   color: var(--text-primary);
@@ -41,12 +41,66 @@
 
 .breakdown-section {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0 auto 2.5rem;
 }
 
 .breakdown-section h2 {
   font-size: 1.2rem;
   margin: 0 0 0.75rem;
+  color: var(--text-primary);
+}
+
+/* Text and chart side by side, together spanning the same width every
+   other section on this page uses (960px) -- a lone 560px-wide chart
+   stacked under a paragraph left the whole section looking half-width next
+   to the KPI tiles/baselines panel/table above and below it. Wraps to a
+   single column below ~640px (mobile), same breakpoint spirit as the rest
+   of the site's responsive layout. */
+.calibration-layout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.section-intro {
+  flex: 1 1 280px;
+  max-width: 320px;
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.calibration-chart {
+  flex: 2 1 400px;
+  max-width: 560px;
+  height: 420px;
+}
+
+.baselines-panel {
+  max-width: 960px;
+  margin: 0 auto 2.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface-1);
+}
+
+.baseline-row {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.baseline-row + .baseline-row {
+  margin-top: 0.3rem;
+}
+
+.baseline-label {
+  display: inline-block;
+  min-width: 6.5rem;
+  font-weight: 600;
   color: var(--text-primary);
 }
 
