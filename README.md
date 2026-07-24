@@ -1,8 +1,13 @@
-# campo-aberto
+<div align="center">
 
-Probabilities for the Campeonato Brasileiro (Serie A and Serie B): title,
-continental berths, promotion, and relegation, updated round by round from a
-Bayesian team-strength model.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/logotipo-horizontal-escuro.svg">
+  <img src=".github/assets/logotipo-horizontal-claro.svg" alt="campo-aberto" width="360">
+</picture>
+
+Probabilidades do Campeonato Brasileiro (Série A e Série B): título,
+torneios continentais, acesso e rebaixamento, atualizadas a cada rodada por
+um modelo bayesiano de força dos times.
 
 [![Quality checks](https://github.com/IgorMichels/campo-aberto/actions/workflows/quality.yml/badge.svg)](https://github.com/IgorMichels/campo-aberto/actions/workflows/quality.yml)
 [![Deploy site](https://github.com/IgorMichels/campo-aberto/actions/workflows/deploy-site.yml/badge.svg)](https://github.com/IgorMichels/campo-aberto/actions/workflows/deploy-site.yml)
@@ -10,33 +15,36 @@ Bayesian team-strength model.
 
 **[igormichels.github.io/campo-aberto](https://igormichels.github.io/campo-aberto/)**
 
-## What it does
+</div>
 
-Official CBF match results are scraped, fed into a Dixon-Coles-adjusted
-Poisson model (fit in Stan) that estimates each club's attack/defense
-strength, and the rest of the season is Monte Carlo simulated thousands of
-times to report, per club: title odds, Libertadores/Sul-Americana
-qualification, promotion, and relegation probabilities. The site also carries
-a scoreline probability grid for every match, played or upcoming, and how
-every probability evolved round by round.
+## O que faz
 
-## Quickstart
+Os resultados oficiais da CBF são raspados e alimentam um modelo de Poisson
+ajustado por Dixon-Coles (ajustado em Stan) que estima a força de ataque e
+defesa de cada time; o restante da temporada é então simulado via Monte
+Carlo milhares de vezes para reportar, por time, as probabilidades de
+título, classificação para Libertadores/Sul-Americana, acesso e
+rebaixamento. Detalhes técnicos de como cada estágio funciona:
+[CODEBASE.md](CODEBASE.md).
 
-```bash
-uv sync                # install dependencies
-python -m src.pipeline # scrape, fit, simulate, export the site's data
-```
+## Funcionalidades do site
 
-For the model's internals, the simulator, data schemas, and how to run each
-pipeline stage on its own, see [CODEBASE.md](CODEBASE.md).
+- **Classificação**
+  - tabela de cada temporada (Série A e Série B, 2022-2026) com
+    probabilidades de título, Libertadores, Sul-Americana e rebaixamento
+    por time, numa data de referência à sua escolha
+- **Evolução**
+  - como essas probabilidades mudaram rodada a rodada ao longo da temporada
+- **Jogos**
+  - grade de probabilidades de placar para cada confronto: Próximos (ainda
+    não disputados), Passados (comparados ao resultado real) e Simule
+    (escolha dois times quaisquer e veja o placar mais provável)
+- **Modelo**
+  - documentação de como o modelo bayesiano funciona, e uma página de
+    estatísticas com o desempenho dele (acerto de placar, direção, Brier,
+    calibração) contra todos os jogos já disputados
+- Tema claro/escuro
 
-## Repo map
-
-- [`src/`](src) -- ingestion, model, simulation, pipeline (see [CODEBASE.md](CODEBASE.md))
-- [`configs/`](configs) -- one YAML per competition ([configs/README.md](configs/README.md))
-- [`site/`](site) -- the static results site deployed to GitHub Pages ([site/README.md](site/README.md))
-- [`data/processed/brazil/`](data/processed/brazil) -- the treated match dataset ([its README](data/processed/brazil/README.md))
-
-## License
+## Licença
 
 [MIT](LICENSE)
