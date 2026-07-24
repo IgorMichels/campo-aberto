@@ -8,10 +8,24 @@
       name="description"
       content="Tabela de classificação simulada da Série A e da Série B, com probabilidades de título, Libertadores, Sul-Americana e rebaixamento por time e data de referência."
     />
-    <link
-      rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%E2%9A%BD</text></svg>"
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Campo Aberto - Classificação" />
+    <meta
+      property="og:description"
+      content="Tabela de classificação simulada da Série A e da Série B, com probabilidades de título, Libertadores, Sul-Americana e rebaixamento por time e data de referência."
     />
+    <meta
+      property="og:image"
+      content="https://igormichels.github.io/campo-aberto/assets/marca/og-image-1200x630.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://igormichels.github.io/campo-aberto/probabilities.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/marca/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="assets/marca/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/marca/favicon-180.png" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script>
       // Applies any stored theme choice before first paint, so the page
@@ -35,7 +49,28 @@
     ></button>
 
     <header class="page-header">
-      <h1>Campo Aberto</h1>
+      <h1>
+        <svg class="brand-mark" viewBox="0 0 100 76" aria-hidden="true">
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-width="6.4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M50 6 H9.2 V70 H50" />
+            <path d="M50 6 V70" />
+            <circle cx="50.0" cy="38.0" r="13.0" />
+          </g>
+          <g fill="none" stroke="var(--accent)" stroke-width="6.4" stroke-linecap="round">
+            <path d="M68.5 38.0 L90.5 38.0" opacity="1.0" />
+            <path d="M67.3 31.4 L87.8 23.5" opacity="0.66" />
+            <path d="M67.3 44.6 L87.8 52.5" opacity="0.66" />
+            <path d="M63.7 25.6 L80.1 10.9" opacity="0.36" />
+            <path d="M63.7 50.4 L80.1 65.1" opacity="0.36" />
+          </g></svg
+        >Campo Aberto
+      </h1>
       <p class="subtitle">Probabilidades para o Brasileirão</p>
     </header>
 
@@ -105,7 +140,7 @@
       <p class="status-message" id="status-message" hidden></p>
     </main>
 
-    <footer class="page-footer">
+    <footer class="page-footer corner-arc">
       <p>
         Gerado a partir de simulações do
         <a href="https://github.com/IgorMichels/campo-aberto" target="_blank" rel="noopener"

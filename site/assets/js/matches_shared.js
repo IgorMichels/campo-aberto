@@ -63,12 +63,12 @@
   }
 
   // Same as formatPercent, but floors anything that would round to "0.0%"
-  // to a legible "< 0.1%" instead -- used for the real-score model
+  // to a legible "<0.1%" instead -- used for the real-score model
   // probability on played cards, where a value this small is common (most
   // real results aren't the model's most-likely scoreline) and "0.0%" would
   // misleadingly read as "impossible".
   function formatPercentFloored(value) {
-    return (value || 0) < 0.001 ? "< 0.1%" : formatPercent(value);
+    return (value || 0) < 0.001 ? "<0.1%" : formatPercent(value);
   }
 
   // A handful of real club colors are literally #000000 -- a legitimate real
