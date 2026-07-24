@@ -246,3 +246,8 @@ src/models/stan_models/*.hpp
 # Walk-forward backtest per-checkpoint cache (reproducible from matches.csv --
 # see src.models.backtest)
 data/backtest_cache/
+
+# Raw brand-identity deliverable (pranchas, unused mark variants, etc.) --
+# only site/assets/marca/{favicon*,og-image*} is actually served; the rest
+# stays local so it doesn't need re-extracting from the source zip.
+identidade_visual/
