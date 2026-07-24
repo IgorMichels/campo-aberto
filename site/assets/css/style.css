@@ -1003,9 +1003,7 @@ code {
   color: var(--text-muted);
 }
 
-/* Arco de escanteio: o único ornamento. Usar UMA vez por página. Por padrão
-   fica no canto inferior direito; `.corner-arc-top-left` move para o
-   superior esquerdo (usado no cabeçalho). */
+/* Arco de escanteio: o único ornamento. Usar UMA vez por página, no rodapé. */
 .corner-arc {
   position: relative;
   overflow: hidden;
@@ -1021,13 +1019,6 @@ code {
   border-radius: 50%;
   transform: translate(50%, 50%);
   pointer-events: none;
-}
-.corner-arc.corner-arc-top-left::after {
-  right: auto;
-  bottom: auto;
-  top: 0;
-  left: 0;
-  transform: translate(-50%, -50%);
 }
 
 @media (prefers-color-scheme: dark) {
